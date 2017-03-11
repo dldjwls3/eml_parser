@@ -1,0 +1,271 @@
+Received: (qmail 4333 invoked by uid 100); 16 May 2016 00:42:09 -0000
+Received: from 10.114.29.98 (HELO crcvmail03.wmail.naver.com) (10.114.29.98)
+  by cmda01.wmail.naver.com with SMTP;16 May 2016 00:42:09 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from  (mail.duzon.kr [202.167.215.64])
+  by crcvmail03.wmail.naver.com with ESMTP id dRBJYQbURESbjZuFZsLM8A
+  for <jonghyun.kim@dforensic.com>;
+  Mon, 16 May 2016 00:42:09 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u4G0gLP00DE9;
+	Mon, 16 May 2016 09:42:21 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u4G0gLP00DE9
+X-SmartFilter: FROM,u4G0gLP00DE9,joseph@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-1994419@senda.ozmailer.com>
+Received: from external ([209.85.218.46])
+	by smf.duzon.co.kr (1.0) id u4G0gG900DD9;
+	Mon, 16 May 2016 09:42:17 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u4G0gG900DD9
+X-SmartFilter: FROM,u4G0gG900DD9,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-oi0-f46.google.com with SMTP id k142so246965408oib.1
+        for <joseph@duzon.com>; Sun, 15 May 2016 17:42:02 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :subject:to:from:reply-to:errors-to:mime-version:date:message-id
+         :importance:organization:content-transfer-encoding;
+        bh=xCRQAwSV5dcvWqqPKyosuO/RQmBOGDbOindNBHdBioU=;
+        b=ae1p6uLQ4KrHfjRtKebJouy9AaGxuhb3VTBgAVPnKm7S1Z2u7GPIBHBgXNk9LwQb6n
+         ZtuKMTgFWUA3iuPW4RzZ92Xtc/+VShZIis3GDPaN7QAplh3FG6qyOrv29UDBtyxCee0T
+         W7IIMN3W6JpKBwUhVMyKtoNT7TAHyWb9a+pxpHYxsKaeh7pD3dQrOPYUcGh6FVVAeCA/
+         dBf7vVGtWa3ZhAMxitmAsl/+k9wD8Yd4UkJjhZti73Dbe981WfA2PfLo5dph2JsX03Yl
+         A9fZMovf6jr7tUKkCe8JAXzucGQ5iBQmqbwRrTNwLR3PxeZ4h/mjWEn+ve+ZxSQFvWUu
+         9lQA==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AOPr4FXq+Ona8cxv1RPoKT78XGIslj5E9WDrIjFmIycnnILs+iNlpo2KJhwPh91TKlgBKSGMBb5dvsse1dhPNfmiVYKxoOs=
+X-Received: by 10.202.231.196 with SMTP id e187mr13380360oih.160.1463359321875;
+        Sun, 15 May 2016 17:42:01 -0700 (PDT)
+X-Forwarded-To: pch88@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, forensic@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com pch88@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, forensic@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.157.35.135 with SMTP id t7csp772762otb;
+        Sun, 15 May 2016 17:42:00 -0700 (PDT)
+X-Received: by 10.98.89.71 with SMTP id n68mr41485460pfb.82.1463359320620;
+        Sun, 15 May 2016 17:42:00 -0700 (PDT)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTP id xb3si41834613pab.132.2016.05.15.17.41.59
+        for <forensic.duzon@gmail.com>;
+        Sun, 15 May 2016 17:42:00 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u4G0gC100DD1;
+	Mon, 16 May 2016 09:42:12 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u4G0gC100DD1
+X-SmartFilter: FROM,u4G0gC100DD1,forensic@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-1994419@senda.ozmailer.com>
+Received: from external ([211.115.217.140])
+	by smf.duzon.co.kr (1.0) id u4G0g2v00DCD;
+	Mon, 16 May 2016 09:42:02 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u4G0g2v00DCD
+X-SmartFilter: FROM,u4G0g2v00DCD,user24773@sendc.ozmailer.com
+Subject: =?EUC-KR?B?WzA1LzI2XSDH9sH3Q0lPw8rDuyAiu+q+97qwIMGkurjIrSDH9b3Fu+e3yiC51yC9xQ==?=
+	=?EUC-KR?B?seK8+iC1v8fiILy8ucyzqiIgvsizuw==?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?RktJSQ==?=" <shs@fkii.org>
+Reply-To: <shs@fkii.org>
+Errors-To: <shs@fkii.org>
+MIME-Version: 1.0
+Date: Mon, 16 May 2016 09:41:48 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1994419@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: wmen+6J4p635WrlY7BwdpBmmKAtZKA0YkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7269187" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>[05/26] 현직CIO초청 "산업별 정보화 혁신사례 및 신기술 동향 세미나" 안내</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<p><span style="font-size: 10pt;">
+
+<span id="husky_bookmark_start_1463359010943"></span><span id="husky_bookmark_end_1463359010943">
+
+</span></span></p><p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>안녕하세요<span lang="EN-US">. </span></span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>한국정보산업연합회<span lang="EN-US"> CIO</span>포럼 신효선 선임입니다<span lang="EN-US">.</span></span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕"'>&nbsp;</span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>오는<span lang="EN-US"> 5</span>월<span lang="EN-US"> 26</span>일<span lang="EN-US">(</span>목<span lang="EN-US">) 13:30~17:30 </span>여의도 전경련회관 컨퍼런스<span lang="EN-US"> 3</span>층 다이아몬드룸에서</span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>“<b>산업별 정보화 혁신사례 및 신기술 동향 세미나</b>”의 주제로 행사를 진행합니다<span lang="EN-US">. </span></span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕"'>&nbsp;</span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>현직<span lang="EN-US"> CIO</span>의 주제강연과<span lang="EN-US"> ICT
+</span>신기술 동향 및 활용방안에 대한 전문가 발표로 진행 될 이번행사에 많은 참석 부탁드립니다<span lang="EN-US">.
+&nbsp;</span></span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>상세 내용은 아래 참고 부탁 드리며 본 행사는 좌석이 한정되어 조기마감 될 수 있사오니 빠른 신청 부탁드립니다<span lang="EN-US">. &nbsp;</span></span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕";color:#1F497D'>&nbsp;</span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><b><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>한국정보산업연합회 회원사 및<span lang="EN-US"> CIO</span>포럼 회원이신 경우</span></b><span style='font-size:10.0pt;font-family:"맑은 고딕"'> </span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>참가자 정보 부서명에 <u>‘회원사’로 표기</u>해 주시고 현장결제 체크하시면 현장에서 무료로 입장 가능합니다<span lang="EN-US">. </span></span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><u><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>회원사로 체크해주셨어도<span lang="EN-US"> 16</span>년<span lang="EN-US">
+5</span>월 기준으로 회원사가 아니신 경우는 유료로 입장하셔야 함을 안내 드립니다<span lang="EN-US">. </span></span></u></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕";color:#1F497D'>&nbsp;</span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕"'>(</span><span style='font-size:10.0pt;font-family:&#10;"맑은 고딕"'>한국정보산업연합회 회원사 명단 확인<span lang="EN-US"> : <a href="http://www.ozmailer.com/oele/ut.php?U=tdc31_4bsxv_9pzqu4"><font color="#0000ff">http://www.fkii.org/2014/memc/memc2.php</font></a>
+) </span></span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕"'>(CIO</span><span style='font-size:10.0pt;&#10;font-family:"맑은 고딕"'>포럼 회원<span lang="EN-US"> : </span>연회비를 납부하시는 회원<span style="color:#1F497D"> </span>본인<span lang="EN-US"> + </span>동반<span lang="EN-US">
+1</span>인<span lang="EN-US">)</span></span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕"'>&nbsp;</span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕"'>[</span><span style='font-size:10.0pt;font-family:&#10;"맑은 고딕"'>행사 신청 바로가기<span lang="EN-US">]</span></span></p>
+
+<p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕"'><a href="http://www.ozmailer.com/oele/ut.php?U=tdc3b_4bsxv_9pzqu4"><font color="#0000ff">http://www.fkii.org/cio/evt/join.php?SC_WORD=&amp;page=1&amp;EM_Code=1002</font></a></span></p><p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕"'></span><br></p><p style="margin: 0cm 0cm 0pt; text-align: justify; -ms-text-autospace:; -ms-text-justify: inter-ideograph;"><span lang="EN-US" style='font-size:&#10;10.0pt;font-family:"맑은 고딕"'></span><br></p>
+
+<p><span style="font-size: 10pt;"></span></p>
+
+
+
+<title>2016 CIO포럼 정례세미나</title>
+
+
+
+<!-- Save for Web Slices (EDM3-02.jpg) -->
+<img width="600" height="489" alt="" src="http://www.fkii.org/upload/imgs/2016/20160504/main1.jpg" border="0"><br>
+<img width="600" height="380" alt="" src="http://www.fkii.org/upload/imgs/2016/20160504/main2.jpg" border="0"><br>
+<img width="600" height="738" alt="" src="http://www.fkii.org/upload/imgs/2016/20160504/main4.jpg" border="0" usemap="#Map2">
+<map name="Map2">
+  
+
+<area href="mailto:shs@fkii.org" shape="rect" coords="399,217,569,292" target="_blank">
+  
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=tdc31_4bsxv_9pzqu4" shape="rect" coords="59,98,437,127" target="_blank">
+</map>
+<br>
+<img width="600" height="548" alt="" src="http://www.fkii.org/upload/imgs/2016/20160504/main8.jpg" border="0" usemap="#Map">
+<map name="Map">
+  
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=tdc3b_4bsxv_9pzqu4" shape="rect" coords="323,-366,507,-306" target="_blank">
+  
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=tdc3b_4bsxv_9pzqu4" shape="rect" coords="213,449,397,509" target="_blank">
+</map>
+<br>
+<map name="Map2MapMap">
+  
+
+<area href="mailto:%20shs@fkii.org" shape="rect" coords="340,378,448,396" target="_blank">
+  
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=tdc3b_4bsxv_9pzqu4" shape="rect" coords="196,438,419,514" target="_blank">
+</map>
+<br>
+<br>
+<!-- End Save for Web Slices -->
+
+
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>뉴스레터의 수신을 더이상 원하지 않으시면, 하단의 '수신거부' 버튼을 클릭해주세요.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7269187' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

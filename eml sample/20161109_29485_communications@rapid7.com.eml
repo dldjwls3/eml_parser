@@ -1,0 +1,380 @@
+Received: (qmail 19173 invoked by uid 100); 9 Nov 2016 03:04:01 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda002.wmail.worksmobile.com with SMTP;9 Nov 2016 03:04:01 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from smf.duzon.co.kr (gw.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id IFWtgKMeQUa5id7ptsRFdg
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 09 Nov 2016 03:04:01 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uA936IU00476;
+	Wed, 09 Nov 2016 12:06:18 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uA936IU00476
+X-SmartFilter: FROM,uA936IU00476,joseph@duzon.com
+x-forward-id: <1105335594.-354555554.1478660627455.JavaMail.root@sjmas03.marketo.org>
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id uA9367R00473;
+	Wed, 09 Nov 2016 12:06:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uA9367R00473
+X-SmartFilter: FROM,uA9367R00473,495-KNT-277.0.21697.0.0.16597.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTM2NjI6MjE2OTc6NDYyMTQ6MDoxNjU5Nzo3OjExNDE1OTI=
+Received: from [10.0.87.249] ([10.0.87.249:51595] helo=sjmas03.marketo.org)
+	by sjmta05.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 5A/FA-58991-31292285; Tue, 08 Nov 2016 21:03:47 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1478660627;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=N7hOwqb6yJDKGSA1ETIL74WURhGk4zFr8wT3tHH2rxM=;
+	b=qilzj6rz4uWtoMT7lHr9MDGUdDVGOwFbHbdW+ptSMqTG23vUrIEjJ0Y3Om0MFm10
+	xAUVLhAvSOqpzdT/EXkPKnxtLcZARqD5oWJSMJlInUq9bWxbMjNYownDq7jUIU0Umlx
+	SkZcWIjK86qSJ50RKuxgW0b3tzwjAdp8zoWnVyMU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1478660627;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=N7hOwqb6yJDKGSA1ETIL74WURhGk4zFr8wT3tHH2rxM=;
+	b=XsPX7k6Mcy0PZrRGE93GN2+qmWNXi3W3FKtQYrTV72FPBOOcpTCK/UCMWGftHhAL
+	uYcNbNhrKY36vDPN28d6ncVEu2ChdelZRnYsXo2GZ+NSrl6m0KiVhtm/c6ImW3aqBTu
+	OI6m3W6pDkQ0CPhQ+mA82X9gsUg9Xs7/ijk9I76I=
+Date: Tue, 8 Nov 2016 21:03:47 -0600 (CST)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1105335594.-354555554.1478660627455.JavaMail.root@sjmas03.marketo.org>
+Subject: [SECURITY WEBCAST] UBA as easy as ABC
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_-354555555_387474014.1478660627455"
+X-PVIQ: mkto-495KNT277-000001-000000-030689
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:13662:21697:46214:0:16597:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.21697.16597.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.21697.0.0.16597.7.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: wfFn+6J4p635WrlY7BwdpBmmKqgdKAJYkXm=
+
+------=_Part_-354555555_387474014.1478660627455
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<http://info.rapid7.com/lYNM6000ljYM0T2440Q0y0K>
+Contact Us <http://info.rapid7.com/Q0YT0YN0Kz2lM0Qj40074M0>
+SECURITY WEBCAST
+ 
+ [SECURITY WEBCAST] UBA as easy as ABC
+ 
+ Thursday 24th November @ 11AM SGT | 1PM AEST
+ 
+ <[[https://information.rapid7.com/uba-as-easy-as-abc-2-apac.html?CS=email&utm_medium=email&utm_source=email]]> 
+
+
+
+REGISTER NOW <[[https://information.rapid7.com/uba-as-easy-as-abc-2-apac.html?CS=email&utm_medium=email&utm_source=email]]>
+Every day, your users move seamlessly between IP's, assets, cloud services, and mobile devices. As security teams are tasked with reducing attacker dwell time and embrace a "time to contain" mindset against attacks, preventive measures are only part of the solution.
+ 
+
+
+
+
+Join Eric Sun <http://info.rapid7.com/m000Q82040M4jlMYNYA0KT0>, Solutions Marketing Manager for Rapid7 
+
+
+
+
+
+
+
+
+
+
+Utilizing user behavior analytics to quickly respond to threats and attacks can help your security team and doesn't have to be hard.
+
+Join us for an informative conversation about how user behavior analytics can make your life easier - no data degree required!
+
+ Register for this week's topic. <http://info.rapid7.com/m000Q82040M4jlMYNYA0KT0>
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center-page.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiTlRGallUUXhZV1kyTjJOaCIsInQiOiIrOGtScHlWQUp2K3ZCb0orcUEveTR0cVo3MWlPWkJNZjNMTm9KMHBTWjk1M3VJaUJLVEl1Ukd4SHNRYklvY0VleG4yNEdiem5qT1ZURUNobEovUHkrK0lkcnRPZ2dNSXRoUmx3MEVpZ1dVZz0ifQ%3D%3D.
+
+------=_Part_-354555555_387474014.1478660627455
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+
+<style type=3D"text/css">
+
+                /* Some resets and issue fixes */
+        #outlook a { padding:0; }
+                body{ width:100% !important; -webkit-text; size-adjust:100%=
+; -ms-text-size-adjust:100%; margin:0; padding:0; }    =20
+        .ReadMsgBody { width: 100%; }
+        .ExternalClass {width:100%;}=20
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;}=
+=20
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}  =20
+        /* End reset */
+               =20
+                /* Custom */
+                body,table,td,span,a,ul,li {font-family: Arial, sans-serif =
+!important;}
+                .forcefont {font-family: Arial, sans-serif !important;}
+                .appleLinksWhite {color: #ffffff !important; text-decoratio=
+n: none;}=20
+                .appleLinksBlack {color: #000000 !important; text-decoratio=
+n: none;}
+                .appleLinksOrange {color: #ec5f27 !important; text-decorati=
+on: none;}
+                table,div {margin-top: -1px;} /* Gets rid of 1px space betw=
+een tables and divs */
+               =20
+                /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 630px){
+               =20
+
+                        /* Display block allows us to stack elements */    =
+                 =20
+            *[class=3D"mobile-column"] {display: block;}=20
+                       =20
+                        /* Some more stacking elements */
+            *[class=3D"mob-column"] {float: none !important;width: 100% !im=
+portant;}    =20
+                            =20
+                        /* Hide stuff */
+            *[class=3D"hide"] {display:none !important;}         =20
+           =20
+                        /* This sets elements to 100% width and fixes the h=
+eight issues too, a god send */
+                        *[class=3D"100p"] {width:100% !important; height:au=
+to !important;}                               =20
+                               =20
+                        /* For the 2x2 stack */                =20
+                        *[class=3D"condensed"] {padding-bottom:40px !import=
+ant; display: block;}
+                       =20
+                        /* Centers content on mobile */
+                        *[class=3D"center"] {text-align:center !important; =
+width:100% !important; height:auto !important;}           =20
+                       =20
+                        /* 100percent width section with 20px padding */
+                        *[class=3D"100pad"] {width:100% !important; padding=
+:20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding left =
+& right */
+                        *[class=3D"100padleftright"] {width:100% !important=
+; padding:0 20px 0 20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding top &=
+ bottom */
+                        *[class=3D"100padtopbottom"] {width:100% !important=
+; padding:20px 0px 20px 0px;}=20
+               =20
+        }      =20
+       =20
+</style>
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0; padding:0; " wid=
+th=3D"100%" ><tr ><td align=3D"center" valign=3D"top" ><table width=3D"640"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"Header1Link" class=3D"mktEditable" ><table class=3D"100p" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3B3=
+B">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"600">
+<tbody>
+<tr>
+<td class=3D"100p" width=3D"50%" align=3D"left"><a href=3D
+"http://info.rapid7.com/GjN0TY20YY4qK04l0000MQM"
+><img style=3D"display: block;" src=3D"https://information.rapid7.com/rs/49=
+5-KNT-277/images/rapid7_logo_white-orange-400px.png" border=3D"0" alt=3D"Ra=
+pid7" /></a></td>
+<td class=3D"hide" style=3D"font-size: 16px; color: #ffffff;" width=3D"50%"=
+ align=3D"right"><a style=3D"color: #ffffff; text-decoration: none;" href=
+=3D
+"http://info.rapid7.com/p0400K0jZT0M0rQN4l0MYY2"
+>Contact Us</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"WebcastIntro" class=3D"mktEditable" ><table class=3D"100p" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3B=
+3B">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"600">
+<tbody>
+<tr>
+<td height=3D"35"></td>
+</tr>
+<tr>
+<td style=3D"color: #ffffff;" align=3D"center"><span style=3D"font-size: 34=
+px;"><strong>SECURITY WEBCAST</strong></span><br /> <br /> <span style=3D"f=
+ont-size: 24px;">[SECURITY WEBCAST] UBA as easy as ABC</span><br /> <br /> =
+<span class=3D"appleLinksOrange" style=3D"font-size: 24px; color: #ec5f27 !=
+important;">Thursday 24th November @ 11AM SGT | 1PM AEST</span><br /> <br /=
+> <a style=3D"color: #ec5f27; text-decoration: none;" href=3D"https://infor=
+mation.rapid7.com/uba-as-easy-as-abc-2-apac.html?CS=3Demail&amp;utm_medium=
+=3Demail&amp;utm_source=3Demail"></a>=20
+<table style=3D"border: 2px solid #ec5f27;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"10" bgcolor=3D"#EC5F27">
+<tbody>
+<tr>
+<td style=3D"color: #ec5f27; font-size: 16px;" align=3D"center"><a style=3D=
+"color: #ffffff; text-decoration: none;" href=3D"https://information.rapid7=
+...com/uba-as-easy-as-abc-2-apac.html?CS=3Demail&amp;utm_medium=3Demail&amp;u=
+tm_source=3Demail">REGISTER NOW</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"WebcastContentBlock" class=3D"mktEditable" ><table class=3D"100p=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=
+=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; color: #848484;" align=3D"left"><span style=
+=3D"font-size: 16px;">
+<p><span>Every day, your users move seamlessly between IP's, assets, cloud =
+services, and mobile devices. As security teams are tasked with reducing at=
+tacker dwell time and embrace a "time to contain" mindset against attacks, =
+preventive measures are only part of the solution.</span></p>
+</span> <!-- Presenter Block /-->=20
+<table class=3D"100p" style=3D"color: #848484; font-size: 14px;" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"20" width=3D"600" bgcolor=3D"#F9F9F9">
+<tbody>
+<tr>
+<td width=3D"40%" align=3D"center"><img class=3D"100p" style=3D"display: bl=
+ock;" src=3D"https://information.rapid7.com/rs/495-KNT-277/images/webcast-c=
+ircle-image-template-4-18-16-ericsun.png" border=3D"0" alt=3D"Eric Sun" /><=
+/td>
+<td width=3D"40%" align=3D"left"><span style=3D"font-size: 24px;"><strong><=
+a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/o02sQ000Y00jMK04YTN4Ml0"
+>Join Eric Sun</a>, Solutions Marketing Manager for Rapid7&nbsp;</strong></=
+span></td>
+</tr>
+<tr>
+<td width=3D"40%" align=3D"center"><br /></td>
+<td width=3D"40%" align=3D"left"></td>
+</tr>
+</tbody>
+</table>
+<span style=3D"color: #848484;"><span style=3D"font-size: 16px;">
+<p><span>Utilizing user behavior analytics to quickly respond to threats an=
+d attacks can help your security team and doesn't have to be hard.</span></=
+p>
+<p><span>Join us for an informative conversation about how user behavior an=
+alytics can make your life easier - no data degree required!</span></p>
+<br /></span></span> <a style=3D"color: #ec5f27; text-decoration: none;" hr=
+ef=3D
+"http://info.rapid7.com/o02sQ000Y00jMK04YTN4Ml0"
+><strong>Register for this week's topic.</strong></a></td>
+</tr>
+</tbody>
+</table></div>
+<!-- Stop Blocks Here /-->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" bgco=
+lor=3D"#3B3B3B" class=3D"100p">
+<tr>
+<td valign=3D"middle" align=3D"left" width=3D"50%" style=3D"font-size:14px;=
+ color:#ffffff;"><span>=C2=A9 2016 Rapid7, All Rights Reserved.</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">Boston, MA 02110-2131</span><br>
+<span><a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/qjTK040Yl10Q4Y02N0Mt00M"
+>www.rapid7.com</a></span><br>
+<span>866-7-RAPID7</span></td>
+<td valign=3D"middle" align=3D"right" width=3D"50%" style=3D"font-size:14px=
+; color:#ffffff;"><span><a href=3D
+"http://info.rapid7.com/yjYKYMMQ040lTNu04200020"
+><img title=3D"Facebook" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-fb-2016-36px-white.png" border=3D"0" alt=3D"Facebook"></a>=
+<a href=3D
+"http://info.rapid7.com/Bj003K2TQ00040YN0YvlMM4"
+><img title=3D"Twitter" src=3D"https://information.rapid7.com/rs/495-KNT-27=
+7/images/social-tw-2016-36px-white.png" border=3D"0" alt=3D"Twitter"></a><a=
+ href=3D
+"http://info.rapid7.com/x0K0000Y2wj0lQN0444MYTM"
+><img title=3D"LinkedIn" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-li-2016-36px-white.png" border=3D"0" alt=3D"LinkedIn"></a>=
+</span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/qjTK040Yl10Q4Y02N0Mt00M"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" border=3D"0" alt=3D"Rapid7 Home Page"></a></span=
+></td>
+</tr>
+</table>
+<table width=3D"640" class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href=3D
+"http://info.rapid7.com/s0xY0lj0YNQ50K0M4M2040T"
+></a>
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTM2NjI6=
+MjE2OTc6NDYyMTQ6MDoxNjU5Nzo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/yjYKYMMQ040lTNB04900020"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_-354555555_387474014.1478660627455--
+

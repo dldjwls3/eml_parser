@@ -1,0 +1,168 @@
+Received: (qmail 16504 invoked from network); 22 Feb 2016 15:01:57 -0000
+Received: from 10.114.29.98 (HELO crcvmail03.wmail.naver.com) (10.114.29.98)
+  by cmda02.wmail.naver.com with SMTP; 22 Feb 2016 15:01:57 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmail03.wmail.naver.com with ESMTP id 1jDLEGOlS-eYBiy3opk+kw
+  for <jonghyun.kim@dforensic.com>;
+  Mon, 22 Feb 2016 15:01:57 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u1MEpFB00E6B;
+	Mon, 22 Feb 2016 23:51:15 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1MEpFB00E6B
+X-SmartFilter: FROM,u1MEpFB00E6B,joseph@duzon.com
+x-forward-id: 1456153104488_935649226
+recvDate: Mon, 22 Feb 2016 23:58:24 +0900
+x-newturns-hashkey: 5510d8079c438ca31020cc819fe2da1015e5bc9ad3c70e4c7d589953cb47ae06
+Received: from external ([198.2.183.97])
+	by smf.duzon.com (1.0) id u1MEpCv00E5D;
+	Mon, 22 Feb 2016 23:51:12 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1MEpCv00E5D
+X-SmartFilter: FROM,u1MEpCv00E5D,bounce-mc.us7_19778971.369901-joseph=duzon.com@mail97.suw13.rsgsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail97.suw13.rsgsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=info=3Di-hls.com@mail97.suw13.rsgsv.net;
+ bh=n4kNtOoaxg+zddkunGY/keWW2DA=;
+ b=af8l20FsKLZYW6vl8UVvIWEa0sRxMxh/Y0jUYHsNfBQ+1dnWYxQi0YAAgM4XfzqtJyxCeSADYiUF
+   YdMNH13PVnnPuWkFZHZhH5Argod8PfPr065rlw53sGxP+vCGWZP+IEYbMrztEQ6eMcZigQZWJsGa
+   qY2zWp852yaDzIwmulQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail97.suw13.rsgsv.net;
+ b=ZHMO6052vnCFLaOFXfisv200iUB7Xpx4bc29Ge5fNiGqPA/8XcMV2WN3bsC0/wuhEi2zWAqZy64p
+   n1I7IK8RlXmYZQnIPY5Spxc9WnSWrvSx5f8SSqhfcCOJ3mVc1mv4M61HM4KU8K/ImbrD3ZQbJIFf
+   d0Y6jjzZ0AyUXFcvmJ8=;
+Received: from (127.0.0.1) by mail97.suw13.rsgsv.net id hpchdi22s7g1 for <joseph@duzon.com>; Mon, 22 Feb 2016 15:01:40 +0000 (envelope-from <bounce-mc.us7_19778971.369901-joseph=duzon.com@mail97.suw13.rsgsv.net>)
+Subject: =?utf-8?Q?This=20Thursday=21=20Big=20Data=20For=20HLS=20Conference=21?=
+From: =?utf-8?Q?Israel=20Homeland=20Security=20=28iHLS=29?= <info@i-hls.com>
+Reply-To: =?utf-8?Q?Israel=20Homeland=20Security=20=28iHLS=29?= <info@i-hls.com>
+To: <joseph@duzon.com>
+Date: Mon, 22 Feb 2016 15:01:40 +0000
+Message-ID: <5acc1ed377b590a98a195f62477ab4125da.20160222150059@mail97.suw13.rsgsv.net>
+X-Mailer: MailChimp Mailer - **CID113c6a8b0677ab4125da**
+X-Campaign: mailchimp5acc1ed377b590a98a195f624.113c6a8b06
+X-campaignid: mailchimp5acc1ed377b590a98a195f624.113c6a8b06
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=5acc1ed377b590a98a195f624&id=113c6a8b06&e=77ab4125da
+X-MC-User: 5acc1ed377b590a98a195f624
+X-Feedback-ID: 19778971:19778971.369901:us7:mc
+List-ID: 5acc1ed377b590a98a195f624mc list <5acc1ed377b590a98a195f624.157721.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us7_5acc1ed377b590a98a195f624.113c6a8b06-77ab4125da@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://i-hls.us7.list-manage.com/unsubscribe?u=5acc1ed377b590a98a195f624&id=8ee2e16ed1&e=77ab4125da&c=113c6a8b06>
+Sender: "Israel Homeland Security (iHLS)" <info=i-hls.com@mail97.suw13.rsgsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_45901554"
+MIME-Version: 1.0
+X-Naver-ESV: +XRYpB3G1H+YbXFCbHmRKxEmKxEXjJ+Y
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_45901554
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+www.i-hls.com
+
+Can't see this email? Click here (http://i-hls.com/newsletters/20160222/en=
+g?mc_cid=3D113c6a8b06&mc_eid=3D[UNIQID])
+
+Hebrew (http://i-hls.com/newsletters/20160222/heb/?mc_cid=3D113c6a8b06&mc_=
+eid=3D[UNIQID])
+http://i-hls.com/events/bigdata2015/registration/?mc_cid=3D113c6a8b06&mc_e=
+id=3D[UNIQID]
+
+This email was sent to joseph@duzon.com (mailto:joseph@duzon.com)
+why did I get this? (http://i-hls.us7.list-manage.com/about?u=3D5acc1ed377=
+b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D113c6a8b06)     unsubscri=
+be from this list (http://i-hls.us7.list-manage.com/unsubscribe?u=3D5acc1e=
+d377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D113c6a8b06)     updat=
+e subscription preferences (http://i-hls.us7.list-manage.com/profile?u=3D5=
+acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da)
+iHLS Israel Homeland Security . Tel Aviv . Tel Aviv 36886 . Israel
+--_----------=_MCPart_45901554
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <title>Untitled Page</title>
+</head>
+<body style=3D"font: 20px sans-serif;">
+
+<center>
+ <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b59=
+0a98a195f624&id=3Da337bc20ed&e=3D77ab4125da">www.i-hls.com</a>
+=09=09=09=09
+        <br>
+        <p style=3D"font: 14px Arial;">
+=09=09 <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed=
+377b590a98a195f624&id=3Deb45ed313f&e=3D77ab4125da">Can't see this email?=
+ Click here</a>
+=09=09 <br><br>
+=09=09=09 <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc=
+1ed377b590a98a195f624&id=3Dc9572858ff&e=3D77ab4125da" style=3D"color:whit=
+e;font-size:20px;background-color:blue;">Hebrew</a>
+
+        </p>
+<br><a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377=
+b590a98a195f624&id=3D845105bb00&e=3D77ab4125da"> <img src=3D"https://gall=
+ery.mailchimp.com/5acc1ed377b590a98a195f624/images/cad71314-489a-456a-8101=
+-8cadce51d25c.jpg"></a>
+=09=09=09</center>            <center>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" id=3D"canspamBarWrapper" style=3D"background-color:#FFFFFF; b=
+order-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align=3D"center" valign=3D"top" style=3D"paddi=
+ng-top:20px; padding-bottom:20px;">
+                            <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"canspamBar">
+                                <tr>
+                                    <td align=3D"center" valign=3D"top" st=
+yle=3D"color:#606060; font-family:Helvetica=2C Arial=2C sans-serif; font-s=
+ize:11px; line-height:150%; padding-right:20px; padding-bottom:5px; paddin=
+g-left:20px; text-align:center;">
+                                        This email was sent to <a href=3D"=
+mailto:joseph@duzon.com" target=3D"_blank" style=3D"color:#404040 !importa=
+nt;">joseph@duzon.com</a>
+                                        <br>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/about?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da=
+&c=3D113c6a8b06" target=3D"_blank" style=3D"color:#404040 !important;"><em=
+>why did I get this?</em></a>=C2=A0=C2=A0=C2=A0=C2=A0<a href=3D"http://i-h=
+ls.us7.list-manage.com/unsubscribe?u=3D5acc1ed377b590a98a195f624&id=3D8ee2=
+e16ed1&e=3D77ab4125da&c=3D113c6a8b06" style=3D"color:#404040 !important;">un=
+subscribe from this list</a>=C2=A0=C2=A0=C2=A0=C2=A0<a href=3D"http://i-hl=
+s.us7.list-manage.com/profile?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed=
+1&e=3D77ab4125da" style=3D"color:#404040 !important;">update subscription pr=
+eferences</a>
+                                        <br>
+                                        iHLS Israel Homeland Security &mid=
+dot; Tel Aviv &middot; Tel Aviv 36886 &middot; Israel
+                                        <br>
+                                        <br>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <style type=3D"text/css">
+                    @media only screen and (max-width: 480px){
+                        table[id=3D"canspamBar"] td{font-size:14px !impor=
+tant;}
+                        table[id=3D"canspamBar"] td a{display:block !impo=
+rtant; margin-top:10px !important;}
+                    }
+                </style>
+            </center><img src=3D"http://i-hls.us7.list-manage.com/track/op=
+en.php?u=3D5acc1ed377b590a98a195f624&id=3D113c6a8b06&e=3D77ab4125da" heig=
+ht=3D"1" width=3D"1"></body></html>
+--_----------=_MCPart_45901554--
+

@@ -1,0 +1,480 @@
+Received: (qmail 23699 invoked from network); 13 Jan 2016 09:27:31 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda02.wmail.naver.com with SMTP; 13 Jan 2016 09:27:31 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id FI3NM5-wT4O6X6mOJ8Cu5w
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 13 Jan 2016 09:27:31 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u0D9LEq0021C;
+	Wed, 13 Jan 2016 18:21:14 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0D9LEq0021C
+X-SmartFilter: FROM,u0D9LEq0021C,joseph@duzon.com
+x-forward-id: 1452677067057_935649226
+recvDate: Wed, 13 Jan 2016 18:24:27 +0900
+x-newturns-hashkey: ffc58f8e84947c0a842336bcf8b13baf7380dda21fa358165c9dad5c7d181318
+Received: from external ([209.85.215.52])
+	by smf.duzon.com (1.0) id u0D9Kug00212;
+	Wed, 13 Jan 2016 18:20:57 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0D9Kug00212
+X-SmartFilter: FROM,u0D9Kug00212,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-lf0-f52.google.com with SMTP id m198so103909549lfm.0
+        for <joseph@duzon.com>; Wed, 13 Jan 2016 01:27:11 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:message-id:recvdate
+         :mime-version:date:content-type:content-transfer-encoding:subject
+         :from:to:reply-to;
+        bh=MOn6ey2tDbZln9IF+vRYSA//JjLjbsQlPLOKUNjygt4=;
+        b=ST2geWAsHCP9+gpLxcr7kd8dJYypAYefgjXVCi8mgjwcvJalXo9JXN31NsXM4pxFC7
+         tgddtV36t54XlW3t0h7Rzr85YPPAKMG2AguUdwTkyLmluw8lYRjezveu+Ja7lDwsygwS
+         9YlH1PD6/UbVoErB+f1QyYaaKvV3J/h5NDMUnCUaXnUchYcfPjnZ8UWF3HD6BUgiqCgO
+         CKNu7Rioyocb/YSnS7LBQ5EHZhZe1ZKn1VNCLFtjVOK6rmum329RVELs8uDRLMjJKP7x
+         k1acufx7xUzUvjWDU1eYXQsqJhzj9+D00kWK2cDUxs/D1dkZjYZJWtMnVYsbwZ4J/Tf7
+         tKKg==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Received: by 10.25.162.11 with SMTP id l11mr34682859lfe.30.1452677229925;
+        Wed, 13 Jan 2016 01:27:09 -0800 (PST)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, jaylee@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, jaylee@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.70.74 with SMTP id k10csp3159945ldu;
+        Wed, 13 Jan 2016 01:27:08 -0800 (PST)
+X-Received: by 10.50.30.166 with SMTP id t6mr22721331igh.15.1452677228875;
+        Wed, 13 Jan 2016 01:27:08 -0800 (PST)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id f16si987145igt.24.2016.01.13.01.27.07
+        for <forensic.duzon@gmail.com>;
+        Wed, 13 Jan 2016 01:27:08 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Message-ID: <5696186c.9042320a.d3de3.ffffd50bSMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_156_266076_1_152_0_20160113182633_210.223.88.32>
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u0D9KbS00204;
+	Wed, 13 Jan 2016 18:20:37 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0D9KbS00204
+X-SmartFilter: FROM,u0D9KbS00204,forensic@duzon.com
+x-forward-id: 1452677030577_2433444502
+recvDate: Wed, 13 Jan 2016 18:23:50 +0900
+x-newturns-hashkey: 784925bf6fb72d560bf4558ac8dbd1edd8ee72267a207a2aff20de68dbabf0f3
+Received: from external ([210.223.88.32])
+	by smf.duzon.com (1.0) id u0D9KQO00200;
+	Wed, 13 Jan 2016 18:20:26 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0D9KQO00200
+X-SmartFilter: FROM,u0D9KQO00200,156_1_266076_forensic_duzon.com@supermail.kotra.or.kr
+MIME-Version: 1.0
+Date: Wed, 13 Jan 2016 18:26:33 +0900
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?UTF-8?B?W0tPVFJBXeyCsOyXheuzhCDtlbTsmbjsi5zsnqXqsJzsspkg66eI7Iqk?=
+	=?UTF-8?B?7YSwIOyWkeyEseqzvOyglSDqsJXsgqwg7LSI67mZIOqzteqzoA==?=
+From: =?UTF-8?B?S09UUkEgQUNBREVNWQ==?=<915388@kotra.or.kr>
+To: =?UTF-8?B?7Jyg7KeE7JWE?=<forensic@duzon.com>
+Reply-To: =?UTF-8?B?S09UUkEgQUNBREVNWQ==?=<915388@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+X-Naver-ESV: +/+YpB3G1H+YbXFCbHmRKAvZFqKwjJ+Y
+
+<meta name="Generator" content="Hancom HWP 9.1.0.2702" />
+<meta content="text/html; charset=euc-kr" http-equiv="Content-Type" /><style type="text/css">
+<!--
+p.HStyle0
+	{style-name:"바탕글"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle0
+	{style-name:"바탕글"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle0
+	{style-name:"바탕글"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle1
+	{style-name:"본문"; margin-left:15.0pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:8.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle1
+	{style-name:"본문"; margin-left:15.0pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:8.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle1
+	{style-name:"본문"; margin-left:15.0pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:8.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle2
+	{style-name:"[팀/실/단/원]"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:15.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+li.HStyle2
+	{style-name:"[팀/실/단/원]"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:15.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+div.HStyle2
+	{style-name:"[팀/실/단/원]"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:15.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+p.HStyle3
+	{style-name:"ㅁ"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:15.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+li.HStyle3
+	{style-name:"ㅁ"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:15.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+div.HStyle3
+	{style-name:"ㅁ"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:15.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+p.HStyle4
+	{style-name:"ㅇ"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:14.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle4
+	{style-name:"ㅇ"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:14.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle4
+	{style-name:"ㅇ"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:14.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle5
+	{style-name:"-"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:한양중고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle5
+	{style-name:"-"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:한양중고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle5
+	{style-name:"-"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:한양중고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle6
+	{style-name:"개요 5"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle6
+	{style-name:"개요 5"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle6
+	{style-name:"개요 5"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle7
+	{style-name:"개요 6"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle7
+	{style-name:"개요 6"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle7
+	{style-name:"개요 6"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle8
+	{style-name:"개요 7"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle8
+	{style-name:"개요 7"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle8
+	{style-name:"개요 7"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle9
+	{style-name:"쪽 번호"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle9
+	{style-name:"쪽 번호"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle9
+	{style-name:"쪽 번호"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle10
+	{style-name:"머리말"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:150%; font-size:9.0pt; font-family:굴림; letter-spacing:-2%; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle10
+	{style-name:"머리말"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:150%; font-size:9.0pt; font-family:굴림; letter-spacing:-2%; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle10
+	{style-name:"머리말"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:150%; font-size:9.0pt; font-family:굴림; letter-spacing:-2%; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle11
+	{style-name:"각주"; margin-left:13.1pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:-13.1pt; line-height:130%; font-size:9.0pt; font-family:바탕; letter-spacing:-5%; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle11
+	{style-name:"각주"; margin-left:13.1pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:-13.1pt; line-height:130%; font-size:9.0pt; font-family:바탕; letter-spacing:-5%; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle11
+	{style-name:"각주"; margin-left:13.1pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:-13.1pt; line-height:130%; font-size:9.0pt; font-family:바탕; letter-spacing:-5%; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle12
+	{style-name:"Ⅰ.Ⅱ.Ⅲ."; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:20.0pt; font-family:한양신명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+li.HStyle12
+	{style-name:"Ⅰ.Ⅱ.Ⅲ."; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:20.0pt; font-family:한양신명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+div.HStyle12
+	{style-name:"Ⅰ.Ⅱ.Ⅲ."; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:20.0pt; font-family:한양신명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+p.HStyle13
+	{style-name:"xl63"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle13
+	{style-name:"xl63"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle13
+	{style-name:"xl63"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle14
+	{style-name:"2"; margin-left:9.0pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:15.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+li.HStyle14
+	{style-name:"2"; margin-left:9.0pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:15.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+div.HStyle14
+	{style-name:"2"; margin-left:9.0pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:15.0pt; font-family:휴먼명조; letter-spacing:0; font-weight:bold; font-style:normal; color:#000000;}
+p.HStyle15
+	{style-name:"xl64"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle15
+	{style-name:"xl64"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle15
+	{style-name:"xl64"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle16
+	{style-name:"xl65"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle16
+	{style-name:"xl65"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle16
+	{style-name:"xl65"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle17
+	{style-name:"xl66"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle17
+	{style-name:"xl66"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle17
+	{style-name:"xl66"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle18
+	{style-name:"td"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle18
+	{style-name:"td"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle18
+	{style-name:"td"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle19
+	{style-name:"xl67"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle19
+	{style-name:"xl67"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle19
+	{style-name:"xl67"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle20
+	{style-name:"xl68"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:9.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle20
+	{style-name:"xl68"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:9.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle20
+	{style-name:"xl68"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:9.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle21
+	{style-name:"xl69"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle21
+	{style-name:"xl69"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle21
+	{style-name:"xl69"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle22
+	{style-name:"xl70"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle22
+	{style-name:"xl70"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle22
+	{style-name:"xl70"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle23
+	{style-name:"xl71"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle23
+	{style-name:"xl71"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle23
+	{style-name:"xl71"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:10.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle24
+	{style-name:"xl74"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle24
+	{style-name:"xl74"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle24
+	{style-name:"xl74"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle25
+	{style-name:"선그리기"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:150%; font-size:10.0pt; font-family:명조; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle25
+	{style-name:"선그리기"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:150%; font-size:10.0pt; font-family:명조; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle25
+	{style-name:"선그리기"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:150%; font-size:10.0pt; font-family:명조; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle26
+	{style-name:"xl73"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:9.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle26
+	{style-name:"xl73"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:9.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle26
+	{style-name:"xl73"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-indent:0.0pt; line-height:160%; font-size:9.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle27
+	{style-name:"MS바탕글"; margin-top:0.0pt; margin-bottom:5.0pt; text-align:justify; text-indent:0.0pt; line-height:115%; font-size:10.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle27
+	{style-name:"MS바탕글"; margin-top:0.0pt; margin-bottom:5.0pt; text-align:justify; text-indent:0.0pt; line-height:115%; font-size:10.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle27
+	{style-name:"MS바탕글"; margin-top:0.0pt; margin-bottom:5.0pt; text-align:justify; text-indent:0.0pt; line-height:115%; font-size:10.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle28
+	{style-name:"MsoListParagraph"; margin-left:80.0pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:left; text-indent:0.0pt; line-height:100%; font-size:12.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle28
+	{style-name:"MsoListParagraph"; margin-left:80.0pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:left; text-indent:0.0pt; line-height:100%; font-size:12.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle28
+	{style-name:"MsoListParagraph"; margin-left:80.0pt; margin-top:0.0pt; margin-bottom:0.0pt; text-align:left; text-indent:0.0pt; line-height:100%; font-size:12.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle29
+	{style-name:"xl78"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:center; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#0000ff;}
+li.HStyle29
+	{style-name:"xl78"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:center; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#0000ff;}
+div.HStyle29
+	{style-name:"xl78"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:center; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#0000ff;}
+p.HStyle30
+	{style-name:"xl75"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:center; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle30
+	{style-name:"xl75"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:center; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle30
+	{style-name:"xl75"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:center; text-indent:0.0pt; line-height:160%; font-size:11.0pt; font-family:맑은 고딕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle31
+	{style-name:"xl124"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle31
+	{style-name:"xl124"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle31
+	{style-name:"xl124"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle32
+	{style-name:"xl123"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle32
+	{style-name:"xl123"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle32
+	{style-name:"xl123"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle33
+	{style-name:"xl125"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle33
+	{style-name:"xl125"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle33
+	{style-name:"xl125"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle34
+	{style-name:"xl118"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:12.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle34
+	{style-name:"xl118"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:12.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle34
+	{style-name:"xl118"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:12.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle35
+	{style-name:"xl119"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:12.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle35
+	{style-name:"xl119"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:12.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle35
+	{style-name:"xl119"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:12.0pt; font-family:한컴바탕; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle36
+	{style-name:"xl120"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle36
+	{style-name:"xl120"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle36
+	{style-name:"xl120"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle37
+	{style-name:"xl131"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle37
+	{style-name:"xl131"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle37
+	{style-name:"xl131"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle38
+	{style-name:"xl122"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle38
+	{style-name:"xl122"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle38
+	{style-name:"xl122"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle39
+	{style-name:"xl126"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle39
+	{style-name:"xl126"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle39
+	{style-name:"xl126"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle40
+	{style-name:"xl127"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle40
+	{style-name:"xl127"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle40
+	{style-name:"xl127"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+p.HStyle41
+	{style-name:"xl128"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+li.HStyle41
+	{style-name:"xl128"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+div.HStyle41
+	{style-name:"xl128"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:right; text-indent:0.0pt; line-height:160%; font-size:13.0pt; font-family:굴림; letter-spacing:0; font-weight:normal; font-style:normal; color:#000000;}
+--></style>
+<p class="HStyle0" style="text-align: center; line-height: 190%">
+<table cellspacing="0" cellpadding="0" border="1" style="border-top: medium none; border-right: medium none; border-collapse: collapse; border-bottom: medium none; border-left: medium none">
+    <tbody>
+        <tr>
+            <td bgcolor="#ffffff" valign="middle" style="border-top: #333399 5.7pt solid; height: 45px; border-right: medium none; width: 632px; border-bottom: #333399 5.7pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: medium none; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 150%"><span style="font-size: 18pt; font-family: &quot;HY헤드라인M&quot;; font-weight: bold; line-height: 150%">산업별 해외시장개척 마스터 양성과정 강사 초빙 공고</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+<p class="HStyle0" style="text-align: center; line-height: 190%"></p>
+<p class="HStyle0" style="text-align: right; line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">KOTRA 아카데미, &lsquo;16. 1.12.(화) </span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;&nbsp;&nbsp;KOTRA 아카데미에서는 중소, 중견기업의 산업/품목별 해외마케팅전문가 양성을 목적으로 &lsquo;산업별 해외시장개척 마스터 양성과정&rsquo;을 새로이 개발하였습니다. 동 과정의 성공적인 운영을 위하여 실무경험이 풍부한 분을 강사로 초빙코자 하오니 아래 사항을 참고하시어 많은 지원 부탁드립니다.</span></p>
+<p class="HStyle0" style="text-align: center; line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="text-align: center; line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">- 아&nbsp; 래 -</span></p>
+<p class="HStyle0" style="text-align: center; line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="margin-left: 139pt; line-height: 150%; text-indent: -139pt"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%">□ 과정개요</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;◦ 과정명 : 산업별 해외시장개척 마스터 양성과정</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;◦ </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">과정목적 : 지역별 주요 산업 및 품목 관련 심층교육으로 중소기업의 해외수출마케팅전략 수립에 기여</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;◦ </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">교육시간 : </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">과정별 2일, 총 12~16시간</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;◦</span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%"> </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">과정구성 : </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">6개 수출유망 산업/품목</span></p>
+<p class="HStyle0" style="text-align: center; line-height: 150%">
+<table cellspacing="0" cellpadding="0" border="1" style="border-top: medium none; border-right: medium none; border-collapse: collapse; border-bottom: medium none; border-left: medium none">
+    <tbody>
+        <tr>
+            <td bgcolor="#ccffcc" valign="middle" style="border-top: #000000 1.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 74px; border-bottom: #000000 1.4pt double; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: medium none; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 160%">연번</span></p>
+            </td>
+            <td bgcolor="#ccffcc" valign="middle" style="border-top: #000000 1.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 278px; border-bottom: #000000 1.4pt double; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 160%">산업/품목</span></p>
+            </td>
+            <td bgcolor="#ccffcc" valign="middle" style="border-top: #000000 1.4pt solid; height: 22px; border-right: medium none; width: 278px; border-bottom: #000000 1.4pt double; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 160%">지역</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 74px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: medium none; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">1</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">자동차 부품</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: medium none; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: left; margin-left: 25.4pt; line-height: 130%; text-indent: -25.4pt"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">유럽, 중국, 북미 등</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 74px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: medium none; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">2</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">섬유, 패션</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: medium none; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: left; margin-left: 25.4pt; line-height: 130%; text-indent: -25.4pt"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">중국 등</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 74px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: medium none; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">3</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">화학제품</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: medium none; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: left; margin-left: 25.4pt; line-height: 130%; text-indent: -25.4pt"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">동남아 등</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 74px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: medium none; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">4</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">의료의약품</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: medium none; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: left; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">동남아, 중국 등</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 74px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: medium none; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">5</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">전기전자 부품</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: medium none; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: left; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">유럽, 북미, 아세안 등</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 74px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: medium none; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">6</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: #000000 0.4pt solid; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: center; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">기계류 부품</span></p>
+            </td>
+            <td valign="middle" style="border-top: #000000 0.4pt solid; height: 22px; border-right: medium none; width: 278px; border-bottom: #000000 0.4pt solid; padding-bottom: 1.4pt; padding-top: 1.4pt; padding-left: 5.1pt; border-left: #000000 0.4pt solid; padding-right: 5.1pt">
+            <p class="HStyle0" style="text-align: left; line-height: 130%"><span style="font-size: 14pt; font-family: &quot;휴먼명조&quot;; line-height: 130%">유럽, 중국, 중동 등</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+<p class="HStyle0" style="text-align: center; line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%">&nbsp;</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 4pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="margin-left: 139pt; line-height: 150%; text-indent: -139pt"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%">□ 모집분야 : </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">상기 산업/품목별 강사</span></p>
+<p class="HStyle0" style="margin-left: 139pt; line-height: 150%; text-indent: -139pt"><span style="font-size: 4pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="margin-left: 139pt; line-height: 150%; text-indent: -139pt"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%">□ 지원자격 : </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">상기 산업/품목 군 기업 해외 마케팅 부문 근무이력 소지자</span></p>
+<p class="HStyle0" style="margin-left: 22.6pt; line-height: 150%; text-indent: -22.6pt"><span style="font-size: 4pt; font-family: &quot;휴먼명조&quot;; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="margin-left: 22.6pt; line-height: 150%; text-indent: -22.6pt"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%">□ 강사료 : </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">내부 규정에 따라 소정의 강사료 지급예정</span></p>
+<p class="HStyle0" style="margin-left: 22.6pt; line-height: 150%; text-indent: -22.6pt"><span style="font-size: 4pt; font-family: &quot;휴먼명조&quot;; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="margin-left: 22.6pt; line-height: 150%; text-indent: -22.6pt"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%">□ 특전 : </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">KOTRA 아카데미 주관 관련분야 교육과정 강사로 우선 배정 예정</span></p>
+<p class="HStyle0" style="margin-left: 22.6pt; line-height: 150%; text-indent: -22.6pt"><span style="font-size: 4pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="margin-left: 22.6pt; line-height: 150%; text-indent: -22.6pt"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%">□ 제출서류 및 방법 </span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;◦ 제출서류 : 자기소개서 1부</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;◦ 제출방법 : 전자메일(</span><a href="http://supermail.kotra.or.kr:7777/trace/checker.jsp?mailidx=156&linkno=1&seqidx=266076&service=1&dmidx=152&emidx=0&uidx=1&gidx=1&site=0&linkurl=mailto:choi.dongkyu@kotra.or.kr"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">choi.dongkyu@kotra.or.kr</span></a><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">)로 송부</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 4pt; font-family: &quot;휴먼명조&quot;; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="margin-left: 22.6pt; line-height: 150%; text-indent: -22.6pt"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%">□ 기타</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;◦ 제출된 서류는 내부 규정에 따라 별도로 반환하지 않습니다.</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;◦ 이력서를 수시로 접수 받고 있습니다.</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">&nbsp;&nbsp; </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">- 강의가 가능하신 분께서는 언제든지 전자메일을 송부해 주시기 바랍니다.</span></p>
+<p class="HStyle0" style="line-height: 150%"><span style="font-size: 4pt; font-family: &quot;휴먼명조&quot;; line-height: 150%"><br />
+</span></p>
+<p class="HStyle0" style="margin-left: 22.6pt; line-height: 150%; text-indent: -22.6pt"><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; font-weight: bold; line-height: 150%">□ 문의 : </span><span style="font-size: 13pt; font-family: &quot;휴먼명조&quot;; line-height: 150%">KOTRA아카데미(02-3497-1186, choi.dongkyu@kotra.or.kr)</span></p>
+*수신거부*<br />
+&nbsp; 수신거부 : <a href="http://supermail.kotra.or.kr:7777/trace/checker.jsp?mailidx=156&linkno=2&seqidx=266076&service=1&dmidx=152&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://scrm.kotra.or.kr/crm/common.ComMail/UCP_D2?EMAILLOGID=3356364">코트라 서비스 통합사업안내&nbsp;에 해당되는 메일을 수신거부 합니다.</a><br />
+&nbsp;전체수신거부&nbsp;: <a href="http://supermail.kotra.or.kr:7777/trace/checker.jsp?mailidx=156&linkno=3&seqidx=266076&service=1&dmidx=152&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://scrm.kotra.or.kr/crm/common.ComMail/UCP_D?EMAILLOGID=3356364">코트라에서 발송하는 모든 캠페인 메일을 수신 거부 합니다.</a><br />
+&nbsp;&nbsp; <br />
+<div style="display:none;"><img src="http://supermail.kotra.or.kr:7777/trace/openChecker.jsp?mailidx=156&seqidx=266076&service=1&dmidx=152&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+
+

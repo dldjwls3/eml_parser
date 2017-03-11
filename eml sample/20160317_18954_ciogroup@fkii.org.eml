@@ -1,0 +1,573 @@
+Received: (qmail 29852 invoked from network); 17 Mar 2016 00:36:48 -0000
+Received: from 10.114.29.98 (HELO crcvmail03.wmail.naver.com) (10.114.29.98)
+  by cmda01.wmail.naver.com with SMTP; 17 Mar 2016 00:36:48 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.com (gw.duzon.com [202.167.215.64])
+  by crcvmail03.wmail.naver.com with ESMTP id iVi1DrPqS4ymB1fV4JGxAg
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 17 Mar 2016 00:36:48 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u2H0Nhq00858;
+	Thu, 17 Mar 2016 09:23:43 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2H0Nhq00858
+X-SmartFilter: FROM,u2H0Nhq00858,joseph@duzon.com
+x-forward-id: 1458174789110_935649226
+recvDate: Thu, 17 Mar 2016 09:33:09 +0900
+x-newturns-hashkey: 032618f19994ddde5b1f7791e4954e7048a6fe2707959de42634f8e80fbed894
+Received: from external ([209.85.214.182])
+	by smf.duzon.com (1.0) id u2H0NRa00848;
+	Thu, 17 Mar 2016 09:23:28 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2H0NRa00848
+X-SmartFilter: FROM,u2H0NRa00848,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ob0-f182.google.com with SMTP id fp4so68344375obb.2
+        for <joseph@duzon.com>; Wed, 16 Mar 2016 17:36:30 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :recvdate:subject:to:from:reply-to:errors-to:mime-version:date
+         :message-id:importance:organization:content-transfer-encoding;
+        bh=RLWiLIPef9aomnQFENCWnez+L39WH60MQ3BYUFJ5Nd0=;
+        b=mHRQ+vyejpssu5AuNIRbURG0rhRMcXnbcOyYA3x6W0+E890MpKYnujRnX3ZC0VEDxX
+         oYm5tpS30TyY89YqsbAp3wX8ObtQHbkH9OXauSdQExkmNXnj/4Xexb8qPbbVXfX41RPl
+         gC6glCfYD+U0bgycq8XHJX91GEfpHRjkLbYAvZsANRJpF74a4NuSiSuwJrao5+nyz0aX
+         0VeQAimUQJXDadyqbmjbZ7h14z+BEQboT7EYG9DPXZXvAbcJ/thyFyO51697wDr8uV8P
+         YyDm3jDFBCCL7+yjJtEWIu4Ck6MDsGz9Sf4pONU6ce9HoP6Q983VKAc7LlQcDi+6tqZo
+         1nzQ==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AD7BkJJ8xyxKryS5iYnhbwnCZfkyV3+u+uhoUnJX4JDzjEpew8270GXgsUMemBBdJ+t535RDtelRodabqpEU9B7/1FE5v70=
+X-Received: by 10.182.107.137 with SMTP id hc9mr4219879obb.74.1458174990139;
+        Wed, 16 Mar 2016 17:36:30 -0700 (PDT)
+X-Forwarded-To: hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.157.5.72 with SMTP id 66csp114233otw;
+        Wed, 16 Mar 2016 17:36:29 -0700 (PDT)
+X-Received: by 10.66.146.164 with SMTP id td4mr10468888pab.47.1458174989096;
+        Wed, 16 Mar 2016 17:36:29 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id rt5si8362108pab.98.2016.03.16.17.36.28
+        for <forensic.duzon@gmail.com>;
+        Wed, 16 Mar 2016 17:36:29 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u2H0NGU00842;
+	Thu, 17 Mar 2016 09:23:16 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2H0NGU00842
+X-SmartFilter: FROM,u2H0NGU00842,forensic@duzon.com
+x-forward-id: 1458174762649_2433444502
+recvDate: Thu, 17 Mar 2016 09:32:42 +0900
+x-newturns-hashkey: c560c7d856b83a3cf0fedff89a846faf1809af491bff6c71e9435dbd907b80ed
+Received: from external ([211.115.217.140])
+	by smf.duzon.com (1.0) id u2H0N8Q0083E;
+	Thu, 17 Mar 2016 09:23:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2H0N8Q0083E
+X-SmartFilter: FROM,u2H0N8Q0083E,user24773@sendc.ozmailer.com
+Subject: =?EUC-KR?B?W8fRsbnBpLq4u+q+97+sx9XIuCBDSU/G97ezIMf5wvm7510gM3JkIFNhbGVzZm9yY2U=?=
+	=?EUC-KR?B?IFNvbHV0aW9uIERheSDDysO7IL7Is7soMy8yOSk=?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?RktJSQ==?=" <ciogroup@fkii.org>
+Reply-To: <ciogroup@fkii.org>
+Errors-To: <ciogroup@fkii.org>
+MIME-Version: 1.0
+Date: Thu, 17 Mar 2016 09:36:11 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1961248@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: +/FYpB3G1H+YbXFCbHmRKAgqFot/jJ+Y
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7115843" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>[한국정보산업연합회 CIO포럼 협찬사] 3rd Salesforce Solution Day 초청 안내(3/29)</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<div style="background-color: rgb(255, 255, 255);">
+<center>
+<table width="500" height="450" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr valign="top">
+			<td style="height: 0px; text-align: left; vertical-align: top; background-color: rgb(255, 255, 255);">&nbsp;</td>
+		</tr>
+		<tr valign="top">
+			<td style="height: 0px; background-color: rgb(255, 255, 255);">&nbsp;</td>
+		</tr>
+		<tr valign="top">
+			<td height="300" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background-color: rgb(255, 255, 255);">
+			<table width="550" height="400" border="0" cellspacing="5" cellpadding="5">
+				<tbody>
+					<tr height="400" valign="top">
+						<td style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background-color: rgb(255, 255, 255);">
+						<table style="background: rgb(238, 241, 246); padding: 0px; width: 580px; color: rgb(34, 34, 34); line-height: 19px; font-family: Helvetica,Arial,sans-serif; font-size: 14px; vertical-align: top; display: block; border-collapse: collapse; border-spacing: 0px;" bgcolor="#eef1f6">
+							<tbody>
+								<tr align="left" style="padding: 0px; vertical-align: top;">
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 580px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="center" valign="top" style="margin: 0px; padding: 0px 0px 10px; text-align: center; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">
+												<center style="width: 580px; min-width: 580px;"><span style="font-size: 11px;">2016년 3월 29일 화요일 오후 3시 ~ 6시</span></center>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table style="padding: 0px; width: 580px; color: rgb(34, 34, 34); line-height: 19px; font-family: Helvetica,Arial,sans-serif; font-size: 14px; vertical-align: top; display: block; border-collapse: collapse; border-spacing: 0px; background-color: rgb(255, 255, 255);">
+							<tbody>
+								<tr align="left" style="padding: 0px; vertical-align: top;">
+									<td align="left" valign="top" style="margin: 0px; padding: 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 580px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 0px 10px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">
+												<center style="width: 580px; min-width: 580px;"><img align="none" style="margin: 0px auto; width: auto; clear: both; display: block; max-width: 100%;" alt="Event Banner" src="http://salesforce.com/ap/assets/images/email/general.jpg"></center>
+												</td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table style="padding: 0px; width: 580px; color: rgb(34, 34, 34); line-height: 19px; font-family: Helvetica,Arial,sans-serif; font-size: 14px; vertical-align: top; display: block; border-collapse: collapse; border-spacing: 0px; background-color: rgb(255, 255, 255);">
+							<tbody>
+								<tr align="left" style="padding: 0px; vertical-align: top;">
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 580px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 25px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">
+												<h5 align="left" style="margin: 0px; padding: 0px; text-align: center; color: rgb(22, 50, 92); line-height: 1.3; font-size: 24px; font-weight: 400; -ms-word-break: normal;">3rd Salesforce Solution Day</h5>
+
+												<div>&nbsp;</div>
+												</td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table style="padding: 0px; width: 580px; color: rgb(34, 34, 34); line-height: 19px; font-family: Helvetica,Arial,sans-serif; font-size: 14px; vertical-align: top; display: block; border-collapse: collapse; border-spacing: 0px; background-color: rgb(255, 255, 255);">
+							<tbody>
+								<tr align="left" style="padding: 0px; vertical-align: top;">
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 20px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 280px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 10px 10px 0px; width: 14px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important; min-width: 0px;">&nbsp;</td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 10px 10px 0px; width: 36px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important; min-width: 0px;"><img align="left" style="width:auto; padding-right:20px; clear:both; display:block; max-width:100%; float:left" alt="" src="http://salesforce.com/ap/assets/images/email/icon-calendar.png"></td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 0px 10px; width: 210px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important; min-width: 0px;"><span style="font-size: 15px;">2016년 3월 29일 화요일<br>
+												오후 3:00 - 6:00</span></td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 280px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 10px 10px 0px; width: 14px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important; min-width: 0px;">&nbsp;</td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 10px 10px 0px; width: 36px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important; min-width: 0px;"><img align="left" style="width:auto; padding-right:20px; clear:both; display:block; max-width:100%; float:left" alt="" src="http://salesforce.com/ap/assets/images/email/icon-place.png"></td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 0px 10px; width: 210px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important; min-width: 0px;"><span style="font-size: 15px;">대치동 섬유센터 2층<br>
+												컨퍼런스홀 B룸 (<a href="http://www.ozmailer.com/oele/ut.php?U=siq8t_48imb_7riwj7" target="_blank">map</a>)</span></td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table style="padding: 0px; width: 580px; color: rgb(34, 34, 34); line-height: 19px; font-family: Helvetica,Arial,sans-serif; font-size: 14px; vertical-align: top; display: block; border-collapse: collapse; border-spacing: 0px; background-color: rgb(255, 255, 255);">
+							<tbody>
+								<tr align="left" style="padding: 0px; vertical-align: top;">
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 580px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 25px; vertical-align: top; border-collapse: collapse !important;">
+												<hr style="border: currentColor; color: rgb(217, 217, 217); line-height: 19px; font-size: 14px; min-height: 2px; background-color: rgb(217, 217, 217);">&nbsp;
+												<center><span style="font-size: 19px;"><font color="#333333" face="Arial, sans-serif"><b>Make your own Solution recipe!</b></font></span></center>&nbsp;
+												<center><span style="font-size: 15px;"><font color="#333333" face="Arial, sans-serif"><b>세일즈포스와 함께 여러분만의 솔루션 레시피를 만들어보세요!</b></font></span></center>
+
+												&nbsp;
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#333333" face="Arial, sans-serif" size="2"><span style="line-height: 17.26px;">아무리 좋은 솔루션도 특정한 산업 환경에서 필요로 되는 구성요소들이 배제되어 있다면</span></font></p>
+
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#333333" face="Arial, sans-serif" size="2"><span style="line-height: 17.26px;">효과적으로 활용하기 어렵습니다. 이러한 이유로 솔루션들을 구입했다가도 그 효과를</span></font></p>
+
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#333333" face="Arial, sans-serif" size="2"><span style="line-height: 17.26px;">누리지 못한 채 다시 원래의 시스템으로 돌아가는 실패 사례도 많이 접하셨을 것입니다.</span></font></p>
+
+												&nbsp;
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#333333" face="Arial, sans-serif" size="2"><span style="line-height: 17.26px;">하지만, 전세계 15만여 고객이 사용함으로써 입증된 우수성, 각 기업 환경에 맞추어</span></font></p>
+
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#333333" face="Arial, sans-serif" size="2"><span style="line-height: 17.26px;">자유롭게 개발, 구성할 수 있는 유연성을 모두 갖춘 세일즈포스라면 어떨까요?</span></font></p>
+												&nbsp;
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#333333" face="Arial, sans-serif" size="2">어디서부터 어떻게 시작해야 할지 어려우시다면,</font></p>
+
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#333333" face="Arial, sans-serif" size="2"><span style="line-height: 17.26px;">이번 솔루션데이에서 실제 고객사례를 통해 살펴보시고 세일즈포스 전문가들과 함께</span></font></p>
+
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#333333" face="Arial, sans-serif" size="2"><span style="line-height: 17.26px;"> 전문적인 컨설팅부터 시작하여 여러분만의 솔루션 레시피를 완성해보세요.</span></font></p>
+												&nbsp;
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#333333" face="Arial, sans-serif" size="2"><span style="line-height: 17.26px;">여러분 기업에 최적화된 맞춤형 솔루션을 위한 세미나, 3월 29일(화)에 시작됩니다.</span></font></p>
+
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span style="color: rgb(51, 51, 51); line-height: 17.26px; font-family: Arial,sans-serif; font-size: small;">감사합니다.</span></p>
+
+												<p align="left" style="padding: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">&nbsp;</p>
+
+												<table width="100%" style="background: rgb(212, 239, 246); width: 530.4px;" border="0" cellspacing="1" cellpadding="0">
+													<tbody>
+														<tr>
+															<td style="padding: 5pt;" colspan="2">
+															<p class="MsoNormal"><font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;"><b>행사일정</b></span></font></p>
+															</td>
+														</tr>
+														<tr>
+															<td valign="top" style="background: white; padding: 5pt;">
+															<p class="MsoNormal"><font face="Arial, sans-serif"><b><span style="color: rgb(68, 68, 68); font-size: 10.5pt;">3:00 - 3:20pm&nbsp;</span></b></font></p>
+															</td>
+															<td style="background: white; padding: 5pt;">
+															<p class="MsoNormal" style="line-height: 18pt;"><font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">등록</span></font></p>
+															</td>
+														</tr>
+														<tr>
+															<td valign="top" style="background: white; padding: 5pt;">
+															<p class="MsoNormal"><font face="Arial, sans-serif"><b><span style="color: rgb(68, 68, 68); font-size: 10.5pt;">3:20 - 3:30pm</span></b></font></p>
+															</td>
+															<td style="background: white; padding: 5pt;">
+															<p class="MsoNormal" style="line-height: 12pt;"><font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">환영사 </span></font><br>
+															<font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">&nbsp;[세일즈포스 한국지사 이진구 대표]</span></font></p>
+															</td>
+														</tr>
+														<tr>
+															<td valign="top" style="background: white; padding: 5pt;">
+															<p class="MsoNormal"><b><span style="color: rgb(68, 68, 68); font-size: 10.5pt;"><font face="Arial, sans-serif">3:30 - 4:30pm</font></span></b></p>
+															</td>
+															<td style="background: white; padding: 5pt;">
+															<p class="MsoNormal" style="line-height: 12pt;"><font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">#1. 고객사례로 살펴보는 성공적인 영업·고객관리 핵심 레시피</span></font><br>
+															<font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">&nbsp;[DK BMC 배창욱 대표]</span></font></p>
+															</td>
+														</tr>
+														<tr>
+															<td valign="top" style="background: white; padding: 5pt;">
+															<p class="MsoNormal"><font face="Arial, sans-serif"><b><span style="color: rgb(68, 68, 68); font-size: 10.5pt;">4:30 - 4:50pm</span></b></font></p>
+															</td>
+															<td style="background: white; padding: 5pt;">
+															<p class="MsoNormal" style="line-height: 12pt;"><font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">Networking &amp; Break time</span></font></p>
+															</td>
+														</tr>
+														<tr>
+															<td valign="top" style="background: white; padding: 5pt;">
+															<p class="MsoNormal"><b><span style="color: rgb(68, 68, 68); font-size: 10.5pt;"><font face="Arial, sans-serif">4:50 - 5:50pm&nbsp;</font></span></b></p>
+															</td>
+															<td style="background: white; padding: 5pt;">
+															<p class="MsoNormal" style="line-height: 12pt;"><font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">#2. 성공 레시피를 적용한 영업환경 시연</span></font><br>
+															<font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">&nbsp;[세일즈포스 한국지사]</span></font></p>
+															</td>
+														</tr>
+														<tr>
+															<td valign="top" style="background: white; padding: 5pt;">
+															<p class="MsoNormal"><b><span style="color: rgb(68, 68, 68); font-size: 10.5pt;"><font face="Arial, sans-serif">5:50 - 6:00pm</font></span></b></p>
+															</td>
+															<td style="background: white; padding: 5pt;">
+															<p class="MsoNormal" style="line-height: 12pt;"><font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">Q&amp;A 및 맺음말</span></font><br>
+															<font color="#444444" face="Arial, sans-serif"><span style="font-size: 14px;">&nbsp;[DK BMC 김현석 이사]</span></font></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<p style="padding: 0px; color: rgb(102, 102, 102); line-height: 20px; font-family: Arial; font-size: 14px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><i>*상기 아젠다는 사정에 따라 변경 될 수 있습니다.</i></p>
+
+												<p class="MsoNormal" style="margin-right: 0px; margin-bottom: 6.5pt; margin-left: 0px;">&nbsp;</p>
+
+												<p class="MsoNormal" style="margin-right: 0px; margin-bottom: 6.5pt; margin-left: 0px;"><font color="#3333ff" size="4"><a style="background-color: rgb(204, 255, 255);" href="http://www.ozmailer.com/oele/ut.php?U=siq8x_48imb_7riwj7" target="_blank">&nbsp;사전등록하기&nbsp;</a></font></p>
+												&nbsp;
+
+												<p style="padding: 0px; line-height: 20px; font-family: Arial; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><b><font color="#666666">[등록신청 방법 및 문의사항]</font></b></p>
+
+												<p style="padding: 0px; line-height: 20px; font-family: Arial; font-size: 14px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#666666">참석을 희망하시는 분께서는 회사명, 성함, 연락처, 참석인원 수를 포함하여 회신 주시면 좌석을 마련토록 하겠습니다. &nbsp;자리가 제한되어 있는 관계로 빠른 신청 부탁드립니다.</font></p>
+
+												<p style="padding: 0px; line-height: 20px; font-family: Arial; font-size: 14px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><font color="#666666">DK BMC &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;조은별 대리 &nbsp; &nbsp; Tel.<a target="_blank" value="+8225143587">02-514-3587</a> &nbsp; &nbsp;&nbsp;&nbsp; </font><span style="color: rgb(102, 102, 102);">Email. <a href="mailto:eb.joe@dkbmc.com">eb.joe@dkbmc.com</a></span><span style="color: rgb(102, 102, 102);">&nbsp; </span></p>
+												&nbsp;
+
+												<p style="padding: 0px; line-height: 20px; font-family: Arial; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><b style="color: rgb(102, 102, 102);"><font size="2">세일즈포스에 대해 궁금하신가요?</font></b></p>
+
+												<p style="padding: 0px; line-height: 20px; font-family: Arial; font-size: 14px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><a style="color: rgb(17, 85, 204); font-size: 13px;" href="http://www.ozmailer.com/oele/ut.php?U=siq91_48imb_7riwj7" target="_blank">http://www.salesforce.com/kr/</a></p>
+
+												<p style="padding: 0px; line-height: 22px; font-family: arial,sans-serif; font-size: 13px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px;"><span style="color: rgb(102, 102, 102); line-height: 20px; font-family: Arial; font-size: small;"><b>데모동영상 신청</b></span></p>
+
+												<p style="padding: 0px; line-height: 22px; font-family: arial,sans-serif; font-size: 13px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px;"><a style="color: rgb(17, 85, 204); line-height: 20px; font-family: Arial;" href="http://www.ozmailer.com/oele/ut.php?U=siq95_48imb_7riwj7" target="_blank">https://www.salesforce.com/kr/form/demo/crm-sales-regLB.jsp?d=70130000000tSCv&amp;internal=true</a></p>
+
+												<p style="padding: 0px; line-height: 22px; font-family: arial,sans-serif; font-size: 13px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px;"><font color="#666666" face="Arial"><span style="line-height: 20px;"><b>30일 무료체험판 신청</b></span></font></p>
+
+												<p style="padding: 0px; line-height: 22px; font-family: arial,sans-serif; font-size: 13px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px;"><font color="#666666" face="Arial"><span style="line-height: 20px;"><a style="color: rgb(17, 85, 204);" href="http://www.ozmailer.com/oele/ut.php?U=siq99_48imb_7riwj7" target="_blank">https://www.salesforce.com/kr/form/signup/freetrial-lb.jsp?d=70130000000tSCw&amp;internal=true</a></span></font></p>
+
+												<p style="padding: 0px; line-height: 20px; font-family: Arial; font-size: 14px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span style="color: rgb(102, 102, 102);">세일즈포스 한국오피스 드림.</span></p>
+
+												<p style="padding: 0px; line-height: 20px; font-family: Arial; font-size: 14px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><span style="color: rgb(102, 102, 102);">Kind Regards,</span></p>
+
+												<hr style="border: currentColor; color: rgb(217, 217, 217); line-height: 19px; font-size: 14px; min-height: 2px; background-color: rgb(217, 217, 217);"></td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table style="padding: 0px; width: 580px; color: rgb(34, 34, 34); line-height: 19px; font-family: Helvetica,Arial,sans-serif; font-size: 14px; vertical-align: top; display: block; border-collapse: collapse; border-spacing: 0px; background-color: rgb(255, 255, 255);">
+							<tbody>
+								<tr align="left" style="padding: 0px; vertical-align: top;">
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 20px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 80px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 0px 10px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 20px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 180px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="center" valign="top" style="margin: 0px; padding: 8px 0px 10px; text-align: center; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;"><span style="color: rgb(102, 102, 102);">Join Our Conversation</span></td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 20px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 180px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="center" valign="top" style="margin: 0px; padding: 0px 0px 10px; text-align: center; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">
+												<center style="width: 180px; min-width: 180px;">
+												<table style="padding: 0px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+													<tbody>
+														<tr align="left" style="padding: 0px; vertical-align: top;">
+															<td align="center" valign="top" style="margin: 0px; padding: 0px 0px 10px; width: 45px; text-align: center; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;"><a style="color: rgb(43, 166, 203) !important; text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siq9d_48imb_7riwj7" target="_blank"><img align="left" style="padding:0px 10px; width:auto; clear:both; display:block; max-width:100%; float:left" alt="Linkedin" src="http://salesforce.com/ap/assets/images/email/logo-linkedin.png"></a></td>
+															<td align="center" valign="top" style="margin: 0px; padding: 0px 0px 10px; width: 45px; text-align: center; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;"><a style="color: rgb(43, 166, 203) !important; text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siq9h_48imb_7riwj7" target="_blank"><img align="left" style="padding:0px 10px; width:auto; clear:both; display:block; max-width:100%; float:left" alt="Facebook" src="http://salesforce.com/ap/assets/images/email/logo-facebook.png"></a></td>
+															<td align="center" valign="top" style="margin: 0px; padding: 0px 0px 10px; width: 45px; text-align: center; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;"><a style="color: rgb(43, 166, 203) !important; text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siq9l_48imb_7riwj7" target="_blank"><img align="left" style="padding:0px 10px; width:auto; clear:both; display:block; max-width:100%; float:left" alt="Twitter" src="http://salesforce.com/ap/assets/images/email/logo-twitter.png"></a></td>
+															<td align="center" valign="top" style="margin: 0px; padding: 0px 0px 10px; width: 45px; text-align: center; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;"><a style="color: rgb(43, 166, 203) !important; text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siq9p_48imb_7riwj7" target="_blank"><img align="left" style="padding:0px 10px; width:auto; clear:both; display:block; max-width:100%; float:left" alt="Youtube" src="http://salesforce.com/ap/assets/images/email/logo-youtube.png"></a></td>
+														</tr>
+													</tbody>
+												</table>
+												</center>
+												</td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 80px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 0px 10px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table style="padding: 0px; width: 580px; color: rgb(34, 34, 34); line-height: 19px; font-family: Helvetica,Arial,sans-serif; font-size: 14px; vertical-align: top; display: block; border-collapse: collapse; border-spacing: 0px; background-color: rgb(255, 255, 255);">
+							<tbody>
+								<tr align="left" style="padding: 0px; vertical-align: top;">
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 580px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="background: rgb(22, 50, 92); margin: 0px; padding: 10px 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;" bgcolor="#16325c">
+												<center style="width: 580px; min-width: 580px;"><span style="color: rgb(255, 255, 255); font-size: 12px;"><a style="color: rgb(255, 255, 255); text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siq9t_48imb_7riwj7" target="_blank">Sales&nbsp;</a>&nbsp;|&nbsp;&nbsp;<a style="color: rgb(255, 255, 255); text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siq9x_48imb_7riwj7" target="_blank">Service&nbsp;</a>&nbsp;|&nbsp;&nbsp;<a style="color: rgb(255, 255, 255); text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siqa1_48imb_7riwj7" target="_blank">Marketing&nbsp;</a>&nbsp;|&nbsp;&nbsp;<a style="color: rgb(255, 255, 255); text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siqa5_48imb_7riwj7" target="_blank">Platform&nbsp;</a>&nbsp;|&nbsp;&nbsp;<a style="color: rgb(255, 255, 255); text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siqa9_48imb_7riwj7" target="_blank">Community&nbsp;</a>&n!
+ bsp;|&nbsp;&nbsp;<a style="color: rgb(255, 255, 255); text-decoration: none;" href="http://www.ozmailer.com/oele/ut.php?U=siqad_48imb_7riwj7" target="_blank">Analytics</a></span></center>
+												</td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table style="background: rgb(238, 241, 246); padding: 0px; width: 580px; color: rgb(34, 34, 34); line-height: 19px; font-family: Helvetica,Arial,sans-serif; font-size: 14px; vertical-align: top; display: block; border-collapse: collapse; border-spacing: 0px;" bgcolor="#eef1f6">
+							<tbody>
+								<tr align="left" style="padding: 0px; vertical-align: top;">
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 20px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 80px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 0px 10px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">
+												<center style="width: 80px; min-width: 80px;"><img align="left" style="width:auto; clear:both; display:block; max-width:100%; float:left" alt="salesforce.com" src="http://salesforce.com/ap/assets/images/email/sf-logo-small.png"></center>
+												</td>
+												<td align="left" valign="top" style="margin: 0px; padding: 0px; width: 0px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td align="left" valign="top" style="margin: 0px; padding: 10px 0px 0px; vertical-align: top; border-collapse: collapse !important;">
+									<table style="margin: 0px auto; padding: 0px; width: 480px; vertical-align: top; border-collapse: collapse; border-spacing: 0px;">
+										<tbody>
+											<tr align="left" style="padding: 0px; vertical-align: top;">
+												<td align="left" valign="top" style="margin: 0px; padding: 0px 0px 10px; color: rgb(34, 34, 34); line-height: 19px; font-size: 14px; vertical-align: top; border-collapse: collapse !important;">
+												<p align="left" style="padding: 0px; color: rgb(102, 102, 102); line-height: 11px; font-size: 9px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;"><a style="color: rgb(102, 102, 102);" href="http://www.ozmailer.com/oele/ut.php?U=siqah_48imb_7riwj7" target="_blank">Unsubscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a style="color: rgb(102, 102, 102);" href="http://www.ozmailer.com/oele/ut.php?U=siqal_48imb_7riwj7" target="_blank">Privacy Statement</a></p>
+
+												<p align="left" style="padding: 0px; color: rgb(102, 102, 102); line-height: 11px; font-size: 9px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">Copyright &copy; 2015, <a href="http://www.ozmailer.com/oele/ut.php?U=siqap_48imb_7riwj7" target="_blank">salesforce.com</a>, inc. All rights reserved. Salesforce.com and the 'no software' logo are registered trademarks of <a href="http://www.ozmailer.com/oele/ut.php?U=siqap_48imb_7riwj7" target="_blank">salesforce.com</a>, inc., and <a href="http://www.ozmailer.com/oele/ut.php?U=siqap_48imb_7riwj7" target="_blank">salesforce.com</a> owns other registered and unregistered trademarks. Other names used herein may be trademarks of their respective owners.</p>
+
+												<p align="left" style="padding: 0px; color: rgb(102, 102, 102); line-height: 11px; font-size: 9px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px;">Salesforce.com Singapore Pte Ltd. 9 Temasek Boulevard, #40-01 Suntec Tower Two, Singapore 038989<br clear="none">
+												General Enquiries: <a target="_blank" value="+6563025700">+65 6302 5700</a> | Fax: <a target="_blank" value="+6563025777">+65 6302 5777</a> | Sales: 800 1301 448 (Singapore), 800 967 655 (Hong Kong), <a target="_blank" value="+6563025700">+65 6302 5700</a> (Intl)</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="height: 0px; background-color: rgb(255, 255, 255);">&nbsp;</td>
+		</tr>
+		<tr valign="top">
+			<td style="height: 0px; text-align: left; vertical-align: top; background-color: rgb(255, 255, 255);">&nbsp;</td>
+		</tr>
+		<tr valign="top">
+			<td style="height: 0px; background-color: rgb(255, 255, 255);">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</center>
+<br>
+You can easily unsubscribe from Marketing communications at any time, <a href="http://www.ozmailer.com/oele/ut.php?U=siqat_48imb_7riwj7" target="_blank">https://content.marketing.salesforce.com/content/Unsubscribe</a>, or request access to your preference center, <a href="http://www.ozmailer.com/oele/ut.php?U=siqax_48imb_7riwj7" target="_blank">http://pages.mail.salesforce.com/signup/</a>.<br>
+<br>
+&copy; 2015 <a href="http://www.ozmailer.com/oele/ut.php?U=siqap_48imb_7riwj7" target="_blank">salesforce.com</a>, inc. All rights reserved. Various trademarks held by their respective owners.<br>
+<br>
+Privacy Statement: <a href="http://www.ozmailer.com/oele/ut.php?U=siqb1_48imb_7riwj7" target="_blank">http://www.salesforce.com/company/privacy/</a><br>
+<br>
+Security Statement: <a href="http://www.ozmailer.com/oele/ut.php?U=siqb5_48imb_7riwj7" target="_blank">https://trust.salesforce.com</a>/<br>
+<br>
+Salesforce, Inc. The Landmark at One Market, Suite 300, San Francisco, CA 94105 United States</div>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>뉴스레터의 수신을 더이상 원하지 않으시면, 하단의 '수신거부' 버튼을 클릭해주세요.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7115843' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

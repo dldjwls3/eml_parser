@@ -1,0 +1,168 @@
+Received: (qmail 1633 invoked by uid 100); 1 Oct 2016 14:40:34 -0000
+Received: from 10.114.250.104 (HELO crcvmail03.wmail.naver.com) (10.114.250.104)
+  by cmda003.wmail.worksmobile.com with SMTP;1 Oct 2016 14:40:34 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from  (mail.duzon.com [202.167.215.64])
+  by crcvmail03.wmail.naver.com with ESMTP id E-0EzbjCT5utlue2vFSZvg
+  for <jonghyun.kim@dforensic.com>;
+  Sat, 01 Oct 2016 14:40:33 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u91Eg6i00684;
+	Sat, 01 Oct 2016 23:42:06 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u91Eg6i00684
+X-SmartFilter: FROM,u91Eg6i00684,joseph@duzon.com
+x-forward-id: <22b13d8afbe1606cb7f43492373af96d@www.emailsend.it>
+Received: from external ([209.85.213.45])
+	by smf.duzon.co.kr (1.0) id u91Eg4W00678;
+	Sat, 01 Oct 2016 23:42:04 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u91Eg4W00678
+X-SmartFilter: FROM,u91Eg4W00678,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f45.google.com with SMTP id v205so127432952vke.1
+        for <joseph@duzon.com>; Sat, 01 Oct 2016 07:40:11 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :date:to:from:reply-to:subject:message-id:mime-version;
+        bh=shYAnuz+ycrDDYaJBcU/0sQylu5mbgBdRkSKMtZr/Fg=;
+        b=M75s7I3G3qiNtvRa0f/Po+uhx+qLDOTbl/oaNUcjQxmdgMW+MunaaT1G17U0TBVdXZ
+         JZKr3e2Hu3/EScE6FzgP3lzP8DjiA+K3Wkaz0t2cEfeiEHP7XNBmzyMf4x9hO7gLUJ4C
+         RaHAGXSXtXlS/LD19rQ8hkVaPFAagOt0nb+FHQPO3hTbl5HhQZF5lu0HfGCdKxqfpbw9
+         5LSe8PCS9k/hggK+3sER1BMqnVoFMEzQp3PJh3sDJiDDM9+lK7xlcReVjM72cNdhb5t6
+         Ihl6B/Yk2N2i9HOjfQVR+Z6sWbgcOjVCBtRDwfvCngSScfxRyAhUY/+ZA5/p1/jjHvHz
+         9ydw==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AA6/9Rkk1w7Muc7Wvs7zP31MPd49t7AIsC8et90h0BcgzCjnbLLWvE/pEAvu+W22LuX+grDJWum9qy0DAaAognrHxpFwQRw=
+X-Received: by 10.31.182.71 with SMTP id g68mr9006625vkf.135.1475332809795;
+        Sat, 01 Oct 2016 07:40:09 -0700 (PDT)
+X-Forwarded-To: pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.38.71 with SMTP id m68csp806281vsm;
+        Sat, 1 Oct 2016 07:40:08 -0700 (PDT)
+X-Received: by 10.36.192.9 with SMTP id u9mr10667092itf.86.1475332807522;
+        Sat, 01 Oct 2016 07:40:07 -0700 (PDT)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id i76si1411085iod.211.2016.10.01.07.40.06
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 01 Oct 2016 07:40:07 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u91EflV00677;
+	Sat, 01 Oct 2016 23:41:47 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u91EflV00677
+X-SmartFilter: FROM,u91EflV00677,forensic@duzon.com
+x-forward-id: <22b13d8afbe1606cb7f43492373af96d@www.emailsend.it>
+Received: from external ([37.187.211.203])
+	by smf.duzon.co.kr (1.0) id u91EfjT00675;
+	Sat, 01 Oct 2016 23:41:45 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u91EfjT00675
+X-SmartFilter: FROM,u91EfjT00675,sender@emailsend.it
+Received: from www.emailsend.it (emailsend.it [37.187.211.203])
+	by vps50951.ovh.net (Postfix) with ESMTPA id A9ECA117A44
+	for <forensic@duzon.com>; Sat,  1 Oct 2016 16:40:25 +0200 (CEST)
+Date: Sat, 1 Oct 2016 16:40:25 +0200
+To: forensic@duzon.com
+From: Communication 360 <sender@emailsend.it>
+Reply-to: Communication 360 <sender@emailsend.it>
+Subject: Vuoi vendere la tua azienda?
+Message-ID: <22b13d8afbe1606cb7f43492373af96d@www.emailsend.it>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_22b13d8afbe1606cb7f43492373af96d"
+X-Naver-ESV: wwFn+6J4p635WrlY7BwdpBmwFAtmKq3YkXm=
+
+
+--b1_22b13d8afbe1606cb7f43492373af96d
+Content-Type: text/plain; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+Se non visualizzi correttamente questa email clicca qui.
+        
+        
+            
+            Vuoi vendere
+            la tua attività?
+            Cerchi un socio finanziatore?
+            
+        
+        
+            
+        
+        
+            
+            Abbiamo centinaia di acquirenti
+            pronti all'acquisto!
+            
+        
+        
+            Ti aiutiamo a svolgere la cesione dell'azienda
+            nel modo più rapido e sicuro
+        
+        
+            
+        
+        
+            
+        
+        
+            INTERMEDIA - via Roma 18/D 39100 Bolzano
+            P.I. 02719090215 - Iscrizione Registro Imprese: 199947
+        
+    
+Ricevi questa mail perchè sei iscritto a www.databaseaziendali.com. Per cancellare la tua iscrizione segui questo  link.
+
+
+--b1_22b13d8afbe1606cb7f43492373af96d
+Content-Type: text/html; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+<html><head></head><body><table width="589" cellspacing="0" cellpadding="0" border="0" bgcolor="#f5fafe" align="center" style="font-family: Arial, Helvetica, sans-serif;">
+    <tbody>
+        <tr>
+            <td align="right" style="font-size: 12px;"><a href="http://richiestecontatto.it/landing/vandere-attivita/?ref=173">Se non visualizzi correttamente questa email clicca qui.</a></td>
+        </tr>
+        <tr>
+            <td align="center" height="200">
+            <h1 style="margin-bottom: 0; font-size: 48px;">Vuoi vendere</h1>
+            <h2 style="margin-top: 0; margin-bottom: 0; font-size: 48px; font-weight: normal;">la tua attivit&agrave;?</h2>
+            <h2 style="margin-top: 10px; margin-bottom: 0; font-size: 36px; font-weight: normal;">Cerchi un socio finanziatore?</h2>
+            </td>
+        </tr>
+        <tr>
+            <td><img width="589" border="0" height="308" alt="" src="http://richiestecontatto.it/landing/vandere-attivita/dem/dem-01.jpg" /></td>
+        </tr>
+        <tr>
+            <td height="90">
+            <p style="padding-left: 20px; font-size: 30px;">Abbiamo centinaia di acquirenti<br />
+            pronti all'acquisto!</p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="95"><strong>Ti aiutiamo a svolgere la cesione dell'azienda<br />
+            nel modo pi&ugrave; rapido e sicuro</strong></td>
+        </tr>
+        <tr>
+            <td><a href="http://richiestecontatto.it/landing/vandere-attivita/?ref=173"><img width="589" border="0" height="56" alt="" src="http://richiestecontatto.it/landing/vandere-attivita/dem/dem-04.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td><a href="http://richiestecontatto.it/landing/vandere-attivita/?ref=173"><img width="589" border="0" height="116" alt="" src="http://richiestecontatto.it/landing/vandere-attivita/dem/dem-05.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td align="center" height="50" style="font-size: 12px;"><strong>INTERMEDIA</strong> - via Roma 18/D 39100 Bolzano<br />
+            P.I. 02719090215 - Iscrizione Registro Imprese: 199947</td>
+        </tr>
+    </tbody>
+</table><br style="clear: both;"/><span style="margin-top: 10px;float: left;font-size:12px;color:#333;">Ricevi questa mail perch&egrave; sei iscritto a <a href="http://www.impreseonline.net" style="text-decoration: underline;color: #333;">www.impreseonline.net</a>. Per cancellare la tua iscrizione segui questo <a href="http://www.gate3way.it/unsubscribe.php?h=Zm9yZW5zaWNAZHV6b24uY29tOjM6MTE2Ond3dy5pbXByZXNlb25saW5lLm5ldA==" style="text-decoration: underline;color: #333;"> link</a>.</span><br /><img src="http:///www.emailsend.it/read.php?id=MTE2" /></body></html>
+
+
+
+--b1_22b13d8afbe1606cb7f43492373af96d--
+
+
+

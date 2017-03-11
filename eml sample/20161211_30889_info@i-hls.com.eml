@@ -1,0 +1,996 @@
+Received: (qmail 10678 invoked by uid 100); 10 Dec 2016 16:09:16 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda001.wmail.worksmobile.com with SMTP;10 Dec 2016 16:09:16 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id vEIV0k0QTHSL3k0hAXFYig
+  for <jonghyun.kim@dforensic.com>;
+  Sat, 10 Dec 2016 16:09:16 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBAGAkY00449;
+	Sun, 11 Dec 2016 01:10:46 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBAGAkY00449
+X-SmartFilter: FROM,uBAGAkY00449,joseph@duzon.com
+x-forward-id: <5acc1ed377b590a98a195f624.77ab4125da.20161210160522.27ab2fad8f.95fc1bf0@mail19.wdc01.mcdlv.net>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tbYsv135gz2fmGJ; Sun, 11 Dec 2016 01:07:55 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tbYsl6m29z2fmG6
+	for <joseph@duzon.com>; Sun, 11 Dec 2016 01:07:55 +0900 (KST)
+Received: from external ([205.201.129.19])
+	by smf.duzon.co.kr (1.0) id uBAG8mU00445;
+	Sun, 11 Dec 2016 01:08:48 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBAG8mU00445
+X-SmartFilter: FROM,uBAG8mU00445,bounce-mc.us7_19778971.372353-joseph=duzon.com@mail19.wdc01.mcdlv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail19.wdc01.mcdlv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=info=3Di-hls.com@mail19.wdc01.mcdlv.net;
+ bh=q2DStolgVLk3txGanr4MvPg7dcA=;
+ b=oFA6qobNRV3E3ypUeMXpv2tD3TWJ8gwjkBaYhhCUQjo0Z46dxzdLh+TnhZ09gOqOENgeZxOCmC9+
+   pzUIoqWEH8/yi43b5yUsZfrguaJitInc9sZp2EZw04q5epPA6OEn+lx0YbJET+Ao/5kRakebnUCd
+   0NXTGNEwcGTN8h75Z0I=
+Received: from (127.0.0.1) by mail19.wdc01.mcdlv.net id h9gjuq24b2g0 for <joseph@duzon.com>; Sat, 10 Dec 2016 16:06:01 +0000 (envelope-from <bounce-mc.us7_19778971.372353-joseph=duzon.com@mail19.wdc01.mcdlv.net>)
+Subject: =?utf-8?Q?Topics=20Newsletter?=
+From: =?utf-8?Q?iHLS?= <info@i-hls.com>
+Reply-To: =?utf-8?Q?iHLS?= <info@i-hls.com>
+To: =?utf-8?Q?Joseph?= <joseph@duzon.com>
+Date: Sat, 10 Dec 2016 16:06:01 +0000
+Message-ID: <5acc1ed377b590a98a195f624.77ab4125da.20161210160522.27ab2fad8f.95fc1bf0@mail19.wdc01.mcdlv.net>
+X-Mailer: MailChimp Mailer - **CID27ab2fad8f77ab4125da**
+X-Campaign: mailchimp5acc1ed377b590a98a195f624.27ab2fad8f
+X-campaignid: mailchimp5acc1ed377b590a98a195f624.27ab2fad8f
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=5acc1ed377b590a98a195f624&id=27ab2fad8f&e=77ab4125da
+X-MC-User: 5acc1ed377b590a98a195f624
+X-Feedback-ID: 19778971:19778971.372353:us7:mc
+List-ID: 5acc1ed377b590a98a195f624mc list <5acc1ed377b590a98a195f624.157721.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us7_5acc1ed377b590a98a195f624.27ab2fad8f-77ab4125da@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://i-hls.us7.list-manage.com/unsubscribe?u=5acc1ed377b590a98a195f624&id=8ee2e16ed1&e=77ab4125da&c=27ab2fad8f>
+Sender: "iHLS" <info=i-hls.com@mail19.wdc01.mcdlv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1916090244"
+MIME-Version: 1.0
+X-Naver-ESV: wZen+6J4p635WrlY7BwdpBmwFoglKxpYkXm=
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1916090244
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Select the newsletter topics you would like to receive (http://i-hls.us7.l=
+ist-manage.com/profile?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D=
+77ab4125da)
+
+Is this email not displaying correctly? View it in your browser. (http://u=
+s7.campaign-archive2.com/?u=3D5acc1ed377b590a98a195f624&id=3D27ab2fad8f&e=
+=3D77ab4125da)
+
+http://terraindominance.i-hls.com/?utm_source=3DIsrael+Homeland+Security+%=
+28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm=
+_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=
+=3D[UNIQID]
+
+Your customized newsletter
+December 10=2C 2016
+http://i-hls.com/2016/12/poland-plans-huge-defence-budgets-will-israel-ben=
+efit-not-sure/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campai=
+gn=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1=
+-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Poland Plans Huge Defence Budgets =E2=80=93 Will Israel Benefit? Not Su=
+re (http://i-hls.com/2016/12/poland-plans-huge-defence-budgets-will-israel=
+-benefit-not-sure/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_ca=
+mpaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e1=
+6ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/ihls-security-accelerator-first-cycle-graduated-c=
+ome-see-projects/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_cam=
+paign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16=
+ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** iHLS Security Accelerator First Cycle Graduated =E2=80=93 Come and See=
+ Projects (http://i-hls.com/2016/12/ihls-security-accelerator-first-cycle-=
+graduated-come-see-projects/?utm_source=3DIsrael+Homeland+Security+%28iHLS=
+%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=
+=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[=
+UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/china-strives-cooperation-military-anti-terror-fi=
+elds/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab=
+2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad=
+8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** China Strives for Cooperation in Military and Anti-Terror Fields (http:=
+//i-hls.com/2016/12/china-strives-cooperation-military-anti-terror-fields/=
+?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8=
+f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/will-israeli-companies-benefit-indian-demand/?utm=
+_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-EN=
+GLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Will Israeli Companies Benefit from the Indian Demand? (http://i-hls.co=
+m/2016/12/will-israeli-companies-benefit-indian-demand/?utm_source=3DIsrae=
+l+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&u=
+tm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_ci=
+d=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/industry-making-intelligent-video-search-engines/=
+?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8=
+f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** An Industry in the Making =E2=80=93 Intelligent Video Search Engines (h=
+ttp://i-hls.com/2016/12/industry-making-intelligent-video-search-engines/?=
+utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f=
+-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/marines-improve-operational-situational-awareness=
+-command-capabilities/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&ut=
+m_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8e=
+e2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Marines Improve Operational Situational Awareness and Command Capabilit=
+ies (http://i-hls.com/2016/12/marines-improve-operational-situational-awar=
+eness-command-capabilities/?utm_source=3DIsrael+Homeland+Security+%28iHLS%=
+29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=
+=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[=
+UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/video-technology-monitoring-prisons-hospitals/?ut=
+m_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-E=
+NGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Video Technology =E2=80=93 for Monitoring in Prisons and Hospitals (htt=
+p://i-hls.com/2016/12/video-technology-monitoring-prisons-hospitals/?utm_s=
+ource=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGL=
+ISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/electromagnetic-pulse-uavs/?utm_source=3DIsrael+H=
+omeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_=
+medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=
+=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Electromagnetic Pulse Against UAV=E2=80=99s (http://i-hls.com/2016/12/e=
+lectromagnetic-pulse-uavs/?utm_source=3DIsrael+Homeland+Security+%28iHLS%2=
+9&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D=
+0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNI=
+QID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/alarming-reports-irans-violations-nuclear-agreeme=
+nt/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2f=
+ad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f=
+-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Alarming Reports on Iran=E2=80=99s Violations of Nuclear Agreement (htt=
+p://i-hls.com/2016/12/alarming-reports-irans-violations-nuclear-agreement/=
+?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8=
+f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/drivers-respond-emergency-autonomous-vehicles/?ut=
+m_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-E=
+NGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** How Do Drivers Respond to Emergency in Autonomous Vehicles? (http://i-h=
+ls.com/2016/12/drivers-respond-emergency-autonomous-vehicles/?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/increasing-speed-mapping-information-transporatio=
+n/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fa=
+d8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Increasing the Speed of Mapping Information Transporation (http://i-hls=
+=2Ecom/2016/12/increasing-speed-mapping-information-transporation/?utm_sourc=
+e=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_=
+DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/secret-russian-uav-spotted-google-maps/?utm_sourc=
+e=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_=
+DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Secret Russian UAV Spotted by Google Maps (http://i-hls.com/2016/12/sec=
+ret-russian-uav-spotted-google-maps/?utm_source=3DIsrael+Homeland+Security=
++%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&u=
+tm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_e=
+id=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/assessing-autonomous-vessels-anti-collision-mecha=
+nism/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab=
+2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad=
+8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Assessing Autonomous Vessels Anti-Collision Mechanism (http://i-hls.com=
+/2016/12/assessing-autonomous-vessels-anti-collision-mechanism/?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/new-technology-mimicks-dogs-abilities-detect-expl=
+osives/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27=
+ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2f=
+ad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** New Technology Mimicks Dogs=E2=80=99 Abilities to Detect Explosives (ht=
+tp://i-hls.com/2016/12/new-technology-mimicks-dogs-abilities-detect-explos=
+ives/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab=
+2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad=
+8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/uavs-will-enhance-warfighters-situational-awarene=
+ss/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2f=
+ad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f=
+-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** UAVs will Enhance Warfighter=E2=80=99s Situational Awareness (http://i-=
+hls.com/2016/12/uavs-will-enhance-warfighters-situational-awareness/?utm_s=
+ource=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGL=
+ISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://i-hls.com/2016/12/cybersecurity-major-part-homeland-security-cooper=
+ation/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27a=
+b2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fa=
+d8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+
+
+** Cybersecurity =E2=80=93 Major Part of Homeland Security Cooperation (ht=
+tp://i-hls.com/2016/12/cybersecurity-major-part-homeland-security-cooperat=
+ion/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2=
+fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8=
+f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+http://terraindominance.i-hls.com/?utm_source=3DIsrael+Homeland+Security+%=
+28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm=
+_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=
+=3D[UNIQID]
+
+http://www.facebook.com/pages/i-HLS/508579132507750?utm_source=3DIsrael+Ho=
+meland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_m=
+edium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D=
+27ab2fad8f&mc_eid=3D[UNIQID] http://www.linkedin.com/groups/iHLS-Israel-H=
+omeland-Security-iHLS-5176448?utm_source=3DIsrael+Homeland+Security+%28iHL=
+S%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=
+=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[=
+UNIQID] https://plus.google.com/u/0/100075572765826826504/posts?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID] https://twitter.com/iHLS1?utm_so=
+urce=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLI=
+SH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID] http://www.youtube.com/user/=
+israelhls?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D=
+27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab=
+2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]
+Israel Homeland Security
+www.i-hls.com (http://i-hls.com?utm_source=3DIsrael+Homeland+Security+%28i=
+HLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_te=
+rm=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D=
+[UNIQID])
+
+This email was sent to joseph@duzon.com
+why did I get this? (http://i-hls.us7.list-manage.com/about?u=3D5acc1ed377=
+b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D27ab2fad8f)     unsubscri=
+be from this list (http://i-hls.us7.list-manage.com/unsubscribe?u=3D5acc1e=
+d377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D27ab2fad8f)     updat=
+e subscription preferences (http://i-hls.us7.list-manage.com/profile?u=3D5=
+acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da)
+iHLS Israel Homeland Security . Haharoshet 16 . Ra=E2=80=99anana 4365708 .=
+ Israel
+--_----------=_MCPart_1916090244
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <title>Untitled Page</title>
+</head>
+<body style=3D"background-color: #eeeeee;">
+    <br>
+    <p align=3D"center">
+        <a align=3D"center" style=3D"font: bold 22px Arial" href=3D"http:/=
+/i-hls.us7.list-manage.com/profile?u=3D5acc1ed377b590a98a195f624&id=3D8ee2=
+e16ed1&e=3D77ab4125da">
+            Select the newsletter topics you would like to receive</a></p>
+    <p align=3D"center">
+        <a align=3D"center" style=3D"font: bold 22px Arial" href=3D"http:/=
+/us7.campaign-archive2.com/?u=3D5acc1ed377b590a98a195f624&id=3D27ab2fad8f&=
+e=3D77ab4125da">Is this email not
+            displaying correctly? View it in your browser.</a></p>
+    <table width=3D"820" align=3D"center">
+        <tr>
+            <td align=3D"center">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table width=3D"820" align=3D"center">
+        <tr>
+           <td>
+           <center>
+               <a href=3D"http://terraindominance.i-hls.com/?utm_source=3D=
+Israel+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNA=
+MIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&=
+mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">
+
+                    <img src=3D"https://gallery.mailchimp.com/5acc1ed377b5=
+90a98a195f624/images/2baf6e61-5ff2-4230-af01-4635297c6535.jpg" width=3D"82=
+0" height=3D"101"></a></center><br>
+            </td>
+        </tr>
+    </table>
+    <table width=3D"820" align=3D"center">
+        <tr>
+            <td align=3D"center">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: #ffffff; padding: 10px;">
+                <table width=3D"800" cellspacing=3D"0" cellpadding=3D"0">
+                    <tr>
+                        <td width=3D"240" height=3D"60">
+                            <img src=3D"http://i-hls.com/dynamic/ihls-logo=
+=2Epng">
+                        </td>
+                        <td style=3D"font: 30px Calibri; color: #2b9bd6" a=
+lign=3D"right">
+                            Your customized newsletter
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"background-color: #2b9bd6; color: #ffffff; font:=
+ bold 22px Calibri; padding: 3px 10px;
+                border-bottom: solid 1px #1973a2;" align=3D"right">
+                December 10=2C 2016
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/poland-plans-huge-defence-budgets-will-israel-benefit-not-sure/?=
+utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f=
+-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" he=
+ight=3D"150" src=3D"http://i-hls.com/wp-content/uploads/2016/12/polish-arm=
+y2-200x150.jpg" class=3D"attachment-thumbnail size-thumbnail wp-post-image=
+" alt=3D"" style=3D"display:block;border:none 0;"></a></td><td valign=3D"t=
+op" style=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin=
+:0px"><a style=3D"color:gray;text-decoration:none" href=3D"http://i-hls.co=
+m/2016/12/poland-plans-huge-defence-budgets-will-israel-benefit-not-sure/?=
+utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f=
+-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">Poland Plans Huge Def=
+ence Budgets &#8211; Will Israel Benefit? Not Sure</a></h1></td></tr></tab=
+le>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/ihls-security-accelerator-first-cycle-graduated-come-see-project=
+s/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fa=
+d8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200"=
+ height=3D"150" src=3D"http://i-hls.com/wp-content/uploads/2016/12/demoday=
+6-200x150.jpg" class=3D"attachment-thumbnail size-thumbnail wp-post-image"=
+ alt=3D"" style=3D"display:block;border:none 0;"></a></td><td valign=3D"to=
+p" style=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:=
+0px"><a style=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com=
+/2016/12/ihls-security-accelerator-first-cycle-graduated-come-see-projects=
+/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad=
+8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">iHLS Security Accel=
+erator First Cycle Graduated &#8211; Come and See Projects</a></h1></td></=
+tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/china-strives-cooperation-military-anti-terror-fields/?utm_sourc=
+e=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_=
+DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"1=
+50" src=3D"http://i-hls.com/wp-content/uploads/2016/12/china-200x150.jpg"=
+ class=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=3D"" styl=
+e=3D"display:block;border:none 0;"></a></td><td valign=3D"top" style=3D"fo=
+nt:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a style=
+=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com/2016/12/chin=
+a-strives-cooperation-military-anti-terror-fields/?utm_source=3DIsrael+Hom=
+eland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_me=
+dium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D2=
+7ab2fad8f&mc_eid=3D[UNIQID]">China Strives for Cooperation in Military an=
+d Anti-Terror Fields</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/will-israeli-companies-benefit-indian-demand/?utm_source=3DIsrae=
+l+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&u=
+tm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_ci=
+d=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"150" src=
+=3D"http://i-hls.com/wp-content/uploads/2016/12/mini-uav-200x150.jpg" clas=
+s=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=3D"" style=3D"=
+display:block;border:none 0;" srcset=3D"http://i-hls.com/wp-content/upload=
+s/2016/12/mini-uav-200x150.jpg 200w=2C http://i-hls.com/wp-content/uploads=
+/2016/12/mini-uav-300x225.jpg 300w=2C http://i-hls.com/wp-content/uploads/=
+2016/12/mini-uav-768x576.jpg 768w=2C http://i-hls.com/wp-content/uploads/2=
+016/12/mini-uav-400x300.jpg 400w=2C http://i-hls.com/wp-content/uploads/20=
+16/12/mini-uav-700x525.jpg 700w=2C http://i-hls.com/wp-content/uploads/201=
+6/12/mini-uav-476x357.jpg 476w=2C http://i-hls.com/wp-content/uploads/2016=
+/12/mini-uav-644x483.jpg 644w" sizes=3D"(max-width: 200px) 100vw=2C 200px"=
+></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=3D"font=
+:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decoration:none=
+" href=3D"http://i-hls.com/2016/12/will-israeli-companies-benefit-indian-d=
+emand/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27a=
+b2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fa=
+d8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">Will Israeli C=
+ompanies Benefit from the Indian Demand?</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/industry-making-intelligent-video-search-engines/?utm_source=3DI=
+srael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAM=
+IC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&m=
+c_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"150" s=
+rc=3D"http://i-hls.com/wp-content/uploads/2016/12/video-search-200x150.jpg=
+" class=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=3D"" sty=
+le=3D"display:block;border:none 0;"></a></td><td valign=3D"top" style=3D"f=
+ont:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a style=
+=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com/2016/12/indu=
+stry-making-intelligent-video-search-engines/?utm_source=3DIsrael+Homeland=
++Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=
+=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2=
+fad8f&mc_eid=3D[UNIQID]">An Industry in the Making &#8211; Intelligent Vi=
+deo Search Engines</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/marines-improve-operational-situational-awareness-command-capabi=
+lities/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27=
+ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2f=
+ad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D=
+"200" height=3D"150" src=3D"http://i-hls.com/wp-content/uploads/2016/12/ma=
+rines1-200x150.jpg" class=3D"attachment-thumbnail size-thumbnail wp-post-i=
+mage" alt=3D"" style=3D"display:block;border:none 0;"></a></td><td valign=
+=3D"top" style=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;m=
+argin:0px"><a style=3D"color:gray;text-decoration:none" href=3D"http://i-h=
+ls.com/2016/12/marines-improve-operational-situational-awareness-command-c=
+apabilities/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=
+=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-2=
+7ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">Marines=
+ Improve Operational Situational Awareness and Command Capabilities</a></h=
+1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/video-technology-monitoring-prisons-hospitals/?utm_source=3DIsra=
+el+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&=
+utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_c=
+id=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"150" src=
+=3D"http://i-hls.com/wp-content/uploads/2016/12/prison-monitoring-200x150.=
+jpg" class=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=3D""=
+ style=3D"display:block;border:none 0;"></a></td><td valign=3D"top" style=
+=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a=
+ style=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com/2016/1=
+2/video-technology-monitoring-prisons-hospitals/?utm_source=3DIsrael+Homel=
+and+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medi=
+um=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27a=
+b2fad8f&mc_eid=3D[UNIQID]">Video Technology &#8211; for Monitoring in Pri=
+sons and Hospitals</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/electromagnetic-pulse-uavs/?utm_source=3DIsrael+Homeland+Securit=
+y+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&=
+utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_=
+eid=3D[UNIQID]"><img width=3D"200" height=3D"150" src=3D"http://i-hls.com=
+/wp-content/uploads/2016/12/emp-3-200x150.jpg" class=3D"attachment-thumbna=
+il size-thumbnail wp-post-image" alt=3D"" style=3D"display:block;border:no=
+ne 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=
+=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decorat=
+ion:none" href=3D"http://i-hls.com/2016/12/electromagnetic-pulse-uavs/?utm=
+_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-EN=
+GLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">Electromagnetic Pulse Ag=
+ainst UAV=E2=80=99s</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/alarming-reports-irans-violations-nuclear-agreement/?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"15=
+0" src=3D"http://i-hls.com/wp-content/uploads/2016/12/iran-nuclear-200x150=
+=2Ejpg" class=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=3D""=
+ style=3D"display:block;border:none 0;"></a></td><td valign=3D"top" style=
+=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a=
+ style=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com/2016/1=
+2/alarming-reports-irans-violations-nuclear-agreement/?utm_source=3DIsrael=
++Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&ut=
+m_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=
+=3D27ab2fad8f&mc_eid=3D[UNIQID]">Alarming Reports on Iran=E2=80=99s Viola=
+tions of Nuclear Agreement</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/drivers-respond-emergency-autonomous-vehicles/?utm_source=3DIsra=
+el+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&=
+utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_c=
+id=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"150" src=
+=3D"http://i-hls.com/wp-content/uploads/2016/12/driver--200x150.jpg" class=
+=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=3D"" style=3D"d=
+isplay:block;border:none 0;"></a></td><td valign=3D"top" style=3D"font:20p=
+x Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a style=3D"col=
+or:gray;text-decoration:none" href=3D"http://i-hls.com/2016/12/drivers-res=
+pond-emergency-autonomous-vehicles/?utm_source=3DIsrael+Homeland+Security+=
+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&ut=
+m_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_ei=
+d=3D[UNIQID]">How Do Drivers Respond to Emergency in Autonomous Vehicles?=
+</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/increasing-speed-mapping-information-transporation/?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"15=
+0" src=3D"http://i-hls.com/wp-content/uploads/2016/12/speed-mapping-200x15=
+0.jpg" class=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=3D"=
+" style=3D"display:block;border:none 0;"></a></td><td valign=3D"top" style=
+=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a=
+ style=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com/2016/1=
+2/increasing-speed-mapping-information-transporation/?utm_source=3DIsrael+=
+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm=
+_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=
+=3D27ab2fad8f&mc_eid=3D[UNIQID]">Increasing the Speed of Mapping Informat=
+ion Transporation</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/secret-russian-uav-spotted-google-maps/?utm_source=3DIsrael+Home=
+land+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_med=
+ium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27=
+ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"150" src=3D"http=
+://i-hls.com/wp-content/uploads/2016/12/altius-200x150.jpg" class=3D"attac=
+hment-thumbnail size-thumbnail wp-post-image" alt=3D"" style=3D"display:bl=
+ock;border:none 0;" srcset=3D"http://i-hls.com/wp-content/uploads/2016/12/=
+altius-200x150.jpg 200w=2C http://i-hls.com/wp-content/uploads/2016/12/alt=
+ius-300x225.jpg 300w=2C http://i-hls.com/wp-content/uploads/2016/12/altius=
+-768x576.jpg 768w=2C http://i-hls.com/wp-content/uploads/2016/12/altius-40=
+0x300.jpg 400w=2C http://i-hls.com/wp-content/uploads/2016/12/altius-700x5=
+25.jpg 700w=2C http://i-hls.com/wp-content/uploads/2016/12/altius-476x357.=
+jpg 476w=2C http://i-hls.com/wp-content/uploads/2016/12/altius-644x483.jpg=
+ 644w=2C http://i-hls.com/wp-content/uploads/2016/12/altius.jpg 1024w" siz=
+es=3D"(max-width: 200px) 100vw=2C 200px"></a></td><td valign=3D"top" style=
+=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a=
+ style=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com/2016/1=
+2/secret-russian-uav-spotted-google-maps/?utm_source=3DIsrael+Homeland+Sec=
+urity+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Dem=
+ail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f=
+&mc_eid=3D[UNIQID]">Secret Russian UAV Spotted by Google Maps</a></h1></t=
+d></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/assessing-autonomous-vessels-anti-collision-mechanism/?utm_sourc=
+e=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_=
+DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"1=
+50" src=3D"http://i-hls.com/wp-content/uploads/2016/12/US_Navy_110720-N-ZZ=
+999-007_A_common_unmanned_surface_vehicle_patrols_-200x150.jpg" class=3D"a=
+ttachment-thumbnail size-thumbnail wp-post-image" alt=3D"" style=3D"displa=
+y:block;border:none 0;"></a></td><td valign=3D"top" style=3D"font:20px Cal=
+ibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gr=
+ay;text-decoration:none" href=3D"http://i-hls.com/2016/12/assessing-autono=
+mous-vessels-anti-collision-mechanism/?utm_source=3DIsrael+Homeland+Securi=
+ty+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail=
+&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc=
+_eid=3D[UNIQID]">Assessing Autonomous Vessels Anti-Collision Mechanism</a=
+></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/new-technology-mimicks-dogs-abilities-detect-explosives/?utm_sou=
+rce=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLIS=
+H_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D=
+"150" src=3D"http://i-hls.com/wp-content/uploads/2016/12/dogs-200x150.jpg"=
+ class=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=3D"" styl=
+e=3D"display:block;border:none 0;"></a></td><td valign=3D"top" style=3D"fo=
+nt:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a style=
+=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com/2016/12/new-=
+technology-mimicks-dogs-abilities-detect-explosives/?utm_source=3DIsrael+H=
+omeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_=
+medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=
+=3D27ab2fad8f&mc_eid=3D[UNIQID]">New Technology Mimicks Dogs=E2=80=99 Abi=
+lities to Detect Explosives</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/uavs-will-enhance-warfighters-situational-awareness/?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"15=
+0" src=3D"http://i-hls.com/wp-content/uploads/2016/12/uav-warriors-200x150=
+=2Ejpg" class=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=3D""=
+ style=3D"display:block;border:none 0;"></a></td><td valign=3D"top" style=
+=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a=
+ style=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com/2016/1=
+2/uavs-will-enhance-warfighters-situational-awareness/?utm_source=3DIsrael=
++Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&ut=
+m_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=
+=3D27ab2fad8f&mc_eid=3D[UNIQID]">UAVs will Enhance Warfighter=E2=80=99s S=
+ituational Awareness</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.co=
+m/2016/12/cybersecurity-major-part-homeland-security-cooperation/?utm_sour=
+ce=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH=
+_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]"><img width=3D"200" height=3D"=
+150" src=3D"http://i-hls.com/wp-content/uploads/2016/12/us-israel-cyber-20=
+0x150.jpg" class=3D"attachment-thumbnail size-thumbnail wp-post-image" alt=
+=3D"" style=3D"display:block;border:none 0;"></a></td><td valign=3D"top" s=
+tyle=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"=
+><a style=3D"color:gray;text-decoration:none" href=3D"http://i-hls.com/201=
+6/12/cybersecurity-major-part-homeland-security-cooperation/?utm_source=3D=
+Israel+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNA=
+MIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&=
+mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">Cybersecurity &#8211; Major Part o=
+f Homeland Security Cooperation</a></h1></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table width=3D"820" align=3D"center">
+        <tr>
+            <td>
+                <a href=3D"http://terraindominance.i-hls.com/?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">
+
+                    <img src=3D"https://gallery.mailchimp.com/5acc1ed377b5=
+90a98a195f624/images/2baf6e61-5ff2-4230-af01-4635297c6535.jpg" width=3D"82=
+0" height=3D"101"></a><br>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-to=
+p: solid 10px #bbbbbb;">
+                <table width=3D"800" cellspacing=3D"0" cellpadding=3D"0">
+                    <tr>
+                        <td valign=3D"top">
+                            <table cellpadding=3D"0" cellspacing=3D"0">
+                                <tr>
+                                    <td width=3D"60">
+                                        <a href=3D"http://www.facebook.com=
+/pages/i-HLS/508579132507750?utm_source=3DIsrael+Homeland+Security+%28iHLS=
+%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=
+=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[=
+UNIQID]">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/facebook.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                    <td width=3D"60">
+                                        <a href=3D"http://www.linkedin.com=
+/groups/iHLS-Israel-Homeland-Security-iHLS-5176448?utm_source=3DIsrael+Hom=
+eland+Security+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_me=
+dium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D2=
+7ab2fad8f&mc_eid=3D[UNIQID]">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/linkedin.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                    <td width=3D"60">
+                                        <a href=3D"https://plus.google.com=
+/u/0/100075572765826826504/posts?utm_source=3DIsrael+Homeland+Security+%28=
+iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_t=
+erm=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=
+=3D[UNIQID]">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/plus.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                    <td width=3D"60">
+                                        <a href=3D"https://twitter.com/iHL=
+S1?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D27ab2fa=
+d8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-27ab2fad8f-=
+89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/twitter.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                    <td width=3D"60">
+                                        <a href=3D"http://www.youtube.com/=
+user/israelhls?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campai=
+gn=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1=
+-27ab2fad8f-89968877&mc_cid=3D27ab2fad8f&mc_eid=3D[UNIQID]">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/youtube.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style=3D"font: 30px Calibri; color: #bbbbbb" a=
+lign=3D"right">
+                            Israel Homeland Security
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"background-color: #dddddd;" align=3D"center" heig=
+ht=3D"40">
+                <a href=3D"http://i-hls.com?utm_source=3DIsrael+Homeland+S=
+ecurity+%28iHLS%29&utm_campaign=3D27ab2fad8f-ENGLISH_DYNAMIC&utm_medium=3D=
+email&utm_term=3D0_8ee2e16ed1-27ab2fad8f-89968877&mc_cid=3D27ab2fad=
+8f&mc_eid=3D[UNIQID]" style=3D"color: #2b9bd6; text-decoration: none; fon=
+t: bold 22px Calibri;">
+                    www.i-hls.com</a>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" id=3D"canspamBarWrapper" style=3D"background-color: #FFFFFF; border-t=
+op: 1px solid #E5E5E5;">
+            <tr>
+                <td align=3D"center" valign=3D"top" style=3D"padding-top:=
+ 20px; padding-bottom: 20px;">
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" id=3D"canspamBar">
+                        <tr>
+                            <td align=3D"center" valign=3D"top" style=3D"c=
+olor: #606060; font-family: Helvetica=2C Arial=2C sans-serif;
+                                font-size: 11px; line-height: 150%; paddin=
+g-right: 20px; padding-bottom: 5px;
+                                padding-left: 20px; text-align: center;">
+                                This email was sent to <a href=3D"=
+joseph@duzon.com" target=3D"_blank" style=3D"color: #404040 !important;">
+                                    joseph@duzon.com</a>
+                                <br>
+                                <a href=3D"http://i-hls.us7.list-manage.co=
+m/about?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D27a=
+b2fad8f" target=3D"_blank" style=3D"color: #404040 !important;"><em>why
+                                    did I get this?</em></a>&nbsp;&nbsp;&n=
+bsp;&nbsp;<a href=3D"http://i-hls.us7.list-manage.com/unsubscribe?u=3D5acc=
+1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D27ab2fad8f" style=
+=3D"color: #404040 !important;">unsubscribe
+                                        from this list</a>&nbsp;&nbsp;&nbs=
+p;&nbsp;<a href=3D"http://i-hls.us7.list-manage.com/profile?u=3D5acc1ed377=
+b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da" style=3D"color: #404040 !imp=
+ortant;">update
+                                            subscription preferences</a>
+                                <br>
+                                iHLS Israel Homeland Security &middot; Hah=
+aroshet 16 &middot; Ra=E2=80=99anana 4365708 &middot; Israel
+                                <br>
+                                <br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <style type=3D"text/css">
+            @media only screen and (max-width: 480px)
+            {
+                table[id=3D"canspamBar"] td
+                {
+                    font-size: 14px !important;
+                }
+                table[id=3D"canspamBar"] td a
+                {
+                    display: block !important;
+                    margin-top: 10px !important;
+                }
+            }
+        </style>
+    </center>
+<img src=3D"http://i-hls.us7.list-manage.com/track/open.php?u=3D5acc1ed377=
+b590a98a195f624&id=3D27ab2fad8f&e=3D77ab4125da" height=3D"1" width=3D"1">=
+</body>
+</html>
+--_----------=_MCPart_1916090244--
+

@@ -1,0 +1,182 @@
+Received: (qmail 18076 invoked by uid 100); 4 Jan 2017 07:49:14 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda001.wmail.worksmobile.com with SMTP;4 Jan 2017 07:49:14 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id yces2dWtQCumQFE9JLt-tw
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 04 Jan 2017 07:49:04 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v047pls00BB5;
+	Wed, 04 Jan 2017 16:51:47 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v047pls00BB5
+X-SmartFilter: FROM,v047pls00BB5,joseph@duzon.com
+x-forward-id: <a09ef09bed53b56581a31c3142678ee8@sylvester.1ule.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3ttjcF6Q7jz11flH; Wed,  4 Jan 2017 16:48:03 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3ttjbP3cPdz2fmFr
+	for <joseph@duzon.com>; Wed,  4 Jan 2017 16:48:01 +0900 (KST)
+Received: from external ([209.85.217.182])
+	by smf.duzon.co.kr (1.0) id v047ouj00BAC;
+	Wed, 04 Jan 2017 16:50:56 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v047ouj00BAC
+X-SmartFilter: FROM,v047ouj00BAC,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f182.google.com with SMTP id y9so12836043uae.2
+        for <joseph@duzon.com>; Tue, 03 Jan 2017 23:47:54 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:domainkey-signature
+         :date:from:to:subject:mime-version:message-id
+         :content-transfer-encoding;
+        bh=MgElgOAcjH+Dbw2wxZbvFRnZwdrsIUkq331N1JDKgS8=;
+        b=Joc3IYmM0+INGD5Y4Dm6o+TR+nmqJ90FeD1Stk/1E09sOI1odNbTJUPijMyXbKPZm6
+         XnUMhmiJv16cSOXb6d6A7LuoneZNIp5Pu5dalkXkqzbxANwxKKBLw36dy8fNGkuFMG6t
+         LE6JC+A1tH0TRXbW8JSmHONsBhXAr77txU7kDBuuYQmO3XVU53k0MxDLRJV1fgSdNKti
+         lrYB/yAGpbr1BFyJ/3gMei98tZkrT3BUBAxi7v1d4CduJ5NcqonFZDc6l6F0uyn+M6dw
+         eJOpnykN6TJ/1O9wdCcTrqoYmjYaBCyC5jDrT9cmLLcZZ+GkEgXyAjbweHrnqTQR9bYR
+         ax+A==
+X-Gm-Message-State: AIkVDXJ+383B51lwMO/NmEsk/WsjJLoVzQ7Bo2VMs7FvB5kRznFqcELqxF6F6Gmvl3yoQuCQ9VvJs2323gcHB7IKF1FSYzQ=
+X-Received: by 10.176.8.201 with SMTP id o9mr4561975uaf.162.1483516073401;
+        Tue, 03 Jan 2017 23:47:53 -0800 (PST)
+X-Forwarded-To: kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp8359339vsa;
+        Tue, 3 Jan 2017 23:47:52 -0800 (PST)
+X-Received: by 10.98.67.89 with SMTP id q86mr61228145pfa.178.1483516072359;
+        Tue, 03 Jan 2017 23:47:52 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id g2si71643673pli.126.2017.01.03.23.47.51
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 03 Jan 2017 23:47:52 -0800 (PST)
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@sylvester.1ule.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v047olZ00BA2;
+	Wed, 04 Jan 2017 16:50:47 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v047olZ00BA2
+X-SmartFilter: FROM,v047olZ00BA2,forensic@duzon.com
+x-forward-id: <a09ef09bed53b56581a31c3142678ee8@sylvester.1ule.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3ttjb55NtGz2fmFp; Wed,  4 Jan 2017 16:47:28 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3ttjZh4wGKz2fmFs
+	for <forensic@duzon.com>; Wed,  4 Jan 2017 16:47:24 +0900 (KST)
+Received: from external ([198.16.41.191])
+	by smf.duzon.co.kr (1.0) id v047oOV00B9E;
+	Wed, 04 Jan 2017 16:50:24 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v047oOV00B9E
+X-SmartFilter: FROM,v047oOV00B9E,randal-675-29603412.LjNtNnouY29t-85-1-959-674-no_reply@sylvester.1ule.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=sylvester.1ule.com;
+ h=Date:From:To:Subject:MIME-Version:Message-ID:Content-Type:Content-Transfer-Encoding; i=no_reply@sylvester.1ule.com;
+ bh=rghkJho821WzGyInjjXrAbDRejA=;
+ b=K5ZglW+mT0+HBq8MnSeEi4hF3GHx+k4/LfPhIfEdvTn456mJ4JCiNkJZ8t2Utg42c6XA937lPz8e
+   10iJmbdzwOIx/HWuCkEZDqvlhB3uj215CO2y+9XC8xSE9jKFm8dzpdAb5b/evsqGx8Zc9MAteZb0
+   GNCENR3d5AYtFmIoDmA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=sylvester.1ule.com;
+ b=xalfNOLmhMkeSYoEX6HKTzujaKsrkZVodcomLHBn/j/45lkTVZrHA7abN9KXfG0ORU97AiRFldmf
+   okmcMbvIkb1XPR9F0kw1X71VdBZXF23RU+y5s8/tPn3DvubJq1rld8KS+Fs7cf22JUxPo5bpnfgo
+   C7JY4HbAomoSZ/FmvMQ=;
+Date: Wed, 04 Jan 2017 02:46:09 -0500
+From: "MichaelKors" <no_reply@sylvester.1ule.com>
+To: "forensic" <forensic@duzon.com>
+Subject: Enjoy 80% Off | A Toast to the New Year
+MIME-Version: 1.0
+Message-ID: <a09ef09bed53b56581a31c3142678ee8@sylvester.1ule.com>
+X-Mailer: 3mail
+X-Mailer-LID: 336
+X-Mailer-RecptId: 29603412
+X-Mailer-SID: 674
+X-Mailer-Sent-By: 85
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +lFYpB3G1H+YbXFCbHmRKAbdaxudjJ+Y
+
+
+<table class=3D"ke-zeroborder" width=3D"600" cellspacing=3D"0" cellpaddin=
+g=3D"0"
+border=3D"0" align=3D"center">	<tbody>	<tr>	<td colspan=3D"4" valign=3D"m=
+iddle"
+height=3D"30" align=3D"center">	<span style=3D"font-family:Arial, Helveti=
+ca,
+sans-serif;font-size:x-small;">New handbag,New journey.<br />
+If the e-mail below is not displayed correctly,please click this is not
+spam.</span>	</td>	</tr>	<tr>	<td colspan=3D"4" valign=3D"middle"
+align=3D"center">	<a
+href=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/index/150.php?M=3D2=
+9603412!N=3D674!L=3D150!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/db36f36ec4bf85290190d080df4fb345/tumbl=
+r_oj6kx7ErEA1venyc6o1_1280.png"
+width=3D"600" height=3D"73" /></a>	</td>	</tr>	<tr>	<td valign=3D"middle"
+align=3D"center">	<a
+href=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/index/150.php?M=3D2=
+9603412!N=3D674!L=3D150!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/65fd5ca0bc95d7b7cc604a0a20d5370e/tumbl=
+r_oj6kx7ErEA1venyc6o2_250.png"
+width=3D"132" height=3D"67" /></a>	</td>	<td valign=3D"middle" align=3D"c=
+enter">	<a
+href=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/index/380.php?M=3D2=
+9603412!N=3D674!L=3D380!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/33225107aa102773e43c864dc01d335e/tumbl=
+r_oj6kx7ErEA1venyc6o3_250.png"
+width=3D"120" height=3D"67" /></a>	</td>	<td valign=3D"middle" align=3D"c=
+enter">	<a
+href=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/index/379.php?M=3D2=
+9603412!N=3D674!L=3D379!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/14f0e11cc8ae76d58c553eedba7fc1b4/tumbl=
+r_oj6kx7ErEA1venyc6o4_250.png"
+width=3D"155" height=3D"67" /></a>	</td>	<td valign=3D"middle" align=3D"c=
+enter">	<a
+href=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/index/378.php?M=3D2=
+9603412!N=3D674!L=3D378!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/5f1beb7aed1ed41424bfa654dd36cba4/tumbl=
+r_oj6kx7ErEA1venyc6o5_250.png"
+width=3D"193" height=3D"67" /></a>	</td>	</tr>	<tr>	<td colspan=3D"4"
+valign=3D"middle" align=3D"center">	<a
+href=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/index/150.php?M=3D2=
+9603412!N=3D674!L=3D150!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/14a6c8e610b6763e138a0ba7d50f33a2/tumbl=
+r_oj6kx7ErEA1venyc6o6_1280.gif"
+width=3D"600" height=3D"743" /></a>	</td>	</tr>	<tr>	<td colspan=3D"4"
+valign=3D"middle" align=3D"center">	<table class=3D"ke-zeroborder" width=3D=
+"100%"
+cellspacing=3D"0" cellpadding=3D"0" border=3D"0">	</table>	</td>	</tr>	<t=
+r>	<td
+colspan=3D"4" valign=3D"middle" align=3D"center">	<span style=3D"font-fam=
+ily:Arial,
+Helvetica, sans-serif;line-height:1.5;font-size:x-small;" "=3D"">Get a ha=
+ndle
+on timeless style with our treasured Selma Saffiano satchel.<br />
+All prices reflect additional savings. This offer is not retroactive.<br =
+/>
+<a
+href=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/index/339.php?M=3D2=
+9603412!N=3D674!L=3D339!F=3DH"
+target=3D"_blank">Privacy Policy</a> | <a
+href=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/index/344.php?M=3D2=
+9603412!N=3D674!L=3D344!F=3DH"
+target=3D"_blank">Contact Us</a> | <a
+href=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/unsubscribe.php?M=3D=
+29603412!C=3D7deac74c2c30f5467d2c2504bfe93c91!G=3D0!L=3D336!N=3D674!lan=3D=
+en">Unsubscribe</a>
+<br />
+</span>	</td>	</tr>	</tbody>
+</table>
+<p><img border=3D"0" alt=3D"29603412"
+src=3D"http://v-z76lg2oo9zu95hiic-6h2z55.b.akidd.com/open.php?M=3D2960341=
+2!G=3D0!L=3D336!N=3D674!F=3DH!image=3D.jpg"></p>
+
+
+
+

@@ -1,0 +1,390 @@
+Received: (qmail 9954 invoked by uid 100); 13 Dec 2016 03:12:00 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda003.wmail.worksmobile.com with SMTP;13 Dec 2016 03:12:00 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id hyNKRPhBR5mInnx6Zb5tDA
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 13 Dec 2016 03:12:00 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBD3Eiu002D7;
+	Tue, 13 Dec 2016 12:14:44 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBD3Eiu002D7
+X-SmartFilter: FROM,uBD3Eiu002D7,joseph@duzon.com
+x-forward-id: <926157035.746502077.1481598683885.JavaMail.root@sjmas02.marketo.org>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3td4W32jf8z2fmFy; Tue, 13 Dec 2016 12:11:40 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3td4Vh1zwDz2fmFw
+	for <joseph@duzon.com>; Tue, 13 Dec 2016 12:11:40 +0900 (KST)
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id uBD3EAr002D4;
+	Tue, 13 Dec 2016 12:14:10 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBD3EAr002D4
+X-SmartFilter: FROM,uBD3EAr002D4,495-KNT-277.0.31492.0.0.17121.9.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTQwMDg6MjIyNzk6NDc1OTU6MDoxNzEyMTo5OjMxNDkyOjExNDE1
+	OTI=
+Received: from [10.0.87.249] ([10.0.87.249:58546] helo=sjmas02.marketo.org)
+	by sjmta15.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 69/11-25103-BD66F485; Mon, 12 Dec 2016 21:11:23 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1481598683;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=1PB8n0YnDy3evpYgYkZP5mDZ7eliPZgAU2AL/jmpMt8=;
+	b=DTgeIrFsxfGtpiDjY7d6lf4zrPW5Aul43HTXsS9cjHC/n25VgQZZixU/jZgczqDJ
+	/kaAMH4Uq90HS8aQWJV3nr7XzdAZXV8cFwyFjLRt6bDdxUDXNEdYc16UHItLCWrVNJZ
+	3746MvbAvOGNMUnN32j6w+nqmMM3IWi+I2mAbpJg=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1481598683;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=1PB8n0YnDy3evpYgYkZP5mDZ7eliPZgAU2AL/jmpMt8=;
+	b=Z3m+LjNd1h1gZxBdVjLJ14Nlc0DGVJNsDkUEXrX9r3jbqpM+wAHZVEK8nIy8K2oC
+	eIBCHdEdDtBKtACetVqNj5XZvZjSBzZTFD6nubE+mSzxI+3DU8IXuCxzqvWzCc/l09W
+	n8UBCM8gMwADYg2DoQStX/KqW0PycfrDAWmAMDoI=
+Date: Mon, 12 Dec 2016 21:11:23 -0600 (CST)
+From: Rapid7 Communications <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <926157035.746502077.1481598683885.JavaMail.root@sjmas02.marketo.org>
+Subject: Season's Greetings from Rapid7
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_746502075_946946761.1481598683885"
+X-PVIQ: mkto-495KNT277-000001-000000-031492
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:14008:22279:47595:0:17121:9:31492:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.31492.17121.9@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.31492.0.0.17121.9.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: wQRn+6J4p635WrlY7BwdpBmmKquZKAIYkXm=
+
+------=_Part_746502075_946946761.1481598683885
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center-page.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiWTJVek1HRTFOVEZrTWpkayIsInQiOiI5dFV6UGRlY1pFNWYzanZOZTRuZCtTUXdUTVY3eVVEQW9DUWViOXpqRTVQcHZBaGJEZVJPME1RcWFDVWhXSFdHR3crL092SVpoNURxWmRMbCtrbzIvNDBYNEtONCtZYUdOQmprTEtMNUI2MnhZL0dVR2RRUDFDTUJDTTl2clA3QyJ9.
+
+------=_Part_746502075_946946761.1481598683885
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+<link href=3D"https://fonts.googleapis.com/css?family=3DHind" rel=3D"styles=
+heet" type=3D"text/css">
+<link href=3D"https://fonts.googleapis.com/css?family=3DMontserrat" rel=3D"=
+stylesheet" type=3D"text/css">
+<style type=3D"text/css">
+   =20
+            /* Some resets and issue fixes */
+            #outlook a { padding:0; }
+            body{ width:100% !important; -webkit-text; size-adjust:100%; -m=
+s-text-size-adjust:100%; margin:0; padding:0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass {width:100%;}
+            .backgroundTable {margin:0 auto; padding:0; width:100%;!importa=
+nt;}
+            table td {border-collapse: collapse;}
+            .ExternalClass * {line-height: 115%;}
+            /* End reset */
+           =20
+            /* Custom */
+            body,table,td,span,a,ul,li {font-family: 'Montserrat Light', sa=
+ns-serif !important;}
+            .forcefont {font-family: 'Montserrat Light', sans-serif !import=
+ant;}
+            .appleLinksWhite a {color: #ffffff !important; text-decoration:=
+ none;}
+            .appleLinksBlack a {color: #000000 !important; text-decoration:=
+ none;}
+                        .appleLinksGray a {color: #55585a !important; text-=
+decoration: none;}
+                        .appleLinksLightGray a {color: #999999 !important; =
+text-decoration: none;}
+            .appleLinksOrange a {color: #e95f26 !important; text-decoration=
+: none;}
+                        .appleLinksBlue a {color: #2596cd !important; text-=
+decoration: none;}
+           =20
+            /* These are our tablet/medium screen media queries */
+            @media screen and (max-width: 630px){
+                =20
+                                .align-center{text-align: center !important=
+;}
+   =20
+                /* Display block allows us to stack elements */            =
+         =20
+                *[class=3D"mobile-column"] {display: block;}
+               =20
+                /* Some more stacking elements */
+                *[class=3D"mob-column"] {float: none !important;width: 100%=
+ !important;}
+                    =20
+                /* Hide stuff */
+                *[class=3D"hide"] {display:none !important;}
+               =20
+                /* This sets elements to 100% width and fixes the height is=
+sues too, a god send */
+                *[class=3D"100p"] {width:100% !important; height:auto !impo=
+rtant;}
+                   =20
+                /* For the 2x2 stack */                =20
+                *[class=3D"condensed"] {padding-bottom:40px !important; dis=
+play: block;}
+               =20
+                /* Centers content on mobile */
+                *[class=3D"center"] {text-align:center !important; width:10=
+0% !important; height:auto !important;}
+               =20
+                /* 100percent width section with 20px padding */
+                *[class=3D"100pad"] {width:100% !important; padding:20px;}
+               =20
+                /* 100percent width section with 20px padding left & right =
+*/
+                *[class=3D"100padleftright"] {width:100% !important; paddin=
+g:0 20px 0 20px;}
+               =20
+                /* 100percent width section with 20px padding top & bottom =
+*/
+                *[class=3D"100padtopbottom"] {width:100% !important; paddin=
+g:20px 0px 20px 0px;}
+           =20
+            }  =20
+           =20
+</style>
+<!--[if mso]>
+        <style type=3D=E2=80=9Dtext/css=E2=80=9D>
+        .fallback-text {
+        font-family: Arial, sans-serif;
+        }
+        </style>
+        <![endif]-->
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table style=3D"=
+border-collapse:collapse; border:0px; margin:0; padding:0; " border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" ><tr ><td align=3D"center=
+" valign=3D"top" ><table width=3D"640" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<table style=3D"border-collapse: collapse; border:0px;" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"20" class=3D"100p" bgcolor=3D"#3A=
+454B">
+<tr>
+<td align=3D"center" valign=3D"top" width=3D"600">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td class=3D"100p fallback-text" align=3D"left" width=3D"600"><a href=3D
+"http://info.rapid7.com/UMQM04T0lN0K4W02kQ000jY"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" alt=3D"Rapid7" border=3D"0" style=3D"display:blo=
+ck"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"ImageBlock" class=3D"mktEditable" ><table width=3D"640" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#FFFFFF" class=3D"100=
+p">
+<tr>
+<td align=3D"center"><img src=3D"https://information.rapid7.com/rs/495-KNT-=
+277/images/holiday-banner-2016-640px.png" alt=3D"Wishing you a peaceful, cr=
+itical alert free, holiday season." class=3D"100p" border=3D"0" style=3D"di=
+splay:block;"></td>
+</tr>
+</table>
+</div>
+<div id=3D"ContentBlock" class=3D"mktEditable" ></div>
+<!-- Stop Blocks Here /-->
+<table style=3D"border-collapse: collapse;" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#E9EEF0" class=3D"100p">
+<tr>
+<td align=3D"center">
+<table style=3D"border-collapse: collapse;" width=3D"640" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"20" class=3D"100p">
+<tr>
+<td>
+<table border=3D"0" width=3D"280" align=3D"left" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"middle" align=3D"le=
+ft" style=3D"font-size:14px; color:#999999;"><img src=3D"https://informatio=
+n.rapid7.com/rs/495-KNT-277/images/rapid7-logo-clear-150px.png"><br>
+<br>
+<br>
+<span style=3D"font-family: 'Hind', sans-serif !important;">Sales: 866-7-Ra=
+pid7</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important;">Support: 866-390-8113</span><br>
+<span style=3D"font-family: 'Hind', sans-serif !important;">Incident Respon=
+se: 844-RAPID-IR</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important; color: #999999 !important; text-decoration:none !important;">=
+100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important; color: #999999 !important; text-decoration:none !important;">=
+Boston, MA 02110-2131</span></td>
+</tr>
+</table>
+<table border=3D"0" width=3D"200" align=3D"left" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"top" align=3D"left"=
+ style=3D"font-size:14px; color:#2596cd;"><span style=3D"color: #000000"><s=
+trong>Products & Services</strong></span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/a0200l0kMK0Y00RTkNQW4M4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>InsightIDR</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/qkTK040YlS0Q4W02N0Ml00M" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>InsightOps</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/Bk00TK2TQ00040WN0YmlMM4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Nexpose</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/wNYTQ44Kl0000MkU00M2n0W" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Metasploit</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/JN2lKM0okT0QVWY04M00040" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>AppSpider</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/SN0T240Yl040QKM0k00WMWp" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Services</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/c0402MMK0lQN0k4TX0YqW00" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Product Training & Certification</a></span></td>
+</tr>
+</table>
+<table border=3D"0" width=3D"100" align=3D"right" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"top" align=3D"left"=
+ style=3D"font-size:14px; color:#2596cd;"><span style=3D"color: #000000"><s=
+trong>Company</strong></span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/VYNY0004Wk0T200Kl4MMrQ0" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>About Us</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/Y044W0ZQM00MY002lNK0sTk" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>News</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/wNYTQ44Kl0000Mk000M2t0W" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Careers</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/Bk001K2TQ00040WN0YulMM4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Contact Us</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td height=3D"1" style=3D"line-height: 1px; font-size: 1px;" bgcolor=3D"#DC=
+DBDB">&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"center">
+<table style=3D"border-collapse: collapse;" width=3D"640" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"20" class=3D"100p">
+<tr>
+<td class=3D"fallback-text" valign=3D"top" align=3D"center" width=3D"640" s=
+tyle=3D"font-size:14px; color:#999999;"><span>&#169; Rapid7&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;<a href=3D
+"http://info.rapid7.com/o02vQ002W00kMK04YTN4Ml0" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Legal</a> | <a href=3D
+"http://info.rapid7.com/WK0k3QN4l0w2T4M00M0YW00" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Privacy Policy</a> | <a href=3D
+"http://info.rapid7.com/I0k0xKY0l4M4Q42M0W0NT00" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Disclosure Policy</a> | <a href=3D
+"http://info.rapid7.com/wNYTQ44Kl0000Mk500M2y0W" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Export Notice</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table style=3D"border-collapse: collapse;" width=3D"640" class=3D"100p" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href=3D
+"http://info.rapid7.com/n0KM0z602MQl0TN0Yk004W4"
+></a>
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTQwMDg6=
+MjIyNzk6NDc1OTU6MDoxNzEyMTo5OjMxNDkyOjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3=
+D" width=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/r40A0T2W0N7lYQKkM00M040"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_746502075_946946761.1481598683885--
+

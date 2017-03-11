@@ -1,0 +1,354 @@
+Received: (qmail 29270 invoked by uid 100); 21 Apr 2016 05:22:11 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda03.wmail.naver.com with SMTP;21 Apr 2016 05:22:11 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from  (gw.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id i5ROqh24Qjigpl-99vGXsg
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 21 Apr 2016 05:22:11 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.com (1.0) id u3L5Ink00152;
+	Thu, 21 Apr 2016 14:18:49 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u3L5Ink00152
+X-SmartFilter: FROM,u3L5Ink00152,joseph@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-1981954@senda.ozmailer.com>
+Received: from external ([209.85.218.43])
+	by smf.duzon.com (1.0) id u3L5Iae0014C;
+	Thu, 21 Apr 2016 14:18:37 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u3L5Iae0014C
+X-SmartFilter: FROM,u3L5Iae0014C,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-oi0-f43.google.com with SMTP id k142so68525712oib.1
+        for <joseph@duzon.com>; Wed, 20 Apr 2016 22:21:51 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :subject:to:from:reply-to:errors-to:mime-version:date:message-id
+         :importance:organization:content-transfer-encoding;
+        bh=Y9dEcaITjzRzHnvo3dPY7uRYoZ02MsvWVwmkPqu1IKQ=;
+        b=HeRUesdXic51BU39Zz6hHLnBF5Cbn7x48vVaAXMjDufsgF7G0T7sUlc3jAAKdxgLjH
+         xLt4J+jFPIOZX4vUL79yMZuC2e2yFCH0fKN7yUIFcm2DzPb13DuaFZy3cDdqLbUWCXka
+         7F5pet4rh7URctZS3xTB0rlk2HnGoT0P7r9fHJ6e2efaKvQe0pMqQzfJ2vHQJA3ASQcQ
+         6e5bRw+93JlB2Y4sOeRgOlNjuoK3Ym7PQHb0IBuA2u5hmd5ScOtBIEexkDyITK0k5DSo
+         0paPRGEWaLoSXvlPdlxoC8myDxqf4gPXwLtpvE/zyBFaOE+58dbaFSwUzhIU09iRh5zW
+         Ck8w==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AOPr4FW6DirsgmXkOhwxqxH8PqjPkn28q/PYcuoC845Zd98cy5Liol34Cb+64opmbKxlJ6JJLIdOYHqpmTMPrXmKSXlxBmE=
+X-Received: by 10.157.48.87 with SMTP id w23mr5111324otd.138.1461216111202;
+        Wed, 20 Apr 2016 22:21:51 -0700 (PDT)
+X-Forwarded-To: pch88@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, forensic@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com pch88@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, forensic@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.157.12.173 with SMTP id b42csp2214034otb;
+        Wed, 20 Apr 2016 22:21:50 -0700 (PDT)
+X-Received: by 10.107.171.198 with SMTP id u189mr10311967ioe.111.1461216110378;
+        Wed, 20 Apr 2016 22:21:50 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id q10si14500567ige.76.2016.04.20.22.21.49
+        for <forensic.duzon@gmail.com>;
+        Wed, 20 Apr 2016 22:21:50 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.com (1.0) id u3L5ISR0013F;
+	Thu, 21 Apr 2016 14:18:28 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u3L5ISR0013F
+X-SmartFilter: FROM,u3L5ISR0013F,forensic@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-1981954@senda.ozmailer.com>
+Received: from external ([211.115.217.140])
+	by smf.duzon.com (1.0) id u3L5IHG00134;
+	Thu, 21 Apr 2016 14:18:17 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u3L5IHG00134
+X-SmartFilter: FROM,u3L5IHG00134,user24773@sendc.ozmailer.com
+Subject: =?EUC-KR?B?t866vy+15bfQILHivvew+iBTVyCx4r73sPrAxyDH+b73IMH2v/jAuyDAp8fRIElDVA==?=
+	=?EUC-KR?B?wLbH1SDB9r/4vL7FzSDC/L+pIL/kw7s=?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?x9GxucGkuri76r73v6zH1ci4IL3FvLrIxiC8scDT?=" <ssh@fkii.org>
+Reply-To: <ssh@fkii.org>
+Errors-To: <ssh@fkii.org>
+MIME-Version: 1.0
+Date: Thu, 21 Apr 2016 14:21:31 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1981954@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: wfen+6J4p635WrlY7BwdpBmmFxUZKxJYkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7211181" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>로봇/드론 기업과 SW 기업과의 협업 지원을 위한 ICT융합 지원센터 참여 요청</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+
+		<!--OZ_AttachStart-->
+		<div style='padding-top:5px; padding-bottom:5px;' align='right'>
+		<table cellspacing=0 cellpadding=0 style='border:#DEDFDE 3px solid;'>
+		<tr>
+			<td width=137><img src='http://www.ozmailer.com/mail/good_template/image/nt_img_fileattach.gif' border=0 style='display:block;'></td>
+			<td width='413' valign='top' >
+				<div style='padding:8px;'>
+					<table width='100%' valign='top' cellspacing=0 cellpadding=0><tr><td width='50%' align='left'> <B>+</B> <a href='http://www.ozmailer.com/oele/downLoad.php?fileNo=1475106&mail_no=7211181&email=forensic@duzon.com' target='blank'> <span style='font-family:Gulim; font-size:12px; color:#000000; text-decoration:none; font-weight:normal; line-height:2;'>2. ICT융합 지원센...(38 KB)</span></a></td><td width='50%' align='left'> <B>+</B> <a href='http://www.ozmailer.com/oele/downLoad.php?fileNo=1475105&mail_no=7211181&email=forensic@duzon.com' target='blank'> <span style='font-family:Gulim; font-size:12px; color:#000000; text-decoration:none; font-weight:normal; line-height:2;'>1. ICT융합 지원센...(203 KB)</span></a></td></tr>
+				</table>
+			</div>
+			</td>
+		</tr>
+		</table>
+		</div>
+		<!--OZ_AttachEnd--><p><font face="굴림" size="3">
+
+</font></p><p style="margin-bottom: 0pt;"><span style='font-family: "맑은 고딕";'><font size="2">안녕하십니까<span lang="EN-US">?</span></font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span style='font-family: "맑은 고딕";'><font size="2">한국정보산업연합회<span lang="EN-US"> 신성훈 선임</span>입니다<span lang="EN-US">.</span></font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕";'><font size="2">&nbsp;</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span style='font-family: "맑은 고딕";'><font size="2">본회에서는 로봇<span lang="EN-US">/</span>드론분야 제조기업과 임베디드<span lang="EN-US">SW</span>기업과의
+협업<span lang="EN-US">, </span>마케팅<span lang="EN-US">, </span>법률 컨설팅<span lang="EN-US">, SW</span>개발 컨설팅 등을 지원하는</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><b><u><span lang="EN-US" style='color: blue; font-family: "맑은 고딕";'>"ICT</span></u></b><b><u><span style='color: blue; font-family: "맑은 고딕";'>융합 지원센터<span lang="EN-US">"</span></span></u></b><span lang="EN-US" style='font-family: "맑은 고딕";'>&nbsp;</span><span style='font-family: "맑은 고딕";'>사업을 준비중에 있습니다<span lang="EN-US">.</span></span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕";'><font size="2">&nbsp;</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><b><span style='font-family: "맑은 고딕";'><font size="2">※<span lang="EN-US"> ICT</span>융합 지원센터 사업 개요</font></span></b></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><b><span lang="EN-US" style='font-family: "맑은 고딕";'>1. </span></b><b><span style='font-family: "맑은 고딕";'>과제명</span></b><span lang="EN-US" style='font-family: "맑은 고딕";'>&nbsp;: ICT</span><span style='font-family: "맑은 고딕";'>융합 지원센터</span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><b><span lang="EN-US" style='font-family: "맑은 고딕";'>2. </span></b><b><span style='font-family: "맑은 고딕";'>목<span lang="EN-US"> &nbsp;&nbsp;</span>표</span></b><span lang="EN-US" style='font-family: "맑은 고딕";'>&nbsp;: ICT</span><span style='font-family: "맑은 고딕";'>기업 및 非<span lang="EN-US">ICT</span>기업 간 네트워크 및 교류의 장을 마련하여<span lang="EN-US"> ICT</span>융합을 발굴ㆍ추진</span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><b><span lang="EN-US" style='font-family: "맑은 고딕";'>3. </span></b><b><span style='font-family: "맑은 고딕";'>분<span lang="EN-US"> &nbsp;&nbsp;</span>야</span></b><span lang="EN-US" style='font-family: "맑은 고딕";'>&nbsp;: </span><span style='font-family: "맑은 고딕";'>로봇<span lang="EN-US">/</span>드론</span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><b><span lang="EN-US" style='font-family: "맑은 고딕";'>4. </span></b><b><span style='font-family: "맑은 고딕";'>사업총괄</span></b><span lang="EN-US" style='font-family: "맑은 고딕";'>&nbsp;: </span><span style='font-family: "맑은 고딕";'>미래창조과학부</span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><b><span lang="EN-US" style='font-family: "맑은 고딕";'>5. </span></b><b><span style='font-family: "맑은 고딕";'>주관기관</span></b><span lang="EN-US" style='font-family: "맑은 고딕";'>&nbsp;: </span><span style='font-family: "맑은 고딕";'>한국정보산업연합회<span lang="EN-US">(</span>임베디드<span lang="EN-US">SW</span>ㆍ<span lang="EN-US">System</span>산업협회<span lang="EN-US">)</span></span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><strong><span lang="EN-US" style='color: rgb(58, 50, 195); font-family: "맑은 고딕";'>6. </span></strong><strong><span style='color: rgb(58, 50, 195); font-family: "맑은 고딕";'>참여가능 기업</span></strong></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><strong><span lang="EN-US" style='color: rgb(58, 50, 195); font-family: "맑은 고딕";'>&nbsp;- </span></strong><strong><span style='color: rgb(58, 50, 195); font-family: "맑은 고딕";'>로봇<span lang="EN-US">/</span>드론 제조기업</span></strong></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><strong><span lang="EN-US" style='color: rgb(58, 50, 195); font-family: "맑은 고딕";'>&nbsp;- </span></strong><strong><span style='color: rgb(58, 50, 195); font-family: "맑은 고딕";'>로봇<span lang="EN-US">/</span>드론 제품에 적용가능한 임베디드<span lang="EN-US">SW </span>기술<span lang="EN-US">(</span>도구 포함<span lang="EN-US">)&nbsp;</span>개발 기업</span></strong></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><strong><span lang="EN-US" style='color: rgb(58, 50, 195); font-family: "맑은 고딕";'>&nbsp;- </span></strong><strong><span style='color: rgb(58, 50, 195); font-family: "맑은 고딕";'>로봇<span lang="EN-US">/</span>드론 제품에 적용가능한 디바이스 개발 기업</span></strong></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US"><font face="굴림" size="2">&nbsp;</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span style='font-family: "맑은 고딕";'><font size="2">관련하여 참여기업에게는 아래와 같은 서비스를 제공할 예정입니다<span lang="EN-US">.(</span>세부내용 유첨<span lang="EN-US">1</span>자료 참조<span lang="EN-US">)</span></font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US"><font face="굴림" size="2">&nbsp;</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><b><span style='font-family: "맑은 고딕";'><font size="2">※<span lang="EN-US"> ICT</span>융합 지원센터 제공 서비스</font></span></b></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US"><font face="굴림" size="2">&nbsp;</font></span></p><font face="굴림" size="3">
+
+</font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+  </font><font face="굴림" size="3">
+ </font><font face="굴림" size="3">
+</font><table class="__se_tbl" style="border: 1pt outset black; border-image: none;" border="1" cellspacing="0" cellpadding="0"><tbody><tr style="height: 23px;"><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 147px; height: 23px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; margin-bottom: 0pt;"><b><span style='font-family: "맑은 고딕"; font-size: 9pt;'>구분</span></b></p><font face="굴림" size="3">
+  </font></td><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 491px; height: 23px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; margin-bottom: 0pt;"><b><span lang="EN-US" style='font-family: "맑은 고딕"; font-size: 9pt;'>&nbsp;</span></b><b><span style='font-family: "맑은 고딕"; font-size: 9pt;'>내용</span></b></p><font face="굴림" size="3">
+  </font></td></tr><tr style="height: 62px;"><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 147px; height: 62px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕"; font-size: 9pt;'>&nbsp;</span><span style='font-family: "맑은 고딕"; font-size: 9pt;'>전문가 협의체 </span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin-bottom: 0pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>구성 및 운영</span></p><font face="굴림" size="3">
+  </font></td><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 491px; height: 62px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span lang="EN-US" style='font-family: "맑은 고딕"; font-size: 9pt;'>(</span><span style='font-family: "맑은 고딕"; font-size: 9pt;'>구성<span lang="EN-US">) </span>로봇<span lang="EN-US">/</span>드론
+  분야 전문가<span lang="EN-US"> 15</span>인 이내로 구성</span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span lang="EN-US" style='font-family: "맑은 고딕"; font-size: 9pt;'>(</span><span style='font-family: "맑은 고딕"; font-size: 9pt;'>역할<span lang="EN-US">) </span>지원센터 사업추진 전문성 및 타당성 검토<span lang="EN-US">, </span>기술거래<span lang="EN-US">/</span>법률 컨설팅<span lang="EN-US">, </span>시장·기술현황·</span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span lang="EN-US" style='font-family: "맑은 고딕"; font-size: 9pt;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><span style='font-family: "맑은 고딕"; font-size: 9pt;'>성공사례·제도개선 파악</span></p><font face="굴림" size="3">
+  </font></td></tr><tr style="height: 100px;"><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 147px; height: 100px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; line-height: 15pt; margin-bottom: 0pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>수요·<span lang="EN-US">ICT</span>기업 간 </span></p><font face="굴림" size="3">
+  </font><p style="background: white; line-height: 15pt; margin-bottom: 0pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>기술 및 제품 중개
+  지원</span></p><font face="굴림" size="3">
+  </font></td><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 491px; height: 100px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span lang="EN-US" style='font-family: "맑은 고딕"; font-size: 9pt;'>ICT</span><span style='font-family: "맑은 고딕"; font-size: 9pt;'>융합 지원센터 오리엔테이션 참여<span lang="EN-US"> (1</span>회<span lang="EN-US">)</span></span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>로봇<span lang="EN-US">/</span>드론 분야 기술<span lang="EN-US">/</span>제품 설명회<span lang="EN-US"> &nbsp;</span>참여<span lang="EN-US">
+  (2</span>회<span lang="EN-US">)</span></span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>로봇<span lang="EN-US">/</span>드론 분야 세미나
+  참여<span lang="EN-US"> (1</span>회<span lang="EN-US">)</span></span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>로봇<span lang="EN-US">/</span>드론 기술제품<span lang="EN-US">&nbsp;</span>전시회 참여<span lang="EN-US"> (1</span>회<span lang="EN-US">)</span></span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>수요<span lang="EN-US">/</span>공급기업 간담회
+  지원<span lang="EN-US"> (</span>상시<span lang="EN-US">)</span></span></p><font face="굴림" size="3">
+  </font></td></tr><tr style="height: 44px;"><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 147px; height: 44px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; line-height: 15pt; margin-bottom: 0pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>우수 기술<span lang="EN-US">/</span>제품 중개를 위한 컨설팅 지원</span></p><font face="굴림" size="3">
+  </font></td><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 491px; height: 44px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>기술거래 관련 법률 컨설팅 지원<span lang="EN-US"> (3</span>회<span lang="EN-US">)</span></span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span style='font-family: "맑은 고딕";'><font size="2">기술 및 제품 거래 성사시 계약 관련 법률 컨설팅 지원<span lang="EN-US"> (</span>상시<span lang="EN-US">)</span></font></span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span lang="EN-US" style='font-family: "맑은 고딕"; font-size: 9pt;'>SW</span><span style='font-family: "맑은 고딕"; font-size: 9pt;'>개발 컨설팅 지원<span lang="EN-US"> (</span>상시<span lang="EN-US">)</span></span></p><font face="굴림" size="3">
+  </font></td></tr><tr style="height: 42px;"><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 147px; height: 42px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; line-height: 15pt; margin-bottom: 0pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>온·오프라인 홍보</span></p><font face="굴림" size="3">
+  </font></td><td style="padding: 0.1px; border: 1pt inset black; border-image: none; width: 491px; height: 42px; background-color: transparent;"><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>온라인 상시 홍보<span lang="EN-US">&nbsp;</span>서비스
+  제공<span lang="EN-US">&nbsp;(</span>상시<span lang="EN-US">)</span></span></p><font face="굴림" size="3">
+  </font><p style="background: white; margin: 0cm 0cm 0pt 13pt; text-indent: -11pt;"><span style='font-family: "맑은 고딕"; font-size: 9pt;'>오프라인 홍보자료 제작<span lang="EN-US">&nbsp;</span>후<span lang="EN-US">&nbsp;</span>각종행사 개최시<span lang="EN-US">&nbsp;</span>활용<span lang="EN-US"> (</span>상시<span lang="EN-US">)</span></span></p><font face="굴림" size="3">
+  </font></td></tr></tbody></table><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕";'><font size="2">&nbsp;</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span style='font-family: "맑은 고딕";'><font size="2">로봇<span lang="EN-US">/</span>드론 제품 및 적용가능<span lang="EN-US"> SW</span>기술을 개발하고
+계시는 귀사의 참여를 요청드리오니</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><b><u><span style='font-family: "맑은 고딕";'>참여 의향이 있으실 경우 유첨<span lang="EN-US">2</span>의 참여의향서 작성
+후<span lang="EN-US"> 4/25(</span>월<span lang="EN-US">)</span>까지<span lang="EN-US">&nbsp;</span>신성훈
+선임<span lang="EN-US">&nbsp;</span>메일로<span lang="EN-US">(<a href="mailto:ssh@fkii.org"><font color="#0000ff">ssh@fkii.org</font></a>) </span>회신</span></u></b><span style='font-family: "맑은 고딕";'>을 부탁 드립니다<span lang="EN-US">.</span></span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕";'><font size="2">&nbsp;</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span style='font-family: "맑은 고딕";'><font size="2">사업 접수일은<span lang="EN-US"> 4/27(</span>수<span lang="EN-US">)</span>까지 이고 발표평가
+후 최송 사업이 선정되면<span lang="EN-US"> 6</span>월정도 사업이 진행될 것 같습니다<span lang="EN-US">.</span></font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span style='font-family: "맑은 고딕";'><font size="2">본회에서<span lang="EN-US">&nbsp;</span>선정되면 로봇<span lang="EN-US">/</span>드론분야
+교류의 장을 만들어드리는데 최선을 다하겠습니다<span lang="EN-US">.</span></font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕";'><font size="2">&nbsp;</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span style='font-family: "맑은 고딕";'><font size="2">감사합니다<span lang="EN-US">.</span></font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕";'><font size="2">&nbsp;</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span style='font-family: "맑은 고딕";'><font size="2">신성훈 드림<span lang="EN-US">.</span></font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕";'><font size="2">===================================================</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><b><span style='font-family: "맑은 고딕"; font-size: 12pt;'>임베디드소프트웨어ㆍ시스템산업협회<span lang="EN-US">(KESSIA)</span></span></b></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><b><span style='font-family: "맑은 고딕"; font-size: 11pt;'>신성훈 선임</span></b></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕"; font-size: 6pt;'>&nbsp;</span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><span lang="EN-US" style='font-family: "맑은 고딕";'>Address : </span><span style='font-family: "맑은 고딕";'>서울특별시
+마포구 월드컵북로<span lang="EN-US"> 396 </span>누리꿈스퀘어 비즈니스타워<span lang="EN-US"> 8</span>층</span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕";'><font size="2">Tel. 02-2132-0756&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax.
+02-782-1266&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile.
+010-9160-1436</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><span lang="EN-US" style='font-family: "맑은 고딕";'>E-mail : </span><span lang="EN-US"><a href="mailto:ssh@fkii.org"><span style='font-family: "맑은 고딕";'><font color="#0000ff">ssh@fkii.org</font></span></a></span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><span lang="EN-US" style='font-family: "맑은 고딕";'>URL : </span><span lang="EN-US"><a href="http://www.ozmailer.com/oele/ut.php?U=t1iut_4ak6l_8ynqrc"><span style='font-family: "맑은 고딕";'><font color="#0000ff">www.kessia.kr</font></span></a></span><span lang="EN-US" style='font-family: "맑은 고딕";'>,&nbsp;&nbsp;&nbsp;</span><span lang="EN-US"><a href="http://www.ozmailer.com/oele/ut.php?U=t1ivh_4ak6l_8ynqrc"><span style='font-family: "맑은 고딕";'><font color="#0000ff">www.opensw-seed.org</font></span></a></span><span lang="EN-US" style='font-family: "맑은 고딕";'>,&nbsp;&nbsp;&nbsp;</span><span lang="EN-US"><a href="http://www.ozmailer.com/oele/ut.php?U=t1iw5_4ak6l_8ynqrc"><span style='font-family: "맑은 고딕";'><font color="#0000ff">www.ebis.kr</font></span></a></span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><font size="2"><span lang="EN-US" style='font-family: "맑은 고딕";'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span lang="EN-US"><a href="http://www.ozmailer.com/oele/ut.php?U=t1iwt_4ak6l_8ynqrc"><span style='font-family: "맑은 고딕";'><font color="#0000ff">www.eswforum.org</font></span></a></span><span lang="EN-US" style='font-family: "맑은 고딕";'>,&nbsp;&nbsp;&nbsp;</span><span lang="EN-US"><a href="http://www.ozmailer.com/oele/ut.php?U=t1ixh_4ak6l_8ynqrc"><span style='font-family: "맑은 고딕";'><font color="#0000ff">www.eswcontest.com</font></span></a></span><span lang="EN-US" style='font-family: "맑은 고딕";'>,&nbsp;&nbsp;&nbsp;</span><span lang="EN-US"><a href="http://www.ozmailer.com/oele/ut.php?U=t1iy5_4ak6l_8ynqrc"><span style='font-family: "맑은 고딕";'><font color="#0000ff">www.fkii.org</font></span></a></span></font></p><font face="굴림" size="3">
+
+</font><p style="margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "맑은 고딕";'><font size="2">===================================================</font></span></p><font face="굴림" size="3">
+
+</font><p style="margin: 0cm 0cm 0pt;"><span lang="EN-US"><font face="굴림" size="3"><img id="_x0000_i1025" style="width: 1px; height: 1px;" src="http://mail.fkii.org/mail/mail_confirm.php?host=fkii.org&amp;id=ssh&amp;sid=14611650160278917002&amp;rcptto=ghyuk%40fkii.org" border="0"></font></span></p><font face="굴림" size="3">
+
+</font><p><p><br></p><p></p>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>뉴스레터의 수신을 더이상 원하지 않으시면, 하단의 '수신거부' 버튼을 클릭해주세요.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7211181' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

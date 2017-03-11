@@ -1,0 +1,130 @@
+Received: (qmail 12662 invoked by uid 100); 29 Mar 2016 09:38:58 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda03.wmail.naver.com with SMTP;29 Mar 2016 09:38:58 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from  (mail.duzon.kr [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id DXpwewK3TDyJdOPe1EKtPw
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 29 Mar 2016 09:38:58 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u2T9bw800568;
+	Tue, 29 Mar 2016 18:37:58 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2T9bw800568
+X-SmartFilter: FROM,u2T9bw800568,joseph@duzon.com
+x-forward-id: 1459244102462_935649226
+recvDate: Tue, 29 Mar 2016 18:35:02 +0900
+x-newturns-hashkey: c2af6e92fcabe95dfc923b6131fe731a77fc02773805e2390062fcd979e6f266
+Received: from external ([209.85.218.51])
+	by smf.duzon.com (1.0) id u2T9bSk00552;
+	Tue, 29 Mar 2016 18:37:28 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2T9bSk00552
+X-SmartFilter: FROM,u2T9bSk00552,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-oi0-f51.google.com with SMTP id d205so14088254oia.0
+        for <joseph@duzon.com>; Tue, 29 Mar 2016 02:38:17 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:recvdate:mime-version:date:content-transfer-encoding
+         :subject:from:to:reply-to;
+        bh=Hv85EBETHdJhiDNf41l7NLjJtJ6cLh6wDnccnegq4TI=;
+        b=J9h1XJqTSooGDuGO3P3IJb1I3Ytyldr1mOyl97XF+bDw1Jt9VXRyqn2JYdoJHUIgE0
+         sD1jx2mWbY04WPhZF4twrUv56I6dlo7eq08eJzgTkeYjGDuJev7HZlTqvmQ54hKHcZlZ
+         MBMLEIwM3/DtfJDtM4BUKOmnGgOeKyg2gL1czgA0392g83YNTEnyWHc07Q7LiIiiEZAV
+         xlFq6hre6kqvIicmkeR0a7GNM0rZMm87UJtQTp3KDkKnhgR6VRtI3qJKqQMObDy565Qm
+         yXqHC1RYGN85pwGarzbb5/q4P9cq+S+neLb/TavUzrI+Vq80itdThoMI72lOQdI2P8BY
+         0iVQ==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AD7BkJK4NTb4ssplQQ1egcOhJAyLL2qT441d2G0kDi1JpB44Q+fEGyf/RInzCEo8kiWUS0HmpvfZdQz9tk1bmrlyo5zIqoA=
+X-Received: by 10.202.48.86 with SMTP id w83mr270614oiw.105.1459244296326;
+        Tue, 29 Mar 2016 02:38:16 -0700 (PDT)
+X-Forwarded-To: hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.157.14.6 with SMTP id c6csp655858otc;
+        Tue, 29 Mar 2016 02:38:15 -0700 (PDT)
+X-Received: by 10.107.11.150 with SMTP id 22mr1539444iol.61.1459244295519;
+        Tue, 29 Mar 2016 02:38:15 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id 197si27467055ion.193.2016.03.29.02.38.14
+        for <forensic.duzon@gmail.com>;
+        Tue, 29 Mar 2016 02:38:15 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Message-ID: <56fa4d07.ce0d6b0a.725de.0a51SMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_2023_208026_1_400_0_20160329183747_210.223.88.35>
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u2T9bGX00545;
+	Tue, 29 Mar 2016 18:37:16 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2T9bGX00545
+X-SmartFilter: FROM,u2T9bGX00545,forensic@duzon.com
+x-forward-id: 1459244060039_2433444502
+recvDate: Tue, 29 Mar 2016 18:34:20 +0900
+x-newturns-hashkey: 43156fd0106c41a780dd69fe9c5ee3a6f59212598e59549b40bccf708f003e4f
+Received: from external ([210.223.88.35])
+	by smf.duzon.com (1.0) id u2T9awT00541;
+	Tue, 29 Mar 2016 18:36:58 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2T9awT00541
+X-SmartFilter: FROM,u2T9awT00541,2023_1_208026_forensic_duzon.com@academymail.kotra.or.kr
+MIME-Version: 1.0
+Date: Tue, 29 Mar 2016 18:37:47 +0900
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?UTF-8?B?W0tPVFJBXSDspJHqta0gNOyblCA47J2867aA7YSwIO2VtA==?=
+	=?UTF-8?B?7Jm47KeB6rWsIO2WieyasOyEuCDtj5Dsp4A=?=
+From: =?UTF-8?B?S09UUkE=?=<ois@kotra.or.kr>
+To: =?UTF-8?B?7Jyg7KeE7JWE?=<forensic@duzon.com>
+Reply-To: =?UTF-8?B?S09UUkE=?=<ois@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+X-Naver-ESV: w9+n+6J4p635WrlY7BwdpBmmaxK/FxCYkXm=
+
+<table cellspacing="0" cellpadding="0" width="680" border="0">
+    <tbody>
+        <tr>
+            <td><img border="0" alt="[KOTRA] 중국 4월 8일부터 해외직구 행우세 폐지" width="751" height="1462" usemap="#Map" src="http://infomailer.kotra.or.kr/20160329/newsletter20160329_ok.jpg" /></td>
+        </tr>
+        <tr>
+            <td><!-- center><strong>{$REJECT$} - 수신거부를 원하시면 클릭하세요 - {$/REJECT$}</strong></center --></td>
+        </tr>
+    </tbody>
+</table>
+<map id="Map" name="Map">
+<area shape="rect" alt="글로벌인재발굴" target="_blank" coords="552,21,639,50" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=1&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.contactkorea.go.kr/" />
+<area shape="rect" alt="해외시장뉴스" target="_blank" coords="199,21,283,50" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=2&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/" />
+<area shape="rect" alt="중국 4월 8일부터 해외직구 행우세 폐지" target="_blank" coords="26,237,733,385" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=3&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/global/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036054&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;SCH_AREA_CD=00000&amp;Page=2&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" alt="코트라" target="_blank" coords="22,21,108,49" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=4&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/" />
+<area shape="rect" alt="해외투자정보" target="_blank" coords="463,21,549,49" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=5&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,674897&amp;_dad=portal&amp;_schema=PORTAL&amp;page=main" />
+<area shape="rect" alt="정상외교경제활용포털" target="_blank" coords="642,21,727,50" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=6&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.aftBiz.AftBizDetail.do?aft_biz_seq=306" />
+<area shape="rect" alt="무역수출상담" target="_blank" coords="111,21,196,50" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=7&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://tradedoctor.kotra.or.kr/index.td.jsp" />
+<area shape="rect" alt="글로벌전시정보" target="_blank" coords="376,21,460,50" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=8&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.gep.or.kr/" />
+<area shape="rect" alt="해외바잉오퍼" target="_blank" coords="286,21,373,49" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=9&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.buykorea.org/of/BKOFLI081C.html" />
+<area shape="rect" target="_blank" coords="44,667,304,686" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=10&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/europe/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036341&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;Page=1&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" target="_blank" coords="44,637,313,657" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=11&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/middle-east/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036249&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;Page=1&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" target="_blank" coords="44,604,261,624" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=12&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/asia/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036157&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;Page=1&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" target="_blank" coords="44,574,370,595" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=13&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/north-america/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036271&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;Page=1&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" alt="포토뉴스" target="_blank" coords="42,698,381,796" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=14&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/gw/overmarket/GWPTNW020M.html?SCH_TYPE=SCH_SJ&amp;SCH_VALUE=&amp;SCH_START_DT=&amp;SCH_END_DT=&amp;RowCountPerPage=16&amp;BBS_ID=10&amp;MENU_CD=M10078&amp;UPPER_MENU_CD=M10003&amp;MENU_STEP=2&amp;Page=1&amp;RowCountPerPage=16&amp;MODE=L&amp;ARTICLE_ID=5036370&amp;ARTICLE_SE=40001&amp;NM_EN=" />
+<area shape="rect" target="_blank" coords="397,668,633,688" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=15&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/middle-east/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036247&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;Page=1&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" target="_blank" coords="397,637,642,656" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=16&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/south-america/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036146&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;Page=1&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" target="_blank" coords="398,574,562,593" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=17&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/japan/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036281&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;Page=1&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" target="_blank" coords="397,604,637,624" _blank="_blank" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=18&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/china/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036304&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;Page=1&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" alt="아프리카 진출, 동아프리카를 활용해야 할 이유" target="_blank" coords="393,696,736,805" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=19&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/global/trade/info/news-detail.html?&amp;SCH_TYPE=SCH_SJ&amp;MENU_CD=M10037&amp;SCH_ARTICLE_SE=&amp;SCH_TRADE_CD=&amp;MODE=&amp;UPPER_MENU_CD=M10003&amp;ARTICLE_ID=5036252&amp;BBS_ID=55&amp;SCH_VALUE=&amp;SCH_AREA_CD=&amp;MENU_STEP=2&amp;Page=1&amp;SCH_NATION_CD=&amp;SCH_START_DT=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;ARTICLE_SE=20149&amp;SCH_END_DT=" />
+<area shape="rect" alt="중남미 주요국 온라인 시장현황과 우리기업 진출전략" target="_blank" coords="22,1071,254,1133" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=20&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.relateData.InDepthDataDetail.do?data_seq=253" />
+<area shape="rect" alt="멕시코 정상방문 경제사절단 발표" target="_blank" coords="18,857,367,1058" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=21&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.notice.NoticeInfoDetail.do?news_bner_seq=350&amp;listUrl=kz.notice.NoticeInfoList.do&amp;s_cnts=1&amp;searchK" />
+<area shape="rect" alt="EU시장 특성에 따른 우리기업 진출전략" target="_blank" coords="21,1136,254,1197" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=22&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.relateData.InDepthDataDetail.do?data_seq=252" />
+<area shape="rect" alt="경제사절단이 방문하게 될 멕시코의 A to Z" target="_blank" coords="22,1200,255,1262" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=23&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/pb.emergingRisk.EmergingRiskList.do" />
+<area shape="rect" alt="경제사절단 갈 땐 정상외교 활용 앱 하나만" target="_blank" coords="22,1264,255,1322" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=24&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.notice.NoticeInfoDetail.do?news_bner_seq=273&amp;listUrl=kz.notice.NoticeInfoList.do&amp;s_cnts=1&amp;searchKeyword=&amp;pageUnit=10&amp;pageIndex=1" />
+<area shape="rect" alt="유럽에선 경험을 선물한다" target="_blank" coords="257,1071,368,1305" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=25&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=https://www.facebook.com/koreasummit/photos/pcb.506449562877527/506449246210892/?type=3&amp;theater" />
+<area shape="rect" alt="알고보면 쉬원 정상외교 " target="_blank" coords="17,817,370,850" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=26&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/" />
+<area shape="rect" alt="해외투자 OIS" target="_blank" coords="387,818,580,850" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=27&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/" />
+<area shape="rect" alt="인도 라자스탄 한국전용공단 클러스터맵" target="_blank" coords="558,1125,726,1285" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=28&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,721184&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=pds&amp;p_deps2=&amp;oid=1160107101720311303" />
+<area shape="rect" alt="이탈리아, 금융산업 이해하기" target="_blank" coords="393,905,727,1043" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=29&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,727073&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=intro&amp;p_deps2=&amp;searchword1=&amp;oid=1160329151626706748" />
+<area shape="rect" alt="이란 투자 실무 가이드" target="_blank" coords="393,1126,555,1285" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=30&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,721184&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=pds&amp;p_deps2=&amp;oid=1160229110143344520" />
+<area shape="rect" alt="독일, 사기 주의보: 국제거래 알선사이트를 이용한 사기사례" target="_blank" coords="385,389,735,548" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=31&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/global/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036314&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;SCH_AREA_CD=00000&amp;Page=3&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" alt="인도네시아 젊은 세대 '할랄 음료수, 향수' 제품 원해" target="_blank" coords="29,399,379,548" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=32&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/global/trade/all-all/overseamarket-detail.html?&amp;MENU_CD=M10080&amp;SCH_TYPE=SCH_SJ&amp;MODE=L&amp;SCH_CMMDY_CATE_CD=00000&amp;SCH_TRADE_CD=0000000&amp;ARTICLE_ID=5036240&amp;UPPER_MENU_CD=M10003&amp;NM_KO=&amp;BBS_ID=10&amp;NM_EN=&amp;SCH_VALUE=&amp;MENU_STEP=2&amp;SCH_AREA_CD=00000&amp;Page=1&amp;SCH_NATION_CD=000000&amp;SCH_START_DT=&amp;BKCODE=&amp;RowCountPerPage=10&amp;RowCountPerPage=10&amp;SCH_END_DT=" />
+<area shape="rect" alt="수신거부" target="_blank" coords="669,1418,730,1440" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=33&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://scrm.kotra.or.kr/crm/common.ComMail/UCP_D2?EMAILLOGID=28259808" />
+<area shape="rect" alt="신규가입" target="_blank" coords="604,1418,664,1440" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=2023&linkno=34&seqidx=208026&service=1&dmidx=400&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/member/KHMMMJ010M.html?MENU_CD=F0150&amp;TOP_MENU_CD=F0145&amp;LEFT_MENU_CD=F0150&amp;PARENT_MENU_CD=F0150" /></map>
+<div style="display:none;"><img src="http://210.223.88.35:8889/trace/openChecker.jsp?mailidx=2023&seqidx=208026&service=1&dmidx=400&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+
+

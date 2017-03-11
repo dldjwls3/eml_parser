@@ -1,0 +1,191 @@
+Received: (qmail 17824 invoked from network); 26 Nov 2014 01:59:17 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda02.wmail.naver.com with SMTP; 26 Nov 2014 01:59:17 -0000
+Received: from [202.167.215.64] ([202.167.215.64]) 
+          by crcvmail02.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1416967157.160136.4159544208.crcvmail02
+          for <jonghyun.kim@dforensic.com>; 
+          Wed, 26 Nov 2014 10:59:15 +0900 (KST) 
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id sAQ1qUB00200;
+	Wed, 26 Nov 2014 10:52:30 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sAQ1qUB00200
+X-SmartFilter: FROM,sAQ1qUB00200,joseph@duzon.com
+x-forward-id: 1416967135704_935649226
+recvDate: Wed, 26 Nov 2014 10:58:55 +0900
+x-newturns-hashkey: 698db355bbea34d90001b77c21e16a7019fa756a5c55f9ba9d48d551ff20d8aa
+Received: from external ([74.125.82.43])
+	by smf.duzon.com (1.0) id sAQ1qI2001BB;
+	Wed, 26 Nov 2014 10:52:19 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sAQ1qI2001BB
+X-SmartFilter: FROM,sAQ1qI2001BB,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-wg0-f43.google.com with SMTP id l18so2454662wgh.16
+        for <joseph@duzon.com>; Tue, 25 Nov 2014 17:58:52 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:subject:to
+         :from:reply-to:errors-to:mime-version:date:message-id:importance
+         :organization:content-type:content-transfer-encoding;
+        bh=XG33LAbC2CI8hQ6nMLiF2lxFldoida0juUJrYOGRLgE=;
+        b=XboIH43qxW+Jp6DEaXiImVYJm/euHu6x//tkvE9JEq4/PpTxUyKfAf+koBpgJTc2zw
+         Qfta7VSY1+TZtRRBhD7+mssB6afyEPvSBurfYhSIvaeinPqsJ0PlAr1wmp3Ut52uhyJV
+         jcFBFJFORz4BgO1e+ddaXkKQmNN/9xxesg0uvja4eFlyuj3EzJyzKpdnhJo2MJ3pSLBv
+         /SwgfM5aQfox0vBIOKXM57qbMU7C1QN6wYrCXGtmzjbVJ4CzViUaBB5ZYS6bxhNDoowB
+         d/brEMYOA9XP/rLYd64JJMB4xjMuAeDlJYRmpwREXMWiv1m2mU9HhhylylCQAzVWlP4t
+         oamw==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+X-Received: by 10.180.78.73 with SMTP id z9mr36512158wiw.52.1416967132786;
+        Tue, 25 Nov 2014 17:58:52 -0800 (PST)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.194.79.72 with SMTP id h8csp462079wjx;
+        Tue, 25 Nov 2014 17:58:51 -0800 (PST)
+X-Received: by 10.70.134.74 with SMTP id pi10mr48544873pdb.126.1416967131190;
+        Tue, 25 Nov 2014 17:58:51 -0800 (PST)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id id7si4485739pbc.167.2014.11.25.17.58.49
+        for <forensic.duzon@gmail.com>;
+        Tue, 25 Nov 2014 17:58:51 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id sAQ1puP0015A;
+	Wed, 26 Nov 2014 10:51:56 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sAQ1puP0015A
+X-SmartFilter: FROM,sAQ1puP0015A,forensic@duzon.com
+x-forward-id: 1416967101665_2433444502
+recvDate: Wed, 26 Nov 2014 10:58:21 +0900
+x-newturns-hashkey: 183b8f1ea48a18b9605df08bf971d3fac948ac31d75b31530d211add09bff140
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id sAQ1prO00159;
+	Wed, 26 Nov 2014 10:51:53 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sAQ1prO00159
+X-SmartFilter: FROM,sAQ1prO00159,user24773@sendd.ozmailer.com
+Subject: =?EUC-KR?B?W8fRsbnBpLq4u+q+97+sx9XIuF0gR1PAzsH1waa1tb+hILTrx9EgwM69xCC51yDIsA==?=
+	=?EUC-KR?B?vLrIrbimIMCnx9EgvLO5rsG2u+c=?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?x9GxucGkuri76r73v6zH1ci4?=" <makang@fkii.org>
+Reply-To: <makang@fkii.org>
+Errors-To: <makang@fkii.org>
+MIME-Version: 1.0
+Date: Wed, 26 Nov 2014 10:58:28 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1689693@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +Z+YpB3G1Hbda0ixyueaaL/9FZ0YbzJqbXmmKxElKx+YkXm=
+
+<IMG SRC="http://www.ozmailer.com/fcso/receipt_confirm.php?email=forensic@duzon.com&mail_no=5908703" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Mail</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='left'><tr><td><!-- OZ_AlignTopEnd -->
+<!--OZ_AttachStart-->
+		<div style="width:100%; padding-top:5px; padding-bottom:5px;" align="right">
+		<table cellspacing='0' cellpadding='0' style='border:#DEDFDE 3px solid;'>
+		<tr>
+			<td width="130"><img src="http://www.ozmailer.com/mail/good_template/image/nt_img_fileattach.gif" border="0" style='display:block;'></td>
+			<td width="420"  border="0" cellspacing="0" cellpadding="0" valign="top" >
+			<div style="padding:8px;">
+				<table width="100%" valign="top" cellspacing="0" cellpadding="0"><tr><td width=50% align=left> <B>+</B> <a href='http://www.ozmailer.com/fcso/downLoad.php?fileNo=1232151&mail_no=5908703&email=forensic@duzon.com' target='blank'> <span style="font-family:Gulim; font-size:12px; color:#000000; text-decoration:none; font-weight:500; line-height:140%;">SW 개발 기업용  (17 KB)</span></a></td>
+				</table>
+			</div>
+			</td>
+		</tr>
+		</table>
+		</div>
+		<!--OZ_AttachEnd--><P></P>
+<P><SPAN id=husky_bookmark_start_1416966729812>&#65279;</SPAN><SPAN id=husky_bookmark_end_1416966729812>&#65279;</SPAN> 
+<P>안녕하세요.<BR>
+한국정보산업연합회 강민애 연구원입니다.</P>
+<P>&nbsp;</P>
+<P>본회는 한국정보통신기술협회와 공동으로 국산 SW의 품질 경쟁력 제고를 위해<BR>
+다음과 같이<STRONG> <SPAN style="BACKGROUND-COLOR: #f5f4e0">‘GS인증제도에 대한 인식 및 활성화를 위한 설문조사’</SPAN></STRONG><SPAN style="BACKGROUND-COLOR: #f5f4e0">를 </SPAN>실시합니다.</P>
+<P>&nbsp;</P>
+<P>바쁘시겠지만 국산 우수 SW의 활용확산 방안을 마련하기 위해 추진되는 본 설문에 <BR>
+부디 오는 <STRONG><U><SPAN style="BACKGROUND-COLOR: #f5f4e0">11월 28일(금)</SPAN></U></STRONG><SPAN style="BACKGROUND-COLOR: #f5f4e0"> </SPAN>까지 응답해 주시면 감사하겠습니다.</P>
+<P>(설문 작성은 <STRONG><SPAN style="BACKGROUND-COLOR: #f5f4e0">5분이면</SPAN> </STRONG>됩니다.)</P>
+<P>&nbsp;</P>
+<P>감사합니다.<BR>
+강민애 올림<BR>
+</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P></P>
+<P style="BACKGROUND: #ffffff; MARGIN-LEFT: 11.2pt; MARGIN-RIGHT: 10.1pt" class=0><SPAN style="FONT-FAMILY: 굴림체; BACKGROUND: #ffffff; LETTER-SPACING: 0pt; COLOR: #000000; FONT-WEIGHT: bold" lang=EN-US>* GS(Good Software)</SPAN><SPAN style="BACKGROUND: #ffffff; COLOR: #000000; FONT-WEIGHT: bold">인증제도 안내 </SPAN></P>
+<P style="BACKGROUND: #ffffff; MARGIN-LEFT: 11.2pt; MARGIN-RIGHT: 10.1pt" class=0><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff" lang=EN-US></SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000">정부는 소프트웨어산업진흥법 제</SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000" lang=EN-US>13</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000">조</SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000" lang=EN-US>(</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000">품질인증</SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000" lang=EN-US>)</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000">에 의거 </SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000" lang=EN-US>SW </SPAN><SPAN style="!
+ BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000">시험</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000">&#8228;</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000">인증을 통한 제품의 품질향상</SPAN></P>
+<P style="BACKGROUND: #ffffff; MARGIN-LEFT: 11.2pt; MARGIN-RIGHT: 10.1pt" class=0><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000">&nbsp;유도</SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -0.2pt; COLOR: #000000" lang=EN-US>, </SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000">중소업체 지원</SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000" lang=EN-US>, </SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000">우수 </SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000" lang=EN-US>SW </SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000">발굴 및 구매 촉진을 통한 국내 </SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000" lang=EN-US>SW</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000">산업 활성화�!
+ � 위해 </SPAN></P>
+<P style="BACKGROUND: #ffffff; MARGIN-LEFT: 11.2pt; MARGIN-RIGHT: 10.1pt" class=0><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt"></SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -0.9pt; COLOR: #000000; FONT-WEIGHT: bold">한국정보통신기술협회</SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -1.2pt; COLOR: #000000; FONT-WEIGHT: bold" lang=EN-US>(TTA)</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1.7pt; COLOR: #000000; FONT-WEIGHT: bold">를 </SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000; FONT-WEIGHT: bold">품질시험</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000; FONT-WEIGHT: bold">&#65381;</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000; FONT-WEIGHT: bold">인증기관으로 지정하고 엄격한 시험을 거쳐 품질이 </SPAN></P>
+<P style="BACKGROUND: #ffffff; MARGIN-LEFT: 11.2pt; MARGIN-RIGHT: 10.1pt" class=0><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000; FONT-WEIGHT: bold">우수한 제품에 대해 </SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000; FONT-WEIGHT: bold" lang=EN-US>GS(Good Software)</SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -1pt; COLOR: #000000; FONT-WEIGHT: bold">인증을</SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -0.5pt; COLOR: #000000" lang=EN-US> </SPAN><SPAN style="BACKGROUND: #ffffff; LETTER-SPACING: -0.3pt; COLOR: #000000">부여하고 다양한 제도적 혜택을 제공하고 있습니다</SPAN><SPAN style="FONT-FAMILY: 굴림; BACKGROUND: #ffffff; LETTER-SPACING: -0.3pt; COLOR: #000000" lang=EN-US>. </SPAN></P>
+<P></P>
+<P>&nbsp;</P>
+<P></P>
+		<!--OZ_ModuleStart-->
+		<div align='center'>
+			<table cellpadding='0' cellspacing='0'>
+				<tr>
+					<td height='11'></td>
+				</tr>
+			</table>
+			
+			<table width='630' height='100%' cellpadding='0' cellspacing='0' style='border:2px solid #EFEFEF;'>
+				
+			<tr>
+				<td>
+					<table width='100%' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+						<tr>
+							<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 한국정보산업연합회 행사나 교육에 참가하신 분들 대상으로 발송되었습니다.본 메일은 발신전용입니다. 수신거부를 원하시는 경우 &lt;메일&gt;를 회신하여 주시기 바랍니다.</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+				
+				
+			<tr>
+				<td>
+					<table width='100%' height='47' cellpadding='0' cellspacing='0' bgcolor='#EFEFEF'>
+						<tr>
+							<td align='center' valign='top' height='47'>
+								<table cellpadding='0' cellspacing='0'>
+									<tr>
+										<td height='8'></td>
+									</tr>
+									<tr>
+										
+		<td align='left' valign='top'><a href='http://www.ozmailer.com/fcso/neo_reject.php?email=forensic@duzon.com&mail_no=5908703' target=_blank><img src='http://img.ozmailer.com/mail/good_template/bottom_module_frame/button/unsubscribe_kor.png' border='0' alt='수신거부' /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</div>
+		<!--OZ_ModuleEnd-->
+		<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+
+

@@ -1,0 +1,217 @@
+Received: (qmail 28588 invoked by uid 100); 24 Nov 2016 23:37:36 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda003.wmail.worksmobile.com with SMTP;24 Nov 2016 23:37:36 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from  (mail.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id smEZBsKhRQGIi5O3nllqWA
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 24 Nov 2016 23:37:36 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAONdoY005F2;
+	Fri, 25 Nov 2016 08:39:50 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAONdoY005F2
+X-SmartFilter: FROM,uAONdoY005F2,joseph@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2101700@senda.ozmailer.com>
+Received: from external ([209.85.217.169])
+	by smf.duzon.co.kr (1.0) id uAONdY4005D4;
+	Fri, 25 Nov 2016 08:39:34 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAONdY4005D4
+X-SmartFilter: FROM,uAONdY4005D4,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f169.google.com with SMTP id 51so60875924uai.1
+        for <joseph@duzon.com>; Thu, 24 Nov 2016 15:37:02 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :subject:to:from:reply-to:errors-to:mime-version:date:message-id
+         :importance:organization:content-transfer-encoding;
+        bh=LdIS3+rwgMN0md1UtKAky5oUZOV+nCTdO4Ksu0ULh4c=;
+        b=TZFJuNHIW6ngXpEgiUMmVLGp0lc138pBxHJNKUu3Ptg7BUP+tYNrfiTz+BR1SS3Am7
+         2RyNBh4lG+kcUdOH8a5sVeOwIVAVwtiQEsfcgqIwGF6J7rw2Mcy9FgyGFP4/GYLl76ML
+         cG3ZX/eCnFGVuCw7hzZDCXozmF1D6FMduPB7vs6BW7tJ4l8h0salHhBpMw+ZWjfe2WhF
+         wy9i+3f24rjaal838ZLqnvu9JCVyDH2V5qmRPeAWjvHhP1beDk8X9S/NbYo+gXIKMHc9
+         61xJIcSfm8BdrWneSDbpj80+cNLzjSJBSTpFEIJCCpdqn9YMuJSvSSXUaRTxkrpHy4ll
+         aNJQ==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AKaTC00yt1p2bCHBF+6tGz4JQb2t3WXI97e/dCLjFWTbXgbgsRUwQ65snKEZHtXtmQC1xHt4dvYz+zHGixugYzEpo2dCe8U=
+X-Received: by 10.176.0.87 with SMTP id 81mr3243370uai.73.1480030621567;
+        Thu, 24 Nov 2016 15:37:01 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp41994vsa;
+        Thu, 24 Nov 2016 15:37:00 -0800 (PST)
+X-Received: by 10.84.175.234 with SMTP id t97mr10665527plb.145.1480030620443;
+        Thu, 24 Nov 2016 15:37:00 -0800 (PST)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id y83si41341051pff.233.2016.11.24.15.36.59
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 24 Nov 2016 15:37:00 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAONdKT005B1;
+	Fri, 25 Nov 2016 08:39:20 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAONdKT005B1
+X-SmartFilter: FROM,uAONdKT005B1,forensic@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2101700@senda.ozmailer.com>
+Received: from external ([211.115.217.141])
+	by smf.duzon.co.kr (1.0) id uAONd260059A;
+	Fri, 25 Nov 2016 08:39:02 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAONd260059A
+X-SmartFilter: FROM,uAONd260059A,user29001@sendd.ozmailer.com
+Subject: =?EUC-KR?B?KLGksO0pIElUIFRyZW5kIEZvcmVjYXN0ILy8ucyzqiA6ILnMuK66uLTCIDIwMTez4iA=?=
+	=?EUC-KR?B?VG9wIElUIMDMvbS/zSC5zLehILrxwe60z726ILjwtaggwPy4wQ==?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?x9GxucGkuri76r73v6zH1ci4?=" <yjh@fkii.org>
+Reply-To: <yjh@fkii.org>
+Errors-To: <yjh@fkii.org>
+MIME-Version: 1.0
+Date: Fri, 25 Nov 2016 08:36:30 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-2101700@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-SPAMMARK: 8 1 (광고) IT Trend Forecast 세미나 : 미리보는 2017년 Top IT 이슈와 미래 비즈니스 모델 전망
+X-Naver-ESV: wqFn+6J4p635WrlY7BwdpBmZKqKXKqpYkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7765659" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>(광고) IT Trend Forecast 세미나 : 미리보는 2017년 Top IT 이슈와 미래 비즈니스 모델 전망</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+
+
+<title></title>
+
+
+
+<!-- Save for Web Slices (EDM3-02.jpg) -->
+<img width="600" height="972" alt="" src="http://www.fkii.org/upload/imgs/2016/20161121/main_1.jpg" border="0"><br>
+<img width="600" height="1126" alt="" src="http://www.fkii.org/upload/imgs/2016/20161121/main_2.jpg" border="0" usemap="#Map2">
+<map name="Map2">
+  
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=w4wee_4mg0r_g2urao" shape="rect" coords="223,270,345,290" target="_blank">
+</map>
+<br>
+<img width="600" height="663" alt="" src="http://www.fkii.org/upload/imgs/2016/20161121/main_3.jpg" border="0" usemap="#Map">
+<map name="Map">
+  
+
+<area href="mailto:yjh@fkii.org" shape="rect" coords="329,52,401,72" target="_blank">
+  
+
+<area href="mailto:jongsuk2@fkii.org" shape="rect" coords="328,78,439,99" target="_blank">
+  
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=w4wf2_4mg0r_g2urao" shape="rect" coords="168,567,432,628" target="_blank">
+</map>
+<br>
+<br>
+<!-- End Save for Web Slices -->
+
+
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>뉴스레터의 수신을 더이상 원하지 않으시면, 하단의 '수신거부' 버튼을 클릭해주세요.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7765659' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

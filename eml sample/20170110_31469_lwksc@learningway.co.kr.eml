@@ -1,0 +1,202 @@
+Received: (qmail 6073 invoked by uid 100); 10 Jan 2017 01:05:24 -0000
+Received: from 10.114.250.104 (HELO crcvmail03.wmail.naver.com) (10.114.250.104)
+  by cmda003.wmail.worksmobile.com with SMTP;10 Jan 2017 01:05:24 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.douzone.com [202.167.215.8])
+  by crcvmail03.wmail.naver.com with ESMTP id VmN1V9SfSpWXVIPGM6HRuA
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 10 Jan 2017 01:05:24 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0A18LM00759;
+	Tue, 10 Jan 2017 10:08:21 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0A18LM00759
+X-SmartFilter: FROM,v0A18LM00759,joseph@duzon.com
+x-forward-id: <201701101003483470@send41.postman.co.kr>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tyDMv2L5sz11ftB; Tue, 10 Jan 2017 10:04:28 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tyDLz6RDGz11ftc
+	for <joseph@duzon.com>; Tue, 10 Jan 2017 10:04:27 +0900 (KST)
+Received: from external ([209.85.217.176])
+	by smf.duzon.co.kr (1.0) id v0A17Sr0073C;
+	Tue, 10 Jan 2017 10:07:29 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0A17Sr0073C
+X-SmartFilter: FROM,v0A17Sr0073C,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f176.google.com with SMTP id y9so146058783uae.2
+        for <joseph@duzon.com>; Mon, 09 Jan 2017 17:04:23 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:from:to:reply-to
+         :subject:date:list-unsubscribe:mime-version:message-id
+         :content-transfer-encoding;
+        bh=cueqxPAGyF4WgjrhI9tZhwCOkl949Kekf7+todKpn1s=;
+        b=FHfjybCnFxCfTZHQDTUPtn2xeH+eGbIcEqWHtWAFvymbwrL7DGoVHn95gQInQOVSAd
+         gp56QphaGOaaGtJ7BmvDFd/z4SFpaHAxhim0yGu1XgPbF+CXsC0muFI1NKT4vxBZsj/E
+         O8yfQi/Dw/qwDhRqiNYGTGAkxscZ2UPlnkVBRCsfxRId7ZcJQXuJQ0UAcV2CnntqBH4/
+         72PshpraO3T+1TG6ZRJOS6OUvsg6bVlchPjceu1wJbq60ITJcdGVfg55ql9RZ1COlnua
+         9eIO40eACE/QW1dLLZWY0I17cNEKeK36pDGDCg7KGix8bGAFoeVg8Rr+hfJS7DJ7tC1D
+         NIWg==
+X-Gm-Message-State: AIkVDXKMYvm0qTw/SCRdFi3UC8D613XikfI3vhpI9yc86plmD3yxQTkJ9LwVfK7q/CCQNk0XdrdWipp46bM4Gdk3DrQhTNA=
+X-Received: by 10.159.48.85 with SMTP id i21mr223667uab.73.1484010261819;
+        Mon, 09 Jan 2017 17:04:21 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp22979vsa;
+        Mon, 9 Jan 2017 17:04:20 -0800 (PST)
+X-Received: by 10.84.167.2 with SMTP id c2mr870354plb.56.1484010260355;
+        Mon, 09 Jan 2017 17:04:20 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id h129si247310pgc.163.2017.01.09.17.04.19
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 09 Jan 2017 17:04:20 -0800 (PST)
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@postman.co.kr;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0A17LX00728;
+	Tue, 10 Jan 2017 10:07:21 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0A17LX00728
+X-SmartFilter: FROM,v0A17LX00728,forensic@duzon.com
+x-forward-id: <201701101003483470@send41.postman.co.kr>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tyDLl4fkPz11ftD; Tue, 10 Jan 2017 10:03:51 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tyDLG47sPz11ftG
+	for <forensic@duzon.com>; Tue, 10 Jan 2017 10:03:50 +0900 (KST)
+Received: from external ([119.207.76.41])
+	by smf.duzon.co.kr (1.0) id v0A16rM0071D;
+	Tue, 10 Jan 2017 10:06:53 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0A16rM0071D
+X-SmartFilter: FROM,v0A16rM0071D,return_postman0110100000@return.postman.co.kr
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1484010228;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=cueqxPAGyF4WgjrhI9tZhwCOkl949Kekf7+todKpn1s=;
+	b=Wot7kB9nGfkYviEacUnGyeYx+wJCzTU/i+vHWzrwjVoNsxnWD3VDeZrBkp3u3zis
+	9Q5HBShdThdEUeWUc0imBaXaqFvyuxnFiufTSUtvXBM74ZHMJTsxACEi86lt9TDWnly
+	xX5JOL4WTDzH/eyFQTUDfGo6cqtgRqAkEwRaBvoA=
+From: "=?euc-kr?B?t6+017/+wMzE2riuvsY=?=" <lwksc@learningway.co.kr>
+To: "=?euc-kr?B?sejBvsf2?=" <forensic@duzon.com>
+Reply-to: <lwksc@learningway.co.kr>
+Subject: =?euc-kr?B?W7evtNe//sDMxNq4rr7GXSAyMDE3s+I=?= =?euc-kr?B?IDG/+SwgMjAxN7PiIDK/+SBP?= =?euc-kr?B?ZmZpY2UgsbPAsCCw+LCzsPrBpCDAzw==?= =?euc-kr?B?waTA1LTPtNku?=
+Date: Tue, 10 Jan 2017 10:03:48 +0900
+X-WORKER_ID: <single.default_Worker_9>
+X-MAIL_ID: <UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw==>
+X-MEMBER_ID: <TV9JRD04MDA3NjM1OTY2>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDE2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=newhorizons2&customer_id=8007635966>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201701101003483470@send41.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +9eYpB3G1H+YbXFCbHmRKAumFxUdjJ+Y
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>[=B7=AF=B4=D7=BF=FE=C0=CC=C4=DA=B8=AE=BE=C6] 2017=B3=E2 1=BF=F9, 2017=B3=E2 2=BF=F9 Office =B1=B3=C0=B0 =B0=F8=B0=B3=B0=FA=C1=A4 =BE=C8=B3=BB=C0=D4=B4=CF=B4=D9.</title>
+<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" />
+</head>
+<body bgcolor=3D"#FFFFFF" leftmargin=3D"0" marginheight=3D"0" marginwidth=3D"0" topmargin=3D"0">
+<center>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"1817" id=3D"__01" width=3D"700">
+<tbody>
+<tr>
+<td colspan=3D"5"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/index.asp?utm_source=3DPOSTMAN&amp;utm_medium=3DEMAIL&amp;utm_campaign=3Dadv" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"83" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_01.jpg" width=3D"700" /></a></td>
+</tr>
+<tr>
+<td><img alt=3D"" height=3D"50" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_02.jpg" width=3D"352" /></td>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttps://www.facebook.com/lwkorea" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"50" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_03.jpg" width=3D"41" /></a></td>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttps://www.twitter.com/lwkorea" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"50" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_04.jpg" width=3D"40" /></a></td>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://blog.naver.com/learningwaykorea" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"50" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_05.jpg" width=3D"40" /></a></td>
+<td><img alt=3D"" height=3D"50" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_06.jpg" width=3D"227" /></td>
+</tr>
+<tr>
+<td colspan=3D"5"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/ncourse3.apply.asp?x=3D491&amp;s=3D2342&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"158" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_07.jpg" width=3D"700" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"5"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAwNg=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D2&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"117" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_08.jpg" width=3D"700" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"5"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAwNw=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D3&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"122" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_09.jpg" width=3D"700" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"5"><img alt=3D"" height=3D"118" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_10.jpg" width=3D"700" /></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAwOA=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D6&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"56" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_11.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><img alt=3D"" height=3D"56" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_12.jpg" width=3D"348" /></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAwOQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D25&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"55" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_13.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><img alt=3D"" height=3D"55" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_14.jpg" width=3D"348" /></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxMA=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D36&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"59" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_15.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><img alt=3D"" height=3D"59" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_16.jpg" width=3D"348" /></td>
+</tr>
+<tr>
+<td colspan=3D"5"><img alt=3D"" height=3D"73" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_17.jpg" width=3D"700" /></td>
+</tr>
+<tr>
+<td colspan=3D"5"><img alt=3D"" height=3D"49" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_18.jpg" width=3D"700" /></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxMQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D16&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"55" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_19.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxMg=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D2&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"55" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_20.jpg" width=3D"348" /></a></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxMw=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D8&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"55" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_21.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxNA=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D8&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"55" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_22.jpg" width=3D"348" /></a></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxNQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D13&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"54" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_23.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxNg=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D8&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"54" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_24.jpg" width=3D"348" /></a></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxNw=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D14&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"54" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_25.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><img alt=3D"" height=3D"54" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_26.jpg" width=3D"348" /></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxOA=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D2&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"52" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_27.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><img alt=3D"" height=3D"52" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_28.jpg" width=3D"348" /></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAxOQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D3&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"55" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_29.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><img alt=3D"" height=3D"55" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_30.jpg" width=3D"348" /></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAyMA=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D9&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"53" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_31.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><img alt=3D"" height=3D"53" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_32.jpg" width=3D"348" /></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAyMQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/course_view_ita2.asp?x=3D37&amp;c=3D1" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"57" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_33.jpg" width=3D"352" /></a></td>
+<td colspan=3D"4"><img alt=3D"" height=3D"57" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_34.jpg" width=3D"348" /></td>
+</tr>
+<tr>
+<td colspan=3D"5"><img alt=3D"" height=3D"29" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_35.jpg" width=3D"700" /></td>
+</tr>
+<tr>
+<td colspan=3D"5"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1D&Q0lEPTAyMg=3D=3D&URL=3Dhttp://www.learningway.co.kr/board/board02_view.asp?Seq=3D203&amp;page=3D1&amp;number=3D155&amp;category=3D3" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"287" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_36.jpg" width=3D"700" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"5"><img alt=3D"" height=3D"88" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_37.jpg" width=3D"700" /></td>
+</tr>
+<tr>
+<td colspan=3D"5"><a href=3D"mailto:jykang@learningway.co.kr?subject=3D=BC=F6=BD=C5=B0=C5=BA=CE=BF=E4=C3=BB&amp;body=3D=BC=F6=BD=C5=B0=C5=BA=CE =BF=E4=C3=BB=C7=D5=B4=CF=B4=D9." target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"38" src=3D"http://www.learningway.co.kr/edm2017/itt/2017_02_ita_38.jpg" width=3D"700" /></a></td>
+</tr>
+</tbody>
+</table>
+</center>
+<div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDE2MA=3D=3D&UE9TVF9JRD0yMDE3MDExMDEwMDAwOTg1MDkxMw=3D=3D&VEM9MjAxNzAxMTc=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+
+

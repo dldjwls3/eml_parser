@@ -1,0 +1,495 @@
+Received: (qmail 29694 invoked by uid 100); 4 Jan 2017 22:05:02 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda001.wmail.worksmobile.com with SMTP;4 Jan 2017 22:05:02 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id jLqsewj4T+G+3q7eVLTUpQ
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 04 Jan 2017 22:05:02 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v04M7ti0016F;
+	Thu, 05 Jan 2017 07:07:55 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v04M7ti0016F
+X-SmartFilter: FROM,v04M7ti0016F,joseph@duzon.com
+x-forward-id: <361486p8ihio$3644l6u0$2083h1l7@rdc>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tv4c43167z2fmGM; Thu,  5 Jan 2017 07:04:34 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tv4bh1xFMz2fmGm
+	for <joseph@duzon.com>; Thu,  5 Jan 2017 07:04:32 +0900 (KST)
+Received: from external ([209.85.217.174])
+	by smf.duzon.co.kr (1.0) id v04M7CW00163;
+	Thu, 05 Jan 2017 07:07:13 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v04M7CW00163
+X-SmartFilter: FROM,v04M7CW00163,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f174.google.com with SMTP id i68so258247401uad.0
+        for <joseph@duzon.com>; Wed, 04 Jan 2017 14:04:10 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:reply-to:from:to:subject:date:mime-version
+         :content-transfer-encoding;
+        bh=G1u0YcvyWhihXiCaWov/M1i3hzDEq0zMwDNecR+uLg4=;
+        b=kPVM4lwHbQeh4Uoa21VOFpyg2LWTMZuz6f+sn1ytAnZUfnq8EErlIzZG0HwVDzCLye
+         66zk2+g5Lz/CPMv7tvHFTZilnU8E/fiJ0OFPo0BhEgCLxVOihD6pSMBM9abTz2H5kHKG
+         wqrQPPwceOB4idxgm4KsZqpRk/qpm1vmrSzR5xOZN9YCpGrCmFVSGgJg6UAv6c1AmLiM
+         Mw1t5slbNodw4z71PHnjtRVgI1tfASGbMmkr0IEdHum0PnM5LtqAlspWSHpQXThYv/CO
+         Exf4QpYC4bOf7MzZGO2L/ljdJsBgzX2vvy3QJuBJBDsvQsvxsD5rtIiF46lWcm4J9VrN
+         7cLQ==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AIkVDXIdcfLoMKs8ZFUuf5PfD+iBW2dUdQ+crLlJpmawk+FZE4XnK6snVwi2JYT14AlDOr7k50M5vKhhOVwzWadfzhWnink=
+X-Received: by 10.176.0.87 with SMTP id 81mr43518826uai.73.1483567449772;
+        Wed, 04 Jan 2017 14:04:09 -0800 (PST)
+X-Forwarded-To: kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp8671617vsa;
+        Wed, 4 Jan 2017 14:04:08 -0800 (PST)
+X-Received: by 10.129.82.214 with SMTP id g205mr63915363ywb.73.1483567448879;
+        Wed, 04 Jan 2017 14:04:08 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id u128si12129406ywg.438.2017.01.04.14.04.07
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Jan 2017 14:04:08 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v04L9rS00023;
+	Thu, 05 Jan 2017 06:09:53 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v04L9rS00023
+X-SmartFilter: FROM,v04L9rS00023,forensic@duzon.com
+x-forward-id: <361486p8ihio$3644l6u0$2083h1l7@rdc>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tv3K70HmMz2fmFt; Thu,  5 Jan 2017 06:06:07 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tv3JC0v84z2fmFq;
+	Thu,  5 Jan 2017 06:06:03 +0900 (KST)
+Received: from external ([182.116.251.246])
+	by smf.duzon.co.kr (1.0) id v04KXOo00F75;
+	Thu, 05 Jan 2017 05:33:38 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v04KXOo00F75
+X-SmartFilter: FROM,v04KXOo00F75,obaloc@akirton0.orangehome.co.uk
+X-Message-Info: 0pNDmh327nGU/hmOonoZVzSIpmpwQ1Mz
+Received: from adxj ([113.109.220.23])
+          by ndg81-mail.cfvo.ohy.gvt.akirton0.orangehome.co.uk
+          (InterMail vM.5.01.05.12 268-224-413-521-772-00028428) with ESMTP
+          id <48150832548838.NQVZ018311.nlx63-mail.xubk.pzf.akirton0.orangehome.co.uk@lzbi>
+          for <forensic@duzon.com>; Wed, 04 Jan 2017 12:30:38 -0800
+Message-ID: <361486p8ihio$3644l6u0$2083h1l7@rdc>
+Reply-To: "John" <obaloc@akirton0.orangehome.co.uk>
+From: "John" <obaloc@akirton0.orangehome.co.uk>
+To: <forensic@duzon.com>
+Subject: Sex Medicine Drugs
+Date: Wed, 04 Jan 2017 12:30:38 -0800
+MIME-Version: 1.0
+Content-Type: text/html;;
+Content-Transfer-Encoding: 7Bit
+X-Naver-ESV: +9RYpB3G1H+YbXFCbHmRKoUmFxgZjJ+Y
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+/* ///////// CLIENT-SPECIFIC STYLES ///////// */
+#outlook a{padding:0;} /* Force Outlook to provide a 'view in browser' message */
+....ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+....ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+/* ///////// RESET STYLES ///////// */
+body{margin:0; padding:0;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+table{border-collapse:collapse !important;}
+table td { border-collapse: collapse !important;}
+body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+#mailBody.mailBody .uni-block.button-block { display:block; } /* Specific ukr.net style*/
+body {margin: 0;text-align: left;}
+pre {white-space: pre;white-space: pre-wrap;word-wrap: break-word;}
+table.mhLetterPreview { width:100%; }
+table {mso-table-lspace:0pt;mso-table-rspace:0pt;}
+img {-ms-interpolation-mode:bicubic;}
+</style>
+
+<style id="media_css" type="text/css">
+@media all and (max-width: 480px), only screen and (max-device-width : 480px) {body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+table[class='container-table'] {   width:100% !important;}
+....column {   width:100% !important;   max-width:100% !important;}
+td.image-wrapper {   padding: 0 !important;}
+td.image-wrapper, td.text-wrapper {   display:block !important;   width:100% !important;   max-width:initial !important;}
+table[class='wrapper1'] {   table-layout: fixed !important;   padding: 0 !important;   max-width: 600px !important;}
+td[class='wrapper-row'] {   table-layout: fixed !important;   box-sizing: border-box !important;   width:100% !important;   min-width:100% !important;}
+table[class='wrapper2'] {   table-layout: fixed !important;   border: none !important;   width: 100% !important;   max-width: 600px !important;   min-height: 520px !important;}
+div[class='column-wrapper']{   max-width:300px !important;}
+table.uni-block {   max-width:auto !important;   height:auto !important;   min-height: auto !important;}
+table[class='block-wrapper-inner-table'] {   height:auto !important;   min-height: auto !important;}
+td[class='block-wrapper'] {   height:auto !important;   min-height: auto !important;}
+....submit-button-block .button-wrapper 
+{   height: auto !important;   width: auto !important;   min-height: initial !important;   max-height: initial !important;   min-width: initial !important;   max-width: initial !important;}
+img[class='image-element'] {   height:auto !important;   box-sizing: border-box !important;}
+}
+@media all and (max-width: 615px), only screen and (max-device-width : 615px) {td[class='wrapper-row'] {   padding: 0 !important;   margin: 0 !important;}
+}
+</style>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<body width="100%" align="center">
+<!--[if gte mso 9]>   <style type="text/css">   .uni-block img {   display:block !important;   }   </style><![endif]-->
+<center>
+<table cellpadding="0" cellspacing="0" align="center" width="100%" class="container responsive">
+<tbody>
+<tr>
+<td>
+<table class="wrapper1" style="width: 100%; box-sizing: border-box; background-color: rgb(255, 255, 255); float: left;" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="wrapper-row" style="padding: 25px;"><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="wrapper2" style="background-color: rgb(255, 255, 255); border-radius: 0px; max-width: 750px; width: 100%; border: medium none; margin: 0px auto; border-spacing: 0px; border-collapse: collapse;" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="wrapper-row" style="vertical-align: top; max-width: 750px; padding: 0px;" width="100%"><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block container-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; background-image: none; border-spacing: 0px;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 0px; border: medium none;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width:100%;" class="content-wrapper">
+<table class="container-table content-box" style="width: 100%; height: 100%; border-spacing: 0px; border-collapse: collapse;" id="JColResizer0" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr class="container-row">
+<td class="td-wrapper" style="font-size:0;vertical-align:top;" align="center"><!--[if (gte mso 9)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="375px" valign="top"><![endif]-->
+<table class="column" style="height: auto; vertical-align: top; display: inline-table; max-width: 375px; border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="sortable-container ui-sortable" style="vertical-align: top; width: 100%;" valign="top" align="center">
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 8px; vertical-align: top; font-size: 12px; font-family: Arial,Helvetica,sans-serif; line-height: 14.4px; color: rgb(34, 34, 34);" class="content-wrapper">
+<div class="clearfix" style="overflow-wrap: break-word;">
+<div>Pharmacists say this new medicine gives fabulous sensations!</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td><td width="375px" valign="top"><![endif]-->
+<table class="column" style="height: auto; vertical-align: top; display: inline-table; max-width: 375px; border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="sortable-container ui-sortable" style="vertical-align: top; width: 100%;" valign="top" align="center">
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 8px; vertical-align: top; font-size: 12px; font-family: Arial,Helvetica,sans-serif; line-height: 14.4px; color: rgb(34, 34, 34);" class="content-wrapper">
+<div class="clearfix" style="overflow-wrap: break-word;">&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block image-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; padding: 0px; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; text-align: center; border-spacing: 0px; border-collapse: collapse; min-height: auto; font-size: 0px;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: auto; height: 100%; display: inline-table;" class="content-wrapper">
+<table class="content-box" style="display: inline-table; vertical-align: top; width: auto; height: 100%; border-spacing: 0px; border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="vertical-align: middle;">
+<div class="image-wrapper image-drop"><a class="image-link" href="http://gemstarinc.ca/shop/?cO0z" target="_blank"><img class="image-element" src="http://fs5.directupload.net/images/161230/tyoaklmt.jpg" alt="Male enhancing on-line" style="font-size: small; border: medium none; height: auto; outline: medium none; text-decoration: none;" id="gridster_block_12_main_img" ></a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 10px 8px; vertical-align: middle; font-size: 20px; font-family: Arial,Helvetica,sans-serif; line-height: 24px; color: rgb(49, 49, 49);" class="content-wrapper">
+<div class="clearfix" style="overflow-wrap: break-word;">
+<br><div style="text-align: center;">All you need just place an order in our online shop.</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 10px 45px 8px; vertical-align: middle; font-size: 14px; font-family: Arial,Helvetica,sans-serif; line-height: 16.8px; color: rgb(88, 88, 88);" class="content-wrapper">
+<div class="clearfix" style="overflow-wrap: break-word;">
+<div>If youê penis is over the hill it is not a reason for your personal life to stop!<br>
+We have improved our customer service and now your 100% satisfaction is guaranteed!</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block button-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-image: none; min-height: auto; height: 50px;" class="block-wrapper" valign="middle">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: 50px;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; text-align: center;" class="content-wrapper">
+<table class="valign-wrapper" style="display: inline-table; width: auto; border-spacing: 0px; border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="button-wrapper" style="border: medium none; border-radius: 6px; padding: 15px 10px; background-color: rgb(219, 48, 59); height: 19px; min-height: 19px;" valign="middle" align="center"><a class="mailbtn" href="http://champsbakery.com/shop/?cO46" target="_blank" style="width:100%;display:inline-block;text-decoration:none;"><span class="btn-inner" style="display: inline; font-size: 16px; font-family: Arial,Helvetica,sans-serif; line-height: 19.2px; color: rgb(255, 255, 255); background-color: rgb(219, 48, 59); border: 0px none; word-break: break-all;">Get a new life!</span></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 8px; vertical-align: top; font-size: 12px; font-family: Arial,Helvetica,sans-serif; line-height: 14.4px; color: rgb(34, 34, 34);" class="content-wrapper">
+<div class="clearfix cke_editable cke_editable_inline cke_contents_ltr cke_show_borders" style="overflow-wrap: break-word; position: relative;" tabindex="0" spellcheck="false" role="textbox" aria-label="false" aria-describedby="cke_43">
+<div style="text-align: center;">or use this link if button not work</div>
+<div style="text-align: center;"><a data-cke-saved-href="http://champsbakery.com/shop/?cO45" href="http://champsbakery.com/shop/?cPh9" style="color: rgb(73, 183, 51);" target="_blank">http://gemstarinc.ca/shop/?cOUz</a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block container-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; background-image: none; border-spacing: 0px;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 10px; border: medium none;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width:100%;" class="content-wrapper">
+<table class="container-table content-box" style="width: 100%; height: 100%; border-spacing: 0px; border-collapse: collapse;" id="JColResizer1" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr class="container-row">
+<td class="td-wrapper" style="font-size:0;vertical-align:top;" align="center"><!--[if (gte mso 9)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="365px" valign="top"><![endif]-->
+<table class="column" style="height: auto; vertical-align: top; display: inline-table; max-width: 365px; border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="sortable-container ui-sortable" style="vertical-align: top; width: 100%;" valign="top" align="center">
+<table class="uni-block image-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; padding: 0px; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; text-align: center; border-spacing: 0px; border-collapse: collapse; min-height: auto; font-size: 0px;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: auto; height: 100%; display: inline-table;" class="content-wrapper">
+<table class="content-box" style="display: inline-table; vertical-align: top; width: auto; height: 100%; border-spacing: 0px; border-collapse: collapse;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="vertical-align: middle;">
+<div class="image-wrapper image-drop"><a class="image-link" href="http://champsbakery.com/shop/?cPah" target="_blank"><img class="image-element" src="http://funkyimg.com/i/2ja67.gif" alt="Pfizer against Impotence" style="font-size: small; border: medium none; width: auto; height: auto; outline: medium none; text-decoration: none;" id="gridster_block_32_main_img" ></a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td><td width="365px" valign="top"><![endif]-->
+<table class="column" style="height: auto; vertical-align: top; display: inline-table; max-width: 365px; border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="sortable-container ui-sortable" style="vertical-align: top; width: 100%;" valign="top" align="center">
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(255, 255, 255); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 8px; vertical-align: top; font-size: 14px; font-family: Arial,Helvetica,sans-serif; line-height: 16.8px; color: rgb(34, 34, 34);" class="content-wrapper">
+<div class="clearfix" style="overflow-wrap: break-word;"><table width="%RND_DIGIT%RND_DIGIT%" border="0"><tbody><tr><td></td><td></td></tr></tbody></table><br>
+Also we have<br>
+- Eye Care<br>
+- Vitamins<br>
+- Antiviral<br>
+- Heart <br>
+....... and more than 2.000 positions<br>
+<table width="%RND_DIGIT%RND_DIGIT%" border="0"><tbody><tr><td></td></tr></tbody></table></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block line-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(49, 49, 49); background-image: none; vertical-align: middle; height: 10px;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: 10px;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; vertical-align: middle; height: 10px; min-height: 10px;" class="content-wrapper">
+<table style="width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; font-size: 0px;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="separator-line" style="width: 100%; background-color: rgb(204, 204, 204); height: 1px; min-height: 1px; max-height: 1px; line-height: 1px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--><!--[if (gte mso 9)|(IE)]><table cellpadding="0" cellspacing="0" border="0" width="750" align="center"><tr><td><![endif]-->
+<table class="uni-block text-block" style="width: 100%; table-layout: fixed; height: auto; border-collapse: collapse; border-spacing: 0px; display: inline-table; vertical-align: top; font-size: medium; min-height: auto;" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; background-color: rgb(249, 249, 249); background-image: none; border: medium none; height: auto;" class="block-wrapper" valign="top">
+<table class="block-wrapper-inner-table" style="height: 100%; width: 100%; table-layout: fixed; border-spacing: 0px; border-collapse: collapse; min-height: auto;" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="width: 100%; padding: 20px 50px 0px; vertical-align: top; font-size: 12px; font-family: Arial,Helvetica,sans-serif; line-height: 14.4px; color: rgb(85, 86, 90);" class="content-wrapper">
+<div class="clearfix" style="overflow-wrap: break-word;">You can <a href="http://gemstarinc.ca/shop/?cO9c" target="_blank" style="color: rgb(73, 183, 51);">unsubscribe</a><br>
+&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+</body>
+</html>
+
+
+

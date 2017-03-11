@@ -1,0 +1,265 @@
+Received: (qmail 17525 invoked from network); 9 Nov 2014 23:57:42 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda02.wmail.naver.com with SMTP; 9 Nov 2014 23:57:42 -0000
+Received: from [202.167.215.64] ([202.167.215.64]) 
+          by crcvmail02.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1415577462.474972.3754908560.crcvmail02
+          for <jonghyun.kim@dforensic.com>; 
+          Mon, 10 Nov 2014 08:57:42 +0900 (KST) 
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id sA9NqiA0000F;
+	Mon, 10 Nov 2014 08:52:44 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sA9NqiA0000F
+X-SmartFilter: FROM,sA9NqiA0000F,joseph@duzon.com
+x-forward-id: 1415577450475_935649226
+recvDate: Mon, 10 Nov 2014 08:57:30 +0900
+x-newturns-hashkey: cf6ff2e9e365965d03038747fb01cc78fb678e836bf13e3f6e56e1f7ac57caab
+Received: from external ([74.125.82.44])
+	by smf.duzon.com (1.0) id sA9Nqcn00FEA;
+	Mon, 10 Nov 2014 08:52:39 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sA9Nqcn00FEA
+X-SmartFilter: FROM,sA9Nqcn00FEA,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-wg0-f44.google.com with SMTP id x12so7596362wgg.3
+        for <joseph@duzon.com>; Sun, 09 Nov 2014 15:57:29 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:subject:to
+         :from:reply-to:errors-to:mime-version:date:message-id:importance
+         :organization:content-type:content-transfer-encoding;
+        bh=IH2b0ZKNK41/+8IeJlAOL0fZnRrpuFDTIfSfxtxmwk4=;
+        b=FpncyRNZcMP+GTg7HGptFc3tCw+DYa12Pm54GUx81LVM8dLVgMnkoRO/2QrMvUz5f3
+         O2bAft2/lc2ZgwYTN/O4GW3YmgQEXqoH9S40QGNYwgkd9mPEiVexhD4CGWAk9L3Vy2ka
+         mlP+5rzHPa8WhoWDNplWTp6h4Q4zUTSL8I9xWMKSWQb3hCQMPLsG2dyaogRMNA5nRQ7O
+         DA7tlAGd18pKNBRLNnlWrU+SITlce10xVcbyKJCkU4pOy84XbGqqhnmsgRPCJbnm+F2i
+         sHRLgrcfUxCZvGL790B5s0xw4cni6HflkJ5EhRj8ilkHvBnV6S15eSdMSJ8DuC9JOa/l
+         nonQ==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+X-Received: by 10.180.86.198 with SMTP id r6mr25669136wiz.29.1415577449300;
+        Sun, 09 Nov 2014 15:57:29 -0800 (PST)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.194.79.72 with SMTP id h8csp116165wjx;
+        Sun, 9 Nov 2014 15:57:28 -0800 (PST)
+X-Received: by 10.68.191.33 with SMTP id gv1mr28023014pbc.33.1415577447131;
+        Sun, 09 Nov 2014 15:57:27 -0800 (PST)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id gq5si428766pac.79.2014.11.09.15.57.25
+        for <forensic.duzon@gmail.com>;
+        Sun, 09 Nov 2014 15:57:27 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id sA9NqPh00FA8;
+	Mon, 10 Nov 2014 08:52:25 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sA9NqPh00FA8
+X-SmartFilter: FROM,sA9NqPh00FA8,forensic@duzon.com
+x-forward-id: 1415577431542_2433444502
+recvDate: Mon, 10 Nov 2014 08:57:11 +0900
+x-newturns-hashkey: 902a4060a366df8b66044b5e229b9019539a44b7865b4d302d10c6adc22d86e8
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id sA9NqJ900F86;
+	Mon, 10 Nov 2014 08:52:19 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sA9NqJ900F86
+X-SmartFilter: FROM,sA9NqJ900F86,user24773@sendd.ozmailer.com
+Subject: =?EUC-KR?B?W0NSTS5CScf5wMfIuF0gMTG/+SDBpLfKvLy5zLOqICew+LCjILrytaXAzMXNILrQvK4=?=
+	=?EUC-KR?B?IMiwv+sgu+e3yicgvsizuw==?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?Q1JNLkJJx/nAx8i4?=" <makang@fkii.org>
+Reply-To: <makang@fkii.org>
+Errors-To: <makang@fkii.org>
+MIME-Version: 1.0
+Date: Mon, 10 Nov 2014 08:57:11 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1679477@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +weYpB3G1Hb9a0ixyueaFS//FV0YbzJqbXmZKqEXFAiYkXm=
+
+<IMG SRC="http://www.ozmailer.com/fcso/receipt_confirm.php?email=forensic@duzon.com&mail_no=5859573" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Mail</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='left'><tr><td><!-- OZ_AlignTopEnd -->
+<TABLE border=0 cellSpacing=1 cellPadding=0 width=600 bgColor=#cccccc>
+<TBODY>
+<TR>
+<TD><IMG src="http://www.fkii.org/upload/imgs/2014/20141118(2)/main.jpg" width=650 height=200></TD></TR>
+<TR bgColor=#ffffff>
+<TD align=middle><BR>
+
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=585>
+<TBODY>
+<TR align=middle bgColor=#ffffcc>
+<TD height=171 colSpan=2>
+<P align=left>
+<P align=left><SPAN class=style37>&nbsp; 귀하의 건승하심과 귀사의 무궁한 발전을 기원합니다. </SPAN><SPAN class=style37>
+<P class=style37 align=left><SPAN class=style37>&nbsp;&nbsp;본회 CRMㆍBI협의회는 CRM,BI,Big Data 관련 최신 동향, 활용 전략, 주요기업 사례 등에 대한 </SPAN></P></SPAN>
+<P class=style37 align=left><SPAN class=style37>&nbsp;&nbsp;주제발표와 참가 기업간 상호 협력 및 정보교류의 장으로 정례세미나를 개최해 오고 있습니다.</SPAN></P>
+<P class=style37 align=left>&nbsp;&nbsp;금번 11월에는 <SPAN class=style29>"공간 빅데이터 분석 활용 사례 "</SPAN> 주제로 진행하오니 CRM,BI,Big 
+<P class=style37 align=left>&nbsp; Data 및 마케팅, 영업, 고객서비스 관련 임직원 여러분들의 많은 참석 바랍니다. </P>
+<P class=style37 align=left>&nbsp; </P>
+<P class=style37 align=left>&nbsp;<SPAN class=style37> </SPAN></SPAN><SPAN class=style10></SPAN></P>
+<DIV class=style8 align=right><FONT size=2 face=돋움><STRONG>한국정보산업연합회</STRONG></FONT></DIV>
+<DIV class=style8 align=right><FONT size=2 face=돋움><STRONG>C R MㆍB I 협의회</STRONG></FONT></DIV>
+<DIV class=style8 align=right><FONT size=2 face=돋움><STRONG>회 장&nbsp;&nbsp;정 진 섭</STRONG> </FONT></DIV></TD></TR>
+<TR>
+<TD height=10 colSpan=2>&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=559>
+<TBODY>
+<TR>
+<TD height=30 vAlign=top width=555 align=left><IMG src="http://www.fkii.org/upload/imgs/2013/20131205/body_information.gif" width=91 height=22></TD></TR></TBODY></TABLE>
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=574>
+<TBODY>
+<TR height=1>
+<TD bgColor=#cccccc width=574></TD></TR>
+<TR height=1>
+<TD bgColor=#ffffff><FONT size=2><FONT size=2 face=돋움>&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;1.</FONT> <FONT size=2><FONT face=돋움>주&nbsp; 제 </FONT></FONT><FONT face=돋움>:<SPAN class=style29> 공간 빅데이터 분석 활용 사례 <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><BR>
+&nbsp;&nbsp;2. 발표자 :<SPAN class=style28> SK텔레콤 빅데이터팀 하도훈 부장 <BR>
+</SPAN><BR>
+&nbsp;&nbsp;3. 일 &nbsp;시 : <SPAN class=style30><STRONG>2014년 11월 18일(화) 18:30~20:00<BR>
+</STRONG></SPAN><BR>
+&nbsp;&nbsp;4. 장 &nbsp;소 : <SPAN class=style29>'공간더하기' 강남점 공간 9실(역삼동 세경빌딩 4층) </SPAN><BR>
+<BR>
+&nbsp;&nbsp;5. 참석자 : CRMㆍBI협의회 회원사 임직원 및 CRM,BI,DB, 마케팅 및 고객 관련 담당 임직원<BR>
+<BR>
+&nbsp;&nbsp;6. 주 &nbsp;최 : 한국정보산업연합회 CRMㆍBI협의회 <BR>
+<BR>
+</FONT></FONT></TD></TR>
+<TR height=1>
+<TD bgColor=#cccccc></TD></TR></TBODY></TABLE><BR>
+
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=559>
+<TBODY>
+<TR>
+<TD height=30 vAlign=top width=555 align=left><IMG align=left src="http://www.fkii.org/upload/imgs/2013/20131205/body_schedule.gif" width=90 height=22></TD></TR></TBODY></TABLE>
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=574>
+<TBODY>
+<TR height=1>
+<TD bgColor=#cccccc width=574></TD></TR>
+<TR height=1>
+<TD bgColor=#ffffff><FONT size=2><FONT size=2 face=돋움>&nbsp;&nbsp;<BR>
+</FONT></FONT>
+<TABLE style="BORDER-COLLAPSE: collapse" id=AutoNumber2 border=1 borderColor=#111111 cellPadding=2 width=540>
+<TBODY>
+<TR bgColor=#339999>
+<TD bgColor=#000099 height=27 width=89 align=middle><FONT size=2 face=굴림><B><FONT color=#ffffff face=돋움>시간</FONT></B></FONT></TD>
+<TD bgColor=#000099 height=27 width=297 align=middle><FONT size=2 face=굴림><B><FONT color=#ffffff face=돋움>발표 내용</FONT></B></FONT></TD>
+<TD bgColor=#000099 height=27 width=126 align=middle><FONT size=2 face=굴림><B><FONT color=#ffffff face=돋움>발표자</FONT></B></FONT></TD></TR>
+<TR>
+<TD height=27 width=89 align=middle><FONT size=2><SPAN class=style31>18:30~18:40</SPAN></FONT></TD>
+<TD height=27 width=297><FONT size=2><SPAN class=style31>&nbsp;&nbsp;참석자 소개 </SPAN></FONT></TD>
+<TD width=126>&nbsp;</TD></TR>
+<TR>
+<TD height=40 width=89 align=middle><FONT size=2><SPAN class=style31>18:40~18:45</SPAN></FONT></TD>
+<TD height=40 width=297>
+<P class=style31><FONT size=2>&nbsp;&nbsp;개회인사</FONT> </P></TD>
+<TD height=40 width=126>
+<P align=center><FONT size=2><STRONG><FONT face=돋움>CRMㆍBI협의회<BR>
+정진섭&nbsp;</FONT></STRONG><FONT face=돋움><STRONG>회장<BR>
+</STRONG></FONT></FONT></P></TD></TR>
+<TR>
+<TD height=13 width=89 align=middle>
+<P class=style31 align=center><FONT size=2>18:45~19:25</FONT></P></TD>
+<TD height=13 width=297>
+<P class=style31><FONT size=2><BR>
+<SPAN class=style29>&nbsp;공간 빅데이터 분석 활용 사례 <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><BR>
+</SPAN></FONT></P></TD>
+<TD height=13 width=126>
+<DIV align=center>
+<P><FONT size=2><STRONG>SK텔레콤<BR>
+하도훈 부장 </STRONG></FONT></P></DIV></TD></TR>
+<TR>
+<TD height=12 width=89 align=middle><FONT size=2><SPAN class=style31>19:25~19:40</SPAN></FONT></TD>
+<TD height=12 width=297>
+<P class=style31><FONT size=2>&nbsp;&nbsp;질의 및 응답 </FONT></P></TD>
+<TD height=12 width=126>
+<P align=center><FONT size=2><FONT face=돋움><STRONG><BR>
+<BR>
+</STRONG></FONT></FONT></P></TD></TR>
+<TR>
+<TD height=27 width=89 align=middle><FONT size=2><SPAN class=style31>19:40~20:00</SPAN></FONT></TD>
+<TD height=27><FONT size=2>&nbsp; 석식 및 간담회 <SPAN class=style31></SPAN></FONT></TD>
+<TD height=27><FONT size=2>
+<DIV align=center>&nbsp;&nbsp;샌드위치 </DIV></FONT></TD></TR></TBODY></TABLE><FONT size=2><FONT face=돋움><BR>
+</FONT></FONT></TD></TR>
+<TR height=1>
+<TD bgColor=#cccccc></TD></TR></TBODY></TABLE><BR>
+
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=598>
+<TBODY>
+<TR>
+<TD height=430 vAlign=top align=middle>
+<DIV align=left>
+<P><BR>
+<SPAN class=style40><BR>
+※ 행사장 약도 </SPAN><SPAN class=style22><BR>
+</SPAN><IMG src="http://www.fkii.org/upload/imgs/2014/20140401/spaceplus.jpg" width=530></P>
+<P align=justify><SPAN class=style22><SPAN class=style39>※ 주차 지원이 안됩니다. </SPAN></SPAN></P>
+<P class=style42 align=justify><SPAN class=style40>※ 본행사는 무료로 진행됩니다. </SPAN></P>
+<P class=style42 align=justify><SPAN class=style40>※ 좌석이 한정되어 참석에 제한이 있을 수도 있는 점, 양해 부탁 드립니다. </SPAN></P></DIV></TD></TR></TBODY></TABLE><FONT size=2><BR>
+</FONT>
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=559>
+<TBODY>
+<TR>
+<TD height=30 vAlign=top><IMG src="http://www.fkii.org/upload/imgs/2013/20131205/body_joininformation.gif" width=120 height=22></TD></TR>
+<TR>
+<TD bgColor=#e4fcee height=29 vAlign=center><FONT face=돋움>&nbsp;<IMG border=0 src="http://www.fkii.org/upload/imgs/2013/20131205/icon-blue.gif" width=10 height=12> <FONT size=2>참가 신청 : 온라인 사전등록 (<A href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1679477&mail_no=5859573&email=forensic@duzon.com&OZTRACKING=d059e3b9c92be04dcba6f371989dfb51&url=http://www.fkii.org/" target=_blank>www.fkii.org</A>) </FONT></FONT></TD></TR>
+<TR>
+<TD bgColor=#e4fcee height=29 vAlign=center><FONT face=돋움>&nbsp;<IMG border=0 src="http://www.fkii.org/upload/imgs/2013/20131205/icon-blue.gif" width=10 height=12><FONT size=2> 참가비 : 무료</FONT></FONT></TD></TR>
+<TR>
+<TD bgColor=#e4fcee height=29 vAlign=center>
+<TABLE border=0 width=559>
+<TBODY>
+<TR>
+<TD width=12><FONT face=돋움><IMG border=0 src="http://www.fkii.org/upload/imgs/2013/20131205/icon-blue.gif" width=10 height=12></FONT></TD>
+<TD class=e4 width=528><FONT size=2 face=돋움><B>문의 </B></FONT></TD></TR>
+<TR>
+<TD><FONT size=2 face=돋움>&nbsp;</FONT></TD>
+<TD><FONT color=#330099 size=2 face=돋움>+ 한국정보산업연합회 CRMㆍBI협의회 강민애 연구원 </FONT><BR>
+Tel : 02-2132-0736, Fax: 02-782-1266&nbsp; E-mail :<FONT color=#000000>&nbsp;<A href="mailto:makang@fkii.org">makang@fkii.org</A></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<P><A href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1679477&mail_no=5859573&email=forensic@duzon.com&OZTRACKING=5b4fae3d6f378f17846faa0a191f4a97&url=http://www.fkii.org/2014/evt/join.php?SC_WORD=&amp;page=1&amp;EM_Code=806" target=_blank><IMG border=0 src="http://www.fkii.org/upload/imgs/2013/20131205/app.gif" width=104 height=104></A><BR>
+</P></TD></TR>
+<TR bgColor=#ffffff>
+<TD bgColor=#dddddd height=84><FONT color=#666666 size=2 face=돋움><STRONG>&nbsp;&nbsp;본 메일의 내용과 해당사항이 없으시면, 해당 관련 부서로 전달해주시면 감사하겠습니다.</STRONG><BR>
+<BR>
+&nbsp;&nbsp;본 메일은 발신전용입니다. 수신거부를 원하시는 경우 <A href="mailto:ghyuk@fkii.org"><STRONG><FONT color=#330099>&lt;여기&gt;</FONT></STRONG></A>를 클릭하여 주시기 바랍니다. <BR>
+&nbsp;&nbsp;본 메일 정보는 본회 관련행사(교육, 세미나, 포럼 등)를 통해 수집 되었습니다. </FONT></TD></TR>
+<TR bgColor=#ffffff>
+<TD>
+<DIV align=center></DIV></TD></TR></TBODY></TABLE>
+		<!--OZ_ModuleStart-->
+		<div align='center'>
+			<table cellpadding='0' cellspacing='0'>
+				<tr>
+					<td height='11'></td>
+				</tr>
+			</table>
+			
+		</div>
+		<!--OZ_ModuleEnd-->
+		<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+
+

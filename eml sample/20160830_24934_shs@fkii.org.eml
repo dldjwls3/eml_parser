@@ -1,0 +1,238 @@
+Received: (qmail 4075 invoked by uid 100); 30 Aug 2016 07:01:49 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda003.wmail.worksmobile.com with SMTP;30 Aug 2016 07:01:49 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from  (gw.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id AdQ0LSM8RAyr3p4Va3yn5g
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 30 Aug 2016 07:01:49 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u7U735600A9A;
+	Tue, 30 Aug 2016 16:03:05 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u7U735600A9A
+X-SmartFilter: FROM,u7U735600A9A,joseph@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2051907@senda.ozmailer.com>
+Received: from external ([209.85.217.172])
+	by smf.duzon.co.kr (1.0) id u7U733v00A91;
+	Tue, 30 Aug 2016 16:03:03 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u7U733v00A91
+X-SmartFilter: FROM,u7U733v00A91,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f172.google.com with SMTP id m60so17379994uam.3
+        for <joseph@duzon.com>; Tue, 30 Aug 2016 00:01:33 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :subject:to:from:reply-to:errors-to:mime-version:date:message-id
+         :importance:organization:content-transfer-encoding;
+        bh=kjOgdzhRW7WZHF0NasAb5Y97+j6xgw6twB8JDeas/HM=;
+        b=U1CnniMNiqIljNrMfuaeMcF5TfSSc/f/vDfhiZFIhN6bCsq2m2JWXDMvwhnvbU1hgF
+         6p2t7nu+tb53PvEWfd+R+b3ti6sMotP5YqtjBfu+5QwFbOXTp0yfexmx/PY7bVu4EOUS
+         w+3nB3n93T9QCBvGCBSrzmSPNBGsvBgwcaRMD3gLephwMrWMICGvu24tkc3fBGHxoD8p
+         7UTFJ+ggOWJXvXv1J508/aokdKpQYJ1K2jBO/ZgR2Jq+HMS3A06qV8uOnILmdLaDmQ6z
+         0LTSE5l+39OGD5YpVcX7Ehkn6aK6C3/NTzk/6i/ArptSjNfa1aRVa5HhwzcyZF8H9fi/
+         sjbA==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AE9vXwOlPvn9hWyt0t99EGp3z1pO3HNcjZj7GlDtk65ZFH0L51nzEXus2PlmaisgGFpc/CWUGlYgANZ1vtM0Uw+wt3vLP+k=
+X-Received: by 10.159.36.206 with SMTP id 72mr1095771uar.126.1472540492445;
+        Tue, 30 Aug 2016 00:01:32 -0700 (PDT)
+X-Forwarded-To: pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.38.71 with SMTP id m68csp2163239vsm;
+        Tue, 30 Aug 2016 00:01:31 -0700 (PDT)
+X-Received: by 10.66.159.195 with SMTP id xe3mr3514166pab.159.1472540491395;
+        Tue, 30 Aug 2016 00:01:31 -0700 (PDT)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id w15si43742865pfj.284.2016.08.30.00.01.30
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 30 Aug 2016 00:01:31 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u7U72wm00A88;
+	Tue, 30 Aug 2016 16:02:58 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u7U72wm00A88
+X-SmartFilter: FROM,u7U72wm00A88,forensic@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2051907@senda.ozmailer.com>
+Received: from external ([211.115.217.140])
+	by smf.duzon.co.kr (1.0) id u7U72vj00A85;
+	Tue, 30 Aug 2016 16:02:57 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u7U72vj00A85
+X-SmartFilter: FROM,u7U72vj00A85,user24773@sendc.ozmailer.com
+Subject: =?EUC-KR?B?KLGksO0pIFs5LzVdILTZsbnA+yC9usW4uqXDsyDAsLy6x8G3zrHXt6Ugv8DHwiDEwQ==?=
+	=?EUC-KR?B?xtu3sb26IMPKw7u15biztM+02S4=?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?tNmxucD7IL26xbi6pcOzIMCwvLrHwbfOsde3pSC757mrsbk=?=" <shs@fkii.org>
+Reply-To: <shs@fkii.org>
+Errors-To: <shs@fkii.org>
+MIME-Version: 1.0
+Date: Tue, 30 Aug 2016 16:01:26 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-2051907@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-SPAMMARK: 8 1 (광고) [9/5] 다국적 스타벤처 육성프로그램 오픈 컨퍼런스 초청드립니다.
+X-Naver-ESV: wZ+n+6J4p635WrlY7BwdpBmmFqgwFA0YkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7534999" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>(광고) [9/5] 다국적 스타벤처 육성프로그램 오픈 컨퍼런스 초청드립니다.</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<title>▒다국적 스타벤처 육성프로그램▒</title>
+
+
+
+<!-- Save for Web Slices (EDM3-02.jpg) -->
+<table width="800" border="0">
+<tbody><tr><td><p><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">안녕하세요. 한국정보산업연합회입니다.</span></p><p><br></p><p></p><p class="0" style="text-indent: -30pt;"><span style="background: rgb(255, 255, 255); font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 예비창업자</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">, </span><span style="background: rgb(255, 255, 255); font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">스타트업을 대상으로 다국적 역량 강화를 위한 성공 </span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">CE</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">O </span><span style="background: rgb(2!
+ 55, 255, 255); letter-spacing: -0.2pt; font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">및 액셀러레이터 강연을 통해 </span></p><p class="0" style="text-indent: -30pt;"><span style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;글로벌 해외 진출 인식 제고 및 </span><span style="background: rgb(255, 255, 255); font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">정보 교류의 장 마련하기 위해 </span><span style="background: rgb(255, 255, 255); font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">다국적 스타벤처 육성프로그램 오픈컨퍼런스에 </span></p><p class="0" style="text-indent: -30pt;"><span style="background: rgb(255, 255, 255); font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 초대드리오니 많은 참석 부탁드립니다.</span></p><p class="0" style="text-indent: -30pt;"><span style="background: rgb(255, 255, 25!
+ 5); font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">dk&nbsp;&nbsp;&nbsp; 아울러, 국내 스타트업 기업에 재직 중이거나 스타트업 기업 취업에 관심 있는 외국인을 초청하오니 참석하여 주시면 </span></p><p class="0" style="text-indent: -30pt;"><span style="background: rgb(255, 255, 255); font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 감사 드리겠습니다. 본 행사는 외국인을 위한 영어 동시통역을 지원합니다.</span></p><p class="0" style="background: rgb(255, 255, 255);">  <!--[if !supportEmptyParas]--><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">&nbsp;</span><!--[endif]--><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">  </span><o:p></o:p></p><p></p><p><span lang="EN-US" style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">1. </span><span style="font-family: 굴림; font-size: 12pt;"><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">일</span><spa!
+ n style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">시!
+ </span><span lang="EN-US" style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">: 2016</span><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">년</span><span lang="EN-US" style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;"> 9</span><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">월</span><span lang="EN-US" style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;"> 5</span><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">일</span><span lang="EN-US" style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">(</span><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">월</span><span lang="EN-US" style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">) 15:00~17:50<br>
+2.&nbsp;</span><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">장</span><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">소</span><span lang="EN-US" style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">: </span><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">판교 스타트업캠퍼스</span><span lang="EN-US" style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;"> 2</span><span style="font-family: 돋움체,dotumche,applegothic; font-size: 10pt;">층 다목적홀</span><span lang="EN-US"><br>
+</span></span><br></p><p>[참가신청 바로가기]<br></p><p>http://www.fkii.org/2014/evt/join.php?SC_WORD=&amp;page=1&amp;EM_Code=1036</p><p><br></p><p><br></p><p><img width="" alt="" src="http://www.fkii.org/upload/imgs/2016/20160905/1.jpg" border="0" usemap="#Map1">
+</p><tr><td><img width="" alt="" src="http://www.fkii.org/upload/imgs/2016/20160905/2.jpg" border="0" usemap="#Map2">
+<tr><td><img width="" alt="" src="http://www.fkii.org/upload/imgs/2016/20160905/3.jpg" border="0" usemap="#Map3">
+ <map name="Map1">
+  
+
+
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=uxc59_4hi1j_d56dmq" shape="rect" coords="510,655,653,714" target="_blank">
+  </map> 
+  <map name="Map3">
+    
+
+
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=uxc5y_4hi1j_d56dmq" shape="rect" coords="36,49,560,302" target="_blank">
+    
+
+
+
+
+<area href="mailto:ghyuk@fkii.org" shape="rect" coords="315,425,400,441" target="_blank">
+   
+
+
+
+
+<area href="mailto:shs@fkii.org" shape="rect" coords="316,447,385,461" target="_blank">
+    
+
+
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=uxc6n_4hi1j_d56dmq" shape="rect" coords="160,505,421,595" target="_blank">
+ 
+  </map>  
+  </tr></tbody></table>
+ 
+  <!-- End Save for Web Slices -->
+<p></p><p><br></p><p><br></p><p><br></p>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>뉴스레터의 수신을 더이상 원하지 않으시면, 하단의 '수신거부' 버튼을 클릭해주세요.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7534999' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

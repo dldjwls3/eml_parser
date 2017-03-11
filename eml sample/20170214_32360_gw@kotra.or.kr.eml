@@ -1,0 +1,1029 @@
+Received: (qmail 697 invoked by uid 100); 14 Feb 2017 12:41:25 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda002.wmail.worksmobile.com with SMTP;14 Feb 2017 12:41:25 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@douzone.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@douzone.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.duzon.com [202.167.215.8])
+  by crcvmail01.wmail.naver.com with ESMTP id MNjPKZoxRoyoo-iVv-QhTA
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 14 Feb 2017 12:41:24 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v1ECfPn00254;
+	Tue, 14 Feb 2017 21:41:25 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v1ECfPn00254
+X-SmartFilter: FROM,v1ECfPn00254,joseph@douzone.com
+x-forward-id: <58a2fab7.15f3630a.7131e.2f06SMTPIN_ADDED_BROKEN@mx.google.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3vN28v4Fylz11ftP; Tue, 14 Feb 2017 21:40:31 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.douzone.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3vN27z0kKHz11ftJ
+	for <joseph@duzon.com>; Tue, 14 Feb 2017 21:40:31 +0900 (KST)
+Received: from external ([209.85.213.53])
+	by smf.duzon.co.kr (1.0) id v1ECeUZ00246;
+	Tue, 14 Feb 2017 21:40:31 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v1ECeUZ00246
+X-SmartFilter: FROM,v1ECeUZ00246,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f53.google.com with SMTP id r136so79129599vke.1
+        for <joseph@duzon.com>; Tue, 14 Feb 2017 04:40:25 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:mime-version:date:subject:from:to:reply-to
+         :content-transfer-encoding;
+        bh=rGiuPNPTX02rdGo8rwSgUDVyUjQhXywk2+cJF4o48rA=;
+        b=mJOdyqE3tknGVkVzJscU6O1UASyRCgw6dZMBZp8NB2y805MZ7d5ErIFwRFN7GWlbm3
+         BCALmsewoPi80oNBRDMPCkHCikGsKc6NepJOi5EMNQux2yr6oBOFGubuuP8KmUVaQRGU
+         /GKtEvLGkjSindebNWlKL3x1i0EJX9yW5RaGRLJYBrWn1UjGn/7DVPYB1cQQ2NoLIS3w
+         wFqcDRYoBsZzwGs2+rNkRU0tOHWXTX13w2L3bx+n02A2nPNCifkTHHhlQhMi8MV9oI1g
+         1p4HHckt7vPzZHnOZRK52ms5lZRkwDhB6POi0mB6+AFZSmQuKAnICoGsndApSBwido+P
+         ks6g==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@douzone.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@douzone.com
+X-Gm-Message-State: AMke39nCEd0ICWl4JWqmbBD0kAb/o9SqE/NNmuf9e2Jf8JxwgsOEIM8lQ5sWnhSCXmrl4PMWB+3XC5LkJ5heesA/SctEQg4=
+X-Received: by 10.31.142.68 with SMTP id q65mr14564079vkd.83.1487076024475;
+        Tue, 14 Feb 2017 04:40:24 -0800 (PST)
+X-Forwarded-To: dylim@duzon.com, pch88@duzon.com, yourock@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com dylim@duzon.com, pch88@duzon.com, yourock@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.5.71 with SMTP id 68csp1429583vsf;
+        Tue, 14 Feb 2017 04:40:23 -0800 (PST)
+X-Received: by 10.98.103.195 with SMTP id t64mr31603522pfj.106.1487076023108;
+        Tue, 14 Feb 2017 04:40:23 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.douzone.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id l21si405646pgh.17.2017.02.14.04.40.21
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Feb 2017 04:40:23 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@douzone.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@douzone.com
+Message-ID: <58a2fab7.15f3630a.7131e.2f06SMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_16840_215834_1_3103_0_20170214213950_210.223.88.35>
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v1ECeOW00243;
+	Tue, 14 Feb 2017 21:40:24 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v1ECeOW00243
+X-SmartFilter: FROM,v1ECeOW00243,forensic@douzone.com
+x-forward-id: <IWNID_16840_215834_1_3103_0_20170214213950_210.223.88.35>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3vN27l1yDtz11ft9; Tue, 14 Feb 2017 21:39:51 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.douzone.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3vN2786nVZz11ftC
+	for <forensic@duzon.com>; Tue, 14 Feb 2017 21:39:48 +0900 (KST)
+Received: from external ([210.223.88.35])
+	by smf.duzon.co.kr (1.0) id v1ECdrS0023F;
+	Tue, 14 Feb 2017 21:39:53 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v1ECdrS0023F
+X-SmartFilter: FROM,v1ECdrS0023F,16840_1_215834_forensic_duzon.com@academymail.kotra.or.kr
+MIME-Version: 1.0
+Date: Tue, 14 Feb 2017 21:39:50 +0900
+Content-Type: text/html; charset="UTF-8"
+Subject: =?UTF-8?B?W0tPVFJBXSBLLeu3sO2LsCDrr7jqta3sl5DshJwg7Iic7ZWt?=
+	=?UTF-8?B?IOykkQ==?=
+From: =?UTF-8?B?S09UUkE=?=<gw@kotra.or.kr>
+To: =?UTF-8?B?7Jyg7KeE7JWE?=<forensic@duzon.com>
+Reply-To: =?UTF-8?B?S09UUkE=?=<gw@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +rRYpB3G1H+YbXFCbHmRKxUdKxU9jJ+Y
+
+<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" =
+/><!--KOTRA_NEWSLETTER-->
+<div><!-- top -->
+<p style=3D"padding-left: 10px"><xmeta content=3D"width=3Ddevice-width,in=
+itial-scale=3D1.0,minimum-scale=3D1.0,maximum-scale=3D1.0" name=3D"viewpo=
+rt"></xmeta></p>
+<!--// top -->
+<div style=3D"max-width: 700px; border-top: #dbdcd7 1px solid; border-rig=
+ht: #dbdcd7 1px solid; min-width: 300px; border-bottom: #dbdcd7 1px solid=
+; margin: auto; border-left: #dbdcd7 1px solid"><!-- NEWSLETTER_TITLE -->
+<div style=3D"border-top: #058ed3 10px solid; border-bottom: #058ed3 10px=
+ solid; color: #fff">
+<div align=3D"center"><a target=3D"_blank" style=3D"text-decoration: none=
+; color: #142c4d" href=3D"http://academymail.kotra.or.kr:8889/trace/check=
+er.jsp?mailidx=3D16840&linkno=3D1&seqidx=3D215834&service=3D1&dmidx=3D310=
+3&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/=
+user/newsLetter/kotranews/59/usrGwNewsLetterList.do"><img border=3D"0" al=
+t=3D"" style=3D"max-width: 100%" src=3D"http://news.kotra.or.kr/site/kotr=
+anews/images/weburl/2016/12/newletter_title_20161208.png" /></a><a target=
+=3D"_blank" style=3D"text-decoration: none; color: #142c4d" href=3D"http:=
+//academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D=
+2&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&si=
+te=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/newsLetter/kotranews/59/usr=
+GwNewsLetterList.do"><!--<strong>KOTRA NEWSLETTER</strong> NO. 01--> </a>=
+</div>
+</div>
+<!--// NEWSLETTER_TITLE --><!-- NEWSLETTER_TOP -->
+<div style=3D"padding-bottom: 10px; padding-top: 20px; padding-left: 20px=
+; padding-right: 20px">
+<div style=3D"float: left"><!-- <a href=3D"#" target=3D_blank>
+              <img src=3D"http://www.kotra.or.kr/images/upload/webedit/im=
+ages/000071/20150710101845638_7C06J914.jpg" border=3D"0" width=3D"112" he=
+ight=3D"42" />
+            </a> --></div>
+<div style=3D"font-size: 12px; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=
+=EB=94=95'; float: right; color: #5f6062"><span style=3D"font-size: 12px;=
+ font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; float: right; colo=
+r: #5f6062"><b>Vol.376&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017.2.14&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target=3D"_blank" style=3D"text-decorati=
+on: none; color: #142c4d" href=3D"http://academymail.kotra.or.kr:8889/tra=
+ce/checker.jsp?mailidx=3D16840&linkno=3D3&seqidx=3D215834&service=3D1&dmi=
+dx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.kotra=
+....or.kr/">www.kotra.or.kr</a></b></span></div>
+</div>
+<!--// NEWSLETTER_TOP --><!-- NEWSLETTER_CONTENTS --><!-- =ED=86=B5=EC=83=
+=81=EC=A0=84=EB=9E=B5=ED=8C=80 =EC=8B=9C=EC=9E=91 -->
+<div style=3D"margin-left: 5px; margin-top: 5px; margin-right: 5px"><!-- =
+TITLE -->
+<div style=3D"font-size: 15px; text-decoration: none; border-top: #ccc 3p=
+x solid; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; background=
+: #fff; border-bottom: #ccc 3px solid; font-weight: bold; padding-bottom:=
+ 10px; padding-top: 10px; padding-left: 20px"><a target=3D"_blank" style=3D=
+"text-decoration: none; color: #142c4d" href=3D"http://academymail.kotra.=
+or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D4&seqidx=3D215834&s=
+ervice=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dht=
+tp://www.globalwindow.org/gw/main/GWMAIN010M.html"><b style=3D"color: #69=
+c7f6; padding-right: 10px">=E2=94=BF</b><strong>=EC=A3=BC=EC=9A=94 =EB=AC=
+=B4=EC=97=AD=E3=86=8D=ED=88=AC=EC=9E=90=EB=89=B4=EC=8A=A4</strong> </a><a=
+ target=3D"_blank" style=3D"text-decoration: none" href=3D"http://academy=
+mail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D5&seqidx=
+=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&l=
+inkurl=3Dhttp://www.globalwindow.org/gw/main/GWMAIN010M.html"><img border=
+=3D"0" height=3D"20" style=3D"vertical-align: middle; padding-left: 10px"=
+ alt=3D"" src=3D"http://news.kotra.or.kr/s!
+ ite/mkotranews/images/common/k-logo.png" /> </a>
+<div style=3D"float: right; padding-right: 20px"><b style=3D"font-size: 1=
+2px; float: right; color: #69c7f6; padding-bottom: 10px">Tel: 02-3460-750=
+8 </b></div>
+</div>
+<!--// TITLE --><!-- kotra =ED=95=B4=EC=99=B8=EC=8B=9C=EC=9E=A5=EB=89=B4=EC=
+=8A=A4 =EB=B0=B0=EB=84=88 --><a target=3D"_blank" href=3D"http://academym=
+ail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D6&seqidx=3D=
+215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&link=
+url=3Dhttp://news.kotra.or.kr/user/globalBbs/kotranews/564/globalBbsDataV=
+iew.do?setIdx=3D362&amp;dataIdx=3D157125&amp;column=3D&amp;search=3D&amp;=
+searchAreaCd=3D&amp;searchNationCd=3D&amp;searchTradeCd=3D&amp;searchStar=
+tDate=3D&amp;searchEndDate=3D&amp;searchCategoryIdxs=3D&amp;searchIndustr=
+yCateIdx=3D&amp;page=3D1&amp;row=3D16"><img border=3D"0" alt=3D"=ED=95=B4=
+=EC=99=B8=EC=8B=9C=EC=9E=A5=EB=89=B4=EC=8A=A4 =ED=8C=8C=EB=B9=84=EC=BD=98=
+ =EA=B9=94=EC=95=84=EB=B3=B4=EC=85=A8=EB=82=98=EC=9A=94?" style=3D"max-wi=
+dth: 100%" src=3D"http://news.kotra.or.kr/site/kotranews/images/weburl/20=
+17/2/newsletter_favicon.jpg" /> </a><br />
+<br />
+<!-- tel --><!-- div style=3D"padding-top:15px;padding-right:15px;padding=
+-bottom:15px;border-bottom:#f4f4f4 10px solid;">
+            <b style=3D"float:right;padding-bottom:10px;font-size:12px;co=
+lor:#69C7F6;">Tel: 02-3460-7508<br />
+            </b>
+          </div --><!-- SECTION -->
+<div style=3D"border-top: #f4f4f4 8px solid; border-right: #f4f4f4 8px so=
+lid; border-bottom: #f4f4f4 5px solid; border-left: #f4f4f4 8px solid"><!=
+-- news_1 =EC=8B=9C=EC=9E=91 -->
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 10px; pa=
+dding-top: 10px; padding-left: 10px; padding-right: 10px">
+<div style=3D"clear: both">
+<div style=3D"float: left; padding-right: 20px"><a target=3D"_blank" href=
+=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840=
+&linkno=3D7&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&g=
+idx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalBbs/kotrane=
+ws/4/globalBbsDataView.do?setIdx=3D243&amp;dataIdx=3D157193"><img border=3D=
+"0" alt=3D"K-=EB=B7=B0=ED=8B=B0 =EB=AF=B8=EA=B5=AD=EC=97=90=EC=84=9C =EC=88=
+=9C=ED=95=AD =EC=A4=91 " width=3D"119" height=3D"77" src=3D"http://news.k=
+otra.or.kr/site/kotranews/upload/globalBbs/243/thumb_20170210043835_e96ed=
+478dab8595a7dbda4cbcbee168f.jpg" /></a></div>
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.05em=
+; line-height: 1.4em"><a target=3D"_&quot;blank&quot;" style=3D"text-deco=
+ration: none; color: #131212" href=3D"http://academymail.kotra.or.kr:8889=
+/trace/checker.jsp?mailidx=3D16840&linkno=3D8&seqidx=3D215834&service=3D1=
+&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.=
+kotra.or.kr/user/globalBbs/kotranews/4/globalBbsDataView.do?setIdx=3D243&=
+amp;dataIdx=3D157193"><b style=3D"font-size: 17px">K-=EB=B7=B0=ED=8B=B0 =EB=
+=AF=B8=EA=B5=AD=EC=97=90=EC=84=9C =EC=88=9C=ED=95=AD =EC=A4=91 </b><br />
+<br />
+=EC=9B=94=EB=A7=88=ED=8A=B8 =EA=B4=80=EA=B3=84=EC=9E=90=EC=97=90 =EB=94=B0=
+=EB=A5=B4=EB=A9=B4, =ED=98=84=EC=9E=AC =EB=A7=A4=EC=9E=A5=EC=97=90 =EB=8F=
+=84=EC=9E=85=ED=95=A0 =ED=95=9C=EA=B5=AD =ED=99=94=EC=9E=A5=ED=92=88 =EB=9D=
+=BC=EC=9D=B8=EC=9D=84 =EC=A0=81=EA=B7=B9=EC=A0=81=EC=9C=BC=EB=A1=9C =ED=83=
+=90=EC=83=89 =EC=A4=91=EC=9D=B4=EB=8B=A4. =EB=98=90=ED=95=9C, =EA=B0=80=EC=
+=9E=A5 =EB=8C=80=EC=A4=91=EC=A0=81=EC=9D=B8 =EC=9C=A0=ED=86=B5 =EB=A7=A4=EC=
+=9E=A5 =EC=A4=91 =ED=95=98=EB=82=98=EC=9D=B8 =ED=83=80=EA=B2=9F(Target) =EB=
+=A7=A4=EC=9E=A5=EC=97=90 K-Beauty =EC=84=B9=EC=85=98=EC=9D=B4 =EC=A1=B4=EC=
+=9E=AC=ED=95=98=EB=A9=B0, =EB=A7=A4=EC=9E=A5=EC=9D=B4=EB=82=98 =EC=98=A8=EB=
+=9D=BC=EC=9D=B8 =EC=82=AC=EC=9D=B4=ED=8A=B8=EC=97=90=EC=84=9C =EC=89=BD=EA=
+=B2=8C =ED=95=9C=EA=B5=AD&middot;&middot;&middot;&middot;</a>&nbsp;&nbsp;=
+<a target=3D"_blank" href=3D"http://academymail.kotra.or.kr:8889/trace/ch=
+ecker.jsp?mailidx=3D16840&linkno=3D9&seqidx=3D215834&service=3D1&dmidx=3D=
+3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.=
+kr/user/globalBbs/mkotranews/167/globalBbsDataMobileView.do?setIdx=3D243&=
+amp;dataIdx=3D157193"><b style=3D"font-size: 13px; color: #1d76bc">[=EB=AA=
+=A8=EB=B0=94=EC=9D=BC]</b></a></div>
+</div>
+</div>
+<!-- news_1 =EC=A2=85=EB=A3=8C --><!-- news_2 =EC=8B=9C=EC=9E=91 -->
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 10px; pa=
+dding-top: 10px; padding-left: 10px; padding-right: 10px">
+<div style=3D"clear: both">
+<div style=3D"float: left; padding-right: 20px"><a target=3D"_blank" href=
+=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840=
+&linkno=3D10&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&=
+gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalAllBbs/kot=
+ranews/album/2/globalBbsDataAllView.do?dataIdx=3D157184&amp;column=3Dtitl=
+e&amp;search=3D&amp;searchAreaCd=3D10002&amp;searchNationCd=3D&amp;search=
+TradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCategory=
+Idxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><img bord=
+er=3D"0" alt=3D"=EC=9D=BC=EB=B3=B8=EC=97=90=EC=84=9C =EB=9C=A8=EB=8A=94 =EC=
+=9D=B4=EC=83=89=EC=A0=81=EC=9D=B8 =ED=94=8C=EB=9E=AB=ED=8F=BC =EC=82=AC=EC=
+=9D=B4=ED=8A=B8" width=3D"119" height=3D"77" src=3D"http://news.kotra.or.=
+kr/site/kotranews/upload/globalBbs/243/thumb_20170208191356_084b6fbb10729=
+ed4da8c3d3f5a3ae7c9.png" /> </a></div>
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.05em=
+; line-height: 1.4em"><a target=3D"_&quot;blank&quot;" style=3D"text-deco=
+ration: none; color: #131212" href=3D"http://academymail.kotra.or.kr:8889=
+/trace/checker.jsp?mailidx=3D16840&linkno=3D11&seqidx=3D215834&service=3D=
+1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news=
+....kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?=
+dataIdx=3D157184&amp;column=3Dtitle&amp;search=3D&amp;searchAreaCd=3D1000=
+2&amp;searchNationCd=3D&amp;searchTradeCd=3D&amp;searchStartDate=3D&amp;s=
+earchEndDate=3D&amp;searchCategoryIdxs=3D&amp;searchIndustryCateIdx=3D&am=
+p;page=3D1&amp;row=3D10"><b style=3D"font-size: 17px">=EC=9D=BC=EB=B3=B8=EC=
+=97=90=EC=84=9C =EB=9C=A8=EB=8A=94 =EC=9D=B4=EC=83=89=EC=A0=81=EC=9D=B8 =ED=
+=94=8C=EB=9E=AB=ED=8F=BC =EC=82=AC=EC=9D=B4=ED=8A=B8</b> <br />
+<br />
+=EB=82=98=EB=A7=8C=EC=9D=98 =EB=B4=89=EC=A0=9C=EA=B3=B5=EC=9E=A5 'nutte&r=
+squo;=EB=8A=94 =EC=9D=BC=EB=B3=B8 =EC=A0=84=EC=97=AD=EC=97=90 =EC=9E=88=EB=
+=8A=94 =EB=B4=89=EC=A0=9C=EC=82=AC/=EC=9E=AC=EB=B4=89=EC=82=AC=EC=99=80 =EB=
+=A7=9E=EC=B6=A4=ED=98=95 =EC=9D=98=EB=A5=98 =EB=B0=8F =EC=86=8C=ED=92=88 =
+=EC=A0=9C=EC=9E=91=EC=9D=84 =ED=9D=AC=EB=A7=9D=ED=95=98=EB=8A=94 =EC=86=8C=
+=EB=B9=84=EC=9E=90=EB=A5=BC =EC=97=B0=EA=B2=B0=ED=95=B4=EC=A3=BC=EB=8A=94=
+ =EC=82=AC=EC=9D=B4=ED=8A=B8=EB=A1=9C, 2015=EB=85=84=EB=8F=84=EC=97=90 =EA=
+=B0=9C=EC=84=A4=EB=90=90=EB=8B=A4. 2016=EB=85=84 9=EC=9B=94 =EA=B8=B0=EC=A4=
+=80 =EC=8B=A4=EC=A0=9C =EB=B0=9C=EC=A3=BC =EA=B3=A0=EA=B0=9D =EC=88=98 1=EB=
+=A7=8C =EB=AA=85=EC=9D=84 =EB=84=98=EC=96=B4 =EC=97=B0=EA=B0=84 =EC=95=BD=
+&middot;&middot;&middot;</a>&nbsp;&nbsp;<a target=3D"_blank" href=3D"http=
+://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D=
+12&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&s=
+ite=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/mobileAllBbs/mkotranews/16=
+5/globalBbsDataAllMobileView.do?dataIdx=3D157184&amp;column=3Dtitle&amp;s=
+earch=3D&amp;searchAreaCd=3D10002&amp;searchNationCd=3D&amp;searchTradeCd=
+=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCategoryIdxs=3D=
+&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b style=3D"font=
+-size: 13px; color: #1d76bc">[=EB=AA=A8=EB=B0=94=EC=9D=BC]</b></a></div>
+</div>
+</div>
+<!-- news_2 =EC=A2=85=EB=A3=8C --><!-- news_list =EC=8B=9C=EC=9E=91 -->
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 8px; pad=
+ding-top: 8px; padding-left: 8px; padding-right: 8px">
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.06em=
+; line-height: 2em">
+<ul style=3D"list-style-type: none; padding-bottom: 0px; padding-top: 0px=
+; padding-left: 0px; margin: 0px; list-style-image: none; padding-right: =
+0px">
+    <li style=3D"list-style-type: none; padding-bottom: 5px"><a target=3D=
+"_blank" style=3D"text-decoration: none; color: #6c6c6c" href=3D"http://a=
+cademymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D13=
+&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&sit=
+e=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalAllBbs/kotranews/album=
+/2/globalBbsDataAllView.do?dataIdx=3D157153&amp;column=3Dtitle&amp;search=
+=3D&amp;searchAreaCd=3D10001&amp;searchNationCd=3D&amp;searchTradeCd=3D&a=
+mp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCategoryIdxs=3D&amp;=
+searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b style=3D"font-size=
+: 13px">=E3=86=8D2017=EB=85=84 =EC=9D=B8=EA=B3=B5=EC=A7=80=EB=8A=A5 =EC=8A=
+=A4=ED=83=80=ED=8A=B8=EC=97=85=EC=9D=98 =EC=9D=B8=EC=88=98 =EC=A0=84=EC=9F=
+=81=EC=9D=B4 =EC=8B=9C=EC=9E=91=EB=90=98=EB=8B=A4</b></a> &nbsp;&nbsp;&nb=
+sp;<a target=3D"_blank" href=3D"http://academymail.kotra.or.kr:8889/trace=
+/checker.jsp?mailidx=3D16840&linkno=3D14&seqidx=3D215834&service=3D1&dmid=
+x=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra=
+....or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dat=
+aIdx=3D157153&amp;c!
+ olumn=3Dtitle&amp;search=3D&amp;searchAreaCd=3D10001&amp;searchNationCd=3D=
+&amp;searchTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;sea=
+rchCategoryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10=
+"><b style=3D"font-size: 13px; color: #1d76bc">[=EB=AA=A8=EB=B0=94=EC=9D=BC=
+]</b></a><br />
+    <a target=3D"_blank" style=3D"text-decoration: none; color: #6c6c6c" =
+href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D1=
+6840&linkno=3D15&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D=
+1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalAllBbs/k=
+otranews/album/2/globalBbsDataAllView.do?dataIdx=3D157030&amp;column=3Dti=
+tle&amp;search=3D&amp;searchAreaCd=3D10006&amp;searchNationCd=3D&amp;sear=
+chTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCatego=
+ryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b styl=
+e=3D"font-size: 13px">=E3=86=8D=ED=95=84=EB=A6=AC=ED=95=80 =EC=88=98=EC=B6=
+=9C=EC=9D=B4 =EC=96=B4=EB=A0=B5=EB=8B=A4=EB=A9=B4 =EC=97=AC=EA=B8=B0=EB=A1=
+=9C =EC=A7=84=EC=B6=9C=ED=95=98=EC=84=B8=EC=9A=94</b></a>&nbsp;&nbsp;&nbs=
+p;<a target=3D"_blank" href=3D"http://academymail.kotra.or.kr:8889/trace/=
+checker.jsp?mailidx=3D16840&linkno=3D16&seqidx=3D215834&service=3D1&dmidx=
+=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.=
+or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?data=
+Idx=3D157030&amp;column=3Dtitle&amp;search=3D&amp;searchAreaCd=3D10006&am=
+p;searchNationC!
+ d=3D&amp;searchTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&am=
+p;searchCategoryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=
+=3D10"><b style=3D"font-size: 13px; color: #1d76bc">[=EB=AA=A8=EB=B0=94=EC=
+=9D=BC]</b></a><br />
+    <a target=3D"_blank" style=3D"text-decoration: none; color: #6c6c6c" =
+href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D1=
+6840&linkno=3D17&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D=
+1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalAllBbs/k=
+otranews/album/2/globalBbsDataAllView.do?dataIdx=3D157210&amp;column=3Dti=
+tle&amp;search=3D&amp;searchAreaCd=3D10003&amp;searchNationCd=3D&amp;sear=
+chTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCatego=
+ryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b styl=
+e=3D"font-size: 13px">=E3=86=8D=ED=94=84=EB=9E=91=EC=8A=A4, =ED=8C=8C=EB=A6=
+=AC =EC=A7=81=EB=AC=BC=EB=B0=95=EB=9E=8C=ED=9A=8C TEXWORLD=EC=97=90 =EA=B0=
+=80=EB=8B=A4</b></a> &nbsp;&nbsp;&nbsp;<a target=3D"_blank" href=3D"http:=
+//academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D=
+18&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&s=
+ite=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/mobileAllBbs/mkotranews/16=
+5/globalBbsDataAllMobileView.do?dataIdx=3D157210&amp;column=3Dtitle&amp;s=
+earch=3D&amp;searchAreaCd=3D10003&amp;searchNationCd=3D&am!
+ p;searchTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searc=
+hCategoryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10">=
+<b style=3D"font-size: 13px; color: #1d76bc">[=EB=AA=A8=EB=B0=94=EC=9D=BC=
+]</b></a><br />
+    <a target=3D"_blank" style=3D"text-decoration: none; color: #6c6c6c" =
+href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D1=
+6840&linkno=3D19&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D=
+1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalAllBbs/k=
+otranews/album/2/globalBbsDataAllView.do?dataIdx=3D157119&amp;column=3Dti=
+tle&amp;search=3D&amp;searchAreaCd=3D10002&amp;searchNationCd=3D&amp;sear=
+chTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCatego=
+ryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b styl=
+e=3D"font-size: 13px">=E3=86=8D=E7=BE=8E =EB=B3=B4=ED=98=B8=EC=A3=BC=EC=9D=
+=98 =EC=95=95=EB=B0=95=EC=97=90 =EA=B3=A0=EC=8B=AC=ED=95=98=EB=8A=94 =E6=97=
+=A5 =EC=9E=90=EB=8F=99=EC=B0=A8 =EC=97=85=EA=B3=84</b></a> &nbsp;&nbsp;&n=
+bsp;<a target=3D"_blank" href=3D"http://academymail.kotra.or.kr:8889/trac=
+e/checker.jsp?mailidx=3D16840&linkno=3D20&seqidx=3D215834&service=3D1&dmi=
+dx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotr=
+a.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?da=
+taIdx=3D157119&amp;column=3Dtitle&amp;search=3D&amp;searchAreaCd=3D10002&=
+amp;searchNati!
+ onCd=3D&amp;searchTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D=
+&amp;searchCategoryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;=
+row=3D10"><b style=3D"font-size: 13px; color: #1d76bc">[=EB=AA=A8=EB=B0=94=
+=EC=9D=BC]</b></a><br />
+    <a target=3D"_blank" style=3D"text-decoration: none; color: #6c6c6c" =
+href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D1=
+6840&linkno=3D21&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D=
+1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalAllBbs/k=
+otranews/album/2/globalBbsDataAllView.do?dataIdx=3D157180&amp;column=3Dti=
+tle&amp;search=3D&amp;searchAreaCd=3D10004&amp;searchNationCd=3D&amp;sear=
+chTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCatego=
+ryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b styl=
+e=3D"font-size: 13px">=E3=86=8D=EC=84=B1=EC=9E=A5 =EA=B0=80=EB=8A=A5=EC=84=
+=B1 =EB=86=92=EC=9D=80 =EC=A4=91=EA=B5=AD =ED=94=BC=ED=8A=B8=EB=8B=88=EC=8A=
+=A4 =EC=82=B0=EC=97=85 </b></a>&nbsp;&nbsp;&nbsp;<a target=3D"_blank" hre=
+f=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D1684=
+0&linkno=3D22&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1=
+&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/mobileAllBbs/mk=
+otranews/165/globalBbsDataAllMobileView.do?dataIdx=3D157180&amp;column=3D=
+title&amp;search=3D&amp;searchAreaCd=3D10004&amp;searchNationCd=3D&amp;!
+ searchTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchC=
+ategoryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b=
+ style=3D"font-size: 13px; color: #1d76bc">[=EB=AA=A8=EB=B0=94=EC=9D=BC]<=
+/b></a><br />
+    <a target=3D"_blank" style=3D"text-decoration: none; color: #6c6c6c" =
+href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D1=
+6840&linkno=3D23&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D=
+1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalAllBbs/k=
+otranews/album/2/globalBbsDataAllView.do?dataIdx=3D157036&amp;column=3Dti=
+tle&amp;search=3D&amp;searchAreaCd=3D10005&amp;searchNationCd=3D&amp;sear=
+chTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCatego=
+ryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b styl=
+e=3D"font-size: 13px">=E3=86=8D=ED=8A=B8=EB=9F=BC=ED=94=84 =EC=A0=95=EB=B6=
+=80 =EB=B3=B4=ED=98=B8=EB=AC=B4=EC=97=AD=EC=A3=BC=EC=9D=98 =EA=B0=95=ED=99=
+=94, =EB=B8=8C=EB=9D=BC=EC=A7=88=EC=9D=B4 =EC=96=BB=EB=8A=94 =EA=B8=B0=ED=
+=9A=8C=EC=9A=94=EC=9D=B8=EC=9D=80?</b></a> &nbsp;&nbsp;&nbsp;<a target=3D=
+"_blank" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?ma=
+ilidx=3D16840&linkno=3D24&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D=
+0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/mobil=
+eAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dataIdx=3D157036&amp=
+;column=3Dtitle&amp;search=3D&amp;searchAreaCd=3D!
+ 10005&amp;searchNationCd=3D&amp;searchTradeCd=3D&amp;searchStartDate=3D&=
+amp;searchEndDate=3D&amp;searchCategoryIdxs=3D&amp;searchIndustryCateIdx=3D=
+&amp;page=3D1&amp;row=3D10"><b style=3D"font-size: 13px; color: #1d76bc">=
+[=EB=AA=A8=EB=B0=94=EC=9D=BC]</b></a><br />
+    <a target=3D"_blank" style=3D"text-decoration: none; color: #6c6c6c" =
+href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D1=
+6840&linkno=3D25&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D=
+1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalAllBbs/k=
+otranews/album/2/globalBbsDataAllView.do?dataIdx=3D156477&amp;column=3Dti=
+tle&amp;search=3D&amp;searchAreaCd=3D10008&amp;searchNationCd=3D&amp;sear=
+chTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCatego=
+ryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b styl=
+e=3D"font-size: 13px">=E3=86=8D=EC=98=A4=EB=A7=8C =EC=9D=98=EB=A3=8C=EB=B3=
+=B4=EA=B1=B4=EC=8B=9C=EC=9E=A5 =ED=98=84=ED=99=A9 =EB=B0=8F =EC=A7=84=EC=B6=
+=9C =EB=B0=A9=EC=95=88 </b></a>&nbsp;&nbsp;&nbsp;<a target=3D"_blank" hre=
+f=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D1684=
+0&linkno=3D26&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1=
+&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/mobileAllBbs/mk=
+otranews/165/globalBbsDataAllMobileView.do?dataIdx=3D156477&amp;column=3D=
+title&amp;search=3D&amp;searchAreaCd=3D10008&amp;searchNationCd=3D&amp;!
+ searchTradeCd=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchC=
+ategoryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D10"><b=
+ style=3D"font-size: 13px; color: #1d76bc">[=EB=AA=A8=EB=B0=94=EC=9D=BC]<=
+/b></a><br />
+    </li>
+</ul>
+</div>
+</div>
+</div>
+<!-- news_list =EC=A2=85=EB=A3=8C --><!-- =ED=8F=AC=ED=86=A0=EB=89=B4=EC=8A=
+=A4 =EC=8B=9C=EC=9E=91 -->
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 10px; pa=
+dding-top: 10px; padding-left: 10px; padding-right: 10px">
+<div style=3D"clear: both">
+<div style=3D"float: left; padding-right: 20px"><a target=3D"_blank" href=
+=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840=
+&linkno=3D27&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&=
+gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/globalBbs/kotran=
+ews/36/globalBbsDataView.do?setIdx=3D261&amp;dataIdx=3D157226&amp;column=3D=
+&amp;search=3D&amp;searchAreaCd=3D&amp;searchNationCd=3D&amp;searchTradeC=
+d=3D&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchCategoryIdxs=3D=
+&amp;searchIndustryCateIdx=3D&amp;page=3D1&amp;row=3D16"><img border=3D"0=
+" alt=3D"[=ED=8F=AC=ED=86=A0=EB=89=B4=EC=8A=A4] =EC=BF=A0=EC=9B=A8=EC=9D=B4=
+=ED=8A=B8 =EB=B6=80=EA=B0=80=EC=84=B8 =EB=8F=84=EC=9E=85 =EB=B0=8F =EC=84=
+=B8=EB=B2=95=EA=B0=9C=EC=A0=95 =EB=8F=99=ED=96=A5 =EC=84=B8=EB=AF=B8=EB=82=
+=98 =EA=B0=9C=EC=B5=9C" width=3D"119" height=3D"77" src=3D"http://news.ko=
+tra.or.kr/site/kotranews/upload/globalBbs/261/thumb_20170213112119_d1f491=
+a404d6854880943e5c3cd9ca25.png" /> </a></div>
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.05em=
+; line-height: 1.4em"><a target=3D"_&quot;blank&quot;" style=3D"text-deco=
+ration: none; color: #6c6c6c" href=3D"http://academymail.kotra.or.kr:8889=
+/trace/checker.jsp?mailidx=3D16840&linkno=3D28&seqidx=3D215834&service=3D=
+1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news=
+....kotra.or.kr/user/globalBbs/kotranews/36/globalBbsDataView.do?setIdx=3D26=
+1&amp;dataIdx=3D157226&amp;column=3D&amp;search=3D&amp;searchAreaCd=3D&am=
+p;searchNationCd=3D&amp;searchTradeCd=3D&amp;searchStartDate=3D&amp;searc=
+hEndDate=3D&amp;searchCategoryIdxs=3D&amp;searchIndustryCateIdx=3D&amp;pa=
+ge=3D1&amp;row=3D16"><b style=3D"font-size: 15px">[=ED=8F=AC=ED=86=A0=EB=89=
+=B4=EC=8A=A4] =EC=BF=A0=EC=9B=A8=EC=9D=B4=ED=8A=B8 =EB=B6=80=EA=B0=80=EC=84=
+=B8 =EB=8F=84=EC=9E=85 =EB=B0=8F =EC=84=B8=EB=B2=95=EA=B0=9C=EC=A0=95 =EB=
+=8F=99=ED=96=A5 =EC=84=B8=EB=AF=B8=EB=82=98 =EA=B0=9C=EC=B5=9C</b><br />
+<br />
+=EC=A7=80=EB=82=9C 2=EC=9B=94 2=EC=9D=BC (=EB=AA=A9), Clowne Plaza =ED=98=
+=B8=ED=85=94=EC=97=90=EC=84=9C KOTRA =EC=BF=A0=EC=9B=A8=EC=9D=B4=ED=8A=B8=
+=EB=AC=B4=EC=97=AD=EA=B4=80=EA=B3=BC =ED=9A=8C=EA=B3=84=EB=B2=95=EC=9D=B8=
+ =EB=94=9C=EB=A1=9C=EC=9D=B4=ED=8A=B8=EA=B0=80 =EA=B3=B5=EB=8F=99 =EC=A3=BC=
+=EA=B4=80=ED=95=9C '=EB=B6=80=EA=B0=80=EC=84=B8 =EB=8F=84=EC=9E=85 =EB=B0=
+=8F =EC=84=B8=EB=B2=95=EA=B0=9C=EC=A0=95 =EB=8F=99=ED=96=A5 =EC=84=B8=EB=AF=
+=B8=EB=82=98'=EA=B0=80 =EA=B0=9C=EC=B5=9C=ED=96=88=EB=8B=A4. =EC=9D=B4=EB=
+=B2=88 =EC=84=B8=EB=AF=B8=EB=82=98=EC=97=90=EC=84=9C=EB=8A=94 =EC=BF=A0=EC=
+=9B=A8=EC=9D=B4=ED=8A=B8=EC=97=90 =EC=A7=84=EC=B6=9C=ED=95=9C =ED=95=9C=EA=
+=B5=AD=EA=B8=B0=EC=97=85=EC=9D=84 =EB=8C=80=EC=83=81=EC=9C=BC=EB=A1=9C =EC=
+=BF=A0=EC=9B=A8=EC=9D=B4=ED=8A=B8=EC=9D=98 =EB=B6=80=EA=B0=80=EC=84=B8 =EB=
+=8F=84=EC=9E=85=EA=B3=BC =EB=B2=95=EC=9D=B8=EC=84=B8 =EB=B6=80=EA=B3=BC..=
+..... </a>&nbsp;<a target=3D"_blank" href=3D"http://academymail.kotra.or.kr:=
+8889/trace/checker.jsp?mailidx=3D16840&linkno=3D29&seqidx=3D215834&servic=
+e=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://=
+news.kotra.or.kr/user/globalBbs/mkotranews/175/globalBbsDataMobileView.do=
+?setIdx=3D261&amp;dataIdx=3D157226&amp;column=3D&amp;search=3D&amp;search=
+AreaCd=3D&amp;searchNationCd=3D&amp;searchTradeCd=3D&amp;searchStartDate=3D=
+&amp;searchEndDate=3D&amp;searchCategoryIdxs=3D&amp;searchIndustryCateIdx=
+=3D&amp;page=3D1&amp;row=3D16"><b style=3D"font-size: 13px; color: #1d76b=
+c">[=EB=AA=A8=EB=B0=94=EC=9D=BC]</b></a></div>
+</div>
+</div>
+<!-- =ED=8F=AC=ED=86=A0=EB=89=B4=EC=8A=A4 =EC=A2=85=EB=A3=8C --><!-- =EC=8B=
+=A0=EA=B7=9C=EB=B3=B4=EA=B3=A0=EC=84=9C =EC=8B=9C=EC=9E=91 -->
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 10px; pa=
+dding-top: 10px; padding-left: 10px; padding-right: 10px">
+<div style=3D"clear: both">
+<div style=3D"float: left; padding-right: 20px"><a target=3D"_blank" href=
+=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840=
+&linkno=3D30&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&=
+gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr/user/reports/kotranew=
+s/20/usrReportsView.do?page=3D1&amp;reportsIdx=3D7017&amp;orderByType=3Di=
+mage&amp;searchStartDate=3D&amp;searchEndDate=3D&amp;searchReportGbn=3Dti=
+tle&amp;searchText=3D&amp;searchAreaCd=3D&amp;searchIndustryCateIdx=3D&am=
+p;CSRFToken=3D8645db19-cf19-4b39-9982-f4f11e1c7518"><img border=3D"0" alt=
+=3D"[=EC=8B=A0=EA=B7=9C=EB=B3=B4=EA=B3=A0=EC=84=9C] =EA=BD=83=ED=94=BC=EC=
+=96=B4=EB=9D=BC =EC=88=98=EC=B6=9C : =EC=88=98=EC=B6=9C=EC=83=81=EB=8B=B4=
+ =EC=9A=B0=EC=88=98 =EC=82=AC=EB=A1=80=EC=A7=91" width=3D"119" height=3D"=
+77" src=3D"http://news.kotra.or.kr/site/kotranews/upload/reports/20170201=
+144756_1485824569323.JPG" /> </a></div>
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.05em=
+; line-height: 1.4em"><a target=3D"_&quot;blank&quot;" style=3D"text-deco=
+ration: none; color: #6c6c6c" href=3D"http://academymail.kotra.or.kr:8889=
+/trace/checker.jsp?mailidx=3D16840&linkno=3D31&seqidx=3D215834&service=3D=
+1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news=
+....kotra.or.kr/user/reports/kotranews/20/usrReportsView.do?page=3D1&amp;rep=
+ortsIdx=3D7017&amp;orderByType=3Dimage&amp;searchStartDate=3D&amp;searchE=
+ndDate=3D&amp;searchReportGbn=3Dtitle&amp;searchText=3D&amp;searchAreaCd=3D=
+&amp;searchIndustryCateIdx=3D&amp;CSRFToken=3D8645db19-cf19-4b39-9982-f4f=
+11e1c7518"><b style=3D"font-size: 15px">[=EC=8B=A0=EA=B7=9C=EB=B3=B4=EA=B3=
+=A0=EC=84=9C] =EA=BD=83=ED=94=BC=EC=96=B4=EB=9D=BC =EC=88=98=EC=B6=9C : =EC=
+=88=98=EC=B6=9C=EC=83=81=EB=8B=B4 =EC=9A=B0=EC=88=98 =EC=82=AC=EB=A1=80=EC=
+=A7=91</b><br />
+<br />
+KOTRA =ED=95=B4=EC=99=B8=EC=A7=84=EC=B6=9C=EC=A2=85=ED=95=A9=EC=83=81=EB=8B=
+=B4=EC=84=BC=ED=84=B0 =EC=88=98=EC=B6=9C=EC=A0=84=EB=AC=B8=EC=9C=84=EC=9B=
+=90=EB=93=A4=EC=9D=98 =EC=83=81=EB=8B=B4 =EB=B0=8F =EC=BB=A8=EC=84=A4=ED=8C=
+=85=EC=9D=84 =ED=86=B5=ED=95=B4 =EC=88=98=EC=B6=9C=EC=97=90 =EC=84=B1=EA=B3=
+=B5=ED=95=9C =EA=B8=B0=EC=97=85=EB=93=A4=EC=9D=98 =EC=83=81=EB=8B=B4 =EC=82=
+=AC=EB=A1=80 45=EA=B1=B4=EC=9D=84 =EB=8B=B4=EC=95=98=EB=8B=A4. =ED=95=B4=EC=
+=99=B8=EC=8B=9C=EC=9E=A5 =EC=A7=84=EC=B6=9C=EC=A0=84=EB=9E=B5 =EC=88=98=EB=
+=A6=BD=EA=B3=BC =EC=A4=91=EC=86=8C=EA=B8=B0=EC=97=85 =EC=88=98=EC=B6=9C=EC=
+=9D=84 =ED=99=9C=EC=84=B1=ED=99=94 =ED=95=98=EB=8A=94=EB=8D=B0 =EA=B8=B8=EB=
+=9D=BC=EC=9E=A1=EC=9D=B4=EA=B0=80 =EB=90=A0 =EA=B2=83=EC=9D=B4=EB=8B=A4. =
+.... </a>&nbsp;<a target=3D"_blank" href=3D"http://academymail.kotra.or.kr:8=
+889/trace/checker.jsp?mailidx=3D16840&linkno=3D32&seqidx=3D215834&service=
+=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://n=
+ews.kotra.or.kr/user/reports/mkotranews/163/mobileReportsView.do?reportsI=
+dx=3D7017"><b style=3D"font-size: 13px; color: #1d76bc">[=EB=AA=A8=EB=B0=94=
+=EC=9D=BC]</b></a>
+<p></p>
+</div>
+</div>
+</div>
+<!-- =EC=8B=A0=EA=B7=9C=EB=B3=B4=EA=B3=A0=EC=84=9C =EC=A2=85=EB=A3=8C -->=
+<!-- =ED=86=B5=EC=83=81=EC=A0=84=EB=9E=B5=ED=8C=80 =EB=81=9D --><!-- =EC=84=
+=B1=EA=B3=BC=ED=99=95=EC=82=B0=ED=8C=80 =EC=8B=9C=EC=9E=91-->
+<div style=3D"margin-top: 18px"><!-- TITLE -->
+<div style=3D"font-size: 15px; text-decoration: none; border-top: #ccc 3p=
+x solid; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; background=
+: #fff; border-bottom: #ccc 3px solid; font-weight: bold; padding-bottom:=
+ 10px; padding-top: 10px; padding-left: 20px"><a target=3D"_blank" style=3D=
+"text-decoration: none; color: #142c4d" href=3D"http://academymail.kotra.=
+or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D33&seqidx=3D215834&=
+service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dh=
+ttp://president.globalwindow.org/"><b style=3D"color: #69c7f6; padding-ri=
+ght: 10px">=E2=94=BF</b> <strong>=EC=95=8C=EA=B3=A0=EB=B3=B4=EB=A9=B4 =EC=
+=89=AC=EC=9A=B4 =EC=A0=95=EC=83=81=EC=99=B8=EA=B5=90</strong> <img border=
+=3D"0" alt=3D"" height=3D"20" style=3D"vertical-align: middle; padding-le=
+ft: 10px" src=3D"http://president.globalwindow.org/bzguide/images/288/log=
+o_02.PNG" /> </a></div>
+<!--// TITLE --><!-- tel -->
+<div style=3D"border-bottom: #f4f4f4 1px solid; padding-bottom: 25px; pad=
+ding-top: 15px; padding-right: 15px"><b style=3D"font-size: 12px; float: =
+right; color: #69c7f6">Tel:&nbsp;02-3460-3285</b></div>
+<!-- SECTION -->
+<div style=3D"border-top: #f4f4f4 10px solid; border-right: #f4f4f4 10px =
+solid; border-bottom: #f4f4f4 5px solid; border-left: #f4f4f4 10px solid"=
+><!-- news_1 -->
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 25px; pa=
+dding-top: 15px; padding-left: 15px; padding-right: 15px">
+<div style=3D"clear: both">
+<div style=3D"float: left; padding-right: 20px"><a target=3D"_blank" href=
+=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840=
+&linkno=3D34&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&=
+gidx=3D1&site=3D0&linkurl=3Dhttp://president.globalwindow.org/kz.aftBiz.A=
+ftBizDetail.do?aft_biz_seq=3D439&amp;listUrl=3Dkz.aftBiz.AftBizList.do&am=
+p;order_column=3D&amp;order_opt=3DDESC&amp;s_cnts=3D&amp;s_biz_start_ymd=3D=
+&amp;s_biz_end_ymd=3D&amp;s_appl_start_ymd=3D&amp;s_appl_end_ymd=3D&amp;s=
+_host_org_nm=3D&amp;s_spvs_org_nm=3D&amp;pageUnit=3D10&amp;pageIndex=3D2"=
+><img alt=3D"2017 =EC=84=9C=EC=9A=B8=EA=B5=AD=EC=A0=9C=EC=8B=9D=ED=92=88=EC=
+=82=B0=EC=97=85=EB=8C=80=EC=A0=84" width=3D"120" height=3D"77" style=3D"b=
+order-top: #ddd 1px solid; border-right: #ddd 1px solid; border-bottom: #=
+ddd 1px solid; border-left: #ddd 1px solid" src=3D"http://president.globa=
+lwindow.org/common.ImgView.do?file_id=3DFILE_000000000017459" /> </a></di=
+v>
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.01em=
+; line-height: 1.4em"><a target=3D"_blank" style=3D"text-decoration: none=
+; color: rgb(19,18,18)" href=3D"http://academymail.kotra.or.kr:8889/trace=
+/checker.jsp?mailidx=3D16840&linkno=3D35&seqidx=3D215834&service=3D1&dmid=
+x=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://president.=
+globalwindow.org/kz.aftBiz.AftBizDetail.do?aft_biz_seq=3D439&amp;listUrl=3D=
+kz.aftBiz.AftBizList.do&amp;order_column=3D&amp;order_opt=3DDESC&amp;s_cn=
+ts=3D&amp;s_biz_start_ymd=3D&amp;s_biz_end_ymd=3D&amp;s_appl_start_ymd=3D=
+&amp;s_appl_end_ymd=3D&amp;s_host_org_nm=3D&amp;s_spvs_org_nm=3D&amp;page=
+Unit=3D10&amp;pageIndex=3D2"><b style=3D"font-size: 17px">[=EC=A7=80=EC=9B=
+=90=EC=82=AC=EC=97=85 =EC=95=88=EB=82=B4] 2017 =EC=9C=A0=EC=97=94 =EC=A1=B0=
+=EB=8B=AC =ED=94=8C=EB=9D=BC=EC=9E=90</b> <br />
+<br />
+KOTRA =EA=B3=B5=EA=B3=B5=EC=A1=B0=EB=8B=AC=ED=8C=80=EC=9D=80 =EC=9A=B0=EB=
+=A6=AC=EA=B8=B0=EC=97=85=EC=9D=98 =EC=9C=A0=EC=97=94=EC=A1=B0=EB=8B=AC=EC=
+=8B=9C=EC=9E=A5 =EC=A7=84=EC=B6=9C =ED=99=95=EB=8C=80=EB=A5=BC =EC=9C=84=ED=
+=95=B4 '2017 =EC=9C=A0=EC=97=94 =EC=A1=B0=EB=8B=AC =ED=94=8C=EB=9D=BC=EC=9E=
+=90'=EB=A5=BC =EA=B0=9C=EC=B5=9C=ED=95=A9=EB=8B=88=EB=8B=A4. </a><a targe=
+t=3D"_blank" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.js=
+p?mailidx=3D16840&linkno=3D36&seqidx=3D215834&service=3D1&dmidx=3D3103&em=
+idx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://prapp.globalwindow.or=
+g/mobile/aftBiz/view.do?frommain=3DY&amp;pageIndex=3D1&amp;pageUnit=3D&am=
+p;aft_biz_seq=3D439"><b style=3D"font-size: 13px; color: rgb(29,118,188)"=
+>[=EB=AA=A8=EB=B0=94=EC=9D=BC]</b> </a></div>
+</div>
+</div>
+<!-- news_2 -->
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 25px; pa=
+dding-top: 15px; padding-left: 15px; padding-right: 15px">
+<div style=3D"clear: both">
+<div style=3D"float: left; padding-right: 20px"><a target=3D"_blank" href=
+=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840=
+&linkno=3D37&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&=
+gidx=3D1&site=3D0&linkurl=3Dhttp://president.globalwindow.org/kz.rsltBiz.=
+RsltBizDetail.do?rslt_biz_seq=3D336&amp;listUrl=3Dkz.rsltBiz.RsltBizList.=
+do&amp;order_column=3D&amp;order_opt=3D&amp;s_cnts=3D&amp;s_biz_start_ymd=
+=3D&amp;s_biz_end_ymd=3D&amp;s_host_org_nm=3D&amp;s_spvs_org_nm=3D&amp;pa=
+geUnit=3D10&amp;pageIndex=3D1"><img alt=3D"2017=EB=85=84 =EC=9A=B0=EB=A6=AC=
+=EB=82=98=EB=9D=BC=EC=9D=98 =EC=A7=80=EC=97=AD=EB=B3=84 =EC=88=98=EC=B6=9C=
+=EC=A0=84=EB=A7=9D =EB=B0=8F =EC=8B=9C=EC=9E=A5=EC=97=AC=EA=B1=B4" width=3D=
+"120" height=3D"77" style=3D"border-top: #ddd 1px solid; border-right: #d=
+dd 1px solid; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid"=
+ src=3D"http://president.globalwindow.org/common.ImgView.do?file_id=3DFIL=
+E_000000000017485" /> </a></div>
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.01em=
+; line-height: 1.4em"><a target=3D"_blank" style=3D"text-decoration: none=
+; color: rgb(19,18,18)" href=3D"http://academymail.kotra.or.kr:8889/trace=
+/checker.jsp?mailidx=3D16840&linkno=3D38&seqidx=3D215834&service=3D1&dmid=
+x=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://president.=
+globalwindow.org/kz.rsltBiz.RsltBizDetail.do?rslt_biz_seq=3D336&amp;listU=
+rl=3Dkz.rsltBiz.RsltBizList.do&amp;order_column=3D&amp;order_opt=3D&amp;s=
+_cnts=3D&amp;s_biz_start_ymd=3D&amp;s_biz_end_ymd=3D&amp;s_host_org_nm=3D=
+&amp;s_spvs_org_nm=3D&amp;pageUnit=3D10&amp;pageIndex=3D1"><b style=3D"fo=
+nt-size: 17px">[=EC=A7=80=EC=9B=90=EC=82=AC=EC=97=85 =EA=B2=B0=EA=B3=BC] =
+2017 =EC=84=B8=EA=B3=84=EC=8B=9C=EC=9E=A5 =EC=A7=84=EC=B6=9C=EC=A0=84=EB=9E=
+=B5 =EC=84=A4=EB=AA=85=ED=9A=8C</b> <br />
+<br />
+KOTRA=EB=8A=94 '2017 =EC=84=B8=EA=B3=84=EC=8B=9C=EC=9E=A5 =EC=A7=84=EC=B6=
+=9C=EC=A0=84=EB=9E=B5 =EC=84=A4=EB=AA=85=ED=9A=8C'=EB=A5=BC =EA=B0=9C=EC=B5=
+=9C=ED=95=98=EC=97=AC =EC=84=B8=EA=B3=84=EC=8B=9C=EC=9E=A5=EC=9D=84 =EC=A1=
+=B0=EB=A7=9D=ED=95=98=EA=B3=A0 =EC=A7=80=EC=97=AD=EB=B3=84 =EC=9D=B4=EC=8A=
+=88=EB=A5=BC =EC=A0=90=EA=B2=80=ED=95=98=EC=98=80=EC=8A=B5=EB=8B=88=EB=8B=
+=A4. </a><a target=3D"_blank" href=3D"http://academymail.kotra.or.kr:8889=
+/trace/checker.jsp?mailidx=3D16840&linkno=3D39&seqidx=3D215834&service=3D=
+1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://prap=
+p.globalwindow.org/mobile/rsltBiz/view.do?frommain=3DY&amp;pageIndex=3D1&=
+amp;pageUnit=3D&amp;rslt_biz_seq=3D336"><b style=3D"font-size: 13px; colo=
+r: rgb(29,118,188)">[=EB=AA=A8=EB=B0=94=EC=9D=BC]</b> </a></div>
+</div>
+</div>
+<!-- news_list -->
+<div style=3D"border-bottom: rgb(244,244,244) 10px solid; padding-bottom:=
+ 15px; padding-top: 15px; padding-left: 15px; padding-right: 15px">
+<div style=3D"font-size: 12px; text-decoration: none; font-family: &quot;=
+=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95&quot;; color: rgb(85,85,85); letter=
+-spacing: -0.06em; line-height: 2em">
+<ul style=3D"list-style-type: none; padding-bottom: 0px; padding-top: 0px=
+; padding-left: 0px; margin: 0px; list-style-image: none; padding-right: =
+0px">
+    <li style=3D"list-style-type: none; padding-bottom: 5px; clear: both"=
+><a target=3D"_blank" style=3D"text-decoration: none; color: rgb(108,108,=
+108)" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?maili=
+dx=3D16840&linkno=3D40&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0=
+&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://president.globalwindow.org/k=
+z.video.VideoBoardDetail.do?noti_seq=3D191"><b style=3D"font-size: 13px">=
+&middot;&nbsp;[=EB=8F=99=EC=98=81=EC=83=81=EC=A0=95=EB=B3=B4] =ED=99=8D=EC=
+=B1=84=EC=97=90 =EB=8B=B4=EC=9D=80 =EB=B3=B4=EC=95=88 =EA=B8=B0=EC=88=A0<=
+/b> </a><a target=3D"_blank" href=3D"http://academymail.kotra.or.kr:8889/=
+trace/checker.jsp?mailidx=3D16840&linkno=3D41&seqidx=3D215834&service=3D1=
+&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://prapp=
+....globalwindow.org/mobile/video/view.do?noti_seq=3D191&amp;pageIndex=3D1">=
+<b style=3D"font-size: 13px; color: #1d76bc">[=EB=AA=A8=EB=B0=94=EC=9D=BC=
+]</b> </a></li>
+    <li style=3D"list-style-type: none; padding-bottom: 5px; clear: both"=
+><a target=3D"_blank" style=3D"text-decoration: none; color: rgb(108,108,=
+108)" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?maili=
+dx=3D16840&linkno=3D42&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0=
+&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://president.globalwindow.org/k=
+z.relateData.InDepthDataDetail.do?data_seq=3D320"><b style=3D"font-size: =
+13px">&middot;&nbsp;[=ED=95=B4=EC=99=B8=EC=8B=9C=EC=9E=A5=EC=A0=95=EB=B3=B4=
+] 2017=EB=85=84 =EC=9A=B0=EB=A6=AC=EB=82=98=EB=9D=BC=EC=9D=98 =EC=A7=80=EC=
+=97=AD=EB=B3=84 =EC=88=98=EC=B6=9C=EC=A0=84=EB=A7=9D =EB=B0=8F =EC=8B=9C=EC=
+=9E=A5=EC=97=AC=EA=B1=B4</b> </a></li>
+    <li style=3D"list-style-type: none; padding-bottom: 5px; clear: both"=
+><a target=3D"_blank" style=3D"text-decoration: none; color: rgb(108,108,=
+108)" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?maili=
+dx=3D16840&linkno=3D43&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0=
+&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://president.globalwindow.org/k=
+z.relateData.InDepthDataDetail.do?data_seq=3D318"><b style=3D"font-size: =
+13px">&middot;&nbsp;[=ED=95=B4=EC=99=B8=EC=8B=9C=EC=9E=A5=EC=A0=95=EB=B3=B4=
+] =ED=98=B8=EC=A3=BC =ED=99=94=EC=9E=A5=ED=92=88 =EC=8B=9C=EC=9E=A5 =ED=98=
+=84=ED=99=A9=EA=B3=BC =EC=9A=B0=EB=A6=AC=EA=B8=B0=EC=97=85 =EC=A7=84=EC=B6=
+=9C =EC=A0=84=EB=9E=B5</b> </a></li>
+    <li style=3D"list-style-type: none; padding-bottom: 5px; clear: both"=
+><a target=3D"_blank" style=3D"text-decoration: none; color: rgb(108,108,=
+108)" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?maili=
+dx=3D16840&linkno=3D44&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0=
+&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttps://www.facebook.com/koreasummi=
+t/photos/pcb.638943359628146/638943056294843/?type=3D3&amp;theater"><b st=
+yle=3D"font-size: 13px">&middot;&nbsp;[=EC=B9=B4=EB=93=9C=EB=89=B4=EC=8A=A4=
+] =EC=8A=A4=ED=86=A0=EB=A6=AC=ED=85=94=EB=A7=81=EC=9D=98 =ED=9E=98 - '=EA=
+=B8=B0=EC=A0=81=EC=9D=98 =EC=8A=A4=EB=AC=B4=EB=94=94'</b> </a></li>
+</ul>
+</div>
+</div>
+<!-- news_3 -->
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 0px; pad=
+ding-top: 0px; padding-left: 15px; padding-right: 15px">
+<div align=3D"center"><a target=3D"_blank" href=3D"http://academymail.kot=
+ra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D45&seqidx=3D2158=
+34&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3D=
+http://president.globalwindow.org/kz.notice.NoticeInfoDetail.do?news_bner=
+_seq=3D273&amp;listUrl=3Dkz.notice.NoticeInfoList.do&amp;s_cnts=3D1&amp;s=
+earchKeyword=3D&amp;pageUnit=3D10&amp;pageIndex=3D1"><img alt=3D"=EC=A0=95=
+=EC=83=81=EC=99=B8=EA=B5=90 =ED=99=9C=EC=9A=A9=EC=95=B1 =EC=95=88=EB=82=B4=
+" style=3D"max-width: 100%; border-top: #ddd 1px solid; border-right: #dd=
+d 1px solid; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid" =
+src=3D"http://president.globalwindow.org/common.ImgView.do?file_id=3DFILE=
+_000000000016207" /> </a></div>
+</div>
+</div>
+<!--// SECTION --></div>
+<!-- =EC=84=B1=EA=B3=BC=ED=99=95=EC=82=B0=ED=8C=80 =EB=81=9D--><!-- =ED=95=
+=B4=EC=99=B8=EC=A7=84=EC=B6=9C=EC=82=AC=EC=97=85=ED=8C=80 -->
+<div style=3D"margin-left: 18px; margin-top: 18px; margin-right: 18px"><!=
+-- TITLE -->
+<div style=3D"font-size: 15px; text-decoration: none; border-top: #ccc 3p=
+x solid; font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95'; background=
+: #fff; border-bottom: #ccc 3px solid; font-weight: bold; padding-bottom:=
+ 10px; padding-top: 10px; padding-left: 20px"><a target=3D"_blank" style=3D=
+"text-decoration: none; color: #142c4d" href=3D"http://academymail.kotra.=
+or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D46&seqidx=3D215834&=
+service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dh=
+ttp://www.ois.go.kr/portal/page?_pageid=3D93,674897&amp;_dad=3Dportal&amp=
+;_schema=3DPORTAL&amp;page=3Dmain"><b style=3D"color: #69c7f6; padding-ri=
+ght: 10px">=E2=94=BF</b><strong>=ED=95=B4=EC=99=B8=ED=88=AC=EC=9E=90</str=
+ong> </a><a target=3D"_blank" style=3D"text-decoration: none" href=3D"htt=
+p://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=
+=3D47&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D=
+1&site=3D0&linkurl=3Dhttp://www.ois.go.kr/portal/page?_pageid=3D93,674897=
+&amp;_dad=3Dportal&amp;_schema=3DPORTAL&amp;page=3Dmain"><img border=3D"0=
+" height=3D"20" style=3D!
+ "vertical-align: middle; padding-left: 10px" alt=3D"" src=3D"http://pres=
+ident.globalwindow.org/bzguide/images/288/logo_03.PNG" /> </a></div>
+<!--// TITLE --><!-- tel -->
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 25px; pa=
+dding-top: 15px; padding-right: 15px"><b style=3D"font-size: 12px; float:=
+ right; color: #69c7f6">Tel:&nbsp;02-3460-7362</b></div>
+<!-- SECTION --><!-- news_1 -->
+<div style=3D"border-right: #f4f4f4 10px solid; border-bottom: #f4f4f4 5p=
+x solid; padding-bottom: 10px; padding-top: 10px; padding-left: 0px; bord=
+er-left: #f4f4f4 10px solid; padding-right: 0px">
+<div align=3D"center"><a target=3D"_blank" style=3D"text-decoration: none=
+; color: #142c4d" href=3D"http://academymail.kotra.or.kr:8889/trace/check=
+er.jsp?mailidx=3D16840&linkno=3D48&seqidx=3D215834&service=3D1&dmidx=3D31=
+03&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://news.kotra.or.kr=
+/user/publication/kotranews/52/usrGeneralBookList.do"><img border=3D"0" a=
+lt=3D"2016 =ED=95=B4=EC=99=B8=EC=A7=84=EC=B6=9C=ED=95=9C=EA=B5=AD=EA=B8=B0=
+=EC=97=85 img" style=3D"max-width: 100%" src=3D"http://www.ois.go.kr/Stor=
+ages/Images/0/1372/1170105151332608853/=ED=95=B4=EC=99=B8=EC=82=AC=EC=97=85=
+=EC=9E=90-=EA=B5=AC=EC=A1=B0=EC=A1=B0=EC=A0=95-=EC=BB=A8=EC=84=A4=ED=8C=85=
+-=EC=A7=80=EC=9B=90=EC=82=AC=EC=97=85_=EB=B0=B0=EB=84=88.png" /></a></div=
+>
+</div>
+<div style=3D"border-top: #f4f4f4 5px solid; border-right: #f4f4f4 10px s=
+olid; border-bottom: #f4f4f4 5px solid; border-left: #f4f4f4 10px solid">=
+<!-- news_2 -->
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; border-bottom: #f4f4f4 10px solid; colo=
+r: #555555; padding-bottom: 15px; padding-top: 15px; padding-left: 15px; =
+letter-spacing: -0.05em; line-height: 1.5em; padding-right: 15px"><b styl=
+e=3D"color: #69c7f6; padding-right: 10px">|</b> <b style=3D"font-size: 13=
+px; line-height: 25px"><a target=3D"_&quot;blank&quot;" style=3D"text-dec=
+oration: none; color: #6c6c6c" href=3D"http://academymail.kotra.or.kr:888=
+9/trace/checker.jsp?mailidx=3D16840&linkno=3D49&seqidx=3D215834&service=3D=
+1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.=
+ois.go.kr/portal/page?_pageid=3D93,727077&amp;_dad=3Dportal&amp;_schema=3D=
+PORTAL&amp;p_deps1=3Dintro&amp;p_deps2=3D">=E6=9C=89=EB=8C=80=EB=A6=AC=EC=
+=9D=98 =EC=A6=90=EA=B1=B0=EC=9A=B4 =ED=95=B4=EC=99=B8=ED=88=AC=EC=9E=90 =EC=
+=9D=B4=EC=95=BC=EA=B8=B0</a> </b><br />
+<span style=3D"font-size: 13px; line-height: 20px"><a target=3D"_&quot;bl=
+ank&quot;" style=3D"text-decoration: none; color: #6c6c6c" href=3D"http:/=
+/academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D=
+50&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&s=
+ite=3D0&linkurl=3Dhttp://www.ois.go.kr/portal/page?_pageid=3D93,727073&am=
+p;_dad=3Dportal&amp;_schema=3DPORTAL&amp;p_deps1=3Dintro&amp;p_deps2=3D&a=
+mp;searchword1=3D&amp;oid=3D1170214162242552144">&nbsp;&nbsp; =EC=A0=9C 4=
+98=ED=98=B8 (2017/02/14)</a></span> <br />
+<p style=3D"float: left; margin-left: 3px; margin-top: 8px; padding-right=
+: 18px"><a target=3D"_blank" href=3D"http://academymail.kotra.or.kr:8889/=
+trace/checker.jsp?mailidx=3D16840&linkno=3D51&seqidx=3D215834&service=3D1=
+&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.o=
+is.go.kr/portal/page?_pageid=3D93,727073&amp;_dad=3Dportal&amp;_schema=3D=
+PORTAL&amp;p_deps1=3Dintro&amp;p_deps2=3D&amp;searchword1=3D&amp;oid=3D11=
+70214162242552144"><img border=3D"0" alt=3D" =EC=A4=91=EA=B5=AD B2C =EC=88=
+=98=EC=B6=9C  img" width=3D"119" height=3D"77" src=3D"http://www.ois.go.k=
+r/Storages/Images/0/1372/1170214161840627410/=EC=9C=A0=EC=A6=90=ED=95=B44=
+98=ED=98=B8-(119_77).png" /> </a></p>
+<a target=3D"_&quot;blank&quot;" style=3D"text-decoration: none; color: #=
+6c6c6c" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mai=
+lidx=3D16840&linkno=3D52&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D=
+0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.ois.go.kr/portal/page?_=
+pageid=3D93,727073&amp;_dad=3Dportal&amp;_schema=3DPORTAL&amp;p_deps1=3Di=
+ntro&amp;p_deps2=3D&amp;searchword1=3D&amp;oid=3D1170214162242552144"><b =
+style=3D"font-size: 13px; line-height: 24px">=EC=A4=91=EA=B5=AD B2C=EC=88=
+=98=EC=B6=9C=EC=9D=98 =EC=8A=88=ED=8D=BC=EA=B0=91=EC=9D=84 =EA=BF=88=EA=BE=
+=BC=EB=8B=A4. =EC=9C=A0=ED=86=B5=ED=98=81=EC=8B=A0=EC=9D=98 =EB=A3=B0=EC=84=
+=B8=ED=84=B0=EA=B0=80 =EB=90=98=EB=8A=94 =EB=B2=95! </b><br />
+<span style=3D"font-size: 12px; font-weight: normal; line-height: 19px"><=
+strong>&gt;&gt;</strong> =ED=95=AD=EC=A0=80=EC=9A=B0 =EB=AC=B4=EC=97=AD=EA=
+=B4=80, =EC=9E=84=EC=84=B1=ED=99=98 =EA=B4=80=EC=9E=A5</span><br />
+=EC=A4=91=EA=B5=AD=EC=86=8C=EB=B9=84=EA=B0=80 =EB=81=9D=EC=97=86=EC=9D=B4=
+ =EC=84=B1=EC=9E=A5=ED=95=98=EB=8D=98 =EC=8B=9C=EC=A0=88, =EC=82=AC=EC=B9=
+=98=ED=92=88=EA=B3=BC =EC=99=B8=EC=82=B0=ED=92=88=EC=9D=B4=EB=9D=BC=EB=A9=
+=B4 =EB=AC=BB=EC=A7=80 =EC=95=8A=EA=B3=A0 =ED=8C=94=EB=A6=AC=EB=8D=98 =EB=
+=B0=B1=ED=99=94=EC=A0=90, =EC=96=91=ED=8C=90=EC=A0=90, =ED=99=88=EC=87=BC=
+=ED=95=91 =EB=93=B1 =EC=A0=84=ED=86=B5=EC=9C=A0=ED=86=B5=EC=8B=9C=EC=9E=A5=
+=EC=97=90 =EC=A7=99=EC=9D=80 =EA=B7=B8=EB=A6=BC=EC=9E=90=EA=B0=80 =EB=93=9C=
+=EB=A6=AC=EC=9A=B0=EA=B3=A0 =EC=9E=88=EB=8B=A4. =EC=9D=B4=EC=A0=9C=EB=8A=94=
+ =EA=B0=80=EC=84=B1=EB=B9=84 ..... <b style=3D"font-size: 13px; color: #1=
+d76bc">[=EB=8D=94=EB=B3=B4=EA=B8=B0] </b></a></div>
+<!-- news_3 -->
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; padding-bottom: 15px; p=
+adding-top: 15px; padding-left: 15px; letter-spacing: -0.05em; line-heigh=
+t: 1.4em; padding-right: 15px"><b style=3D"color: #69c7f6; padding-right:=
+ 10px">|</b><b style=3D"font-size: 14px">=EB=B0=9C=EA=B0=84=EC=9E=90=EB=A3=
+=8C</b> <br />
+<br />
+<div style=3D"clear: both">
+<div style=3D"float: left; padding-right: 20px"><a target=3D"_blank" styl=
+e=3D"text-decoration: none; color: #6c6c6c" href=3D"http://academymail.ko=
+tra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D53&seqidx=3D215=
+834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=
+=3Dhttp://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D8939&a=
+mp;linkno=3D31&amp;seqidx=3D191&amp;service=3D0&amp;dmidx=3D0&amp;emidx=3D=
+0&amp;uidx=3D1943&amp;gidx=3D10007&amp;site=3D0&amp;linkurl=3Dhttp://www.=
+ois.go.kr/portal/page?_pageid=3D93,721184&amp;_dad=3Dportal&amp;_schema=3D=
+PORTAL&amp;p_deps1=3Dpds&amp;p_deps2=3D&amp;oid=3D1160229110143344520"><i=
+mg border=3D"0" alt=3D"" width=3D"90" height=3D"115" src=3D"http://www.oi=
+s.go.kr/Storages/Images/0/1147/1160229110143344520/0229.jpg" /> </a></div=
+>
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.05em=
+; line-height: 1.4em"><a target=3D"_&quot;blank&quot;" style=3D"text-deco=
+ration: none; color: #6c6c6c" href=3D"http://academymail.kotra.or.kr:8889=
+/trace/checker.jsp?mailidx=3D16840&linkno=3D54&seqidx=3D215834&service=3D=
+1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://acad=
+emymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D8939&amp;linkno=3D31=
+&amp;seqidx=3D191&amp;service=3D0&amp;dmidx=3D0&amp;emidx=3D0&amp;uidx=3D=
+1943&amp;gidx=3D10007&amp;site=3D0&amp;linkurl=3Dhttp://www.ois.go.kr/por=
+tal/page?_pageid=3D93,721184&amp;_dad=3Dportal&amp;_schema=3DPORTAL&amp;p=
+_deps1=3Dpds&amp;p_deps2=3D&amp;oid=3D1160229110143344520"><b style=3D"co=
+lor: #69c7f6; padding-right: 10px">|</b><b style=3D"font-size: 13px">=EC=9D=
+=B4=EB=9E=80 =ED=88=AC=EC=9E=90 =EC=8B=A4=EB=AC=B4 =EA=B0=80=EC=9D=B4=EB=93=
+=9C</b><br />
+<span style=3D"float: right; margin-right: 10px"><b>=EB=B0=9C=ED=96=89=EC=
+=B2=98 : </b>KOTRA</span> <br />
+<br />
+=EC=9D=B8=EA=B5=AC 8=EC=B2=9C=EB=A7=8C=EB=AA=85 =EA=B7=9C=EB=AA=A8=EC=9D=98=
+ =EB=82=B4=EC=88=98=EC=8B=9C=EC=9E=A5, =ED=92=8D=EB=B6=80=ED=95=9C =EC=B2=
+=9C=EC=97=B0=EC=9E=90=EC=9B=90(=EC=B2=9C=EC=97=B0=EA=B0=80=EC=8A=A4 =EB=A7=
+=A4=EC=9E=A5=EB=9F=89 =EC=84=B8=EA=B3=841=EC=9C=84, =EC=9B=90=EC=9C=A0 =EB=
+=A7=A4=EC=9E=A5=EB=9F=89 =EC=84=B8=EA=B3=84 4=EC=9C=84), =EC=97=B0=EA=B0=84=
+ 100=EB=A7=8C=EB=8C=80 =EC=9D=B4=EC=83=81=EC=9D=98 =EC=9E=90=EB=8F=99=EC=B0=
+=A8 =EC=83=9D=EC=82=B0 =EB=8A=A5=EB=A0=A5. =EC=9D=B4=EB=9E=80=EC=9D=80 =EC=
+=9D=B4=EB=9F=AC=ED=95=9C =EA=B0=95=EC=A0=90=EC=9D=84 =EC=95=9E=EC=84=B8=EC=
+=9B=8C =EA=B2=BD=EC=A0=9C=EC=A0=9C=EC=9E=AC =ED=95=B4=EC=A0=9C =EC=9D=B4=ED=
+=9B=84 =EC=84=B8=EA=B3=84 =EA=B2=BD=EC=A0=9C =EB=AC=B4=EB=8C=80=EB=A1=9C =
+=EA=B8=89=EB=B6=80=EC=83=81=ED=95=98=EA=B3=A0 =EC=9E=88=EC=8A=B5=EB=8B=88=
+=EB=8B=A4. =EC=9D=B4=EB=9E=80=EC=97=90 =EB=8C=80=ED=95=9C =EA=B8=B0=EB=8C=
+=80=EA=B0=80 =EC=BB=A4=EC=A7=80=EA=B3=A0 =EC=9E=88=EB=8A=94 ......<b styl=
+e=3D"font-size: 13px; color: #1d76bc">[=EB=8D=94=EB=B3=B4=EA=B8=B0]</b> <=
+/a></div>
+</div>
+</div>
+<!-- news_4 -->
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.05em=
+; line-height: 1.4em">
+<div style=3D"border-bottom: #f4f4f4 10px solid; padding-bottom: 55px; pa=
+dding-top: 15px; padding-left: 15px; clear: both; padding-right: 15px">
+<div style=3D"float: left; padding-right: 20px"><a target=3D"_blank" href=
+=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16840=
+&linkno=3D55&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&=
+gidx=3D1&site=3D0&linkurl=3Dhttp://www.ois.go.kr/portal/page?_pageid=3D93=
+,721184&amp;_dad=3Dportal&amp;_schema=3DPORTAL&amp;p_deps1=3Dpds&amp;p_de=
+ps2=3D&amp;oid=3D1161208111214644619"><img border=3D"0" alt=3D"" width=3D=
+"90" height=3D"115" src=3D"http://www.ois.go.kr/Storages/Images/0/1147/11=
+61208111214644619/=EB=A9=95=EC=8B=9C=EC=BD=94_=EC=8B=A4=EB=AC=B4=EA=B0=80=
+=EC=9D=B4=EB=93=9C.jpg" /> </a></div>
+<div style=3D"font-size: 12px; text-decoration: none; font-family: '=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95'; color: #555555; letter-spacing: -0.05em=
+; line-height: 1.4em"><a target=3D"_&quot;blank&quot;" style=3D"text-deco=
+ration: none; color: #6c6c6c" href=3D"http://academymail.kotra.or.kr:8889=
+/trace/checker.jsp?mailidx=3D16840&linkno=3D56&seqidx=3D215834&service=3D=
+1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3D https://ne=
+ws.kotra.or.kr/user/publication/kotranews/52/usrGeneralBookList.do"><b st=
+yle=3D"color: #69c7f6; padding-right: 10px">|</b><b style=3D"font-size: 1=
+3px; padding-bottom: 8px; line-height: 25px">=EB=A9=95=EC=8B=9C=EC=BD=94 =
+=ED=88=AC=EC=9E=90 =EC=8B=A4=EB=AC=B4 =EA=B0=80=EC=9D=B4=EB=93=9C</b> &nb=
+sp;<a target=3D"_&quot;blank&quot;" href=3D"http://academymail.kotra.or.k=
+r:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D57&seqidx=3D215834&serv=
+ice=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttps=
+://news.kotra.or.kr/user/publication/kotranews/52/usrGeneralBookList.do">=
+<b><img border=3D"0" alt=3D"" width=3D"78" height=3D"17" src=3D"http://ww=
+w.ois.go.kr/Storages/Images/0/1372/11612201!
+ 50210668409/wideview.png" /> </b></a><br />
+<span style=3D"float: right; margin-right: 10px"><b>=EB=B0=9C=ED=96=89=EC=
+=B2=98 : </b>KOTRA </span><br />
+<br />
+<a target=3D"_&quot;blank&quot;" style=3D"color: #7b7b7b; font-style: nor=
+mal" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailid=
+x=3D16840&linkno=3D58&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&=
+uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.ois.go.kr/portal/page?_pa=
+geid=3D93,721184&amp;_dad=3Dportal&amp;_schema=3DPORTAL&amp;p_deps1=3Dpds=
+&amp;p_deps2=3D&amp;oid=3D1161208111214644619">=EB=A9=95=EC=8B=9C=EC=BD=94=
+=EB=8A=94 =EC=A7=80=EB=82=9C 1994=EB=85=84 =EB=AF=B8=EA=B5=AD &middot;=EC=
+=BA=90=EB=82=98=EB=8B=A4=EC=99=80 =EB=B6=81=EB=AF=B8=EC=9E=90=EC=9C=A0=EB=
+=AC=B4=EC=97=AD=ED=98=91=EC=A0=95(NAFTA) =EC=B2=B4=EA=B2=B0=EC=9D=84 =EC=8B=
+=9C=EC=9E=91=EC=9C=BC=EB=A1=9C 2015=EB=85=84 =EA=B8=B0=EC=A4=80 15=EA=B0=9C=
+ FTA=ED=98=91=EC=A0=95=EC=9D=84 =ED=86=B5=ED=95=B4 46=EA=B0=9C=EA=B5=AD=EA=
+=B3=BC =EC=A1=B0=EC=95=BD=EC=9D=84 =EB=A7=BA=EB=8A=94 =EB=93=B1 =EA=B0=9C=
+=EB=B0=A9=EA=B2=BD=EC=A0=9C=EC=A0=95=EC=B1=85=EC=9D=84 =EC=B6=94=EA=B5=AC=
+=ED=95=98=EA=B3=A0 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4. =EB=98=90=ED=95=9C=
+ =EC=9D=B8=EA=B5=AC 1=EC=96=B5 2=EC=B2=9C=EB=A7=8C=EC=9D=98 =EB=82=B4=EC=88=
+=98=EC=8B=9C=EC=9E=A5=EC=9D=84 =EB=B3=B4=EC=9C=A0=ED=95=98=EB=A9=B4=EC=84=
+=9C =EC=84=B8=EA=B3=84 =EC=B5=9C=EB=8C=80 =EC=86=8C=EB=B9=84=EC=8B=9C=EC=9E=
+=A5=EC=9D=B8 =EB=AF=B8=EA=B5=AD ......<b style=3D"font-size: 13px; color:=
+ #1d76bc">[=EB=8D=94=EB=B3=B4=EA=B8=B0]</b> </a></a><a target=3D"_&quot;b=
+lank&quot;" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp=
+?mailidx=3D16840&linkno=3D59&seqidx=3D215834&service=3D1&dmidx=3D3103&emi=
+dx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.ois.go.kr/p!
+ ortal/page?_pageid=3D93,721184&amp;_dad=3Dportal&amp;_schema=3DPORTAL&am=
+p;p_deps1=3Dpds&amp;p_deps2=3D&amp;oid=3D1161208111214644619"><img border=
+=3D"0" alt=3D"" width=3D"78" height=3D"17" src=3D"http://www.ois.go.kr/St=
+orages/Images/0/1372/1161220150028894573/prev.png" /> </a></div>
+</div>
+</div>
+</div>
+<!--// SECTION --></div>
+<!-- =ED=95=B4=EC=99=B8=ED=88=AC=EC=9E=90=EC=A7=80=EC=9B=90=EB=8B=A8 =EB=81=
+=9D--><!--// NEWSLETTER_CONTENTS --><!-- NEWSLETTER_FOOTER -->
+<div style=3D"border-top: #dbdcd7 1px solid; background: #058ed3; border-=
+bottom: #dbdcd7 1px solid; padding-bottom: 10px; padding-top: 10px; paddi=
+ng-left: 10px; margin-top: 10px; line-height: 1.4em; padding-right: 10px"=
+>
+<div style=3D"font-size: 12px; color: #fff">
+<p style=3D"padding-top: 0px; margin: 0px; letter-spacing: -0.07em">=EB=B3=
+=B8 =EB=89=B4=EC=8A=A4=EB=A0=88=ED=84=B0(=EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=
+=A9)=EB=8A=94 KOTRA =ED=9A=8C=EC=9B=90=EA=B0=80=EC=9E=85=EC=8B=9C =EC=9D=B4=
+=EB=A9=94=EC=9D=BC =EC=88=98=EC=8B=A0=EC=97=90 =EB=8F=99=EC=9D=98=ED=95=98=
+=EC=8B=A0 =EB=B6=84=EA=BB=98=EB=A7=8C =EB=B0=9C=EC=86=A1=EB=90=A9=EB=8B=88=
+=EB=8B=A4. <br />
+KOTRA =EB=89=B4=EC=8A=A4=EB=A0=88=ED=84=B0=EB=A5=BC =EB=B0=9B=EC=A7=80 =EC=
+=95=8A=EC=9C=BC=EC=8B=9C=EB=A0=A4=EB=A9=B4 MY KOTRA [=ED=9A=8C=EC=9B=90=EC=
+=A0=95=EB=B3=B4=EC=88=98=EC=A0=95]=EC=97=90=EC=84=9C =EC=88=98=EC=8B=A0=EC=
+=97=AC=EB=B6=80=EB=A5=BC =EB=B3=80=EA=B2=BD=ED=95=98=EC=8B=9C=EA=B8=B0 =EB=
+=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.</p>
+<ul style=3D"list-style-type: none; padding-bottom: 0px; padding-top: 0px=
+; padding-left: 0px; margin: 0px; list-style-image: none; padding-right: =
+0px">
+    <li style=3D"list-style-type: none">=E3=86=8D<a target=3D"_blank" sty=
+le=3D"color: #fff" href=3D"http://academymail.kotra.or.kr:8889/trace/chec=
+ker.jsp?mailidx=3D16840&linkno=3D60&seqidx=3D215834&service=3D1&dmidx=3D3=
+103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://academymail.kot=
+ra.or.kr:8889/trace/checker.jsp?mailidx=3D8939&amp;linkno=3D35&amp;seqidx=
+=3D191&amp;service=3D0&amp;dmidx=3D0&amp;emidx=3D0&amp;uidx=3D1943&amp;gi=
+dx=3D10007&amp;site=3D0&amp;linkurl=3Dhttp://www.kotra.or.kr/kh/member/KH=
+MMMJ010M.html?MENU_CD=3DF0150&amp;TOP_MENU_CD=3DF0145&amp;LEFT_MENU_CD=3D=
+F0150&amp;PARENT_MENU_CD=3DF0150"><strong>[=EC=8B=A0=EA=B7=9C=EA=B0=80=EC=
+=9E=85]</strong></a> =E3=86=8D<a target=3D"_blank" style=3D"color: #fff" =
+href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D1=
+6840&linkno=3D61&seqidx=3D215834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D=
+1&gidx=3D1&site=3D0&linkurl=3Dhttp://academymail.kotra.or.kr:8889/trace/c=
+hecker.jsp?mailidx=3D8939&amp;linkno=3D34&amp;seqidx=3D191&amp;service=3D=
+0&amp;dmidx=3D0&amp;emidx=3D0&amp;uidx=3D1943&amp;gidx=3D10007&amp;site=3D=
+0&amp;linkurl=3Dhttp://scrm.k!
+ otra.or.kr/crm/common.ComMail/UCP_D2?EMAILLOGID=3D153900170"><strong>[=EC=
+=88=98=EC=8B=A0=EA=B1=B0=EB=B6=80]</strong></a></li>
+</ul>
+</div>
+</div>
+<div style=3D"color: #656565; padding-bottom: 10px; padding-top: 10px; pa=
+dding-left: 20px; padding-right: 20px">
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"list-sty=
+le-type: none; font-size: 11px; padding-bottom: 0px; padding-top: 0px; pa=
+dding-left: 0px; margin: 0px; list-style-image: none; padding-right: 0px"=
+>
+    <tbody>
+        <tr>
+            <td style=3D"float: left; padding-top: 17px; padding-left: 3p=
+x; padding-right: 21px"><a target=3D"_blank" href=3D"http://academymail.k=
+otra.or.kr:8889/trace/checker.jsp?mailidx=3D16840&linkno=3D62&seqidx=3D21=
+5834&service=3D1&dmidx=3D3103&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkur=
+l=3Dhttp://www.kotra.or.kr"><img border=3D"0" alt=3D"KOTRA" width=3D"120"=
+ height=3D"50" style=3D"vertical-align: middle; float: left" src=3D"http:=
+//www.kotra.or.kr/images/upload/webedit/images/000071/20150710101845638_7=
+C06J914.jpg" /></a></td>
+            <td style=3D"font-size: 11px; float: left; padding-top: 5px; =
+line-height: 17px">
+            <p>=EC=A3=BC=EC=86=8C <span style=3D"color: #5f5f5f"><strong>=
+(137-749)</strong> =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=84=9C=EC=B4=88=EA=B5=AC=
+ =ED=97=8C=EB=A6=89=EB=A1=9C 13 |</span><strong><span style=3D"color: #5f=
+5f5f"> TEL 1600-7119 </span></strong>| <br />
+            Copyright&copy; <strong>KOTRA</strong> All rights reserved.</=
+p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!--// NEWSLETTER_FOOTER --></div>
+</div>
+</div>
+<div style=3D"display:none;"><img src=3D"http://academymail.kotra.or.kr:8=
+889/trace/openChecker.jsp?mailidx=3D16840&seqidx=3D215834&service=3D1&dmi=
+dx=3D3103&emidx=3D0&duration=3D0&site=3D0" border=3D"0" width=3D"0" heigh=
+t=3D"0"></div>
+
+
+

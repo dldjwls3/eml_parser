@@ -1,0 +1,131 @@
+Received: (qmail 20448 invoked by uid 100); 1 Dec 2016 05:03:48 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda003.wmail.worksmobile.com with SMTP;1 Dec 2016 05:03:48 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from smf.duzon.co.kr (gw.duzon.com [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id AGBU9zMGTUK8haVVH58DDg
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 01 Dec 2016 05:03:48 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uB156NB00532;
+	Thu, 01 Dec 2016 14:06:23 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uB156NB00532
+X-SmartFilter: FROM,uB156NB00532,joseph@duzon.com
+x-forward-id: <201612011403365902@send117.postman.co.kr>
+Received: from external ([209.85.217.169])
+	by smf.duzon.co.kr (1.0) id uB156Hv00524;
+	Thu, 01 Dec 2016 14:06:17 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uB156Hv00524
+X-SmartFilter: FROM,uB156Hv00524,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f169.google.com with SMTP id b35so236268836uaa.3
+        for <joseph@duzon.com>; Wed, 30 Nov 2016 21:03:41 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:dkim-signature:from:to:reply-to
+         :subject:date:list-unsubscribe:mime-version:message-id
+         :content-transfer-encoding;
+        bh=6e5mcYhZLiNJHOKos5p69Y8QYENHHulS+Gr8laBfEe0=;
+        b=g6tv1tiUi1eIMxIfacN33Ai/uuXjPAnI9UauwokiuY5iS516JqciN6kq6+CXs0HH+I
+         kw3EjbBPUOkZ22ju9fjt+aHpP4sPCES+DJL6cnrtg5mzxKOm7JLn5J7EqCQe6BqYIiwr
+         rlVoRtJTz4oA3+0plJAThWbLUdscBtbh2W/hqzuKNyOHUJ2l3slFJVRZ/oXNDTj9WqUv
+         Z2eOfq8o/1H0i9iZeE8ZEFRPl9LI4W91f7DOl1LApMDUtPGSkNdEGDCR9J+9yyhVhJUv
+         w8Np6poZDc6gc2gSMg6fwraM6bOBlW4Zv/X4BE4KkeUhCgkcbMu+Qj9ZjwfaEehOPaHU
+         6xWA==
+X-Gm-Message-State: AKaTC01MRJzQ+rnrlS0mtKVkxw0PDrww7W8/UrTzEnfS2SBNSCzGFUTf6IrHIzR6yjSdRZaNFUi7har1qXtzj8jfMovd6MQ=
+X-Received: by 10.176.0.87 with SMTP id 81mr22920608uai.73.1480568620326;
+        Wed, 30 Nov 2016 21:03:40 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp768163vsa;
+        Wed, 30 Nov 2016 21:03:39 -0800 (PST)
+X-Received: by 10.99.242.5 with SMTP id v5mr64879028pgh.181.1480568618938;
+        Wed, 30 Nov 2016 21:03:38 -0800 (PST)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id d17si67497036pgi.176.2016.11.30.21.03.38
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 30 Nov 2016 21:03:38 -0800 (PST)
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@postman.co.kr;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uB156Cn0051C;
+	Thu, 01 Dec 2016 14:06:12 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uB156Cn0051C
+X-SmartFilter: FROM,uB156Cn0051C,forensic@duzon.com
+x-forward-id: <201612011403365902@send117.postman.co.kr>
+Received: from external ([119.207.76.117])
+	by smf.duzon.co.kr (1.0) id uB156Bm0051B;
+	Thu, 01 Dec 2016 14:06:11 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uB156Bm0051B
+X-SmartFilter: FROM,uB156Bm0051B,return_postman1201140000@return.postman.co.kr
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1480568616;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=6e5mcYhZLiNJHOKos5p69Y8QYENHHulS+Gr8laBfEe0=;
+	b=E6rfLIFAhho49qqeBVfoPUY+ulDu1JaKO0ZHQ5m4ZPWEJmXJqWGXj6v3bDCeK62v
+	HqX6NUddLEf0eA/gLaT+1HfQ0Pu7sFQhbs41s7kMdxUcj3BGzrwW8v6qEBuyxFbVn31
+	Br0/eCu7nH9djJA9ohP5g8ypTRNV3gOrB76ecjwQ=
+From: "=?euc-kr?B?t6+017/+wMzE2riuvsY=?=" <newh@learningway.co.kr>
+To: "=?euc-kr?B?sejBvsf2?=" <forensic@duzon.com>
+Reply-to: <newh@learningway.co.kr>
+Subject: =?euc-kr?B?W7evtNe//sDMxNq4rr7GXSC3r7TXv/7AzMTa?= =?euc-kr?B?uK6+xiC4rrT1vcogxNzF2cP3ILCzxu0gvsg=?= =?euc-kr?B?s7vA1LTPtNku?=
+Date: Thu, 01 Dec 2016 14:03:36 +0900
+X-WORKER_ID: <single.default_Worker_41>
+X-MAIL_ID: <UE9TVF9JRD0yMDE2MTIwMTEwMDAwOTc1NzU1NA==>
+X-MEMBER_ID: <TV9JRD04MDA3NjM1OTY2>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMTI2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=newhorizons2&customer_id=8007635966>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201612011403365902@send117.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: wZFn+6J4p635WrlY7BwdpBmmFxgqFACYkXm=
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>[=B7=AF=B4=D7=BF=FE=C0=CC=C4=DA=B8=AE=BE=C6] =B7=AF=B4=D7=BF=FE=C0=CC=C4=DA=B8=AE=BE=C6 =B8=AE=B4=F5=BD=CA =C4=DC=C5=D9=C3=F7 =B0=B3=C6=ED</title>
+<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type" />
+<style type=3D"text/css">img {display:block;border:0}
+</style>
+</head>
+<body bgcolor=3D"#ffffff" leftmargin=3D"0" marginheight=3D"0" marginwidth=3D"0" topmargin=3D"0">
+<center>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"2509" id=3D"__01" width=3D"650">
+<tbody>
+<tr>
+<td colspan=3D"4"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwMTEwMDAwOTc1NzU1NA=3D=3D&VEM9MjAxNjEyMDg=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/index.asp?utm_source=3DPOSTMAN&amp;utm_medium=3DEMAIL&amp;utm_campaign=3Dadv" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"85" src=3D"http://www.learningway.co.kr/edm2016/ita/leadership_course_1.jpg" width=3D"650" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"4"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwMTEwMDAwOTc1NzU1NA=3D=3D&VEM9MjAxNjEyMDg=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/training03.asp?utm_source=3DPOSTMAN&amp;utm_medium=3DEMAIL&amp;utm_campaign=3Dadv" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"381" src=3D"http://www.learningway.co.kr/edm2016/ita/leadership_course_2.jpg" width=3D"650" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"4"><img alt=3D"" height=3D"1023" src=3D"http://www.learningway.co.kr/edm2016/ita/leadership_course_3.jpg" width=3D"650" /></td>
+</tr>
+<tr>
+<td colspan=3D"4"><img alt=3D"" height=3D"900" src=3D"http://www.learningway.co.kr/edm2016/ita/leadership_course_4.jpg" width=3D"650" /></td>
+</tr>
+<tr>
+<td><img alt=3D"" height=3D"82" src=3D"http://www.learningway.co.kr/edm2016/ita/leadership_course_5.jpg" width=3D"536" /></td>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwMTEwMDAwOTc1NzU1NA=3D=3D&VEM9MjAxNjEyMDg=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttps://www.facebook.com/lwkorea" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"82" src=3D"http://www.learningway.co.kr/edm2016/ita/leadership_course_6.jpg" width=3D"35" /></a></td>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwMTEwMDAwOTc1NzU1NA=3D=3D&VEM9MjAxNjEyMDg=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttps://www.twitter.com/lwkorea" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"82" src=3D"http://www.learningway.co.kr/edm2016/ita/leadership_course_7.jpg" width=3D"38" /></a></td>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwMTEwMDAwOTc1NzU1NA=3D=3D&VEM9MjAxNjEyMDg=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttps://www.twitter.com/lwkorea" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"82" src=3D"http://www.learningway.co.kr/edm2016/ita/leadership_course_8.jpg" width=3D"41" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"4"><a href=3D"mailto:jykang@learningway.co.kr?subject=3D=BC=F6=BD=C5=B0=C5=BA=CE=BF=E4=C3=BB&amp;body=3D=BC=F6=BD=C5=B0=C5=BA=CE =BF=E4=C3=BB=C7=D5=B4=CF=B4=D9." target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"38" src=3D"http://www.learningway.co.kr/edm2016/ita/leadership_course_9.jpg" width=3D"650" /></a></td>
+</tr>
+</tbody>
+</table>
+</center>
+<div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwMTEwMDAwOTc1NzU1NA=3D=3D&VEM9MjAxNjEyMDg=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwMTEwMDAwOTc1NzU1NA=3D=3D&VEM9MjAxNjEyMDg=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+
+

@@ -1,0 +1,321 @@
+Received: (qmail 22716 invoked from network); 6 Oct 2015 06:02:41 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda01.wmail.naver.com with SMTP; 6 Oct 2015 06:02:41 -0000
+Received: from  ([202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id NpksOBJ4QQ6lgkeQG4+utg
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 06 Oct 2015 06:02:41 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t9661p500FB0;
+	Tue, 06 Oct 2015 15:01:51 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t9661p500FB0
+X-SmartFilter: FROM,t9661p500FB0,joseph@duzon.com
+x-forward-id: 1444111220368_935649226
+recvDate: Tue, 06 Oct 2015 15:00:20 +0900
+x-newturns-hashkey: 2a9966b8752ab458b44bd4735a0b76c0ae1b755dab53e7a666c8943a48e0c6da
+Received: from external ([209.85.215.44])
+	by smf.duzon.com (1.0) id t9661cn00FA0;
+	Tue, 06 Oct 2015 15:01:39 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t9661cn00FA0
+X-SmartFilter: FROM,t9661cn00FA0,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by laag4 with SMTP id g4so11148452laa.2
+        for <joseph@duzon.com>; Mon, 05 Oct 2015 23:02:16 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:message-id
+         :from:to:subject:date:mime-version:reply-to:content-type
+         :content-transfer-encoding;
+        bh=//K+aM7cUtah1uhp4nD8qN/bqv9xuh6/z19U0/eFxEo=;
+        b=IOhRaenS9bgYvlgqDK1vz/v6nRv5P7ne7F9KckkO21p+75okz00qgBDAeqYKakianc
+         pLjdP1XQnD1WR3YDDb90tSt0o/vUpdUHks90pGGxDSo0p1QIbSfSQMi1SxBhFL4g7YDB
+         rnJgiHGUv2E4SvVYle21SD8vAjkxELJt9BHrwJUx5Sw9XQmyneyFc29JwIKZ2LYwRkCa
+         kTZguXStqXrdPwd+b8+8SZC/H3bvEDJrwD8S7GHvdl9zVBda/JJqJnsDleHd6/r8hZUj
+         XmN9HWMQ3IoRxUhlxFfK44JH2J0DmGOOGNvRLVWias1P5h4P5l4ASn1IQBdmV9phDBq9
+         pQaA==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Received: by 10.25.143.72 with SMTP id r69mr8915807lfd.65.1444111336216;
+        Mon, 05 Oct 2015 23:02:16 -0700 (PDT)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com, hoyong_kim@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com, hoyong_kim@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.67.161 with SMTP id o1csp1393549ldt;
+        Mon, 5 Oct 2015 23:02:15 -0700 (PDT)
+X-Received: by 10.66.236.129 with SMTP id uu1mr44805542pac.34.1444111335015;
+        Mon, 05 Oct 2015 23:02:15 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id wf3si46187783pab.166.2015.10.05.23.02.14
+        for <forensic.duzon@gmail.com>;
+        Mon, 05 Oct 2015 23:02:14 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t9661Xj00F9C;
+	Tue, 06 Oct 2015 15:01:33 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t9661Xj00F9C
+X-SmartFilter: FROM,t9661Xj00F9C,forensic@duzon.com
+x-forward-id: 1444111202133_2433444502
+recvDate: Tue, 06 Oct 2015 15:00:02 +0900
+x-newturns-hashkey: 9e6aec4b535227abb4db0d3db68ffe6ddad7b5a7e1227d70b40a5466d6b6ee28
+Received: from external ([210.223.88.32])
+	by smf.duzon.com (1.0) id t9661Ph00F9A;
+	Tue, 06 Oct 2015 15:01:25 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t9661Ph00F9A
+X-SmartFilter: FROM,t9661Ph00F9A,11-83836-0-0-0-589-1-duzon_com@supermail.kotra.or.kr
+Message-ID: <C_M_M_I_D.11_0_83836_0_0.589.1444111205@kotra.or.kr>
+From: =?euc-kr?B?sObBpr/csbOx4si5xsA=?= <hschoi@kotra.or.kr>
+To: <forensic@duzon.com>
+Subject: =?euc-kr?B?W0tPVFJBXSDH0bW2ILrxwe60z726xsTGrrPKvcogMToxILvztOPIuCgxMC4xMykgsLPD1iC51yDC/LChvsizuw==?=
+Date:  Tue, 6 Oct 2015 15:00:05 +0900
+MIME-Version: 1.0
+Reply-To: =?euc-kr?B?sObBpr/csbOx4si5xsA=?= <hschoi@kotra.or.kr>
+Content-Type: text/html;
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+X-Mailer: ClickMailer Ver 4.0.0
+X-Naver-ESV: +rFYpB3G1H+YbXFCbHmRKAMmKotwjJ+Y
+
+<div style="text-align: center">
+<img src="http://supermail.kotra.or.kr:9998/UserImage/10007/2789/M1.bmp" /> 
+</div>
+<p style="margin-bottom: 1px; text-align: center; margin-top: 0px">
+&nbsp;
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px">
+<span style="font-size: 12pt; font-family: 굴림">안녕하십니까, </span><span style="font-size: 12pt; font-family: 굴림">경제외교기획팀입니다. </span>
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px">
+<span style="font-size: 12pt; font-family: 굴림"></span>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font style="font-size: 12pt; font-family: 굴림">KOTRA에서는 독일 대통령 방한을 계기로&nbsp;독일 경제사절단과 한국기업의</font> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림">1대1 비즈니스 상담회인</span><span style="font-size: 12pt; font-family: 굴림; color: #0000ff"> </span><strong><span style="font-size: 12pt; font-family: 굴림; color: #0000ff">&lt;독일 비즈니스 파트너십&gt;</span></strong><span style="font-size: 12pt; font-family: 굴림">을 오는 </span><strong><span style="font-size: 12pt; font-family: 굴림; color: #0000ff">10월 13일(화)</span></strong><span style="font-size: 12pt; font-family: 굴림">에 개최합니다.</span></font> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+&nbsp;
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+&nbsp;
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 12pt; font-family: 굴림"></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림">본 <span style="font-family: 굴림">상담회에는 </span></span><strong><span style="font-size: 12pt; font-family: 굴림">IT, 부품소재, 보건의료, 신재생에너지 </span></strong></font><font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림">등 다양한 분야의 독일 유수의 기업들</span></font><font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림">이 참가하여, 수출, 수입, 투자협력 등 양국의</span></font><font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림; color: #000000">&nbsp;교류와 협력&nbsp;전반에 관하여 </span><span style="font-size: 12pt; font-family: 굴림; color: #000000">상담을 </span><span style="font-size: 12pt; font-family: 굴림">진행할 예정입니다.</span></font> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+&nbsp;
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+&nbsp;
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림"></span></font>
+</p>
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림">
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="굴림" size="3">금번 상담회에 참가하는 기업 리스트 및 개요 관련, </font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="굴림" size="3">아래 첨부파일을 확인하시고, </font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="굴림" size="3">참가를 희망하는 기업께서는 첨부의 양식을 작성하여 회신주시기 바랍니다. </font>
+</p>
+</span></font>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림"></span></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림">구체적인 상담내용 및 스케줄은&nbsp;참가희망 업체에 한하여&nbsp;한독상공회의소를 통해</span></font> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림">다시 수령하여 전달드리도록 하겠습니다. </span></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림"></span></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림"></span></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" color="#000000" style="font-size: 12pt; font-family: 굴림">혹, 담당자가 아니신 경우 담당부서로 이관해주시면 감사하겠습니다. </font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="굴림" size="3"></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="굴림" size="3"></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="굴림" size="3"></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><strong><span style="font-size: 12pt; font-family: 굴림">#첨부파일 내역&nbsp;</span></strong></font><font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><strong><span style="font-size: 12pt; font-family: 굴림"><a target="_blank" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=11&mailidx=83836&dmidx=0&emidx=0&service=0&cidx=&etime=20151016145951&seqidx=589&objidx=1&url=http://infomailer.kotra.or.kr/20151006/%EB%8F%85%EC%9D%BC%20%EC%82%AC%EC%A0%88%EB%8B%A8%201%EB%8C%80%201%20%EC%83%81%EB%8B%B4%ED%9A%8C%20%EC%B2%A8%EB%B6%80%20%EC%9E%90%EB%A3%8C2.zip">[다운로드 클릭]</a></span></strong></font> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><strong><span style="font-size: 12pt; font-family: 굴림"></span></strong></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 12pt; font-family: 굴림">1. 독일 비즈니스 파트너십 1대1 상담회 모집공고</font> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 12pt; font-family: 굴림">2. 1대1 상담회 신청기업 작성 양식(기업명)</font> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 12pt; font-family: 굴림">3. 1대1 상담회 상담주선 신청양식(기업명) </font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 12pt; font-family: 굴림"></font>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font face="맑은 고딕" style="font-size: 10pt; font-family: 맑은 고딕"><strong><span style="font-size: 12pt; font-family: 굴림">#참고사항</span></strong></font> 
+</p>
+<table border="1" borderColorLight="#000000" width="610" cellPadding="0" borderColorDark="#ffffff" cellSpacing="0" style="width: 610px; background-color: #ffffff">
+	<tbody>
+		<tr>
+			<td width="610" height="20">
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<strong><span style="font-size: 12pt; font-family: 굴림">가. 참가신청 방법 - 회신 해야할 사항은 무엇인가요?</span></strong> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;- </span><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">(첨부2) &#39;1대1 상담회 신청기업 작성양식&#39;</span></strong> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 10pt; font-family: 맑은 고딕"><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">&nbsp;</span><span style="font-size: 12pt; font-family: 굴림; color: #000000">-</span><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">&nbsp;(첨부3) &#39;1대1 상담회 상담주선 신청양식</span><u><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">(sheet1/2모두)</span></u><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">&#39; </span></strong></span>
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 10pt; font-family: 맑은 고딕"><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000"></span></strong></span>
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 10pt; font-family: 맑은 고딕"><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">&nbsp;</span></strong><span style="font-size: 12pt; font-family: 굴림; color: #000000">상기 2개 파일을&nbsp;</span></span><span style="font-size: 10pt; font-family: 맑은 고딕"><span style="font-size: 12pt; font-family: 굴림; color: #000000">모두 회신해주시면 참가신청으로 인정됩니다</span></span><span style="font-size: 12pt; font-family: 굴림; color: #000000">.</span><strong></strong> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp; </span>
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;</span><span style="font-size: 12pt; font-family: 굴림; color: #0000ff">*(첨부 2) 1대1 상담회 신청기업 작성 양식</span> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;&nbsp; : 독일 경제사절단 제공 용도의 업체소개 양식</span><em><u><span style="font-size: 12pt; font-family: 굴림; color: #009300"> (*반드시 영어로 기재.)</span></u></em> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림; color: #0000ff">&nbsp;*(첨부 3) 1대1 상담회 상담주선 신청양식</span> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;&nbsp; : </span><strong><span style="font-size: 12pt; font-family: 굴림">Sheet1 -</span></strong><span style="font-size: 12pt; font-family: 굴림">&nbsp;상담 희망하는&nbsp;기업 선택, 기타 전반적인 상담희망내용 한글로 기재</span> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;&nbsp; : </span><strong><span style="font-size: 12pt; font-family: 굴림">Sheet2 -</span></strong><span style="font-size: 12pt; font-family: 굴림"> 상담회 참가 가능 담당자 및 기업정보 한글로 기재</span> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림"></span>
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<strong><span style="font-size: 12pt; font-family: 굴림">나. 상담 희망내용은 왜 적어야 하나요?</span></strong> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;- 보다 정확한 바이어 매칭과 더불어 추가적으로 상담 가능한 바이어를 발굴해 국내업체와 매칭해</span><span style="font-size: 12pt; font-family: 굴림"> 드리기 위함입니다.</span> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림"></span>
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<strong><span style="font-size: 12pt; font-family: 굴림">다. 상담하고자 하는 업체를 모두 선택할 수 있나요?</span></strong> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;- 가급적 반드시 상담을 진행하여야 하는&nbsp;업체</span><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000"> 2-3개사만을 지정</span></strong><span style="font-size: 12pt; font-family: 굴림">하여 주시기 바랍니다.&nbsp;</span><span style="font-size: 12pt; font-family: 굴림"> (시간상 이유로 4개 이상 업체와는 상담이 어렵습니다.)</span> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림"></span>
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<strong><span style="font-size: 12pt; font-family: 굴림">라. 신청서 제출 후 추후 일정은 어떻게 되나요?</span></strong> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;</span><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">- 10.7(수) 신청서 접수 마감</span></strong> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;- 10.8(목) 신청 중 참가업체 최종 선정, 해당 업체에 매칭테이블 및 상담일정 공지</span> 
+			</p>
+			<p style="margin-bottom: 0px; margin-top: 0px; line-height: 1.2">
+			<span style="font-size: 12pt; font-family: 굴림">&nbsp;- 10.12(월) 상담회 주선 내용 조율 및 행사개최 준비</span> 
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<span style="font-size: 12pt; font-family: 굴림"></span>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<span style="font-size: 12pt; font-family: 굴림">보다 상세한 내용은 아래 연락처로 문의주시기 바랍니다.</span> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+&nbsp;
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+&nbsp;
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<span style="font-size: 12pt; font-family: 굴림"></span>
+</p>
+<font style="font-size: 10pt; font-family: 맑은 고딕">
+<p style="margin-bottom: 1px; margin-top: 0px; line-height: 150%">
+<strong><span style="font-size: 12pt; font-family: 굴림">ㅇ 상담회 참가관련 문의</span></strong> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px; line-height: 150%">
+<span style="font-size: 12pt; font-family: 굴림">&nbsp;- 경제외교기획팀 이민지 대리 02-3460-7687, </span><a href="mailto:mglee@kotra.or.kr"><span style="font-size: 12pt; font-family: 굴림"><font color="#0066cc">mglee@kotra.or.kr</font></span></a><span style="font-size: 12pt; font-family: 굴림"> </span>
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px; line-height: 150%">
+<span style="font-size: 12pt; font-family: 굴림">&nbsp;-&nbsp;경제외교기획팀 최효식 대리 02-3460-7688, </span><a href="mailto:hschoi@kotra.or.kr"><span style="font-size: 12pt; font-family: 굴림"><font color="#0066cc">hschoi@kotra.or.kr</font></span></a> 
+</p>
+</font>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<font style="font-size: 12pt; font-family: 굴림"></font>
+</p>
+<font style="font-size: 10pt; font-family: 맑은 고딕">
+<p style="margin-bottom: 1px; margin-top: 0px; line-height: 150%">
+<strong><u></u></strong><u><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000"></span></strong></u>
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px; line-height: 150%">
+<u><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">ㅇ 요청자료 회신기한 :&nbsp;</span></strong></u><u><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">10. 7(수) 17:00 限</span></strong></u> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px; line-height: 150%">
+<u><strong><span style="font-size: 11pt; font-family: 맑은 고딕; color: #ff0000"></span></strong></u>
+</p>
+<p style="margin-bottom: 1px; margin-top: 1px; line-height: 1.2">
+<u><span style="font-size: 10pt; color: #000000"></span></u><span style="font-size: 12pt; font-family: 굴림">&nbsp;&nbsp; *&nbsp;시일이 촉박하여 급하게 진행되는 점 양해하여 주시기 바랍니다.</span><span style="font-size: 10pt; color: #000000"><u></u></span><span style="font-size: 12pt; font-family: 굴림"> </span>
+</p>
+<span style="font-size: 11pt; font-family: 맑은 고딕; color: #ff0000"><font style="font-size: 10pt; font-family: 맑은 고딕"><u><strong></strong></u></font></span><font style="font-size: 10pt; font-family: 맑은 고딕">
+<p style="margin-bottom: 1px; margin-top: 0px; line-height: 150%">
+<u></u><u><span style="font-size: 11pt; font-family: 돋움; color: #000000"><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000"></span></strong></span></u>
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px; line-height: 150%">
+<u><span style="font-size: 11pt; font-family: 돋움; color: #000000"><strong><span style="font-size: 12pt; font-family: 굴림; color: #ff0000">ㅇ 요청자료 회신처 : </span><span style="font-size: 12pt; font-family: 굴림; color: #000000">경제외교기획팀 최효식 사원 / </span><a href="mailto:hschoi@kotra.or.kr"><span style="font-size: 12pt; font-family: 굴림; color: #000000">hschoi@kotra.or.kr</span></a></strong></span></u> 
+</p>
+</font></font>
+<p style="margin-bottom: 1px; margin-top: 0px">
+<span style="font-size: 12pt; font-family: 굴림"></span><span style="font-size: 12pt; font-family: 굴림"></span><span style="font-size: 12pt; font-family: 굴림"></span>
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px">
+<span style="font-size: 12pt; font-family: 굴림"></span>
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px">
+<span style="font-size: 12pt; font-family: 굴림">감사합니다,</span> 
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px">
+<span style="font-size: 12pt; font-family: 굴림"></span>
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px">
+<span style="font-size: 12pt; font-family: 굴림"><strong></strong></span>
+</p>
+<p style="margin-bottom: 1px; margin-top: 0px">
+<span style="font-size: 12pt; font-family: 굴림"><strong>KOTRA 경제외교기획팀</strong> 드림</span> 
+</p>
+
+<iframe frameborder=0 height=0 width=0 src="http://supermail.kotra.or.kr:9998/bin/checker?mode=1&dtime=0&module=11&service=0&etime=20151016145951&mailidx=83836&seqidx=589&dmidx=0&emidx=0&flag=1"></iframe>
+
+<img src="http://supermail.kotra.or.kr:9998/bin/checker?mode=1&dtime=0&module=11&service=0&etime=20151016145951&mailidx=83836&seqidx=589&dmidx=0&emidx=0" width=0 height=0>
+

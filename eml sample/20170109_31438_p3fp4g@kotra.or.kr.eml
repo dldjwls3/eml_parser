@@ -1,0 +1,357 @@
+Received: (qmail 32306 invoked by uid 100); 9 Jan 2017 01:03:09 -0000
+Received: from 10.114.250.104 (HELO crcvmail03.wmail.naver.com) (10.114.250.104)
+  by cmda001.wmail.worksmobile.com with SMTP;9 Jan 2017 01:03:09 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail03.wmail.naver.com with ESMTP id iRchCEd4Rm2C0g7dru5K4A
+  for <jonghyun.kim@dforensic.com>;
+  Mon, 09 Jan 2017 01:03:09 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0916870044A;
+	Mon, 09 Jan 2017 10:06:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0916870044A
+X-SmartFilter: FROM,v0916870044A,joseph@duzon.com
+x-forward-id: <30647243.1483923719475.JavaMail.root@kmail1>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3txcMq4TSkz11fng; Mon,  9 Jan 2017 10:02:26 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3txcM43Stmz11fmh
+	for <joseph@duzon.com>; Mon,  9 Jan 2017 10:02:24 +0900 (KST)
+Received: from external ([209.85.213.42])
+	by smf.duzon.co.kr (1.0) id v0915RJ0041A;
+	Mon, 09 Jan 2017 10:05:27 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0915RJ0041A
+X-SmartFilter: FROM,v0915RJ0041A,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f42.google.com with SMTP id x186so335358841vkd.1
+        for <joseph@duzon.com>; Sun, 08 Jan 2017 17:02:22 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:date:from:reply-to:to:subject:mime-version;
+        bh=JAZ6RDjXyfjG1kL1K6eAGoI0hzIloNZrfsRQRwro90g=;
+        b=cccEmhGPyop+U2OIzid7wy35aUTb8+1UGqqwOl+1MJHxsmc9yLvmc5AHv51wrpXj0D
+         1RJkAf7lospeSGb6SQ4IhmwJ9w8IXoGiRaYdhN67BWOguJgyFKfROkX95qatwEh0YShz
+         Pv0hX2AxROUVROd/UmcOsT9N+qK8+l1jbkbnwDcHgj/KNG0xG+DjVEc8XRTgjHsexg1o
+         PS9+O26MSacZ0QiShaEpV9yauKF7EZGP+OC9C4Xdks8T9DGlRkdM9GR+0AxhHUCHRVwn
+         abvFaIgomWAZpXXuVfypXjlqCkT7JAx2yGE+93fLfru/zzZpIXzkZLM43YMZQxW+Mr/e
+         0ppA==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AIkVDXJuxRuFJKO8aWhQE0pOSP2ui3NEYgc7AZ1Tcd/buPvzS1hoyyV5bI6KQhR5cBtBTK8IG9ejuM9XHsOzcMRCs3NP3X8=
+X-Received: by 10.31.167.77 with SMTP id q74mr30713269vke.135.1483923741240;
+        Sun, 08 Jan 2017 17:02:21 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp10462256vsa;
+        Sun, 8 Jan 2017 17:02:20 -0800 (PST)
+X-Received: by 10.99.61.13 with SMTP id k13mr158724179pga.154.1483923739953;
+        Sun, 08 Jan 2017 17:02:19 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id p6si87034782pfg.145.2017.01.08.17.02.18
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 08 Jan 2017 17:02:19 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0915LB00412;
+	Mon, 09 Jan 2017 10:05:21 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0915LB00412
+X-SmartFilter: FROM,v0915LB00412,forensic@duzon.com
+x-forward-id: <30647243.1483923719475.JavaMail.root@kmail1>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3txcLw14KVz11fmV; Mon,  9 Jan 2017 10:02:11 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3txcLn3nBlz11fkv
+	for <forensic@duzon.com>; Mon,  9 Jan 2017 10:02:09 +0900 (KST)
+Received: from external ([210.223.88.10])
+	by smf.duzon.co.kr (1.0) id v09155s00401;
+	Mon, 09 Jan 2017 10:05:05 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v09155s00401
+X-SmartFilter: FROM,v09155s00401,p3fp4g@kotra.or.kr
+Received: from unknown (HELO mail.kotra.or.kr) (210.217.40.16)
+	by 210.223.88.10 with ESMTP; 9 Jan 2017 10:01:58 +0900
+X-Original-SENDERIP: 210.217.40.16
+X-Original-MAILFROM: p3fp4g@kotra.or.kr
+X-Original-RCPTTO: forensic@duzon.com
+Received: from [127.0.0.1] ([127.0.0.1]) 
+          by mail.kotra.or.kr ([127.0.0.1]) 
+          with ESMTP id 1483923719.573812.139818426156800.mail
+          for <forensic@duzon.com>; 
+          Mon, 09 Jan 2017 10:01:59 +0900 (KST) 
+X-Priority: 3
+Message-ID: <30647243.1483923719475.JavaMail.root@kmail1>
+Date: Mon, 9 Jan 2017 10:01:59 +0900 (KST)
+From: =?UTF-8?B?7ZWc7KKF7ZuI?= <p3fp4g@kotra.or.kr>
+Reply-To: =?UTF-8?B?7ZWc7KKF7ZuI?= <p3fp4g@kotra.or.kr>
+To: forensic@duzon.com
+Subject: =?UTF-8?B?W2tvdHJhXSDspJHrgqjrr7gg66+86rSA7ZWp64+Z7IKs7KCI?=
+ =?UTF-8?B?64uoKDIwMTUuMTEuMTktMzApIOq0gOugqA==?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_307990_838547831.1483923719572"
+X-TERRACE-SID: 1483923719.573812.139818426156800.mail
+X-Naver-ESV: +rFYpB3G1H+YbXFCbHmRKAumKqgljJ+Y
+
+------=_Part_307990_838547831.1483923719572
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=20
+
+=EC=88=98=EC=8B=A0: =EC=A4=91=EB=82=A8=EB=AF=B8 =EB=AF=BC=EA=B4=80=ED=95=A9=
+=EB=8F=99=EC=82=AC=EC=A0=88=EB=8B=A8(2015.11.19-30) =EC=B0=B8=EA=B0=80=EA=
+=B8=B0=EC=97=85
+=EB=B0=9C=EC=8B=A0: kotra =ED=9B=84=EC=86=8D=EC=82=AC=EC=97=85=ED=8C=80 =ED=
+=95=9C=EC=A2=85=ED=9B=88=20
+=20
+=EC=95=88=EB=85=95=ED=95=98=EC=8B=AD=EB=8B=88=EA=B9=8C.=20
+kotra =ED=9B=84=EC=86=8D=EC=82=AC=EC=97=85=ED=8C=80 =ED=95=9C=EC=A2=85=ED=
+=9B=88 =EC=9C=84=EC=9B=90=EC=9E=85=EB=8B=88=EB=8B=A4.=20
+=20
+=EC=95=84=EB=AC=B4=EC=AA=BC=EB=A1=9D =EC=83=88=ED=95=B4 =EB=B3=B5 =EB=A7=8E=
+=EC=9D=B4 =EB=B0=9B=EC=9C=BC=EC=8B=9C=EA=B3=A0,=20
+2017=EB=85=84 =EB=9C=BB=ED=95=98=EC=8B=A0 =EB=B0=94 =EB=AA=A8=EB=91=90 =EC=
+=9D=B4=EB=A3=A8=EC=8B=9C=EA=B8=B8 =EA=B8=B0=EC=9B=90=ED=95=A9=EB=8B=88=EB=
+=8B=A4!=20
+=20
+=EB=8B=A4=EB=A6=84=EC=9D=B4 =EC=95=84=EB=8B=88=EB=9D=BC =ED=98=84=EC=9E=AC=
+ =EA=B3=BC=EA=B1=B0 kotra =ED=9B=84=EC=86=8D=EC=82=AC=EC=97=85=EC=97=90 =EB=
+=8C=80=ED=95=9C =EC=84=B1=EA=B3=BC=ED=98=84=ED=99=A9 =EB=B0=8F =EA=B0=9C=EC=
+=84=A0=EC=82=AC=ED=95=AD,=20
+=ED=96=A5=ED=9B=84 =EC=A7=80=EC=9B=90=EC=9D=B4 =ED=95=84=EC=9A=94=ED=95=9C=
+ =EC=82=AC=ED=95=AD =EB=93=B1=EC=9D=84 =EC=A1=B0=EC=82=AC=ED=95=98=EA=B3=A0=
+ =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.=20
+=20
+=EA=B7=80=EC=82=AC=EA=BB=98=EC=84=9C=EB=8A=94 =EC=A7=80=EB=82=9C 2015=EB=85=
+=84 11=EC=9B=94 kotra =EC=83=81=EC=8B=9C=EB=B9=84=EC=A6=88=EB=8B=88=EC=8A=
+=A4=EC=A7=80=EC=9B=90=EC=8B=A4=EC=97=90=EC=84=9C =EC=B6=94=EC=A7=84=ED=95=
+=9C=20
+'=EC=A4=91=EB=82=A8=EB=AF=B8 =EB=AF=BC=EA=B4=80=ED=95=A9=EB=8F=99=EC=82=AC=
+=EC=A0=88=EB=8B=A8'=EC=97=90 =EC=B0=B8=EA=B0=80=EB=A5=BC =ED=95=B4 =EC=A3=
+=BC=EC=85=A8=EC=97=88=EB=8A=94=EB=8D=B0=EC=9A=94.=20
+=20
+=EB=8B=B9=EC=8B=9C =EC=83=81=EB=8B=B4=ED=95=98=EC=8B=9C=EA=B3=A0 =EC=A2=8B=
+=EC=9D=80 =EA=B2=B0=EA=B3=BC=EA=B0=80 =EC=9E=88=EC=9C=BC=EC=85=A8=EA=B1=B0=
+=EB=82=98,=20
+=ED=98=84=EC=9E=AC=EA=B9=8C=EC=A7=80 =EB=B9=84=EC=A6=88=EB=8B=88=EC=8A=A4=
+ =EB=85=BC=EC=9D=98=EA=B0=80 =EC=A7=80=EC=86=8D=EB=90=98=EA=B3=A0 =EC=9E=88=
+=EB=8A=94 =EC=95=88=EA=B1=B4=EC=9D=B4 =EC=9E=88=EC=9C=BC=EC=8B=A0=EC=A7=80=
+=EC=9A=94?=20
+=20
+=EA=B8=B0=ED=83=80 =EB=B6=88=ED=8E=B8=ED=95=98=EC=85=A8=EB=8D=98 =EC=A0=90=
+=EC=9D=B4=EB=82=98 =EA=B0=9C=EC=84=A0=EC=9D=B4 =ED=95=84=EC=9A=94=ED=95=9C=
+ =EB=B6=80=EB=B6=84, =EC=A0=84=EB=B0=98=EC=A0=81=EC=9D=B8 =EB=A7=8C=EC=A1=
+=B1=EB=8F=84 =EB=93=B1 =EA=B0=84=EB=8B=A8=ED=9E=88 =EC=96=B8=EA=B8=89=ED=95=
+=B4 =EC=A3=BC=EC=8B=9C=EB=A9=B4=20
+=ED=96=A5=ED=9B=84 =EC=82=AC=EC=97=85 =EC=A7=84=ED=96=89 =EC=8B=9C =EB=B0=
+=98=EC=98=81 =EB=B0=8F =EA=B0=9C=EC=84=A0=EB=90=A0 =EC=88=98 =EC=9E=88=EB=
+=8F=84=EB=A1=9D =EB=85=B8=EB=A0=A5=ED=95=98=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=
+=8B=A4.=20
+=20
+=EC=95=84=EB=AC=B4=EC=AA=BC=EB=A1=9D =EC=9E=A0=EA=B9=90 =EC=8B=9C=EA=B0=84=
+ =EB=82=B4 =EC=A3=BC=EC=8B=9C=EC=96=B4 =ED=9A=8C=EC=8B=A0=ED=95=B4 =EC=A3=
+=BC=EC=8B=9C=EB=A9=B4 =EA=B0=90=EC=82=AC=ED=95=98=EA=B2=A0=EC=8A=B5=EB=8B=
+=88=EB=8B=A4.=20
+=EA=B7=80=EC=A4=91=ED=95=9C =EC=9D=98=EA=B2=AC =EA=B0=90=EC=82=AC =EB=93=9C=
+=EB=A6=BD=EB=8B=88=EB=8B=A4.=20
+=20
+=ED=95=9C=EC=A2=85=ED=9B=88 =EB=93=9C=EB=A6=BC=20
+=20
+
+
+
+
+=20
+
+
+
+
+=20
+
+=20
+
+
+=20
+
+=ED=95=9C=EC=A2=85=ED=9B=88 (Han, Jonghoon) =EC=A0=84=EB=AC=B8=EC=9C=84=EC=
+=9B=90
+=EC=A0=95=EC=83=81=EC=99=B8=EA=B5=90=EA=B2=BD=EC=A0=9C=ED=99=9C=EC=9A=A9=EC=
+=A7=80=EC=9B=90=EC=84=BC=ED=84=B0 / =EC=83=81=EC=8B=9C=EB=B9=84=EC=A6=88=EB=
+=8B=88=EC=8A=A4=EC=A7=80=EC=9B=90=EC=8B=A4
+KOTRA(Korea Trade-Investment Promotion Agency)
+=EC=84=9C=EC=9A=B8=EC=8B=9C =EC=84=9C=EC=B4=88=EA=B5=AC =ED=97=8C=EB=A6=89=
+=EB=A1=9C 13(=EC=9A=B0:137-749)
+TEL 02-3460-7572 | FAX 02-3460-7942 |  EMAIL  p3fp4g@kotra.or.kr
+http://www.kotra.or.kr
+
+
+------=_Part_307990_838547831.1483923719572
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<style type=3D'text/css'>.TerraceMsg { font-size: 12px; font-family:Dotum=
+, Arial, Verdana, Sans-Serif;}.Bold { font-weight: bold; }</style><div cl=
+ass=3D'TerraceMsg'>=20
+<DIV>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EC=88=98=EC=8B=A0: =EC=A4=
+=91=EB=82=A8=EB=AF=B8 =EB=AF=BC=EA=B4=80=ED=95=A9=EB=8F=99=EC=82=AC=EC=A0=
+=88=EB=8B=A8(2015.11.19-30) =EC=B0=B8=EA=B0=80=EA=B8=B0=EC=97=85</P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EB=B0=9C=EC=8B=A0: kotr=
+a =ED=9B=84=EC=86=8D=EC=82=AC=EC=97=85=ED=8C=80 =ED=95=9C=EC=A2=85=ED=9B=88=
+ </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">&nbsp;</P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EC=95=88=EB=85=95=ED=95=
+=98=EC=8B=AD=EB=8B=88=EA=B9=8C. </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">kotra =ED=9B=84=EC=86=8D=
+=EC=82=AC=EC=97=85=ED=8C=80 =ED=95=9C=EC=A2=85=ED=9B=88 =EC=9C=84=EC=9B=90=
+=EC=9E=85=EB=8B=88=EB=8B=A4. </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">&nbsp;</P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EC=95=84=EB=AC=B4=EC=AA=
+=BC=EB=A1=9D =EC=83=88=ED=95=B4 =EB=B3=B5 =EB=A7=8E=EC=9D=B4 =EB=B0=9B=EC=
+=9C=BC=EC=8B=9C=EA=B3=A0, </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">2017=EB=85=84 =EB=9C=BB=ED=
+=95=98=EC=8B=A0 =EB=B0=94 =EB=AA=A8=EB=91=90 =EC=9D=B4=EB=A3=A8=EC=8B=9C=EA=
+=B8=B8 =EA=B8=B0=EC=9B=90=ED=95=A9=EB=8B=88=EB=8B=A4! </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">&nbsp;</P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EB=8B=A4=EB=A6=84=EC=9D=
+=B4 =EC=95=84=EB=8B=88=EB=9D=BC =ED=98=84=EC=9E=AC =EA=B3=BC=EA=B1=B0 kot=
+ra =ED=9B=84=EC=86=8D=EC=82=AC=EC=97=85=EC=97=90 =EB=8C=80=ED=95=9C =EC=84=
+=B1=EA=B3=BC=ED=98=84=ED=99=A9 =EB=B0=8F =EA=B0=9C=EC=84=A0=EC=82=AC=ED=95=
+=AD, </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=ED=96=A5=ED=9B=84 =EC=A7=
+=80=EC=9B=90=EC=9D=B4 =ED=95=84=EC=9A=94=ED=95=9C =EC=82=AC=ED=95=AD =EB=93=
+=B1=EC=9D=84 =EC=A1=B0=EC=82=AC=ED=95=98=EA=B3=A0 =EC=9E=88=EC=8A=B5=EB=8B=
+=88=EB=8B=A4. </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">&nbsp;</P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EA=B7=80=EC=82=AC=EA=BB=
+=98=EC=84=9C=EB=8A=94 =EC=A7=80=EB=82=9C 2015=EB=85=84 11=EC=9B=94 kotra =
+=EC=83=81=EC=8B=9C=EB=B9=84=EC=A6=88=EB=8B=88=EC=8A=A4=EC=A7=80=EC=9B=90=EC=
+=8B=A4=EC=97=90=EC=84=9C =EC=B6=94=EC=A7=84=ED=95=9C </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">'=EC=A4=91=EB=82=A8=EB=AF=
+=B8 =EB=AF=BC=EA=B4=80=ED=95=A9=EB=8F=99=EC=82=AC=EC=A0=88=EB=8B=A8'=EC=97=
+=90 =EC=B0=B8=EA=B0=80=EB=A5=BC =ED=95=B4 =EC=A3=BC=EC=85=A8=EC=97=88=EB=8A=
+=94=EB=8D=B0=EC=9A=94. </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">&nbsp;</P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EB=8B=B9=EC=8B=9C =EC=83=
+=81=EB=8B=B4=ED=95=98=EC=8B=9C=EA=B3=A0 =EC=A2=8B=EC=9D=80 =EA=B2=B0=EA=B3=
+=BC=EA=B0=80 =EC=9E=88=EC=9C=BC=EC=85=A8=EA=B1=B0=EB=82=98, </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=ED=98=84=EC=9E=AC=EA=B9=
+=8C=EC=A7=80 =EB=B9=84=EC=A6=88=EB=8B=88=EC=8A=A4 =EB=85=BC=EC=9D=98=EA=B0=
+=80 =EC=A7=80=EC=86=8D=EB=90=98=EA=B3=A0 =EC=9E=88=EB=8A=94 =EC=95=88=EA=B1=
+=B4=EC=9D=B4 =EC=9E=88=EC=9C=BC=EC=8B=A0=EC=A7=80=EC=9A=94? </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">&nbsp;</P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EA=B8=B0=ED=83=80 =EB=B6=
+=88=ED=8E=B8=ED=95=98=EC=85=A8=EB=8D=98 =EC=A0=90=EC=9D=B4=EB=82=98 =EA=B0=
+=9C=EC=84=A0=EC=9D=B4 =ED=95=84=EC=9A=94=ED=95=9C =EB=B6=80=EB=B6=84,&nbs=
+p;=EC=A0=84=EB=B0=98=EC=A0=81=EC=9D=B8 =EB=A7=8C=EC=A1=B1=EB=8F=84 =EB=93=
+=B1 =EA=B0=84=EB=8B=A8=ED=9E=88 =EC=96=B8=EA=B8=89=ED=95=B4 =EC=A3=BC=EC=8B=
+=9C=EB=A9=B4 </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=ED=96=A5=ED=9B=84 =EC=82=
+=AC=EC=97=85 =EC=A7=84=ED=96=89 =EC=8B=9C =EB=B0=98=EC=98=81 =EB=B0=8F =EA=
+=B0=9C=EC=84=A0=EB=90=A0 =EC=88=98 =EC=9E=88=EB=8F=84=EB=A1=9D =EB=85=B8=EB=
+=A0=A5=ED=95=98=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4. </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">&nbsp;</P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EC=95=84=EB=AC=B4=EC=AA=
+=BC=EB=A1=9D =EC=9E=A0=EA=B9=90 =EC=8B=9C=EA=B0=84 =EB=82=B4 =EC=A3=BC=EC=
+=8B=9C=EC=96=B4 =ED=9A=8C=EC=8B=A0=ED=95=B4 =EC=A3=BC=EC=8B=9C=EB=A9=B4 =EA=
+=B0=90=EC=82=AC=ED=95=98=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4. </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=EA=B7=80=EC=A4=91=ED=95=
+=9C =EC=9D=98=EA=B2=AC =EA=B0=90=EC=82=AC =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=
+=A4. </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">&nbsp;</P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">=ED=95=9C=EC=A2=85=ED=9B=
+=88 =EB=93=9C=EB=A6=BC </P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 0px">&nbsp;</P>
+<TABLE style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDE=
+R-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium non=
+e" height=3D146 cellSpacing=3D0 cellPadding=3D0 width=3D604 border=3D0>
+<TBODY>
+<TR height=3D146>
+<TD style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROU=
+ND-REPEAT: no-repeat; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; PADDING-RIGH=
+T: 0px" height=3D146 vAlign=3Dtop background=3Dhttp://mail.kotra.or.kr/ko=
+tra/images/mail_sign_ko.gif width=3D604>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 1px">&nbsp;</P>
+<TABLE style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDE=
+R-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium non=
+e" height=3D144 cellSpacing=3D0 cellPadding=3D0 width=3D603 border=3D0>
+<TBODY>
+<TR height=3D10>
+<TD style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-B=
+OTTOM: medium none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; BORDER-LEFT: medium none; PADDING-RIGHT: 0px" width=3D15>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 1px; LINE-HEIGHT: 1.2"><FONT =
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: =EB=8F=8B=EC=9B=80"></FONT>&nbsp;<=
+/P></TD>
+<TD style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-B=
+OTTOM: medium none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; BORDER-LEFT: medium none; PADDING-RIGHT: 0px" width=3D588>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 1px; LINE-HEIGHT: 1.2"><FONT =
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: =EB=8F=8B=EC=9B=80"></FONT>&nbsp;<=
+/P></TD></TR>
+<TR height=3D114>
+<TD style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-B=
+OTTOM: medium none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; BORDER-LEFT: medium none; PADDING-RIGHT: 0px" width=3D15>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 1px; LINE-HEIGHT: 1.2"><FONT =
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: =EB=8F=8B=EC=9B=80"></FONT>&nbsp;<=
+/P></TD>
+<TD style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-B=
+OTTOM: medium none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; BORDER-LEFT: medium none; PADDING-RIGHT: 0px" vAlign=3Dtop width=3D5=
+88>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 1px; LINE-HEIGHT: 1.12"><FONT=
+ style=3D"FONT-SIZE: 10pt; FONT-FAMILY: =EA=B5=B4=EB=A6=BC"><STRONG>=ED=95=
+=9C=EC=A2=85=ED=9B=88 </STRONG></FONT><FONT style=3D"FONT-SIZE: 9pt; FONT=
+-FAMILY: Arial"><STRONG>(Han, Jonghoon) </STRONG></FONT><FONT style=3D"FO=
+NT-SIZE: 8pt; FONT-FAMILY: =EA=B5=B4=EB=A6=BC">=EC=A0=84=EB=AC=B8=EC=9C=84=
+=EC=9B=90</FONT></P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 1px; LINE-HEIGHT: 1.12"><FONT=
+ style=3D"FONT-SIZE: 8pt; FONT-FAMILY: =EA=B5=B4=EB=A6=BC; COLOR: #7d7d7d=
+">=EC=A0=95=EC=83=81=EC=99=B8=EA=B5=90=EA=B2=BD=EC=A0=9C=ED=99=9C=EC=9A=A9=
+=EC=A7=80=EC=9B=90=EC=84=BC=ED=84=B0&nbsp;/ =EC=83=81=EC=8B=9C=EB=B9=84=EC=
+=A6=88=EB=8B=88=EC=8A=A4=EC=A7=80=EC=9B=90=EC=8B=A4</FONT><FONT style=3D"=
+FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #7d7d7d"><BR>KOTRA(Korea Trade=
+-Investment Promotion Agency)</FONT></P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 2px; LINE-HEIGHT: 1.12"><FONT=
+ style=3D"FONT-SIZE: 8pt; FONT-FAMILY: =EA=B5=B4=EB=A6=BC; COLOR: #7d7d7d=
+">=EC=84=9C=EC=9A=B8=EC=8B=9C</FONT><FONT style=3D"FONT-SIZE: 8pt; FONT-F=
+AMILY: Arial; COLOR: #7d7d7d">&nbsp;</FONT><FONT style=3D"FONT-SIZE: 8pt;=
+ FONT-FAMILY: =EA=B5=B4=EB=A6=BC; COLOR: #7d7d7d">=EC=84=9C=EC=B4=88=EA=B5=
+=AC</FONT><FONT style=3D"FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #7d7d=
+7d">&nbsp;</FONT><FONT style=3D"FONT-SIZE: 8pt; FONT-FAMILY: =EA=B5=B4=EB=
+=A6=BC; COLOR: #7d7d7d">=ED=97=8C=EB=A6=89=EB=A1=9C</FONT><FONT style=3D"=
+FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #7d7d7d">&nbsp;</FONT><FONT st=
+yle=3D"FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #7d7d7d">13(</FONT><FON=
+T style=3D"FONT-SIZE: 8pt; FONT-FAMILY: =EA=B5=B4=EB=A6=BC; COLOR: #7d7d7=
+d">=EC=9A=B0</FONT><FONT style=3D"FONT-SIZE: 8pt; FONT-FAMILY: Arial; COL=
+OR: #7d7d7d">:137-749)<BR>TEL 02-3460-7572 </FONT><FONT style=3D"FONT-SIZ=
+E: 8pt; FONT-FAMILY: =EA=B5=B4=EB=A6=BC; COLOR: #7d7d7d">| FAX 02-3460-79=
+42</FONT><FONT style=3D"FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #7d7d7=
+d">&nbsp;</FONT><FONT style=3D"FONT-SIZ!
+ E: 8pt; FONT-FAMILY: Arial; COLOR: #7d7d7d">| </FONT><FONT style=3D"FONT=
+-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #7d7d7d">&nbsp;</FONT><FONT style=3D=
+"FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #7d7d7d">EMAIL&nbsp;</FONT><F=
+ONT style=3D"FONT-SIZE: 8pt; FONT-FAMILY: Arial; COLOR: #7d7d7d">&nbsp;</=
+FONT><A href=3D"mailto:kp3fp4g@kotra.or.kr" target=3D_blank><FONT style=3D=
+"FONT-SIZE: 8pt; TEXT-DECORATION: underline; FONT-FAMILY: Arial; COLOR: #=
+7d7d7d">p3fp4g@kotra.or.kr</FONT></A></P>
+<P style=3D"MARGIN-BOTTOM: 1px; MARGIN-TOP: 2px; LINE-HEIGHT: 1.12"><A hr=
+ef=3D"http://www.kotra.or.kr/" target=3D_blank><FONT style=3D"FONT-SIZE: =
+8pt; TEXT-DECORATION: underline; FONT-FAMILY: Arial; COLOR: #7d7d7d">http=
+://www.kotra.or.kr</FONT></A></P></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></DIV></div><br><br>
+<div id=3D'TMSMDN' style=3D"background:url('https://mail.kotra.or.kr:443/=
+mail/receiveMDN.do?mdnData=3DMZ5eQId2vrhOJ35CB1RRd9PIDueDLNXaWI%2BiK1IKDT=
+j08xlre2M%2FFvjdAidFVo7NHv989cNOdog9%0AafCgHtq01I1aqVWXf6%2B2TqoZeSqApG1t=
+LIt4Cv81LGVjxzZTjtGUT2gSvYRZqj0ASehR84Vt5A%3D%3D%0A')"></div>
+------=_Part_307990_838547831.1483923719572--
+
+
+
+

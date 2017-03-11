@@ -1,0 +1,173 @@
+Received: (qmail 28615 invoked from network); 8 Jan 2016 00:11:49 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda02.wmail.naver.com with SMTP; 8 Jan 2016 00:11:49 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from  ([202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id 1m6t5vezR36M9qV4DUbViA
+  for <jonghyun.kim@dforensic.com>;
+  Fri, 08 Jan 2016 00:11:49 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u0805qh00FD7;
+	Fri, 08 Jan 2016 09:05:52 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0805qh00FD7
+X-SmartFilter: FROM,u0805qh00FD7,joseph@duzon.com
+x-forward-id: 1452211713769_935649226
+recvDate: Fri, 08 Jan 2016 09:08:33 +0900
+x-newturns-hashkey: 8ccc710804b1518edd4be31212fa3164a86b9150484dc83dc1186c2ff1bffe01
+Received: from external ([209.85.217.171])
+	by smf.duzon.com (1.0) id u0805hU00FCA;
+	Fri, 08 Jan 2016 09:05:43 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0805hU00FCA
+X-SmartFilter: FROM,u0805hU00FCA,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-lb0-f171.google.com with SMTP id oh2so216625956lbb.3
+        for <joseph@duzon.com>; Thu, 07 Jan 2016 16:11:23 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:subject:to
+         :from:reply-to:errors-to:mime-version:date:message-id:importance
+         :organization:content-type:content-transfer-encoding;
+        bh=S/jAP+sHOkKPpvqif3gBnsyC/KTFQz7+JEUnH4QqFQM=;
+        b=XkY73D19vVvxEvpur1TarfbWuprxBZp+Po1ReWTE1/op2OND90UFisJ9rfKl3AvBzy
+         GFMSTKCWGMKCqX69BDTdXOEo7hEl84q2Qh+v5kT5FdjLdtgP15ghEygMQK78YTty/dX1
+         b57Rv9JRB3TzZMa+mxSjAwB3b3JrVIdSP5hd9DZ0oF0dvjJ2AH2hzgHjFj8ZyMk6IS+O
+         WwALaG//XAIDSP1Trij7U9hnsHaCnXXED/F62sl84Xdv97gEgSAmddxBBrNVZy9r6m83
+         gIfPov8IX5XLg+5ZxDFgNRx6hWdWE76TFN9RXpz+mZkbj/eyKLwg+rzi1SNMwILeZfCV
+         XZ3Q==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Received: by 10.112.172.8 with SMTP id ay8mr18392909lbc.145.1452211881597;
+        Thu, 07 Jan 2016 16:11:21 -0800 (PST)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, jaylee@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, jaylee@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.70.74 with SMTP id k10csp158322ldu;
+        Thu, 7 Jan 2016 16:11:20 -0800 (PST)
+X-Received: by 10.107.13.207 with SMTP id 198mr44248953ion.72.1452211880325;
+        Thu, 07 Jan 2016 16:11:20 -0800 (PST)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id z19si6437259ioi.116.2016.01.07.16.11.19
+        for <forensic.duzon@gmail.com>;
+        Thu, 07 Jan 2016 16:11:20 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u0805YG00FBC;
+	Fri, 08 Jan 2016 09:05:34 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0805YG00FBC
+X-SmartFilter: FROM,u0805YG00FBC,forensic@duzon.com
+x-forward-id: 1452211695604_2433444502
+recvDate: Fri, 08 Jan 2016 09:08:15 +0900
+x-newturns-hashkey: 8663768bed819c62bb8e30d92351fc1b97b62c383a9018a0c4e75123849df16c
+Received: from external ([211.115.217.140])
+	by smf.duzon.com (1.0) id u0805U800FB4;
+	Fri, 08 Jan 2016 09:05:30 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0805U800FB4
+X-SmartFilter: FROM,u0805U800FB4,user24773@sendc.ozmailer.com
+Subject: =?EUC-KR?B?KDAxLzE5KSAxNrPitbUgsbmwocGkurjIrSDD38H4uebH4iC51yDB1r/kIL3Dx+Cw6A==?=
+	=?EUC-KR?B?yLkgvLO47ci4?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?sbmwocGkurjIrby8ucyzqg==?=" <shs@fkii.org>
+Reply-To: <shs@fkii.org>
+Errors-To: <shs@fkii.org>
+MIME-Version: 1.0
+Date: Fri, 08 Jan 2016 09:11:09 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1924818@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: +rRYpB3G1H+YbXFCbHmRKAgwKxtljJ+Y
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=6954798" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>(01/19) 16년도 국가정보화 추진방향 및 주요 시행계획 설명회</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<p></p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">안녕하세요. </span><span style="font-size: 11pt;">&nbsp;</span></p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">오는 1월 19일(화) </span><span style="font-family: 굴림,gulim; font-size: 11pt;">미래창조과학부에서는 '16년도 국가정보화 추진방향 및 주요 시행계획 설명회'을 개최합니다.</span><span style="font-size: 11pt;">&nbsp;</span></p><p><span style="font-family: 굴림,gulim; font-size: 10pt;"></span><span style="font-size: 11pt;">&nbsp;</span></p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">2016년도 ICT산업 동향분석 발표 및 국가정보화 시행계획을 주요 사업, 투자규모, 발주시기 등을&nbsp;</span></p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">중심으로</span><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;</span><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;</span><span style="font-family: 굴림,gulim; font-size: 11pt;">발표할 예정이니 많은 참석 !
+ 부탁드립니다.</span><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;</span></p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">(부처 및 발표내용 등은 사전 공지 없이 사정에 따라 변경 될 수 있습니다)</span></p><p><span style="font-size: 11pt;">&nbsp;</span></p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;- 일시 :&nbsp;2016년 1월 19일(화) 14:00~17:15</span>&nbsp;</p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;- 장소 : 엘타워 7층 그랜드홀</span>&nbsp;</p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;- 주최 : 미래창조과학부</span>&nbsp;</p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;- 주관 : 한국정보화진흥원, 한국정보산업연합회</span>&nbsp;</p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;- 문의 및 연락처&nbsp;</span>&nbsp;</p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;&nbsp;&nbsp;세미나 관련 문의 : <span style="font-family: 굴림,guli!
+ m; font-size: 11pt;">한국정보화진흥원</span></span><span style="font-f
+amily: 굴림,gulim; font-size: 11pt;">&nbsp;박범대 수석 (053-230-1242 / <a href="mailto:parkbd@nia.or.kr">parkbd@nia.or.kr</a>) </span></p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;전광현 선임 (053-230-1250 / <a href="mailto:rayflow@nia.or.kr">rayflow@nia.or.kr</a>)</span></p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김지은 주임 (053-230-1249!
+  / <a href="mailto:ag@nia.or.kr">ag@nia.or.kr</a>) &nbsp; </span></p><p><span style="font-family: 굴림,gulim; font-size: 11pt;">&nbsp;&nbsp; 등록 및 기타 문의 : 한국정보산업연합회 신효선 선임(02-2132-0735 /&nbsp;<a href="mailto:shs@fkii.org">shs@fkii.org</a>)</span>&nbsp;</p><p><br></p><p><br></p><p><span style="font-family: 굴림,gulim; font-size: 10pt;">[참가신청 바로가기]</span></p><p><span style="font-family: 굴림,gulim; font-size: 10pt;">http://onoffmix.com/event/60355</span></p><p><span style="font-family: 굴림,gulim; font-size: 10pt;">* 회원 가입없이 참가 등록 가능합니다.</span></p><p><span style="font-family: 굴림,gulim; font-size: 10pt;">* 링크클릭 안되는 경우 네이버에서 온오프믹스 검색 -&gt; 검색창에 국가정보화 검색하시면 아래 세미나 등록 가능합니다.&nbsp;</span></p><p><span style="font-family: 굴림,gulim; font-size: 10pt;"><br></span></p><p><br></p><p><br></p><p><img src="http://img.ozmailer.com/userFile/24773/4v59u0h8c.png"><img src="http://img.ozmailer.com/userF!
+ ile/24773/u9u1bjzuf.png"><br></p><p><br></p><p><br></p>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 한국정보산업연합회 행사나 교육에 참가하신 분들 대상으로 발송되었습니다.본 메일은 발신전용입니다. 수신거부를 원하시는 경우 &lt;메일&gt;를 회신하여 주시기 바랍니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=6954798' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

@@ -1,0 +1,381 @@
+Received: (qmail 8482 invoked by uid 100); 12 Dec 2016 04:45:53 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda001.wmail.worksmobile.com with SMTP;12 Dec 2016 04:45:53 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id kh5XsXXKQmSu1HyT8E3L9g
+  for <jonghyun.kim@dforensic.com>;
+  Mon, 12 Dec 2016 04:45:53 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBC4mT60052D;
+	Mon, 12 Dec 2016 13:48:29 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBC4mT60052D
+X-SmartFilter: FROM,uBC4mT60052D,joseph@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2111260@senda.ozmailer.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tcVdc2072z2fmG1; Mon, 12 Dec 2016 13:44:49 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tcVcd3qDmz2fmFy
+	for <joseph@duzon.com>; Mon, 12 Dec 2016 13:44:49 +0900 (KST)
+Received: from external ([209.85.217.169])
+	by smf.duzon.co.kr (1.0) id uBC4lVg00515;
+	Mon, 12 Dec 2016 13:47:31 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBC4lVg00515
+X-SmartFilter: FROM,uBC4lVg00515,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f169.google.com with SMTP id 51so71499732uai.1
+        for <joseph@duzon.com>; Sun, 11 Dec 2016 20:44:47 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :subject:to:from:reply-to:errors-to:mime-version:date:message-id
+         :importance:organization:content-transfer-encoding;
+        bh=qAtmyP36vQ6Inwko/A3KtURX/EVY8bLMvyb33PXH5uw=;
+        b=RbJ0C0JAuDSSjR6kw2dzf2TjRLtipmGRqw5Gid46wjFsR0e/bs1HampR2tAP/IvvPc
+         bdawUSvHFcCAZEtjj70q9/IJKXNnrl9MPubN5NzFIAiIFEfbCm3LqEFYkA0AUXA/WT4t
+         O8yPsbg4mO7l6xI4DgzCdNIBLsHtWg6geBkG2Tw4wv72PXBk5pPz6v1UWDx1L4uDN4IE
+         28uihdaO3Q0Auy/Rm6zc9ChvlMaLoc42VI3ivVeOQZ1A8cQ9+0bU1q9Hxq0Pc92Ec6ib
+         ZV+FeztEc94dgpLNBq/+vHKKJpoblRMRYCsxFEtY7kKOkMniZZLDgDVZZ53RoyI8xjSK
+         RRJg==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AKaTC03FFefX3N1+m9OwgVS46VG7OcVNHF/TxtoCceLufNzs7UYLTNMmEPncodrofC4A62bcZyzruO8D3+hKmx0JK1eKp6k=
+X-Received: by 10.159.48.18 with SMTP id h18mr83291uab.39.1481517886278;
+        Sun, 11 Dec 2016 20:44:46 -0800 (PST)
+X-Forwarded-To: kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp575242vsa;
+        Sun, 11 Dec 2016 20:44:45 -0800 (PST)
+X-Received: by 10.99.23.69 with SMTP id 5mr44065270pgx.150.1481517885158;
+        Sun, 11 Dec 2016 20:44:45 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id x1si42166564plb.36.2016.12.11.20.44.44
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 11 Dec 2016 20:44:45 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBC4lQd00512;
+	Mon, 12 Dec 2016 13:47:26 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBC4lQd00512
+X-SmartFilter: FROM,uBC4lQd00512,forensic@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2111260@senda.ozmailer.com>
+Subject: =?EUC-KR?B?KLGksO0pIFu5zLehus4gwOWw/LvzXTEyv/kgvcVTV7vzx7C067vzKMGmx7AsIMfZvck=?=
+	=?EUC-KR?B?sLO538DaIL3Du/MpIL3Fw7sgwaK89iC+yLO7KCcxNi4xMi4xNiix3Smx7sH2KQ==?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?vcVTV7vzx7C067vz?=" <newsw.award@fkii.org>
+Reply-To: <newsw.award@fkii.org>
+Errors-To: <newsw.award@fkii.org>
+MIME-Version: 1.0
+Date: Mon, 12 Dec 2016 13:44:41 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-2111260@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+X-SPAMMARK: 8 1 (광고) [미래부 장관상]12월 신SW상품대상(제품, 핵심개발자 시상) 신청 접수 안내('16.12.16(금)까지)
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: wZ+n+6J4p635WrlY7BwdpBmmFAt9FxFYkXm=
+
+<img src=3D"http://www.webstage.co.kr/oele/receipt_confirm.php?email=3Dfo=
+rensic@duzon.com&mail_no=3D7809879" WIDTH=3D0 HEIGHT=3D0 BORDER=3D0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"ko" xml:lang=3D"ko">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Deuc-kr"=
+ />
+<title>(=B1=A4=B0=ED) [=B9=CC=B7=A1=BA=CE =C0=E5=B0=FC=BB=F3]12=BF=F9 =BD=
+=C5SW=BB=F3=C7=B0=B4=EB=BB=F3(=C1=A6=C7=B0, =C7=D9=BD=C9=B0=B3=B9=DF=C0=DA=
+ =BD=C3=BB=F3) =BD=C5=C3=BB =C1=A2=BC=F6 =BE=C8=B3=BB('16.12.16(=B1=DD)=B1=
+=EE=C1=F6)</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '=B5=B8=BF=F2'=
+,Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal=
+; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class=3D"smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table=
+ cellpadding=3D0 cellspacing=3D0 align=3D'center'><tr><td><!-- OZ_AlignTo=
+pEnd -->
+<p>=BE=C8=B3=E7=C7=CF=BD=CA=B4=CF=B1=EE&nbsp;</p><p>=C7=D1=B1=B9=C1=A4=BA=
+=B8=BB=EA=BE=F7=BF=AC=C7=D5=C8=B8 =BD=C5SW=BB=F3=C7=B0=B4=EB=BB=F3 =B4=E3=
+=B4=E7=C0=DA =C3=D6=C1=F8=C7=F5 =C0=D4=B4=CF=B4=D9.&nbsp;</p><p><br></p><=
+p>(2016=B3=E2 =BC=F6=BB=F3=C1=A6=C7=B0 =B8=F0=C1=FD =B0=F8=B0=ED =C0=D4=B4=
+=CF=B4=D9. 12=BF=F9 =B8=F0=C1=FD =B8=B6=B0=A8 : 2016=B3=E2 12=BF=F9 16=C0=
+=CF(=B1=DD) 24:00)</p><p><span style=3D"font-size: 11pt;"><b><a href=3D"h=
+ttp://www.ozmailer.com/oele/ut.php?U=3Dwdcy5_4ne53_gna73g" target=3D"_sel=
+f">=BD=C5=C3=BB=BE=E7=BD=C4 =B4=D9=BF=EE=B7=CE=B5=E5</a>&nbsp;&lt;--=C5=AC=
+=B8=AF=C7=CF=BC=BC=BF=E4 :)</b></span></p><p><br></p><p>=BA=BB =BD=C3=BB=F3=
+=C1=A6=B5=B5=B4=C2<b><span style=3D"color: rgb(0, 117, 200); font-size: 1=
+1pt;"> <u>SW=C1=A6=C7=B0</u> =B9=D7&nbsp;<u>=C7=D9=BD=C9SW=B0=B3=B9=DF=C0=
+=DA</u></span></b>=B8=A6 =B4=EB=BB=F3=C0=B8=B7=CE&nbsp;=B9=CC=B7=A1=C3=A2=
+=C1=B6=B0=FA=C7=D0=BA=CE =C0=E5=B0=FC=BB=F3=C0=BB =BC=F6=BF=A9=C7=CF=B4=C2=
+ =C1=A6=B5=B5=C0=D4=B4=CF=B4=D9.&nbsp;</p><p><br></p><p>=BA=BB =BD=C3=BB=F3=
+=C1=A6=B5=B5=BF=A1 =BD=C5=C3=BB=C1=A2=BC=F6=B8=A6 =C7=CF=BD=C3=B8=E9 =C0=FC=
+=C0=DA=BD=C5=B9=AE=BF=A1 =C8=AB=BA=B8 =B1=E2=BB=E7=B8=A6 =BD=C7=BE=EE =B5=
+=E5=B8=AE=B8=E7,&nbsp;</p><p>=C0=CF=C3=BC=C0=C7 =BA=F1=BF=EB=C0=BA =B9=AB=
+=B7=E1 =C0=D4=B4=CF=B4=D9.&nbsp;</p><p>(=B4=DC, =B4=EB=B1=E2=BE=F7 =B9=D7=
+ =C7=D8=BF=DC=BF=A1 =B0=B3=B9=DF=B5=C8 SW=C1=A6=C7=B0=C0=BA =C7=D8=B4=E7 =
+=B4=EB=BB=F3=C0=CC =BE=C6=B4=D5=B4=CF=B4=D9.)<b><span style=3D"color: rgb=
+(58, 50, 195); font-size: 11pt;"><br></span></b></p><p><br></p><p>GS=C0=CE=
+=C1=F5=C0=BB =B9=DE=C0=BA =C1=A6=C7=B0=C0=C7 =B0=E6=BF=EC=BF=A1=B4=C2 <b>=
+<span style=3D"color: rgb(58, 50, 195);">1=C2=F7 =BC=AD=B7=F9=BD=C9=BB=E7=
+ =B0=A1=C1=A1</span></b>=C0=CC =C1=A6=B0=F8=B5=C7=BF=C0=B4=CF,&nbsp;<span=
+ !
+ style=3D"line-height: 1.5;">=B8=B9=C0=BA =C2=FC=BF=A9 =B9=D9=B6=F8=B4=CF=
+=B4=D9.&nbsp;</span></p><p><br></p><p>=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9.</p>=
+<p>=C3=D6=C1=F8=C7=F5 =BF=C3=B8=B2(02-2132-0734).</p><p><br></p><p></p><p=
+><br></p>
+
+
+
+
+
+
+=09
+	<title>=B9=CC=B7=A1=C3=A2=C1=B6=B0=FA=C7=D0=BA=CE =C1=D6=C3=D6, =BD=C5SW=
+=BB=F3=C7=B0=B4=EB=BB=F3 =C1=A2=BC=F6 =C1=DF</title>
+
+
+
+  <table>
+	<tbody><tr><td width=3D"800">
+		<img width=3D"800" src=3D"http://www.fkii.org/upload/imgs/2016/newsw.aw=
+ard/newsw_edm_main_20160106.jpg" border=3D"0" usemap=3D"#Map">
+
+			<map name=3D"Map" id=3D"Map1">
+			 =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<area href=3D"http://www.ozmailer.com/oele/ut.php?U=3Dwdcyt_4ne53_gna73g"=
+ shape=3D"rect" coords=3D"319,172,419,274" target=3D"_blank">
+			 =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<area href=3D"http://www.ozmailer.com/oele/ut.php?U=3Dwdczh_4ne53_gna73g"=
+ shape=3D"rect" coords=3D"204,640,366,679" target=3D"_blank">
+		  	 =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<area href=3D"http://www.ozmailer.com/oele/ut.php?U=3Dwdcy5_4ne53_gna73g"=
+ shape=3D"rect" coords=3D"427,640,595,678" target=3D"_blank">
+	  </map>
+
+=09
+		<img width=3D"800" src=3D"http://www.fkii.org/upload/imgs/2016/newsw.aw=
+ard/newsw_edm_main2_20160106.jpg" border=3D"0" usemap=3D"#Map2">
+
+			<map name=3D"Map2" id=3D"Map2">
+			 =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<area href=3D"mailto:newsw.award@fkii.org" shape=3D"rect" coords=3D"454,3=
+39,590,355" target=3D"_blank">
+			 =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<area href=3D"mailto:newsw.award@fkii.org" shape=3D"rect" coords=3D"158,4=
+21,476,442" target=3D"_blank">
+	  </map>
+
+
+		<img width=3D"800" src=3D"http://www.fkii.org/upload/imgs/2016/newsw.aw=
+ard/newsw_edm_main3_20160106.jpg" border=3D"0" usemap=3D"#Map3">
+	=09
+			<map name=3D"Map3" id=3D"Map3">
+			 =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<area href=3D"mailto:newsw.award@fkii.org" shape=3D"rect" coords=3D"148,7=
+65,441,786" target=3D"_blank">
+      </map>	  </td>
+  </tr></tbody></table><p><br></p><p><br></p><p><br></p><p><br></p><p><br=
+></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p=
+><br></p><p><br></p>
+<!--OZ_ModuleStart-->
+<div align=3D'center'>
+
+
+
+	<div style=3D'height:10px;'></div>
+
+
+
+	<table width=3D630 bgcolor=3D'#EFEFEF' cellpadding=3D0 cellspacing=3D0 s=
+tyle=3D'width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'=
+>
+	<tr>
+		<td>
+
+
+
+
+		<table width=3D'100%' cellpadding=3D0 cellspacing=3D0 bgcolor=3D'#FFFFF=
+F' style=3D'word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align=3D'left' style=3D'word-wrap:break-word; word-break:break-all=
+; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom=
+:7px; color:#000000; font-size:12px;'>=BA=BB =B8=DE=C0=CF=C0=BA =C8=B8=BF=
+=F8=B4=D4=B2=B2=BC=AD =BC=F6=BD=C5=B5=BF=C0=C7=B8=A6 =C7=CF=BC=CC=B1=E2=BF=
+=A1 =B9=DF=BC=DB=B5=C7=BE=FA=BD=C0=B4=CF=B4=D9.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width=3D'100%' height=3D2 cellspacing=3D0 cellpadding=3D0 bgcolo=
+r=3D'#EFEFEF'>
+		<tr>
+			<td height=3D2 bgcolor=3D'#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width=3D'100%' cellpadding=3D0 cellspacing=3D0 bgcolor=3D'#FFFFF=
+F' style=3D'word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align=3D'left' style=3D'word-wrap:break-word; word-break:break-all=
+; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom=
+:7px; color:#000000; font-size:12px;'>=B4=BA=BD=BA=B7=B9=C5=CD=C0=C7 =BC=F6=
+=BD=C5=C0=BB =B4=F5=C0=CC=BB=F3 =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9=
+, =C7=CF=B4=DC=C0=C7 '=BC=F6=BD=C5=B0=C5=BA=CE' =B9=F6=C6=B0=C0=BB =C5=AC=
+=B8=AF=C7=D8=C1=D6=BC=BC=BF=E4.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=3D0 cellspacing=3D0 align=3D'center'>
+			<tr>
+			=09
+			=09
+				<td width=3D'10'></td>
+			=09
+			=09
+			=09
+				<td width=3D'10'></td>
+				<td width=3D5 height=3D50><div style=3D'width:5px; height:50px;'></di=
+v></td><td><div style=3D'padding:10px 0px 8px 0px;'><a href=3D'http://www=
+..ozmailer.com/oele/neo_reject.php?email=3Dforensic@duzon.com&mail_no=3D78=
+09879' target=3D'_blank'><img src=3D'http://img.ozmailer.com/oele/bottom_=
+module/unsubscribe_kor.png' width=3D92 height=3D32 border=3D0 alt=3D'=BC=F6=
+=BD=C5=B0=C5=BA=CE' style=3D'display:block;'></a></div></td>
+			=09
+			=09
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

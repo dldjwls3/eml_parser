@@ -1,0 +1,947 @@
+Received: (qmail 11310 invoked by uid 100); 17 Aug 2016 03:53:51 -0000
+Received: from 10.114.250.104 (HELO crcvmail03.wmail.naver.com) (10.114.250.104)
+  by cmda002.wmail.worksmobile.com with SMTP;17 Aug 2016 03:53:51 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.64])
+  by crcvmail03.wmail.naver.com with ESMTP id ks-LwB8PTMmrVnKj9cT6Pw
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 17 Aug 2016 03:53:50 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u7H3t7s00842;
+	Wed, 17 Aug 2016 12:55:07 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u7H3t7s00842
+X-SmartFilter: FROM,u7H3t7s00842,joseph@duzon.com
+x-forward-id: <1054771352.1878986963.1471406023941.JavaMail.root@sjmas03.marketo.org>
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id u7H3t5q00840;
+	Wed, 17 Aug 2016 12:55:05 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u7H3t5q00840
+X-SmartFilter: FROM,u7H3t5q00840,495-KNT-277.0.19494.0.0.14512.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTIyNTM6MTk0OTQ6Mzk3ODg6MDoxNDUxMjo3OjExNDE1OTI=
+Received: from [10.0.87.249] ([10.0.87.249:60396] helo=sjmas03.marketo.org)
+	by sjmta07.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 51/D4-01731-7CFD3B75; Tue, 16 Aug 2016 22:53:43 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1471406023;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=1uR8WHt+JYnZp2526RSRfyWF6V1YyBr5xrMlyHXOFNY=;
+	b=W0pxKNrSM+P06XQBSK1BiQh4WTNV+3kKhekaqDaufYLsC2m7Zy7Ts/YuopTk3BIh
+	HtTCFpsxCfQZ5P6dD4WGsWeeJ9rRNFpnY87NOxT8KQ6fmUxOnZkPaqYJIlsEwtm1xE0
+	cgytTiZEHaR1fzuIQ3Y41MMv8IrGI1WRS1xSlGbU=
+Date: Tue, 16 Aug 2016 22:53:43 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1054771352.1878986963.1471406023941.JavaMail.root@sjmas03.marketo.org>
+Subject: Rapid7 Security Newsletter - August 2016
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1878986962_697309201.1471406023941"
+X-PVIQ: mkto-495KNT277-000001-000000-027517
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:12253:19494:39788:0:14512:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.19494.14512.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.19494.0.0.14512.7.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: ww+n+6J4p635WrlY7BwdpBmmKqEqFxJYkXm=
+
+------=_Part_1878986962_697309201.1471406023941
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<http://info.rapid7.com/UM3M04T0lN0K4l02hQ000aY>
+Contact Us <http://info.rapid7.com/GhN0Tl20Y44bK04l0000MQM> =C2=A0 =C2=A0 =
+=C2=A0 | =C2=A0 =C2=A0 =C2=A0 Free Tools <http://info.rapid7.com/eQ0YcT0200=
+0NKl0M4h5lM04>
+Security Newsletter
+"No trip to the SPA - Securing Single Page Application" Webcast: <http://in=
+fo.rapid7.com/x0K0000l2Ch0lQN0v44MYTM>
+Join this webcast to learn how to security test each of the following appli=
+cation layers of a SPA
+
+Thurs 25th Aug @11am SGT | 1pm AEST
+
+
+
+REGISTER NOW <http://info.rapid7.com/x0K0000l2Ch0lQN0v44MYTM>
+Security Resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <http://info.rapid7.com/o02DQ00wl00hMK04YTN4Ml0>
+
+ <http://info.rapid7.com/llNMx000lhYM0T2440Q0E0K>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Events <http://info.rapid7.com/o02DQ00wl00hMK04YTN4Ml0>
+
+Community <http://info.rapid7.com/llNMx000lhYM0T2440Q0E0K>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <http://info.rapid7.com/qhTK040Yly0Q4l02N0MF00M>
+
+ <http://info.rapid7.com/X4l0MzN0Q000Tl4YM02hKG0>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customer Stories <http://info.rapid7.com/qhTK040Yly0Q4l02N0MF00M>
+
+News <http://info.rapid7.com/X4l0MzN0Q000Tl4YM02hKG0>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=C2=A0
+Have a Great Summer with Rapid7's Roadtrip! =20
+
+
+Ride shotgun with our Rapid7 experts this summer while we make some pit sto=
+ps to talk groundbreaking research, best practices on vulnerability managem=
+ent, application security testing techniques, powering incident detection w=
+ith UBA, certifying your pen testing, and who knows what else.=20
+
+Here's what can be found along Rapid7's Security Roadtrip:=20
+
+
+ - Preventing Attacks - Reduce your risk with our expertise and resources i=
+n vulnerability management and application security.
+ - Detecting Attacks - Get from compromise to containment, FAST, with these=
+ resources focused on Incident Detection and Response.
+ - Compliance - Ever feel like ever-changing compliance standards and regul=
+ations are slowing you down? Check out these compliance resources
+ - Breaking Research - We=E2=80=99re focusing on the security challenges fa=
+cing humanity today and shining a light on the internet and its many associ=
+ated technologies to better understand their shortcomings, weaknesses, and =
+vulnerabilities.
+
+
+Check out the Roadtrip resources <http://info.rapid7.com/m000Qb2040M4hlMYNl=
+i0KT0>
+United Security Summit 2016 <http://info.rapid7.com/s0Hl0lh0YNQA0K0M4M2040T=
+>
+
+
+REGISTER HERE <http://info.rapid7.com/s0Hl0lh0YNQA0K0M4M2040T>
+
+
+The agenda for United 2016 in Boston on 2-3 November is packed with talks f=
+rom security experts in keynotes and across the breakout sessions for this =
+year's three content tracks: Incident Detection & Response, Threat Exposure=
+ Management and Research
+Rapid7's Security Nation Podcasts
+
+Host Kyle Flaherty (@KyleFlaherty <http://info.rapid7.com/v04Y0Qlk04lTKMdhN=
+02M000>) has been knee-deep in the security sector for nearly two decades. =
+At Rapid7 he leads a team of technical marketers with the mission of provid=
+ing impactful content that helps security professionals do their jobs.
+
+Check out our latest podcast:
+Episode 5: Security is a Global Concern
+
+In this episode Kyle speaks with Rapid7's long term security pro and Intern=
+ational Marketing Manager, Tom Rogers about InfoSec Europe, the feeling sur=
+rounding the GDPR and the Ransomware FUD debate internationally
+
+While discussing the feeling surrounding the GDPR, Tom explained, "It's not=
+ just tech that's affected. There are also mandatory data breach notices & =
+roles required around risk and compliance."=C2=A0
+Listen Now <http://info.rapid7.com/LM42TN00h0ll0KeYM0l040Q>
+Upcoming Events
+Find us at=C2=A0the following events over the next few months:
+
+
+
+=09- 1-2 Sep: Intalock Summit 2016, Gold Coast, Australia  <http://info.rap=
+id7.com/n0KM0mf02MQl0TN0Yh004l4>
+=09- 10-12 Oct: Govware 2016, Singapore <http://info.rapid7.com/jMgN0h2lK00=
+4Y0MQT4n0l00>
+=09- 18-20 Oct: AISA National Conference 2016, Sydney, Australia  <http://i=
+nfo.rapid7.com/I0h0oKY0l4MhQ42M0l0NT00>
+
+
+
+
+
+
+
+Rapid7 Hands-on Tech Workshop
+
+
+Register now for our next season of workshops in September in these countri=
+es. These 2/12 day hands-on=C2=A0workshops=C2=A0provide you with the key ba=
+sics you need to know to effectively use our tools. Each workshop will cove=
+r Nexpose, Metasploit and AppSpider.
+
+Register now to save a seat:
+
+Jakarta, Indonesia 6-8 Sept 2016 <http://info.rapid7.com/MQ0T0M0YKl4h400il0=
+MN0p2>
+
+Manila, Philippines 13-15 Sept 2016 <http://info.rapid7.com/kK0jl0Q00lM02N4=
+MYh0q40T>
+Check out latest releases on the Rapid7 Community <http://info.rapid7.com/r=
+40r0T2l0NklYQKhM00M040>
+
+
+Find all the latest hot fixes, version releases and updates on the Communit=
+y
+Read more. <http://info.rapid7.com/r40r0T2l0NklYQKhM00M040>
+Are you a customer and want to share feedback and get more involved with th=
+e Rapid7 community?
+=20
+=20
+
+
+
+LET US KNOW <http://info.rapid7.com/gs0Y4Ql0M20hNT04K000llM>
+Free Product Trials and Demos:
+
+
+
+Download Metasploit <http://info.rapid7.com/wNYTQ44Kl0000Mhm00M2t0l>
+
+Download Nexpose <http://info.rapid7.com/Y044l0nQM00MY002lNK0uTh>
+
+Download AppSpider <http://info.rapid7.com/v04Y0Qlv04lTKMohN02M000>
+
+Demo of InsightIDR <http://info.rapid7.com/DKw400p0TNY00l0hlQ2M04M>
+
+Demo of InsightUBA <http://info.rapid7.com/Q0lT0YN0Kx2lM0Qh400q4M0>
+
+If you no longer wish to receive these emails or wish to update your email =
+preferences: https://information.rapid7.com/preference-center-page.html?mkt=
+_unsubscribe=3D1&mkt_tok=3DeyJpIjoiTURFeU1UWTNOMkV5TkRVMSIsInQiOiJYREVpSEV2=
+VEYzT2tvc2NqYWRTMkx3WWZCNmNmVjBOalBVUE9oVVcxaTlEUzFXTkNrK3lydEV4TFJwK0ltRGh=
+rdTJpT3FYRjJPR3k3aklkRmNaV2M4a09vQUVmMWk2eG5zdk5RUTVyUDEvcz0ifQ%3D%3D.
+
+------=_Part_1878986962_697309201.1471406023941
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+
+<style type=3D"text/css">
+
+                /* Some resets and issue fixes */
+        #outlook a { padding:0; }
+                body{ width:100% !important; -webkit-text; size-adjust:100%=
+; -ms-text-size-adjust:100%; margin:0; padding:0; }    =20
+        .ReadMsgBody { width: 100%; }
+        .ExternalClass {width:100%;}=20
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;}=
+=20
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}  =20
+        /* End reset */
+               =20
+                /* Custom */
+                body,table,td,span,a,ul,li {font-family: Arial, sans-serif =
+!important;}
+                .forcefont {font-family: Arial, sans-serif !important;}
+                .appleLinksWhite {color: #ffffff !important; text-decoratio=
+n: none;}=20
+                .appleLinksBlack {color: #000000 !important; text-decoratio=
+n: none;}
+                .appleLinksOrange {color: #ec5f27 !important; text-decorati=
+on: none;}
+                table,div {margin-top: -1px;} /* Gets rid of 1px space betw=
+een tables and divs */
+               =20
+                /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 630px){
+               =20
+
+                        /* Display block allows us to stack elements */    =
+                 =20
+            *[class=3D"mobile-column"] {display: block;}=20
+                       =20
+                        /* Some more stacking elements */
+            *[class=3D"mob-column"] {float: none !important;width: 100% !im=
+portant;}    =20
+                            =20
+                        /* Hide stuff */
+            *[class=3D"hide"] {display:none !important;}         =20
+           =20
+                        /* This sets elements to 100% width and fixes the h=
+eight issues too, a god send */
+                        *[class=3D"100p"] {width:100% !important; height:au=
+to !important;}                               =20
+                               =20
+                        /* For the 2x2 stack */                =20
+                        *[class=3D"condensed"] {padding-bottom:40px !import=
+ant; display: block;}
+                       =20
+                        /* Centers content on mobile */
+                        *[class=3D"center"] {text-align:center !important; =
+width:100% !important; height:auto !important;}           =20
+                       =20
+                        /* 100percent width section with 20px padding */
+                        *[class=3D"100pad"] {width:100% !important; padding=
+:20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding left =
+& right */
+                        *[class=3D"100padleftright"] {width:100% !important=
+; padding:0 20px 0 20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding top &=
+ bottom */
+                        *[class=3D"100padtopbottom"] {width:100% !important=
+; padding:20px 0px 20px 0px;}=20
+               =20
+        }      =20
+       =20
+</style>
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0; padding:0; " wid=
+th=3D"100%" ><tr ><td align=3D"center" valign=3D"top" ><table width=3D"640"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"hide">
+<tr>
+<td align=3D"center">
+<p style=3D"color:#757575; font-size:8px;">Keep up to date with all the lat=
+est news and information from Rapid7 | If you cannot read this email <a hre=
+f=3D"https://information.rapid7.com/index.php/email/emailWebview?mkt_tok=3D=
+eyJpIjoiTURFeU1UWTNOMkV5TkRVMSIsInQiOiJYREVpSEV2VEYzT2tvc2NqYWRTMkx3WWZCNmN=
+mVjBOalBVUE9oVVcxaTlEUzFXTkNrK3lydEV4TFJwK0ltRGhrdTJpT3FYRjJPR3k3aklkRmNaV2=
+M4a09vQUVmMWk2eG5zdk5RUTVyUDEvcz0ifQ%3D%3D">Click here</a></p>
+</td>
+</tr>
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"Header2Links" class=3D"mktEditable" ><table width=3D"640" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"20" class=3D"100p" bgcolor=3D"#3B3B=
+3B">
+<tr>
+<td valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td align=3D"left" width=3D"50%" class=3D"100p"><a href=3D
+"http://info.rapid7.com/UM3M04T0lN0K4l02hQ000aY"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" alt=3D"Rapid7" border=3D"0" style=3D"display:blo=
+ck"></a></td>
+<td width=3D"50%" class=3D"hide" align=3D"right" style=3D"font-size:16px; c=
+olor:#FFFFFF;"><a href=3D
+"http://info.rapid7.com/GhN0Tl20Y44bK04l0000MQM" style=3D"color:#FFFFFF; te=
+xt-decoration:none;"
+>Contact Us</a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; <a href=3D
+"http://info.rapid7.com/eQ0YcT02000NKl0M4h5lM04" style=3D"color:#FFFFFF; te=
+xt-decoration:none;"
+>Free Tools</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id=3D"IntroHeadline" class=3D"mktEditable" ><table class=3D"100p" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3=
+B3B">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 24px;" align=3D"center"><span style=
+=3D"font-size: 44px;">Security Newsletter</span></td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"OrangeContent-Button" class=3D"mktEditable" ><table class=3D"100=
+p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=
+=3D"#EC5F27">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #ffffff;" align=3D"center">
+<p style=3D"font-size: 16px;"><strong><span style=3D"font-size: 24px;">"<a =
+style=3D"text-decoration: none; color: #ffffff;" href=3D
+"http://info.rapid7.com/T6QKl0M0h000YNd20l4M4T0"
+>No trip to the SPA - Securing Single Page Application" Webcast:</a></span>=
+</strong></p>
+<p style=3D"font-size: 16px;"><span style=3D"font-size: 24px;"><span><span>=
+Join this webcast to learn how to security test each of the following appli=
+cation layers of a SPA</span></span></span></p>
+<p><span style=3D"font-size: 24px;">Thurs 25th Aug @11am SGT | 1pm AEST</sp=
+an></p>
+<table style=3D"border: 2px solid #FFFFFF;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"10">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 16px;" align=3D"center"><a style=3D=
+"text-decoration: none; color: #ffffff;" href=3D
+"http://info.rapid7.com/T6QKl0M0h000YNd20l4M4T0"
+>REGISTER NOW</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"SecurityResourcesProspect" class=3D"mktEditable" ><table class=
+=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" b=
+gcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 24px; color: #3598d3;" align=3D"center"><span>Secur=
+ity Resources</span></td>
+</tr>
+</tbody>
+</table>
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" wid=
+th=3D"640" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top">
+<table class=3D"100padtopbottom" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600">
+<tbody>
+<tr>
+<td class=3D"condensed" align=3D"left" valign=3D"top">
+<table class=3D"mob-column" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"290" align=3D"left">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"100padleftright" align=3D"center" valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"135" align=3D"center"><a href=3D
+"http://info.rapid7.com/z0MY24l0004NQelhKM70T00"
+><img style=3D"display: block;" src=3D"https://information.rapid7.com/rs/49=
+5-KNT-277/images/events-icon-50px-3-18-16.png" border=3D"0" alt=3D""></a></=
+td>
+<td width=3D"20"></td>
+<td width=3D"135" align=3D"center"><a href=3D
+"http://info.rapid7.com/MQ0T0M0YKl4h4008l0MN0f2"
+><img style=3D"display: block;" src=3D"https://information.rapid7.com/rs/49=
+5-KNT-277/images/community-icon-50px-3-18-16.png" border=3D"0" alt=3D""></a=
+></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"10"></td>
+</tr>
+<tr>
+<td class=3D"100padleftright" align=3D"center" valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #3598d3;" width=3D"135" align=3D"cente=
+r" valign=3D"top"><a style=3D"color: #3598d3; text-decoration: none;" href=
+=3D
+"http://info.rapid7.com/z0MY24l0004NQelhKM70T00"
+>Events</a></td>
+<td width=3D"20"></td>
+<td style=3D"font-size: 16px; color: #3598d3;" width=3D"135" align=3D"cente=
+r" valign=3D"top"><a style=3D"color: #3598d3; text-decoration: none;" href=
+=3D
+"http://info.rapid7.com/MQ0T0M0YKl4h4008l0MN0f2"
+>Community</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class=3D"hide" width=3D"20"></td>
+<td class=3D"condensed" align=3D"left" valign=3D"top">
+<table class=3D"mob-column" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" width=3D"290" align=3D"left">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"100padleftright" align=3D"center" valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"135" align=3D"center"><a href=3D
+"http://info.rapid7.com/R00l4YhNM40020M0KgTl9Q0"
+><img style=3D"display: block;" src=3D"https://information.rapid7.com/rs/49=
+5-KNT-277/images/customer-stories-icon-50px-3-18-16.png" border=3D"0" alt=
+=3D""></a></td>
+<td width=3D"20"></td>
+<td width=3D"135" align=3D"center"><a href=3D
+"http://info.rapid7.com/b00004NllKh0TMha020MY4Q"
+><img style=3D"display: block;" src=3D"https://information.rapid7.com/rs/49=
+5-KNT-277/images/news-icon-50px-3-18-16.png" border=3D"0" alt=3D""></a></td=
+>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"10"></td>
+</tr>
+<tr>
+<td class=3D"100padleftright" align=3D"center" valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #3598d3;" width=3D"135" align=3D"cente=
+r" valign=3D"top"><a style=3D"color: #3598d3; text-decoration: none;" href=
+=3D
+"http://info.rapid7.com/R00l4YhNM40020M0KgTl9Q0"
+>Customer Stories</a></td>
+<td width=3D"20"></td>
+<td style=3D"font-size: 16px; color: #3598d3;" width=3D"135" align=3D"cente=
+r" valign=3D"top"><a style=3D"color: #3598d3; text-decoration: none;" href=
+=3D
+"http://info.rapid7.com/b00004NllKh0TMha020MY4Q"
+><span style=3D"font-family: Roboto, Arial, sans-serif;">News</span></a></t=
+d>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"640" height=3D"2" bgcolor=3D"#3598D3">
+<tbody>
+<tr>
+<td width=3D"20" bgcolor=3D"#FFFFFF"></td>
+<td style=3D"line-height: 2px; font-size: 2px;" height=3D"2" align=3D"cente=
+r">&nbsp;</td>
+<td width=3D"20" bgcolor=3D"#FFFFFF"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id=3D"CenteredContentBlockWebcast" class=3D"mktEditable" ><table class=
+=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" b=
+gcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 15px; color: #848484;" align=3D"center">
+<p style=3D"color: #848484; font-size: 15px; text-align: left;"><span style=
+=3D"font-size: 36px;"><strong><span style=3D"color: #b4208d;"><span style=
+=3D"color: #ea5709;">Have a Great Summer with Rapid7's Roadtrip!</span>&nbs=
+p;</span></strong><strong style=3D"font-size: 26px;"><span style=3D"color: =
+#ea5709;">&nbsp;</span></strong></span></p>
+<div style=3D"text-align: left;">
+<p><span>Ride shotgun with our Rapid7 experts this summer while we make som=
+e pit stops to talk groundbreaking research, best practices on vulnerabilit=
+y management, application security testing techniques, powering incident de=
+tection with UBA, certifying your pen testing, and who knows what else.</sp=
+an>&nbsp;</p>
+<p><strong><span style=3D"color: #ea5709;">Here's what can be found along R=
+apid7's Security Roadtrip:</span>&nbsp;</strong></p>
+<ul>
+<li><strong>Preventing Attacks</strong> -&nbsp;<span>Reduce your risk with =
+our expertise and resources in vulnerability management and application sec=
+urity.</span></li>
+<li><strong>Detecting Attacks</strong> -&nbsp;<span>Get from compromise to =
+containment, FAST, with these resources focused on Incident Detection and R=
+esponse.</span></li>
+<li><strong>Compliance</strong> -&nbsp;<span>Ever feel like ever-changing c=
+ompliance standards and regulations are slowing you down? Check out these c=
+ompliance resources</span></li>
+<li><strong>Breaking Research</strong> -&nbsp;<span>We&rsquo;re focusing on=
+ the security challenges facing humanity today and shining a light on the i=
+nternet and its many associated technologies to better understand their sho=
+rtcomings, weaknesses, and vulnerabilities.</span></li>
+</ul>
+<span><strong style=3D"text-decoration: none; color: #ea5709;"><a href=3D
+"http://info.rapid7.com/m000Qb2040M4hlMYNli0KT0"
+>Check out the Roadtrip resources</a></strong></span></div>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"WhiteBackground-Button-webcast" class=3D"mktEditable" ></div>
+<div id=3D"CenteredContentBlockUNITED" class=3D"mktEditable" ><table class=
+=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" b=
+gcolor=3D"#3B3B3B">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #fffff;" align=3D"center">
+<div style=3D"font-size: 16px;"><span style=3D"font-size: 24px;"><strong><s=
+pan style=3D"color: #ea5709;"><a style=3D"text-decoration: none; color: #ea=
+5709;" href=3D
+"http://info.rapid7.com/llNMc000lhYM0T2440Q0j0K"
+>United Security Summit 2016</a></span></strong></span></div>
+<div style=3D"font-size: 16px;"><span style=3D"font-size: 24px;"><strong><s=
+pan style=3D"color: #ea5709;"><br /></span></strong></span></div>
+<div style=3D"text-align: center;"><span style=3D"color: #ea5709;"><a style=
+=3D"text-decoration: none; color: #ea5709;" href=3D
+"http://info.rapid7.com/llNMc000lhYM0T2440Q0j0K"
+>REGISTER HERE</a></span></div>
+<div style=3D"text-align: left;"><span style=3D"color: #ffffff;"><span styl=
+e=3D"font-size: 22px;"><strong><br /></strong></span></span></div>
+<span style=3D"font-size: 20px;"><span style=3D"color: #ffffff;">The agenda=
+ for United 2016 in Boston on 2-3 November is packed with talks from securi=
+ty experts in keynotes and across the breakout sessions for this year's thr=
+ee content tracks: Incident Detection &amp; Response, Threat Exposure Manag=
+ement and Research</span></span></td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"CenteredContentBlock" class=3D"mktEditable" ><table class=3D"100=
+p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=
+=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #848484;" align=3D"center">
+<h3><span style=3D"font-size: 24px; color: #3598d3;">Rapid7's Security Nati=
+on Podcasts</span></h3>
+<p><span><span>Host Kyle Flaherty (</span><a href=3D
+"http://info.rapid7.com/v04Y0Qlk04lTKMdhN02M000" target=3D"_blank"
+>@KyleFlaherty</a><span>) has been knee-deep in the security sector for nea=
+rly two decades. At Rapid7 he leads a team of technical marketers with the =
+mission of providing impactful content that helps security professionals do=
+ their jobs.</span></span></p>
+<p>Check out our latest podcast:</p>
+<h3><span style=3D"font-size: 24px; color: #3598d3;">Episode 5: Security is=
+ a Global Concern</span></h3>
+<p><span><span>In this episode Kyle speaks with Rapid7's long term security=
+ pro and International Marketing Manager, Tom Rogers about InfoSec Europe, =
+the feeling surrounding the GDPR and the Ransomware FUD debate internationa=
+lly</span></span></p>
+<p>While discussing the feeling surrounding the GDPR, Tom explained, "It's =
+not just tech that's affected. There are also mandatory data breach notices=
+ &amp; roles required around risk and compliance."&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"WhiteBackground-Button" class=3D"mktEditable" ><table class=3D"1=
+00p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolo=
+r=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #ffffff;" align=3D"center">
+<table style=3D"border: 2px solid #3598d3;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"10" bgcolor=3D"#3598d3">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 16px;" align=3D"center"><strong><a =
+style=3D"text-decoration: none; color: #ffffff;" href=3D
+"http://info.rapid7.com/LM42TN00h0ll0KeYM0l040Q"
+>Listen Now</a></strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"ContentBlock" class=3D"mktEditable" ><table class=3D"100p" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3b3b=
+3b">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #ffffff;" align=3D"left">
+<p style=3D"color: #ffffff; font-size: 16px;"><span style=3D"font-size: 24p=
+x; color: #ea5709;"><strong>Upcoming Events</strong></span></p>
+<p style=3D"color: #ffffff; font-size: 16px;"><span style=3D"font-size: 20p=
+x; color: #ea5709;"><span style=3D"font-size: 16px; color: #ffffff;">Find u=
+s at&nbsp;the following events over the next few months:</span><strong><br =
+/></strong></span></p>
+<ul style=3D"color: #ffffff; font-size: 16px;">
+<li><span style=3D"font-size: 16px;"><a style=3D"color: #ea5709; text-decor=
+ation: none;" href=3D
+"http://info.rapid7.com/n0KM0mf02MQl0TN0Yh004l4"
+>1-2 Sep: Intalock Summit 2016, Gold Coast, Australia </a></span></li>
+<li><span style=3D"font-size: 16px;"><a style=3D"color: #ea5709; text-decor=
+ation: none;" href=3D
+"http://info.rapid7.com/jMgN0h2lK004Y0MQT4n0l00"
+>10-12 Oct: Govware 2016, Singapore</a></span></li>
+<li><span style=3D"font-size: 16px;"><a style=3D"color: #ea5709; text-decor=
+ation: none;" href=3D
+"http://info.rapid7.com/I0h0oKY0l4MhQ42M0l0NT00"
+>18-20 Oct: AISA National Conference 2016, Sydney, Australia </a></span></l=
+i>
+</ul>
+</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #ea5709;" align=3D"left"><strong><span=
+ style=3D"font-size: 24px;"><a style=3D"color: #ea5709;">Rapid7 Hands-on Te=
+ch Workshop</a></span></strong><br />
+<p><span style=3D"color: #ffffff;">Register now for our next season of work=
+shops in September in these countries. These 2/12 day hands-on&nbsp;worksho=
+ps&nbsp;provide you with the key basics you need to know to effectively use=
+ our tools. Each workshop will cover Nexpose, Metasploit and AppSpider.</sp=
+an></p>
+<p><span style=3D"color: #ffffff;">Register now to save a seat:</span></p>
+<p><span style=3D"font-size: 16px;"><a style=3D"color: #ea5709; text-decora=
+tion: none;" href=3D
+"http://info.rapid7.com/MQ0T0M0YKl4h400il0MN0p2"
+>Jakarta, Indonesia 6-8 Sept 2016</a></span></p>
+<p><span style=3D"font-size: 16px;"><a style=3D"color: #ea5709; text-decora=
+tion: none;" href=3D
+"http://info.rapid7.com/kK0jl0Q00lM02N4MYh0q40T"
+>Manila, Philippines 13-15 Sept 2016</a></span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"ContentBlock-2" class=3D"mktEditable" ><table class=3D"100p" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#35=
+98D3">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #ffffff;" align=3D"left"><span style=
+=3D"font-size: 24px;"><a style=3D"color: #fab415; text-decoration: none;" h=
+ref=3D
+"http://info.rapid7.com/r40r0T2l0NklYQKhM00M040"
+><span style=3D"color: #fab415;">Check out latest releases on the Rapid7 Co=
+mmunity</span></a></span><br />
+<p>Find all the latest hot fixes, version releases and updates on the Commu=
+nity</p>
+<span style=3D"font-size: 16px;"><a style=3D"color: #fab415; text-decoratio=
+n: none;" href=3D
+"http://info.rapid7.com/r40r0T2l0NklYQKhM00M040"
+><strong>Read more.</strong></a></span></td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"CenteredContentBlock-Image" class=3D"mktEditable" ></div>
+<div id=3D"PurpleContent-Button" class=3D"mktEditable" ><table class=3D"100=
+p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=
+=3D"#B4208D">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #ffffff;" align=3D"center"><span style=
+=3D"font-size: 24px;">Are you a customer and want to share feedback and get=
+ more involved with the Rapid7 community?</span><br /> <br />=20
+<table style=3D"border: 2px solid #FFFFFF;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"10">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 16px;" align=3D"center"><span style=
+=3D"font-family: Roboto, Arial, sans-serif;"><a style=3D"text-decoration: n=
+one; color: #ffffff;" href=3D
+"http://info.rapid7.com/gs0Y4Ql0M20hNT04K000llM"
+>LET US KNOW</a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"ProductLinks" class=3D"mktEditable" ><table width=3D"640" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"20" bgcolor=3D"#FFFFFF" class=3D"10=
+0p">
+<tr>
+<td align=3D"center" style=3D"font-size:16px; color:#ffffff;"><span style=
+=3D"font-size:24px; color:#3598d3;">Free Product Trials and Demos:</span><b=
+r>
+<br>
+<a style=3D"text-decoration: none; color:#ec5f27;" href=3D
+"http://info.rapid7.com/wNYTQ44Kl0000Mhm00M2t0l"
+>Download Metasploit</a><br>
+<a style=3D"text-decoration: none; color:#ec5f27;" href=3D
+"http://info.rapid7.com/Y044l0nQM00MY002lNK0uTh"
+>Download Nexpose</a><br>
+<a style=3D"text-decoration: none; color:#ec5f27;" href=3D
+"http://info.rapid7.com/v04Y0Qlv04lTKMohN02M000"
+>Download AppSpider</a><br>
+<a style=3D"text-decoration: none; color:#ec5f27;" href=3D
+"http://info.rapid7.com/DKw400p0TNY00l0hlQ2M04M"
+>Demo of InsightIDR</a><br>
+<a style=3D"text-decoration: none; color:#ec5f27;" href=3D
+"http://info.rapid7.com/Q0lT0YN0Kx2lM0Qh400q4M0"
+>Demo of InsightUBA</a></td>
+</tr>
+</table>
+</div>
+<!-- Stop Blocks Here /-->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" bgco=
+lor=3D"#3B3B3B" class=3D"100p">
+<tr>
+<td valign=3D"middle" align=3D"left" width=3D"50%" style=3D"font-size:14px;=
+ color:#ffffff;"><span>=C2=A9 2016 Rapid7, All Rights Reserved.</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">Boston, MA 02110-2131</span><br>
+<span><a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/Y044l0rQM00MY002lNK0yTh"
+>www.rapid7.com</a></span><br>
+<span>866-7-RAPID7</span></td>
+<td valign=3D"middle" align=3D"right" width=3D"50%" style=3D"font-size:14px=
+; color:#ffffff;"><span><a href=3D
+"http://info.rapid7.com/n0KM0zs02MQl0TN0Yh004l4"
+><img title=3D"Facebook" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-fb-2016-36px-white.png" border=3D"0" alt=3D"Facebook"></a>=
+<a href=3D
+"http://info.rapid7.com/DKA400t0TNY00l0hlQ2M04M"
+><img title=3D"Twitter" src=3D"https://information.rapid7.com/rs/495-KNT-27=
+7/images/social-tw-2016-36px-white.png" border=3D"0" alt=3D"Twitter"></a><a=
+ href=3D
+"http://info.rapid7.com/E040K0MuNBY0Q0MT2l04l0h"
+><img title=3D"LinkedIn" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-li-2016-36px-white.png" border=3D"0" alt=3D"LinkedIn"></a>=
+</span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/Y044l0rQM00MY002lNK0yTh"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" border=3D"0" alt=3D"Rapid7 Home Page"></a></span=
+></td>
+</tr>
+</table>
+<table width=3D"640" class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTIyNTM6=
+MTk0OTQ6Mzk3ODg6MDoxNDUxMjo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/K00M4KN00llI2B4YM0hQ0T0"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_1878986962_697309201.1471406023941--
+

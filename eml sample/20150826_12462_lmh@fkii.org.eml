@@ -1,0 +1,236 @@
+Received: (qmail 31373 invoked from network); 26 Aug 2015 07:27:35 -0000
+Received: from 10.114.29.98 (HELO crcvmailnw01.nm.naver.com) (10.114.29.98)
+  by cmda01.wmail.naver.com with SMTP; 26 Aug 2015 07:27:35 -0000
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmailnw01.nm.naver.com with ESMTP id 0LHWE2ZgR7CxQqRXZEuSqw
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 26 Aug 2015 07:27:35 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t7Q7H8H00FF4;
+	Wed, 26 Aug 2015 16:17:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t7Q7H8H00FF4
+X-SmartFilter: FROM,t7Q7H8H00FF4,joseph@duzon.com
+x-forward-id: 1440573933875_935649226
+recvDate: Wed, 26 Aug 2015 16:25:33 +0900
+x-newturns-hashkey: 6dc42dfc4321603188413ed43d2fa50811cc691de2a3847e9cd1774cb686dc70
+Received: from external ([209.85.217.169])
+	by smf.duzon.com (1.0) id t7Q7Giq00FDB;
+	Wed, 26 Aug 2015 16:16:45 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t7Q7Giq00FDB
+X-SmartFilter: FROM,t7Q7Giq00FDB,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by lbbtg9 with SMTP id tg9so115008502lbb.1
+        for <joseph@duzon.com>; Wed, 26 Aug 2015 00:27:06 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:subject:to
+         :from:reply-to:errors-to:mime-version:date:message-id:importance
+         :organization:content-type:content-transfer-encoding;
+        bh=OGeYIFfsqZi+k1AxCnqOgVC2CxqmDfQz1DV27OlPrWw=;
+        b=YhIBz8M2RS9qAezRJGYA17Tm/QTpjtRS6yYw0ogqcYTpa8VEQuqAFWuEtwdvdFH2fQ
+         niyJ0rCRS44H6ooU6ozJMMhqGi9ATXBZZ19a5wueIGDZz8EqDkWZHlPF57Y0K3GwWMJr
+         OJDaQSkGtrRu675Lfiyjx/MR7av9e0eeWeNoQ38Gl8KgjQZ1q7BPEfFkxVKA6LpldHic
+         rutsOLvaI4Ot8oKGMRcxthRRSR7vUm9jflGD4qFJyFrRIlPQDRdzj5GLlJSzDbqDcRp9
+         3xzYBzNyh6jaP03jKo+YKQ4za5cY6jKIEbZGbcoY4rkwuTwZo/HDMVTrbWw9GBfiV4fq
+         rThg==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Received: by 10.152.6.73 with SMTP id y9mr23891604lay.45.1440574026043;
+        Wed, 26 Aug 2015 00:27:06 -0700 (PDT)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com, hoyong_kim@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com, hoyong_kim@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.182.65 with SMTP id ec1csp2160996ldc;
+        Wed, 26 Aug 2015 00:27:04 -0700 (PDT)
+X-Received: by 10.50.117.70 with SMTP id kc6mr8681545igb.6.1440574024105;
+        Wed, 26 Aug 2015 00:27:04 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id e5si37199509pds.29.2015.08.26.00.27.02
+        for <forensic.duzon@gmail.com>;
+        Wed, 26 Aug 2015 00:27:04 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t7Q7GaW00FC7;
+	Wed, 26 Aug 2015 16:16:36 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t7Q7GaW00FC7
+X-SmartFilter: FROM,t7Q7GaW00FC7,forensic@duzon.com
+x-forward-id: 1440573904811_2433444502
+recvDate: Wed, 26 Aug 2015 16:25:04 +0900
+x-newturns-hashkey: 000ff16e91bd152b16c97dbb7b1536184d78733479e0630468cbc16fefd0ad62
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id t7Q7G6t00FA2;
+	Wed, 26 Aug 2015 16:16:06 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t7Q7G6t00FA2
+X-SmartFilter: FROM,t7Q7G6t00FA2,user24773@sendd.ozmailer.com
+Subject: =?EUC-KR?B?KMfRsbnBpLq4u+q+97+sx9XIuCkgQ0lPIL7GxKu1pbnMIMGmIDI5seIguPDB/SDAzw==?=
+	=?EUC-KR?B?waQ=?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?Q0lPIL7GxKu1pbnMILGzwLAgtOO058Da?=" <lmh@fkii.org>
+Reply-To: <lmh@fkii.org>
+Errors-To: <lmh@fkii.org>
+MIME-Version: 1.0
+Date: Wed, 26 Aug 2015 16:26:28 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1847500@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: +/eYpB3G1H+YbXFCbHmRKAbZFqK9jJ+Y
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=6603632" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Mail</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+
+		<!--OZ_AttachStart-->
+		<div style='padding-top:5px; padding-bottom:5px;' align='right'>
+		<table cellspacing=0 cellpadding=0 style='border:#DEDFDE 3px solid;'>
+		<tr>
+			<td width=137><img src='http://www.ozmailer.com/mail/good_template/image/nt_img_fileattach.gif' border=0 style='display:block;'></td>
+			<td width='413' valign='top' >
+				<div style='padding:8px;'>
+					<table width='100%' valign='top' cellspacing=0 cellpadding=0><tr><td width='50%' align='left'> <B>+</B> <a href='http://www.ozmailer.com/oele/downLoad.php?fileNo=1364260&mail_no=6603632&email=forensic@duzon.com' target='blank'> <span style='font-family:Gulim; font-size:12px; color:#000000; text-decoration:none; font-weight:normal; line-height:2;'>CIO아카데미 제29...(730.1 KB)</span></a></td>
+				</table>
+			</div>
+			</td>
+		</tr>
+		</table>
+		</div>
+		<!--OZ_AttachEnd--><title>CIO아카데미 제29기 과정 안내</title>
+
+
+
+  <table>
+	<tbody><tr><td width="600">
+		<img width="600" src="http://www.fkii.org/upload/imgs/2015/20150817/CIOAcademy29th_edm_top.jpg" border="0">
+		<img width="600" src="http://www.fkii.org/upload/imgs/2015/20150817/CIOAcademy29th_edm_main1.jpg" border="0" usemap="#Map2">
+
+			<map name="Map2" id="Map2">
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=pmbsw_3xje8_1ixkra" shape="rect" coords="434,1,574,30">
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=pmbtd_3xje8_1ixkra" shape="rect" coords="124,217,427,232" target="_blank">
+      </map>
+	  
+		<img width="600" src="http://www.fkii.org/upload/imgs/2015/20150817/CIOAcademy29th_edm_main2.jpg" border="0" usemap="#Map3">
+			<map name="Map3" id="Map3">
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=pmbtu_3xje8_1ixkra" shape="rect" coords="63,30,554,633" target="_blank">
+      </map>
+			
+		<img width="600" src="http://www.fkii.org/upload/imgs/2015/20150817/CIOAcademy29th_edm_main3.jpg" border="0" usemap="#Map4">
+			<map name="Map4" id="Map4">
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=pmbub_3xje8_1ixkra" shape="rect" coords="77,64,337,82" target="_blank">
+ 			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=pmbus_3xje8_1ixkra" shape="rect" coords="335,175,457,195" target="_blank">
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=pmbv9_3xje8_1ixkra" shape="rect" coords="218,673,384,716" target="_blank">
+      </map>
+			
+	   <img width="600" src="http://www.fkii.org/upload/imgs/2015/20150817/CIOAcademy29th_edm_bottom.jpg" border="0" usemap="#Map5">
+	   		<map name="Map5" id="Map5">
+			  
+
+
+<area href="mailto:rolee@fkii.org" shape="rect" coords="65,57,513,73" target="_blank">
+ 			  
+
+
+<area href="mailto:lmh@fkii.org" shape="rect" coords="69,78,506,94" target="_blank">
+      </map>	 </td>
+  </tr></tbody></table><p><br></p>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 한국정보산업연합회 행사나 교육에 참가하신 분들 대상으로 발송되었습니다.본 메일은 발신전용입니다. 수신거부를 원하시는 경우 &lt;메일&gt;를 회신하여 주시기 바랍니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=6603632' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

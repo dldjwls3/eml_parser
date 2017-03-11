@@ -1,0 +1,1040 @@
+Received: (qmail 14137 invoked from network); 14 Nov 2014 19:07:50 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda01.wmail.naver.com with SMTP; 14 Nov 2014 19:07:50 -0000
+Received: from [202.167.215.64] ([202.167.215.64]) 
+          by crcvmail02.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1415992070.368976.4037016464.crcvmail02
+          for <jonghyun.kim@dforensic.com>; 
+          Sat, 15 Nov 2014 04:07:50 +0900 (KST) 
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id sAEJ1vp00F74;
+	Sat, 15 Nov 2014 04:01:57 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sAEJ1vp00F74
+X-SmartFilter: FROM,sAEJ1vp00F74,joseph@duzon.com
+x-forward-id: 1415992032214_935649226
+recvDate: Sat, 15 Nov 2014 04:07:12 +0900
+x-newturns-hashkey: d6c1199a7a834f28b32d25814e98e090b41907274cbb2f73f0b72071cf50845a
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id sAEJ1mn00F72;
+	Sat, 15 Nov 2014 04:01:50 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sAEJ1mn00F72
+X-SmartFilter: FROM,sAEJ1mn00F72,495-KNT-277.0.10233.0.0.6663.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6NTkxMDoxMDIzMzoyMDk2MTowOjY2NjM6NzoxMTQxNTky
+Received: from [10.0.8.1] ([10.0.8.1:37120] helo=sjmas02.marketo.org)
+	by sjmta03.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.4.44580 r(Platform:3.6.4.1)) with ESMTP
+	id 19/04-16380-FD256645; Fri, 14 Nov 2014 13:07:11 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1415992031;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=0jYkH+inxABVFiGGt9hHD/ZQDNrTvBe76bO54qjw27I=;
+	b=RZM4iLskTVRePdMkRHIfC0EAKrGnLXnjGHZy/gc/yUN2CPZFsqfcRiQZOuFmDQ7C
+	bWPkxbioKw+5yXe0usVkoWn2n9v8rAneIK3VTtFw3od1yHU2vPgkcwRG+u1mXPcocay
+	vwCyn334ve3vPDfPYvmVw4BL46omSqnP6BBIeBZE=
+Date: Fri, 14 Nov 2014 13:07:11 -0600 (CST)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1160598792.1083707464.1415992031785.JavaMail.root@sjmas02.marketo.org>
+Subject: Rapid7 Security Newsletter - November 2014
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1083707463_1039767355.1415992031785"
+X-Report-Abuse: Please report abuse here: http://www.marketo.com/policy
+X-PVIQ: 000326-001349-000001-000000-012592
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:5910:10233:20961:0:6663:7:1141592
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.10233.6663.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.10233.0.0.6663.7.1141592@em-sj-77.mktomail.com
+X-MktMailDKIM: true
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +X+YpB3G1Hbwa0ixyueaKAE5KxuGjV9YKxvmFqEmjJ+Y
+
+------=_Part_1083707463_1039767355.1415992031785
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To view this email as a web page, go to the following address: https://info=
+rmation.rapid7.com/index.php/email/emailWebview?mkt_tok=3D3RkMMJWWfF9wsRonu=
+67Kce%2FhmjTEU5z16u0pWKK%2FgIkz2EFye%2BLIHETpodcMSsRkNq%2BTFAwTG5toziV8R7TM=
+Kc1r1MEQWRbl
+
+<http://www.rapid7.com/>
+
+
+
+
+
+
+PRODUCTS <http://www.rapid7.com/products/index.jsp>     SOLUTIONS <http://w=
+ww.rapid7.com/solutions/index.jsp>     SERVICES <http://www.rapid7.com/serv=
+ices/index.jsp>   =20
+
+
+
+
+
+
+
+
+
+
+
+Webcasts
+
+
+
+
+
+
+
+
+
+[UPCOMING] PCI DSS 3.0 Are You Ready for January? <https://information.rapi=
+d7.com/pci-ready-for-january-webcast.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+Date/Time: Thursday, November 20th @ 2PM ET/11AM PT
+Speakers: Derek Kolakowski, Sr. Manager of Perimeter Security Services, Rap=
+id7; Brian Tant, Professional Services Consultant, Rapid7
+
+
+It=E2=80=99s the last leg of the race =E2=80=93 all organizations subject t=
+o PCI DSS requirements need to be fully compliant with the 3.0 standards by=
+ January 1, 2015*, just over 1 month from now! Now=E2=80=99s the time to ma=
+ke sure your=20
+organization is going to be PCI 3.0 compliant and prepared for your audit w=
+hen the time comes.
+
+Register to join our PCI experts <https://information.rapid7.com/pci-ready-=
+for-january-webcast.html?CS=3Dnewsletter> as they discuss:
+
+
+ - Final steps you should be taking as the January 1st deadline approaches
+ - A high-level targeted review of changes between the 2.0 and 3.0 standard=
+s=20
+ - Checking your work! - How to validate your efforts to make sure they=E2=
+=80=99re audit-ready
+ - Stories from the PCI compliance trenches
+
+
+
+*With a few exceptions that take effect June 30, 2015.
+
+In the meantime, check out our PCI 3.0 Compliance Resource and Services pag=
+e <http://www.rapid7.com/resources/pci.jsp?CS=3Dnewsletter>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save your spot now! <https://information.rapid7.com/pci-ready-for-january-w=
+ebcast.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[On Demand] Detecting Risky Activity 'Wherever' Before it Becomes a Problem=
+ <https://information.rapid7.com/detecting-risky-activity-wherever.html?CS=
+=3Dnewsletter>
+
+
+
+
+
+
+
+
+Watch this on-demand webcast now to learn about how Rapid7 UserInsight:
+
+
+ - Enables detection and investigation of real-world attempts to compromise=
+ your user's credentials=20
+ - Detects access violations, breaches, account compromises - and follows t=
+hem through your network
+ - Defines and highlights risky user behavior on your network
+ - Allows for detection and investigation across on-premise, cloud, and mob=
+ile environments
+ - Provides easy use, speedy detection and investigation, and simple report=
+ing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View Now! <https://information.rapid7.com/detecting-risky-activity-wherever=
+...html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[On Demand] When Every Minute Counts: Accelerating Incident Investigations =
+<https://information.rapid7.com/accelerating-incident-investigations-webcas=
+t.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+Watch this on-demand webcast for incident responders to learn about:
+
+
+ - Closing the gap between attackers and incident responders
+ - Getting context of a security incident faster to see the full picture
+ - Accessing data on user behavior and assets quickly, even for activity th=
+at was months ago
+ - Efficiently mapping an attack timeline to share with your team and execu=
+tives
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View Now! <https://information.rapid7.com/accelerating-incident-investigati=
+ons-webcast.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[On Demand] Cyber Security Awareness Panel: Taking it to the C-Level and Be=
+yond <https://information.rapid7.com/CyberSecurityAwarenessPanel.html?CS=3D=
+newsletter>
+
+
+
+
+
+
+
+
+Watch this on-demand webcast to learn about:
+
+
+ - Why security matters now
+ - Corporate liability and duty of care
+ - Building security into the corporate culture through policies and user e=
+ducation
+ - How organizations can make security into a strength and advantage
+ - Crisis communications and response
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View Now! <https://information.rapid7.com/CyberSecurityAwarenessPanel.html?=
+CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+News
+
+Last week, Home Depot released information <http://www.theregister.co.uk/20=
+14/11/07/home_depot_megabreach/> from the investigation into its highly pub=
+licized September breach. Hackers gained access to their network through in=
+effective password security at an unnamed third-party vendor system. This i=
+nitial access let the attackers gain a foothold that allowed them to achiev=
+e their objective of planting information-stealing malware on sales termina=
+ls. Third parties were also implicated in investigations of the high-profil=
+e breaches at Target and JP Morgan.
+
+Trey Ford, global security strategist at Rapid7, confirmed that there were =
+some lessons to be learned from Home Depot=E2=80=99s investigation: "Attack=
+ers were inside their organization for five months before detection. The at=
+tackers entered with stolen credentials, (and) they used a vendor=E2=80=99s=
+ username and password to log into Home Depot=E2=80=99s network.=E2=80=9D T=
+he attacker acted just as a systems administrator would once inside the net=
+work =E2=80=93 but they deployed specialized malware to point of sales=20
+systems. Organizations need to have plans in place to ensure their third-pa=
+rty vendors have strong security practices and to watch their networks clos=
+ely for this type of subtle attack.
+
+
+
+
+
+
+
+
+Community
+
+In a reflection of news headlines from the past few months, the community h=
+as been alight with discussion of compromised credentials and incident dete=
+ction and investigation. Two posts focused on the recent IDC infographic <h=
+ttp://www.rapid7.com/resources/infographics/rapid7-efficient-incident-detec=
+tion-investigation-saves-money.html> that was published on how credentials =
+are abused by cyber criminals. Some of the standout statistics were: 80% of=
+ companies will suffer at least one successful attack causing serious harm =
+that requires remediation, and 33% will not be able to prevent over half of=
+ the attacks. These numbers alone are staggering, but the infographic also =
+details the implications of those key statistics in terms of the enormous w=
+aste time and money these attacks are for affected companies.
+
+On average, companies have 185 security incidents a year, incurring a total=
+ cost of $1.3 million even if a company doesn=E2=80=99t have to disclose a =
+major breach. Further, 73% of attacks take weeks or months to remediate. Th=
+ese numbers are only the tip of the iceberg though =E2=80=93 check out the =
+first blog post and infographic <https://community.rapid7.com/community/use=
+rinsight/blog/2014/11/10/more-efficient-incident-detection-and-investigatio=
+n-saves-400000-per-year-says-idc> to dive deeper into these=20
+compromised credential and incident detection and investigation stats, and =
+the second to learn IDC=E2=80=99s recommendations on how to protect your=20
+organization.
+
+
+
+
+
+
+
+
+Security Alert
+ Patch Tuesday, November 2014 <https://community.rapid7.com/community/nexpo=
+se/blog/2014/11/13/patch-tuesday-november-2014>
+
+
+Patch Tuesday came in hot this month with 15 advisories, of which 4 are lis=
+ted as critical.  Hate to point it out, but this was originally advertised =
+as 16 with 5 critical, but the patch for MS14-068 apparently isn=E2=80=99t =
+ready for=20
+prime time yet.  Hopefully the decision to hold it back was based on both t=
+he testing and an assessment of risk.
+
+The top patching priority is definitely going to be MS14-064, which is unde=
+r active exploitation in the wild and may be related, at least superficiall=
+y, to last month=E2=80=99s Sandworm attack, which also worked through a vul=
+nerability in=20
+OLE.
+
+After MS14-064, attention belongs on MS14-065 and MS14-066 <https://communi=
+ty.rapid7.com/community/infosec/blog/2014/11/12/schannel-and-ms14-066-anoth=
+er-red-alert>, Internet Explorer and SChannel <https://community.rapid7.com=
+/community/infosec/blog/2014/11/13/whiteboard-wednesday-winshock-cve-2014-6=
+321--what-is-it-how-to-remediate-video> respectively.  The SChannel issue i=
+s risky, since there is a very good chance that this service  could be expo=
+sed or accessed via the perimeter.  The IE patches are cumulative, as usual=
+, and address 17 CVEs.
+
+Second most important are MS14-067 for MSXML, MS14-069   for Office, & MS14=
+-073 for Sharepoint which all have priority two for patching.
+
+The expected patch for MS14-075 (MS Exchange) was pulled at the last moment=
+...  We can only speculate that some negative interaction outweighing the ben=
+efit was discovered.
+
+Every supported version of Windows is impacted by the critical issues, with=
+ the minor exception of Server Core not having Internet Explorer exposure.
+
+Perimeter systems are often mission critical and need the fastest attention=
+s. Administrators will have to balance the risk of exploit with their perce=
+ived exposure and their tolerance for downtime.
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+
+
+
+FREE PRODUCT TRIALS
+
+
+ Download Metasploit <http://www.rapid7.com/products/metasploit/download.js=
+p>
+ Download UserInsight <http://www.rapid7.com/products/user-insight/user-ins=
+ight-trial.jsp>
+ Download Nexpose <http://www.rapid7.com/products/nexpose/compare-downloads=
+...jsp"><img style=3D>
+=20
+ Download ControlsInsight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONNECT WITH RAPID7
+
+
+ Join the Community
+ Subscribe to the=20
+Blog
+ Follow us on Twitter <https://twitter.com/Rapid>
+ Contact Us <mailto:info@rapid7.com"><img style=3D>
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+
+
+
+=C2=A9 2014 Rapid7, All Rights Reserved.
+ 100 Summer Street, 13th Floor
+ Boston, MA 02110-2131
+ www.rapid7.com <http://www.rapid7.com>
+ 866-7-RAPID7
+
+
+
+
+
+
+ <http://feeds2.feedburner.com/Rapid7"><img title=3D>  <https://twitter.com=
+/Rapid7>  <https://community.rapid7.com/welcome>  <mailto:info@rapid7.com">=
+<img title=3D>
+ <http://www.rapid7.com"><img src=3D>
+
+If you no longer wish to receive these emails, go to the following link to =
+unsubscribe: https://information.rapid7.com/UnsubscribePage.html?mkt_unsubs=
+cribe=3D1&mkt_tok=3D3RkMMJWWfF9wsRonu67Kce%2FhmjTEU5z16u0pWKK%2FgIkz2EFye%2=
+BLIHETpodcMSsRkNq%2BTFAwTG5toziV8R7TMKc1r1MEQWRbl.
+
+------=_Part_1083707463_1039767355.1415992031785
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Responsive Email Template</title>
+
+<style type="text/css">
+
+        .ReadMsgBody {width: 100%; background-color: #ffffff;}
+        .ExternalClass {width: 100%; background-color: #ffffff;}
+        body     {width: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased;font-family:
+'Trebuchet MS',Arial,Helvetica,sans-serif; font-size:14px; line-height:22px;}
+        h1 {font-size: 25px; color: #000000; padding: 0; margin:10px 0; line-height:34px; font-weight:normal;}
+        h2 {font-size: 20px; color: #ea5709; padding:0; margin:16px 0; font-weight:normal;}
+                .highlight {font-size: 16px; color: #333333;  font-weight:bold;}
+        a:link {color:#0197b8; text-decoration:none;}      /* unvisited link */
+        a:visited {color:#0197b8;text-decoration:none;}  /* visited link */
+        a:hover {color:#0197b8;text-decoration:none;}  /* mouse over link */
+        a:active {color:#0197b8;text-decoration:none;}  /* selected link */
+        
+        table {border-collapse: collapse;}
+        
+        @media only screen and (max-width: 640px)  {
+                                        body[yahoo] .deviceWidth {width:440px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+                        
+        @media only screen and (max-width: 479px) {
+                                        body[yahoo] .deviceWidth {width:280px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+
+
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix" >
+<div style="text-align: center"><font face="Verdana" size="1">To view this email as a web page, <a href=
+"http://info.rapid7.com/v/R00l4Y5NM40020M0KlTgXQ0"
+>click here</a><br /><br /></font></div>
+<div ><div class="mktEditable" >
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding-top: 20px;" width="100%" valign="top" bgcolor="#FFFFFF">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="padding: 10px;" width="100%" bgcolor="#000000">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding: 10px 20px;"><span style="font-family: arial, helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/I050VKY0l4MwQ42M0f0NT00"
+><img src="http://information.rapid7.com/rs/rapid7/images/rapid7_logo_white-orange.png" border="0" alt="Rapid7" width="160" height="27" /></a></span></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #ffffff; font-weight: light; text-align: right; font-family: Arial; line-height: 22px; vertical-align: middle; padding: 10px 20px; font-style: NORMAL;"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none; color: 
+#cccccc;" href=
+"http://info.rapid7.com/x0K0000f2W50lQN0x44MYTM"
+>PRODUCTS</a> &nbsp;&nbsp;&nbsp; <a style="text-decoration: none; color: #cccccc;" href=
+"http://info.rapid7.com/r40X0T2f0NylYQK5M00M040"
+>SOLUTIONS</a> &nbsp;&nbsp;&nbsp; <a style="text-decoration: none; color: #cccccc;"  href=
+"http://info.rapid7.com/I050YKY0l4MzQ42M0f0NT00"
+>SERVICES</a> &nbsp;&nbsp;&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2><span style="line-height: 22px; font-family: arial, helvetica, sans-serif;">Webcasts</span></h2>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[UPCOMING]&nbsp;<span style="line-height: 22px;"><a href=
+"http://info.rapid7.com/UMAM04T0lN0K4f025Q000ZY"
+>PCI 
+ DSS 3.0 Are You Ready for January?</a></span></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<div><span style="font-family: arial, helvetica, sans-serif;"><strong>Date/Time: </strong>Thursday, November 20th @ 2PM ET/11AM PT</span></div>
+<div><span style="font-family: arial, helvetica, sans-serif;"><strong>Speakers</strong>: Derek Kolakowski<span style="line-height: 22px;">, Sr.
+       Manager of Perimeter Security Services, Rapid7; Brian Tant, Professional Services Consultant, Rapid7</span></span></div>
+<div>
+<p><span style="font-family: arial, helvetica, sans-serif;">It&rsquo;s the last leg of the race &ndash; all organizations subject to PCI DSS requirements need to be fully compliant with the 3.0 standards by January 1, 2015*, just over 1 month from now! Now&rsquo;s the time to make sure your       
+organization is going to be PCI 3.0 compliant and prepared for your audit when the time comes.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/UMAM04T0lN0K4f025Q000ZY"
+>Register to join our PCI experts</a> as they discuss:</span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif;">Final steps you should be taking as the January 1st&nbsp;deadline approaches</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">A&nbsp;<strong>high-level targeted&nbsp;review</strong>&nbsp;of changes between the 2.0 and 3.0 standards<strong>&nbsp;</strong></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Checking your work! - How to&nbsp;<strong>validate your</strong>&nbsp;<strong>efforts</strong>&nbsp;to make sure they&rsquo;re audit-ready</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Stories from the PCI compliance trenches</span></li>
+</ul>
+<p><span style="font-family: arial, helvetica, sans-serif;">*With a few exceptions that&nbsp;take effect&nbsp;June 30, 2015.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">In the meantime, check out our <a href=
+"http://info.rapid7.com/z0MY24l0004NQ0g5KMC0T00"
+>PCI 3.0 Compliance Resource and Services page</a>.</span></p>
+</div>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/UMAM04T0lN0K4f025Q000ZY"
+>Save your spot                      now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[On Demand] <a href=
+"http://info.rapid7.com/NN001KM40005MgT0DQ40Y2l"
+>Detecting Risky Activity 'Wherever'  
+             Before it Becomes a Problem</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<p><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="line-height: 22px;">Watch this on-demand webcast now to learn about how Rapid7 UserInsight:</span></strong></span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif;">Enables&nbsp;<strong>detection and investigation</strong>&nbsp;of real-world attempts to compromise your user's credentials&nbsp;</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Detects access violations, breaches, account compromises - and follows them through your network</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Defines and&nbsp;<strong>highlights risky user behavior</strong>&nbsp;on your network</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Allows for detection and investigation across&nbsp;<strong>on-premise</strong>,&nbsp;<strong>cloud,</strong><em>&nbsp;and</em>&nbsp;<strong>mobile environments</strong></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Provides&nbsp;<strong>easy use</strong>,&nbsp;<strong>speedy</strong>&nbsp;detection and investigation, and&nbsp;<strong>simple reporting</strong></span></li>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="color: #ffffff; background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/NN001KM40005MgT0DQ40Y2l"
+>View         Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[On Demand] <a href=
+"http://info.rapid7.com/c0402MMK0lQN054TE0Y2g00"
+>When Every Minute Counts: 
+     Accelerating Incident Investigations</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<p><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="line-height: 22px;">Watch this on-demand webcast for incident responders to learn about:</span></strong></span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif;">Closing the gap between attackers and incident responders</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Getting context of a security incident faster to see the full picture</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Accessing data on user behavior and assets quickly, even for activity that was months ago</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Efficiently mapping an attack timeline to share with your team and executives</span></li>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="color: #ffffff; background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/c0402MMK0lQN054TE0Y2g00"
+>View         Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[On Demand] <a href=
+"http://info.rapid7.com/X4l0MFN0Q000Tg4YM025K30"
+>Cyber Security Awareness Panel: Taking it  
+    to the C-Level and Beyond</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<p><span style="font-family: arial, helvetica, sans-serif;"><strong>Watch this on-demand webcast to learn about:</strong></span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif;">Why security matters&nbsp;<em>now</em></span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Corporate liability and duty of care</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Building security into the corporate culture through policies and user education</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">How organizations can make security into a strength and advantage</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Crisis communications and response</span></li>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/X4l0MFN0Q000Tg4YM025K30"
+>View    Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2><span style="font-family: arial, helvetica, sans-serif;"><a></a><span style="line-height: 22px;">News</span></span></h2>
+<p><span style="font-family: arial, helvetica, sans-serif;">Last week, <a href=
+"http://info.rapid7.com/VYNG0004g50T200Kl4MM4Q0"
+>Home Depot released information</a> from the investigation into its highly publicized September breach.
+ Hackers gained access to their network through ineffective password security at an unnamed third-party vendor system.
+ This initial access let the attackers gain a foothold that allowed them to achieve their objective of planting information-stealing malware on sales terminals.
+ Third parties were also implicated in investigations of the high-profile breaches at Target and JP Morgan.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Trey Ford, global security strategist at Rapid7, confirmed that there were some lessons to be learned from Home Depot&rsquo;s investigation: "Attackers were inside their organization for five months before detection.
+ The attackers entered with stolen credentials, (and) they used a vendor&rsquo;s username and password to log into Home Depot&rsquo;s network.&rdquo; The attacker acted just as a systems administrator would once inside the network &ndash; but they deployed specialized malware to point of sales 
+systems.
+ Organizations need to have plans in place to ensure their third-party vendors have strong security practices and to watch their networks closely for this type of subtle attack.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2><span style="font-family: arial, helvetica, sans-serif;">Community</span></h2>
+<p><span style="font-family: arial, helvetica, sans-serif;">In a reflection of news headlines from the past few months, the community has been alight with discussion of compromised credentials and incident detection and investigation.
+ Two posts focused on the recent <a href=
+"http://info.rapid7.com/y5gKYMMQ040lTN504H00020"
+>IDC infographic</a> that was published on how credentials are abused by cyber criminals.
+ Some of the standout statistics were: 80% of companies will suffer at least one successful attack causing serious harm that requires remediation, and 33% will not be able to prevent over half of the attacks.
+ These numbers alone are staggering, but the infographic also details the implications of those key statistics in terms of the enormous waste time and money these attacks are for affected companies.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">On average, companies have 185 security incidents a year, incurring a total cost of $1.3 million even if a company doesn&rsquo;t have to disclose a major breach.
+ Further, 73% of attacks take weeks or months to remediate.
+ These numbers are only the tip of the iceberg though &ndash; <a href=
+"http://info.rapid7.com/m000QI2040M45lMYNg60KT0"
+>check out the first blog post and infographic</a> to dive deeper into these 
+compromised credential and incident detection and investigation stats, and the second to learn IDC&rsquo;s <a href=
+"http://info.rapid7.com/TJQKg0M05000YN720l4M4T0"
+>recommendations on how to protect your 
+organization</a>.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2><span style="font-family: arial, helvetica, sans-serif;"><a name="Security Alert"></a>Security Alert</span></h2>
+<span style="font-family: arial, helvetica, sans-serif;"> <strong><a href=
+"http://info.rapid7.com/jMKN052lK004Y0MQT480g00"
+>Patch Tuesday, November 2014</a></strong></span><br />
+<p><span style="font-family: arial, helvetica, sans-serif;">Patch Tuesday came in hot this month with 15 advisories, of which 4 are listed as critical.&nbsp; Hate to point it out, but this was originally advertised as 16 with 5 critical, but the patch for MS14-068 apparently isn&rsquo;t ready for  
+prime time yet.&nbsp; Hopefully the decision to  hold it back was based on both the testing and an assessment of risk.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">The top patching priority is definitely going to be MS14-064, which is under active exploitation in the wild and may be related, at least superficially, to last month&rsquo;s Sandworm attack, which also worked through a vulnerability in  
+OLE.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">After MS14-064, attention belongs on MS14-065 and <strong><a href=
+"http://info.rapid7.com/E040K0MLN9Y0Q0MT2g04l05"
+>MS14-066</a></strong>, Internet Explorer and <a  href=
+"http://info.rapid7.com/DKa400M0TNY00g05lQ2M04M"
+>SChannel</a> respectively.&nbsp; The SChannel issue is risky, since there is a very good chance that this service&nbsp; could be exposed or accessed  
+ via the perimeter.&nbsp; The IE patches are cumulative, as usual, and address 17 CVEs.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Second most important are MS14-067 for MSXML, MS14-069&nbsp;&nbsp; for Office, &amp; MS14-073 for Sharepoint which all have priority two for patching.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">The expected patch for MS14-075 (MS Exchange) was&nbsp;pulled at the last moment.&nbsp; We can only speculate that some negative interaction outweighing the&nbsp;benefit was discovered.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Every supported version of Windows is impacted by the critical issues, with the minor exception of Server Core not having Internet Explorer exposure.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Perimeter systems are often mission critical and need the fastest attentions.
+   Administrators will have to balance the risk of exploit with their perceived exposure and their tolerance for downtime.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="48%" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><span style="font-family: arial, helvetica, sans-serif;"><strong>FREE PRODUCT TRIALS</strong></span></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none;"  href=
+"http://info.rapid7.com/P000Q04KlN0Mb40g0YNT5M2"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/ms.gif" alt="Download Metasploit" /> <span style="color: #0197b8;">Download Metasploit</span></a></span><br /><span 
+style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/E040K0MONcY0Q0MT2g04l05"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/ui.gif" alt="Download          
+             UserInsight" /> <span style="color: #0197b8;">Download  UserInsight</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/TPQKg0M05000YNd20l4M4T0"
+><img style="vertical-align: 
+middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/nx.gif" alt="Download Nexpose" /> <span style="color: #0197b8;">Download                                                         Nexpose</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> 
+<a style="text-decoration: none;" href=
+"http://info.rapid7.com/O0g0M4MT0200QKle0Q045YN"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/ci.gif" alt="Download                  ControlsInsight" /> <span 
+style="color: #0197b8;">Download        ControlsInsight</span></a></span><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="48%" align="right">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><span style="font-family: arial, helvetica, sans-serif;"><strong>CONNECT WITH RAPID7</strong></span></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/lgNMR000l5YM0T2440Q0f0K"
+><img 
+style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/community.gif" alt="Join the Community" /> <span style="color: #0197b8;">Join the Community</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a 
+style="text-decoration: none;" href=
+"http://info.rapid7.com/n0KM0gS02MQl0TN0Y5004g4"
+><img style="vertical-align: middle; margin-right: 10px;" src="http://information.rapid7.com/rs/rapid7/images/blog_rss.gif" alt="Subscribe to the Blog" /> <span style="color: #0197b8;">Subscribe to the                       
+Blog</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/hlM5h4N00K000M4gQ020TTY"
+><img style="vertical-align: middle; margin-right: 12px;" src="http://information.rapid7.com/rs/rapid7/images/twitter.gif" alt="Follow us on       
+                Twitter" /> <span style="color: #0197b8;">Follow us on Twitter</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/f00g40l0Yi005N2MKQTUM04"
+><img style="vertical-align: middle; margin-right: 8px;" 
+src="http://information.rapid7.com/rs/rapid7/images/contact.gif" alt="Contact Us" /> <span style="color: #0197b8;">Contact Us</span></a></span><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="height: 35px;">&nbsp;</div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding: 30px 0;" bgcolor="#363636">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="45%" align="left">
+<tbody>
+<tr>
+<td class="center" style="font-size: 14px; color: #999; font-family: Arial; padding-bottom: 20px;" valign="top"><span style="font-family: arial, helvetica, sans-serif;">&copy; 2014 Rapid7, All Rights Reserved.</span><br /><span style="font-family: arial, helvetica, sans-serif;"> 100 Summer Street, 
+                      13th Floor</span><br /><span style="font-family: arial, helvetica, sans-serif;"> Boston, MA 02110-2131</span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="color: #999; text-decoration: underline;"  href=
+"http://info.rapid7.com/z0MY24l0004NQjg5KMV0T00"
+>www.rapid7.com</a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> 866-7-RAPID7</span></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="40%" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 15px; color: #f1f1f1; font-weight: normal; font-family: Arial; line-height: 26px; vertical-align: top; text-align: right;" valign="top"><span style="font-family: arial, helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/n0KM0gS02MQl0TN0Y5004g4"
+><img title="RSS Feed" 
+src="http://information.rapid7.com/rs/rapid7/images/rss-footer.gif" border="0" alt="RSS Feed" /></a> <a href=
+"http://info.rapid7.com/MQ0T0M0YKg45400Wl0MN0k2"
+><img title="Twitter" src="http://information.rapid7.com/rs/rapid7/images/twitter-footer.gif" border="0" alt="Twitter" /></a> <a  href=
+"http://info.rapid7.com/lgNMR000l5YM0T2440Q0f0K"
+><img title="Rapid7 Community" src="http://information.rapid7.com/rs/rapid7/images/community-footer.gif" border="0" alt="Rapid7 Community" /></a> <a href=
+"http://info.rapid7.com/f00g40l0Yi005N2MKQTUM04"
+><img title="Email Rapid7" 
+src="http://information.rapid7.com/rs/rapid7/images/mail-footer.gif" border="0" alt="Email Rapid7" /></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a href=
+"http://info.rapid7.com/z0MY24l0004NQjg5KMV0T00"
+><img src="http://information.rapid7.com/rs/rapid7/images/r7-logo-small.gif" border="0" 
+alt="Rapid7 Home Page" /></a></span><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<IMG SRC="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6NTkxMDoxMDIzMzoyMDk2MTowOjY2NjM6NzoxMTQxNTkyOmpvc2VwaEBkdXpvbi5jb20%3D" WIDTH="1" HEIGHT="1" BORDER="0" ALT="" />
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><p><font face="Verdana" size="1">If you no longer wish to receive these emails, click on the following link: <a href=
+"http://info.rapid7.com/u/HK0020M0QMYYgT40l5N00m4"
+>Unsubscribe</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_1083707463_1039767355.1415992031785--
+
+

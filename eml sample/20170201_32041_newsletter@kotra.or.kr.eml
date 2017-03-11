@@ -1,0 +1,323 @@
+Received: (qmail 8232 invoked by uid 100); 31 Jan 2017 21:51:11 -0000
+Received: from 10.114.250.104 (HELO crcvmail03.wmail.naver.com) (10.114.250.104)
+  by cmda003.wmail.worksmobile.com with SMTP;31 Jan 2017 21:51:11 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.douzone.com [202.167.215.8])
+  by crcvmail03.wmail.naver.com with ESMTP id z0wjF-qLT8mIgK7Q1frM5A
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 31 Jan 2017 21:51:11 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0VLs9c009F1;
+	Wed, 01 Feb 2017 06:54:09 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0VLs9c009F1
+X-SmartFilter: FROM,v0VLs9c009F1,joseph@duzon.com
+x-forward-id: <5891067f.09e7540a.715b9.e2c8SMTPIN_ADDED_BROKEN@mx.google.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3vCg1N0ktVz11gg3; Wed,  1 Feb 2017 06:50:00 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3vCg0P13Pcz11gft
+	for <joseph@duzon.com>; Wed,  1 Feb 2017 06:49:57 +0900 (KST)
+Received: from external ([209.85.213.46])
+	by smf.duzon.co.kr (1.0) id v0VLrFV009EA;
+	Wed, 01 Feb 2017 06:53:15 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0VLrFV009EA
+X-SmartFilter: FROM,v0VLrFV009EA,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f46.google.com with SMTP id k127so246509890vke.0
+        for <joseph@duzon.com>; Tue, 31 Jan 2017 13:49:54 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:mime-version:date:subject:from:to:reply-to
+         :content-transfer-encoding;
+        bh=0wSyCaDFPp4CpDnF8rr5hvYlbf4XpNyOf6yAHzDsKME=;
+        b=MxmoD2lpO6wH3gvf6U9m/cTn5XXanRP4Y1gcYnrT7FAQDqTdPbPyAqWXK3df6mqTsr
+         CFh/yheRic7aSqhFGvNHLZZihLCL36sHZosnz4eXSgmCExXoU0TszHP1FG5eVdAOm3zx
+         D6kavhrjoCQA90nx8KUkN4aQ1oWJWwvZziIMOiy8OK0sv8rro6Ly3uj8x5sVeIBWI3FT
+         pr0+4lP9qO64oNot9pgzLS7J9U0qDSyv9TtBAcqu4BD/BnDBS8j9+eU/DwnkdlHsuLmN
+         AzjfkJo2J7UsX3WL5xkjaBEtX1vnUEzRzKoDAEgosFEvmDUAIW6B+fu5dTGcoQCiOIUl
+         bCwA==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AIkVDXIsY1mdslVJie/jOQXYztAO/dxSC6l+YPrgWKJC+xNHp16j+T81BDDoWyedmjD83XdovJGqQhcD0Wb8mr0UhooDujQ=
+X-Received: by 10.31.4.211 with SMTP id 202mr14457037vke.105.1485899393164;
+        Tue, 31 Jan 2017 13:49:53 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.5.71 with SMTP id 68csp2284306vsf;
+        Tue, 31 Jan 2017 13:49:51 -0800 (PST)
+X-Received: by 10.98.33.131 with SMTP id o3mr31640663pfj.86.1485899391854;
+        Tue, 31 Jan 2017 13:49:51 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id f9si17153648plk.180.2017.01.31.13.49.51
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 31 Jan 2017 13:49:51 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Message-ID: <5891067f.09e7540a.715b9.e2c8SMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_16644_268038_1_2963_0_20170201064924_210.223.88.35>
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0VLrAL009E0;
+	Wed, 01 Feb 2017 06:53:10 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0VLrAL009E0
+X-SmartFilter: FROM,v0VLrAL009E0,forensic@duzon.com
+x-forward-id: <IWNID_16644_268038_1_2963_0_20170201064924_210.223.88.35>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3vCg0D6XV4z11gff; Wed,  1 Feb 2017 06:49:29 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3vCfzn5wqvz11g2q
+	for <forensic@duzon.com>; Wed,  1 Feb 2017 06:49:25 +0900 (KST)
+Received: from external ([210.223.88.35])
+	by smf.duzon.co.kr (1.0) id v0VLqjK009DF;
+	Wed, 01 Feb 2017 06:52:45 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0VLqjK009DF
+X-SmartFilter: FROM,v0VLqjK009DF,16644_1_268038_forensic_duzon.com@academymail.kotra.or.kr
+MIME-Version: 1.0
+Date: Wed, 1 Feb 2017 06:49:24 +0900
+Content-Type: text/html; charset="UTF-8"
+Subject: =?UTF-8?B?W0tPVFJBXSDrlqDsmKTrpbTripQg7ISc67mE7Iqk7Iuc7J6l7JeQ7ISc?=
+	=?UTF-8?B?IOyImOy2nOqwleyekOqwgCDrkJjqs6Dsi7bri6TrqbQ/?=
+From: =?UTF-8?B?S09UUkEgIuyCrOyXhcK36rWQ7Jyh7JWI64K0Ig==?=<newsletter@kotra.or.kr>
+To: =?UTF-8?B?7Jyg7KeE7JWE?=<forensic@duzon.com>
+Reply-To: =?UTF-8?B?S09UUkEgIuyCrOyXhcK36rWQ7Jyh7JWI64K0Ig==?=<newsletter@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +9RYpB3G1H+YbXFCbHmRKou9KxuwjJ+Y
+
+<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type" =
+/>
+<p><img border=3D"0" width=3D"751" height=3D"1800" usemap=3D"#Map" alt=3D=
+"" src=3D"http://academymail.kotra.or.kr:8889/trace/image_view.jsp?g_idx=3D=
+10007&amp;u_idx=3D2796&amp;file=3D35872931163652297.jpg" /> <map id=3D"Ma=
+p2" name=3D"Map">
+<area shape=3D"rect" alt=3D"=EC=A4=91=EA=B5=AD =EC=8B=9D=ED=92=88=EC=8B=9C=
+=EC=9E=A5 =EA=B0=9C=EC=B2=99 =EA=B3=BC=EC=A0=95" target=3D"_blank" coords=
+=3D"500,841,715,1048" href=3D"http://academymail.kotra.or.kr:8889/trace/c=
+hecker.jsp?mailidx=3D16644&linkno=3D1&seqidx=3D268038&service=3D1&dmidx=3D=
+2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.kotra.or.k=
+r/kh/service/KHSBGT041M.do?articleId=3D3011423&amp;MENU_CD=3DF0273&amp;TO=
+P_MENU_CD=3DF0261&amp;LEFT_MENU_CD=3DF0273&amp;PARENT_MENU_CD=3DF0273&amp=
+;RowCountPerPage=3D10&amp;SEARCH_TYPE=3DSJCN&amp;SEARCH_VALUE=3D&amp;Page=
+=3D1" />
+<area shape=3D"rect" alt=3D"2017 =ED=95=B4=EC=99=B8=EA=B3=B5=EA=B3=B5=EC=A1=
+=B0=EB=8B=AC=EC=8B=9C=EC=9E=A5 =ED=8A=B9=ED=99=94=EB=A7=9E=EC=B6=A4=ED=98=
+=95 =EC=A7=80=EC=9B=90=EC=82=AC=EC=97=85" target=3D"_blank" coords=3D"42,=
+1291,462,1463" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.=
+jsp?mailidx=3D16644&linkno=3D2&seqidx=3D268038&service=3D1&dmidx=3D2963&e=
+midx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.kotra.or.kr/kh/a=
+bout/KHKINY130P.html?SEQ=3D5502&amp;EVENTID=3D5502" />
+<area shape=3D"rect" alt=3D"=EC=88=98=EC=B6=9C=EC=A7=80=EC=9B=90=EA=B8=B0=
+=EB=B0=98=ED=99=9C=EC=9A=A9=EC=82=AC=EC=97=85 =EC=84=A4=EB=AA=85=ED=9A=8C=
+ " target=3D"_blank" coords=3D"40,501,480,722" href=3D"http://academymail=
+....kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D3&seqidx=3D2=
+68038&service=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linku=
+rl=3Dhttp://www.exportvoucher.com" />
+<area shape=3D"rect" alt=3D"2017 =EB=B3=B4=EA=B1=B4=EC=9D=98=EB=A3=8C =ED=
+=94=84=EB=A1=9C=EC=A0=9D=ED=8A=B8 =EC=A7=80=EC=9B=90 =EC=82=AC=EC=97=85 =EB=
+=AA=A8=EC=A7=91 =EA=B3=B5=EA=B3=A0" target=3D"_blank" coords=3D"37,1101,4=
+68,1276" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?ma=
+ilidx=3D16644&linkno=3D4&seqidx=3D268038&service=3D1&dmidx=3D2963&emidx=3D=
+0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.kotra.or.kr/kh/about/KH=
+KINY130P.html?SEQ=3D5499&amp;EVENTID=3D5499" />
+<area shape=3D"rect" alt=3D"=EC=BF=A0=EB=B0=94 =ED=88=AC=EC=9E=90=EC=A7=84=
+=EC=B6=9C =EC=84=B8=EB=AF=B8=EB=82=98" target=3D"_blank" coords=3D"39,737=
+,456,910" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?m=
+ailidx=3D16644&linkno=3D5&seqidx=3D268038&service=3D1&dmidx=3D2963&emidx=3D=
+0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://infomailer.kotra.or.kr/2017=
+0131/%EC%BF%A0%EB%B0%94%EA%B8%B0%EC%97%85%EC%B0%B8%EA%B0%80%EB%AA%A8%EC%A=
+7%91%20%EC%95%88%EB%82%B4.hwp " />
+<area shape=3D"rect" alt=3D"2017 Service Mudus(=EC=84=9C=EB=B9=84=EC=8A=A4=
+=EB=AC=B8=EB=91=90=EC=8A=A4) 2.0 =EC=B0=B8=EA=B0=80=EA=B8=B0=EC=97=85 =EB=
+=AA=A8=EC=A7=91" target=3D"_blank" coords=3D"49,236,460,475" href=3D"http=
+://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D=
+6&seqidx=3D268038&service=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&si=
+te=3D0&linkurl=3Dhttp://www.kotra.or.kr/kh/about/KHKINY130P.html?SEQ=3D55=
+05&amp;EVENTID=3D5505" />
+<area shape=3D"rect" alt=3D"=EB=89=B4=EC=8A=A4=EB=A0=88=ED=84=B0=EC=97=90=
+ =EB=B0=94=EB=9D=BC=EB=8A=94 =EC=A0=90" target=3D"_blank" coords=3D"23,16=
+46,226,1691" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.js=
+p?mailidx=3D16644&linkno=3D7&seqidx=3D268038&service=3D1&dmidx=3D2963&emi=
+dx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.kotra.or.kr/kh/cus=
+tomer/KHCPCS020M.html?&amp;MENU_CD=3DF0058&amp;TOP_MENU_CD=3DF0002&amp;LE=
+FT_MENU_CD=3DF0058&amp;PARENT_MENU_CD=3DF0058" />
+<area shape=3D"rect" alt=3D"=EA=B8=B0=EC=97=85=EB=A7=88=EB=8B=B9" target=3D=
+"_blank" coords=3D"537,1643,621,1681" href=3D"http://academymail.kotra.or=
+....kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D8&seqidx=3D268038&ser=
+vice=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp=
+://www.bizinfo.go.kr/" />
+<area shape=3D"rect" alt=3D"=EC=A7=80=EC=97=AD&middot;=EA=B5=AD=EB=B3=84 =
+=EC=A7=84=EC=B6=9C=EC=A0=84=EB=9E=B5" target=3D"_blank" coords=3D"38,1596=
+,183,1634" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?=
+mailidx=3D16644&linkno=3D9&seqidx=3D268038&service=3D1&dmidx=3D2963&emidx=
+=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.globalwindow.org/gw/=
+publishdata/GWPDAD010M.html?BBS_ID=3D63&amp;MENU_CD=3DM10034&amp;UPPER_ME=
+NU_CD=3DM10008&amp;MENU_STEP=3D2" />
+<area shape=3D"rect" alt=3D"=EC=A0=95=EB=B6=803.0" target=3D"_blank" coor=
+ds=3D"626,1641,722,1683" href=3D"http://academymail.kotra.or.kr:8889/trac=
+e/checker.jsp?mailidx=3D16644&linkno=3D10&seqidx=3D268038&service=3D1&dmi=
+dx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.gov30=
+....go.kr/" />
+<area shape=3D"rect" alt=3D"KOTRA =ED=95=B4=EC=99=B8=EB=AC=B4=EC=97=AD=EA=
+=B4=80 =EB=89=B4=EC=8A=A4=EB=A0=88=ED=84=B0" target=3D"_blank" coords=3D"=
+612,1485,707,1555" href=3D"http://academymail.kotra.or.kr:8889/trace/chec=
+ker.jsp?mailidx=3D16644&linkno=3D11&seqidx=3D268038&service=3D1&dmidx=3D2=
+963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.globalwindo=
+w.org/GW/global/trade/info/oversea-tradeoffice-newsletter.html?&amp;MENU_=
+CD=3DM10040&amp;UPPER_MENU_CD=3DM10082&amp;BBS_ID=3D4&amp;ARTICLE_SE=3D50=
+158&amp;MENU_STEP=3D3" />
+<area shape=3D"rect" alt=3D"=EC=88=98=EC=8B=A0=EA=B1=B0=EB=B6=80" target=3D=
+"_blank" coords=3D"668,1740,730,1766" href=3D"http://academymail.kotra.or=
+....kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D12&seqidx=3D268038&se=
+rvice=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhtt=
+p://scrm.kotra.or.kr/crm/common.ComMail/UCP_D2?EMAILLOGID=3D147217952" />
+<area shape=3D"rect" alt=3D"=EC=A0=95=EC=B1=85=EA=B0=80=EC=9D=B4=EB=93=9C=
+=EB=B6=81" target=3D"_blank" coords=3D"234,1643,529,1685" href=3D"http://=
+academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D1=
+3&seqidx=3D268038&service=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&si=
+te=3D0&linkurl=3Dhttp://www.bizinfo.go.kr/ceo100web2017/index/EBook.htm" =
+/>
+<area shape=3D"rect" alt=3D"Digital Kotra" target=3D"_blank" coords=3D"19=
+,24,108,49" onfocus=3D"this.blur();" href=3D"http://academymail.kotra.or.=
+kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D14&seqidx=3D268038&ser=
+vice=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp=
+://www.kotra.or.kr/" />
+<area shape=3D"rect" alt=3D"Trade Doctor" target=3D"_blank" coords=3D"112=
+,24,201,50" onfocus=3D"this.blur();" href=3D"http://academymail.kotra.or.=
+kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D15&seqidx=3D268038&ser=
+vice=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp=
+://tradedoctor.kotra.or.kr/index.td.jsp" />
+<area shape=3D"rect" alt=3D"Global Window" target=3D"_blank" coords=3D"20=
+4,24,290,50" onfocus=3D"this.blur();" href=3D"http://academymail.kotra.or=
+....kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D16&seqidx=3D268038&se=
+rvice=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhtt=
+p://www.globalwindow.org/" />
+<area shape=3D"rect" alt=3D"buy KOREA" target=3D"_blank" coords=3D"292,24=
+,373,51" onfocus=3D"this.blur();" href=3D"http://academymail.kotra.or.kr:=
+8889/trace/checker.jsp?mailidx=3D16644&linkno=3D17&seqidx=3D268038&servic=
+e=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://=
+www.buykorea.org/of/BKOFLI081C.html" />
+<area shape=3D"rect" alt=3D"GEP" target=3D"_blank" coords=3D"375,24,461,5=
+1" onfocus=3D"this.blur();" href=3D"http://academymail.kotra.or.kr:8889/t=
+race/checker.jsp?mailidx=3D16644&linkno=3D18&seqidx=3D268038&service=3D1&=
+dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.ge=
+p.or.kr/" />
+<area shape=3D"rect" alt=3D"OIS" target=3D"_blank" coords=3D"464,24,544,5=
+1" onfocus=3D"this.blur();" href=3D"http://academymail.kotra.or.kr:8889/t=
+race/checker.jsp?mailidx=3D16644&linkno=3D19&seqidx=3D268038&service=3D1&=
+dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.oi=
+s.go.kr/portal/page?_pageid=3D93,674897&amp;_dad=3Dportal&amp;_schema=3DP=
+ORTAL&amp;page=3Dmain" />
+<area shape=3D"rect" alt=3D"Contact Korea" target=3D"_blank" coords=3D"54=
+7,24,632,51" onfocus=3D"this.blur();" href=3D"http://academymail.kotra.or=
+....kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D20&seqidx=3D268038&se=
+rvice=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhtt=
+p://www.contactkorea.go.kr/" />
+<area shape=3D"rect" alt=3D"=EA=B8=80=EB=A1=9C=EB=B2=8C=EC=9C=88=EB=8F=84=
+=EC=9A=B0" target=3D"_blank" coords=3D"635,24,729,51" href=3D"http://acad=
+emymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D21&se=
+qidx=3D268038&service=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D=
+0&linkurl=3Dhttp://president.globalwindow.org/" />
+<area shape=3D"rect" alt=3D"KOTRA =ED=8E=98=EC=9D=B4=EC=8A=A4=EB=B6=81" t=
+arget=3D"_blank" coords=3D"614,1561,710,1632" href=3D"http://academymail.=
+kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D22&seqidx=3D2=
+68038&service=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linku=
+rl=3Dhttps://www.facebook.com/globalkotra" />
+<area shape=3D"rect" alt=3D"=EC=8B=A0=EA=B7=9C=EA=B0=80=EC=9E=85" target=3D=
+"_blank" coords=3D"604,1740,664,1763" href=3D"http://academymail.kotra.or=
+....kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D23&seqidx=3D268038&se=
+rvice=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhtt=
+p://www.kotra.or.kr/kh/member/KHMMMJ010M.html?MENU_CD=3DF0150&amp;TOP_MEN=
+U_CD=3DF0145&amp;LEFT_MENU_CD=3DF0150&amp;PARENT_MENU_CD=3DF0150" />
+<area shape=3D"rect" alt=3D"=EC=A0=9C11=EA=B8=B0 =EB=B2=A0=ED=8A=B8=EB=82=
+=A8 =EC=A7=80=EC=97=AD =EA=B3=BC=EC=A0=95" target=3D"_blank" coords=3D"50=
+1,1053,725,1245" href=3D"http://academymail.kotra.or.kr:8889/trace/checke=
+r.jsp?mailidx=3D16644&linkno=3D24&seqidx=3D268038&service=3D1&dmidx=3D296=
+3&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.kotra.or.kr/k=
+h/service/KHSBGT041M.do?articleId=3D3011410&amp;MENU_CD=3DF0273&amp;TOP_M=
+ENU_CD=3DF0261&amp;LEFT_MENU_CD=3DF0273&amp;PARENT_MENU_CD=3DF0273&amp;Ro=
+wCountPerPage=3D10&amp;SEARCH_TYPE=3DSJCN&amp;SEARCH_VALUE=3D&amp;Page=3D=
+1" />
+<area shape=3D"rect" alt=3D"=EC=8B=A0=EB=B3=80=EB=B3=B4" target=3D"_blank=
+" coords=3D"488,1259,727,1457" href=3D"http://academymail.kotra.or.kr:888=
+9/trace/checker.jsp?mailidx=3D16644&linkno=3D25&seqidx=3D268038&service=3D=
+1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://info=
+mailer.kotra.or.kr/20170124/AI(=EC=A1=B0=EB=A5=98=EC=9D=B8=ED=94=8C=EB=A3=
+=A8=EC=97=94=EC=9E=90)=EC=9D=B8=EC=B2=B4=EA=B0=90=EC=97=BC =EC=98=88=EB=B0=
+=A9 =EB=A6=AC=ED=94=8C=EB=A6=BF.pdf" />
+<area shape=3D"rect" alt=3D"cm=EC=86=A1" target=3D"_blank" coords=3D"487,=
+183,729,338" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.js=
+p?mailidx=3D16644&linkno=3D26&seqidx=3D268038&service=3D1&dmidx=3D2963&em=
+idx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttps://www.youtube.com/watc=
+h?v=3DUcEP9t4cRxQ&amp;index=3D3&amp;list=3DUUe3Gd1__dNop2MnwKBaj9Yg" />
+<area shape=3D"rect" alt=3D"2017 KOTRA =EA=B8=80=EB=A1=9C=EB=B2=8C CEO =EC=
+=95=84=EC=B9=B4=EB=8D=B0=EB=AF=B8" target=3D"_blank" coords=3D"502,419,71=
+0,624" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mail=
+idx=3D16644&linkno=3D27&seqidx=3D268038&service=3D1&dmidx=3D2963&emidx=3D=
+0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.kotra.or.kr/kh/service/=
+KHSBGT041M.do?articleId=3D3010965&amp;MENU_CD=3DF0273&amp;TOP_MENU_CD=3DF=
+0261&amp;LEFT_MENU_CD=3DF0273&amp;PARENT_MENU_CD=3DF0273&amp;RowCountPerP=
+age=3D10&amp;SEARCH_TYPE=3DSJCN&amp;SEARCH_VALUE=3D&amp;Page=3D1" />
+<area shape=3D"rect" alt=3D"=EC=9C=A0=EB=9F=BD =EC=9E=90=EB=8F=99=EC=B0=A8=
+ =EB=B6=80=ED=92=88=EC=8B=9C=EC=9E=A5 =EA=B0=9C=EC=B2=99 =EA=B3=BC=EC=A0=95=
+" target=3D"_blank" coords=3D"500,638,713,835" href=3D"http://academymail=
+....kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D28&seqidx=3D=
+268038&service=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&link=
+url=3Dhttp://www.kotra.or.kr/kh/service/KHSBGT041M.do?articleId=3D3011327=
+&amp;MENU_CD=3DF0273&amp;TOP_MENU_CD=3DF0261&amp;LEFT_MENU_CD=3DF0273&amp=
+;PARENT_MENU_CD=3DF0273&amp;RowCountPerPage=3D10&amp;SEARCH_TYPE=3DSJCN&a=
+mp;SEARCH_VALUE=3D&amp;Page=3D1" />
+<area shape=3D"rect" alt=3D"=EA=B8=80=EB=A1=9C=EB=B2=8C =EC=97=AD=EB=9F=89=
+ =EB=AC=B4=EB=A3=8C=EC=A7=84=EB=8B=A8" target=3D"_blank" coords=3D"39,155=
+5,184,1593" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp=
+?mailidx=3D16644&linkno=3D29&seqidx=3D268038&service=3D1&dmidx=3D2963&emi=
+dx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.kotra.or.kr/kh/ser=
+vice/KHSBSB190M.html?&amp;MENU_CD=3DF0351&amp;TOP_MENU_CD=3DF0261&amp;LEF=
+T_MENU_CD=3DF0351&amp;PARENT_MENU_CD=3DF0267" />
+<area shape=3D"rect" alt=3D"=EB=82=B4=EC=86=90=EC=95=88=EC=9D=98 KOTRA =ED=
+=99=9C=EC=9A=A9=EA=B0=80=EC=9D=B4=EB=93=9C=EB=B6=81" target=3D"_blank" co=
+ords=3D"518,1561,608,1634" href=3D"http://academymail.kotra.or.kr:8889/tr=
+ace/checker.jsp?mailidx=3D16644&linkno=3D30&seqidx=3D268038&service=3D1&d=
+midx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.kot=
+ra.or.kr/kh/about/KHKINY060M.html?ARTICLE_ID=3D3007645&amp;MENU_CD=3DF013=
+4&amp;TOP_MENU_CD=3DF0104&amp;LEFT_MENU_CD=3DF0134&amp;PARENT_MENU_CD=3DF=
+0115&amp;RowCountPerPage=3D10&amp;Page=3D3&amp;SEARCH_TYPE=3DSJCN&amp;SEA=
+RCH_VALUE=3D" />
+<area shape=3D"rect" alt=3D"=EB=AC=B4=EC=97=AD=EC=9E=90=EB=A3=8C=EC=8B=A4=
+ =EC=8B=A0=EC=B0=A9=EC=9E=90=EB=A3=8C" target=3D"_blank" coords=3D"229,15=
+24,290,1612" href=3D"http://academymail.kotra.or.kr:8889/trace/checker.js=
+p?mailidx=3D16644&linkno=3D31&seqidx=3D268038&service=3D1&dmidx=3D2963&em=
+idx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://dl.kotra.or.kr/search=
+/DetailView.ax?sid=3D1&amp;cid=3D309186" />
+<area shape=3D"rect" alt=3D"=EC=9B=94=EA=B0=84=EC=9D=BC=EC=A0=95" target=3D=
+"_blank" coords=3D"347,1603,481,1630" href=3D"http://academymail.kotra.or=
+....kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D32&seqidx=3D268038&se=
+rvice=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhtt=
+p://www.kotra.or.kr/kh/about/KHKINY030P.html?TOP_MENU_CD=3DF0104&amp;LEFT=
+_MENU_CD=3DF0115&amp;MENU_CD=3DF0115&amp;PARENT_MENU_CD=3DF0115" />
+<area shape=3D"rect" alt=3D"KOTRA =EA=B5=AD=EA=B0=80=EC=A0=95=EB=B3=B4" t=
+arget=3D"_blank" coords=3D"518,1484,606,1557" href=3D"http://academymail.=
+kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D33&seqidx=3D2=
+68038&service=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linku=
+rl=3Dhttp://www.globalwindow.org/GW/global/trade/info/nation-info.html?&a=
+mp;MENU_CD=3DM10009&amp;UPPER_MENU_CD=3DM10001&amp;BBS_ID=3D0&amp;MENU_ST=
+EP=3D2" />
+<area shape=3D"rect" alt=3D"KORUS Aero Partnering 2017" target=3D"_blank"=
+ coords=3D"40,926,458,1090" href=3D"http://academymail.kotra.or.kr:8889/t=
+race/checker.jsp?mailidx=3D16644&linkno=3D34&seqidx=3D268038&service=3D1&=
+dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkurl=3Dhttp://www.ko=
+tra.or.kr/kh/about/KHKINY130P.html?SEQ=3D5487&amp;EVENTID=3D5487 " /></ma=
+p><map id=3D"Map" name=3D"Map">
+<area shape=3D"rect" coords=3D"21,23,111,51" href=3D"http://academymail.k=
+otra.or.kr:8889/trace/checker.jsp?mailidx=3D16644&linkno=3D35&seqidx=3D26=
+8038&service=3D1&dmidx=3D2963&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&linkur=
+l=3D#" /></map></p>
+<div style=3D"display:none;"><img src=3D"http://academymail.kotra.or.kr:8=
+889/trace/openChecker.jsp?mailidx=3D16644&seqidx=3D268038&service=3D1&dmi=
+dx=3D2963&emidx=3D0&duration=3D0&site=3D0" border=3D"0" width=3D"0" heigh=
+t=3D"0"></div>
+
+
+

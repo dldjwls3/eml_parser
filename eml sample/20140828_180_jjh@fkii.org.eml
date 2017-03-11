@@ -1,0 +1,143 @@
+Received: (qmail 16997 invoked from network); 28 Aug 2014 03:00:34 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda02.wmail.naver.com with SMTP; 28 Aug 2014 03:00:34 -0000
+Received: from [202.167.215.60] ([202.167.215.60]) 
+          by crcvmail02.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1409194834.164157.3745512336.crcvmail02
+          for <jonghyun.kim@dforensic.com>; 
+          Thu, 28 Aug 2014 12:00:34 +0900 (KST) 
+x-forward-id: 1409194823281_935649226
+recvDate: Thu, 28 Aug 2014 12:00:31 +0900
+x-newturns-hashkey : 3e73fcd1cf8407f4882c2f9f9a431d7b5c9b240b966efb82300b60a3f1873f0b
+Received: from external ([74.125.82.170])
+	by smf.duzon.com (1.0) id s7S2ifg00F2F;
+	Thu, 28 Aug 2014 11:44:42 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,s7S2ifg00F2F
+X-SmartFilter: FROM,s7S2ifg00F2F,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-we0-f170.google.com with SMTP id p10so136910wes.15
+        for <joseph@duzon.com>; Wed, 27 Aug 2014 19:59:51 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:subject:to
+         :from:reply-to:errors-to:mime-version:date:message-id:importance
+         :organization:content-type:content-transfer-encoding;
+        bh=WNjVNyhJFra0RZerl7r4B8LdGnyoX8gY/oNo+MQMFDY=;
+        b=CAbtxhEI4XbLzS4rcyVZwBiowTbGfubxyOWdiqtL6UL33uiumakzmRPo24SAwDHDkW
+         BglQ5r6WAa4LYpdykT8sXmXHiSimKbgnqEFX9ZGRF5gmxdE0agVCQCpQj0hnnRQIkRpB
+         uuYtVaeBTlExihKQpZEEoS2BkQNBUiN4AXldosJFFj5AtppKo1ldSjI29FOQH0E8qXjP
+         jbuQd0rZusR4W/rnvrmO2zblZqaZ2C3yEyUvj9oHSK83Jp54x15Yg81wgpLHlKE9hnNH
+         RDePnUhiOyp878ybSl3dzRIbes5x+TeLdDZei/Gm6gORsKwfUtfludSUt85WgotwIYti
+         bg2w==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.60 as permitted sender) smtp.mail=forensic@duzon.com
+X-Received: by 10.180.97.101 with SMTP id dz5mr33285509wib.52.1409194791795;
+        Wed, 27 Aug 2014 19:59:51 -0700 (PDT)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.194.221.68 with SMTP id qc4csp574457wjc;
+        Wed, 27 Aug 2014 19:59:51 -0700 (PDT)
+X-Received: by 10.70.51.103 with SMTP id j7mr1585491pdo.84.1409194790348;
+        Wed, 27 Aug 2014 19:59:50 -0700 (PDT)
+Received: from duzon.com (mail.duzon.kr. [202.167.215.60])
+        by mx.google.com with ESMTP id o2si3937287pdh.86.2014.08.27.19.59.49
+        for <forensic.duzon@gmail.com>;
+        Wed, 27 Aug 2014 19:59:50 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.60 as permitted sender) smtp.mail=forensic@duzon.com
+x-forward-id: 1409194785820_2433444502
+recvDate: Thu, 28 Aug 2014 11:59:48 +0900
+x-newturns-hashkey: 5ed9d54452090c3d3df53525c0a788ee554b825b3f560156ee562775d89f72f5
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id s7S2iUa00F29;
+	Thu, 28 Aug 2014 11:44:30 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,s7S2iUa00F29
+X-SmartFilter: FROM,s7S2iUa00F29,user24773@sendd.ozmailer.com
+Subject: =?EUC-KR?B?KEtFU1NJQSnAzsXaIElvVCCws7nmx/wgx8O3v8b7ILy8ucyzqiAyMDE0ILCzw9YoOS8=?=
+	=?EUC-KR?B?MywgsK2zssXkwe4gxbi/9sGhKQ==?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?waTA58f2?=" <jjh@fkii.org>
+Reply-To: <jjh@fkii.org>
+Errors-To: <jjh@fkii.org>
+MIME-Version: 1.0
+Date: Thu, 28 Aug 2014 11:59:41 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1635360@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +Q+YpB3G1Hbqa0ixyueaaV/lKS0YbzJqbXmmKqgmKq3YkXm=
+
+<IMG SRC="http://www.ozmailer.com/fcso/receipt_confirm.php?email=forensic@duzon.com&mail_no=5650870" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Mail</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<p></p><p><font style="font-family: 맑은 고딕; font-size: 10pt;">안녕하십니까?</font></p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: 맑은 고딕; font-size: 10pt;">임베디드SWㆍSystem산업협회 정재현 연구원입니다.</font></p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font face="맑은 고딕" size="2"></font>&nbsp;</p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font face="맑은 고딕" size="2">인텔코리아와 임베디드SWㆍSystem산업협회에서는 제12회 임베디드SW경진대회 개방형 플랫폼 참가자와</font></p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font face="맑은 고딕" size="2">인텔 갈릴레오 보드에 관심이 있으신 분들을 모시고 인텔 IoT 개방형 플랫폼 세미나를 개최합니다.</font></p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font face="맑은 고딕" size="2"></font>&nbsp;</p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font face="맑은 고딕!
+ " size="2">여러분의 많은 관심과 참여 부탁 드립니다. </font></p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font face="맑은 고딕" size="2"><strong><span style="color: rgb(255, 0, 0);">**선착순으로 예약을 받고 있으니 빠른 사전접수 바랍니다.</span></strong></font></p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font face="맑은 고딕" size="2"></font>&nbsp;</p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font face="맑은 고딕" size="2">- 세미나 문의 :&nbsp;신성훈 선임, 정재현 연구원 (02-2132-0758, <a href="mailto:jjh@fkii.org">jjh@fkii.org</a>)</font></p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font face="맑은 고딕" size="2">- 경진대회 문의 : 최용재 선임 (02-2132-0753, <a href="mailto:shard731@fkii.org">shard731@fkii.org</a>)</font></p><p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"></p><div id="wrap"><p style="margin: 0px; padding: 0px;"><img alt="" src="http://www.kess!
+ ia.kr/html/140822/pop_140822_01.jpg"></p><p style="margin: 0px; paddin
+g: 0px;"><img alt="" src="http://www.kessia.kr/html/140822/pop_140822_02.jpg"></p><p style="margin: 0px; padding: 0px;"><img alt="" src="http://www.kessia.kr/html/140822/pop_140822_03.jpg"></p><p style="margin: 0px; padding: 0px;"><img src="http://www.kessia.kr/html/140822/pop_140822_04.jpg"></p><p style="margin: 0px; padding: 0px;"><a href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1635360&mail_no=5650870&email=forensic@duzon.com&OZTRACKING=0368d6fba04ec8fcacaed857a14d8532&url=http://www.kessia.kr/community/event.php?mode=write&amp;no=168" target="_blank"><img style="border: 0px currentColor;" alt="" src="http://www.kessia.kr/html/140822/pop_140822_05.jpg"></a></p><p style="margin: 0px; padding: 0px;"><img src="http://www.kessia.kr/html/140822/pop_140822_06.jpg"></p><p style="margin: 0px; padding: 0px;"><a href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1635360&mail_no=5650870&email=forensic@duzon.com&OZTRACKING=3ed319a1847804ffe389cade259a89a4&url=h!
+ ttp://maps.google.com/maps?q=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EA%B0%95%EB%82%A8%EA%B5%AC+%EC%97%AD%EC%82%BC%EB%8F%99+827-3&amp;t=m&amp;z=17" target="_blank"><img alt="" src="http://www.kessia.kr/html/140822/pop_140822_07.jpg" border="0"></a></p></div><p><p></p><p></p>
+		<!--OZ_ModuleStart-->
+		<div align='center'>
+			<table cellpadding='0' cellspacing='0'>
+				<tr>
+					<td height='11'></td>
+				</tr>
+			</table>
+			
+			<table width='630' height='100%' cellpadding='0' cellspacing='0' style='border:2px solid #EFEFEF;'>
+				
+			<tr>
+				<td>
+					<table width='100%' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+						<tr>
+							<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 한국정보산업연합회 행사나 교육에 참가하신 분들 대상으로 발송되었습니다.본 메일은 발신전용입니다. 수신거부를 원하시는 경우 &lt;메일&gt;를 회신하여 주시기 바랍니다.</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+				
+				
+			<tr>
+				<td>
+					<table width='100%' height='47' cellpadding='0' cellspacing='0' bgcolor='#EFEFEF'>
+						<tr>
+							<td align='center' valign='top' height='47'>
+								<table cellpadding='0' cellspacing='0'>
+									<tr>
+										<td height='8'></td>
+									</tr>
+									<tr>
+										
+		<td align='left' valign='top'><a href='http://www.ozmailer.com/fcso/neo_reject.php?email=forensic@duzon.com&mail_no=5650870' target=_blank><img src='http://img.ozmailer.com/mail/good_template/bottom_module_frame/button/unsubscribe_kor.png' border='0' alt='수신거부' /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</div>
+		<!--OZ_ModuleEnd-->
+		<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+
+

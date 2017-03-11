@@ -1,0 +1,641 @@
+Received: (qmail 20460 invoked by uid 100); 18 Jan 2017 13:35:23 -0000
+Received: from 10.114.250.104 (HELO crcvmail03.wmail.naver.com) (10.114.250.104)
+  by cmda002.wmail.worksmobile.com with SMTP;18 Jan 2017 13:35:23 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com;
+  dkim=pass header.i=@mailcot.eu;
+  dmarc=pass (p=NONE) header.from=mailcot.eu
+X-Session-IP: 202.167.215.8
+Received: from  (mail.duzon.com [202.167.215.8])
+  by crcvmail03.wmail.naver.com with ESMTP id YQNVEzJgSea7wOQLoY080A
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 18 Jan 2017 13:35:23 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0IDcXt0033E;
+	Wed, 18 Jan 2017 22:38:33 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0IDcXt0033E
+X-SmartFilter: FROM,v0IDcXt0033E,joseph@duzon.com
+x-forward-id: <3YXPDBKJ-86GH-7KP3-6OSQ-8VW08BY4WUCB@mailcot.eu>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3v3Sdj32DFz11gMZ; Wed, 18 Jan 2017 22:34:33 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3v3Sch4ckTz11gMG
+	for <joseph@duzon.com>; Wed, 18 Jan 2017 22:34:28 +0900 (KST)
+Received: from external ([209.85.217.175])
+	by smf.duzon.co.kr (1.0) id v0IDbch00332;
+	Wed, 18 Jan 2017 22:37:38 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0IDbch00332
+X-SmartFilter: FROM,v0IDbch00332,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f175.google.com with SMTP id y9so9316649uae.2
+        for <joseph@duzon.com>; Wed, 18 Jan 2017 05:34:26 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:message-id
+         :mime-version:from:to:subject:date:content-transfer-encoding;
+        bh=+cuTqs8S7Zl+lGKmX2RltTwl3fT6MfTRfk/nUPbFL9I=;
+        b=K6OhNcz2elB0IBqhBAFg92EWVNAny0qzkxzSLazI1YHeSfp6E4zyYqD0/5fF6GCzD1
+         5PTXBSPPtPA3Xci7O3/FcDXENMPYSzSkOaFiRrjK+f1oK0/utRxWzA84Xe+jUBQmGHq7
+         yQnv7UfK/PDS2nIc9OWt7FrFhcAZeFCEAgFIMyOxPNTsL9Z5g/eEhlsV17CSM6ihh9uW
+         JglPbtmdnN1rNwH4tFW+vfxymgkLMiVTKLCttlAwRMxKBrHu3qYk+VqVO6VFC38yYflt
+         Kp4TJQ8tWEEoTImsHTEMW6njVdP55CyQRwBs6DnaF4zmpZYn6m5qA2qotGbRdaNOUFYq
+         qm2Q==
+X-Gm-Message-State: AIkVDXLVWAqqig8vo4OhH4/4tqzHDhpfYfogb7U+2dxKrs7A+fjkSlpDptw66BdTt3A6zH3tBnjnKnhL63UxcwUkiPInVXQ=
+X-Received: by 10.159.39.72 with SMTP id a66mr1750597uaa.150.1484746465063;
+        Wed, 18 Jan 2017 05:34:25 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.5.71 with SMTP id 68csp555550vsf;
+        Wed, 18 Jan 2017 05:34:24 -0800 (PST)
+X-Received: by 10.98.71.7 with SMTP id u7mr3880479pfa.76.1484746464233;
+        Wed, 18 Jan 2017 05:34:24 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id w21si263205pgh.79.2017.01.18.05.34.23
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 18 Jan 2017 05:34:24 -0800 (PST)
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mailcot.eu;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=mailcot.eu
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0IDbWf00330;
+	Wed, 18 Jan 2017 22:37:32 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0IDbWf00330
+X-SmartFilter: FROM,v0IDbWf00330,forensic@duzon.com
+x-forward-id: <3YXPDBKJ-86GH-7KP3-6OSQ-8VW08BY4WUCB@mailcot.eu>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3v3ScY0Kcbz11gMY; Wed, 18 Jan 2017 22:33:23 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3v3SbQ1JGDz11gMG
+	for <forensic@duzon.com>; Wed, 18 Jan 2017 22:33:22 +0900 (KST)
+Received: from external ([185.99.123.99])
+	by smf.duzon.co.kr (1.0) id v0IDaVb0032C;
+	Wed, 18 Jan 2017 22:36:31 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0IDaVb0032C
+X-SmartFilter: FROM,v0IDaVb0032C,info@mailcot.eu
+Received: from relay829.mysmtp3.com (relay829.mysmtp3.com [185.99.123.92]) 
+	by relay829.mysmtp3.com (Postfix) with ESMTPSA id B05D66805A1
+	for <forensic@duzon.com>; Wed, 18 Jan 2017 14:33:16 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=mailcot.eu; s=default;
+	t=1484746397; bh=tGsTg/W6yxyPHn/x8BAQ5d0P/GmNwqlNdQmTVuxVJjo=;
+	h=From:To:Subject:Date;
+	b=3y+m6GZQg6GF4ZfTzQVnwF0pZBWX1IdBZfk3D3J+kjhPoYioIQeXHEY3V+ZlYx/jl
+	 0WtQ2kWwQ1sTDdWVN1Zpa8b75a9v2PDVoh0DNEvyhBSifBFXm32ux44meYLsasYRrq
+	 32q+RMRpbUi+PQgqdh9N44RWs86nmJ81WH+DE6pA=
+Message-Id: <3YXPDBKJ-86GH-7KP3-6OSQ-8VW08BY4WUCB@mailcot.eu>
+Mime-Version: 1.0
+From: =?utf-8?Q?Mailcot_Italia=E2=84=97?= <info@mailcot.eu>
+To: forensic <forensic@duzon.com>
+Subject: 12 Mesi Prima Pagina Google Garantita 100 euro Omaggio
+Date: Wed, 18 Jan 2017 14:33:11 +0100
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +XFYpB3G1H+YbXFCbHmRKxKqFxUqjJ+Y
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1=2E0 Transitional//EN" "http://ww=
+w=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-transitional=2Edtd">
+<html xmlns=3D"http://www=2Ew3=2Eorg/1999/xhtml" data-dnd=3D"true">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />=
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, minimum-scale=3D1, maximum-scale=3D1" />
+<!--[if !mso]><!-->
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge" />
+<!--<![endif]-->
+
+<!--[if (gte mso 9)|(IE)]><style type=3D"text/css">
+table {border-collapse: collapse;}
+table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+img {-ms-interpolation-mode: bicubic;}
+</style>
+<![endif]-->
+<style type=3D"text/css">
+body {
+color: #000000;
+}
+body a {
+color: #1188e6;
+text-decoration: none;
+}
+p { margin: 0; padding: 0; }
+table[class=3D"wrapper"] {
+width:100% !important;
+table-layout: fixed;
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+img[class=3D"max-width"] {
+max-width: 100% !important;
+}
+@media screen and (max-width:480px) {
+=2Epreheader =2ErightColumnContent,
+=2Efooter =2ErightColumnContent {
+text-align: left !important;
+}
+=2Epreheader =2ErightColumnContent div,
+=2Epreheader =2ErightColumnContent span,
+=2Efooter =2ErightColumnContent div,
+=2Efooter =2ErightColumnContent span {
+text-align: left !important;
+}
+=2Epreheader =2ErightColumnContent,
+=2Epreheader =2EleftColumnContent {
+font-size: 80% !important;
+padding: 5px 0;
+}
+table[class=3D"wrapper-mobile"] {
+width: 100% !important;
+table-layout: fixed;
+}
+img[class=3D"max-width"] {
+height: auto !important;
+}
+a[class=3D"bulletproof-button"] {
+display: block !important;
+width: auto !important;
+font-size: 80%;
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+// 2 columns
+#templateColumns{
+width:100% !important;
+}
+
+=2EtemplateColumnContainer{
+display:block !important;
+width:100% !important;
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+}
+</style>
+<style>
+body, p, div { font-family: arial,sans-serif; }
+</style>
+<style>
+body, p, div { font-size: 14px; }
+</style>
+</head>
+<body yahoofix=3D"true" style=3D"min-width: 100%; margin: 0; padding: 0; fo=
+nt-size: 14px; font-family: arial,sans-serif; color: #000000; background-co=
+lor: #cecece; color: #000000;" data-attributes=3D'%7B%22dropped%22%3Atrue%2=
+C%22bodybackground%22%3A%22%23cecece%22%2C%22bodyfontname%22%3A%22arial%2Cs=
+ans-serif%22%2C%22bodytextcolor%22%3A%22%23000000%22%2C%22bodylinkcolor%22%=
+3A%22%231188e6%22%2C%22bodyfontsize%22%3A14%7D'>
+<center class=3D"wrapper">
+<div class=3D"webkit">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" clas=
+s=3D"wrapper" bgcolor=3D"#cecece">
+<tr><td valign=3D"top" bgcolor=3D"#cecece" width=3D"100%">
+<!--[if (gte mso 9)|(IE)]>
+<table width=3D"350" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0">
+<tr>
+<td>
+<![endif]-->
+<table width=3D"100%" role=3D"content-container" class=3D"outer" data-attri=
+butes=3D'%7B%22dropped%22%3Atrue%2C%22containerpadding%22%3A%220%2C0%2C0%2C=
+0%22%2C%22containerwidth%22%3A350%2C%22containerbackground%22%3A%22%23fffff=
+f%22%7D' align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+<tr>
+<td width=3D"100%"><table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+<tr>
+<td>
+<!--[if (gte mso 9)|(IE)]>
+<table width=3D"350" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0">
+<tr>
+<td>
+<![endif]-->
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" styl=
+e=3D"width: 100%; max-width:350px;" align=3D"center">
+<tr><td role=3D"modules-container" style=3D"padding: 0px 0px 0px 0px; color=
+: #000000; text-align: left;" bgcolor=3D"#ffffff" width=3D"100%" align=
+=3D"left">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" wi=
+dth=3D"100%" style=3D"display:none !important; visibility:hidden; opacity:0=
+; color:transparent; height:0; width:0;" class=3D"module preheader preheade=
+r-hide" role=3D"module" data-type=3D"preheader">
+<tr><td role=3D"module-content"><p></p></td></tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#ffffff"><div style=3D"text-align: center;"=
+><span style=3D"font-size:10px;"><span style=3D"color:#808080;">se non visu=
+alizzi correttamente</span> <a href=3D"https://sg-mktg=2Ecom/MTQ4NDY0OTMyNX=
+xiM3FxTTBiUklJeVhhOEh0X01Wb0FMaFRvckFrVGdFb1JTb2JzcFllZWlUelBwS3YwMUJ1clFRc=
+lRkUGRmbnU2NGVialRONEZUaWtwZElrcmNiU1I3VjFuSzdoQkpHZkJVYTZrUlk3N3VmT2ZNMmg5=
+QlF0UGFUYW9NVS1LZ2tTSlBnTm1UZFEtOXpqTmRjOS1scHdoWW1GbzlWLWZmMGhKdG1yc3daLWx=
+tVmRpMjY1b3BSM1NFSDJ6WVZTM2RsVUl2VE9PMFY2eUlEakluc2txaDlYS1I4QTVybmtoNC1CMU=
+9ZZktBYnFxaXZuNXY1QXQ1eG1maE5GT2JBUUZxTWs9fG-08rfzN90gPq4uzBNt0O2YUnAWpTTrr=
+zjp-0hwViAt">clicca qui</a></span></div> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A30%2C%22=
+containerbackground%22%3A%22%23ffffff%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 10px 0px;" bgcolo=
+r=3D"#ffffff"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%230D8071%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#0D8071"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%230d8071=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#0d8071"><div style=3D"text-align: center;"=
+><span style=3D"color:#FFFFFF;"><span style=3D"font-size:18px;"><span style=
+=3D"font-family:arial,helvetica,sans-serif;">Arriva in Prima Pagina&nbsp;<s=
+trong>GOOGLE</strong></span></span></span></div> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%230D8071%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#0D8071"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%230A9886%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#0A9886"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%230a9886=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#0a9886"><div style=3D"text-align: center;"=
+><span style=3D"color:#FFFFFF;"><span style=3D"font-size:18px;"><strong>BAN=
+NER ANIMATO</strong> fisso per 12&nbsp;Mesi</span></span></div> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%230a9886%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#0a9886"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%230bb8a2%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#0bb8a2"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%230BB8A2=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#0BB8A2"><div style=3D"text-align: center;"=
+><span style=3D"color:#FFFFFF;"><span style=3D"font-size:18px;"><strong>VET=
+RINA</strong> Fotoredazionale per 12 Mesi</span></span></div> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%230BB8A2%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#0BB8A2"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%2340948a%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#40948a"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%2340948A=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#40948A"><div style=3D"text-align: center;"=
+><span style=3D"color:#FFFFFF;"><span style=3D"font-size:18px;"><strong>SEO=
+LINK</strong> popularity al sito per 12 mesi</span></span></div> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%2340948A%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#40948A"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%2345cab9%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#45cab9"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%2345cab9=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#45cab9"><div style=3D"text-align: center;"=
+><span style=3D"color:#FFFFFF;"><span style=3D"font-size:18px;">Statistiche=
+ con <strong>DASHBOARD</strong> Certificata</span></span></div> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%2345cab9%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#45cab9"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A30%2C%22=
+containerbackground%22%3A%22%23ffffff%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 10px 0px;" bgcolo=
+r=3D"#ffffff"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#ffffff"><div style=3D"text-align: center;"=
+><span style=3D"font-size:18px;"><span style=3D"color:#0D8071;">SOLO</span>=
+</span><span style=3D"font-size:24px;"><span style=3D"color:#0D8071;"><stro=
+ng> </strong></span></span><span style=3D"font-size:36px;"><span style=
+=3D"color:#0D8071;"><strong>1,89&nbsp;euro</strong></span></span><span styl=
+e=3D"font-size:24px;"><span style=3D"color:#0D8071;"><strong>&nbsp;</strong=
+></span></span><span style=3D"font-size:18px;"><span style=3D"color:#0D8071=
+;">AL GIORNO</span></span></div> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A30%2C%22=
+containerbackground%22%3A%22%23ffffff%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 10px 0px;" bgcolo=
+r=3D"#ffffff"></td></tr></table>
+<table role=3D"module" data-type=3D"image" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fix=
+ed;" class=3D"wrapper" data-attributes=3D'%7B%22child%22%3Afalse%2C%22link%=
+22%3A%22%22%2C%22width%22%3A400%2C%22height%22%3A270%2C%22imagebackground%2=
+2%3A%22%23FFFFFF%22%2C%22url%22%3A%22https%3A//marketing-image-production=
+=2Es3=2Eamazonaws=2Ecom/uploads/ab19170f837fec33246173b76d7c2ca215d8d571982=
+85f804fad6962943484d7e5dc6d682caaf633020786d936f5ace7f2f2ea4bf65895890645e6=
+3e6e7a849e=2Epng%22%2C%22alt_text%22%3A%22%22%2C%22dropped%22%3Atrue%2C%22i=
+magemargin%22%3A%220%2C0%2C0%2C0%22%2C%22alignment%22%3A%22%22%2C%22respons=
+ive%22%3Atrue%7D'>
+<tr>
+<td style=3D"font-size:6px;line-height:10px;background-color:#FFFFFF;paddin=
+g: 0px 0px 0px 0px;" valign=3D"top" align=3D"" role=3D"module-content"><!--=
+[if mso]>
+<center>
+<table width=3D"400" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"table-layout: fixed;">
+<tr>
+<td width=3D"400" valign=3D"top">
+<![endif]-->
+
+<img class=3D"max-width"  width=3D"400"   height=3D""  src=3D"https://marke=
+ting-image-production=2Es3=2Eamazonaws=2Ecom/uploads/ab19170f837fec33246173=
+b76d7c2ca215d8d57198285f804fad6962943484d7e5dc6d682caaf633020786d936f5ace7f=
+2f2ea4bf65895890645e63e6e7a849e=2Epng" alt=3D"" border=3D"0" style=3D"displ=
+ay: block; color: #000; text-decoration: none; font-family: Helvetica, aria=
+l, sans-serif; font-size: 16px;  max-width: 400px !important; width: 100% !=
+important; height: auto !important; " />
+
+<!--[if mso]>
+</td></tr></table>
+</center>
+<![endif]--></td>
+</tr>
+</table><table class=3D"module" role=3D"module" data-type=3D"spacer" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A=
+30%2C%22containerbackground%22%3A%22%23ffffff%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 10px 0px;" bgcolo=
+r=3D"#ffffff"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#ffffff"><div style=3D"text-align: center;"=
+><strong><span style=3D"color: rgb(13, 128, 113); font-family: arial, sans-=
+serif; font-size: 18px; font-style: normal; font-variant-caps: normal; text=
+-align: center; background-color: rgb(255, 255, 255);">A MENO DI 2 EURO TI =
+GARANTIAMO:</span></strong></div>  <ol> 	<li><span style=3D"color: rgb(13, =
+128, 113);"><font size=3D"4">Prima Pagina Google <span style=3D"background-=
+color:#FFFF00;">Organica</span></font></span></li> 	<li><span style=3D"colo=
+r: rgb(13, 128, 113);"><font size=3D"4">Banner Animato <span style=3D"backg=
+round-color:#FFFF00;">3 Milioni</span> Visitatori</font></span></li> 	<li><=
+span style=3D"color: rgb(13, 128, 113);"><font size=3D"4">Vetrina Impresa <=
+span style=3D"background-color:#FFFF00;">3 Milioni</span> Visitatori</font>=
+</span></li> 	<li><span style=3D"color: rgb(13, 128, 113);"><font size=
+=3D"4">Seo e Popolarit=C3=A0 al tuo sito <span style=3D"background-color:#F=
+FFF00;">12 mesi</span></font></span></li> 	<li><span style=3D"color: rgb(13=
+, 128, 113);"><font size=3D"4"><span style=3D"background-color:#FFFF00;">Go=
+ogle Analytics</span> + DashboardCert</font></span></li> </ol> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A30%2C%22=
+containerbackground%22%3A%22%23ffffff%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 10px 0px;" bgcolo=
+r=3D"#ffffff"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#ffffff"><div style=3D"text-align: center;"=
+><span style=3D"color:#cc0000;"><span style=3D"font-size:18px;">SCEGLI</spa=
+n><span style=3D"font-size:24px;"><strong> </strong></span><span style=
+=3D"font-size:36px;"><strong>20=2E000</strong></span><span style=3D"font-si=
+ze:24px;"><strong>&nbsp;</strong></span><span style=3D"font-size:18px;">CLI=
+ENTI FRA</span></span></div> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#ffffff"><div style=3D"text-align: center;"=
+>&nbsp;</div>  <ol> 	<li><span style=3D"color:#cc0000;"><font size=3D"4"><s=
+trong>15=2E000=2E000</strong> DI PRIVATI</font></span></li> 	<li><span styl=
+e=3D"color:#cc0000;"><font size=3D"4"><strong>3=2E000=2E000</strong> DI IMP=
+RESE</font></span></li> 	<li><span style=3D"color:#cc0000;"><font size=
+=3D"4"><strong>1=2E000=2E000</strong> DI PROFESSIONISTI</font></span></li> =
+	<li><span style=3D"color:#cc0000;"><font size=3D"4">HTML GRAFICO INCLUSO</=
+font></span></li> 	<li><span style=3D"color:#cc0000;"><font size=3D"4">GARA=
+NZIA OPEN RATE MINIMO</font></span></li> </ol> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A30%2C%22=
+containerbackground%22%3A%22%23ffffff%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 10px 0px;" bgcolo=
+r=3D"#ffffff"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"button" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22borderradius%22%3A3%2=
+C%22buttonpadding%22%3A%2218%2C18%2C18%2C18%22%2C%22text%22%3A%22PARLIAMONE=
+%2520SENZA%2520IMPEGNO%22%2C%22alignment%22%3A%22center%22%2C%22fontsize%22=
+%3A16%2C%22url%22%3A%22info@mailcot=2Eeu%22%2C%22height%22%3A%22%22%2C%22wi=
+dth%22%3A%22%22%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22padding%=
+22%3A%220%2C0%2C0%2C0%22%2C%22buttoncolor%22%3A%22%230D8071%22%2C%22textcol=
+or%22%3A%22%23ffffff%22%2C%22bordercolor%22%3A%22%230D8071%22%7D'>
+<tr>
+<td style=3D"padding: 0px 0px 0px 0px;" align=3D"center" bgcolor=3D"#ffffff=
+">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"wrapper-mo=
+bile">
+<tr>
+<td align=3D"center" style=3D"-webkit-border-radius: 3px; -moz-border-radiu=
+s: 3px; border-radius: 3px; font-size: 16px;" bgcolor=3D"#0D8071">
+<a href=3D"info@mailcot=2Eeu" class=3D"bulletproof-button" target=3D"_blank=
+" style=3D"height: px; width: px; font-size: 16px; line-height: px; font-fa=
+mily: Helvetica, Arial, sans-serif; color: #ffffff; padding: 18px 18px 18px=
+ 18px; text-decoration: none; color: #ffffff; text-decoration: none; -webki=
+t-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border: =
+1px solid #0D8071; display: inline-block;">PARLIAMONE SENZA IMPEGNO</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A15%2C%22=
+containerbackground%22%3A%22%23ffffff%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 15px 0px;" bgcolo=
+r=3D"#ffffff"></td></tr></table>
+<table class=3D"module" role=3D"module" data-type=3D"text" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=3D"table-layout: fix=
+ed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22=
+padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff=
+%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#ffffff"><div style=3D"text-align: center;"=
+><span style=3D"color:#0D8071;">Massi Vigilante - <em>Marketing Manager</em=
+></span></div>  <div style=3D"text-align: center;"><span style=3D"color:#0D=
+8071;">=E2=80=8BSeometrics=C2=AE <em>a Digital Company</em></span></div>  <=
+div style=3D"text-align: center;"><span style=3D"color: rgb(13, 128, 113); =
+font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-v=
+ariant-caps: normal; text-align: center; background-color: rgb(255, 255, 25=
+5);">0289877596 - 3298132523</span></div>  <div style=3D"text-align: center=
+;"><span style=3D"color: rgb(13, 128, 113); font-family: arial, sans-serif;=
+ font-size: 14px; font-style: normal; font-variant-caps: normal; text-align=
+: center; background-color: rgb(255, 255, 255);">info@mailcot=2Eeu</span></=
+div> </td>
+</tr>
+</table>
+<table class=3D"module" role=3D"module" data-type=3D"spacer" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-layout: fi=
+xed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22spacing%22%3A30%2C%22=
+containerbackground%22%3A%22%23ffffff%22%7D'>
+<tr><td role=3D"module-content" style=3D"padding: 0px 0px 10px 0px;" bgcolo=
+r=3D"#ffffff"></td></tr></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" wi=
+dth=3D"100%" class=3D"module footer" role=3D"module" data-type=3D"footer" d=
+ata-attributes=3D'%7B%22dropped%22%3Atrue%2C%22columns%22%3A1%2C%22padding%=
+22%3A%2210%2C5%2C10%2C5%22%2C%22containerbackground%22%3A%22%23ffffff%22%7D=
+'>
+<tr><td style=3D"padding: 10px 5px 10px 5px;" bgcolor=3D"#ffffff">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" wi=
+dth=3D"100%">
+<tr role=3D"module-content">
+
+<td align=3D"center" valign=3D"top" width=3D"100%" height=3D"100%" class=
+=3D"templateColumnContainer">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" heig=
+ht=3D"100%">
+<tr>
+<td class=3D"leftColumnContent" role=3D"column-one" height=3D"100%" style=
+=3D"height:100%;"><table class=3D"module" role=3D"module" data-type=3D"text=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"  width=3D"100%" style=
+=3D"table-layout: fixed;" data-attributes=3D'%7B%22dropped%22%3Atrue%2C%22c=
+hild%22%3Afalse%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackgro=
+und%22%3A%22%23ffffff%22%7D'>
+<tr>
+<td role=3D"module-content"  valign=3D"top" height=3D"100%" style=3D"paddin=
+g: 0px 0px 0px 0px;" bgcolor=3D"#ffffff"><div style=3D"font-size:12px;line-=
+height:150%;margin:0;text-align:center;"><span style=3D"color:#808080;">Ai =
+sensi dell=E2=80=99art=2E 13 del d=2Elgs=2E 30 giugno 2003, n=2E 196 =
+=E2=80=9CCodice in materia di protezione dei dati personali=E2=80=9D, La in=
+formiamo che per la tutela della privacy </span><a href=3D"[Unsubscribe]"><=
+span style=3D"color:#0000FF;">cliccando QUI</span></a><span style=3D"color:=
+#808080;">, il suo contatto sar=C3=A0 immediatamente cancellato=E2=80=
+=8B</span></div> </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+</td></tr>
+</table>
+
+</tr></td>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</td>
+</table>
+<![endif]-->
+</td>
+</tr>
+</table></td>
+</tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</tr></td>
+</table>
+</div>
+</center>
+</body>
+</html>
+
+

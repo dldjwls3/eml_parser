@@ -1,0 +1,329 @@
+Received: (qmail 12694 invoked from network); 24 Jul 2015 01:06:49 -0000
+Received: from 10.114.29.99 (HELO crcvmailnw02.nm.naver.com) (10.114.29.99)
+  by cmda02.wmail.naver.com with SMTP; 24 Jul 2015 01:06:49 -0000
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmailnw02.nm.naver.com with ESMTP id TyW1XhF5RQmyTjEPDTbKVw
+  for <jonghyun.kim@dforensic.com>;
+  Fri, 24 Jul 2015 01:06:49 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t6O0xtX00640;
+	Fri, 24 Jul 2015 09:59:55 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t6O0xtX00640
+X-SmartFilter: FROM,t6O0xtX00640,joseph@duzon.com
+x-forward-id: 1437699900381_935649226
+recvDate: Fri, 24 Jul 2015 10:05:00 +0900
+x-newturns-hashkey: 7f8b4897a8621871c4e29a742d14b008d5cfb3e51c63114bb38236425c8fc048
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id t6O0xKB0062A;
+	Fri, 24 Jul 2015 09:59:20 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t6O0xKB0062A
+X-SmartFilter: FROM,t6O0xKB0062A,495-KNT-277.0.12341.0.0.9012.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6NzcxNzoxMjM0MToyNTMyNTowOjkwMTI6NzoxMTQxNTky
+Received: from [10.0.11.252] ([10.0.11.252:40564] helo=sjmas02.marketo.org)
+	by sjmta03.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 77/0B-01634-18F81B55; Thu, 23 Jul 2015 20:06:09 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1437699969;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=QOyouIZO8eg+abl+M0aoxxXrnDavZHghFGXpILeoL1Q=;
+	b=ibhD3LGIzHyYqHYyqrWfGH7hkwNE5kbSBuh5XrDoqTNiwfqEEAUle0CpaOhdkO8+
+	Uzw1es/d7QOvAO+MSJ/bSi6LfHwn7Pa5nOpMDkCNiMcrwld/PaOPguUDyaHTvdIu9fa
+	p7nP4vKcfSQlYo3BOSLsiTt5ezl8br0vDiEV9m8c=
+Date: Thu, 23 Jul 2015 20:06:09 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <917637334.1001313390.1437699969356.JavaMail.root@sjmas02.marketo.org>
+Subject: [Resource Guide] Web Application Security
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1001313389_687218700.1437699969356"
+X-PVIQ: 000326-001349-000001-000000-016124
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:7717:12341:25325:0:9012:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.12341.9012.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.12341.0.0.9012.7.1141592@em-sj-77.mktomail.com
+X-MktMailDKIM: true
+X-Naver-ESV: +XeYpB3G1H+YbXFCbHmRKAumFotljJ+Y
+
+------=_Part_1001313389_687218700.1437699969356
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To view this email as a web page, go to the following address: https://info=
+rmation.rapid7.com/index.php/email/emailWebview?mkt_tok=3D3RkMMJWWfF9wsRonu=
+a%2FNc%2B%2FhmjTEU5z16u0pWKK%2FgIkz2EFye%2BLIHETpodcMRcJjN6%2BTFAwTG5toziV8=
+R7TMKc1r1MEQWRbl
+
+
+=20
+
+
+
+=20
+
+
+
+=20
+
+
+
+ <#>
+
+
+
+=20
+
+
+
+PRODUCTS <http://www.rapid7.com/products/index.jsp>     SERVICES <http://ww=
+w.rapid7.com/services/>     CUSTOMERS <http://www.rapid7.com/company/custom=
+ers.jsp>     CONTACT <http://www.rapid7.com/contact/>
+
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+=20
+
+View the Web App Security Resource Guide Now <https://information.rapid7.co=
+m/dynamic-application-security-testing-toolkit-2.html?CS=3Demail>
+
+
+
+Access these complimentary resources=20
+today to explore:
+
+
+ - Best practices for reducing risk with a Dynamic App Security Program
+ - How to improve the accuracy of and modernize your application security t=
+ests
+ - A Dynamic Application Security Testing (DAST) Market Overview
+ - The complicated evolution of threat actors and applications
+ - What to look for in a web application scanner
+
+
+
+The 2015 Verizon Data Breach Investigations Report highlights that web appl=
+ication attacks remain the most frequent incident pattern in confirmed brea=
+ches and accounted for up to 35% of breaches in some industries. It's also =
+estimated that nearly 50% of those incidents take months or longer to disco=
+ver. Are you confident that you have the best programs in place to help you=
+ navigate these attacks?=20
+
+To learn more: Get the free Web App Security Resource Guide.
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+
+
+
+=C2=A9 2015 Rapid7, All Rights Reserved.
+ 100 Summer Street, 13th Floor
+ Boston, MA 02110-2131
+ www.rapid7.com <http://www.rapid7.com>
+ 866-7-RAPID7
+
+
+
+
+
+
+ <http://feeds2.feedburner.com/Rapid7"><img title=3D>  <https://twitter.com=
+/Rapid7>  <https://community.rapid7.com/welcome>  <mailto:info@rapid7.com">=
+<img title=3D>
+ <http://www.rapid7.com>
+
+If you no longer wish to receive these emails, go to the following link to =
+unsubscribe: https://information.rapid7.com/UnsubscribePage.html?mkt_unsubs=
+cribe=3D1&mkt_tok=3D3RkMMJWWfF9wsRonua%2FNc%2B%2FhmjTEU5z16u0pWKK%2FgIkz2EF=
+ye%2BLIHETpodcMRcJjN6%2BTFAwTG5toziV8R7TMKc1r1MEQWRbl.
+
+------=_Part_1001313389_687218700.1437699969356
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body >
+<div style="text-align: center"><font face="Verdana" size="1">To view this email as a web page, <a href=
+"http://info.rapid7.com/v/lXNMg000l8YM0T2440Q0U0K"
+>click here</a><br /><br /></font></div>
+<div ><div class="mktEditable" id="edit_text_1" >
+<p>&nbsp;</p>
+<!-- Wrapper --> 
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding-top: 20px;" width="100%" valign="top" bgcolor="#FFFFFF"><!-- Start Header--> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="padding: 10px;" width="100%" bgcolor="#363636"><!-- Logo --> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding: 5px 5px;"><a href="#"><img src="http://information.rapid7.com/rs/rapid7/images/r7-logo-small.gif" border="0" alt="" /></a></td>
+</tr>
+</tbody>
+</table>
+<!-- End Logo --> <!-- Nav --> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 11px; color: #272727; font-weight: light; text-align: right; font-family: Arial, Helvetica, sans-serif; line-height: 20px; vertical-align: middle; padding: 10px 20px; font-style: normal;"><a style="text-decoration: none; color: #ffffff;"  href=
+"http://info.rapid7.com/o02KQ006X008MK04YTN4Ml0"
+>PRODUCTS</a> &nbsp;&nbsp;&nbsp;                                         <a style="text-decoration: none; color: #ffffff;" href=
+"http://info.rapid7.com/b00004NlXKL0TM87020MY4Q"
+>SERVICES</a> &nbsp;&nbsp;&nbsp;                                         <a 
+style="text-decoration: none; color: #ffffff;" href=
+"http://info.rapid7.com/JN2lKM0M8T0Q8XY04M00040"
+>CUSTOMERS</a> &nbsp;&nbsp;&nbsp;                                         <a style="text-decoration: none; color: #ffffff;" href=
+"http://info.rapid7.com/O0X0M4MT0200QKlN09048YN"
+>CONTACT</a></td>
+</tr>
+</tbody>
+</table>
+<!-- End Nav --><!-- End Nav --></td>
+</tr>
+</tbody>
+</table>
+<!-- End Header --> <!-- One Column --> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td style="font-size: 14px; font-weight: normal; text-align: left; font-family: Arial, Helvetica, sans-serif; line-height: 24px; vertical-align: top; padding: 5px 0px 5px 0px;" bgcolor="#ffffff">
+<table style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 24px;">
+<tbody>
+<tr>
+<td class="center" style="padding: 5px 30px;">
+<p style="margin-center: 50px;">&nbsp;</p>
+</td>
+<td style="color: #ffffff; padding: 8px; text-align: center; background-color: #ea5709;"><span style="font-size: 18px;"><span style="font-family: arial, helvetica, sans-serif;"><strong><a style="color: #ffffff; text-decoration: none;"  href=
+"http://info.rapid7.com/t4TM2M0XKY0la00QN40008O"
+>View the Web App Security Resource Guide Now</a></strong></span></span></td>
+</tr>
+</tbody>
+</table>
+<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; line-height: 24px;"><strong><a href=
+"http://info.rapid7.com/t4TM2M0XKY0la00QN40008O"
+>Access these complimentary resources    
+today</a></strong>&nbsp;to&nbsp;explore:</p>
+<ul style="font-family: Arial, Helvetica, sans-serif;">
+<li><strong>Best practices</strong>&nbsp;for reducing risk with a Dynamic App Security Program</li>
+<li>How to&nbsp;<strong>improve the accuracy</strong>&nbsp;of and <strong>modernize your application security tests</strong></li>
+<li>A Dynamic Application Security Testing <strong>(DAST) Market Overview</strong></li>
+<li>The complicated <strong>evolution of threat actors and applications</strong></li>
+<li>What to look for in a <strong>web application scanner</strong></li>
+</ul>
+<p><span>The&nbsp;2015 Verizon Data Breach Investigations Report&nbsp;highlights that web application attacks remain the most frequent incident pattern in confirmed breaches and accounted for up to 35% of breaches in some industries.&nbsp;It's also estimated that nearly 50% of those incidents take 
+      months or longer to discover.&nbsp;</span>Are you confident that you have the best programs in place to help you navigate these attacks?&nbsp;</p>
+<p><span>To learn more:&nbsp;<a href=
+"http://info.rapid7.com/t4TM2M0XKY0la00QN40008O"
+><strong>Get the free Web App Security Resource Guide</strong>.<br /></a></span></p>
+<ul style="font-family: Arial, Helvetica, sans-serif;">
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End One Column --> <!-- Start 2 Column Images & Text Side by SIde --> <!-- One Column --> <!-- spacer --> 
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding: 7px 0;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#363636">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="45%" align="left">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #999999; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; padding: 20px;" valign="top"><span style="font-family: arial, helvetica, sans-serif;">&copy; 2015 Rapid7, All Rights Reserved.</span><br /><span style="font-family: arial,          
+                               helvetica, sans-serif;"> 100 Summer Street, 13th Floor</span><br /><span style="font-family: arial, helvetica, sans-serif;"> Boston, MA 02110-2131</span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="color: #999; text-decoration: 
+underline;" href=
+"http://info.rapid7.com/E040K0MbNPY0Q0MT2X04l08"
+>www.rapid7.com</a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> 866-7-RAPID7</span></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="40%" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 15px; color: #f1f1f1; font-weight: normal; font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif; line-height: 26px; vertical-align: top; text-align: right; padding: 20px;" valign="top"><a href=
+"http://info.rapid7.com/HK0020M0QMcYXT40l8N00Q4"
+><img title="RSS Feed" 
+src="http://information.rapid7.com/rs/rapid7/images/rss-footer.gif" border="0" alt="RSS Feed" /></a> <a href=
+"http://info.rapid7.com/wNYTQ44Kl0000M8d00M2R0X"
+><img title="Twitter" src="http://information.rapid7.com/rs/rapid7/images/twitter-footer.gif" border="0" alt="Twitter" /></a> <a  href=
+"http://info.rapid7.com/TeQKX0M08000YNS20l4M4T0"
+><img title="Rapid7 Community" src="http://information.rapid7.com/rs/rapid7/images/community-footer.gif" border="0" alt="Rapid7 Community" /></a> <a href=
+"http://info.rapid7.com/I080TKY0l4MfQ42M0X0NT00"
+><img title="Email Rapid7" 
+src="http://information.rapid7.com/rs/rapid7/images/mail-footer.gif" border="0" alt="Email Rapid7" /></a><br /> <a href=
+"http://info.rapid7.com/E040K0MbNPY0Q0MT2X04l08"
+><img src="http://information.rapid7.com/rs/rapid7/images/r7-logo-small.gif" border="0" alt="Rapid7 Home Page" /></a><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End Wrapper -->
+</div>
+</div>
+
+<IMG SRC="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6NzcxNzoxMjM0MToyNTMyNTowOjkwMTI6NzoxMTQxNTkyOmpvc2VwaEBkdXpvbi5jb20%3D" WIDTH="1" HEIGHT="1" BORDER="0" ALT="" />
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><p><font face="Verdana" size="1">If you no longer wish to receive these emails, click on the following link: <a href=
+"http://info.rapid7.com/u/R00l4Y8NM40020M0KVTXhQ0"
+>Unsubscribe</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_1001313389_687218700.1437699969356--
+

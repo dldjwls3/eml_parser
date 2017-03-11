@@ -1,0 +1,1090 @@
+Received: (qmail 22877 invoked from network); 5 Sep 2015 16:04:50 -0000
+Received: from 10.114.29.99 (HELO crcvmailnw02.nm.naver.com) (10.114.29.99)
+  by cmda03.wmail.naver.com with SMTP; 5 Sep 2015 16:04:50 -0000
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmailnw02.nm.naver.com with ESMTP id wnsPLcxzTbSSjcBD0uJv2Q
+  for <jonghyun.kim@dforensic.com>;
+  Sat, 05 Sep 2015 16:04:50 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t85FrG0004E3;
+	Sun, 06 Sep 2015 00:53:16 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t85FrG0004E3
+X-SmartFilter: FROM,t85FrG0004E3,joseph@duzon.com
+x-forward-id: 1441468961941_935649226
+recvDate: Sun, 06 Sep 2015 01:02:41 +0900
+x-newturns-hashkey: 10fa73cdd03101cb732105f947ebd3eb671de8500cfe036a811461d2dcbb4c30
+Received: from external ([205.201.129.23])
+	by smf.duzon.com (1.0) id t85Fr1e004CF;
+	Sun, 06 Sep 2015 00:53:01 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t85Fr1e004CF
+X-SmartFilter: FROM,t85Fr1e004CF,bounce-mc.us7_19778971.367781-joseph=duzon.com@mail23.wdc01.mcdlv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail23.wdc01.mcdlv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=info=3Di-hls.com@mail23.wdc01.mcdlv.net;
+ bh=469Zj4tZn8qTpyjA9og6XoE9AKY=;
+ b=iNtDnS/pZHdqpunFgTdJEkWbSciZIjhjBxfnUCqB8GouwZEdvJe0OXdbUdPhJHrzCAzYsSFVv1My
+   ZD6ifBYzM61/UldU6C+4x7ZUXpPNQK9+8wgsOG2sX1scq+PRO3ak3TM+enr99onAGkk1FfD1n5lL
+   UXWTucM7SPCLa+j7GXM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail23.wdc01.mcdlv.net;
+ b=WncG5+wdXZQqnMQVsx6dZjeVhJVw3k/3/OA3oOpPZWK/Z/isXyu9deareXnqanN7DWcdllTSTGOa
+   1Hu8Y+99X7uNyTyBgTO6X0rjERSRaUZPi+b8Epusy1dywGxZyqFduPsBUrwsumEsSAdtOQGzmUS5
+   a3XZptif1W9MPuBpWLM=;
+Received: from (127.0.0.1) by mail23.wdc01.mcdlv.net id htc98u174e0j for <joseph@duzon.com>; Sat, 5 Sep 2015 16:04:25 +0000 (envelope-from <bounce-mc.us7_19778971.367781-joseph=duzon.com@mail23.wdc01.mcdlv.net>)
+Subject: =?utf-8?Q?Topics=20Newsletter?=
+From: =?utf-8?Q?iHLS?= <info@i-hls.com>
+Reply-To: =?utf-8?Q?iHLS?= <info@i-hls.com>
+To: =?utf-8?Q?Joseph?= <joseph@duzon.com>
+Date: Sat, 5 Sep 2015 16:04:25 +0000
+Message-ID: <5acc1ed377b590a98a195f62477ab4125da.20150905160348@mail23.wdc01.mcdlv.net>
+X-Mailer: MailChimp Mailer - **CIDeec84bb6da77ab4125da**
+X-Campaign: mailchimp5acc1ed377b590a98a195f624.eec84bb6da
+X-campaignid: mailchimp5acc1ed377b590a98a195f624.eec84bb6da
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=5acc1ed377b590a98a195f624&id=eec84bb6da&e=77ab4125da
+X-MC-User: 5acc1ed377b590a98a195f624
+X-Feedback-ID: 19778971:19778971.367781:us7:mc
+List-ID: 5acc1ed377b590a98a195f624mc list <5acc1ed377b590a98a195f624.157721.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us7_5acc1ed377b590a98a195f624.eec84bb6da-77ab4125da@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://i-hls.us7.list-manage.com/unsubscribe?u=5acc1ed377b590a98a195f624&id=8ee2e16ed1&e=77ab4125da&c=eec84bb6da>
+Sender: "iHLS" <info=i-hls.com@mail23.wdc01.mcdlv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_913452168"
+MIME-Version: 1.0
+X-Naver-ESV: +reYpB3G1H+YbXFCbHmRKxMmFAEmjJ+Y
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_913452168
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Select the newsletter topics you would like to recieve (http://i-hls.us7.l=
+ist-manage.com/profile?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D=
+77ab4125da)
+
+Is this email not displaying correctly? View it in your browser. (http://u=
+s7.campaign-archive2.com/?u=3D5acc1ed377b590a98a195f624&id=3Deec84bb6da&e=
+=3D77ab4125da)
+
+http://ausr.i-hls.com/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&ut=
+m_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8e=
+e2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+Your customized newsletter
+September 5=2C 2015
+http://i-hls.com/2015/09/last-preparations-for-ausr-2015/?utm_source=3DIsr=
+ael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC=
+&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_=
+cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Last Preparations For AUS&R 2015 (http://i-hls.com/2015/09/last-prepara=
+tions-for-ausr-2015/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_=
+campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2=
+e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+Coordination between the presenters of the air show=2C and the ground and=
+ maritime demonstrations=2C as well as the interfaces of the mobile (http:=
+//i-hls.com/2015/09/last-preparations-for-ausr-2015/?utm_source=3DIsrael+H=
+omeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_=
+medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=
+=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/new-information-sharing-app-for-police-dep/?utm_s=
+ource=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGL=
+ISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** New Information-Sharing App For Police Dep. (http://i-hls.com/2015/09/n=
+ew-information-sharing-app-for-police-dep/?utm_source=3DIsrael+Homeland+Se=
+curity+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3De=
+mail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6d=
+a&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+Municipal police departments in Bradford County=2C Pa.=2C have decided to=
+ start using a new computerized system that will allow the different depar=
+tments (http://i-hls.com/2015/09/new-information-sharing-app-for-police-de=
+p/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb=
+6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/wearable-device-to-save-lives-in-battlefield/?utm=
+_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-EN=
+GLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Wearable Device To Save Lives In Battlefield (http://i-hls.com/2015/09/=
+wearable-device-to-save-lives-in-battlefield/?utm_source=3DIsrael+Homeland=
++Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=
+=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84=
+bb6da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+When a person is injured=2C one of the first things a doctor does is measu=
+re their vital signs =E2=80=93 heart rate=2C breathing (http://i-hls.com/2=
+015/09/wearable-device-to-save-lives-in-battlefield/?utm_source=3DIsrael+H=
+omeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_=
+medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=
+=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/the-outdated-protocol-of-fire-departments/?utm_so=
+urce=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLI=
+SH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** The Outdated Protocol Of Fire Departments (http://i-hls.com/2015/09/the=
+-outdated-protocol-of-fire-departments/?utm_source=3DIsrael+Homeland+Secur=
+ity+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demai=
+l&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&m=
+c_eid=3D[UNIQID])
+------------------------------------------------------------
+Although the realities of the fire fighters=E2=80=99 job has changed=2C th=
+e governmental regulations have not. The number of calls to the fire (http=
+://i-hls.com/2015/09/the-outdated-protocol-of-fire-departments/?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/the-military-wants-lasers-to-counter-drones/?utm_=
+source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENG=
+LISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** The Military Wants Lasers To Counter Drones (http://i-hls.com/2015/09/t=
+he-military-wants-lasers-to-counter-drones/?utm_source=3DIsrael+Homeland+S=
+ecurity+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3D=
+email&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6=
+da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+The military is still looking for ways to handle possible threats arising=
+ from the large number of small Unmanned Aerial Vehicles (UAV) (http://i-h=
+ls.com/2015/09/the-military-wants-lasers-to-counter-drones/?utm_source=3DI=
+srael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAM=
+IC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&m=
+c_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/spartan-servers-for-extreme-conditions/?utm_sourc=
+e=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_=
+DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Spartan =E2=80=93 Servers For Extreme Conditions (http://i-hls.com/2015=
+/09/spartan-servers-for-extreme-conditions/?utm_source=3DIsrael+Homeland+S=
+ecurity+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3D=
+email&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6=
+da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+E&M computing is launching =E2=80=9CSpartan=E2=80=9D- the first off-the-sh=
+elf extreme condition server. Spartan is subsidiary of E&M Computing Group=
+ that was founded in (http://i-hls.com/2015/09/spartan-servers-for-extreme=
+-conditions/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=
+=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-e=
+ec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/why-digital-forensics-must-be-regulated/?utm_sour=
+ce=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH=
+_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Why Digital Forensics Must Be Regulated (http://i-hls.com/2015/09/why-d=
+igital-forensics-must-be-regulated/?utm_source=3DIsrael+Homeland+Security+=
+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&ut=
+m_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_ei=
+d=3D[UNIQID])
+------------------------------------------------------------
+Digital or computer forensics involves the identification=2C recovery=2C a=
+nalysis and presentation in court of relevant information taken from elect=
+ronic devices such as (http://i-hls.com/2015/09/why-digital-forensics-must=
+-be-regulated/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campai=
+gn=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1=
+-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/from-start-to-finish-metal-parts-and-systems/?utm=
+_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-EN=
+GLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** From Start To Finish: Metal Parts And Systems (http://i-hls.com/2015/09=
+/from-start-to-finish-metal-parts-and-systems/?utm_source=3DIsrael+Homelan=
+d+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=
+=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84=
+bb6da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+Metalicone Technologies Ltd is an experienced manufacturer of top quality=
+=2C complex technical=2C high precision metal parts and systems. The compa=
+ny was established (http://i-hls.com/2015/09/from-start-to-finish-metal-pa=
+rts-and-systems/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_camp=
+aign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16e=
+d1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/want-to-fly-a-uav-come-to-ausr-2015/?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Want To Fly a UAV? Come To AUSR 2015 (http://i-hls.com/2015/09/want-to-=
+fly-a-uav-come-to-ausr-2015/?utm_source=3DIsrael+Homeland+Security+%28iHLS=
+%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=
+=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[=
+UNIQID])
+------------------------------------------------------------
+Want to fly a UAV? Come to the AUSR 2015 EVENT on September 7th in Rishon=
+ Letzion. Israel Aerospace Industries (IAI) will bring (http://i-hls.com/2=
+015/09/want-to-fly-a-uav-come-to-ausr-2015/?utm_source=3DIsrael+Homeland+S=
+ecurity+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3D=
+email&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6=
+da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/the-next-dimension-of-3dimension-printing/?utm_so=
+urce=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLI=
+SH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** The Next Dimension Of 3Dimension Printing (http://i-hls.com/2015/09/the=
+-next-dimension-of-3dimension-printing/?utm_source=3DIsrael+Homeland+Secur=
+ity+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demai=
+l&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&m=
+c_eid=3D[UNIQID])
+------------------------------------------------------------
+We=E2=80=99ve been told last month that the Israeli Air Force has acquired=
+ Stratasys=E2=80=99 Fortus 900 3D printers =E2=80=93 the company=E2=80=99s=
+ leading=2C most (http://i-hls.com/2015/09/the-next-dimension-of-3dimensio=
+n-printing/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=
+=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-e=
+ec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/outsourcing-may-be-the-only-option-for-u-s-intell=
+igence/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Dee=
+c84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84b=
+b6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Outsourcing May Be The Only Option For U.S. Intelligence (http://i-hls.=
+com/2015/09/outsourcing-may-be-the-only-option-for-u-s-intelligence/?utm_s=
+ource=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGL=
+ISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+The American company Uber provides transportation services online througho=
+ut the world and offers an adjusted route for drivers using their cars. La=
+tely (http://i-hls.com/2015/09/outsourcing-may-be-the-only-option-for-u-s-=
+intelligence/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaig=
+n=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-=
+eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/license-plates-for-drones/?utm_source=3DIsrael+Ho=
+meland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_m=
+edium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3D=
+eec84bb6da&mc_eid=3D[UNIQID]
+
+
+** License Plates For Drones (http://i-hls.com/2015/09/license-plates-for-=
+drones/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Dee=
+c84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84b=
+b6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+The Federal Aviation Administration (FAA) is working on establishing rules=
+ for private and commercial operators of unmanned aerial vehicles (UAV). H=
+owever=2C it (http://i-hls.com/2015/09/license-plates-for-drones/?utm_sour=
+ce=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH=
+_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/%d7%94%d7%a1%d7%9c%d7%95%d7%9f-%d7%94%d7%90%d7%95=
+%d7%95%d7%99%d7%a8%d7%99-%d7%94%d7%99%d7%99%d7%97%d7%95%d7%93%d7%99-%d7%9c=
+%d7%9b%d7%9c%d7%99%d7%9d-%d7%91%d7%9c%d7%aa%d7%99-%d7%9e%d7%90%d7%95%d7%99=
+/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6=
+da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Changes In Israeli Airspace Ahead Of The Unmanned Systems Air Show (htt=
+p://i-hls.com/2015/09/%d7%94%d7%a1%d7%9c%d7%95%d7%9f-%d7%94%d7%90%d7%95%d7=
+%95%d7%99%d7%a8%d7%99-%d7%94%d7%99%d7%99%d7%97%d7%95%d7%93%d7%99-%d7%9c%d7=
+%9b%d7%9c%d7%99%d7%9d-%d7%91%d7%9c%d7%aa%d7%99-%d7%9e%d7%90%d7%95%d7%99/?u=
+tm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-=
+ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+The preparations ahead of the AUS&R 2015 Conference to be held next Monday=
+=2C September 7th at Rishon LeZion Lago events center are almost complete.=
+ The (http://i-hls.com/2015/09/%d7%94%d7%a1%d7%9c%d7%95%d7%9f-%d7%94%d7%90=
+%d7%95%d7%95%d7%99%d7%a8%d7%99-%d7%94%d7%99%d7%99%d7%97%d7%95%d7%93%d7%99-=
+%d7%9c%d7%9b%d7%9c%d7%99%d7%9d-%d7%91%d7%9c%d7%aa%d7%99-%d7%9e%d7%90%d7%95=
+%d7%99/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Dee=
+c84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84b=
+b6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/iai-to-build-a-professional-network-for-the-cyber=
+-community-in-israel/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm=
+_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee=
+2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** IAI to build a professional network for the cyber community in Israel (=
+http://i-hls.com/2015/09/iai-to-build-a-professional-network-for-the-cyber=
+-community-in-israel/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm=
+_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee=
+2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+Israel Aerospace Industries (IAI) was recently awarded a contract by the I=
+srael National Cyber Bureau in the Prime Minister=E2=80=99s Office=2C to e=
+stablish (http://i-hls.com/2015/09/iai-to-build-a-professional-network-for=
+-the-cyber-community-in-israel/?utm_source=3DIsrael+Homeland+Security+%28i=
+HLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_te=
+rm=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D=
+[UNIQID])
+http://i-hls.com/2015/09/gremlin-uav-mischievous-teamwork/?utm_source=3DIs=
+rael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMI=
+C&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc=
+_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Gremlin UAV Mischievous Teamwork (http://i-hls.com/2015/09/gremlin-uav-=
+mischievous-teamwork/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm=
+_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee=
+2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+Imagine a fighter pilot flying above the Pacific across some contested air=
+space. Suddenly a series of sound alerts are heard in his (http://i-hls.co=
+m/2015/09/gremlin-uav-mischievous-teamwork/?utm_source=3DIsrael+Homeland+S=
+ecurity+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3D=
+email&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6=
+da&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/09/fast-draw-europe-is-changing/?utm_source=3DIsrael=
++Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&ut=
+m_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=
+=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Fast Draw =E2=80=93 Europe Is Changing (http://i-hls.com/2015/09/fast-d=
+raw-europe-is-changing/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&u=
+tm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8=
+ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID=
+])
+------------------------------------------------------------
+Arie Egozi Europe is changing. The waves of refugees are unstoppable and m=
+illions more are on their way. Most of these refugees (http://i-hls.com/20=
+15/09/fast-draw-europe-is-changing/?utm_source=3DIsrael+Homeland+Security+=
+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&ut=
+m_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_ei=
+d=3D[UNIQID])
+http://i-hls.com/2015/09/components-systems-and-industry-solutions/?utm_so=
+urce=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLI=
+SH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+
+** Components=2C Systems And Industry Solutions (http://i-hls.com/2015/09/=
+components-systems-and-industry-solutions/?utm_source=3DIsrael+Homeland+Se=
+curity+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3De=
+mail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6d=
+a&mc_eid=3D[UNIQID])
+------------------------------------------------------------
+Elimec Electro-Mechanical Engineering was established in 1988 and speciali=
+zes in importing and distributing electro-mechanical components and produc=
+ts and systems for military and (http://i-hls.com/2015/09/components-syste=
+ms-and-industry-solutions/?utm_source=3DIsrael+Homeland+Security+%28iHLS%2=
+9&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D=
+0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNI=
+QID])
+http://ausr.i-hls.com/?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&ut=
+m_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8e=
+e2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+
+http://www.facebook.com/pages/i-HLS/508579132507750?utm_source=3DIsrael+Ho=
+meland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_m=
+edium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3D=
+eec84bb6da&mc_eid=3D[UNIQID] http://www.linkedin.com/groups/iHLS-Israel-H=
+omeland-Security-iHLS-5176448?utm_source=3DIsrael+Homeland+Security+%28iHL=
+S%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=
+=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[=
+UNIQID] https://plus.google.com/u/0/100075572765826826504/posts?utm_source=
+=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLISH_D=
+YNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID] https://twitter.com/iHLS1?utm_so=
+urce=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3Deec84bb6da-ENGLI=
+SH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec84bb6da-=
+89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID] http://www.youtube.com/user/=
+israelhls?utm_source=3DIsrael+Homeland+Security+%28iHLS%29&utm_campaign=3D=
+eec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_term=3D0_8ee2e16ed1-eec8=
+4bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D[UNIQID]
+Israel Homeland Security
+www.i-hls.com (http://i-hls.com?utm_source=3DIsrael+Homeland+Security+%28i=
+HLS%29&utm_campaign=3Deec84bb6da-ENGLISH_DYNAMIC&utm_medium=3Demail&utm_te=
+rm=3D0_8ee2e16ed1-eec84bb6da-89968877&mc_cid=3Deec84bb6da&mc_eid=3D=
+[UNIQID])
+
+This email was sent to joseph@duzon.com
+why did I get this? (http://i-hls.us7.list-manage1.com/about?u=3D5acc1ed37=
+7b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3Deec84bb6da)     unsubscr=
+ibe from this list (http://i-hls.us7.list-manage.com/unsubscribe?u=3D5acc1=
+ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3Deec84bb6da)     upda=
+te subscription preferences (http://i-hls.us7.list-manage.com/profile?u=3D=
+5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da)
+iHLS Israel Homeland Security . Tel Aviv . Tel Aviv 36886 . Israel
+--_----------=_MCPart_913452168
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <title>Untitled Page</title>
+</head>
+<body style=3D"background-color: #eeeeee;">
+    <br>
+    <p align=3D"center">
+        <a align=3D"center" style=3D"font: bold 22px Arial" href=3D"http:/=
+/i-hls.us7.list-manage.com/profile?u=3D5acc1ed377b590a98a195f624&id=3D8ee2=
+e16ed1&e=3D77ab4125da">
+            Select the newsletter topics you would like to recieve</a></p>
+    <p align=3D"center">
+        <a align=3D"center" style=3D"font: bold 22px Arial" href=3D"http:/=
+/us7.campaign-archive2.com/?u=3D5acc1ed377b590a98a195f624&id=3Deec84bb6da&=
+e=3D77ab4125da">Is this email not
+            displaying correctly? View it in your browser.</a></p>
+    <table width=3D"820" align=3D"center">
+        <tr>
+            <td align=3D"center">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table width=3D"820" align=3D"center">
+        <tr>
+           <td>
+                <a href=3D"http://i-hls.us7.list-manage1.com/track/click?u=
+=3D5acc1ed377b590a98a195f624&id=3Dd31582065f&e=3D77ab4125da">
+                    <img src=3D"http://i-hls.com/wp-content/uploads/dynami=
+c/ausren.jpg" width=3D"820" height=3D"101"></a><br>
+            </td>
+        </tr>
+    </table>
+    <table width=3D"820" align=3D"center">
+        <tr>
+            <td align=3D"center">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: #ffffff; padding: 10px;">
+                <table width=3D"800" cellspacing=3D"0" cellpadding=3D"0">
+                    <tr>
+                        <td width=3D"240" height=3D"60">
+                            <img src=3D"http://i-hls.com/dynamic/ihls-logo=
+=2Epng">
+                        </td>
+                        <td style=3D"font: 30px Calibri; color: #2b9bd6" a=
+lign=3D"right">
+                            Your customized newsletter
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"background-color: #2b9bd6; color: #ffffff; font:=
+ bold 22px Calibri; padding: 3px 10px;
+                border-bottom: solid 1px #1973a2;" align=3D"right">
+                September 5=2C 2015
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D48bdb140e=
+9&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/IMG_20150903_150847-200x150.jpg" class=3D"at=
+tachment-thumbnail wp-post-image" alt=3D"IMG_20150903_150847" style=3D"dis=
+play:block;border:none 0;"></a></td><td valign=3D"top" style=3D"font:20px=
+ Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a style=3D"colo=
+r:gray;text-decoration:none" href=3D"http://i-hls.us7.list-manage2.com/tra=
+ck/click?u=3D5acc1ed377b590a98a195f624&id=3Da16018a9d4&e=3D77ab4125da">La=
+st Preparations For AUS&#038;R 2015</a></h1><a style=3D"color:black;text-d=
+ecoration:none" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5=
+acc1ed377b590a98a195f624&id=3Db5af196622&e=3D77ab4125da">Coordination bet=
+ween the presenters of the air show=2C and the ground and maritime demonst=
+rations=2C as well as the interfaces of the mobile </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D21ce1cb5=
+7f&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.=
+com/wp-content/uploads/2015/09/policesuit-200x150.jpg" class=3D"attachment=
+-thumbnail wp-post-image" alt=3D"policesuit" style=3D"display:block;border=
+:none 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 styl=
+e=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decora=
+tion:none" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1e=
+d377b590a98a195f624&id=3D035311bc93&e=3D77ab4125da">New Information-Shari=
+ng App For Police Dep.</a></h1><a style=3D"color:black;text-decoration:non=
+e" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590=
+a98a195f624&id=3D32e2f8e35d&e=3D77ab4125da">Municipal police departments=
+ in Bradford County=2C Pa.=2C have decided to start using a new computeriz=
+ed system that will allow the different departments </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D617d6934c=
+9&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/mc-200x150.jpg" class=3D"attachment-thumbnai=
+l wp-post-image" alt=3D"mc" style=3D"display:block;border:none 0;"></a></t=
+d><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=3D"font:bold 26=
+px Calibri;margin:0px"><a style=3D"color:gray;text-decoration:none" href=
+=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a19=
+5f624&id=3D8ce14c794f&e=3D77ab4125da">Wearable Device To Save Lives In Ba=
+ttlefield</a></h1><a style=3D"color:black;text-decoration:none" href=3D"ht=
+tp://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&i=
+d=3D9666fd2465&e=3D77ab4125da">When a person is injured=2C one of the fir=
+st things a doctor does is measure their vital signs &#8211; heart rate=2C=
+ breathing </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D2b4af0d65=
+e&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/firetruck-200x150.jpg" class=3D"attachment-t=
+humbnail wp-post-image" alt=3D"firetruck" style=3D"display:block;border:no=
+ne 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=
+=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decorat=
+ion:none" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed=
+377b590a98a195f624&id=3D5622d3541d&e=3D77ab4125da">The Outdated Protocol=
+ Of Fire Departments</a></h1><a style=3D"color:black;text-decoration:none"=
+ href=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a=
+98a195f624&id=3D55fe95e400&e=3D77ab4125da">Although the realities of the=
+ fire fighters=E2=80=99 job has changed=2C the governmental regulations ha=
+ve not. The number of calls to the fire </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dfbf7725af=
+a&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/boeinglaser-200x150.jpg" class=3D"attachment=
+-thumbnail wp-post-image" alt=3D"boeinglaser" style=3D"display:block;borde=
+r:none 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 sty=
+le=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decor=
+ation:none" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1=
+ed377b590a98a195f624&id=3Dd4b25e5bdc&e=3D77ab4125da">The Military Wants L=
+asers To Counter Drones</a></h1><a style=3D"color:black;text-decoration:no=
+ne" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b59=
+0a98a195f624&id=3Dca1a7b868e&e=3D77ab4125da">The military is still lookin=
+g for ways to handle possible threats arising from the large number of sma=
+ll Unmanned Aerial Vehicles (UAV) </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D10535ea7c=
+9&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/R32224-200x150.jpg" class=3D"attachment-thum=
+bnail wp-post-image" alt=3D"R32224" style=3D"display:block;border:none 0;"=
+></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=3D"font=
+:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decoration:none=
+" href=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590=
+a98a195f624&id=3Dd76437d600&e=3D77ab4125da">Spartan &#8211; Servers For E=
+xtreme Conditions</a></h1><a style=3D"color:black;text-decoration:none" hr=
+ef=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D4077564229&e=3D77ab4125da">E&amp;M computing is launching =E2=
+=80=9CSpartan=E2=80=9D- the first off-the-shelf extreme condition server.=
+ Spartan is subsidiary of E&amp;M Computing Group that was founded in </a>=
+</td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Da8ce72156=
+d&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/Digital-foren-200x150.jpg" class=3D"attachme=
+nt-thumbnail wp-post-image" alt=3D"Digital-foren" style=3D"display:block;b=
+order:none 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1=
+ style=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-d=
+ecoration:none" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5=
+acc1ed377b590a98a195f624&id=3De71b2cabb3&e=3D77ab4125da">Why Digital Fore=
+nsics Must Be Regulated</a></h1><a style=3D"color:black;text-decoration:no=
+ne" href=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b5=
+90a98a195f624&id=3D42d4b19a55&e=3D77ab4125da">Digital or computer forensi=
+cs involves the identification=2C recovery=2C analysis and presentation in=
+ court of relevant information taken from electronic devices such as </a><=
+/td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D342cf2762=
+c&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/metalicone-200x150.png" class=3D"attachment-=
+thumbnail wp-post-image" alt=3D"metalicone" style=3D"display:block;border:=
+none 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=
+=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decorat=
+ion:none" href=3D"http://i-hls.us7.list-manage2.com/track/click?u=3D5acc1e=
+d377b590a98a195f624&id=3Ddbd12d7bab&e=3D77ab4125da">From Start To Finish:=
+ Metal Parts And Systems</a></h1><a style=3D"color:black;text-decoration:n=
+one" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b5=
+90a98a195f624&id=3Db8b3bd1a9e&e=3D77ab4125da">Metalicone Technologies Ltd=
+ is an experienced manufacturer of top quality=2C complex technical=2C hig=
+h precision metal parts and systems. The company was established </a></td>=
+</tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D4c0cd3520=
+4&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/UMT-200x150.jpg" class=3D"attachment-thumbna=
+il wp-post-image" alt=3D"UMT" style=3D"display:block;border:none 0;"></a><=
+/td><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=3D"font:bold=
+ 26px Calibri;margin:0px"><a style=3D"color:gray;text-decoration:none" hre=
+f=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D4f7a234e53&e=3D77ab4125da">Want To Fly a UAV? Come To AUSR 20=
+15</a></h1><a style=3D"color:black;text-decoration:none" href=3D"http://i-=
+hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D0ca=
+e9e19d7&e=3D77ab4125da">Want to fly a UAV? Come to the AUSR 2015 EVENT on=
+ September 7th in Rishon Letzion.=C2=A0Israel Aerospace Industries (IAI) w=
+ill bring </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D3dc9e373f=
+a&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/fortus-900mc-usine-imprimante-3d-200x150.jpg=
+" class=3D"attachment-thumbnail wp-post-image" alt=3D"fortus-900mc-usine-i=
+mprimante-3d" style=3D"display:block;border:none 0;"></a></td><td valign=
+=3D"top" style=3D"font:20px Calibri"><h1 style=3D"font:bold 26px Calibri;m=
+argin:0px"><a style=3D"color:gray;text-decoration:none" href=3D"http://i-h=
+ls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D530=
+6843d86&e=3D77ab4125da">The Next Dimension Of 3Dimension Printing</a></h1=
+><a style=3D"color:black;text-decoration:none" href=3D"http://i-hls.us7.li=
+st-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dbd6d9a716b&e=
+=3D77ab4125da">We=E2=80=99ve been told last month that the Israeli Air Fo=
+rce has acquired Stratasys=E2=80=99 Fortus 900 3D printers &#8211; the com=
+pany=E2=80=99s leading=2C most </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Da76bc744=
+35&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.=
+com/wp-content/uploads/2015/09/intelligence-200x150.jpg" class=3D"attachme=
+nt-thumbnail wp-post-image" alt=3D"intelligence" style=3D"display:block;bo=
+rder:none 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1=
+ style=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-d=
+ecoration:none" href=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D=
+5acc1ed377b590a98a195f624&id=3D9730c4047e&e=3D77ab4125da">Outsourcing May=
+ Be The Only Option For U.S. Intelligence</a></h1><a style=3D"color:black;=
+text-decoration:none" href=3D"http://i-hls.us7.list-manage.com/track/click=
+?u=3D5acc1ed377b590a98a195f624&id=3D5401e26cae&e=3D77ab4125da">The Americ=
+an company Uber provides transportation services online throughout the wor=
+ld and offers an adjusted route for drivers using their cars. Lately </a><=
+/td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dab88208b2=
+1&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.c=
+om/wp-content/uploads/2015/09/investing-in-drones-200x150.jpg" class=3D"at=
+tachment-thumbnail wp-post-image" alt=3D"investing-in-drones" style=3D"dis=
+play:block;border:none 0;"></a></td><td valign=3D"top" style=3D"font:20px=
+ Calibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a style=3D"colo=
+r:gray;text-decoration:none" href=3D"http://i-hls.us7.list-manage.com/trac=
+k/click?u=3D5acc1ed377b590a98a195f624&id=3D46d297ef91&e=3D77ab4125da">Lic=
+ense Plates For Drones</a></h1><a style=3D"color:black;text-decoration:non=
+e" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590=
+a98a195f624&id=3D489a5ee539&e=3D77ab4125da">The Federal Aviation Administ=
+ration (FAA) is working on establishing rules for private and commercial o=
+perators of unmanned aerial vehicles (UAV). However=2C it </a></td></tr></=
+table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage2.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Db241f5e7=
+a1&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.=
+com/wp-content/uploads/2015/09/US-Drone-200x150.jpg" class=3D"attachment-t=
+humbnail wp-post-image" alt=3D"APTOPIX Singapore Air Show" style=3D"displa=
+y:block;border:none 0;"></a></td><td valign=3D"top" style=3D"font:20px Cal=
+ibri"><h1 style=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gr=
+ay;text-decoration:none" href=3D"http://i-hls.us7.list-manage.com/track/cl=
+ick?u=3D5acc1ed377b590a98a195f624&id=3D1392c63aea&e=3D77ab4125da">Changes=
+ In Israeli Airspace Ahead Of The Unmanned Systems Air Show</a></h1><a sty=
+le=3D"color:black;text-decoration:none" href=3D"http://i-hls.us7.list-mana=
+ge.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D77ea094463&e=3D=
+77ab4125da">The preparations ahead of the AUS&amp;R 2015 Conference to be held=
+ next Monday=2C September 7th=C2=A0at Rishon LeZion Lago=C2=A0events cente=
+r=C2=A0are almost complete. The </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dc78e920e=
+60&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.=
+com/wp-content/uploads/2015/09/global_cyber-200x150.jpg" class=3D"attachme=
+nt-thumbnail wp-post-image" alt=3D"global_cyber" style=3D"display:block;bo=
+rder:none 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1=
+ style=3D"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-d=
+ecoration:none" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5=
+acc1ed377b590a98a195f624&id=3Da7762903ec&e=3D77ab4125da">IAI to build a p=
+rofessional network for the cyber community in Israel</a></h1><a style=3D"=
+color:black;text-decoration:none" href=3D"http://i-hls.us7.list-manage1.co=
+m/track/click?u=3D5acc1ed377b590a98a195f624&id=3D2b39726b8a&e=3D=
+77ab4125da">Israel Aerospace Industries (IAI) was recently awarded a contract by th=
+e Israel National Cyber Bureau in the Prime Minister&#8217;s Office=2C to=
+ establish </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D0b217fea=
+e9&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.=
+com/wp-content/uploads/2015/09/grems-200x150.jpg" class=3D"attachment-thum=
+bnail wp-post-image" alt=3D"grems" style=3D"display:block;border:none 0;">=
+</a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=3D"font:=
+bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decoration:none"=
+ href=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a=
+98a195f624&id=3D995a1d2dfd&e=3D77ab4125da">Gremlin UAV Mischievous Teamwo=
+rk</a></h1><a style=3D"color:black;text-decoration:none" href=3D"http://i-=
+hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D5a=
+a0c12f6b&e=3D77ab4125da">Imagine a fighter pilot flying above the Pacific=
+ across some contested airspace. Suddenly a series of sound alerts are hea=
+rd in his </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D0a072116=
+39&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.=
+com/wp-content/uploads/2015/09/refugees-200x150.jpg" class=3D"attachment-t=
+humbnail wp-post-image" alt=3D"refugees" style=3D"display:block;border:non=
+e 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=3D=
+"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decoration=
+:none" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377=
+b590a98a195f624&id=3Dadf38f2689&e=3D77ab4125da">Fast Draw &#8211; Europe=
+ Is Changing</a></h1><a style=3D"color:black;text-decoration:none" href=3D=
+"http://i-hls.us7.list-manage2.com/track/click?u=3D5acc1ed377b590a98a195f6=
+24&id=3D15648ec2ba&e=3D77ab4125da">Arie Egozi Europe is changing. The wav=
+es of refugees are unstoppable and millions more are on their way. Most of=
+ these refugees </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-bo=
+ttom: solid 1px #bbbbbb;">
+                <table dir=3D"ltr" width=3D"800" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td valign=3D"top" width=3D"220"><a href=3D"http://i-hls.us=
+7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D1f0908a6=
+a2&e=3D77ab4125da"><img width=3D"200" height=3D"150" src=3D"http://i-hls.=
+com/wp-content/uploads/2015/09/DSC_0005-200x150.jpg" class=3D"attachment-t=
+humbnail wp-post-image" alt=3D"DSC_0005" style=3D"display:block;border:non=
+e 0;"></a></td><td valign=3D"top" style=3D"font:20px Calibri"><h1 style=3D=
+"font:bold 26px Calibri;margin:0px"><a style=3D"color:gray;text-decoration=
+:none" href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377=
+b590a98a195f624&id=3D42a682a82f&e=3D77ab4125da">Components=2C Systems And=
+ Industry Solutions</a></h1><a style=3D"color:black;text-decoration:none"=
+ href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a9=
+8a195f624&id=3Dc6a8aed8c5&e=3D77ab4125da">Elimec Electro-Mechanical Engin=
+eering was established in 1988 and specializes in importing and distributi=
+ng electro-mechanical components and products and systems for military and=
+ </a></td></tr></table>
+            </td>
+        </tr>
+        <tr>
+            <td height=3D"10">
+            </td>
+        </tr>
+    </table>
+    <table width=3D"820" align=3D"center">
+        <tr>
+            <td>
+                <a href=3D"http://i-hls.us7.list-manage2.com/track/click?u=
+=3D5acc1ed377b590a98a195f624&id=3Dd44355bd65&e=3D77ab4125da">
+                    <img src=3D"http://i-hls.com/wp-content/uploads/dynami=
+c/ausr-eng.jpg" width=3D"820" height=3D"101"></a>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td style=3D"background-color: White; padding: 10px; border-to=
+p: solid 10px #bbbbbb;">
+                <table width=3D"800" cellspacing=3D"0" cellpadding=3D"0">
+                    <tr>
+                        <td valign=3D"top">
+                            <table cellpadding=3D"0" cellspacing=3D"0">
+                                <tr>
+                                    <td width=3D"60">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D479c3bc3bb&e=3D=
+77ab4125da">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/facebook.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                    <td width=3D"60">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D8b36c138ce&e=3D=
+77ab4125da">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/linkedin.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                    <td width=3D"60">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D296281b925&e=3D=
+77ab4125da">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/plus.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                    <td width=3D"60">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dffe3cbfa2e&e=3D=
+77ab4125da">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/twitter.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                    <td width=3D"60">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D9b0e093cba&e=3D=
+77ab4125da">
+                                            <img src=3D"http://i-hls.com/d=
+ynamic/youtube.png" style=3D"display: block; border: none 0;"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style=3D"font: 30px Calibri; color: #bbbbbb" a=
+lign=3D"right">
+                            Israel Homeland Security
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"background-color: #dddddd;" align=3D"center" heig=
+ht=3D"40">
+                <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=
+=3D5acc1ed377b590a98a195f624&id=3Deb056b8ce4&e=3D77ab4125da" style=3D"col=
+or: #2b9bd6; text-decoration: none; font: bold 22px Calibri;">
+                    www.i-hls.com</a>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" id=3D"canspamBarWrapper" style=3D"background-color: #FFFFFF; border-t=
+op: 1px solid #E5E5E5;">
+            <tr>
+                <td align=3D"center" valign=3D"top" style=3D"padding-top:=
+ 20px; padding-bottom: 20px;">
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" id=3D"canspamBar">
+                        <tr>
+                            <td align=3D"center" valign=3D"top" style=3D"c=
+olor: #606060; font-family: Helvetica=2C Arial=2C sans-serif;
+                                font-size: 11px; line-height: 150%; paddin=
+g-right: 20px; padding-bottom: 5px;
+                                padding-left: 20px; text-align: center;">
+                                This email was sent to <a href=3D"=
+joseph@duzon.com" target=3D"_blank" style=3D"color: #404040 !important;">
+                                    joseph@duzon.com</a>
+                                <br>
+                                <a href=3D"http://i-hls.us7.list-manage1.c=
+om/about?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3Dee=
+c84bb6da" target=3D"_blank" style=3D"color: #404040 !important;"><em>why
+                                    did I get this?</em></a>&nbsp;&nbsp;&n=
+bsp;&nbsp;<a href=3D"http://i-hls.us7.list-manage.com/unsubscribe?u=3D5acc=
+1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3Deec84bb6da" style=
+=3D"color: #404040 !important;">unsubscribe
+                                        from this list</a>&nbsp;&nbsp;&nbs=
+p;&nbsp;<a href=3D"http://i-hls.us7.list-manage.com/profile?u=3D5acc1ed377=
+b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da" style=3D"color: #404040 !imp=
+ortant;">update
+                                            subscription preferences</a>
+                                <br>
+                                iHLS Israel Homeland Security &middot; Tel=
+ Aviv &middot; Tel Aviv 36886 &middot; Israel
+                                <br>
+                                <br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <style type=3D"text/css">
+            @media only screen and (max-width: 480px)
+            {
+                table[id=3D"canspamBar"] td
+                {
+                    font-size: 14px !important;
+                }
+                table[id=3D"canspamBar"] td a
+                {
+                    display: block !important;
+                    margin-top: 10px !important;
+                }
+            }
+        </style>
+    </center>
+<img src=3D"http://i-hls.us7.list-manage.com/track/open.php?u=3D5acc1ed377=
+b590a98a195f624&id=3Deec84bb6da&e=3D77ab4125da" height=3D"1" width=3D"1">=
+</body>
+</html>
+--_----------=_MCPart_913452168--
+

@@ -1,0 +1,361 @@
+Received: (qmail 15965 invoked by uid 100); 28 Dec 2016 11:05:10 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda003.wmail.worksmobile.com with SMTP;28 Dec 2016 11:05:10 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id TPjJg-LfTtetaWYd6yyY4Q
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 28 Dec 2016 11:05:10 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBSB7nJ00E1A;
+	Wed, 28 Dec 2016 20:07:49 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBSB7nJ00E1A
+X-SmartFilter: FROM,uBSB7nJ00E1A,joseph@duzon.com
+x-forward-id: <1948422142.1323778471.1482916846524.JavaMail.root@sjmas01.marketo.org>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tpVHp0H4hz2fmG5; Wed, 28 Dec 2016 20:04:11 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tpVGt48V3z2fmG0
+	for <joseph@duzon.com>; Wed, 28 Dec 2016 20:04:06 +0900 (KST)
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id uBS9Ng500C48;
+	Wed, 28 Dec 2016 18:23:43 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBS9Ng500C48
+X-SmartFilter: FROM,uBS9Ng500C48,495-KNT-277.0.31651.0.0.17265.9.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTQwODM6MjI0MDY6NDc5NzU6MDoxNzI2NTo5OjMxNjUxOjExNDE1
+	OTI=
+Received: from [10.0.87.249] ([10.0.87.249:38632] helo=sjmas01.marketo.org)
+	by sjmta05.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 0A/0B-18873-EE383685; Wed, 28 Dec 2016 03:20:46 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1482916846;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=z6cZV4CQoj5hh4988zOvQZXVqaChgQ4/wCRDR1SqlKE=;
+	b=X+h4ZjHmyb9cZhmsH/DzQLAovUF/iw+J00XrSVAdcydWNYfC5psK0LfAwGXUDmLB
+	eDpsg/pcWcwThflryGngc9PoiPJhBEYn36D6IrkGwVsrNfJG8qGwnd/aC1ULa5vRzdA
+	rQpwwBAzDQGRj9Ti1A0LGH7rjRWFhV7dnTYbtyCQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1482916846;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=z6cZV4CQoj5hh4988zOvQZXVqaChgQ4/wCRDR1SqlKE=;
+	b=jBO3w6ELj9WNEOdw5nA8/jzppN/NTHeYvibATqXmtlV3k2hM83VTNV5+daNUzSSK
+	/EtMB1lTI/5k4+pbDkqdnfj9eSkXu5fcB1ItXhXzSo4IwJDXRf6psURGm2v5d31EmJ1
+	NgFTTSyiQKpKYDIHot9j97DzauRfGDebencavQvU=
+Date: Wed, 28 Dec 2016 03:20:46 -0600 (CST)
+From: Rapid7 Resources <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1948422142.1323778471.1482916846524.JavaMail.root@sjmas01.marketo.org>
+Subject: [WEBCAST] Overcoming the innovation paradox in 2017
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1323778470_573178591.1482916846523"
+X-PVIQ: mkto-495KNT277-000001-000000-031651
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:14083:22406:47975:0:17265:9:31651:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.31651.17265.9@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.31651.0.0.17265.9.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: +deYpB3G1H+YbXFCbHmRKxumFxumjJ+Y
+
+------=_Part_1323778470_573178591.1482916846523
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<http://info.rapid7.com/z0MY24l0004NQYhlKMR0T00>
+Contact Us <http://info.rapid7.com/x0K0000h2Zl0lQN0S44MYTM>
+Overcoming the innovation paradox in 2017
+In this on-demand webcast, our panel of security experts will share the resolutions and initiatives they're implementing in 2017 to overcome this paradox
+ 
+ <http://info.rapid7.com/g70Y4Ql0M20lNT04K0001iM> 
+
+
+
+VIEW NOW <http://info.rapid7.com/g70Y4Ql0M20lNT04K0001iM>
+Rapid7 customer roundtable discussing the innovation paradox. 
+Spending less. Exercising more. Finding ways to better manage a potentially world-shattering paradox. Clearly, some resolutions are more challenging than others - and not many people have it harder than security and IT pros.
+Why? The innovation paradox. If you haven't heard the name, you're definitely familiar with the concept: As our use of technology surges, so does the complexity of managing and securing it. No wonder infosec professionals count prioritizing vulnerabilities and threat among their toughest challenges - in this fast-paced and ever-evolving landscape, it's nearly impossible to know where to focus first. We're hoping to change that.
+
+
+
+ <http://info.rapid7.com/TVQKi0M0l000YN120l4M4T0>
+
+
+
+
+Watch Now <http://info.rapid7.com/g70Y4Ql0M20lNT04K0001iM>
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center-page.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiTmpabFptWmxPVGRoWVRZNCIsInQiOiJIclFFUm8rRmkzRW93ZmZORDFHemRMNmprZHBwMStSQk9kZVVZc2ZuVFFPVW15eFJVSDBqN3p6TlRRNm54THo0cGNXbHdGUzFybVlsbXBkdkxHZkhJektFenlreE9oVDZJbDBXRnZrM1JoWURQQmcxOUY3M3hFRTBTYnhHQmZINSJ9.
+
+------=_Part_1323778470_573178591.1482916846523
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+
+<style type=3D"text/css">
+
+                /* Some resets and issue fixes */
+        #outlook a { padding:0; }
+                body{ width:100% !important; -webkit-text; size-adjust:100%=
+; -ms-text-size-adjust:100%; margin:0; padding:0; }    =20
+        .ReadMsgBody { width: 100%; }
+        .ExternalClass {width:100%;}=20
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;}=
+=20
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}  =20
+        /* End reset */
+               =20
+                /* Custom */
+                body,table,td,span,a,ul,li {font-family: Arial, sans-serif =
+!important;}
+                .forcefont {font-family: Arial, sans-serif !important;}
+                .appleLinksWhite {color: #ffffff !important; text-decoratio=
+n: none;}=20
+                .appleLinksBlack {color: #000000 !important; text-decoratio=
+n: none;}
+                .appleLinksOrange {color: #ec5f27 !important; text-decorati=
+on: none;}
+                table,div {margin-top: -1px;} /* Gets rid of 1px space betw=
+een tables and divs */
+               =20
+                /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 630px){
+               =20
+
+                        /* Display block allows us to stack elements */    =
+                 =20
+            *[class=3D"mobile-column"] {display: block;}=20
+                       =20
+                        /* Some more stacking elements */
+            *[class=3D"mob-column"] {float: none !important;width: 100% !im=
+portant;}    =20
+                            =20
+                        /* Hide stuff */
+            *[class=3D"hide"] {display:none !important;}         =20
+           =20
+                        /* This sets elements to 100% width and fixes the h=
+eight issues too, a god send */
+                        *[class=3D"100p"] {width:100% !important; height:au=
+to !important;}                               =20
+                               =20
+                        /* For the 2x2 stack */                =20
+                        *[class=3D"condensed"] {padding-bottom:40px !import=
+ant; display: block;}
+                       =20
+                        /* Centers content on mobile */
+                        *[class=3D"center"] {text-align:center !important; =
+width:100% !important; height:auto !important;}           =20
+                       =20
+                        /* 100percent width section with 20px padding */
+                        *[class=3D"100pad"] {width:100% !important; padding=
+:20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding left =
+& right */
+                        *[class=3D"100padleftright"] {width:100% !important=
+; padding:0 20px 0 20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding top &=
+ bottom */
+                        *[class=3D"100padtopbottom"] {width:100% !important=
+; padding:20px 0px 20px 0px;}=20
+               =20
+        }      =20
+       =20
+</style>
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0; padding:0; " wid=
+th=3D"100%" ><tr ><td align=3D"center" valign=3D"top" ><table width=3D"640"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"Header1Link" class=3D"mktEditable" ><table width=3D"640" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"20" class=3D"100p" bgcolor=3D"#3B3B=
+3B">
+<tr>
+<td valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td align=3D"left" width=3D"50%" class=3D"100p"><a href=3D
+"http://info.rapid7.com/z0MY24l0004NQYhlKMR0T00"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" alt=3D"Rapid7" border=3D"0" style=3D"display:blo=
+ck"></a></td>
+<td width=3D"50%" class=3D"hide" align=3D"right" style=3D"font-size:16px; c=
+olor:#FFFFFF;"><a href=3D
+"http://info.rapid7.com/x0K0000h2Zl0lQN0S44MYTM" style=3D"color:#FFFFFF; te=
+xt-decoration:none;"
+>Contact Us</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id=3D"IntroHeadline" class=3D"mktEditable" ><table class=3D"100p" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3=
+B3B">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 24px;" align=3D"center"><span style=
+=3D"font-size: 44px;">Overcoming the innovation paradox in 2017</span></td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"GrayContent-OrangeButton" class=3D"mktEditable" ><table class=3D=
+"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgco=
+lor=3D"#3B3B3B">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #ffffff;" align=3D"center"><span style=
+=3D"font-size: 24px;">In this on-demand webcast, our panel of security expe=
+rts will share the resolutions and initiatives they're implementing in 2017=
+ to overcome this paradox</span><br /> <br /> <span style=3D"font-size: 16p=
+x;"><a style=3D"color: #ffffff; text-decoration: none;" href=3D
+"http://info.rapid7.com/UMUM04T0lN0K4i02lQ0000Y"
+></a></span>=20
+<table style=3D"border: 2px solid #ec5f27;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"10" bgcolor=3D"#EC5F27">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 16px;" align=3D"center"><a style=3D=
+"color: #ffffff; text-decoration: none;" href=3D
+"http://info.rapid7.com/UMUM04T0lN0K4i02lQ0000Y"
+>VIEW NOW</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"ContentBlock-Image-ContentBlock" class=3D"mktEditable" ><table c=
+lass=3D"100p" style=3D"color: #000000; font-weight: normal;" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #848484;" align=3D"left">
+<p><strong style=3D"text-align: -webkit-center;">Rapid7 customer roundtable=
+ discussing the innovation paradox.&nbsp;</strong></p>
+<p style=3D"color: #848484; font-size: 16px;">Spending less. Exercising mor=
+e. Finding ways to better manage a potentially world-shattering paradox. Cl=
+early, some resolutions are more challenging than others - and not many peo=
+ple have it harder than security and IT pros.</p>
+<p style=3D"color: #848484; font-size: 16px;">Why? The innovation paradox. =
+If you haven't heard the name, you're definitely familiar with the concept:=
+ As our use of technology surges, so does the complexity of managing and se=
+curing it. No wonder infosec professionals count prioritizing vulnerabiliti=
+es and threat among their toughest challenges - in this fast-paced and ever=
+-evolving landscape, it's nearly impossible to know where to focus first. W=
+e're hoping to change that.</p>
+<table class=3D"100p" style=3D"color: #848484; font-size: 16px;" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"640" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td align=3D"center"><a href=3D
+"http://info.rapid7.com/TVQKi0M0l000YN120l4M4T0"
+><img class=3D"100p" style=3D"border: 1px solid black; display: block;" src=
+=3D"https://information.rapid7.com/rs/495-KNT-277/images/information-parado=
+x-vid.jpg" border=3D"1" alt=3D"vid" width=3D"579" height=3D"327" /></a></td=
+>
+</tr>
+</tbody>
+</table>
+<p><a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/UMUM04T0lN0K4i02lQ0000Y"
+>Watch Now</a><span style=3D"text-align: -webkit-center;">&nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+<!-- Stop Blocks Here /-->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" bgco=
+lor=3D"#3B3B3B" class=3D"100p">
+<tr>
+<td valign=3D"middle" align=3D"left" width=3D"50%" style=3D"font-size:14px;=
+ color:#ffffff;"><span>=C2=A9 2016 Rapid7, All Rights Reserved.</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">Boston, MA 02110-2131</span><br>
+<span><a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/jMWN0l2lK004Y0MQT420i00"
+>www.rapid7.com</a></span><br>
+<span>866-7-RAPID7</span></td>
+<td valign=3D"middle" align=3D"right" width=3D"50%" style=3D"font-size:14px=
+; color:#ffffff;"><span><a href=3D
+"http://info.rapid7.com/VYNX0004il0T200Kl4MM3Q0"
+><img title=3D"Facebook" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-fb-2016-36px-white.png" border=3D"0" alt=3D"Facebook"></a>=
+<a href=3D
+"http://info.rapid7.com/K00M4KN00li42Y4YM0lQ0T0"
+><img title=3D"Twitter" src=3D"https://information.rapid7.com/rs/495-KNT-27=
+7/images/social-tw-2016-36px-white.png" border=3D"0" alt=3D"Twitter"></a><a=
+ href=3D
+"http://info.rapid7.com/iZiK0QNlM5l004000YM2T04"
+><img title=3D"LinkedIn" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-li-2016-36px-white.png" border=3D"0" alt=3D"LinkedIn"></a>=
+</span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/jMWN0l2lK004Y0MQT420i00"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" border=3D"0" alt=3D"Rapid7 Home Page"></a></span=
+></td>
+</tr>
+</table>
+<table width=3D"640" class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href=3D
+"http://info.rapid7.com/Ai0004KN20Q4lMM00l060YT"
+></a>
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTQwODM6=
+MjI0MDY6NDc5NzU6MDoxNzI2NTo5OjMxNjUxOjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3=
+D" width=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/I0l08KY0l4M2Q42M0i0NT00"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_1323778470_573178591.1482916846523--
+

@@ -1,0 +1,311 @@
+Received: (qmail 11665 invoked from network); 16 Sep 2014 06:40:33 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda01.wmail.naver.com with SMTP; 16 Sep 2014 06:40:33 -0000
+Received: from [202.167.215.60] ([202.167.215.60]) 
+          by crcvmail02.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1410849633.299884.3569281936.crcvmail02
+          for <jonghyun.kim@dforensic.com>; 
+          Tue, 16 Sep 2014 15:40:33 +0900 (KST) 
+x-forward-id: 1410849629656_935649226
+recvDate: Tue, 16 Sep 2014 15:40:33 +0900
+x-newturns-hashkey : d957526e50f33ac1d8d7df776bea2bbd03bea965591c4a623dbcdcc6885449c8
+Received: from external ([209.85.212.171])
+	by smf.duzon.com (1.0) id s8G6N7f00EA6;
+	Tue, 16 Sep 2014 15:23:07 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,s8G6N7f00EA6
+X-SmartFilter: FROM,s8G6N7f00EA6,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-wi0-f171.google.com with SMTP id bs8so5504069wib.16
+        for <joseph@duzon.com>; Mon, 15 Sep 2014 23:40:19 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:subject:to
+         :from:reply-to:errors-to:mime-version:date:message-id:importance
+         :organization:content-type:content-transfer-encoding;
+        bh=VYV4vZp10tsfS4BQjwRkidjOlmxTq7N+E5kH2RkTplY=;
+        b=Fmf7Vr2SY5TRJ1bAcBR6LZh5JU92+U1hW9WsjsrJ1+iK/CkVOFae/9KQJ+rMwQRDU8
+         ZJD/1ZgPxAgtB4v1EP90zr9NX8LUsdMB3EAYUjWQ2LLFyRMKHkmut8pMCMi5mNwAxaUm
+         YBdPNY0+krYga/OSiYy40Pz0+0yHXzn0qt/IjuqgntpbJU/mOdOnm4C4tJDTdXjJsimg
+         rg2U9Sym5aH3nqulUbCNVE72ecAua36oiK/KL9jEE60tCkdazIX2tJf1lNgtfuSQiQ1i
+         f7aOMCndPfjFvxk+CC6yIEdxwujQ2KDp2qpzWeoaIrhaKpoBfCAjO/Q+d0BpKxo+YSas
+         3WJw==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.60 as permitted sender) smtp.mail=forensic@duzon.com
+X-Received: by 10.180.205.234 with SMTP id lj10mr29819656wic.1.1410849619528;
+        Mon, 15 Sep 2014 23:40:19 -0700 (PDT)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.194.7.167 with SMTP id k7csp68184wja;
+        Mon, 15 Sep 2014 23:40:18 -0700 (PDT)
+X-Received: by 10.68.57.225 with SMTP id l1mr12068876pbq.138.1410849617726;
+        Mon, 15 Sep 2014 23:40:17 -0700 (PDT)
+Received: from duzon.com (mail.duzon.kr. [202.167.215.60])
+        by mx.google.com with ESMTP id aj3si27343728pbd.126.2014.09.15.23.40.16
+        for <forensic.duzon@gmail.com>;
+        Mon, 15 Sep 2014 23:40:17 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.60 as permitted sender) smtp.mail=forensic@duzon.com
+x-forward-id: 1410849609571_2433444502
+recvDate: Tue, 16 Sep 2014 15:40:15 +0900
+x-newturns-hashkey: d344cd63c7dc3e0f399b9d84a6aa7643a775b716b3759f6c3029fa41eb59d218
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id s8G6MhV00E9C;
+	Tue, 16 Sep 2014 15:22:43 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,s8G6MhV00E9C
+X-SmartFilter: FROM,s8G6MhV00E9C,user24773@sendd.ozmailer.com
+Subject: =?EUC-KR?B?OS8yNCi89ikgJ7ytv++9wyDBpLq4yK0gx/bIsiC51yCxubvqIL/svPZTVyDIsL/rIA==?=
+	=?EUC-KR?B?wPy3qycgvLy5zLOqIL7Is7s=?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?RktJSQ==?=" <makang@fkii.org>
+Reply-To: <makang@fkii.org>
+Errors-To: <makang@fkii.org>
+MIME-Version: 1.0
+Date: Tue, 16 Sep 2014 15:39:55 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1646143@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +QRYpB3G1Hb/a0ixyueaKV/lKV0YbzJqbXmmFotmKqFYkXm=
+
+<IMG SRC="http://www.ozmailer.com/fcso/receipt_confirm.php?email=forensic@duzon.com&mail_no=5701284" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Mail</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='left'><tr><td><!-- OZ_AlignTopEnd -->
+<P style="LINE-HEIGHT: 1.5"><SPAN style="FONT-SIZE: 10pt">&nbsp;안녕하세요. </SPAN><BR>
+<SPAN style="FONT-SIZE: 10pt">한국정보산업연합회 강민애입니다.</SPAN><BR>
+<SPAN style="FONT-SIZE: 10pt">&nbsp;</SPAN><BR>
+<SPAN style="FONT-SIZE: 10pt">&nbsp;본회와 한국정보통신기술협회에서 주최하는 'GS인증 획득 우수SW 활용전략 세미나'가 </SPAN><BR>
+<STRONG><SPAN style="FONT-SIZE: 10pt">9월 24일(수) , 삼성동 코엑스 인터컨티넨탈호텔 지하1층 모데라토룸</SPAN></STRONG><SPAN style="FONT-SIZE: 10pt">에서</SPAN><STRONG><SPAN style="FONT-SIZE: 10pt"> </SPAN></STRONG><SPAN style="FONT-SIZE: 10pt">개최됩니다.</SPAN><BR>
+<SPAN style="FONT-SIZE: 10pt">&nbsp;</SPAN><BR>
+<STRONG><SPAN style="FONT-SIZE: 10pt">'서울시의 정보화 현황 및 국산 우수SW활용 사례' </SPAN></STRONG><SPAN style="FONT-SIZE: 10pt">주제로 </SPAN><BR>
+<SPAN style="FONT-SIZE: 10pt">서울시 데이터센터 이계헌 소장의 발표가 있을 예정이오니 많은 참여 바랍니다.</SPAN><BR>
+<SPAN style="FONT-SIZE: 10pt">&nbsp;</SPAN><BR>
+<SPAN style="FONT-SIZE: 10pt">감사합니다. </SPAN><BR>
+<SPAN style="FONT-SIZE: 10pt">강민애 올림</SPAN></P>
+<P>&nbsp;</P>
+<TABLE border=0 cellSpacing=1 cellPadding=0 width=629 bgColor=#cccccc>
+<TBODY>
+<TR>
+<TD width=627><IMG src="http://www.fkii.org/upload/imgs/2014/20140924/main1(2).jpg" width=627 height=177></TD></TR>
+<TR bgColor=#ffffff>
+<TD align=middle><BR>
+
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=592 height=209>
+<TBODY>
+<TR>
+<TD height=13 vAlign=top width=592 align=left>&nbsp;</TD></TR>
+<TR align=middle bgColor=#ffffcc>
+<TD bgColor=#ffffff height=183>
+<P align=left><SPAN class=style10>&nbsp; 귀하의 건승하심과 귀사의 무궁한 발전을 기원합니다. <BR>
+<BR>
+&nbsp; 본회와 한국정보통신기술협회는 정부 및 공공기관, 산업계에서 GS인증을 획득한 국산 우수<BR>
+&nbsp;SW를 도입해 활용함으로써 예산절감은 물론 생산성 제고 효과를 거두고 있는 우수사례를<BR>
+&nbsp;발굴해 소개하는 표제의 세미나를 매월 개최하고 있습니다.<BR>
+<BR>
+&nbsp; 이번 9월 24일에는 “서울시의 정보화 현황 및 국산 우수SW 활용 사례” 제하의 조찬회가<BR>
+&nbsp;진행될 예정이오니 많은 참석 바랍니다.</SPAN></P>
+<P align=right><STRONG><SPAN class=style39>한국정보산업연합회 <BR>
+<BR>
+회장 김 대 훈</SPAN></STRONG></P></TD></TR>
+<TR>
+<TD height=10>&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=598>
+<TBODY>
+<TR>
+<TD height=30 vAlign=top width=584>
+<P style="TEXT-ALIGN: left" align=left><IMG src="http://www.fkii.or.kr/new/forum/TTA/body_tit04.gif" width=91 height=22></P></TD></TR></TBODY></TABLE>
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=599>
+<TBODY>
+<TR height=1>
+<TD bgColor=#cccccc width=599></TD></TR>
+<TR height=1>
+<TD bgColor=#ffffff>
+<P style="TEXT-ALIGN: left" align=left><FONT size=2><FONT size=2 face=돋움>&nbsp;&nbsp;<BR>
+</FONT><FONT size=2><SPAN class=style47><STRONG>&nbsp; 1.</STRONG></SPAN></FONT><SPAN class=style47><STRONG> 행사명 : GS인증 획득 우수SW 활용전략 세미나<BR>
+<BR>
+&nbsp; 2. 일 &nbsp;시 : 2014년 9월 24일(수) 07:30 - 09:00<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp; 3. 장 &nbsp;소 : </STRONG></SPAN><SPAN class=style45>코엑스 인턴컨티넨탈호텔 지하1층 모데라토룸(삼성동 소재)</SPAN><SPAN class=style47><STRONG><BR>
+<BR>
+&nbsp; 4. <FONT size=2>주&nbsp; </FONT>제 : 서울시의 정보화 현황 및 국산 우수SW 활용 사례 <BR>
+<BR>
+&nbsp; 5. 발표자 : 서울시 데이터센터 이계헌 소장</STRONG></SPAN><SPAN class=style45><BR>
+<BR>
+&nbsp; 6. 참석자 : 국내 주요기업 및 기관의 CEO, CIO 및 IT 관련 부서장 40여명<BR>
+<BR>
+<FONT size=2><FONT size=2>&nbsp; 7. 주 &nbsp;관 : 한국정보산업연합회, 한국정보통신기술협회</FONT></FONT></SPAN></FONT></P>
+<P>&nbsp;</P>
+<P><FONT size=2 face=돋움></FONT></P></TD></TR>
+<TR height=1>
+<TD bgColor=#cccccc></TD></TR></TBODY></TABLE><BR>
+
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=578>
+<TBODY>
+<TR>
+<TD height=30 vAlign=top width=578 align=left>
+<DIV align=center><IMG align=left src="http://www.fkii.or.kr/new/forum/TTA/body_tit02.gif" width=90 height=22></DIV></TD></TR>
+<TR>
+<TD height=174 vAlign=top align=middle>
+<TABLE style="BORDER-COLLAPSE: collapse" id=AutoNumber2 border=1 borderColor=#111111 cellPadding=2 width=548 height=236>
+<TBODY>
+<TR bgColor=#339999>
+<TD bgColor=#006699 height=25 width=76 align=middle>
+<DIV align=center><FONT size=2 face=굴림><B><FONT color=#ffffff face=돋움>시 간</FONT></B></FONT></DIV></TD>
+<TD bgColor=#006699 height=25 width=300 align=middle>
+<DIV align=center><FONT size=2 face=굴림><B><FONT color=#ffffff face=돋움>내 용</FONT></B></FONT></DIV></TD>
+<TD bgColor=#006699 height=25 width=144 align=middle>
+<DIV align=center><FONT size=2 face=굴림><B><FONT color=#ffffff face=돋움>발표자</FONT></B></FONT></DIV></TD></TR>
+<TR>
+<TD class=style41 height=27 width=76 align=middle><FONT size=2>~ 07:30 </FONT></TD>
+<TD class=style41 height=27 width=300>
+<DIV align=center><FONT size=2><SPAN class=style41>등록 및 입장 </SPAN></FONT></DIV></TD>
+<TD width=144>
+<DIV align=center></DIV></TD></TR>
+<TR>
+<TD class=style41 height=26 align=middle><FONT size=2>07:30~07:35</FONT></TD>
+<TD class=style41 height=26 width=300>
+<DIV align=center><FONT size=2><SPAN class=style41>행사 일정 안내</SPAN></FONT></DIV></TD>
+<TD width=144>
+<DIV align=center><STRONG><FONT size=2>한국정보산업연합회</FONT></STRONG></DIV></TD></TR>
+<TR>
+<TD class=style41 height=30 width=76 align=middle><FONT size=2>07:35~08:00</FONT></TD>
+<TD class=style41 height=30 width=300>
+<DIV align=center><FONT size=2>호텔 조찬 및 간담회</FONT></DIV></TD>
+<TD width=144>
+<DIV align=center>
+<P><STRONG></STRONG></P></DIV></TD></TR>
+<TR>
+<TD class=style41 height=40 align=middle>
+<P><FONT size=2>08:00~08:05</FONT></P></TD>
+<TD class=style41 height=40 width=300>
+<P class=style41 align=center><FONT size=2>개회사</FONT></P></TD>
+<TD height=40 width=144>
+<DIV align=center><STRONG><FONT size=2>한국정보통신기술협회<BR>
+신석규 소장</FONT></STRONG></DIV></TD></TR>
+<TR>
+<TD class=style41 height=38 align=middle><FONT size=2>08:05~08:50</FONT></TD>
+<TD class=style41 height=38>
+<DIV align=center>
+<P><FONT size=2><STRONG>&lt;주제강연&gt;<BR>
+</STRONG></FONT><FONT size=2><STRONG>서울시의 정보화 현황 및 국산 우수SW 활용 사례 </STRONG><BR>
+</FONT></P></DIV></TD>
+<TD height=38>
+<DIV align=center><FONT size=2><STRONG>서울시 <BR>
+이계헌 소장 </STRONG></FONT></DIV>
+<DIV align=center></DIV></TD></TR>
+<TR class=style41>
+<TD class=style41 height=24 align=middle><FONT size=2>08:50~09:00</FONT></TD>
+<TD class=style41 height=24>
+<DIV align=center><FONT size=2>Q&amp;A</FONT></DIV></TD>
+<TD height=24>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD height=334 vAlign=top align=middle>
+<DIV align=left>
+<P align=center><BR>
+<BR>
+<IMG src="http://www.fkii.org/upload/imgs/2014/20140826/Intercontinental_Seoul_COEX.jpg" width=550> </P></DIV></TD></TR></TBODY></TABLE>
+<TABLE class=text02 border=0 cellSpacing=0 cellPadding=0 width=559>
+<TBODY>
+<TR>
+<TD height=30 vAlign=top>
+<P style="TEXT-ALIGN: left" align=left><IMG src="http://www.fkii.or.kr/new/forum/TTA/body_tit041.gif" width=120 height=22></P></TD></TR>
+<TR>
+<TD bgColor=#e4fcee height=29 vAlign=center>
+<P style="TEXT-ALIGN: left" align=left><FONT face=돋움>&nbsp;<IMG border=0 src="http://www.fkii.or.kr/new/forum/TTA//icon-blue.gif" width=10 height=12> <SPAN class=style48><FONT face=돋움><FONT face=돋움><FONT color=#ff1111><SPAN class=style52>&nbsp;행사장 수용 인원이 제한적인 관계로 행사 시작 전까지 오신 일반 참석자(40명)에 한해<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;조식 제공 예정이오니 양해 부탁 드립니다. </SPAN></FONT></FONT></FONT></SPAN></FONT></P></TD></TR>
+<TR>
+<TD bgColor=#e4fcee height=29 vAlign=center>
+<P style="TEXT-ALIGN: left" align=left>&nbsp;<IMG border=0 src="http://www.fkii.or.kr/new/forum/TTA//icon-blue.gif" width=10 height=12><FONT face=돋움><FONT face=돋움><FONT size=2> </FONT><FONT face=돋움><FONT size=2>참가 신청 : 온라인 사전등록 (www.fkii.or.kr) --&gt; </FONT><FONT color=#ff9900><STRONG><A class=style49 href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1646143&mail_no=5701284&email=forensic@duzon.com&OZTRACKING=83277e97cbed955a28ecf5226fb06642&url=http://www.fkii.org/new/notice/Event_Join_Add.php?sc_word=&amp;page=1&amp;EM_Code=791" target=_blank>[참가신청 하러가기]</A></STRONG></FONT></FONT></FONT></FONT></P></TD></TR>
+<TR>
+<TD bgColor=#e4fcee height=29 vAlign=center>
+<P style="TEXT-ALIGN: left" align=left><FONT face=돋움>&nbsp;<IMG border=0 src="http://www.fkii.or.kr/new/forum/TTA//icon-blue.gif" width=10 height=12> <FONT face=돋움><FONT face=돋움><FONT size=2>참가비 : 무료(주차지원 가능) </FONT></FONT></FONT><FONT face=돋움><FONT face=돋움><FONT color=#ff1111><FONT size=2></FONT></FONT></FONT></FONT><FONT size=2></FONT></FONT></P></TD></TR>
+<TR>
+<TD bgColor=#e4fcee height=29 vAlign=center>
+<TABLE border=0 width=559>
+<TBODY>
+<TR>
+<TD width=20>
+<P style="TEXT-ALIGN: left" align=left><FONT face=돋움><IMG border=0 src="http://www.fkii.or.kr/new/forum/TTA/icon-blue.gif" width=10 height=12></FONT></P></TD>
+<TD class=e4 width=529>
+<P style="TEXT-ALIGN: left" align=left><FONT size=2 face=돋움><B>문의 </B></FONT></P></TD></TR>
+<TR>
+<TD>
+<P style="TEXT-ALIGN: left" align=left>&nbsp;</P></TD>
+<TD>
+<P style="TEXT-ALIGN: left" align=left><SPAN class=style41><FONT size=2 face=돋움>+ 한국정보산업연합회 </FONT></SPAN><FONT size=2 face=돋움>강민애 연구원 <BR>
+Tel : 02-2132-0736, Fax: 02-782-1266&nbsp; E-mail :<FONT color=#000000><A href="mailto:makang@fkii.org"> makang@fkii.org</A></FONT></FONT></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P></TD></TR>
+<TR bgColor=#ffffff>
+<TD bgColor=#dddddd height=84><FONT color=#666666 size=2 face=돋움><STRONG>&nbsp;&nbsp;본 메일의 내용과 해당사항이 없으시면, 해당 관련 부서로 전달해주시면 감사하겠습니다.</STRONG><BR>
+<BR>
+&nbsp;&nbsp;본 메일은 발신전용입니다. 수신거부를 원하시는 경우 <A href="mailto:makang@fkii.org"><STRONG><FONT color=#330099>&lt;여기&gt;</FONT></STRONG></A>를 클릭하여 주시기 바랍니다. <BR>
+&nbsp;&nbsp;본 메일 정보는 본회 관련행사(교육, 세미나, 포럼 등)를 통해 수집 되었습니다. </FONT></TD></TR>
+<TR bgColor=#ffffff>
+<TD>
+<DIV align=center></DIV></TD></TR></TBODY></TABLE>
+<BLOCKQUOTE>&nbsp;</BLOCKQUOTE>
+		<!--OZ_ModuleStart-->
+		<div align='center'>
+			<table cellpadding='0' cellspacing='0'>
+				<tr>
+					<td height='11'></td>
+				</tr>
+			</table>
+			
+			<table width='630' height='100%' cellpadding='0' cellspacing='0' style='border:2px solid #EFEFEF;'>
+				
+			<tr>
+				<td>
+					<table width='100%' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+						<tr>
+							<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 한국정보산업연합회 행사나 교육에 참가하신 분들 대상으로 발송되었습니다.본 메일은 발신전용입니다. 수신거부를 원하시는 경우 &lt;메일&gt;를 회신하여 주시기 바랍니다.</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+				
+				
+			<tr>
+				<td>
+					<table width='100%' height='47' cellpadding='0' cellspacing='0' bgcolor='#EFEFEF'>
+						<tr>
+							<td align='center' valign='top' height='47'>
+								<table cellpadding='0' cellspacing='0'>
+									<tr>
+										<td height='8'></td>
+									</tr>
+									<tr>
+										
+		<td align='left' valign='top'><a href='http://www.ozmailer.com/fcso/neo_reject.php?email=forensic@duzon.com&mail_no=5701284' target=_blank><img src='http://img.ozmailer.com/mail/good_template/bottom_module_frame/button/unsubscribe_kor.png' border='0' alt='수신거부' /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</div>
+		<!--OZ_ModuleEnd-->
+		<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+
+

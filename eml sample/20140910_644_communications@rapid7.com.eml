@@ -1,0 +1,190 @@
+Received: (qmail 16075 invoked from network); 10 Sep 2014 07:45:31 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda01.wmail.naver.com with SMTP; 10 Sep 2014 07:45:31 -0000
+Received: from [202.167.215.60] ([202.167.215.60]) 
+          by crcvmail02.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1410335131.774345.3590294416.crcvmail02
+          for <jonghyun.kim@dforensic.com>; 
+          Wed, 10 Sep 2014 16:45:31 +0900 (KST) 
+x-forward-id: 1410335128750_935649226
+recvDate: Wed, 10 Sep 2014 16:45:31 +0900
+x-newturns-hashkey : 6ab0c8828732eaea1c93e12f75c89310612349eedb62b491a504333c1c7b4474
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id s8A7SnF001C8;
+	Wed, 10 Sep 2014 16:28:49 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,s8A7SnF001C8
+X-SmartFilter: FROM,s8A7SnF001C8,495-KNT-277.0.9399.0.0.5754.7.1141592@em-sj-77.mktomail.com
+DKIM-Signature: v=1; a=rsa-sha256; d=rapid7.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; i=@rapid7.com; t=1410335122;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=fRCt0S5madkjT2Fepe7FJm7VK+8alBBLz5KW1u9ALAA=;
+	b=P2BaBBlBWEo2yPB3BueUELJVMEyiOeA0Ko8roMtOs3TQSuGmdRfer0MPyTNSeKfl
+	LUTyLTbYEXUj8Kil4iLAP8dR8jdhKkp2tzVq3blb1dsV8MajogKlFvfGyi5tN2JV
+	LrR1034T725MiagNY32ScG1jorPWQKsAVXcc5HGwFyI=;
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6NTMzNzo5Mzk5OjE5NjIyOjA6NTc1NDo3OjExNDE1OTI=
+Received: from [10.0.12.42] ([10.0.12.42:40450] helo=sjmas01.marketo.org)
+	by sjmta07.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.5.0.35861 r(Momo-dev:tip)) with ESMTP
+	id 4C/36-06295-29100145; Wed, 10 Sep 2014 02:45:22 -0500
+Date: Wed, 10 Sep 2014 02:45:22 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1853050328.75010772.1410335122797.JavaMail.root@sjmas01.marketo.org>
+Subject: [New Webcast] Credentials Are the New Exploits: How to Effectively
+ Use Credentials in Penetration Tests
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_75010771_1158638510.1410335122797"
+X-Report-Abuse: Please report abuse here: http://www.marketo.com/policy
+X-PVIQ: 000326-001349-000001-000000-011436
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:5337:9399:19622:0:5754:7:1141592
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.9399.5754.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.9399.0.0.5754.7.1141592@em-sj-77.mktomail.com
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +YFYpB3G1Hbqa0ixyueaKL/maL0Y7BmmFqt9KqJYkXm=
+
+------=_Part_75010771_1158638510.1410335122797
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Credentials Are the New Exploits: How to Effectively Use Credentials in Penetration Tests
+Join Us
+
+Date: Wednesday 17 September
+
+Time: 10am SGT | 11am JST | 12 noon AEST
+
+ <https://information.rapid7.com/Credentialsarethenewexploits-APAC-FM.html>
+Speaker 
+Christian Kirsch
+Principal Product Marketing Manager
+Rapid7
+Credentials are the New Exploits: How to Effectively Use Credentials in Penetration Tests
+Register for this webcast to learn about: <https://information.rapid7.com/Credentialsarethenewexploits-APAC-FM.html>
+
+
+ - Trends that cause attackers to increasingly use credentials
+ - The ways attackers obtain credentials and move across the network
+ - Techniques penetration testers use to simulate credential abuse
+ - Efficient new ways to manage and reuse credentials with Metasploit Pro
+
+
+
+Credentials have become the number one attack methodology, according to the Verizon Data Breach Investigations Report. Mirroring the increased use of stolen credentials by attackers, 59% of penetration testers focus more than half of their security assessments on credentials versus exploits, according to a 2014 survey. The biggest challenge often rests in effectively managing the large number of passwords, hashes, and SSH keys.
+
+This webinar will include a presentation, live demo, and Q&A, and all participants will earn 1 CPE credit.
+
+
+Can't attend live? Save your spot now to be sent the recording. <https://information.rapid7.com/Credentialsarethenewexploits-APAC-FM.html>
+
+- The Rapid7 Team
+
+If you no longer wish to receive these emails, go to the following link to unsubscribe: https://information.rapid7.com/UnsubscribePage.html?mkt_unsubscribe=1&mkt_tok=3RkMMJWWfF9wsRovuKXAZKXonjHpfsX56ugsXK60lMI%2F0ER3fOvrPUfGjI4ES8dmI%2BSLDwEYGJlv6SgFTrnAMatuzrgPXBY%3D.
+
+------=_Part_75010771_1158638510.1410335122797
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<title>Rapid 7 Newsletter</title>
+</head>
+<body style="margin:0; background-color:#FFFFFF; color:#000000; font-size:12px; font-family:Arial, Helvetica, sans-serif; " ><table cellpadding="0" cellspacing="0" border="0" style="width:800px; " ><tr>
+<td colspan="3" style="background-color:#ea5709;"><img src="http://information.rapid7.com/rs/rapid7/images/top-line.gif" width="800" height="4" alt=""></td>
+</tr>
+<tr valign="top" style="height:92px; " ><td width="66" style="height:92px;"><img src="http://information.rapid7.com/rs/rapid7/images/arrow.gif"></td>
+<td width="573" style="height:92px; " ><div style="margin-top:14px; " ><span style="font-size:30px;font-weight:bold;font-family:Verdana, Geneva, sans-serif;">Security Webcast</span><br>
+<div class="mktEditable" id="title" ><span style="font-size: 20px; font-weight: normal; font-family: Verdana, Geneva, sans-serif;">Credentials Are the New Exploits: How to Effectively Use Credentials in Penetration Tests</span></div>
+</div>
+</td>
+<td width="161" style="height:92px;text-align:right;">
+<div style="margin-top:22px;"><a href=
+"http://info.rapid7.com/wNYTQ44Kl0000M3n00M2m0H"
+><img src="http://information.rapid7.com/rs/rapid7/images/logo.jpg" alt="Rapid 7" width="161" style="border:none;"></a></div>
+</td>
+</tr>
+<tr>
+<td colspan="3"><img src="http://information.rapid7.com/rs/rapid7/images/drop_shadow_1.gif" alt="" style="display:block; border:0;" width="800" height="20"></td>
+</tr>
+<tr ><td style="width:800px; " colspan="3" width="800" ><table ><tr valign="top" ><td style="width:250px; border-right:1px solid #E5E5E5; " ><div class="mktEditable" id="date-time" style="font-size:10pt; font-family:'Trebuchet MS',Verdana; margin-top:8px; color:#5F5F5F; margin:10px; " ><h3 style="color: #0197b8;">Join Us</h3>
+<p><strong>Date: Wednesday</strong>&nbsp;17 September</p>
+<p><strong>Time:</strong>&nbsp;10am SGT | 11am JST | 12 noon AEST</p>
+<p><a href=
+"http://info.rapid7.com/P000Q04KlN0Mn40H0YoT3M2"
+><img src="http://information.rapid7.com/rs/rapid7/images/register-orange.gif" border="0" alt="" /></a></p></div>
+<div class="mktEditable" id="speakers" style="font-size:10pt; font-family:'Trebuchet MS',Verdana; margin-top:8px; color:#5F5F5F; margin:10px; " ><h3 style="color: #0197b8;"><strong>Speaker</strong><span style="color: #000000; font-family: 'trebuchet ms', geneva; font-size: 10px; font-weight: normal;">&nbsp;</span></h3>
+<div><span style="font-family: 'trebuchet ms', geneva;"><strong>Christian Kirsch</strong></span></div>
+<div style="font-family: 'Trebuchet MS', Verdana; font-weight: normal;"><span style="font-family: 'trebuchet ms', geneva;"><span>Principal Product Marketing Manager</span></span></div>
+<div style="font-family: 'Trebuchet MS', Verdana; font-weight: normal;"><span style="font-family: 'trebuchet ms', geneva;"><span>Rapid7</span></span></div></div>
+</td>
+<td style="width:550px; " ><div class="mktEditable" id="body-copy" style="font-size:10pt; font-family:'Trebuchet MS',Verdana; margin-top:8px; color:#5F5F5F; margin:10px; " ><div style="color: #0197b8;"><span style="font-size: 18px;"><strong>Credentials are the New Exploits: How to Effectively Use Credentials in Penetration Tests</strong></span></div>
+<p style="font-size: 13px; font-weight: normal;"><a href=
+"http://info.rapid7.com/P000Q04KlN0Mn40H0YoT3M2"
+><strong>Register for this webcast</strong> to learn about:</a></p>
+<ul>
+<li>Trends that cause attackers to increasingly use credentials</li>
+<li>The ways attackers obtain credentials and move across the network</li>
+<li>Techniques penetration testers use to simulate credential abuse</li>
+<li>Efficient new ways to manage and reuse credentials with Metasploit Pro</li>
+</ul>
+<p><span><span>Credentials have become the number one attack methodology, according to the Verizon Data Breach Investigations Report. Mirroring the increased use of stolen credentials by attackers, 59% of penetration testers focus more than half of their security assessments on credentials versus exploits, according to a 2014 survey. The biggest challenge often rests in effectively managing the large number of passwords, hashes, and SSH keys.</span></span></p>
+<p><span>This webinar will include a presentation,&nbsp;<strong>live demo, and Q&amp;A,&nbsp;</strong>and all&nbsp;participants will earn<strong>&nbsp;1 CPE credit.</strong><br /></span></p>
+<p><span><a href=
+"http://info.rapid7.com/P000Q04KlN0Mn40H0YoT3M2"
+><strong>Can't attend live? Save your spot now&nbsp;to be sent the recording</strong>.</a></span></p>
+<p style="font-size: 13px; font-weight: normal;">- The Rapid7 Team</p>
+<ul style="font-size: 13px; font-weight: normal;">
+</ul></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width:800px;font-family:'Trebuchet MS',Verdana;font-size:10px;" colspan="3">
+<table cellpadding="0" cellspacing="20" style="background-color:#333;border-top:1px solid #E5E5E5; border-bottom:1px solid #E5E5E5; width:800px;">
+<tr>
+<td width="80"><a href=
+"http://info.rapid7.com/TpQKH0M03000YNo20l4M4T0" style="color:#fff; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Home</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/b00004NlHKp0TM3q020MY4Q" style="color:#fff; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Nexpose</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/O0H0M4MT0200QKlq0r043YN" style="color:#fff; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Metasploit</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/jMsN032lK004Y0MQT4r0H00" style="color:#fff; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Mobilisafe</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/q3TK040Ylt0Q4H02N0Ms00M" style="color:#fff; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>ControlsInsight</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/DKt400u0TNY00H03lQ2M04M" style="color:#fff; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>UserInsight</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/K00M4KN00lHu2v4YM03Q0T0" style="color:#fff; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Company</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/CNM00w0vl0HK0Q4Y2M03T04" style="color:#fff; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Community</a></td>
+</tr>
+</table>
+<div style="font-size:10px; color:#5F5F5F; padding:20px;">&copy; 2014 Rapid7 All Rights Reserved. 100 Summer Street, 13th Floor, Boston, MA 02110<br></div>
+</td>
+</tr>
+</table>
+
+<IMG SRC="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6NTMzNzo5Mzk5OjE5NjIyOjA6NTc1NDo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" WIDTH="1" HEIGHT="1" BORDER="0" ALT="" />
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><p><font face="Verdana" size="1">If you no longer wish to receive these emails, click on the following link: <a href=
+"http://info.rapid7.com/u/B300xK2TQ00040HN0YwlMM4"
+>Unsubscribe</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_75010771_1158638510.1410335122797--
+
+

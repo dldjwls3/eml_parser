@@ -1,0 +1,2045 @@
+Received: (qmail 27328 invoked by uid 100); 29 Nov 2016 00:44:11 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda002.wmail.worksmobile.com with SMTP;29 Nov 2016 00:44:11 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id F+3zKMQFQt6jdMwVKs5iIA
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 29 Nov 2016 00:44:11 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAT0kcw0079D;
+	Tue, 29 Nov 2016 09:46:38 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAT0kcw0079D
+X-SmartFilter: FROM,uAT0kcw0079D,joseph@duzon.com
+x-forward-id: <f1ce25c3a29d7d54a417baf29ac5cd21c69.20161129004346@mail214.atl121.mcsv.net>
+Received: from external ([198.2.131.214])
+	by smf.duzon.co.kr (1.0) id uAT0kVt0079A;
+	Tue, 29 Nov 2016 09:46:31 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAT0kVt0079A
+X-SmartFilter: FROM,uAT0kVt0079A,bounce-mc.us7_20959531.770017-joseph=duzon.com@mail214.atl121.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail214.atl121.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=taeil.cho=3Dkotrasv.org@mail214.atl121.mcsv.net;
+ bh=OL+GMkyT2VKkl3Ql7eG8fllqync=;
+ b=dzmLhnVZrwUH6ktTFWyW5z2pF61kFe3rz58q5gwwhoK/QCeFLbLtTDLLTvSwS9oJ07GVcre3CDMn
+   yahcCLRtCBQ73aoKgQMShm03NeqIETUGVrRfzoO6d0g+2T1/oO3HWUNPIKrnbhliP8gJALQJuZhN
+   lTVqbwp3I32bsGZIh1s=
+Received: from (127.0.0.1) by mail214.atl121.mcsv.net id h7j7kq1ohncv for <joseph@duzon.com>; Tue, 29 Nov 2016 00:43:55 +0000 (envelope-from <bounce-mc.us7_20959531.770017-joseph=duzon.com@mail214.atl121.mcsv.net>)
+Subject: =?utf-8?Q?=EC=83=8C=ED=94=84=EB=9E=80=EC=8B=9C=EC=8A=A4=EC=BD=94=2C=20=ED=95=B4=ED=82=B9=EC=9C=BC=EB=A1=9C=20=EC=9D=B8=ED=95=9C=20=EA=B5=90=ED=86=B5=EC=8B=9C=EC=8A=A4=ED=85=9C=20=EB=A7=88=EB=B9=84=EB=A1=9C=20=EB=B3=B4=EC=95=88=EA=B8=B0=EC=88=A0=20=EA=B0=9C=EB=B0=9C=20=EC=8B=9C=EA=B8=89?=
+From: =?utf-8?Q?KOTRA=20SV=20News?= <taeil.cho@kotrasv.org>
+Reply-To: =?utf-8?Q?KOTRA=20SV=20News?= <taeil.cho@kotrasv.org>
+To: =?utf-8?Q??= <joseph@duzon.com>
+Date: Tue, 29 Nov 2016 00:43:55 +0000
+Message-ID: <f1ce25c3a29d7d54a417baf29ac5cd21c69.20161129004346@mail214.atl121.mcsv.net>
+X-Mailer: MailChimp Mailer - **CID52280eed07ac5cd21c69**
+X-Campaign: mailchimpf1ce25c3a29d7d54a417baf29.52280eed07
+X-campaignid: mailchimpf1ce25c3a29d7d54a417baf29.52280eed07
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=f1ce25c3a29d7d54a417baf29&id=52280eed07&e=ac5cd21c69
+X-MC-User: f1ce25c3a29d7d54a417baf29
+X-Feedback-ID: 20959531:20959531.770017:us7:mc
+List-ID: f1ce25c3a29d7d54a417baf29mc list <f1ce25c3a29d7d54a417baf29.166385.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us7_f1ce25c3a29d7d54a417baf29.52280eed07-ac5cd21c69@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://kotrasv.us7.list-manage.com/unsubscribe?u=f1ce25c3a29d7d54a417baf29&id=49abe6b0d2&e=ac5cd21c69&c=52280eed07>
+Sender: "KOTRA SV News" <taeil.cho=kotrasv.org@mail214.atl121.mcsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1897108646"
+MIME-Version: 1.0
+X-Naver-ESV: wfRn+6J4p635WrlY7BwdpBmmKAtdKxJYkXm=
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1897108646
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+KOTRA Silicon Valley News 2016.11.28
+=EC=88=98=EC=8B=A0=EA=B1=B0=EB=B6=80 (http://kotrasv.us7.list-manage.com/u=
+nsubscribe?u=3Df1ce25c3a29d7d54a417baf29&id=3D49abe6b0d2&e=3Dac5cd21c69&c=3D=
+52280eed07)  =EA=B5=AC=EB=8F=85=EC=8B=A0=EC=B2=AD (http://kotrasv.us7.list=
+-manage.com/subscribe?u=3Df1ce25c3a29d7d54a417baf29&id=3D49abe6b0d2)  =EC=
+=9B=B9=EC=97=90=EC=84=9C =EC=97=B4=EA=B8=B0 (http://us7.campaign-archive2.=
+com/?u=3Df1ce25c3a29d7d54a417baf29&id=3D52280eed07&e=3Dac5cd21c69)
+https://www.youtube.com/watch?v=3DHOndhtfIXSY&mc_cid=3D52280eed07&mc_eid=
+=3D[UNIQID]
+[Focus] =EC=83=8C=ED=94=84=EB=9E=80=EC=8B=9C=EC=8A=A4=EC=BD=94=2C =ED=95=
+=B4=ED=82=B9=EC=9C=BC=EB=A1=9C =EC=9D=B8=ED=95=9C =EA=B5=90=ED=86=B5=EC=8B=
+=9C=EC=8A=A4=ED=85=9C =EB=A7=88=EB=B9=84=EB=A1=9C =EB=B3=B4=EC=95=88=EA=B8=
+=B0=EC=88=A0 =EA=B0=9C=EB=B0=9C =EC=8B=9C=EA=B8=89 (http://www.forbes.com/=
+sites/thomasbrewster/2016/11/28/san-francisco-muni-hacked-ransomware/?mc_c=
+id=3D52280eed07&mc_eid=3D[UNIQID]#f5441fd54ddd)
+=EC=83=8C=ED=94=84=EB=9E=80=EC=8B=9C=EC=8A=A4=EC=BD=94 =EB=8C=80=EC=A4=91=
+=EA=B5=90=ED=86=B5=EC=9D=84 =EA=B4=80=EB=A6=AC=ED=95=98=EB=8A=94 MUNI(San=
+ Francisco Municipal Railway)=EB=8A=94 2016=EB=85=84 11=EC=9B=94 26=EC=9D=
+=BC =EB=8C=80=EB=8C=80=EC=A0=81=EC=9D=B8 =ED=95=B4=EC=BB=A4 =EA=B3=B5=EA=
+=B2=A9=EC=9D=84 =EB=B0=9B=EC=95=98=EC=9D=8C=EC=9D=84 =EA=B3=B5=EC=8B=9D=
+ =EB=B0=9C=ED=91=9C=ED=96=88=EB=8B=A4. =ED=95=B4=EC=BB=A4=EB=8A=94 =EC=B6=
+=94=EC=88=98=EA=B0=90=EC=82=AC=EC=A0=88 =EB=8B=A4=EC=9D=8C=EB=82=A0=EC=9D=
+=B8 =EB=B8=94=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=EB=8D=B0=EC=9D=B4=EC=97=
+=90 =ED=95=B4=ED=82=B9=EC=9D=84 =EA=B0=90=ED=96=89=ED=96=88=EC=9C=BC=EB=A9=
+=B0=2C =EB=9E=9C=EC=84=AC=EC=9B=A8=EC=96=B4(Ransomware)=EB=A5=BC =EC=84=A4=
+=EC=B9=98=ED=95=9C =EA=B2=83=EC=9C=BC=EB=A1=9C =EC=95=8C=EB=A0=A4=EC=A1=8C=
+=EB=8B=A4. =EC=A7=80=EC=A0=95=EB=90=9C =EC=8B=9C=EA=B0=84=EC=97=90 =EB=9E=
+=9C=EC=84=AC=EC=9B=A8=EC=96=B4=EA=B0=80 =EC=9E=91=EB=8F=99=ED=95=98=EB=A9=
+=B4=EC=84=9C MUNI=EA=B0=80 =EB=A7=88=EB=B9=84=EB=90=98=EC=97=88=EA=B3=A0=
+ =EC=A3=BC=EB=A7=90 =EA=B4=80=EA=B4=91=EA=B0=9D=EB=93=A4=EC=9D=80 =EC=9D=
+=B4=EB=8F=99=EC=97=90 =ED=81=B0 =EB=B6=88=ED=8E=B8=ED=95=A8=EC=9D=84 =EA=
+=B2=AA=EC=96=B4=EC=95=BC=EB=A7=8C =ED=96=88=EB=8B=A4. =EB=B2=94=ED=96=89=
+=EC=9D=84 =EC=A0=80=EC=A7=80=EB=A5=B8 =ED=95=B4=EC=BB=A4=EB=8B=A8=EC=B2=B4=
+=EB=8A=94 =E2=80=98=EC=95=A4=EB=94=94 =EC=82=AC=EC=98=AC=EB=A6=AC=EC=8A=A4=
+(Andy Saolis)=E2=80=99=EB=9D=BC=EB=8A=94 =EA=B0=80=EB=AA=85=EC=9D=84 =EC=
+=82=AC=EC=9A=A9=ED=95=9C=EB=8B=A4=EA=B3=A0 =EC=88=98=EC=82=AC =EA=B4=80=EA=
+=B3=84=EC=9E=90=EB=8A=94 =EB=B0=9D=ED=98=94=EB=8B=A4. =EC=9D=B4=EC=97=90=
+ =EB=8B=B9=ED=99=A9=ED=95=9C MUNI =EA=B4=80=EA=B3=84=EC=9E=90=EB=93=A4=EC=
+=9D=80 =EB=B3=B4=EC=95=88=EA=B8=B0=EC=88=A0 =EB=8C=80=EC=B2=98=EB=8A=A5=EB=
+=A0=A5 =ED=96=A5=EC=83=81=EC=9D=98 =EC=8B=9C=EA=B8=89=ED=95=A8=EC=9D=84=
+ =EC=A0=88=EA=B0=90=ED=95=98=EA=B3=A0 =EC=9E=88=EB=8A=94 =EA=B2=83=EC=9C=
+=BC=EB=A1=9C =EB=B3=B4=EC=9D=B8=EB=8B=A4.
+
+=EB=9E=9C=EC=84=AC=EC=9B=A8=EC=96=B4=EB=8A=94 =EC=8B=A0=EC=A2=85 =EC=95=85=
+=EC=84=B1=EC=BD=94=EB=93=9C=EB=A1=9C =EC=9C=A0=EB=AA=85=ED=95=98=EB=8B=A4.=
+ =ED=95=B4=EC=BB=A4=EB=93=A4=EC=9D=80 =EC=8B=9C=EC=8A=A4=ED=85=9C=EC=97=90=
+ =EC=A0=91=EA=B7=BC=ED=95=9C =ED=9B=84=2C =EB=9E=9C=EC=84=AC=EC=9B=A8=EC=
+=96=B4=EB=A5=BC =ED=86=B5=ED=95=B4 =EC=BB=B4=ED=93=A8=ED=84=B0 =EB=A7=88=
+=EB=B9=84=EC=99=80 =EB=8D=94=EB=B6=88=EC=96=B4 =EC=A4=91=EC=9A=94 =EB=AC=
+=B8=EC=84=9C =EB=B0=8F =EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =ED=99=95=EB=
+=B3=B4=ED=95=9C=EB=8B=A4. =ED=8A=B9=EC=9D=B4 =EC=82=AC=ED=95=AD=EC=9D=80=
+ =EC=8B=9C=EC=8A=A4=ED=85=9C=EA=B3=BC =EB=AC=B8=EC=84=9C =EB=B3=B5=EA=B5=
+=AC=EB=A5=BC =EC=A7=84=ED=96=89=ED=95=A0 =EA=B2=BD=EC=9A=B0=2C =EB=8C=80=
+=EA=B0=80=EB=A1=9C =EA=B8=88=ED=92=88=EC=9D=84 =EC=A0=9C=EA=B3=B5=ED=95=B4=
+=EC=95=BC =ED=95=98=EB=8A=94 =EC=A0=90=EC=9D=B4=EB=8B=A4. =EC=9D=B4=EB=B2=
+=88 MUNI=EC=97=90 =EC=84=A4=EC=B9=98=EB=90=9C =EB=9E=9C=EC=84=AC=EC=9B=A8=
+=EC=96=B4=EB=8A=94 =EC=A4=91=EC=9A=94 =EB=AC=B8=EC=84=9C=EC=99=80 =EC=8B=
+=9C=EC=8A=A4=ED=85=9C =EB=B3=B5=EA=B7=80=EB=A5=BC =EB=8C=80=EA=B0=80=EB=A1=
+=9C 100 =EB=B9=84=ED=8A=B8=EC=BD=94=EC=9D=B8 =ED=98=B9=EC=9D=80 73=2C000=
+ =EB=8B=AC=EB=9F=AC=EB=A5=BC =EC=9A=94=EA=B5=AC=ED=95=9C =EA=B2=83=EC=9C=
+=BC=EB=A1=9C =EC=95=8C=EB=A0=A4=EC=A1=8C=EB=8B=A4. =EC=82=AC=ED=9A=8C =EC=
+=9D=B8=ED=94=84=EB=9D=BC=EA=B5=AC=EC=A1=B0=EB=A5=BC =EB=8C=80=EC=83=81=EC=
+=9C=BC=EB=A1=9C =EB=9E=9C=EC=84=AC=EC=9B=A8=EC=96=B4=EB=A5=BC =EC=84=A4=EC=
+=B9=98=ED=95=9C =ED=95=B4=EC=BB=A4=EB=93=A4=EC=9D=80 =EB=B3=B4=EC=95=88=EC=
+=9D=B4 =EC=B7=A8=EC=95=BD=ED=95=9C =EA=B5=90=ED=86=B5=EA=B4=80=EB=A6=AC=
+ =EC=8B=9C=EC=8A=A4=ED=85=9C=EC=9D=84 =EB=8C=80=EC=83=81=EC=9C=BC=EB=A1=9C=
+ =ED=95=B4=ED=82=B9=EC=9D=84 =EA=B0=90=ED=96=89=ED=96=88=EA=B3=A0=2C =EC=
+=95=9E=EC=9C=BC=EB=A1=9C=EB=8F=84 =EC=8B=AC=EA=B0=81=ED=95=9C =ED=94=BC=ED=
+=95=B4=EB=A5=BC =EC=9E=85=ED=9E=90 =EA=B2=83=EC=9D=B4=EB=9D=BC=EA=B3=A0=
+ =EC=A0=84=EB=AC=B8=EA=B0=80=EB=93=A4=EC=9D=80 =EC=A0=84=EB=A7=9D=ED=96=88=
+=EB=8B=A4. =EB=B3=B4=EC=95=88=EA=B8=B0=EC=88=A0 =EA=B0=9C=EB=B0=9C=EA=B3=
+=BC =EB=8C=80=EC=B2=98=EB=8A=A5=EB=A0=A5=EC=9D=98 =EC=B7=A8=EC=95=BD=ED=95=
+=A8=EC=9D=B4 =EC=97=AC=EC=8B=A4=ED=9E=88 =EB=93=A4=EC=96=B4=EB=82=9C =EC=
+=9D=B4=EB=B2=88 =EC=82=AC=ED=83=9C=EB=A5=BC =EA=B7=80=EA=B0=90 =EC=82=BC=
+=EC=95=84 IT=EB=B3=B4=EC=95=88=EC=82=B0=EC=97=85=EC=9D=98 =EC=84=B1=EC=9E=
+=A5=EC=9C=BC=EB=A1=9C =EC=9D=B4=EC=96=B4=EC=A7=80=EA=B8=B8 =EA=B8=B0=EB=8C=
+=80=ED=95=B4=EB=B3=B8=EB=8B=A4.
+
+=EC=9E=91=EC=84=B1 : =ED=95=9C=EC=83=81=EC=88=98 =EB=A7=A4=EB=8B=88=EC=A0=
+=80
+=EC=9E=90=EB=A3=8C=EC=9B=90 : Forbes (http://www.forbes.com/sites/thomasbr=
+ewster/2016/11/28/san-francisco-muni-hacked-ransomware/?mc_cid=3D52280eed0=
+7&mc_eid=3D[UNIQID]#f5441fd54ddd)
+
+(http://www.businessinsider.com/apple-iphone-7-photos-specs-features-2016-=
+9?mc_cid=3D52280eed07&mc_eid=3D[UNIQID])
+[Daily News]
+- GM=2C =ED=85=8C=EC=8A=AC=EB=9D=BC =EA=B2=AC=EC=A0=9C =EC=9C=84=ED=95=B4=
+ =EC=A0=84=EA=B8=B0=EC=9E=90=EB=8F=99=EC=B0=A8 =EB=B3=BC=ED=8A=B8(Bolt)=EC=
+=9D=98 =ED=8C=90=EB=A7=A4=EC=A0=84=EB=9E=B5 =EC=88=98=EB=A6=BD (http://www=
+=2Esfchronicle.com/news/article/Chevy-Bolt-isn-t-stylish-but-GM-is-pushing-i=
+ts-10639948.php?mc_cid=3D52280eed07&mc_eid=3D[UNIQID])
+- =EB=B8=94=EB=9E=99=EB=B2=A0=EB=A6=AC=2C =EC=BA=90=EB=82=98=EB=8B=A4 =EC=
+=98=A8=ED=83=80=EB=A6=AC=EC=98=A4(Ontario) =EC=A3=BC=EC=97=90=EC=84=9C =EC=
+=9E=90=EC=9C=A8=EC=A3=BC=ED=96=89 =ED=85=8C=EC=8A=A4=ED=8A=B8 =EC=8B=A4=EC=
+=8B=9C (https://techcrunch.com/2016/11/28/blackberry-among-3-organizations=
+-set-to-test-self-driving-cars-on-ontario-roads/?mc_cid=3D52280eed07&mc_ei=
+d=3D[UNIQID])
+- =EC=9A=B0=EB=B2=84=2C =EC=A4=91=EA=B5=AD =EB=82=B4 =EC=B0=A8=EB=9F=89=EA=
+=B3=B5=EC=9C=A0 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=A0=84=EB=A9=B4 =EC=A4=91=
+=EB=8B=A8 (https://techcrunch.com/2016/11/28/ubers-china-app-is-now-separa=
+te-from-its-global-app-and-a-nightmare-for-foreigners/?mc_cid=3D52280eed07=
+&mc_eid=3D[UNIQID])
+- =EB=A7=88=EC=9D=B4=ED=81=AC=EB=A1=9C=EC=86=8C=ED=94=84=ED=8A=B8=2C =EC=
+=A4=91=EA=B5=AD=EC=96=B4=EC=9A=A9 =EC=B1=97=EB=B4=87=EC=97=90 =ED=8A=B9=EC=
+=A0=95 =EA=B2=80=EC=83=89 =EB=B6=88=EA=B0=80 =EA=B8=B0=EB=8A=A5=EC=9D=B4=
+ =EC=9E=88=EB=8A=94 =EA=B2=83=EC=9C=BC=EB=A1=9C =EB=B0=9D=ED=98=80=EC=A0=
+=B8 (http://fortune.com/2016/11/28/microsoft-chat-bot-xiaoice/?mc_cid=3D52=
+280eed07&mc_eid=3D[UNIQID])
+- =EB=AF=B8=EA=B5=AD =EC=BB=A8=ED=85=8C=EC=9D=B4=EB=84=88 =EC=84=A0=EC=82=
+=AC =EB=A7=B7=EC=8A=A8(Matson)=2C =EC=95=84=EB=A7=88=EC=A1=B4=EA=B3=BC =ED=
+=95=B4=EC=83=81=EB=AC=BC=EB=A5=98=EC=9A=A9 =ED=81=B4=EB=9D=BC=EC=9A=B0=EB=
+=93=9C =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=8B=9C=EC=8A=A4=ED=85=9C =EA=B0=9C=
+=EB=B0=9C =EA=B3=84=ED=9A=8D =EB=B0=9C=ED=91=9C (http://fortune.com/2016/1=
+1/28/shipping-power-matson-moves-to-aws/?mc_cid=3D52280eed07&mc_eid=3D[UN=
+IQID])
+- =EC=95=A0=ED=94=8C=2C =EC=95=84=EC=9D=B4=ED=8F=B0 =EB=B0=8F =EC=95=84=EC=
+=9D=B4=ED=8C=A8=EB=93=9C =EC=B0=A8=EA=B8=B0 =EB=AA=A8=EB=8D=B8 =EC=83=88=
+=EB=A1=AD=EA=B2=8C =EB=94=94=EC=9E=90=EC=9D=B8 =ED=95=A0 =EA=B2=83 (http:/=
+/www.businessinsider.com/apple-ipad-2017-rumors-iphone-10-2016-11?mc_cid=
+=3D52280eed07&mc_eid=3D[UNIQID])
+- =EC=9D=B8=EC=8A=A4=ED=83=80=EC=97=90=EC=96=B4 360=2C =EC=95=88=EB=93=9C=
+=EB=A1=9C=EC=9D=B4=EB=93=9C =EC=A0=84=EC=9A=A9 360=EB=8F=84 =EC=B9=B4=EB=
+=A9=94=EB=9D=BC =EC=B6=9C=EC=8B=9C (https://techcrunch.com/2016/11/28/inst=
+a360-air-looks-to-bring-affordable-360-video-to-android-phones/?mc_cid=3D5=
+2280eed07&mc_eid=3D[UNIQID])
+https://www.fundivo.com/stats/black-friday-statistics/?mc_cid=3D52280eed07=
+&mc_eid=3D[UNIQID]
+[Info Clip] =EB=AF=B8 =EB=B8=94=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=EB=8D=
+=B0=EC=9D=B4=2C =EC=98=A8=EB=9D=BC=EC=9D=B8 =EC=87=BC=ED=95=91=EC=9C=BC=EB=
+=A1=9C 30=EC=96=B5 =EB=8B=AC=EB=9F=AC =EB=84=98=EC=96=B4=EC=84=9C (https:/=
+/techcrunch.com/2016/11/25/black-friday-online-sales-to-hit-a-record-break=
+ing-3-billion-over-1-billion-from-mobile/?mc_cid=3D52280eed07&mc_eid=3D[U=
+NIQID])
+=EB=AF=B8=EA=B5=AD =EC=B5=9C=EB=8C=80 =EC=87=BC=ED=95=91 =EC=8B=9C=EC=A6=
+=8C=EC=9D=B8 =EB=B8=94=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=EB=8D=B0=EC=9D=
+=B4(Black Friday) =EB=A7=A4=EC=B6=9C=EC=9D=B4 =EC=82=AC=EC=83=81 =EC=B5=9C=
+=EB=8C=80=EC=B9=98=EB=A5=BC =EA=B8=B0=EB=A1=9D=ED=96=88=EB=8B=A4. =EC=98=
+=A8=EB=9D=BC=EC=9D=B8 =EA=B1=B0=EB=9E=98=EB=A5=BC =EC=A7=91=EA=B3=84=ED=95=
+=98=EB=8A=94 =EC=96=B4=EB=8F=84=EB=B9=84 =EB=94=94=EC=A7=80=ED=84=B8 =EC=
+=9D=B8=EB=8D=B1=EC=8A=A4(Adobe Digital Index)=EC=97=90 =EB=94=B0=EB=A5=B4=
+=EB=A9=B4=2C 2016=EB=85=84 =EB=B8=94=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=
+=EB=8D=B0=EC=9D=B4 =EC=98=A8=EB=9D=BC=EC=9D=B8 =EB=A7=A4=EC=B6=9C=EC=95=A1=
+=EC=9D=B4 =EC=A0=84=EB=85=84 =EB=8C=80=EB=B9=84 21.6% =EC=A6=9D=EA=B0=80=
+=ED=95=9C 33=EC=96=B5 4=2C000=EB=A7=8C =EB=8B=AC=EB=9F=AC=EB=A5=BC =EA=B8=
+=B0=EB=A1=9D=ED=96=88=EB=8B=A4=EA=B3=A0 =EB=B0=9C=ED=91=9C=ED=96=88=EB=8B=
+=A4. =EC=9D=B4 =EC=A4=91 =EC=8A=A4=EB=A7=88=ED=8A=B8=ED=8F=B0=EC=9D=B4=EB=
+=82=98 =ED=83=9C=EB=B8=94=EB=A6=BFPC =EB=93=B1=EC=9D=84 =ED=86=B5=ED=95=9C=
+ =EB=AA=A8=EB=B0=94=EC=9D=BC =EC=87=BC=ED=95=91 =EB=A7=A4=EC=B6=9C=EC=9D=
+=B4 =EC=B5=9C=EC=B4=88=EB=A1=9C 10=EC=96=B5 =EB=8B=AC=EB=9F=AC=EB=A5=BC=
+ =EB=84=98=EC=96=B4=EC=84=A0 =EA=B2=83=EC=9C=BC=EB=A1=9C =EB=B0=9D=ED=98=
+=80=EC=A1=8C=EB=8B=A4. =EC=95=84=EB=A7=88=EC=A1=B4=2C =EC=9B=94=EB=A7=88=
+=ED=8A=B8=2C =ED=83=80=EA=B2=9F=2C e=EB=B2=A0=EC=9D=B4 =EB=93=B1 =EC=9C=A0=
+=ED=86=B5=EC=97=85=EC=B2=B4 =EB=AA=A8=EB=B0=94=EC=9D=BC =EA=B1=B0=EB=9E=98=
+=EC=9D=98 =EC=A7=80=EC=86=8D=EC=A0=81=EC=9D=B8 =EC=A6=9D=EA=B0=80=EC=B6=94=
+=EC=84=B8=EB=8F=84 =EC=9D=B4=EB=B2=88 =EB=B8=94=EB=9E=99=ED=94=84=EB=9D=BC=
+=EC=9D=B4=EB=8D=B0=EC=9D=B4 =EC=98=A8=EB=9D=BC=EC=9D=B8 =EC=87=BC=ED=95=91=
+=EC=97=90 =ED=81=B0 =EB=AA=AB=EC=9D=84 =EC=B0=A8=EC=A7=80=ED=95=9C =EA=B2=
+=83=EC=9C=BC=EB=A1=9C =EC=A0=84=ED=95=B4=EC=A7=84=EB=8B=A4. =EC=96=B4=EB=
+=8F=84=EB=B9=84=EB=8A=94 =EB=B8=94=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=EB=
+=8D=B0=EC=9D=B4 =EC=98=A8=EB=9D=BC=EC=9D=B8 =ED=8C=90=EB=A7=A4 =EB=B9=84=
+=EC=9C=A8 =EC=A4=91=2C =EC=B4=9D =EB=AA=A8=EB=B0=94=EC=9D=BC =ED=8C=90=EB=
+=A7=A4 =EB=B9=84=EC=A4=91=EC=9D=B4 56%(=EC=8A=A4=EB=A7=88=ED=8A=B8=ED=8F=
+=B0 47%=2C =ED=83=9C=EB=B8=94=EB=A6=BFPC 9%)=EB=A1=9C =EC=A7=91=EA=B3=84=
+=EB=90=98=EC=97=88=EB=8B=A4=EA=B3=A0 =EC=A0=84=ED=96=88=EB=8B=A4. =EC=A0=
+=84=EB=AC=B8=EA=B0=80=EB=93=A4=EC=9D=80 =EC=86=8C=EB=B9=84=EC=9E=90=EB=93=
+=A4=EC=9D=98 =EA=B5=AC=EB=A7=A4=ED=98=95=ED=83=9C=EA=B0=80 =EC=A7=81=EC=A0=
+=91=EA=B5=AC=EB=A7=A4=EC=97=90=EC=84=9C =EC=98=A8=EB=9D=BC=EC=9D=B8 =EC=AA=
+=BD=EC=9C=BC=EB=A1=9C =EB=9A=9C=EB=A0=B7=ED=95=98=EA=B2=8C =EC=98=AE=EA=B2=
+=A8=EC=A7=80=EB=A9=B4=EC=84=9C =EC=82=AC=EC=9D=B4=EB=B2=84=EB=A8=BC=EB=8D=
+=B0=EC=9D=B4(Cyber Monday :
+=EB=B8=94=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=EB=8D=B0=EC=9D=B4 =EC=9D=B4=
+=ED=9B=84=2C =EC=86=8C=EB=B9=84=EC=9E=90=EB=93=A4=EC=9D=B4 =EC=98=A8=EB=9D=
+=BC=EC=9D=B8=EC=9C=BC=EB=A1=9C =EB=82=A8=EC=9D=80 =EC=84=B8=EC=9D=BC=ED=92=
+=88=EB=AA=A9=EB=93=A4=EC=9D=84 =EC=87=BC=ED=95=91=ED=95=98=EB=8A=94 =EA=B8=
+=B0=EA=B0=84)=EA=B0=80 =EB=8D=94 =EC=9D=B4=EC=83=81 =ED=95=84=EC=9A=94=ED=
+=95=98=EC=A7=80 =EC=95=8A=EC=9D=84 =EA=B2=83=EC=9D=B4=EB=9D=BC=EA=B3=A0=
+ =EB=B6=84=EC=84=9D=ED=96=88=EB=8B=A4. =EC=B4=88=EA=B3=A0=EC=86=8D =EC=9D=
+=B8=ED=84=B0=EB=84=B7=EC=9D=84 =ED=86=B5=ED=95=9C =EB=AA=A8=EB=B0=94=EC=9D=
+=BC =EA=B5=AC=EB=A7=A4=2C =EC=9D=BC=EB=AA=85 =EC=B9=B4=EC=9A=B0=EC=B9=98=
+ =EC=87=BC=ED=95=91(couch shopping)=EC=9D=B4 =EC=86=8C=EB=B9=84 =EA=B4=80=
+=ED=96=89=EC=9C=BC=EB=A1=9C =EA=B5=B3=EC=96=B4=EC=A7=80=EA=B3=A0 =EC=9E=88=
+=EB=8B=A4.
+
+=EC=9E=91=EC=84=B1 : =EA=B9=80=EC=A0=95=ED=9B=88 =EB=A7=A4=EB=8B=88=EC=A0=
+=80
+=EC=9E=90=EB=A3=8C=EC=9B=90 : TechCrunch (https://techcrunch.com/2016/11/2=
+5/black-friday-online-sales-to-hit-a-record-breaking-3-billion-over-1-bill=
+ion-from-mobile/?mc_cid=3D52280eed07&mc_eid=3D[UNIQID])
+
+(http://venturebeat.com/2016/08/30/sonos-is-putting-amazons-alexa-voice-as=
+sistant-tech-inside-its-connected-speakers/?mc_cid=3D52280eed07&mc_eid=3D[=
+UNIQID])
+[SVN Archives]
+- =ED=8E=98=EC=9D=B4=EC=8A=A4=EB=B6=81=2C =EC=A4=91=EA=B5=AD =EC=8B=9C=EC=
+=9E=A5 =EC=A7=84=EC=B6=9C =EC=9C=84=ED=95=B4 =EA=B2=80=EC=97=B4 =EC=8B=9C=
+=EC=8A=A4=ED=85=9C =EC=A0=9C=EC=9E=91 =EC=A4=91=EC=9D=B8 =EA=B2=83=EC=9C=
+=BC=EB=A1=9C =EB=B0=9D=ED=98=80=EC=A0=B8 (http://www.kotrasvit.org/news/ne=
+wsletter?board_name=3Dkotrasv_itnews_board&mode=3Dview&search_field=3Dfn_t=
+itle=E2=84=B4_by=3Dfn_pid=E2=84=B4_type=3Ddesc&board_page=3D1&list_type=3D=
+list&board_pid=3D132)
+- =ED=85=8C=EC=8A=AC=EB=9D=BC=2C =EC=82=AC=EB=AA=A8=EC=95=84(Samoa) =ED=83=
+=80=EC=9A=B0(Ta=E2=80=99u) =EC=84=AC =EC=A0=84=EC=B2=B4=EC=97=90 =ED=83=9C=
+=EC=96=91=EA=B4=91 =EC=A7=80=EB=B6=95 =EC=84=A4=EC=B9=98=ED=95=A0 =EA=B2=
+=83 (http://www.kotrasvit.org/news/newsletter?board_name=3Dkotrasv_itnews_=
+board&mode=3Dview&search_field=3Dfn_title=E2=84=B4_by=3Dfn_pid=E2=84=B4_ty=
+pe=3Ddesc&board_page=3D1&list_type=3Dlist&board_pid=3D131)
+- =EB=AF=B8 =EC=9C=A0=EB=AA=85 =EB=B2=A4=EC=B2=98=ED=88=AC=EC=9E=90=EC=9E=
+=90 =EB=A7=88=ED=81=AC =EC=95=A4=EB=93=9C=EB=A0=88=EC=84=BC=2C =E2=80=9C=
+=EB=B9=84=ED=96=89=EC=9E=90=EB=8F=99=EC=B0=A8 =EC=83=81=EC=9A=A9=ED=99=94=
+ =EB=A8=B8=EC=A7=80 =EC=95=8A=EC=95=84 =EA=B0=80=EB=8A=A5=ED=95=A0 =EA=B2=
+=83" (http://www.kotrasvit.org/news/newsletter?board_name=3Dkotrasv_itnews=
+_board&mode=3Dview&search_field=3Dfn_title=E2=84=B4_by=3Dfn_pid=E2=84=B4_t=
+ype=3Ddesc&board_page=3D1&list_type=3Dlist&board_pid=3D130)
+- BMW=EC=99=80 =EB=B0=94=EC=9D=B4=EB=91=90=2C =EC=9E=90=EC=9C=A8=EC=A3=BC=
+=ED=96=89 =EA=B8=B0=EC=88=A0 =EA=B0=9C=EB=B0=9C =EC=9C=84=ED=95=B4 =EC=83=
+=88=EB=A1=9C=EC=9A=B4 =ED=8C=8C=ED=8A=B8=EB=84=88 =EB=AC=BC=EC=83=89 =EC=
+=98=88=EC=A0=95 (http://www.kotrasvit.org/news/newsletter?board_name=3Dkot=
+rasv_itnews_board&mode=3Dview&search_field=3Dfn_title=E2=84=B4_by=3Dfn_pid=
+=E2=84=B4_type=3Ddesc&board_page=3D1&list_type=3Dlist&board_pid=3D129)
+- =ED=85=8C=EC=8A=AC=EB=9D=BC=2C =EC=A3=BC=EC=A3=BC=EC=B4=9D=ED=9A=8C =EA=
+=B2=B0=EA=B3=BC 85% =EC=B0=AC=EC=84=B1=EC=9C=BC=EB=A1=9C =EC=86=94=EB=9D=
+=BC=EC=8B=9C=ED=8B=B0 =EC=9D=B8=EC=88=98 =ED=99=95=EC=A0=95 (http://www.ko=
+trasvit.org/news/newsletter?board_name=3Dkotrasv_itnews_board&mode=3Dview&=
+search_field=3Dfn_title=E2=84=B4_by=3Dfn_pid=E2=84=B4_type=3Ddesc&board_pa=
+ge=3D1&list_type=3Dlist&board_pid=3D128)
+AWS re:Invent 2016 Nov.28-Dec.2 (http://reinvent.awsevents.com/?mc_cid=3D5=
+2280eed07&mc_eid=3D[UNIQID])
+Open Mobile Summit Nov.29-Nov.30 (http://openmobilemedia.com/san-francisco=
+/?mc_cid=3D52280eed07&mc_eid=3D[UNIQID])
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+** (http://us7.forward-to-friend2.com/forward?u=3Df1ce25c3a29d7d54a417baf2=
+9&id=3D52280eed07&e=3Dac5cd21c69)
+** Forward (http://us7.forward-to-friend2.com/forward?u=3Df1ce25c3a29d7d54=
+a417baf29&id=3D52280eed07&e=3Dac5cd21c69)
+** (http://www.facebook.com/sharer/sharer.php?u=3Dhttp%3A%2F%2Feepurl.com%=
+2FcqSfoH&mc_cid=3D52280eed07&mc_eid=3D[UNIQID])
+** Share (http://www.facebook.com/sharer/sharer.php?u=3Dhttp%3A%2F%2Feepur=
+l.com%2FcqSfoH&mc_cid=3D52280eed07&mc_eid=3D[UNIQID])
+** (http://twitter.com/intent/tweet?text=3D%EC%83%8C%ED%94%84%EB%9E%80%EC%=
+8B%9C%EC%8A%A4%EC%BD%94%2C+%ED%95%B4%ED%82%B9%EC%9C%BC%EB%A1%9C+%EC%9D%B8%=
+ED%95%9C+%EA%B5%90%ED%86%B5%EC%8B%9C%EC%8A%A4%ED%85%9C+%EB%A7%88%EB%B9%84%=
+EB%A1%9C+%EB%B3%B4%EC%95%88%EA%B8%B0%EC%88%A0+%EA%B0%9C%EB%B0%9C+%EC%8B%9C=
+%EA%B8%89:&mc_cid=3D52280eed07&mc_eid=3D[UNIQID] http%3A%2F%2Feepurl.com%=
+2FcqSfoH)
+** Tweet (http://twitter.com/intent/tweet?text=3D%EC%83%8C%ED%94%84%EB%9E%=
+80%EC%8B%9C%EC%8A%A4%EC%BD%94%2C+%ED%95%B4%ED%82%B9%EC%9C%BC%EB%A1%9C+%EC%=
+9D%B8%ED%95%9C+%EA%B5%90%ED%86%B5%EC%8B%9C%EC%8A%A4%ED%85%9C+%EB%A7%88%EB%=
+B9%84%EB%A1%9C+%EB%B3%B4%EC%95%88%EA%B8%B0%EC%88%A0+%EA%B0%9C%EB%B0%9C+%EC=
+%8B%9C%EA%B8%89:&mc_cid=3D52280eed07&mc_eid=3D[UNIQID] http%3A%2F%2Feepur=
+l.com%2FcqSfoH)
+** (http://www.linkedin.com/shareArticle?url=3Dhttp%3A%2F%2Feepurl.com%2Fc=
+qSfoH&mini=3Dtrue&title=3D%EC%83%8C%ED%94%84%EB%9E%80%EC%8B%9C%EC%8A%A4%EC=
+%BD%94%2C+%ED%95%B4%ED%82%B9%EC%9C%BC%EB%A1%9C+%EC%9D%B8%ED%95%9C+%EA%B5%9=
+0%ED%86%B5%EC%8B%9C%EC%8A%A4%ED%85%9C+%EB%A7%88%EB%B9%84%EB%A1%9C+%EB%B3%B=
+4%EC%95%88%EA%B8%B0%EC%88%A0+%EA%B0%9C%EB%B0%9C+%EC%8B%9C%EA%B8%89&mc_cid=
+=3D52280eed07&mc_eid=3D[UNIQID])
+** Share (http://www.linkedin.com/shareArticle?url=3Dhttp%3A%2F%2Feepurl.c=
+om%2FcqSfoH&mini=3Dtrue&title=3D%EC%83%8C%ED%94%84%EB%9E%80%EC%8B%9C%EC%8A=
+%A4%EC%BD%94%2C+%ED%95%B4%ED%82%B9%EC%9C%BC%EB%A1%9C+%EC%9D%B8%ED%95%9C+%E=
+A%B5%90%ED%86%B5%EC%8B%9C%EC%8A%A4%ED%85%9C+%EB%A7%88%EB%B9%84%EB%A1%9C+%E=
+B%B3%B4%EC%95%88%EA%B8%B0%EC%88%A0+%EA%B0%9C%EB%B0%9C+%EC%8B%9C%EA%B8%89&m=
+c_cid=3D52280eed07&mc_eid=3D[UNIQID])
+KOTRA =EC=8B=A4=EB=A6=AC=EC=BD=98=EB=B0=B8=EB=A6=AC =EB=AC=B4=EC=97=AD=EA=
+=B4=80 IT=EC=A7=80=EC=9B=90=EC=84=BC=ED=84=B0=EB=8A=94 =ED=98=84=EC=A7=80=
+ =EC=A7=84=EC=B6=9C=EC=9D=84 =ED=9D=AC=EB=A7=9D=ED=95=98=EB=8A=94 =EA=B0=
+=9C=EC=9D=B8=EA=B3=BC =EA=B8=B0=EC=97=85=EC=97=90=EA=B2=8C KOTRA Silicon V=
+alley News=EB=A5=BC
+=EB=B3=B4=EB=82=B4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4. =EA=B3=BC=EC=9B=94=
+=ED=98=B8=EB=8A=94 ** www=2Ckotrasv.org (http://kotrasv.org/site?mc_cid=3D=
+52280eed07&mc_eid=3D[UNIQID])
+=EC=99=80 ** KOTRA Silicon Valley Facebook (https://www.facebook.com/kotra=
+siliconvalley?mc_cid=3D52280eed07&mc_eid=3D[UNIQID])
+=EC=97=90 =EA=B2=8C=EC=8B=9C=EB=90=98=EC=96=B4 =EC=9E=88=EC=8A=B5=EB=8B=88=
+=EB=8B=A4.
+=EA=B1=B4=EC=9D=98 =EB=B0=8F =EB=AC=B8=EC=9D=98=EB=8A=94 ** taeil.cho@kotr=
+asv.org (http://taeil.cho@kotrasv.org?mc_cid=3D52280eed07&mc_eid=3D[UNIQI=
+D])
+=EB=A1=9C =EC=97=B0=EB=9D=BD=EC=A3=BC=EC=8B=AD=EC=8B=9C=EC=98=A4.
+Copyright =C2=A9 2016 KOTRA Silicon Valley=2C All rights reserved.
+3003 North 1st ST=2C San Jose=2C CA 95134
+--_----------=_MCPart_1897108646
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-micros=
+oft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+    =09<!-- NAME: CONTRAST -->
+        <!--[if gte mso 15]>
+=09=09<xml>
+=09=09=09<o:OfficeDocumentSettings>
+=09=09=09<o:AllowPNG/>
+=09=09=09<o:PixelsPerInch>96</o:PixelsPerInch>
+=09=09=09</o:OfficeDocumentSettings>
+=09=09</xml>
+=09=09<![endif]-->
+=09=09<meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial=
+-scale=3D1">
+=09=09<title>=EC=83=8C=ED=94=84=EB=9E=80=EC=8B=9C=EC=8A=A4=EC=BD=94=2C =ED=
+=95=B4=ED=82=B9=EC=9C=BC=EB=A1=9C =EC=9D=B8=ED=95=9C =EA=B5=90=ED=86=B5=EC=
+=8B=9C=EC=8A=A4=ED=85=9C =EB=A7=88=EB=B9=84=EB=A1=9C =EB=B3=B4=EC=95=88=EA=
+=B8=B0=EC=88=A0 =EA=B0=9C=EB=B0=9C =EC=8B=9C=EA=B8=89</title>
+
+    <style type=3D"text/css">
+=09=09p{
+=09=09=09margin:10px 0;
+=09=09=09padding:0;
+=09=09}
+=09=09table{
+=09=09=09border-collapse:collapse;
+=09=09}
+=09=09h1=2Ch2=2Ch3=2Ch4=2Ch5=2Ch6{
+=09=09=09display:block;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09}
+=09=09img=2Ca img{
+=09=09=09border:0;
+=09=09=09height:auto;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09body=2C#bodyTable=2C#bodyCell{
+=09=09=09height:100%;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100%;
+=09=09}
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09}
+=09=09table{
+=09=09=09mso-table-lspace:0pt;
+=09=09=09mso-table-rspace:0pt;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cblockquote{
+=09=09=09mso-line-height-rule:exactly;
+=09=09}
+=09=09a[href^=3Dtel]=2Ca[href^=3Dsms]{
+=09=09=09color:inherit;
+=09=09=09cursor:default;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cbody=2Ctable=2Cblockquote{
+=09=09=09-ms-text-size-adjust:100%;
+=09=09=09-webkit-text-size-adjust:100%;
+=09=09}
+=09=09.ExternalClass=2C.ExternalClass p=2C.ExternalClass td=2C.ExternalCla=
+ss div=2C.ExternalClass span=2C.ExternalClass font{
+=09=09=09line-height:100%;
+=09=09}
+=09=09a[x-apple-data-detectors]{
+=09=09=09color:inherit !important;
+=09=09=09text-decoration:none !important;
+=09=09=09font-size:inherit !important;
+=09=09=09font-family:inherit !important;
+=09=09=09font-weight:inherit !important;
+=09=09=09line-height:inherit !important;
+=09=09}
+=09=09a.mcnButton{
+=09=09=09display:block;
+=09=09}
+=09=09.mcnImage{
+=09=09=09vertical-align:bottom;
+=09=09}
+=09=09.mcnTextContent{
+=09=09=09word-break:break-word;
+=09=09}
+=09=09.mcnTextContent img{
+=09=09=09height:auto !important;
+=09=09}
+=09=09.mcnDividerBlock{
+=09=09=09table-layout:fixed !important;
+=09=09}
+=09=09body=2C#bodyTable{
+=09=09=09background-color:#cccccc;
+=09=09}
+=09=09#bodyCell{
+=09=09=09border-top:0;
+=09=09}
+=09=09#templateContainer{
+=09=09=09border:0;
+=09=09}
+=09=09h1{
+=09=09=09color:#000000 !important;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:32px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:-1px;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2{
+=09=09=09color:#000000 !important;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:26px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:-.75px;
+=09=09=09text-align:left;
+=09=09}
+=09=09h3{
+=09=09=09color:#000000 !important;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:-.5px;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4{
+=09=09=09color:#000000 !important;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader{
+=09=09=09background-color:#ffffff;
+=09=09=09border-top:10px solid #cccccc;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.preheaderContainer .mcnTextContent=2C.preheaderContainer .mcnTextCo=
+ntent p{
+=09=09=09color:#333333;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:11px;
+=09=09=09line-height:125%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.preheaderContainer .mcnTextContent a{
+=09=09=09color:#333333;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateHeader{
+=09=09=09background-color:#1c3569;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.headerContainer .mcnTextContent=2C.headerContainer .mcnTextContent=
+ p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.headerContainer .mcnTextContent a{
+=09=09=09color:#C52E26;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateBody{
+=09=09=09background-color:#FFFFFF;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.bodyContainer .mcnTextContent=2C.bodyContainer .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.bodyContainer .mcnTextContent a{
+=09=09=09color:#333333;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateColumns{
+=09=09=09background-color:#FFFFFF;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.leftColumnContainer .mcnTextContent=2C.leftColumnContainer .mcnText=
+Content p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:14px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.leftColumnContainer .mcnTextContent a{
+=09=09=09color:#333333;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09.rightColumnContainer .mcnTextContent=2C.rightColumnContainer .mcnTe=
+xtContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:14px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.rightColumnContainer .mcnTextContent a{
+=09=09=09color:#333333;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateFooter{
+=09=09=09background-color:#253047;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09}
+=09=09.footerContainer .mcnTextContent=2C.footerContainer .mcnTextContent=
+ p{
+=09=09=09color:#CCCCCC;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:10px;
+=09=09=09line-height:125%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.footerContainer .mcnTextContent a{
+=09=09=09color:#CCCCCC;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09@media only screen and (max-width: 480px){
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateContainer=2C#templatePreheader=2C#templateHeader=2C#templat=
+eColumns=2C#templateBody=2C#templateFooter{
+=09=09=09max-width:600px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.columnsContainer{
+=09=09=09display:block!important;
+=09=09=09max-width:600px !important;
+=09=09=09padding-bottom:18px !important;
+=09=09=09padding-left:0 !important;
+=09=09=09width:100%!important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImage{
+=09=09=09height:auto !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCartContainer=2C.mcnCaptionTopContent=2C.mcnRecContentContainer=
+=2C.mcnCaptionBottomContent=2C.mcnTextContentContainer=2C.mcnBoxedTextCont=
+entContainer=2C.mcnImageGroupContentContainer=2C.mcnCaptionLeftTextContent=
+Container=2C.mcnCaptionRightTextContentContainer=2C.mcnCaptionLeftImageCon=
+tentContainer=2C.mcnCaptionRightImageContentContainer=2C.mcnImageCardLeftT=
+extContentContainer=2C.mcnImageCardRightTextContentContainer{
+=09=09=09max-width:100% !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer{
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupContent{
+=09=09=09padding:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCaptionLeftContentOuter .mcnTextContent=2C.mcnCaptionRightConten=
+tOuter .mcnTextContent{
+=09=09=09padding-top:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardTopImageContent=2C.mcnCaptionBlockInner .mcnCaptionTopC=
+ontent:last-child .mcnTextContent{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardBottomImageContent{
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockInner{
+=09=09=09padding-top:0 !important;
+=09=09=09padding-bottom:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockOuter{
+=09=09=09padding-top:9px !important;
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnTextContent=2C.mcnBoxedTextContentColumn{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardLeftImageContent=2C.mcnImageCardRightImageContent{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-bottom:0 !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcpreview-image-uploader{
+=09=09=09display:none !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h1{
+=09=09=09font-size:24px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer .mcnTextContent=2C.mcnBoxedTextContent=
+Container .mcnTextContent p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templatePreheader{
+=09=09=09display:block !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.preheaderContainer .mcnTextContent=2C.preheaderContainer .mcnTextCo=
+ntent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:115% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.headerContainer .mcnTextContent=2C.headerContainer .mcnTextContent=
+ p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.bodyContainer .mcnTextContent=2C.bodyContainer .mcnTextContent p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.leftColumnContainer .mcnTextContent=2C.leftColumnContainer .mcnText=
+Content p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.rightColumnContainer .mcnTextContent=2C.rightColumnContainer .mcnTe=
+xtContent p{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.footerContainer .mcnTextContent=2C.footerContainer .mcnTextContent=
+ p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:115% !important;
+=09=09}
+
+}</style></head>
+    <body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=
+=3D"0" offset=3D"0" style=3D"height: 100%;margin: 0;padding: 0;width: 100%=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-colo=
+r: #cccccc;">
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;pad=
+ding: 0;width: 100%;background-color: #cccccc;">
+                <tr>
+                    <td align=3D"center" valign=3D"top" id=3D"bodyCell" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;border-=
+top: 0;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"600" id=3D"templateContainer" style=3D"border-collapse: co=
+llapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;border: 0;">
+                            <tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;">
+                                    <!-- BEGIN PREHEADER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600" id=3D"templatePreheader" style=3D"border-=
+collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-si=
+ze-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;b=
+order-top: 10px solid #cccccc;border-bottom: 0;">
+                                        <tr>
+                                        =09<td valign=3D"top" class=3D"pre=
+headerContainer" style=3D"padding-top: 9px;padding-bottom: 9px;mso-line-he=
+ight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;"><table width=3D"100%" class=3D"mcnTextBlock" style=3D"min-width: 100%=
+;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms=
+-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td class=3D"mcnTextBlockInner" valign=3D"top" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"390" style=3D"width:390px;">
+=09=09=09=09<![endif]-->
+                <table width=3D"100%" align=3D"left" class=3D"mcnTextConte=
+ntContainer" style=3D"max-width: 390px;border-collapse: collapse;mso-table=
+-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                    <tbody><tr>
+
+                        <td class=3D"mcnTextContent" valign=3D"top" style=
+=3D"padding: 0px 18px 9px;mso-line-height-rule: exactly;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #333=
+333;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: l=
+eft;">
+
+                            <span style=3D"font-size: 12px;"><span style=
+=3D"font-family: arial=2Chelvetica neue=2Chelvetica=2Csans-serif;"><strong=
+>KOTRA Silicon Valley News 2016.11.28</strong></span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"210" style=3D"width:210px;">
+=09=09=09=09<![endif]-->
+                <table width=3D"100%" align=3D"left" class=3D"mcnTextConte=
+ntContainer" style=3D"max-width: 210px;border-collapse: collapse;mso-table=
+-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text=
+-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                    <tbody><tr>
+
+                        <td class=3D"mcnTextContent" valign=3D"top" style=
+=3D"padding: 0px 18px 9px;mso-line-height-rule: exactly;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #333=
+333;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: l=
+eft;">
+
+                            <strong><a href=3D"http://kotrasv.us7.list-man=
+age.com/unsubscribe?u=3Df1ce25c3a29d7d54a417baf29&id=3D49abe6b0d2&e=3D=
+ac5cd21c69&c=3D52280eed07" target=3D"_blank" style=3D"mso-line-height-rule: exac=
+tly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #3333=
+33;font-weight: normal;text-decoration: underline;">=EC=88=98=EC=8B=A0=EA=
+=B1=B0=EB=B6=80</a> &nbsp;<a href=3D"http://kotrasv.us7.list-manage.com/su=
+bscribe?u=3Df1ce25c3a29d7d54a417baf29&id=3D49abe6b0d2" target=3D"_blank" s=
+tyle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration:=
+ underline;">=EA=B5=AC=EB=8F=85=EC=8B=A0=EC=B2=AD</a> &nbsp;<a href=3D"htt=
+p://us7.campaign-archive2.com/?u=3Df1ce25c3a29d7d54a417baf29&id=3D52280eed=
+07&e=3Dac5cd21c69" target=3D"_blank" style=3D"mso-line-height-rule: exactly;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #333333;f=
+ont-weight: normal;text-decoration: underline;">=EC=9B=B9=EC=97=90=EC=84=
+=9C =EC=97=B4=EA=B8=B0</a></strong>
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;">
+                                    <!-- BEGIN HEADER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600" id=3D"templateHeader" style=3D"border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #1c3569;bord=
+er-top: 0;border-bottom: 0;">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"he=
+aderContainer" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnImageBlock" style=3D"min-=
+width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspa=
+ce: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnImageBlockOuter">
+            <tr>
+                <td valign=3D"top" style=3D"padding: 0px;mso-line-height-r=
+ule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" c=
+lass=3D"mcnImageBlockInner">
+                    <table align=3D"left" width=3D"100%" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" class=3D"mcnImageContentContainer" style=
+=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+">
+                        <tbody><tr>
+                            <td class=3D"mcnImageContent" valign=3D"top" s=
+tyle=3D"padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom=
+: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+
+
+                                        <img align=3D"center" alt=3D"" src=
+=3D"https://gallery.mailchimp.com/f1ce25c3a29d7d54a417baf29/images/4200c87=
+2-681e-4505-9d42-83e740fcce2c.png" width=3D"600" style=3D"max-width: 600px=
+;padding-bottom: 0;display: inline !important;vertical-align: bottom;borde=
+r: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mo=
+de: bicubic;" class=3D"mcnImage">
+
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;">
+                                    <!-- BEGIN BODY // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600" id=3D"templateBody" style=3D"border-colla=
+pse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-ad=
+just: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;border=
+-top: 0;border-bottom: 0;">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"bo=
+dyContainer" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;"><table width=3D"100%" class=3D"mcnC=
+aptionBlock" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"bor=
+der-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnCaptionBlockOuter">
+        <tr>
+            <td class=3D"mcnCaptionBlockInner" valign=3D"top" style=3D"pad=
+ding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit=
+-text-size-adjust: 100%;">
+
+
+<table width=3D"false" align=3D"left" class=3D"mcnCaptionBottomContent" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td align=3D"center" class=3D"mcnCaptionBottomImageContent" valign=
+=3D"top" style=3D"padding: 0px 9px 9px;mso-line-height-rule: exactly;-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+
+            <a title=3D"" href=3D"http://kotrasv.us7.list-manage.com/track=
+/click?u=3Df1ce25c3a29d7d54a417baf29&id=3D3fd2b98f2b&e=3Dac5cd21c69" targ=
+et=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+
+
+            <img width=3D"560" class=3D"mcnImage" style=3D"max-width: 560p=
+x;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpola=
+tion-mode: bicubic;vertical-align: bottom;" alt=3D"" src=3D"https://galler=
+y.mailchimp.com/f1ce25c3a29d7d54a417baf29/images/4ef62f14-13a0-4732-86b7-a=
+90cc87e92ab.jpg">
+            </a>
+
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"564" class=3D"mcnTextContent" valign=3D"top" style=3D=
+"padding: 0px 9px;line-height: 150%;mso-line-height-rule: exactly;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;c=
+olor: #202020;font-family: Helvetica;font-size: 16px;text-align: left;">
+            <span style=3D"display: none;">&nbsp;</span><span style=3D"dis=
+play: none;">&nbsp;</span><span style=3D"display: none;">&nbsp;</span><spa=
+n style=3D"font-family: arial=2Chelvetica neue=2Chelvetica=2Csans-serif;">=
+<strong><span style=3D"font-size: 14px;"><span style=3D"color: #4B0082;">[=
+Focus]&nbsp;</span></span></strong></span><span style=3D"font-size: 14px;=
+"><span style=3D"font-family: arial=2Chelvetica neue=2Chelvetica=2Csans-se=
+rif;"><a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce25=
+c3a29d7d54a417baf29&id=3D925d7d73e2&e=3Dac5cd21c69" target=3D"_blank" sty=
+le=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: un=
+derline;">=EC=83=8C=ED=94=84=EB=9E=80=EC=8B=9C=EC=8A=A4=EC=BD=94=2C =ED=95=
+=B4=ED=82=B9=EC=9C=BC=EB=A1=9C =EC=9D=B8=ED=95=9C =EA=B5=90=ED=86=B5=EC=8B=
+=9C=EC=8A=A4=ED=85=9C =EB=A7=88=EB=B9=84=EB=A1=9C =EB=B3=B4=EC=95=88=EA=B8=
+=B0=EC=88=A0 =EA=B0=9C=EB=B0=9C =EC=8B=9C=EA=B8=89</a></span></span><br>
+<span style=3D"font-size: 12px;"><span style=3D"font-family: arial=2Chelve=
+tica neue=2Chelvetica=2Csans-serif;">=EC=83=8C=ED=94=84=EB=9E=80=EC=8B=9C=
+=EC=8A=A4=EC=BD=94 =EB=8C=80=EC=A4=91=EA=B5=90=ED=86=B5=EC=9D=84 =EA=B4=80=
+=EB=A6=AC=ED=95=98=EB=8A=94 MUNI(San Francisco Municipal Railway)=EB=8A=94=
+ 2016=EB=85=84 11=EC=9B=94 26=EC=9D=BC =EB=8C=80=EB=8C=80=EC=A0=81=EC=9D=
+=B8 =ED=95=B4=EC=BB=A4 =EA=B3=B5=EA=B2=A9=EC=9D=84 =EB=B0=9B=EC=95=98=EC=
+=9D=8C=EC=9D=84 =EA=B3=B5=EC=8B=9D =EB=B0=9C=ED=91=9C=ED=96=88=EB=8B=A4.=
+ =ED=95=B4=EC=BB=A4=EB=8A=94 =EC=B6=94=EC=88=98=EA=B0=90=EC=82=AC=EC=A0=88=
+ =EB=8B=A4=EC=9D=8C=EB=82=A0=EC=9D=B8 =EB=B8=94=EB=9E=99=ED=94=84=EB=9D=BC=
+=EC=9D=B4=EB=8D=B0=EC=9D=B4=EC=97=90 =ED=95=B4=ED=82=B9=EC=9D=84 =EA=B0=90=
+=ED=96=89=ED=96=88=EC=9C=BC=EB=A9=B0=2C =EB=9E=9C=EC=84=AC=EC=9B=A8=EC=96=
+=B4(Ransomware)=EB=A5=BC =EC=84=A4=EC=B9=98=ED=95=9C =EA=B2=83=EC=9C=BC=EB=
+=A1=9C =EC=95=8C=EB=A0=A4=EC=A1=8C=EB=8B=A4. =EC=A7=80=EC=A0=95=EB=90=9C=
+ =EC=8B=9C=EA=B0=84=EC=97=90 =EB=9E=9C=EC=84=AC=EC=9B=A8=EC=96=B4=EA=B0=80=
+ =EC=9E=91=EB=8F=99=ED=95=98=EB=A9=B4=EC=84=9C MUNI=EA=B0=80 =EB=A7=88=EB=
+=B9=84=EB=90=98=EC=97=88=EA=B3=A0 =EC=A3=BC=EB=A7=90 =EA=B4=80=EA=B4=91=EA=
+=B0=9D=EB=93=A4=EC=9D=80 =EC=9D=B4=EB=8F=99=EC=97=90 =ED=81=B0 =EB=B6=88=
+=ED=8E=B8=ED=95=A8=EC=9D=84 =EA=B2=AA=EC=96=B4=EC=95=BC=EB=A7=8C =ED=96=88=
+=EB=8B=A4. =EB=B2=94=ED=96=89=EC=9D=84 =EC=A0=80=EC=A7=80=EB=A5=B8 =ED=95=
+=B4=EC=BB=A4=EB=8B=A8=EC=B2=B4=EB=8A=94 =E2=80=98=EC=95=A4=EB=94=94 =EC=82=
+=AC=EC=98=AC=EB=A6=AC=EC=8A=A4(Andy Saolis)=E2=80=99=EB=9D=BC=EB=8A=94 =EA=
+=B0=80=EB=AA=85=EC=9D=84 =EC=82=AC=EC=9A=A9=ED=95=9C=EB=8B=A4=EA=B3=A0 =EC=
+=88=98=EC=82=AC =EA=B4=80=EA=B3=84=EC=9E=90=EB=8A=94 =EB=B0=9D=ED=98=94=EB=
+=8B=A4. =EC=9D=B4=EC=97=90 =EB=8B=B9=ED=99=A9=ED=95=9C MUNI =EA=B4=80=EA=
+=B3=84=EC=9E=90=EB=93=A4=EC=9D=80 =EB=B3=B4=EC=95=88=EA=B8=B0=EC=88=A0 =EB=
+=8C=80=EC=B2=98=EB=8A=A5=EB=A0=A5 =ED=96=A5=EC=83=81=EC=9D=98 =EC=8B=9C=EA=
+=B8=89=ED=95=A8=EC=9D=84 =EC=A0=88=EA=B0=90=ED=95=98=EA=B3=A0 =EC=9E=88=EB=
+=8A=94 =EA=B2=83=EC=9C=BC=EB=A1=9C =EB=B3=B4=EC=9D=B8=EB=8B=A4.<br>
+<br>
+=EB=9E=9C=EC=84=AC=EC=9B=A8=EC=96=B4=EB=8A=94 =EC=8B=A0=EC=A2=85 =EC=95=85=
+=EC=84=B1=EC=BD=94=EB=93=9C=EB=A1=9C =EC=9C=A0=EB=AA=85=ED=95=98=EB=8B=A4.=
+ =ED=95=B4=EC=BB=A4=EB=93=A4=EC=9D=80 =EC=8B=9C=EC=8A=A4=ED=85=9C=EC=97=90=
+ =EC=A0=91=EA=B7=BC=ED=95=9C =ED=9B=84=2C =EB=9E=9C=EC=84=AC=EC=9B=A8=EC=
+=96=B4=EB=A5=BC =ED=86=B5=ED=95=B4 =EC=BB=B4=ED=93=A8=ED=84=B0 =EB=A7=88=
+=EB=B9=84=EC=99=80 =EB=8D=94=EB=B6=88=EC=96=B4 =EC=A4=91=EC=9A=94 =EB=AC=
+=B8=EC=84=9C =EB=B0=8F =EB=8D=B0=EC=9D=B4=ED=84=B0=EB=A5=BC =ED=99=95=EB=
+=B3=B4=ED=95=9C=EB=8B=A4. =ED=8A=B9=EC=9D=B4 =EC=82=AC=ED=95=AD=EC=9D=80=
+ =EC=8B=9C=EC=8A=A4=ED=85=9C=EA=B3=BC =EB=AC=B8=EC=84=9C =EB=B3=B5=EA=B5=
+=AC=EB=A5=BC =EC=A7=84=ED=96=89=ED=95=A0 =EA=B2=BD=EC=9A=B0=2C =EB=8C=80=
+=EA=B0=80=EB=A1=9C =EA=B8=88=ED=92=88=EC=9D=84 =EC=A0=9C=EA=B3=B5=ED=95=B4=
+=EC=95=BC =ED=95=98=EB=8A=94 =EC=A0=90=EC=9D=B4=EB=8B=A4. =EC=9D=B4=EB=B2=
+=88 MUNI=EC=97=90 =EC=84=A4=EC=B9=98=EB=90=9C =EB=9E=9C=EC=84=AC=EC=9B=A8=
+=EC=96=B4=EB=8A=94 =EC=A4=91=EC=9A=94 =EB=AC=B8=EC=84=9C=EC=99=80 =EC=8B=
+=9C=EC=8A=A4=ED=85=9C =EB=B3=B5=EA=B7=80=EB=A5=BC =EB=8C=80=EA=B0=80=EB=A1=
+=9C 100 =EB=B9=84=ED=8A=B8=EC=BD=94=EC=9D=B8 =ED=98=B9=EC=9D=80 73=2C000=
+ =EB=8B=AC=EB=9F=AC=EB=A5=BC =EC=9A=94=EA=B5=AC=ED=95=9C =EA=B2=83=EC=9C=
+=BC=EB=A1=9C =EC=95=8C=EB=A0=A4=EC=A1=8C=EB=8B=A4. =EC=82=AC=ED=9A=8C =EC=
+=9D=B8=ED=94=84=EB=9D=BC=EA=B5=AC=EC=A1=B0=EB=A5=BC =EB=8C=80=EC=83=81=EC=
+=9C=BC=EB=A1=9C =EB=9E=9C=EC=84=AC=EC=9B=A8=EC=96=B4=EB=A5=BC =EC=84=A4=EC=
+=B9=98=ED=95=9C =ED=95=B4=EC=BB=A4=EB=93=A4=EC=9D=80 =EB=B3=B4=EC=95=88=EC=
+=9D=B4 =EC=B7=A8=EC=95=BD=ED=95=9C =EA=B5=90=ED=86=B5=EA=B4=80=EB=A6=AC=
+ =EC=8B=9C=EC=8A=A4=ED=85=9C=EC=9D=84 =EB=8C=80=EC=83=81=EC=9C=BC=EB=A1=9C=
+ =ED=95=B4=ED=82=B9=EC=9D=84 =EA=B0=90=ED=96=89=ED=96=88=EA=B3=A0=2C =EC=
+=95=9E=EC=9C=BC=EB=A1=9C=EB=8F=84 =EC=8B=AC=EA=B0=81=ED=95=9C =ED=94=BC=ED=
+=95=B4=EB=A5=BC =EC=9E=85=ED=9E=90 =EA=B2=83=EC=9D=B4=EB=9D=BC=EA=B3=A0=
+ =EC=A0=84=EB=AC=B8=EA=B0=80=EB=93=A4=EC=9D=80 =EC=A0=84=EB=A7=9D=ED=96=88=
+=EB=8B=A4. =EB=B3=B4=EC=95=88=EA=B8=B0=EC=88=A0 =EA=B0=9C=EB=B0=9C=EA=B3=
+=BC =EB=8C=80=EC=B2=98=EB=8A=A5=EB=A0=A5=EC=9D=98 =EC=B7=A8=EC=95=BD=ED=95=
+=A8=EC=9D=B4 =EC=97=AC=EC=8B=A4=ED=9E=88 =EB=93=A4=EC=96=B4=EB=82=9C =EC=
+=9D=B4=EB=B2=88 =EC=82=AC=ED=83=9C=EB=A5=BC =EA=B7=80=EA=B0=90 =EC=82=BC=
+=EC=95=84 IT=EB=B3=B4=EC=95=88=EC=82=B0=EC=97=85=EC=9D=98 =EC=84=B1=EC=9E=
+=A5=EC=9C=BC=EB=A1=9C =EC=9D=B4=EC=96=B4=EC=A7=80=EA=B8=B8 =EA=B8=B0=EB=8C=
+=80=ED=95=B4=EB=B3=B8=EB=8B=A4.<br>
+<br>
+=EC=9E=91=EC=84=B1 : =ED=95=9C=EC=83=81=EC=88=98 =EB=A7=A4=EB=8B=88=EC=A0=
+=80 &lt;<a href=3D"mailto:peter.han@kotrasv.org" style=3D"mso-line-height-=
+rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;co=
+lor: #333333;font-weight: normal;text-decoration: underline;">peter.han@ko=
+trasv.org</a>&gt;<br>
+=EC=9E=90=EB=A3=8C=EC=9B=90 : <a href=3D"http://kotrasv.us7.list-manage.co=
+m/track/click?u=3Df1ce25c3a29d7d54a417baf29&id=3D5d81c18b9c&e=3D=
+ac5cd21c69" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;color: #333333;font-weight: normal;text-decorati=
+on: underline;">Forbes</a></span></span>
+
+<p style=3D"margin: 0in 0in 10pt;line-height: normal;padding: 0;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;color: #202020;font-family: Helvetica;font-size: 16px;text-align: left=
+;"><span style=3D"font-size: 12px;"><span style=3D"font-family: arial=2Che=
+lvetica neue=2Chelvetica=2Csans-serif;"><a href=3D"http://kotrasv.us7.list=
+-manage1.com/track/click?u=3Df1ce25c3a29d7d54a417baf29&id=3D7ec4a2465a&e=
+=3Dac5cd21c69" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;color: #333333;font-weight: normal;=
+text-decoration: underline;"><span style=3D"display: none;">&nbsp;</span><=
+/a></span></span></p>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table width=3D"100%" class=3D"mcnTextBlock" style=3D"min-width: 1=
+00%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td class=3D"mcnTextBlockInner" valign=3D"top" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table width=3D"100%" align=3D"left" class=3D"mcnTextConte=
+ntContainer" style=3D"min-width: 100%;max-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+                    <tbody><tr>
+
+                        <td class=3D"mcnTextContent" valign=3D"top" style=
+=3D"padding: 0px 18px 9px;mso-line-height-rule: exactly;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202=
+020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: l=
+eft;">
+
+                            <span style=3D"font-size: 12px;"><span style=
+=3D"font-family: arial=2Chelvetica neue=2Chelvetica=2Csans-serif;"><strong=
+><span style=3D"line-height: 20.79px;"><span style=3D"color: #4B0082;">[D=
+aily News]&nbsp;</span></span></strong><br>
+<font color=3D"#000000">-&nbsp;</font><a href=3D"http://kotrasv.us7.list-m=
+anage1.com/track/click?u=3Df1ce25c3a29d7d54a417baf29&id=3Dd621de79b5&e=3D=
+ac5cd21c69" target=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #333333;font-w=
+eight: normal;text-decoration: underline;">GM=2C =ED=85=8C=EC=8A=AC=EB=9D=
+=BC =EA=B2=AC=EC=A0=9C =EC=9C=84=ED=95=B4 =EC=A0=84=EA=B8=B0=EC=9E=90=EB=
+=8F=99=EC=B0=A8 =EB=B3=BC=ED=8A=B8(Bolt)=EC=9D=98 =ED=8C=90=EB=A7=A4=EC=A0=
+=84=EB=9E=B5 =EC=88=98=EB=A6=BD</a><br>
+-&nbsp;<a href=3D"http://kotrasv.us7.list-manage1.com/track/click?u=3Df1ce=
+25c3a29d7d54a417baf29&id=3D0e444e2759&e=3Dac5cd21c69" target=3D"_blank" s=
+tyle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration:=
+ underline;">=EB=B8=94=EB=9E=99=EB=B2=A0=EB=A6=AC=2C =EC=BA=90=EB=82=98=EB=
+=8B=A4 =EC=98=A8=ED=83=80=EB=A6=AC=EC=98=A4(Ontario) =EC=A3=BC=EC=97=90=EC=
+=84=9C =EC=9E=90=EC=9C=A8=EC=A3=BC=ED=96=89 =ED=85=8C=EC=8A=A4=ED=8A=B8=
+ =EC=8B=A4=EC=8B=9C</a><br>
+-&nbsp;<a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce2=
+5c3a29d7d54a417baf29&id=3Dddbfd3053e&e=3Dac5cd21c69" target=3D"_blank" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: u=
+nderline;">=EC=9A=B0=EB=B2=84=2C =EC=A4=91=EA=B5=AD =EB=82=B4 =EC=B0=A8=EB=
+=9F=89=EA=B3=B5=EC=9C=A0 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=A0=84=EB=A9=B4=
+ =EC=A4=91=EB=8B=A8</a><br>
+-&nbsp;<a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce2=
+5c3a29d7d54a417baf29&id=3Db04f6aa38f&e=3Dac5cd21c69" target=3D"_blank" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: u=
+nderline;">=EB=A7=88=EC=9D=B4=ED=81=AC=EB=A1=9C=EC=86=8C=ED=94=84=ED=8A=B8=
+=2C =EC=A4=91=EA=B5=AD=EC=96=B4=EC=9A=A9 =EC=B1=97=EB=B4=87=EC=97=90 =ED=
+=8A=B9=EC=A0=95 =EA=B2=80=EC=83=89 =EB=B6=88=EA=B0=80 =EA=B8=B0=EB=8A=A5=
+=EC=9D=B4 =EC=9E=88=EB=8A=94 =EA=B2=83=EC=9C=BC=EB=A1=9C =EB=B0=9D=ED=98=
+=80=EC=A0=B8</a><br>
+-&nbsp;<a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce2=
+5c3a29d7d54a417baf29&id=3Dd76c3f0d91&e=3Dac5cd21c69" target=3D"_blank" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: u=
+nderline;">=EB=AF=B8=EA=B5=AD =EC=BB=A8=ED=85=8C=EC=9D=B4=EB=84=88 =EC=84=
+=A0=EC=82=AC =EB=A7=B7=EC=8A=A8(Matson)=2C =EC=95=84=EB=A7=88=EC=A1=B4=EA=
+=B3=BC =ED=95=B4=EC=83=81=EB=AC=BC=EB=A5=98=EC=9A=A9 =ED=81=B4=EB=9D=BC=EC=
+=9A=B0=EB=93=9C =EB=8D=B0=EC=9D=B4=ED=84=B0 =EC=8B=9C=EC=8A=A4=ED=85=9C=
+ =EA=B0=9C=EB=B0=9C =EA=B3=84=ED=9A=8D =EB=B0=9C=ED=91=9C</a><br>
+-&nbsp;<a href=3D"http://kotrasv.us7.list-manage1.com/track/click?u=3Df1ce=
+25c3a29d7d54a417baf29&id=3Df3b84f8b48&e=3Dac5cd21c69" target=3D"_blank" s=
+tyle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration:=
+ underline;">=EC=95=A0=ED=94=8C=2C =EC=95=84=EC=9D=B4=ED=8F=B0 =EB=B0=8F=
+ =EC=95=84=EC=9D=B4=ED=8C=A8=EB=93=9C =EC=B0=A8=EA=B8=B0 =EB=AA=A8=EB=8D=
+=B8 =EC=83=88=EB=A1=AD=EA=B2=8C =EB=94=94=EC=9E=90=EC=9D=B8 =ED=95=A0 =EA=
+=B2=83</a><br>
+- <a href=3D"http://kotrasv.us7.list-manage2.com/track/click?u=3Df1ce25c3a=
+29d7d54a417baf29&id=3D77b023e6c1&e=3Dac5cd21c69" target=3D"_blank" style=
+=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: unde=
+rline;">=EC=9D=B8=EC=8A=A4=ED=83=80=EC=97=90=EC=96=B4 360=2C =EC=95=88=EB=
+=93=9C=EB=A1=9C=EC=9D=B4=EB=93=9C =EC=A0=84=EC=9A=A9 360=EB=8F=84 =EC=B9=
+=B4=EB=A9=94=EB=9D=BC =EC=B6=9C=EC=8B=9C</a></span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op-width: 1px;border-top-style: solid;border-top-color: #999999;border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table width=3D"100%" class=3D"mcnCaptionBlock" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: collapse;mso-tabl=
+e-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;">
+    <tbody class=3D"mcnCaptionBlockOuter">
+        <tr>
+            <td class=3D"mcnCaptionBlockInner" valign=3D"top" style=3D"pad=
+ding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit=
+-text-size-adjust: 100%;">
+
+
+<table width=3D"false" align=3D"left" class=3D"mcnCaptionBottomContent" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td align=3D"center" class=3D"mcnCaptionBottomImageContent" valign=
+=3D"top" style=3D"padding: 0px 9px 9px;mso-line-height-rule: exactly;-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+
+
+            <a title=3D"" href=3D"http://kotrasv.us7.list-manage.com/track=
+/click?u=3Df1ce25c3a29d7d54a417baf29&id=3D29f9a26488&e=3Dac5cd21c69" targ=
+et=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;">
+
+
+            <img width=3D"560" class=3D"mcnImage" style=3D"max-width: 560p=
+x;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpola=
+tion-mode: bicubic;vertical-align: bottom;" alt=3D"" src=3D"https://galler=
+y.mailchimp.com/f1ce25c3a29d7d54a417baf29/images/12431228-f654-4fd0-87ac-a=
+0570fba9a99.jpg">
+            </a>
+
+        </td>
+    </tr>
+    <tr>
+        <td width=3D"564" class=3D"mcnTextContent" valign=3D"top" style=3D=
+"padding: 0px 9px;line-height: 150%;mso-line-height-rule: exactly;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;c=
+olor: #202020;font-family: Helvetica;font-size: 16px;text-align: left;">
+            <span style=3D"display: none;">&nbsp;</span><span style=3D"fon=
+t-family: arial=2Chelvetica neue=2Chelvetica=2Csans-serif;"><strong><span=
+ style=3D"color: #4B0082;">[Info Clip]</span>&nbsp;</strong></span><span=
+ style=3D"font-size: 14px;"><span style=3D"font-family: arial=2Chelvetica=
+ neue=2Chelvetica=2Csans-serif;"><a href=3D"http://kotrasv.us7.list-manage=
+2.com/track/click?u=3Df1ce25c3a29d7d54a417baf29&id=3D9f545869e2&e=3D=
+ac5cd21c69" target=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;color: #333333;font-weight=
+: normal;text-decoration: underline;">=EB=AF=B8 =EB=B8=94=EB=9E=99=ED=94=
+=84=EB=9D=BC=EC=9D=B4=EB=8D=B0=EC=9D=B4=2C =EC=98=A8=EB=9D=BC=EC=9D=B8 =EC=
+=87=BC=ED=95=91=EC=9C=BC=EB=A1=9C 30=EC=96=B5 =EB=8B=AC=EB=9F=AC =EB=84=98=
+=EC=96=B4=EC=84=9C</a></span></span><br>
+<span style=3D"font-size: 12px;"><span style=3D"font-family: arial=2Chelve=
+tica neue=2Chelvetica=2Csans-serif;">=EB=AF=B8=EA=B5=AD =EC=B5=9C=EB=8C=80=
+ =EC=87=BC=ED=95=91 =EC=8B=9C=EC=A6=8C=EC=9D=B8 =EB=B8=94=EB=9E=99=ED=94=
+=84=EB=9D=BC=EC=9D=B4=EB=8D=B0=EC=9D=B4(Black Friday) =EB=A7=A4=EC=B6=9C=
+=EC=9D=B4 =EC=82=AC=EC=83=81 =EC=B5=9C=EB=8C=80=EC=B9=98=EB=A5=BC =EA=B8=
+=B0=EB=A1=9D=ED=96=88=EB=8B=A4. =EC=98=A8=EB=9D=BC=EC=9D=B8 =EA=B1=B0=EB=
+=9E=98=EB=A5=BC =EC=A7=91=EA=B3=84=ED=95=98=EB=8A=94 =EC=96=B4=EB=8F=84=EB=
+=B9=84 =EB=94=94=EC=A7=80=ED=84=B8 =EC=9D=B8=EB=8D=B1=EC=8A=A4(Adobe Digit=
+al Index)=EC=97=90 =EB=94=B0=EB=A5=B4=EB=A9=B4=2C 2016=EB=85=84 =EB=B8=94=
+=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=EB=8D=B0=EC=9D=B4 =EC=98=A8=EB=9D=BC=
+=EC=9D=B8 =EB=A7=A4=EC=B6=9C=EC=95=A1=EC=9D=B4 =EC=A0=84=EB=85=84 =EB=8C=
+=80=EB=B9=84 21.6% =EC=A6=9D=EA=B0=80=ED=95=9C 33=EC=96=B5 4=2C000=EB=A7=
+=8C =EB=8B=AC=EB=9F=AC=EB=A5=BC =EA=B8=B0=EB=A1=9D=ED=96=88=EB=8B=A4=EA=B3=
+=A0 =EB=B0=9C=ED=91=9C=ED=96=88=EB=8B=A4. =EC=9D=B4 =EC=A4=91 =EC=8A=A4=EB=
+=A7=88=ED=8A=B8=ED=8F=B0=EC=9D=B4=EB=82=98 =ED=83=9C=EB=B8=94=EB=A6=BFPC=
+ =EB=93=B1=EC=9D=84 =ED=86=B5=ED=95=9C =EB=AA=A8=EB=B0=94=EC=9D=BC =EC=87=
+=BC=ED=95=91 =EB=A7=A4=EC=B6=9C=EC=9D=B4 =EC=B5=9C=EC=B4=88=EB=A1=9C 10=EC=
+=96=B5 =EB=8B=AC=EB=9F=AC=EB=A5=BC =EB=84=98=EC=96=B4=EC=84=A0 =EA=B2=83=
+=EC=9C=BC=EB=A1=9C =EB=B0=9D=ED=98=80=EC=A1=8C=EB=8B=A4. =EC=95=84=EB=A7=
+=88=EC=A1=B4=2C =EC=9B=94=EB=A7=88=ED=8A=B8=2C =ED=83=80=EA=B2=9F=2C e=EB=
+=B2=A0=EC=9D=B4 =EB=93=B1 =EC=9C=A0=ED=86=B5=EC=97=85=EC=B2=B4 =EB=AA=A8=
+=EB=B0=94=EC=9D=BC =EA=B1=B0=EB=9E=98=EC=9D=98 =EC=A7=80=EC=86=8D=EC=A0=81=
+=EC=9D=B8 =EC=A6=9D=EA=B0=80=EC=B6=94=EC=84=B8=EB=8F=84 =EC=9D=B4=EB=B2=88=
+ =EB=B8=94=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=EB=8D=B0=EC=9D=B4 =EC=98=A8=
+=EB=9D=BC=EC=9D=B8 =EC=87=BC=ED=95=91=EC=97=90 =ED=81=B0 =EB=AA=AB=EC=9D=
+=84 =EC=B0=A8=EC=A7=80=ED=95=9C =EA=B2=83=EC=9C=BC=EB=A1=9C =EC=A0=84=ED=
+=95=B4=EC=A7=84=EB=8B=A4. =EC=96=B4=EB=8F=84=EB=B9=84=EB=8A=94 =EB=B8=94=
+=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=EB=8D=B0=EC=9D=B4 =EC=98=A8=EB=9D=BC=
+=EC=9D=B8 =ED=8C=90=EB=A7=A4 =EB=B9=84=EC=9C=A8 =EC=A4=91=2C =EC=B4=9D =EB=
+=AA=A8=EB=B0=94=EC=9D=BC =ED=8C=90=EB=A7=A4 =EB=B9=84=EC=A4=91=EC=9D=B4 56=
+%(=EC=8A=A4=EB=A7=88=ED=8A=B8=ED=8F=B0 47%=2C =ED=83=9C=EB=B8=94=EB=A6=BFP=
+C 9%)=EB=A1=9C =EC=A7=91=EA=B3=84=EB=90=98=EC=97=88=EB=8B=A4=EA=B3=A0 =EC=
+=A0=84=ED=96=88=EB=8B=A4. =EC=A0=84=EB=AC=B8=EA=B0=80=EB=93=A4=EC=9D=80=
+ =EC=86=8C=EB=B9=84=EC=9E=90=EB=93=A4=EC=9D=98 =EA=B5=AC=EB=A7=A4=ED=98=95=
+=ED=83=9C=EA=B0=80 =EC=A7=81=EC=A0=91=EA=B5=AC=EB=A7=A4=EC=97=90=EC=84=9C=
+ =EC=98=A8=EB=9D=BC=EC=9D=B8 =EC=AA=BD=EC=9C=BC=EB=A1=9C =EB=9A=9C=EB=A0=
+=B7=ED=95=98=EA=B2=8C =EC=98=AE=EA=B2=A8=EC=A7=80=EB=A9=B4=EC=84=9C =EC=82=
+=AC=EC=9D=B4=EB=B2=84=EB=A8=BC=EB=8D=B0=EC=9D=B4(Cyber Monday : =EB=B8=94=
+=EB=9E=99=ED=94=84=EB=9D=BC=EC=9D=B4=EB=8D=B0=EC=9D=B4 =EC=9D=B4=ED=9B=84=
+=2C =EC=86=8C=EB=B9=84=EC=9E=90=EB=93=A4=EC=9D=B4 =EC=98=A8=EB=9D=BC=EC=9D=
+=B8=EC=9C=BC=EB=A1=9C =EB=82=A8=EC=9D=80 =EC=84=B8=EC=9D=BC=ED=92=88=EB=AA=
+=A9=EB=93=A4=EC=9D=84 =EC=87=BC=ED=95=91=ED=95=98=EB=8A=94 =EA=B8=B0=EA=B0=
+=84)=EA=B0=80 =EB=8D=94 =EC=9D=B4=EC=83=81 =ED=95=84=EC=9A=94=ED=95=98=EC=
+=A7=80 =EC=95=8A=EC=9D=84 =EA=B2=83=EC=9D=B4=EB=9D=BC=EA=B3=A0 =EB=B6=84=
+=EC=84=9D=ED=96=88=EB=8B=A4. =EC=B4=88=EA=B3=A0=EC=86=8D =EC=9D=B8=ED=84=
+=B0=EB=84=B7=EC=9D=84 =ED=86=B5=ED=95=9C =EB=AA=A8=EB=B0=94=EC=9D=BC =EA=
+=B5=AC=EB=A7=A4=2C =EC=9D=BC=EB=AA=85 =EC=B9=B4=EC=9A=B0=EC=B9=98 =EC=87=
+=BC=ED=95=91(couch shopping)=EC=9D=B4 =EC=86=8C=EB=B9=84 =EA=B4=80=ED=96=
+=89=EC=9C=BC=EB=A1=9C =EA=B5=B3=EC=96=B4=EC=A7=80=EA=B3=A0 =EC=9E=88=EB=8B=
+=A4.<br>
+<br>
+=EC=9E=91=EC=84=B1 : =EA=B9=80=EC=A0=95=ED=9B=88 =EB=A7=A4=EB=8B=88=EC=A0=
+=80 &lt;<a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce=
+25c3a29d7d54a417baf29&id=3Dfee4df600f&e=3Dac5cd21c69" target=3D"_blank" s=
+tyle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration:=
+ underline;">jung.kim@kotrasv.org</a>&gt;<br>
+=EC=9E=90=EB=A3=8C=EC=9B=90 : <a href=3D"http://kotrasv.us7.list-manage2.c=
+om/track/click?u=3Df1ce25c3a29d7d54a417baf29&id=3D1739d33bcf&e=3D=
+ac5cd21c69" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-web=
+kit-text-size-adjust: 100%;color: #333333;font-weight: normal;text-decorat=
+ion: underline;">TechCrunch</a></span></span>
+
+<p style=3D"margin: 0in 0in 10pt;padding: 0;mso-line-height-rule: exactly;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;f=
+ont-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"=
+><span style=3D"font-size: 12px;"><span style=3D"font-family: arial=2Chelv=
+etica neue=2Chelvetica=2Csans-serif;"><a href=3D"http://kotrasv.us7.list-m=
+anage2.com/track/click?u=3Df1ce25c3a29d7d54a417baf29&id=3D4e1dbcba16&e=3D=
+ac5cd21c69" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;color: #333333;font-weight: normal;text=
+-decoration: underline;"><span style=3D"display: none;">&nbsp;</span></a><=
+/span></span></p>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table width=3D"100%" class=3D"mcnDividerBlock" style=3D"min-width=
+: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0=
+pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout:=
+ fixed !important;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;min-=
+width: 100%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+                <table width=3D"100%" class=3D"mcnDividerContent" style=3D=
+"border-top-color: #999999;border-top-width: 1px;border-top-style: solid;m=
+in-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-r=
+space: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table width=3D"100%" class=3D"mcnTextBlock" style=3D"min-width: 1=
+00%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td class=3D"mcnTextBlockInner" valign=3D"top" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table width=3D"100%" align=3D"left" class=3D"mcnTextConte=
+ntContainer" style=3D"min-width: 100%;max-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+                    <tbody><tr>
+
+                        <td class=3D"mcnTextContent" valign=3D"top" style=
+=3D"padding: 0px 18px 9px;mso-line-height-rule: exactly;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202=
+020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: l=
+eft;">
+
+                            <span style=3D"font-size: 12px;"><span style=
+=3D"font-family: arial=2Chelvetica neue=2Chelvetica=2Csans-serif;"><span s=
+tyle=3D"line-height: 20.79px;"><span style=3D"color: #4B0082;"><strong>[S=
+VN Archives]</strong></span></span><br>
+- <a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce25c3a2=
+9d7d54a417baf29&id=3Db90702ce3b&e=3Dac5cd21c69" target=3D"_blank" style=
+=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: unde=
+rline;">=ED=8E=98=EC=9D=B4=EC=8A=A4=EB=B6=81=2C =EC=A4=91=EA=B5=AD =EC=8B=
+=9C=EC=9E=A5 =EC=A7=84=EC=B6=9C =EC=9C=84=ED=95=B4 =EA=B2=80=EC=97=B4 =EC=
+=8B=9C=EC=8A=A4=ED=85=9C =EC=A0=9C=EC=9E=91 =EC=A4=91=EC=9D=B8 =EA=B2=83=
+=EC=9C=BC=EB=A1=9C =EB=B0=9D=ED=98=80=EC=A0=B8</a><br>
+-&nbsp;<a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce2=
+5c3a29d7d54a417baf29&id=3D1b669c7837&e=3Dac5cd21c69" target=3D"_blank" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: u=
+nderline;">=ED=85=8C=EC=8A=AC=EB=9D=BC=2C =EC=82=AC=EB=AA=A8=EC=95=84(Samo=
+a) =ED=83=80=EC=9A=B0(Ta=E2=80=99u) =EC=84=AC =EC=A0=84=EC=B2=B4=EC=97=90=
+ =ED=83=9C=EC=96=91=EA=B4=91 =EC=A7=80=EB=B6=95 =EC=84=A4=EC=B9=98=ED=95=
+=A0 =EA=B2=83</a><br>
+- <a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce25c3a2=
+9d7d54a417baf29&id=3Dd2208f76d4&e=3Dac5cd21c69" target=3D"_blank" style=
+=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: unde=
+rline;">=EB=AF=B8 =EC=9C=A0=EB=AA=85 =EB=B2=A4=EC=B2=98=ED=88=AC=EC=9E=90=
+=EC=9E=90 =EB=A7=88=ED=81=AC =EC=95=A4=EB=93=9C=EB=A0=88=EC=84=BC=2C =E2=
+=80=9C=EB=B9=84=ED=96=89=EC=9E=90=EB=8F=99=EC=B0=A8 =EC=83=81=EC=9A=A9=ED=
+=99=94 =EB=A8=B8=EC=A7=80 =EC=95=8A=EC=95=84 =EA=B0=80=EB=8A=A5=ED=95=A0=
+ =EA=B2=83"</a><br>
+-&nbsp;<a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce2=
+5c3a29d7d54a417baf29&id=3D75dc905a1a&e=3Dac5cd21c69" target=3D"_blank" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: u=
+nderline;">BMW=EC=99=80 =EB=B0=94=EC=9D=B4=EB=91=90=2C =EC=9E=90=EC=9C=A8=
+=EC=A3=BC=ED=96=89 =EA=B8=B0=EC=88=A0 =EA=B0=9C=EB=B0=9C =EC=9C=84=ED=95=
+=B4 =EC=83=88=EB=A1=9C=EC=9A=B4 =ED=8C=8C=ED=8A=B8=EB=84=88 =EB=AC=BC=EC=
+=83=89 =EC=98=88=EC=A0=95</a><br>
+-&nbsp;<a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce2=
+5c3a29d7d54a417baf29&id=3Dec48e834ca&e=3Dac5cd21c69" target=3D"_blank" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;color: #333333;font-weight: normal;text-decoration: u=
+nderline;">=ED=85=8C=EC=8A=AC=EB=9D=BC=2C =EC=A3=BC=EC=A3=BC=EC=B4=9D=ED=
+=9A=8C =EA=B2=B0=EA=B3=BC 85% =EC=B0=AC=EC=84=B1=EC=9C=BC=EB=A1=9C =EC=86=
+=94=EB=9D=BC=EC=8B=9C=ED=8B=B0 =EC=9D=B8=EC=88=98 =ED=99=95=EC=A0=95</a></=
+span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;">
+                                    <!-- BEGIN COLUMNS // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600" id=3D"templateColumns" style=3D"border-co=
+llapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;bor=
+der-top: 0;border-bottom: 0;">
+                                        <tr>
+                                            <td align=3D"left" valign=3D"t=
+op" class=3D"columnsContainer" width=3D"50%" style=3D"mso-line-height-rule=
+: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <table border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"templateColumn" styl=
+e=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                    <tr>
+                                                        <td valign=3D"top"=
+ class=3D"leftColumnContainer" style=3D"mso-line-height-rule: exactly;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnButtonBlo=
+ck" style=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0=
+pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adju=
+st: 100%;">
+    <tbody class=3D"mcnButtonBlockOuter">
+        <tr>
+            <td style=3D"padding-top: 0;padding-right: 18px;padding-bottom=
+: 18px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" align=3D"center"=
+ class=3D"mcnButtonBlockInner">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mcnButtonContentContainer" style=3D"border-collapse: separate !impo=
+rtant;border-radius: 0px;background-color: #6D94BD;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;">
+                    <tbody>
+                        <tr>
+                            <td align=3D"center" valign=3D"middle" class=
+=3D"mcnButtonContent" style=3D"font-family: Arial;font-size: 12px;padding:=
+ 16px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;">
+                                <a class=3D"mcnButton " title=3D"AWS re:In=
+vent 2016 Nov.28-Dec.2" href=3D"http://kotrasv.us7.list-manage1.com/track/=
+click?u=3Df1ce25c3a29d7d54a417baf29&id=3De19aec646a&e=3Dac5cd21c69" targe=
+t=3D"_blank" style=3D"font-weight: bold;letter-spacing: normal;line-height=
+: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-he=
+ight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;display: block;">AWS re:Invent 2016 Nov.28-Dec.2</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td align=3D"left" valign=3D"t=
+op" class=3D"columnsContainer" width=3D"50%" style=3D"mso-line-height-rule=
+: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <table border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"templateColumn" styl=
+e=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                    <tr>
+                                                        <td valign=3D"top"=
+ class=3D"rightColumnContainer" style=3D"mso-line-height-rule: exactly;-ms=
+-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnButtonBl=
+ock" style=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace:=
+ 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;">
+    <tbody class=3D"mcnButtonBlockOuter">
+        <tr>
+            <td style=3D"padding-top: 0;padding-right: 18px;padding-bottom=
+: 18px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" align=3D"center"=
+ class=3D"mcnButtonBlockInner">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mcnButtonContentContainer" style=3D"border-collapse: separate !impo=
+rtant;border-radius: 0px;background-color: #6D94BD;mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;">
+                    <tbody>
+                        <tr>
+                            <td align=3D"center" valign=3D"middle" class=
+=3D"mcnButtonContent" style=3D"font-family: Arial;font-size: 12px;padding:=
+ 16px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;">
+                                <a class=3D"mcnButton " title=3D"Open Mobi=
+le Summit Nov.29-Nov.30" href=3D"http://kotrasv.us7.list-manage.com/track/=
+click?u=3Df1ce25c3a29d7d54a417baf29&id=3D5034619e09&e=3Dac5cd21c69" targe=
+t=3D"_blank" style=3D"font-weight: bold;letter-spacing: normal;line-height=
+: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-he=
+ight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;display: block;">Open Mobile Summit Nov.29-Nov.30</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END COLUMNS -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"padding-bottom: 40px;mso-line-height-rule: exactly;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;">
+                                    <!-- BEGIN FOOTER // -->
+                                    <table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"600" id=3D"templateFooter" style=3D"border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #253047;bord=
+er-top: 0;border-bottom: 0;">
+                                        <tr>
+                                            <td valign=3D"top" class=3D"fo=
+oterContainer" style=3D"padding-top: 9px;padding-bottom: 9px;mso-line-heig=
+ht-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ class=3D"mcnShareBlock" style=3D"border-collapse: collapse;mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;">
+    <tbody class=3D"mcnShareBlockOuter">
+            <tr>
+                <td valign=3D"top" style=3D"padding: 9px;mso-line-height-r=
+ule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" c=
+lass=3D"mcnShareBlockInner">
+                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"100%" class=3D"mcnShareContentContainer" style=3D"border-collap=
+se: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adj=
+ust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td align=3D"center" style=3D"padding-top: 0;padding-left: 9px;pad=
+ding-bottom: 0;padding-right: 9px;mso-line-height-rule: exactly;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" class=3D"mcnShareContent" style=3D"background-color: #253047;bor=
+der-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td align=3D"center" valign=3D"top" class=3D"mcnShareC=
+ontentItemContainer" style=3D"padding-top: 9px;padding-right: 9px;padding-=
+left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit=
+-text-size-adjust: 100%;">
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace=
+: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top" style=3D"mso-lin=
+e-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust=
+: 100%;">
+=09=09=09
+=09=09=09                            <table align=3D"left" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;">
+=09=09=09                                <tbody><tr>
+=09=09=09                                    <td valign=3D"top" style=3D"p=
+adding-right: 9px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class=3D"mcnShareCon=
+tentItemContainer">
+=09=09=09                                        <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"" class=3D"mcnShareContentItem" st=
+yle=3D"border-collapse: separate;border-radius: 0px;background-color: #253=
+047;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <tbody><tr>
+=09=09=09                                                <td align=3D"left=
+" valign=3D"middle" style=3D"padding-top: 5px;padding-right: 9px;padding-b=
+ottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-a=
+djust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                                    <table align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"" styl=
+e=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                                        <tbody><t=
+r>
+=09=09=09                                                            <td a=
+lign=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnShareIconConten=
+t" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+=09=09=09                                                                <=
+a href=3D"http://us7.forward-to-friend2.com/forward?u=3Df1ce25c3a29d7d54a4=
+17baf29&id=3D52280eed07&e=3Dac5cd21c69" target=3D"_blank" style=3D"mso-line-=
+height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;"><img src=3D"http://cdn-images.mailchimp.com/icons/social-block-v2/=
+outline-color-forwardtofriend-48.png" style=3D"display: block;border: 0;he=
+ight: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bic=
+ubic;" height=3D"24" width=3D"24" class=3D""></a>
+=09=09=09                                                            </td>
+=09=09=09                                                            <td a=
+lign=3D"left" valign=3D"middle" class=3D"mcnShareTextContent" style=3D"pad=
+ding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-w=
+ebkit-text-size-adjust: 100%;">
+=09=09=09                                                                <=
+a href=3D"http://us7.forward-to-friend2.com/forward?u=3Df1ce25c3a29d7d54a4=
+17baf29&id=3D52280eed07&e=3Dac5cd21c69" target=3D"" style=3D"color: #FFFFFF;=
+font-family: Arial;font-size: 12px;font-weight: normal;line-height: 100%;t=
+ext-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Forward</a>
+=09=09=09                                                            </td>
+=09=09=09                                                        </tr>
+=09=09=09                                                    </tbody></tab=
+le>
+=09=09=09                                                </td>
+=09=09=09                                            </tr>
+=09=09=09                                        </tbody></table>
+=09=09=09                                    </td>
+=09=09=09                                </tr>
+=09=09=09                            </tbody></table>
+=09=09=09=09=09=09=09=09<!--[if gte mso 6]>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09    =09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09                            <table align=3D"left" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;">
+=09=09=09                                <tbody><tr>
+=09=09=09                                    <td valign=3D"top" style=3D"p=
+adding-right: 9px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class=3D"mcnShareCon=
+tentItemContainer">
+=09=09=09                                        <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"" class=3D"mcnShareContentItem" st=
+yle=3D"border-collapse: separate;border-radius: 0px;background-color: #253=
+047;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <tbody><tr>
+=09=09=09                                                <td align=3D"left=
+" valign=3D"middle" style=3D"padding-top: 5px;padding-right: 9px;padding-b=
+ottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-a=
+djust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                                    <table align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"" styl=
+e=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                                        <tbody><t=
+r>
+=09=09=09                                                            <td a=
+lign=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnShareIconConten=
+t" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+=09=09=09                                                                <=
+a href=3D"http://kotrasv.us7.list-manage2.com/track/click?u=3Df1ce25c3a29d=
+7d54a417baf29&id=3Df5ac258e99&e=3Dac5cd21c69" target=3D"_blank" style=3D"=
+mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;"><img src=3D"http://cdn-images.mailchimp.com/icons/social-b=
+lock-v2/outline-color-facebook-48.png" style=3D"display: block;border: 0;h=
+eight: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bi=
+cubic;" height=3D"24" width=3D"24" class=3D""></a>
+=09=09=09                                                            </td>
+=09=09=09                                                            <td a=
+lign=3D"left" valign=3D"middle" class=3D"mcnShareTextContent" style=3D"pad=
+ding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-w=
+ebkit-text-size-adjust: 100%;">
+=09=09=09                                                                <=
+a href=3D"http://kotrasv.us7.list-manage1.com/track/click?u=3Df1ce25c3a29d=
+7d54a417baf29&id=3D74fb1ef237&e=3Dac5cd21c69" target=3D"" style=3D"color:=
+ #FFFFFF;font-family: Arial;font-size: 12px;font-weight: normal;line-heigh=
+t: 100%;text-align: center;text-decoration: none;mso-line-height-rule: exa=
+ctly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Share</a>
+=09=09=09                                                            </td>
+=09=09=09                                                        </tr>
+=09=09=09                                                    </tbody></tab=
+le>
+=09=09=09                                                </td>
+=09=09=09                                            </tr>
+=09=09=09                                        </tbody></table>
+=09=09=09                                    </td>
+=09=09=09                                </tr>
+=09=09=09                            </tbody></table>
+=09=09=09=09=09=09=09=09<!--[if gte mso 6]>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09    =09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09                            <table align=3D"left" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;">
+=09=09=09                                <tbody><tr>
+=09=09=09                                    <td valign=3D"top" style=3D"p=
+adding-right: 9px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class=3D"mcnShareCon=
+tentItemContainer">
+=09=09=09                                        <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"" class=3D"mcnShareContentItem" st=
+yle=3D"border-collapse: separate;border-radius: 0px;background-color: #253=
+047;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <tbody><tr>
+=09=09=09                                                <td align=3D"left=
+" valign=3D"middle" style=3D"padding-top: 5px;padding-right: 9px;padding-b=
+ottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-a=
+djust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                                    <table align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"" styl=
+e=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                                        <tbody><t=
+r>
+=09=09=09                                                            <td a=
+lign=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnShareIconConten=
+t" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+=09=09=09                                                                <=
+a href=3D"http://kotrasv.us7.list-manage1.com/track/click?u=3Df1ce25c3a29d=
+7d54a417baf29&id=3D96f314561a&e=3Dac5cd21c69" target=3D"_blank" style=3D"=
+mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;"><img src=3D"http://cdn-images.mailchimp.com/icons/social-b=
+lock-v2/outline-color-twitter-48.png" style=3D"display: block;border: 0;he=
+ight: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bic=
+ubic;" height=3D"24" width=3D"24" class=3D""></a>
+=09=09=09                                                            </td>
+=09=09=09                                                            <td a=
+lign=3D"left" valign=3D"middle" class=3D"mcnShareTextContent" style=3D"pad=
+ding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-w=
+ebkit-text-size-adjust: 100%;">
+=09=09=09                                                                <=
+a href=3D"http://kotrasv.us7.list-manage2.com/track/click?u=3Df1ce25c3a29d=
+7d54a417baf29&id=3D011bfeafaa&e=3Dac5cd21c69" target=3D"" style=3D"color:=
+ #FFFFFF;font-family: Arial;font-size: 12px;font-weight: normal;line-heigh=
+t: 100%;text-align: center;text-decoration: none;mso-line-height-rule: exa=
+ctly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Tweet</a>
+=09=09=09                                                            </td>
+=09=09=09                                                        </tr>
+=09=09=09                                                    </tbody></tab=
+le>
+=09=09=09                                                </td>
+=09=09=09                                            </tr>
+=09=09=09                                        </tbody></table>
+=09=09=09                                    </td>
+=09=09=09                                </tr>
+=09=09=09                            </tbody></table>
+=09=09=09=09=09=09=09=09<!--[if gte mso 6]>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09    =09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09                            <table align=3D"left" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;">
+=09=09=09                                <tbody><tr>
+=09=09=09                                    <td valign=3D"top" style=3D"p=
+adding-right: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class=3D"mcnShareConte=
+ntItemContainer">
+=09=09=09                                        <table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"" class=3D"mcnShareContentItem" st=
+yle=3D"border-collapse: separate;border-radius: 0px;background-color: #253=
+047;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;">
+=09=09=09                                            <tbody><tr>
+=09=09=09                                                <td align=3D"left=
+" valign=3D"middle" style=3D"padding-top: 5px;padding-right: 9px;padding-b=
+ottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-a=
+djust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                                    <table align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"" styl=
+e=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09                                                        <tbody><t=
+r>
+=09=09=09                                                            <td a=
+lign=3D"center" valign=3D"middle" width=3D"24" class=3D"mcnShareIconConten=
+t" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+=09=09=09                                                                <=
+a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce25c3a29d7=
+d54a417baf29&id=3D6595702528&e=3Dac5cd21c69" target=3D"_blank" style=3D"m=
+so-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;"><img src=3D"http://cdn-images.mailchimp.com/icons/social-bl=
+ock-v2/outline-color-linkedin-48.png" style=3D"display: block;border: 0;he=
+ight: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bic=
+ubic;" height=3D"24" width=3D"24" class=3D""></a>
+=09=09=09                                                            </td>
+=09=09=09                                                            <td a=
+lign=3D"left" valign=3D"middle" class=3D"mcnShareTextContent" style=3D"pad=
+ding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-w=
+ebkit-text-size-adjust: 100%;">
+=09=09=09                                                                <=
+a href=3D"http://kotrasv.us7.list-manage.com/track/click?u=3Df1ce25c3a29d7=
+d54a417baf29&id=3D530d241d10&e=3Dac5cd21c69" target=3D"" style=3D"color:=
+ #FFFFFF;font-family: Arial;font-size: 12px;font-weight: normal;line-heigh=
+t: 100%;text-align: center;text-decoration: none;mso-line-height-rule: exa=
+ctly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Share</a>
+=09=09=09                                                            </td>
+=09=09=09                                                        </tr>
+=09=09=09                                                    </tbody></tab=
+le>
+=09=09=09                                                </td>
+=09=09=09                                            </tr>
+=09=09=09                                        </tbody></table>
+=09=09=09                                    </td>
+=09=09=09                                </tr>
+=09=09=09                            </tbody></table>
+=09=09=09=09=09=09=09=09<!--[if gte mso 6]>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09    =09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
+
+                </td>
+            </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #CCCCCC;font-family: Helve=
+tica;font-size: 10px;line-height: 125%;text-align: left;">
+
+                            <div style=3D"text-align: center;"><span style=
+=3D"font-size:11px"><span style=3D"line-height:20.79px">KOTRA =EC=8B=A4=EB=
+=A6=AC=EC=BD=98=EB=B0=B8=EB=A6=AC =EB=AC=B4=EC=97=AD=EA=B4=80 IT=EC=A7=80=
+=EC=9B=90=EC=84=BC=ED=84=B0=EB=8A=94 =ED=98=84=EC=A7=80 =EC=A7=84=EC=B6=9C=
+=EC=9D=84 =ED=9D=AC=EB=A7=9D=ED=95=98=EB=8A=94 =EA=B0=9C=EC=9D=B8=EA=B3=BC=
+ =EA=B8=B0=EC=97=85=EC=97=90=EA=B2=8C KOTRA Silicon Valley News=EB=A5=BC<b=
+r>
+=EB=B3=B4=EB=82=B4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4. =EA=B3=BC=EC=9B=94=
+=ED=98=B8=EB=8A=94&nbsp;</span><a href=3D"http://kotrasv.us7.list-manage1.=
+com/track/click?u=3Df1ce25c3a29d7d54a417baf29&id=3D5ced65f124&e=3D=
+ac5cd21c69" style=3D"line-height: 20.79px;mso-line-height-rule: exactly;-ms-text-=
+size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #CCCCCC;font-weigh=
+t: normal;text-decoration: underline;" target=3D"_blank">www=2Ckotrasv.org=
+</a>&nbsp;=EC=99=80 <a href=3D"http://kotrasv.us7.list-manage.com/track/cl=
+ick?u=3Df1ce25c3a29d7d54a417baf29&id=3Da0baa7681d&e=3Dac5cd21c69" target=
+=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;color: #CCCCCC;font-weight: normal;text=
+-decoration: underline;">KOTRA Silicon Valley Facebook</a>=EC=97=90 =EA=B2=
+=8C=EC=8B=9C=EB=90=98=EC=96=B4 =EC=9E=88=EC=8A=B5<span style=3D"line-heigh=
+t:20.79px">=EB=8B=88=EB=8B=A4.<br>
+=EA=B1=B4=EC=9D=98 =EB=B0=8F =EB=AC=B8=EC=9D=98=EB=8A=94 <a href=3D"http:/=
+/kotrasv.us7.list-manage.com/track/click?u=3Df1ce25c3a29d7d54a417baf29&id=
+=3D001d93911f&e=3Dac5cd21c69" target=3D"_blank" style=3D"mso-line-height-=
+rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;co=
+lor: #CCCCCC;font-weight: normal;text-decoration: underline;">taeil.cho@ko=
+trasv.org</a></span><span style=3D"line-height:20.79px">=EB=A1=9C =EC=97=
+=B0=EB=9D=BD=EC=A3=BC=EC=8B=AD=EC=8B=9C=EC=98=A4.</span></span></div>
+<br>
+<em>Copyright =C2=A9 2016 KOTRA Silicon Valley=2C All rights reserved.</em=
+><br>
+3003 North 1st ST=2C San Jose=2C CA 95134
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    <img src=3D"http://kotrasv.us7.list-manage.com/track/open.php?u=3Df1ce=
+25c3a29d7d54a417baf29&id=3D52280eed07&e=3Dac5cd21c69" height=3D"1" width=
+=3D"1"></body>
+</html>
+--_----------=_MCPart_1897108646--
+

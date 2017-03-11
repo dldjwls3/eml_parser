@@ -1,0 +1,114 @@
+Received: (qmail 30843 invoked by uid 100); 18 Nov 2016 10:06:53 -0000
+Received: from 10.114.250.104 (HELO crcvmail03.wmail.naver.com) (10.114.250.104)
+  by cmda001.wmail.worksmobile.com with SMTP;18 Nov 2016 10:06:53 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from smf.duzon.co.kr (gw.duzon.com [202.167.215.64])
+  by crcvmail03.wmail.naver.com with ESMTP id ATxjmQcnT7CqnC3V26aTRg
+  for <jonghyun.kim@dforensic.com>;
+  Fri, 18 Nov 2016 10:06:53 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAIA9J700713;
+	Fri, 18 Nov 2016 19:09:19 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAIA9J700713
+X-SmartFilter: FROM,uAIA9J700713,joseph@duzon.com
+x-forward-id: <582ed2b3.c636630a.ff214.1f8aSMTPIN_ADDED_BROKEN@mx.google.com>
+Received: from external ([209.85.213.51])
+	by smf.duzon.co.kr (1.0) id uAIA9Cr00705;
+	Fri, 18 Nov 2016 19:09:13 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAIA9Cr00705
+X-SmartFilter: FROM,uAIA9Cr00705,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f51.google.com with SMTP id 137so164443341vkl.0
+        for <joseph@duzon.com>; Fri, 18 Nov 2016 02:06:45 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:mime-version:date:content-transfer-encoding:subject:from
+         :to:reply-to;
+        bh=wcQRjcjE6ruFBGM6AQmidzqGInIFlg9/bmfBcWV1RdA=;
+        b=lZ/XFcLKm09DPYws54zj6scL/AZ1JRyd8Fqux058pDmImsIao1mXSr9sAKCM8zommN
+         9LiRAqZvOfbVWKaGqyNDWXIg1UCfbCLxG96vi5/dLZSK0wPt1xARrTlzG2nAnK4zoW3W
+         UlxE77xu4I9O5//6YxolUO2Mb9c7/LAxT9p+awfyDDLJXBgWV//9od8j5o/gtDcpQdSS
+         8KghdKU/08ik6G0jihhDpHNKBMtBrclcsNku/swIqohHXMwvJe715Ww3hA5EErhDY8DA
+         tursw2CzNPU68EQK2BFRtOqpb4t6HwgNUC3OHkYdoqNpxIesy9+ueP1+77h2bIpKqIPD
+         dDGA==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AKaTC000xu3X418csFD8/g3aqhXfIDSw8bBHUXytXnCdXCUFnNa/pMiwSehC/cWi/5BXlXhozhR4Wkt8BMkpDaSmMtXbCSk=
+X-Received: by 10.31.125.206 with SMTP id y197mr4611673vkc.1.1479463604965;
+        Fri, 18 Nov 2016 02:06:44 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp599182vsa;
+        Fri, 18 Nov 2016 02:06:43 -0800 (PST)
+X-Received: by 10.99.67.7 with SMTP id q7mr17261137pga.45.1479463603894;
+        Fri, 18 Nov 2016 02:06:43 -0800 (PST)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id d189si7550350pga.29.2016.11.18.02.06.43
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 18 Nov 2016 02:06:43 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Message-ID: <582ed2b3.c636630a.ff214.1f8aSMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_14326_1769_0_0_0_20161118190621_210.223.88.35>
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAIA8wk006FE;
+	Fri, 18 Nov 2016 19:08:58 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAIA8wk006FE
+X-SmartFilter: FROM,uAIA8wk006FE,forensic@duzon.com
+x-forward-id: <IWNID_14326_1769_0_0_0_20161118190621_210.223.88.35>
+Received: from external ([210.223.88.35])
+	by smf.duzon.co.kr (1.0) id uAIA8lf006F9;
+	Fri, 18 Nov 2016 19:08:47 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAIA8lf006F9
+X-SmartFilter: FROM,uAIA8lf006F9,14326_1_1769_forensic_duzon.com@academymail.kotra.or.kr
+MIME-Version: 1.0
+Date: Fri, 18 Nov 2016 19:06:21 +0900
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?utf-8?B?W0tPVFJBIOyVhOuMgOyWkeyjvO2MgF0g7IiY7LacIEJvbw==?=
+	=?utf-8?B?bSBVcCDshKTrqoXtmowg6rCc7LWcIOyViOuCtA==?=
+From: =?utf-8?B?7JWE64yA7JaR7KO87YyA?=<jiunj@kotra.or.kr>
+To: =?utf-8?B?Zm9yZW5zaWNAZHV6b24uY29t?=<forensic@duzon.com>
+Reply-To: =?utf-8?B?7JWE64yA7JaR7KO87YyA?=<jiunj@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+X-Naver-ESV: wmen+6J4p635WrlY7BwdpBmwKAgrFxFYkXm=
+
+<p class="0">안녕하십니까? KOTRA는 트럼프 당선 이후 7개 유망 시장의 수출 환경을 점검하는 ｢코트라 수출 Boom Up 설명회｣를 아래와 같이 개최할 예정이오니 많은 참여 바랍니다.</p>
+<p class="0">&nbsp;</p>
+<p class="0" style="text-align: center;">= 아 래 =</p>
+<p class="0">&nbsp;</p>
+<p class="0">□ 행사 개요</p>
+<p class="0">ㅇ 개최시기/장소</p>
+<p class="0">&nbsp; - 서울 : &rsquo;16.11.30(수), 10:00&sim;16:20, 킨텍스 그랜드볼룸(3층)</p>
+<p class="0">&nbsp; - 대구 : &rsquo;16.12.1(목), 9:20&sim;11:30, 인터불고 엑스코호텔 블루벨홀(B1)</p>
+<p class="0">&nbsp; - 부산 : &rsquo;16.12.1(목), 14:30&sim;17:20, 부산 롯데호텔 크리스탈볼룸(3층)</p>
+<p class="0">ㅇ참가비 : 무료 (※주차권 제공)</p>
+<p class="0">ㅇ주요내용 : 미국, 중국, 브라질, 중미, 베트남, 인도, 러시아 시장현황 및 진출전략</p>
+<p class="0">ㅇ연사와의 상담회</p>
+<p class="0">&nbsp; - 선착순 신청</p>
+<p class="0">&nbsp; - 내용 : 지역별 일대일 상담(회당 최대 20분)</p>
+<p class="0">ㅇ문의처</p>
+<p class="0">&nbsp; - 서울 : KOTRA 아대양주팀 (02)3460-3256</p>
+<p class="0">&nbsp; - 대구 : 대구경북 KOTRA지원단 (053)659-2255</p>
+<p class="0">&nbsp; - 부산 : 부산경남 KOTRA지원단 (051)740-4155</p>
+<p class="0">&nbsp;</p>
+<p class="0">□ 참가 신청</p>
+<p class="0">ㅇ신청기간 : &rsquo;16.11.11(금)~11.25(금)</p>
+<p class="0">ㅇ신청방법</p>
+<p class="0">① 설명회 : KOTRA홈페이지(<a href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14326&linkno=1&seqidx=1769&service=0&dmidx=0&emidx=0&uidx=2786&gidx=10007&site=0&linkurl=http://www.kotra.or.kr/"><span style="text-decoration: underline;">www.kotra.or.kr)</span></a> &rarr; 지원사업안내 &rarr; 해외시장개척지원 &rarr; 해외시장설명회 사업 &rarr; 사업신청하기 &rarr; 참가희망 세미나명 클릭</p>
+<p class="0">② 상담회 : [유첨2] 신청양식 작성 후 E-mail</p>
+<p class="0">[서울]&nbsp; E-mail. 916601@kotra.or.kr</p>
+<p class="0">[대구]&nbsp; E-mail. jihaes@kotra.or.kr</p>
+<p class="0">[부산] 신청 마감<br /><br />#유첨 : KOTRA 수출 Boom Up 설명회 자료 (<a href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14326&linkno=2&seqidx=1769&service=0&dmidx=0&emidx=0&uidx=2786&gidx=10007&site=0&linkurl=http://infomailer.kotra.or.kr/20161118/KOTRA%20%EC%88%98%EC%B6%9C%20Boom%20up%20%EC%84%A4%EB%AA%85%ED%9A%8C.zip">다운로드 클릭</a>)<br /><br /><a href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14326&linkno=3&seqidx=1769&service=0&dmidx=0&emidx=0&uidx=2786&gidx=10007&site=0&linkurl=http://academymail.kotra.or.kr:8889/trace/reject.jsp?mailidx=14326&amp;seqidx=1769&amp;service=0&amp;dmidx=0&amp;uidx=2786&amp;gidx=10007&amp;email=forensic@duzon.com">수신거부를 원하시면 이 곳을 클릭하세요.</a><span style="color: #ff0000;"><br /><br />※ 상담신청은 사전 신청 기업을 대상으로 선착순으로 접수되어 현장접수는 불가하며, 상담일정 확정 후 개별기업 �!
+ ��내 예정임을 알려드립니다.</span></p>
+<p class="0">&nbsp;</p>
+<div style="display:none;"><img src="http://academymail.kotra.or.kr:8889/trace/openChecker.jsp?mailidx=14326&seqidx=1769&service=0&dmidx=0&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+<iframe frameborder="0" height="0" width="0" src="http://academymail.kotra.or.kr:8889/trace/openChecker.jsp?mailidx=14326&seqidx=1769&service=0&dmidx=0&emidx=0&duration=1&dtime=1"></iframe>
+
+
+

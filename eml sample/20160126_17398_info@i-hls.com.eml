@@ -1,0 +1,279 @@
+Received: (qmail 18361 invoked from network); 25 Jan 2016 20:56:42 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda01.wmail.naver.com with SMTP; 25 Jan 2016 20:56:42 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id qoecZr2-S5iSKADgMxXWrQ
+  for <jonghyun.kim@dforensic.com>;
+  Mon, 25 Jan 2016 20:56:42 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u0PKn1K008FC;
+	Tue, 26 Jan 2016 05:49:01 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0PKn1K008FC
+X-SmartFilter: FROM,u0PKn1K008FC,joseph@duzon.com
+x-forward-id: 1453755207508_935649226
+recvDate: Tue, 26 Jan 2016 05:53:27 +0900
+x-newturns-hashkey: 2b19fc4b2cfc27bd59c2e6bea38e49a55dc21346c47a622e9916e1f5e66fd34f
+Received: from external ([198.2.182.217])
+	by smf.duzon.com (1.0) id u0PEn3s00C5A;
+	Mon, 25 Jan 2016 23:49:04 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0PEn3s00C5A
+X-SmartFilter: FROM,u0PEn3s00C5A,bounce-mc.us7_19778971.369517-joseph=duzon.com@mail217.suw16.rsgsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail217.suw16.rsgsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=info=3Di-hls.com@mail217.suw16.rsgsv.net;
+ bh=Gkf+hxYjEwKugceCUjSwA7bAHzc=;
+ b=0OZiioF8MlgVspslWWOb1Zu9Nq87Jr11NHPGzleooE0dOG91v4gSJZdFHvU10Uuho5cnBG3kHRjU
+   vMl4xJGbjxSLIA3judFOx98YubsyOgt0GsjueHxq7U7sDUw7X98ITPH9C5ArSrl43DHe3h7wDfAw
+   NmaIJQvQ9M+en6wAZRY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail217.suw16.rsgsv.net;
+ b=bxxKROIpkakpY/Rjk/h57yu8bSWNJl8JLxii/xaYA6T/Buj2B1r/U5zpWK80qGn1BaNdXpE5D2/G
+   NbDSw09W7upzc3e9iBed8NhKduCp3/rzhavmX5M5mdwsuU+hRwwYGTSw/s8DVacjI628OUwp6Ub2
+   XiWeKcFKV3rRYXHJMf0=;
+Received: from (127.0.0.1) by mail217.suw16.rsgsv.net id hkorqa24ba4l for <joseph@duzon.com>; Mon, 25 Jan 2016 14:56:32 +0000 (envelope-from <bounce-mc.us7_19778971.369517-joseph=duzon.com@mail217.suw16.rsgsv.net>)
+Subject: =?utf-8?Q?Invitation=20To=20The=20BIg=20Data=204=20HLS?=
+From: =?utf-8?Q?Israel=20Homeland=20Security=20=28iHLS=29?= <info@i-hls.com>
+Reply-To: =?utf-8?Q?Israel=20Homeland=20Security=20=28iHLS=29?= <info@i-hls.com>
+To: =?utf-8?Q?Joseph?= <joseph@duzon.com>
+Date: Mon, 25 Jan 2016 14:56:32 +0000
+Message-ID: <5acc1ed377b590a98a195f62477ab4125da.20160125145609@mail217.suw16.rsgsv.net>
+X-Mailer: MailChimp Mailer - **CID93e133fb3a77ab4125da**
+X-Campaign: mailchimp5acc1ed377b590a98a195f624.93e133fb3a
+X-campaignid: mailchimp5acc1ed377b590a98a195f624.93e133fb3a
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=5acc1ed377b590a98a195f624&id=93e133fb3a&e=77ab4125da
+X-MC-User: 5acc1ed377b590a98a195f624
+X-Feedback-ID: 19778971:19778971.369517:us7:mc
+List-ID: 5acc1ed377b590a98a195f624mc list <5acc1ed377b590a98a195f624.157721.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us7_5acc1ed377b590a98a195f624.93e133fb3a-77ab4125da@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://i-hls.us7.list-manage.com/unsubscribe?u=5acc1ed377b590a98a195f624&id=8ee2e16ed1&e=77ab4125da&c=93e133fb3a>
+Sender: "Israel Homeland Security (iHLS)" <info=i-hls.com@mail217.suw16.rsgsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_84432421"
+MIME-Version: 1.0
+X-Naver-ESV: +XRYpB3G1H+YbXFCbHmRKog9FotZjJ+Y
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_84432421
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+www.i-hls.com
+Can't see this email? Click here (http://i-hls.com/newsletters/20160125/en=
+g?mc_cid=3D93e133fb3a&mc_eid=3D[UNIQID])
+
+http://i-hls.com/events/bigdata2015/?mc_cid=3D93e133fb3a&mc_eid=3D[UNIQID=
+] Hebrew (http://i-hls.com/newsletters/20160125/heb?mc_cid=3D93e133fb3a&mc=
+_eid=3D[UNIQID])
+
+iHLS is pleased to invite you to the third annual Big Data Fusion 4 HLS co=
+nference & exhibition! The event will take place exactly one month from to=
+day=2C so get your timers counting down. Speakers and exhibitors from SAP=
+=2C IBM=2C Mellanox=2C Malam Team=2C We Ankor=2C Aman Group=2C and many ot=
+hers will keep you on the edge of your seats and showcase a whole world of=
+ exciting ideas and solutions.
+So what is Big Data anyway?
+While each person might define it in different terms=2C Big Data is basica=
+lly this: A collection of data from traditional and digital sources for on=
+going discovery and analysis. What does it mean? In large=2C it is a massi=
+ve volume of both structured and unstructured data that is so great=2C it=
+ is difficult to process using traditional database and software technique=
+s. In most cases the volume of data is too big or it moves too fast or it=
+ exceeds current processing capacity. Within this data lie valuable patter=
+ns and information=2C previously hidden because of the amount of work requ=
+ired to extract them.
+
+<table id=3D"youtube_8QaIrxHsQIc_" style=3D"display:inline;"><tr><td><div=
+ style=3D"font-size:16px;">My Edited Video<div style=3D"border:5px solid #=
+000; -moz-border-radius:4px; border-radius:4px; -webkit-border-radius:4px;=
+ -o-border-radius:4px;"><a href=3D"https://www.youtube.com/watch?v=3D8QaIr=
+xHsQIc" target=3D"_blank"><img class=3D"mcnImage" alt=3D"Watch the Video"=
+ title=3D"Watch the Video" src=3D"http://gallery.mailchimp.com/5acc1ed377b=
+590a98a195f624/images/mcvid_youtube_8QaIrxHsQIc_.jpg" border=3D"0" style=
+=3D"height: auto; max-width:450px"></a></div><table style=3D"width:460px;f=
+ont-size:12px;"><tr><td align=3D"right"><strong>32 views</td></tr></table>=
+</div></td></tr></table>
+
+Big Data has the potential to help companies improve operations and make f=
+aster=2C more intelligent decisions. Want to hear about the newest=2C most=
+ innovative technologies in Big Data and their unique applications in the=
+ field of Homeland Security? This is where i-HLS comes in. The Big Data 4=
+ HLS 2016 Conference and Exhibition on February 25th will present the late=
+st innovations and solutions of using Big Data for HLS.
+
+You can register here or find more information here:
+
+Registration (http://i-hls.com/events/bigdata2015/registration/?mc_cid=3D9=
+3e133fb3a&mc_eid=3D[UNIQID])                               Booth (mailto:=
+info@i-hls.com)
+
+http://i-hls.com/events/bigdata2015/registration/?mc_cid=3D93e133fb3a&mc_e=
+id=3D[UNIQID] mailto:info@i-hls.com
+
+This email was sent to joseph@duzon.com (mailto:joseph@duzon.com)
+why did I get this? (http://i-hls.us7.list-manage.com/about?u=3D5acc1ed377=
+b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D93e133fb3a)     unsubscri=
+be from this list (http://i-hls.us7.list-manage.com/unsubscribe?u=3D5acc1e=
+d377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D93e133fb3a)     updat=
+e subscription preferences (http://i-hls.us7.list-manage.com/profile?u=3D5=
+acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da)
+iHLS Israel Homeland Security . Tel Aviv . Tel Aviv 36886 . Israel
+--_----------=_MCPart_84432421
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <title>Untitled Page</title>
+=09
+</head>
+
+<body style=3D"font: 14px sans-serif;margin: auto;width:850px;line-height:=
+2;">
+
+                <table cellpadding=3D"0" cellspacing=3D"0" width=3D"800" a=
+lign=3D"center">
+=09=09=09=09<center>
+=09=09=09=09<a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5a=
+cc1ed377b590a98a195f624&id=3D3ad6fe30af&e=3D77ab4125da">www.i-hls.com</a>
+=09=09=09=09<br>
+<a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590=
+a98a195f624&id=3De599c6532d&e=3D77ab4125da">Can't see this email? Click h=
+ere</a></center>
+<br>
+<a href=3D"http://i-hls.us7.list-manage2.com/track/click?u=3D5acc1ed377b59=
+0a98a195f624&id=3D7cef13dd27&e=3D77ab4125da">
+<img src=3D"http://i1.wp.com/i-hls.com/wp-content/uploads/2016/01/Big-Data=
+=2Ejpg?fit=3D860%2C500" class=3D"img-responsive"></a>
+
+<a href=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b59=
+0a98a195f624&id=3De480e64e0c&e=3D77ab4125da" style=3D"float:left;backgrou=
+nd-color:blue;color:white;">Hebrew</a>
+<br><br>
+    <p>
+iHLS is pleased to invite you to the third annual Big Data Fusion 4 HLS co=
+nference & exhibition! The event will take place exactly one month from to=
+day=2C so get your timers counting down. Speakers and exhibitors from SAP=
+=2C IBM=2C Mellanox=2C Malam Team=2C We Ankor=2C Aman Group=2C and many ot=
+hers will keep you on the edge of your seats and showcase a whole world of=
+ exciting ideas and solutions.
+<br>
+So what is Big Data anyway?
+<br>
+While each person might define it in different terms=2C Big Data is basica=
+lly this: A collection of data from traditional and digital sources for on=
+going discovery and analysis. What does it mean? In large=2C it is a massi=
+ve volume of both structured and unstructured data that is so great=2C it=
+ is difficult to process using traditional database and software technique=
+s. In most cases the volume of data is too big or it moves too fast or it=
+ exceeds current processing capacity.  Within this data lie valuable patte=
+rns and information=2C previously hidden because of the amount of work req=
+uired to extract them.
+<center><table id=3D"youtube_8QaIrxHsQIc_" style=3D"display:inline;"><tr><=
+td><div style=3D"font-size:16px;">My Edited Video<div style=3D"border:5px=
+ solid #000; -moz-border-radius:4px; border-radius:4px; -webkit-border-rad=
+ius:4px; -o-border-radius:4px;"><a href=3D"https://www.youtube.com/watch?v=
+=3D8QaIrxHsQIc" target=3D"_blank"><img class=3D"mcnImage" alt=3D"Watch the=
+ Video" title=3D"Watch the Video" src=3D"http://gallery.mailchimp.com/5acc=
+1ed377b590a98a195f624/images/mcvid_youtube_8QaIrxHsQIc_.jpg" border=3D"0"=
+ style=3D"height: auto; max-width:450px"></a></div><table style=3D"width:4=
+60px;font-size:12px;"><tr><td align=3D"right"><strong>32 views</td></tr></=
+table></div></td></tr></table></center>
+<br>
+Big Data has the potential to help companies improve operations and make f=
+aster=2C more intelligent decisions.
+
+
+Want to hear about the newest=2C most innovative technologies in Big Data=
+ and their unique applications in the field of Homeland Security? This is=
+ where i-HLS comes in. The Big Data 4 HLS 2016 Conference and Exhibition o=
+n February 25th will present the latest innovations and solutions of using=
+ Big Data for HLS.
+<br><br>
+You can register here or find more information here:
+</p>
+=09=09=09=09=09=09=09<center>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<a href=3D"http://i-hls.us7.list-manage.com/track/cli=
+ck?u=3D5acc1ed377b590a98a195f624&id=3Dfd98b5c1d3&e=3D77ab4125da" style=3D=
+"font-weight:bold;font-size:20px;    margin-left: -37px;
+    margin-right: 53px;"> Registration</a>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+=09=09=09=09=09=09=09<a href=3D"mailto:info@i-hls.com" style=3D"font-weigh=
+t:bold;font-size:20px">Booth</a>
+=09=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09=09<a href=3D"http://i-hls.us7.list-manage.com/track/cli=
+ck?u=3D5acc1ed377b590a98a195f624&id=3De2dae490d5&e=3D77ab4125da"><img src=
+=3D"https://gallery.mailchimp.com/5acc1ed377b590a98a195f624/images/5b28036=
+2-ae31-4bb4-b753-6623942960bf.jpg" class=3D"img-responsive"></a>
+=09=09=09=09=09<a href=3D"mailto:info@i-hls.com"><img src=3D"https://galle=
+ry.mailchimp.com/5acc1ed377b590a98a195f624/images/f9b83b88-4e04-495d-8ac2-=
+4c4824b320b4.jpg" class=3D"img-responsive"></a>
+                        </center>
+
+=09=09=09=09=09
+=09=09=09=09=09
+
+            </table>            <center>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" id=3D"canspamBarWrapper" style=3D"background-color:#FFFFFF; b=
+order-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align=3D"center" valign=3D"top" style=3D"paddi=
+ng-top:20px; padding-bottom:20px;">
+                            <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"canspamBar">
+                                <tr>
+                                    <td align=3D"center" valign=3D"top" st=
+yle=3D"color:#606060; font-family:Helvetica=2C Arial=2C sans-serif; font-s=
+ize:11px; line-height:150%; padding-right:20px; padding-bottom:5px; paddin=
+g-left:20px; text-align:center;">
+                                        This email was sent to <a href=3D"=
+mailto:joseph@duzon.com" target=3D"_blank" style=3D"color:#404040 !importa=
+nt;">joseph@duzon.com</a>
+                                        <br>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/about?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da=
+&c=3D93e133fb3a" target=3D"_blank" style=3D"color:#404040 !important;"><em=
+>why did I get this?</em></a>=C2=A0=C2=A0=C2=A0=C2=A0<a href=3D"http://i-h=
+ls.us7.list-manage.com/unsubscribe?u=3D5acc1ed377b590a98a195f624&id=3D8ee2=
+e16ed1&e=3D77ab4125da&c=3D93e133fb3a" style=3D"color:#404040 !important;">un=
+subscribe from this list</a>=C2=A0=C2=A0=C2=A0=C2=A0<a href=3D"http://i-hl=
+s.us7.list-manage.com/profile?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed=
+1&e=3D77ab4125da" style=3D"color:#404040 !important;">update subscription pr=
+eferences</a>
+                                        <br>
+                                        iHLS Israel Homeland Security &mid=
+dot; Tel Aviv &middot; Tel Aviv 36886 &middot; Israel
+                                        <br>
+                                        <br>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <style type=3D"text/css">
+                    @media only screen and (max-width: 480px){
+                        table[id=3D"canspamBar"] td{font-size:14px !impor=
+tant;}
+                        table[id=3D"canspamBar"] td a{display:block !impo=
+rtant; margin-top:10px !important;}
+                    }
+                </style>
+            </center><img src=3D"http://i-hls.us7.list-manage.com/track/op=
+en.php?u=3D5acc1ed377b590a98a195f624&id=3D93e133fb3a&e=3D77ab4125da" heig=
+ht=3D"1" width=3D"1"></body>
+</html>
+--_----------=_MCPart_84432421--
+

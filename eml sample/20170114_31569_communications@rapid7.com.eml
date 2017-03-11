@@ -1,0 +1,506 @@
+Received: (qmail 5441 invoked by uid 100); 13 Jan 2017 16:21:11 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda003.wmail.worksmobile.com with SMTP;13 Jan 2017 16:21:11 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail01.wmail.naver.com with ESMTP id OH5+R2eaQF+G7XSC9vMpyQ
+  for <jonghyun.kim@dforensic.com>;
+  Fri, 13 Jan 2017 16:21:11 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0DGOJX00D28;
+	Sat, 14 Jan 2017 01:24:19 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0DGOJX00D28
+X-SmartFilter: FROM,v0DGOJX00D28,joseph@duzon.com
+x-forward-id: <192883241.1530125440.1484324434561.JavaMail.root@sjmas03.marketo.org>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3v0SYL5PMyz11gHv; Sat, 14 Jan 2017 01:20:38 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3v0SXh2kt4z11g2q
+	for <joseph@duzon.com>; Sat, 14 Jan 2017 01:20:36 +0900 (KST)
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id v0DGNgV00D26;
+	Sat, 14 Jan 2017 01:23:43 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0DGNgV00D26
+X-SmartFilter: FROM,v0DGNgV00D26,495-KNT-277.0.31997.0.0.17290.9.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTQxNjA6MjI2Mzc6NDg4NTM6MDoxNzI5MDo5OjMxOTk3OjExNDE1
+	OTI=
+Received: from [10.0.87.249] ([10.0.87.249:45345] helo=sjmas03.marketo.org)
+	by sjmta10.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 86/FF-03440-25EF8785; Fri, 13 Jan 2017 10:20:34 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1484324434;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=RzRlnTHDzILkUxeTzuYaXEiSPXRIk5OM2qBT99GcJVI=;
+	b=l1s/tDFTr0DHpfwgB+hEfGIUzeQMgQxAA8vK+QSi2O9y2Rtqm+O8si6uOAoNMaAl
+	IavY+sxnpKG1/e2Htlv+EvEULAoqnUOMv8pDqZyy6BTd42nE7isFeWFZTay7MOhYLVb
+	33BqbdPVXTQ3hkaHZ6UeAIP+mMZVIoB5EVV2je/Y=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1484324434;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=RzRlnTHDzILkUxeTzuYaXEiSPXRIk5OM2qBT99GcJVI=;
+	b=DsFrLu7Jbt2xh7zlmmz8/aw5wUNnhXY6K0G3v8KkdOA6a54RYMI20v85Nj6G6N9G
+	YkjncyEtwf1l+AYoMHRIWG1q1HYm/68pFxKwwmFoFfg5sY8FmXvDqouhCP9mLLNGukH
+	PMItcTT2lMgOXQNFjK/dZF0ieNYxrFZDkIxQ8Wn4=
+Date: Fri, 13 Jan 2017 10:20:34 -0600 (CST)
+From: Rapid7 Webcasts <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <192883241.1530125440.1484324434561.JavaMail.root@sjmas03.marketo.org>
+Subject: Rapid7 Roundtable: Overcoming The Innovation Paradox in 2017
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1530125439_484062732.1484324434561"
+X-PVIQ: mkto-495KNT277-000001-000000-031997
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:14160:22637:48853:0:17290:9:31997:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.31997.17290.9@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.31997.0.0.17290.9.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: +9eYpB3G1H+YbXFCbHmRKxMZKxuwjJ+Y
+
+------=_Part_1530125439_484062732.1484324434561
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Join The Webcast
+
+Rapid7 Roundtable: Overcoming The Innovation Paradox in 2017
+
+
+
+Wednesday, 18th January @ 11 AM SGT
+
+
+
+
+
+Register Now <[[https://information.rapid7.com/customer-panel-innovation-paradox-2017-2-apac.html?utm_medium=email&utm_source=email&CS=email]]>
+<span>Spending less. Exercising more. Finding ways to better manage a potentially world-shattering paradox. Clearly, some resolutions are more challenging than others - and not many people have it harder than security and IT pros.</span>
+ 
+ 
+
+
+
+<img src="https://information.rapid7.com/rs/495-KNT-277/images/webcast-circle-image-template-4-18-16-davidetue.png" alt="" width="150" class="100p" border="0" style="display:block" />
+David Etue <[[https://information.rapid7.com/customer-panel-innovation-paradox-2017-2-apac.html?utm_medium=email&utm_source=email&CS=email]]>
+ Vice President of Managed Services for Rapid7
+
+
+
+<p>We're bringing together some experts to solve these issues and more! Join our panel of security experts to hear them discuss the resolutions and initiatives they're implementing in 2017.</p> <p><span>In this webcast, our panel of security experts will dive deeper into the catch 22 of security and share the resolutions and initiatives they're implementing in 2017 to overcome this paradox, not only for individual organizations, but for the  industry as a whole.</span></p> <p><span>Panelists:</span></p> <ul> <li><span><strong>Russ Verbofsky</strong>, CIO/CISO for State of New Mexico</span></li> <li><span><strong>Brian Gray</strong>, Senior Information Security Engineer for Carnegie Mellon University</span></li> <li><span><strong>Bo Weaver</strong>, Senior Pen Tester for CompliancePoint</span></li> <li><span><strong>Jose Enchautegui</strong>, Network Security Engineer for Cleary Gottlieb Steen &amp; Hamilton LLP</span></li> </ul>
+ Register for this week's topic. <[[https://information.rapid7.com/customer-panel-innovation-paradox-2017-2-apac.html?utm_medium=email&utm_source=email&CS=email]]>
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center-page.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiT1RNMVlqZzVOekl5WmpjMiIsInQiOiJGN1U4R2lxMXhUdkhUczRocUJRN2ZvSDBiTktHd0NyNW1PSW5NWmhQb3NuUFZ1aG5hMGJGM09hNE1hWmNaNjdZaTVnYmFSa2dpVUxneFMxcElvS05MbU05QVJpcWNKa2hodTFmM2dVVFY4cXFvcUc2NjJua1dRb0did0l0THhwaCJ9.
+
+------=_Part_1530125439_484062732.1484324434561
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+<link href=3D"https://fonts.googleapis.com/css?family=3DHind" rel=3D"styles=
+heet" type=3D"text/css">
+<link href=3D"https://fonts.googleapis.com/css?family=3DMontserrat" rel=3D"=
+stylesheet" type=3D"text/css">
+<style type=3D"text/css">
+   =20
+            /* Some resets and issue fixes */
+            #outlook a { padding:0; }
+            body{ width:100% !important; -webkit-text; size-adjust:100%; -m=
+s-text-size-adjust:100%; margin:0; padding:0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass {width:100%;}
+            .backgroundTable {margin:0 auto; padding:0; width:100%;!importa=
+nt;}
+            table td {border-collapse: collapse;}
+            .ExternalClass * {line-height: 115%;}
+            /* End reset */
+           =20
+            /* Custom */
+            body,table,td,span,a,ul,li {font-family: 'Montserrat Light', sa=
+ns-serif !important;}
+            .forcefont {font-family: 'Montserrat Light', sans-serif !import=
+ant;}
+            .appleLinksWhite a {color: #ffffff !important; text-decoration:=
+ none;}
+            .appleLinksBlack a {color: #000000 !important; text-decoration:=
+ none;}
+                        .appleLinksGray a {color: #55585a !important; text-=
+decoration: none;}
+                        .appleLinksLightGray a {color: #999999 !important; =
+text-decoration: none;}
+            .appleLinksOrange a {color: #e95f26 !important; text-decoration=
+: none;}
+                        .appleLinksBlue a {color: #2596cd !important; text-=
+decoration: none;}
+           =20
+            /* These are our tablet/medium screen media queries */
+            @media screen and (max-width: 630px){
+                =20
+                                .align-center{text-align: center !important=
+;}
+   =20
+                /* Display block allows us to stack elements */            =
+         =20
+                *[class=3D"mobile-column"] {display: block;}
+               =20
+                /* Some more stacking elements */
+                *[class=3D"mob-column"] {float: none !important;width: 100%=
+ !important;}
+                    =20
+                /* Hide stuff */
+                *[class=3D"hide"] {display:none !important;}
+               =20
+                /* This sets elements to 100% width and fixes the height is=
+sues too, a god send */
+                *[class=3D"100p"] {width:100% !important; height:auto !impo=
+rtant;}
+                   =20
+                /* For the 2x2 stack */                =20
+                *[class=3D"condensed"] {padding-bottom:40px !important; dis=
+play: block;}
+               =20
+                /* Centers content on mobile */
+                *[class=3D"center"] {text-align:center !important; width:10=
+0% !important; height:auto !important;}
+               =20
+                /* 100percent width section with 20px padding */
+                *[class=3D"100pad"] {width:100% !important; padding:20px;}
+               =20
+                /* 100percent width section with 20px padding left & right =
+*/
+                *[class=3D"100padleftright"] {width:100% !important; paddin=
+g:0 20px 0 20px;}
+               =20
+                /* 100percent width section with 20px padding top & bottom =
+*/
+                *[class=3D"100padtopbottom"] {width:100% !important; paddin=
+g:20px 0px 20px 0px;}
+           =20
+            }  =20
+           =20
+</style>
+<!--[if mso]>
+        <style type=3D=E2=80=9Dtext/css=E2=80=9D>
+        .fallback-text {
+        font-family: Arial, sans-serif;
+        }
+        </style>
+        <![endif]-->
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table style=3D"=
+border-collapse:collapse; border:0px; margin:0; padding:0; " border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" ><tr ><td align=3D"center=
+" valign=3D"top" ><table width=3D"640" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<table style=3D"border-collapse: collapse; border:0px;" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"20" class=3D"100p" bgcolor=3D"#3A=
+454B">
+<tr>
+<td align=3D"center" valign=3D"top" width=3D"600">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td class=3D"100p fallback-text" align=3D"left" width=3D"600"><a href=3D
+"http://info.rapid7.com/FlYNl00jw0K0M2BM000T4Q4"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" alt=3D"Rapid7" border=3D"0" style=3D"display:blo=
+ck"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"WebcastBlurb" class=3D"mktEditable" ><table style=3D"border-coll=
+apse: collapse; border:0px;" width=3D"100%" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"20" class=3D"100p" bgcolor=3D"#182028">
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"background-color: #182028; bac=
+kground-image: url(https://information.rapid7.com/rs/495-KNT-277/images/hom=
+e-hero-12-13-16-980px.jpg); background-size: cover; background-position: to=
+p center; background-repeat: no-repeat;" background=3D"https://information.=
+rapid7.com/rs/495-KNT-277/images/home-hero-12-13-16-980px.jpg">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td align=3D"center"><img src=3D"https://information.rapid7.com/rs/495-KNT-=
+277/images/webcast-logo-updated-12-5-16-82px.png" style=3D"display:block;">=
+</td>
+</tr>
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text" align=3D"center" style=3D"color:#FFFFFF;" colsp=
+an=3D"2"><span style=3D"font-size:54px; font-family: 'Montserrat', sans-ser=
+if !important;"><strong>Join The Webcast</strong></span><br>
+<span style=3D"font-size:30px; line-height: 26px; font-family: 'Montserrat =
+Light', sans-serif !important;">Rapid7 Roundtable: Overcoming The Innovatio=
+n Paradox in 2017</span><br>
+<br>
+<span class=3D"appleLinksWhite" style=3D"font-size:20px; font-family: 'Mont=
+serrat Light', sans-serif !important;">Wednesday, 18th January @ 11 AM SGT<=
+/span><br>
+<br>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"10" bgcolor=3D"#2596CD=
+" style=3D"border:1px solid #2596cd; border-radius: 2px;">
+<tr>
+<td align=3D"center" style=3D"font-size:16px;"><a href=3D"https://informati=
+on.rapid7.com/customer-panel-innovation-paradox-2017-2-apac.html?utm_medium=
+=3Demail&utm_source=3Demail&CS=3Demail" style=3D"color:#FFFFFF; text-decora=
+tion:none; font-family: 'Montserrat Light', sans-serif !important;">Registe=
+r Now</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id=3D"WebcastContentBlock" class=3D"mktEditable" ><table class=3D"100p=
+" style=3D"border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"20" width=3D"640" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td class=3D"fallback-text" style=3D"font-size: 16x; color: #55585a; font-f=
+amily: 'Montserrat Light', sans-serif !important;" align=3D"left"><span sty=
+le=3D"font-size: 16px; font-family: 'Montserrat Light', sans-serif !importa=
+nt;"><span>Spending less. Exercising more. Finding ways to better manage a =
+potentially world-shattering paradox. Clearly, some resolutions are more ch=
+allenging than others - and not many people have it harder than security an=
+d IT pros.</span></span><br /> <br /> <!-- Presenter Block /-->=20
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" wid=
+th=3D"400">
+<tbody>
+<tr>
+<td width=3D"40%" align=3D"left"><img src=3D"https://information.rapid7.com=
+/rs/495-KNT-277/images/webcast-circle-image-template-4-18-16-davidetue.png"=
+ alt=3D"" width=3D"150" class=3D"100p" border=3D"0" style=3D"display:block"=
+ /></td>
+<td width=3D"50%" align=3D"left"><span style=3D"font-size: 18px; font-famil=
+y: 'Montserrat Light', sans-serif !important;"><strong><a style=3D"color: #=
+2596cd; text-decoration: none;" href=3D"https://information.rapid7.com/cust=
+omer-panel-innovation-paradox-2017-2-apac.html?utm_medium=3Demail&amp;utm_s=
+ource=3Demail&amp;CS=3Demail">David Etue</a></strong><br /> Vice President =
+of Managed Services for Rapid7</span></td>
+</tr>
+</tbody>
+</table>
+<span style=3D"font-size: 16px; font-family: 'Montserrat Light', sans-serif=
+ !important;"><p>We're bringing together some experts to solve these issues=
+ and more! Join our panel of security experts to hear them discuss the reso=
+lutions and initiatives they're implementing in 2017.</p> <p><span>In this =
+webcast, our panel of security experts will dive deeper into the catch 22 o=
+f security and share the resolutions and initiatives they're implementing i=
+n 2017 to overcome this paradox, not only for individual organizations, but=
+ for the  industry as a whole.</span></p> <p><span>Panelists:</span></p> <u=
+l> <li><span><strong>Russ Verbofsky</strong>, CIO/CISO for State of New Mex=
+ico</span></li> <li><span><strong>Brian Gray</strong>, Senior Information S=
+ecurity Engineer for Carnegie Mellon University</span></li> <li><span><stro=
+ng>Bo Weaver</strong>, Senior Pen Tester for CompliancePoint</span></li> <l=
+i><span><strong>Jose Enchautegui</strong>, Network Security Engineer for Cl=
+eary Gottlieb Steen &amp; Hamilton LLP</span></li> </ul></span><br /> <a st=
+yle=3D"color: #2596cd; text-decoration: none; font-family: 'Montserrat Ligh=
+t', sans-serif !important;" href=3D"https://information.rapid7.com/customer=
+-panel-innovation-paradox-2017-2-apac.html?utm_medium=3Demail&amp;utm_sourc=
+e=3Demail&amp;CS=3Demail"><strong>Register for this week's topic.</strong><=
+/a></td>
+</tr>
+</tbody>
+</table></div>
+<!-- Stop Blocks Here /-->
+<table style=3D"border-collapse: collapse;" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#E9EEF0" class=3D"100p">
+<tr>
+<td align=3D"center">
+<table style=3D"border-collapse: collapse;" width=3D"640" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"20" class=3D"100p">
+<tr>
+<td>
+<table border=3D"0" width=3D"280" align=3D"left" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"middle" align=3D"le=
+ft" style=3D"font-size:14px; color:#999999;"><img src=3D"https://informatio=
+n.rapid7.com/rs/495-KNT-277/images/rapid7-logo-clear-150px.png"><br>
+<br>
+<br>
+<span style=3D"font-family: 'Hind', sans-serif !important;">Sales: 866-7-Ra=
+pid7</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important;">Support: 866-390-8113</span><br>
+<span style=3D"font-family: 'Hind', sans-serif !important;">Incident Respon=
+se: 844-RAPID-IR</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important; color: #999999 !important; text-decoration:none !important;">=
+100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important; color: #999999 !important; text-decoration:none !important;">=
+Boston, MA 02110-2131</span></td>
+</tr>
+</table>
+<table border=3D"0" width=3D"200" align=3D"left" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"top" align=3D"left"=
+ style=3D"font-size:14px; color:#2596cd;"><span style=3D"color: #000000"><s=
+trong>Products & Services</strong></span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/TxQKB0M0l000YNk20l4M4T0" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>InsightIDR</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/hlMll4N00K000M4BQ020TyY" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>InsightOps</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/VYNz0004Bl0T200Kl4MMmQ0" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Nexpose</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/UMAM04T0lN0K4B02lQ000nY" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Metasploit</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/lBNMB000llYM0T2440Q0o0K" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>AppSpider</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/JN2lKM0plT0QCBY04M00040" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Services</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/m000QD2040M4llMYNBq0KT0" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Product Training & Certification</a></span></td>
+</tr>
+</table>
+<table border=3D"0" width=3D"100" align=3D"right" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"top" align=3D"left"=
+ style=3D"font-size:14px; color:#2596cd;"><span style=3D"color: #000000"><s=
+trong>Company</strong></span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/o02rQ00EB00lMK04YTN4Ml0" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>About Us</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/NN00sKM4000lMBT0FQ40Y2l" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>News</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/qlTK040YlG0Q4B02N0Mt00M" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Careers</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/HK0020M0QMHYBT40llN00u4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Contact Us</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td height=3D"1" style=3D"line-height: 1px; font-size: 1px;" bgcolor=3D"#DC=
+DBDB">&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"center">
+<table style=3D"border-collapse: collapse;" width=3D"640" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"20" class=3D"100p">
+<tr>
+<td class=3D"fallback-text" valign=3D"top" align=3D"center" width=3D"640" s=
+tyle=3D"font-size:14px; color:#999999;"><span>&#169; Rapid7&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;<a href=3D
+"http://info.rapid7.com/r40v0T2B0NIlYQKlM00M040" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Legal</a> | <a href=3D
+"http://info.rapid7.com/Y044B0JQM00MY002lNK0wTl" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Privacy Policy</a> | <a href=3D
+"http://info.rapid7.com/JN2lKM0xlT0QKBY04M00040" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Disclosure Policy</a> | <a href=3D
+"http://info.rapid7.com/ylBKYMMQ040lTNy04L00020" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Export Notice</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table style=3D"border-collapse: collapse;" width=3D"640" class=3D"100p" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href=3D
+"http://info.rapid7.com/HK0020M0QMMYBT40llN00z4"
+></a>
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTQxNjA6=
+MjI2Mzc6NDg4NTM6MDoxNzI5MDo5OjMxOTk3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3=
+D" width=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/ylBKYMMQ040lTNA04N00020"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_1530125439_484062732.1484324434561--
+

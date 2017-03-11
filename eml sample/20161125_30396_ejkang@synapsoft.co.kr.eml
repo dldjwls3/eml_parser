@@ -1,0 +1,225 @@
+Received: (qmail 20191 invoked by uid 100); 25 Nov 2016 08:21:32 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda001.wmail.worksmobile.com with SMTP;25 Nov 2016 08:21:32 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from  (gw.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id LLAcIAzaR2erQdxnw9-F4w
+  for <jonghyun.kim@dforensic.com>;
+  Fri, 25 Nov 2016 08:21:32 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAP8Nxu00A5F;
+	Fri, 25 Nov 2016 17:23:59 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAP8Nxu00A5F
+X-SmartFilter: FROM,uAP8Nxu00A5F,joseph@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2102373@senda.ozmailer.com>
+Received: from external ([209.85.217.180])
+	by smf.duzon.co.kr (1.0) id uAP8Ntg00A51;
+	Fri, 25 Nov 2016 17:23:55 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAP8Ntg00A51
+X-SmartFilter: FROM,uAP8Ntg00A51,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f180.google.com with SMTP id 20so70118752uak.0
+        for <joseph@duzon.com>; Fri, 25 Nov 2016 00:21:23 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :subject:to:from:reply-to:errors-to:mime-version:date:message-id
+         :importance:organization:content-transfer-encoding;
+        bh=WyTPCaK/4ashcPJC7OXExaAnpXcowXxvZFgZQbG4oaA=;
+        b=llTrxRLsEe0N4+CQjfTIOo0LDsf7SH1PByPkuZ67nYaofZV+orPpYF+4DbJ/Svo/Gv
+         6ZI8ECjrZ5ZqIT2XwCLEEx+P2WIDeD3e14lBoSG/6cOaG8i56VlNc2JEaie4p7bJYJ4j
+         WuUso62JUT1wYFYCc2ru68vVACkmyDzaEvszhOlpKCiTjar9gqtdj0TB4EvnXF4ActLs
+         Pog+bTTQQ/7ayTE0ZvYSNp2AzHfT4gLuqnomGwNrBbNwNhdkWHEaNOWu0jWuhgSF74vC
+         f1BIgUFiQr500S2SIqgGVVwLren/28XT2IuKDWL1/NgweHBwpYhXi/6idlJgZAzspEpl
+         6MvQ==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AKaTC02wr0GY2uVXxsf5SPMs1ftYMlrVbcdOGYPgbDXepUKTxQPzSpe1LOefZCj3OS0O7aq80IKjhgCnKv9FKNRsIV/5el8=
+X-Received: by 10.176.2.247 with SMTP id 110mr5049870uah.162.1480062082625;
+        Fri, 25 Nov 2016 00:21:22 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp240400vsa;
+        Fri, 25 Nov 2016 00:21:20 -0800 (PST)
+X-Received: by 10.99.126.94 with SMTP id o30mr11975085pgn.66.1480062080468;
+        Fri, 25 Nov 2016 00:21:20 -0800 (PST)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id b8si43583233pgn.179.2016.11.25.00.21.19
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 25 Nov 2016 00:21:20 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAP8NlY00A49;
+	Fri, 25 Nov 2016 17:23:47 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAP8NlY00A49
+X-SmartFilter: FROM,uAP8NlY00A49,forensic@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2102373@senda.ozmailer.com>
+Received: from external ([211.115.217.215])
+	by smf.duzon.co.kr (1.0) id uAP8NiR00A42;
+	Fri, 25 Nov 2016 17:23:44 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAP8NiR00A42
+X-SmartFilter: FROM,uAP8NiR00A42,user34199@sendb.ozmailer.com
+Subject: =?EUC-KR?B?W7vnwMyzwLzSx8HGrl0gvPa9xbW/wMcgv6m6ziDIrsDOIL7Is7s=?=
+To: "=?Euc-Kr?B?tvPAzLyxvbqw/Liu?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?u+fAzLPAvNLHwcau?=" <ejkang@synapsoft.co.kr>
+Reply-To: <ejkang@synapsoft.co.kr>
+Errors-To: <ejkang@synapsoft.co.kr>
+MIME-Version: 1.0
+Date: Fri, 25 Nov 2016 17:21:11 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-2102373@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: wwFn+6J4p635WrlY7BwdpBmmaAUwKqiYkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7768918" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>[사이냅소프트] 수신동의 여부 확인 안내</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+&nbsp;<table cellpadding="0" cellspacing="0" border="0" width="740px;" height="1040px;" background="http://img.ozmailer.com/userFile/34199/gdo33c3w8.png">
+<tbody>
+<tr>
+<td valign="top">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%;">
+    <tbody>
+    <tr>
+    <td colspan="3" height="260px"></td>
+    </tr>
+    <tr>
+    <td width="90px"></td>
+    <td height="120px" style="font-size:32px; text-align:center; font-weight:bold">수신동의 여부 확인 안내</td>
+    <td width="90px"></td>
+    </tr>
+    <tr>
+    <td width="90px"></td>
+    <td>
+    <p style="font-size:16px; font-family:맑은고딕,malgun gothic,dotum,Arial; line-height:120%">사이냅소프트를 응원해주시는 여러분, 항상 감사합니다.</p><p style="font-size:16px; font-family:맑은고딕,malgun gothic,dotum,Arial; line-height:120%">정보통신망법 및 동법 시행령에 따라 마케팅 정보 수신에 동의한 경우 동의 사실을 2년마다 알려드립니다.<br>귀하는 사이냅소프트에서 발송되는 뉴스레터 수신에 동의하였습니다.<br><br></p><p style="font-size:16px; font-family:맑은고딕,malgun gothic,dotum,Arial; line-height:120%"><span style="font-family: 맑은고딕, 'malgun gothic', dotum, Arial; font-size: 16px;">- 메일 하단의 수신거부 버튼 클릭 시, 뉴스레터 수신동의가 자동 철회됩니다.</span><br></p><p style="font-size:16px; font-family:맑은고딕,malgun gothic,dotum,Arial; line-height:120%"><span style="font-family: 맑은고딕, 'malgun gothic', dotum, Arial; font-size: 16px;"><span style="font-family: 맑은고딕, 'malgun gothic', dotum, Arial; font-size: 16px;">- 별도 의사표현이 없으실 경우, 동의 정�!
+ 린� 2년 자동 연장됩니다</span><br></span></p>
+	</td>
+    <td height="90px"></td>
+    </tr>
+    <tr>
+    <td colspan="3" height="30px;"></td>
+    </tr>
+    <tr>
+    <td width="90px"></td>
+    <td>
+    <p style="color:#f9593a; font-family:맑은고딕,malgun gothic,dotum,Arial; margin:10px 0px; font-size:16px;"><b>수신거부를 진행할 경우</b></p>
+    <p style="font-size:16px; font-family:맑은고딕,malgun gothic,dotum,Arial;"><span style="font-family: 맑은고딕, 'malgun gothic', dotum, Arial; font-size: 16px;">사이냅소프트에서 발송하는 뉴스레터의 수신 대상에서 제외됩니다.&nbsp;</span><br></p>
+    <p style="color:#f9593a; font-family:맑은고딕,malgun gothic,dotum,Arial; margin:10px 0px; font-size:16px;"><strong>관련 법령&nbsp;</strong></p>
+    <p style="font-size:16px; font-family:맑은고딕,malgun gothic,dotum,Arial;"></p><p style="font-size: 16px; font-family: 맑은고딕, 'malgun gothic', dotum, Arial;">정보통신망 이용 촉진 및 정보보호에 관한 법률&nbsp;</p><p style="font-size: 16px; font-family: 맑은고딕, 'malgun gothic', dotum, Arial;">제50조(영리목적의 광고성 정보 전송제한)</p><p style="font-size: 16px; font-family: 맑은고딕, 'malgun gothic', dotum, Arial;">정보통신망 이용 촉진 및 정보보호에 관한 법률 시행령</p><p style="font-size: 16px; font-family: 맑은고딕, 'malgun gothic', dotum, Arial;">시행령 제62조의 3(수신동의 여부 확인방식)</p><p style="font-size:16px; font-family:맑은고딕,malgun gothic,dotum,Arial;"></p>
+    <p style="color:#f9593a; font-family:맑은고딕,malgun gothic,dotum,Arial; margin:10px 0px; font-size:16px;"><b>본 메일은</b></p>
+    <p style="font-size:16px; font-family:맑은고딕,malgun gothic,dotum,Arial;">정보통시망법 이용촉진 및 정보보호 등에 관한 법률 제 50조 제 8항 수신동의 여부 확인 안내에 따라 발송하는 메일입니다.&nbsp;</p><p style="font-size:16px; font-family:맑은고딕,malgun gothic,dotum,Arial;">-관련 문의사항은 02-890-3413 강은정 과장에게 연락 주시기 바랍니다.</p>
+    </td>
+    <td width="90px"></td>
+    </tr>
+    <tr>
+    <td colspan="3" height="30px;"></td>
+    </tr>
+    </tbody>
+    </table></td></tr></tbody></table><p><br></p><p><br></p>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>뉴스레터의 수신을 더이상 원하지 않으시면, 하단의 '수신거부' 버튼을 클릭해주세요.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7768918' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

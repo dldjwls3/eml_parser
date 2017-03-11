@@ -1,0 +1,524 @@
+Received: (qmail 20116 invoked by uid 100); 30 Dec 2016 14:31:34 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda002.wmail.worksmobile.com with SMTP;30 Dec 2016 14:31:34 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail01.wmail.naver.com with ESMTP id TH3NK4nISHOm-3trkkcXsg
+  for <jonghyun.kim@dforensic.com>;
+  Fri, 30 Dec 2016 14:31:34 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBUEYUb0032C;
+	Fri, 30 Dec 2016 23:34:30 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBUEYUb0032C
+X-SmartFilter: FROM,uBUEYUb0032C,joseph@duzon.com
+x-forward-id: <473686719.1224996329.1483108254490.JavaMail.root@sjmas03.marketo.org>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tqpnK2307z2fmFv; Fri, 30 Dec 2016 23:30:58 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tqpmd0yVFz2fmFp
+	for <joseph@duzon.com>; Fri, 30 Dec 2016 23:30:57 +0900 (KST)
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id uBUEXqV00326;
+	Fri, 30 Dec 2016 23:33:52 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBUEXqV00326
+X-SmartFilter: FROM,uBUEXqV00326,495-KNT-277.0.31819.0.0.17432.9.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTQxMDU6MjI1NTQ6NDg3MjM6MDoxNzQzMjo5OjMxODE5OjExNDE1
+	OTI=
+Received: from [10.0.87.249] ([10.0.87.249:59925] helo=sjmas03.marketo.org)
+	by sjmta07.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 4B/1A-22270-E9F66685; Fri, 30 Dec 2016 08:30:54 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1483108254;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=kJQup/s0oYCBWIreDehx2jN+d8TpQWwzIR8qx27qvzI=;
+	b=f1BYlMwAjHgARsmH07wpnCyfRWuLEFfjC6iVdYcd5yZXjtR091m+Gcl2kOl/3B1h
+	vnlG/ug6iUxCHohgIeukgsXck8EK8YHWtYLVpD8vsFqHts1wNeNzz34oi381A8EYzbT
+	Pf50s4DwudswxwbeGug8aA0HUMBWrMQj+z5gZt58=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1483108254;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=kJQup/s0oYCBWIreDehx2jN+d8TpQWwzIR8qx27qvzI=;
+	b=X8W8sE8IiVLloT+3E7p/isDc/d7j7rB2YkzZEWcjCrPEtk5uOXiO15NqjlN8DgeX
+	ewVlMIz5JRBMuocO588a6UGNKHWw9OW+DSIBCeeIAtKkgJ+ajwSCUCo5tkp0Cn8iIU4
+	PbY5SplL5N9FV4JELbGHAPOFlS9Xej6hFh+Ag6Ag=
+Date: Fri, 30 Dec 2016 08:30:54 -0600 (CST)
+From: Rapid7 Webcasts <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <473686719.1224996329.1483108254490.JavaMail.root@sjmas03.marketo.org>
+Subject: [LIVE WEBCAST] Secure The Internet of Things
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1224996328_697920150.1483108254490"
+X-PVIQ: mkto-495KNT277-000001-000000-031819
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:14105:22554:48723:0:17432:9:31819:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.31819.17432.9@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.31819.0.0.17432.9.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: +reYpB3G1H+YbXFCbHmRKxtqKxKdjJ+Y
+
+------=_Part_1224996328_697920150.1483108254490
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Join The Webcast
+
+Securing The IoT Through Security Research & Vulnerability Analysis
+
+
+
+Wednesday, January 4th @ 2PM ET / 11AM PT
+
+
+
+
+
+Register Now <[[https://information.rapid7.com/securing-the-iot-through-res=
+earch-webcast-2.html?utm_medium=3Demail&utm_source=3Demail&CS=3Demail]]>
+<span><span>IoT now permeates daily life =E2=80=93 from homes, to automobil=
+es, and even personal health =E2=80=93 and is expected to grow to over 25 b=
+illion devices by 2020. We struggle to balance technology usability and con=
+venience, while still maintaining some semblance of security. This webcast =
+will dive into the world of IoT security research and the processes around =
+analysis and testing of IoT technologies, by evaluating and reviewing vario=
+us methodologies,</span></span>
+=20
+=20
+
+
+
+<img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/webcast-ci=
+rcle-image-template-4-18-16_deral.png" alt=3D"" width=3D"150" class=3D"100p=
+" border=3D"0" style=3D"display:block" />
+Deral Heiland <[[https://information.rapid7.com/securing-the-iot-through-re=
+search-webcast-2.html?utm_medium=3Demail&utm_source=3Demail&CS=3Demail]]>
+ Research Leader, Global Services for Rapid7
+
+
+
+<p><span>Deral Heiland will illustrate effective IoT security testing using=
+ a holistic approach that focuses on the entire ecosystem of an IoT solutio=
+n, including: hardware, mobile and cloud environments.</span></p> <p><span>=
+This webcast will also discuss how to work with IoT manufacturers to resolv=
+e and mitigate discovered security issues and ethically disclose findings.<=
+/span></p>
+ Register for this week's topic. <[[https://information.rapid7.com/securing=
+-the-iot-through-research-webcast-2.html?utm_medium=3Demail&utm_source=3Dem=
+ail&CS=3Demail]]>
+
+If you no longer wish to receive these emails or wish to update your email =
+preferences: https://information.rapid7.com/preference-center-page.html?mkt=
+_unsubscribe=3D1&mkt_tok=3DeyJpIjoiTWpobE5UazBaR1kyWmpreCIsInQiOiJ2UmxGVXFK=
+Q3J1M1U1MmdrWlZLV1dCOFZqRUZNRngzZlVpSUxnRm4zNnRqVkZrSXBYUEhmWW1jVkVGQUVybVp=
+oZHZNQW9KQm56WmJ0VWsvaGpsSlV1Y0d1bCtMYkZubUFKcWRpZS83c3YzZ0RCVGRFaXNORmVkNm=
+lacWpVcE5sVCJ9.
+
+------=_Part_1224996328_697920150.1483108254490
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+<link href=3D"https://fonts.googleapis.com/css?family=3DHind" rel=3D"styles=
+heet" type=3D"text/css">
+<link href=3D"https://fonts.googleapis.com/css?family=3DMontserrat" rel=3D"=
+stylesheet" type=3D"text/css">
+<style type=3D"text/css">
+   =20
+            /* Some resets and issue fixes */
+            #outlook a { padding:0; }
+            body{ width:100% !important; -webkit-text; size-adjust:100%; -m=
+s-text-size-adjust:100%; margin:0; padding:0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass {width:100%;}
+            .backgroundTable {margin:0 auto; padding:0; width:100%;!importa=
+nt;}
+            table td {border-collapse: collapse;}
+            .ExternalClass * {line-height: 115%;}
+            /* End reset */
+           =20
+            /* Custom */
+            body,table,td,span,a,ul,li {font-family: 'Montserrat Light', sa=
+ns-serif !important;}
+            .forcefont {font-family: 'Montserrat Light', sans-serif !import=
+ant;}
+            .appleLinksWhite a {color: #ffffff !important; text-decoration:=
+ none;}
+            .appleLinksBlack a {color: #000000 !important; text-decoration:=
+ none;}
+                        .appleLinksGray a {color: #55585a !important; text-=
+decoration: none;}
+                        .appleLinksLightGray a {color: #999999 !important; =
+text-decoration: none;}
+            .appleLinksOrange a {color: #e95f26 !important; text-decoration=
+: none;}
+                        .appleLinksBlue a {color: #2596cd !important; text-=
+decoration: none;}
+           =20
+            /* These are our tablet/medium screen media queries */
+            @media screen and (max-width: 630px){
+                =20
+                                .align-center{text-align: center !important=
+;}
+   =20
+                /* Display block allows us to stack elements */            =
+         =20
+                *[class=3D"mobile-column"] {display: block;}
+               =20
+                /* Some more stacking elements */
+                *[class=3D"mob-column"] {float: none !important;width: 100%=
+ !important;}
+                    =20
+                /* Hide stuff */
+                *[class=3D"hide"] {display:none !important;}
+               =20
+                /* This sets elements to 100% width and fixes the height is=
+sues too, a god send */
+                *[class=3D"100p"] {width:100% !important; height:auto !impo=
+rtant;}
+                   =20
+                /* For the 2x2 stack */                =20
+                *[class=3D"condensed"] {padding-bottom:40px !important; dis=
+play: block;}
+               =20
+                /* Centers content on mobile */
+                *[class=3D"center"] {text-align:center !important; width:10=
+0% !important; height:auto !important;}
+               =20
+                /* 100percent width section with 20px padding */
+                *[class=3D"100pad"] {width:100% !important; padding:20px;}
+               =20
+                /* 100percent width section with 20px padding left & right =
+*/
+                *[class=3D"100padleftright"] {width:100% !important; paddin=
+g:0 20px 0 20px;}
+               =20
+                /* 100percent width section with 20px padding top & bottom =
+*/
+                *[class=3D"100padtopbottom"] {width:100% !important; paddin=
+g:20px 0px 20px 0px;}
+           =20
+            }  =20
+           =20
+</style>
+<!--[if mso]>
+        <style type=3D=E2=80=9Dtext/css=E2=80=9D>
+        .fallback-text {
+        font-family: Arial, sans-serif;
+        }
+        </style>
+        <![endif]-->
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table style=3D"=
+border-collapse:collapse; border:0px; margin:0; padding:0; " border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" ><tr ><td align=3D"center=
+" valign=3D"top" ><table width=3D"640" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<table style=3D"border-collapse: collapse; border:0px;" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"20" class=3D"100p" bgcolor=3D"#3A=
+454B">
+<tr>
+<td align=3D"center" valign=3D"top" width=3D"600">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td class=3D"100p fallback-text" align=3D"left" width=3D"600"><a href=3D
+"http://info.rapid7.com/MQ0T0M0YKl4l400kl0MN0n2"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" alt=3D"Rapid7" border=3D"0" style=3D"display:blo=
+ck"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"WebcastBlurb" class=3D"mktEditable" ><table style=3D"border-coll=
+apse: collapse; border:0px;" width=3D"100%" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"20" class=3D"100p" bgcolor=3D"#182028">
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"background-color: #182028; bac=
+kground-image: url(https://information.rapid7.com/rs/495-KNT-277/images/hom=
+e-hero-12-13-16-980px.jpg); background-size: cover; background-position: to=
+p center; background-repeat: no-repeat;" background=3D"https://information.=
+rapid7.com/rs/495-KNT-277/images/home-hero-12-13-16-980px.jpg">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td align=3D"center"><img src=3D"https://information.rapid7.com/rs/495-KNT-=
+277/images/webcast-logo-updated-12-5-16-82px.png" style=3D"display:block;">=
+</td>
+</tr>
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text" align=3D"center" style=3D"color:#FFFFFF;" colsp=
+an=3D"2"><span style=3D"font-size:54px; font-family: 'Montserrat', sans-ser=
+if !important;"><strong>Join The Webcast</strong></span><br>
+<span style=3D"font-size:30px; line-height: 26px; font-family: 'Montserrat =
+Light', sans-serif !important;">Securing The IoT Through Security Research =
+& Vulnerability Analysis</span><br>
+<br>
+<span class=3D"appleLinksWhite" style=3D"font-size:20px; font-family: 'Mont=
+serrat Light', sans-serif !important;">Wednesday, January 4th @ 2PM ET / 11=
+AM PT</span><br>
+<br>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"10" bgcolor=3D"#2596CD=
+" style=3D"border:1px solid #2596cd; border-radius: 2px;">
+<tr>
+<td align=3D"center" style=3D"font-size:16px;"><a href=3D"https://informati=
+on.rapid7.com/securing-the-iot-through-research-webcast-2.html?utm_medium=
+=3Demail&utm_source=3Demail&CS=3Demail" style=3D"color:#FFFFFF; text-decora=
+tion:none; font-family: 'Montserrat Light', sans-serif !important;">Registe=
+r Now</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id=3D"WebcastContentBlock" class=3D"mktEditable" ><table class=3D"100p=
+" style=3D"border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"20" width=3D"640" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td class=3D"fallback-text" style=3D"font-size: 16x; color: #55585a; font-f=
+amily: 'Montserrat Light', sans-serif !important;" align=3D"left"><span sty=
+le=3D"font-size: 16px; font-family: 'Montserrat Light', sans-serif !importa=
+nt;"><span><span>IoT now permeates daily life =E2=80=93 from homes, to auto=
+mobiles, and even personal health =E2=80=93 and is expected to grow to over=
+ 25 billion devices by 2020. We struggle to balance technology usability an=
+d convenience, while still maintaining some semblance of security. This web=
+cast will dive into the world of IoT security research and the processes ar=
+ound analysis and testing of IoT technologies, by evaluating and reviewing =
+various methodologies,</span></span></span><br /> <br /> <!-- Presenter Blo=
+ck /-->=20
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" wid=
+th=3D"400">
+<tbody>
+<tr>
+<td width=3D"40%" align=3D"left"><img src=3D"https://information.rapid7.com=
+/rs/495-KNT-277/images/webcast-circle-image-template-4-18-16_deral.png" alt=
+=3D"" width=3D"150" class=3D"100p" border=3D"0" style=3D"display:block" /><=
+/td>
+<td width=3D"50%" align=3D"left"><span style=3D"font-size: 18px; font-famil=
+y: 'Montserrat Light', sans-serif !important;"><strong><a style=3D"color: #=
+2596cd; text-decoration: none;" href=3D"https://information.rapid7.com/secu=
+ring-the-iot-through-research-webcast-2.html?utm_medium=3Demail&amp;utm_sou=
+rce=3Demail&amp;CS=3Demail">Deral Heiland</a></strong><br /> Research Leade=
+r, Global Services for Rapid7</span></td>
+</tr>
+</tbody>
+</table>
+<span style=3D"font-size: 16px; font-family: 'Montserrat Light', sans-serif=
+ !important;"><p><span>Deral Heiland will illustrate effective IoT security=
+ testing using a holistic approach that focuses on the entire ecosystem of =
+an IoT solution, including: hardware, mobile and cloud environments.</span>=
+</p> <p><span>This webcast will also discuss how to work with IoT manufactu=
+rers to resolve and mitigate discovered security issues and ethically discl=
+ose findings.</span></p></span><br /> <a style=3D"color: #2596cd; text-deco=
+ration: none; font-family: 'Montserrat Light', sans-serif !important;" href=
+=3D"https://information.rapid7.com/securing-the-iot-through-research-webcas=
+t-2.html?utm_medium=3Demail&amp;utm_source=3Demail&amp;CS=3Demail"><strong>=
+Register for this week's topic.</strong></a></td>
+</tr>
+</tbody>
+</table></div>
+<!-- Stop Blocks Here /-->
+<table style=3D"border-collapse: collapse;" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#E9EEF0" class=3D"100p">
+<tr>
+<td align=3D"center">
+<table style=3D"border-collapse: collapse;" width=3D"640" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"20" class=3D"100p">
+<tr>
+<td>
+<table border=3D"0" width=3D"280" align=3D"left" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"middle" align=3D"le=
+ft" style=3D"font-size:14px; color:#999999;"><img src=3D"https://informatio=
+n.rapid7.com/rs/495-KNT-277/images/rapid7-logo-clear-150px.png"><br>
+<br>
+<br>
+<span style=3D"font-family: 'Hind', sans-serif !important;">Sales: 866-7-Ra=
+pid7</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important;">Support: 866-390-8113</span><br>
+<span style=3D"font-family: 'Hind', sans-serif !important;">Incident Respon=
+se: 844-RAPID-IR</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important; color: #999999 !important; text-decoration:none !important;">=
+100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important; color: #999999 !important; text-decoration:none !important;">=
+Boston, MA 02110-2131</span></td>
+</tr>
+</table>
+<table border=3D"0" width=3D"200" align=3D"left" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"top" align=3D"left"=
+ style=3D"font-size:14px; color:#2596cd;"><span style=3D"color: #000000"><s=
+trong>Products & Services</strong></span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/SN0T240Yl040QKM0l00lMlo" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>InsightIDR</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/Bl00mK2TQ00040lN0YplMM4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>InsightOps</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/z0MY24l0004NQqllKMn0T00" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Nexpose</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/eQ0YrT02000NKl0M4lolM04" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Metasploit</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/n0KM0sp02MQl0TN0Yl004l4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>AppSpider</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/yllKYMMQ040lTNt04q00020" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Services</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/n0KM0ur02MQl0TN0Yl004l4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Product Training & Certification</a></span></td>
+</tr>
+</table>
+<table border=3D"0" width=3D"100" align=3D"right" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"top" align=3D"left"=
+ style=3D"font-size:14px; color:#2596cd;"><span style=3D"color: #000000"><s=
+trong>Company</strong></span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/wNYTQ44Kl0000Mls00M2v0l" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>About Us</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/ZNQ4M0lt40000M0Yw20lTKl" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>News</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/R00l4YlNM40020M0KxTluQ0" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Careers</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/HK0020M0QMvYlT40llN00y4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Contact Us</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td height=3D"1" style=3D"line-height: 1px; font-size: 1px;" bgcolor=3D"#DC=
+DBDB">&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"center">
+<table style=3D"border-collapse: collapse;" width=3D"640" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"20" class=3D"100p">
+<tr>
+<td class=3D"fallback-text" valign=3D"top" align=3D"center" width=3D"640" s=
+tyle=3D"font-size:14px; color:#999999;"><span>&#169; Rapid7&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;<a href=3D
+"http://info.rapid7.com/hlMlz4N00K000M4lQ020TwY" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Legal</a> | <a href=3D
+"http://info.rapid7.com/DKA400x0TNY00l0llQ2M04M" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Privacy Policy</a> | <a href=3D
+"http://info.rapid7.com/UMyM04T0lN0K4l02lQ000BY" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Disclosure Policy</a> | <a href=3D
+"http://info.rapid7.com/n0KM0Cz02MQl0TN0Yl004l4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Export Notice</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table style=3D"border-collapse: collapse;" width=3D"640" class=3D"100p" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href=3D
+"http://info.rapid7.com/llNMA000llYM0T2440Q0D0K"
+></a>
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTQxMDU6=
+MjI1NTQ6NDg3MjM6MDoxNzQzMjo5OjMxODE5OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3=
+D" width=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/t4TM2M0lKY0lB00QN4000lE"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_1224996328_697920150.1483108254490--
+

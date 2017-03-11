@@ -1,0 +1,469 @@
+Received: (qmail 30140 invoked by uid 100); 2 Jul 2016 03:09:24 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda01.wmail.naver.com with SMTP;2 Jul 2016 03:09:24 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id 28z-IwHKReC5VfbVxnXQHQ
+  for <jonghyun.kim@dforensic.com>;
+  Sat, 02 Jul 2016 03:09:24 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u623A1i0003E;
+	Sat, 02 Jul 2016 12:10:01 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u623A1i0003E
+X-SmartFilter: FROM,u623A1i0003E,joseph@duzon.com
+x-forward-id: <1846836117.879515645.1467428951033.JavaMail.root@sjmas03.marketo.org>
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id u6239xg0003C;
+	Sat, 02 Jul 2016 12:09:59 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u6239xg0003C
+X-SmartFilter: FROM,u6239xg0003C,495-KNT-277.0.17238.0.0.13558.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTE2MjI6MTcyMzg6MzY1OTk6MDoxMzU1ODo3OjExNDE1OTI=
+Received: from [10.0.15.43] ([10.0.15.43:53610] helo=sjmas03.marketo.org)
+	by sjmta13.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id E3/80-50791-75037775; Fri, 01 Jul 2016 22:09:11 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1467428951;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=N3u2ZeY15yFaIMH5yHxPi9y75kcvUOoEvNKkUFb/I9w=;
+	b=w7H85lVaLPMbGtbZxnG/TkG5Jhe2QVrpGR/2V9bEj90LFneYfBVjbSEdi1CjrgE3
+	Cwnm6kOH75r+KEN/KaXnweml3i512Yp/TKZaRUCUtataYbDdEZXaxJruB1wzbirQ8J6
+	C3eIKQUEEM5gjEyrjThi5R1Z+QQAAGfrYqwnnbTs=
+Date: Fri, 1 Jul 2016 22:09:11 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1846836117.879515645.1467428951033.JavaMail.root@sjmas03.marketo.org>
+Subject: Verizon DBIR Democast 2/3: Attack of the Killer Web... Attacks
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_879515644_734481088.1467428951033"
+X-PVIQ: mkto-495KNT277-000001-000000-024815
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:11622:17238:36599:0:13558:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.17238.13558.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.17238.0.0.13558.7.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: wwRn+6J4p635WrlY7BwdpBmmKqglKo3YkXm=
+
+------=_Part_879515644_734481088.1467428951033
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Security Webcast
+Verizon DBIR Democast 2/3: Attack of the Killer Web... Attacks
+Register Now <[[https://information.rapid7.com/attack-of-the-killer-web-attacks-2-apac.html?CS=email&utm_medium=email&utm_source=email]]>
+<p class="p1">According to the latest 2016 Verizon Data Breach Investigations Report, there has been a dramatic rise in web application attack patterns across all industry verticals.</p> <p class="p1">Three industries in particular have seen a large jump - entertainment, finance, and information.</p> <p class="p1">Join us as we walk through the key learnings on web application security, key strategies that you can deploy, and watch how developers can easily leverage a web application security tool such as AppSpider to help them discover security holes in the most complex applications across technologies such as AJAZ, JSON, REST, GWT, etc...</p> <ul> </ul> <ul> </ul> <p>If you are unable to make this time/date, <a href= "http://info.rapid7.com/VYNM0004Pf0T200Kl4MMrQ0" target="_blank" >still register</a> to receive the recording on demand.</p> <p>&nbsp;</p> <ul> </ul>
+Join Us <[[https://information.rapid7.com/attack-of-the-killer-web-attacks-2-apac.html?CS=email&utm_medium=email&utm_source=email]]>
+Date: Thursday, July 7th
+Time: 11AM SGT | 1PM AEST
+Speaker
+<img src="" alt="" width="100" />
+
+
+
+Amit Deshmukh
+
+
+
+
+Senior Sales Engineer
+Rapid7
+
+
+
+
+
+<img src="" alt="" width="100" />
+
+
+
+ 
+
+
+
+
+ 
+ 
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiTnpJNFkyVmlOalZsT0RJMiIsInQiOiJ2QzlYbUIzMTVqTzg1c05kSndHK0lrbXlpMURmaHZTblhUR3hIcnJDVi94QUdWeDlxc3plQmJCY2t4Vy9oSFVsVVFqRXVrd25hMVk5T1ZLNWVjaTJrN3laSDVsSW1BSysxNXpuemNSUzQ4UT0ifQ%3D%3D.
+
+------=_Part_879515644_734481088.1467428951033
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<title></title>
+</head>
+<body ><div ><div ><p>&nbsp;</p>
+<!-- table {         border-collapse:collapse !important; } @media only scr=
+een and (max-width: 640px) {         *[class].table_responsive{width:100% !=
+important;}         *[class].deviceWidth{width:440px !important;}          =
+        *[class].iphone_left_pad{padding-left:15px !important;}          =
+=20
+                                                                        *[c=
+lass].iphone_top_pad{padding-top:20px;}         *[class].banner_pad{padding=
+-top:34px;text-align:center !important;}         *[class].iphone_img{max-wi=
+dth:100%;}         *[class].iphone_pad{padding:0px 15px;}                =
+=20
+               *[class].title_detail{padding:0                     15px;fon=
+t-size:23px              !important;}                           *[class].no=
+_right_pad{padding-right:0px !important;}         *[class].iphone_bullet_al=
+ign{ padding-top: 7px !important;vertical-align: top !important;}        =
+=20
+                       *[class].footer_align{text-align:left               =
+      !important;padding-bottom:0px     !important;padding-top:13px        =
+  !important;}                           *[class].foot_font{font-size:11px =
+!important;padding-bottom:13px !important;}           =20
+*[class].events_table{width:100%                     !important;text-align:=
+left !important;}                             *[class].text-center{text-ali=
+gn:center; margin:0 auto;}      } @media only screen and          (max-widt=
+h: 475px) {                                    =20
+*[class].table_responsive{width:100% !important;}                          =
+   *[class].deviceWidth{width:280px !important;} } -->
+<table class=3D"deviceWidth" style=3D"width:600px; margin:0 auto; font-fami=
+ly:Arial, Helvetica, sans-serif; border:1px solid #F3F3F3; " cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"600" align=3D"center" ><tbody ><tr>
+<td style=3D"font-size: 1px; line-height: 1px; height: 25px;" height=3D"25"=
+>&nbsp;</td>
+</tr>
+<tr ><td ><table class=3D"table_responsive" style=3D"width:574px; margin:0 =
+auto; font-family:Arial, Helvetica, sans-serif; " border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"574" align=3D"center" ><tbody ><tr ><td c=
+lass=3D"iphone_left_pad" ><div id=3D"logo" class=3D"mktEditable" ><img src=
+=3D"https://information.rapid7.com/rs/rapid7/images/logo.jpg" alt=3D"Rapid7=
+ Logo"></div>
+<div>&nbsp;&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"font-size: 1px; line-height: 1px; height: 3px; background-colo=
+r: #ea5709;" height=3D"3">&nbsp;</td>
+</tr>
+<tr ><td background=3D"https://information.rapid7.com/rs/495-KNT-277/images=
+/webcast-image-2-11-16.png" bgcolor=3D"#000000" width=3D"600" height=3D"184=
+" valign=3D"top" ><!--[if gte mso 9]>
+  <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" stroke=3D=
+"false" style=3D"width:598px;height:184px;">
+    <v:fill type=3D"tile" src=3D"https://information.rapid7.com/rs/495-KNT-=
+277/images/webcast-image-2-11-16.png" color=3D"#000000" />
+    <v:textbox inset=3D"0,0,0,0">
+  <![endif]-->
+<div ><table class=3D"table_responsive" style=3D"width:560px; font-family:A=
+rial, Helvetica, sans-serif; background-image:url('https://information.rapi=
+d7.com/rs/495-KNT-277/images/webcast-image-2-11-16.png'); background-repeat=
+:no-repeat; " border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"560=
+" align=3D"center" ><tbody ><tr ><td ><table class=3D"table_responsive" sty=
+le=3D"width:100%; " border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"55%" align=3D"left" ><tbody ><tr>
+<td style=3D"font-size: 1px; line-height: 1px; height: 22px;" height=3D"22"=
+>&nbsp;</td>
+</tr>
+<tr ><td class=3D"title_detail text-center" style=3D"color:#ffffff; font-si=
+ze:30px; line-height:30px; font-family:Arial, Helvetica, sans-serif; " ><di=
+v id=3D"title" class=3D"mktEditable" >Security Webcast</div>
+</td>
+</tr>
+<tr ><td class=3D"text-center" style=3D"color:#ffffff; font-size:17px; line=
+-height:30px; font-family:Arial, Helvetica, sans-serif; " ><div id=3D"title=
+_text" class=3D"mktEditable" ><span style=3D"font-size: 18px;"><strong>Veri=
+zon DBIR Democast 2/3: Attack of the Killer Web... Attacks</strong></span><=
+/div>
+</td>
+</tr>
+<tr ><td style=3D"padding-top:16px; " align=3D"left" ><table class=3D"text-=
+center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" ><tbody ><tr ><td =
+style=3D"background-color:#ea5709; padding:8px 13px; font-family:Arial, Hel=
+vetica, sans-serif; font-size:18px; line-height:22px; text-align:center; ve=
+rtical-align:middle; border-radius:4px; " valign=3D"middle" ><div id=3D"but=
+ton" class=3D"mktEditable" ><strong><a style=3D"text-decoration: none; colo=
+r: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif;" hr=
+ef=3D"https://information.rapid7.com/attack-of-the-killer-web-attacks-2-apa=
+c.html?CS=3Demail&amp;utm_medium=3Demail&amp;utm_source=3Demail" target=3D"=
+_blank">Register Now</a></strong></div>
+</td>
+<td width=3D"400" align=3D"right">
+<p style=3D"color:#fff; font-size:9px;">Earn 1 CPE for Attending</p>
+</td>
+</tr>
+<tr>
+<td>
+<div>&nbsp;&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if gte mso 9]>
+    </v:textbox>
+  </v:rect>
+  <![endif]--></td>
+</tr>
+</tbody>
+</table>
+<table class=3D"table_responsive" style=3D"width:575px; margin:0 auto; font=
+-family:Arial, Helvetica, sans-serif; " border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" width=3D"575" align=3D"center" ><tbody ><tr ><td ><table clas=
+s=3D"table_responsive" style=3D"width:60%; " border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" width=3D"60%" align=3D"left" ><tbody ><tr ><td style=3D"=
+color:#333333; font-size:14px; line-height:23px; font-family:Arial, Helveti=
+ca, sans-serif; " ><div id=3D"body_text" class=3D"mktEditable" ><p class=3D=
+"p1">According to the latest 2016 Verizon Data Breach Investigations Report=
+, there has been a dramatic rise in web application attack patterns across =
+all industry verticals.</p> <p class=3D"p1">Three industries in particular =
+have seen a large jump - entertainment, finance, and information.</p> <p cl=
+ass=3D"p1">Join us as we walk through the key learnings on web application =
+security, key strategies that you can deploy, and watch how developers can =
+easily leverage a web application security tool such as AppSpider to help t=
+hem discover security holes in the most complex applications across technol=
+ogies such as AJAZ, JSON, REST, GWT, etc...</p> <ul> </ul> <ul> </ul> <p>If=
+ you are unable to make this time/date, <a href=3D "http://info.rapid7.com/=
+VYNM0004Pf0T200Kl4MMrQ0" target=3D"_blank" >still register</a> to receive t=
+he recording on demand.</p> <p>&nbsp;</p> <ul> </ul></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"table_responsive iphone_top_pad" style=3D"width:36%; " bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"36%" align=3D"right" =
+><tbody ><tr ><td style=3D"padding-top:5px; " ><table class=3D"events_table=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" align=3D"=
+left" ><tbody ><tr ><td style=3D"background-color:#ededed; border:1px solid=
+ #e2e2e2; " ><table class=3D"table_responsive" style=3D"width:100%; " borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" ><tbody ><tr ><t=
+d class=3D"iphone_pad" style=3D"background-color:#ea5709; " bgcolor=3D"#E76=
+E39" ><table class=3D"table_responsive" style=3D"width:176px; margin:0 auto=
+; font-family:Arial, Helvetica, sans-serif; " border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"176" align=3D"center" ><tbody ><tr ><td style=
+=3D"font-size:16px; line-height:20px; color:#ffffff; background-color:#ea57=
+09; font-family:Arial, Helvetica, sans-serif; padding:8px 0 8px 0px; vertic=
+al-align:top; " ><div id=3D"join_us" class=3D"mktEditable" ><strong><a styl=
+e=3D"color: #fff;" href=3D"https://information.rapid7.com/attack-of-the-kil=
+ler-web-attacks-2-apac.html?CS=3Demail&amp;utm_medium=3Demail&amp;utm_sourc=
+e=3Demail" target=3D"_blank">Join Us</a></strong></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"table_responsive iphone_pad" style=3D"width:176px; margin:0=
+ auto; font-family:Arial, Helvetica, sans-serif; " border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"176" align=3D"center" ><tbody ><tr ><td s=
+tyle=3D"font-size:14px; line-height:22px; color:#333338; font-family:Arial,=
+ Helvetica, sans-serif; " ><div id=3D"date" class=3D"mktEditable" ><div><st=
+rong><span style=3D"font-size: 14px; line-height: 30px; color: #2faeff; fon=
+t-family: Arial, Helvetica, sans-serif;">Date: <span style=3D"font-size: 12=
+px; color: #333333;">Thursday, July 7th</span></span></strong></div>
+<div><strong><span style=3D"font-size: 14px; line-height: 30px; color: #2fa=
+eff; font-family: Arial, Helvetica, sans-serif;">Time: <span style=3D"font-=
+size: 12px; color: #333333;">11AM SGT | 1PM AEST</span></span></strong></di=
+v></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"font-size: 1px; line-height: 1px; height: 12px;" height=3D"12"=
+>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"font-size: 1px; line-height: 1px; background-color: #ffffff; h=
+eight: 20px;" height=3D"20">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr ><td style=3D"background-color:#ededed; border:1px solid #e2e2e2; " ><t=
+able class=3D"table_responsive" style=3D"width:100%; " border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" ><tbody ><tr ><td class=3D"ipho=
+ne_pad" style=3D"background-color:#ea5709; " bgcolor=3D"#E76E39" ><table cl=
+ass=3D"table_responsive" style=3D"width:176px; margin:0 auto; font-family:A=
+rial, Helvetica, sans-serif; " border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"176" align=3D"center" ><tbody ><tr ><td style=3D"font-size:=
+16px; line-height:20px; color:#ffffff; background-color:#ea5709; font-famil=
+y:Arial, Helvetica, sans-serif; padding:8px 0 8px 0px; vertical-align:top; =
+" ><div id=3D"speakers" class=3D"mktEditable" ><strong>Speaker</strong></di=
+v>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div id=3D"speaker_section" class=3D"mktEditable" ><table class=3D"table_re=
+sponsive iphone_pad" style=3D"width: 176px; margin: 0 auto; font-family: Ar=
+ial, Helvetica, sans-serif;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"176" align=3D"center">
+<tbody>
+<tr>
+<td class=3D"iphone_left_pad" style=3D"font-size: 15px; color: #2faeff; fon=
+t-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 10p=
+x;" align=3D"center"><img src=3D"" alt=3D"" width=3D"100" /></td>
+</tr>
+<tr>
+<td class=3D"iphone_left_pad" style=3D"font-size: 15px; color: #2faeff; fon=
+t-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 10p=
+x;">
+<div align=3D"center">Amit Deshmukh</div>
+</td>
+</tr>
+<tr>
+<td class=3D"iphone_left_pad" style=3D"font-size: 12px; line-height: 18px; =
+color: #333333; font-family: Arial, Helvetica, sans-serif; padding-bottom: =
+10px;">
+<div align=3D"center"><strong>Senior Sales Engineer</strong></div>
+<div align=3D"center">Rapid7</div>
+</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class=3D"iphone_left_pad" style=3D"font-size: 15px; color: #2faeff; fon=
+t-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 10p=
+x;" align=3D"center"><img src=3D"" alt=3D"" width=3D"100" /></td>
+</tr>
+<tr>
+<td class=3D"iphone_left_pad" style=3D"font-size: 15px; color: #2faeff; fon=
+t-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 10p=
+x;">
+<div align=3D"center"> </div>
+</td>
+</tr>
+<tr>
+<td class=3D"iphone_left_pad" style=3D"font-size: 12px; line-height: 18px; =
+color: #333333; font-family: Arial, Helvetica, sans-serif; padding-bottom: =
+10px;">
+<div align=3D"center"><strong> </strong></div>
+<div align=3D"center"> </div>
+</td>
+</tr>
+</tbody>
+</table></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" alig=
+n=3D"center">
+<tbody>
+<tr>
+<td style=3D"padding: 7px 0;">
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"580" align=3D"center" bgcolor=3D"#363636">
+<tbody>
+<tr>
+<td>
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"45%" align=3D"left">
+<tbody>
+<tr>
+<td class=3D"center" style=3D"font-size: 12px; color: #999999; font-family:=
+ Arial, Helvetica, sans-serif; padding: 20px;" valign=3D"top">
+<p>&copy; 2016 Rapid7, All Rights Reserved.<br>
+100 Summer Street, 13th Floor<br>
+Boston, MA 02110-2131<br>
+<a style=3D"color: #999; text-decoration: underline;" href=3D
+"http://info.rapid7.com/m000QG2040M4flMYNPl0KT0"
+>www.rapid7.com</a><br>
+866-7-RAPID7</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"40%" align=3D"right">
+<tbody>
+<tr>
+<td class=3D"center" style=3D"font-size: 15px; color: #f1f1f1; font-weight:=
+ normal; font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif; line-heigh=
+t: 26px; vertical-align: top; text-align: right; padding: 20px;" valign=3D"=
+top"><a href=3D
+"http://info.rapid7.com/LM42TN00f0mP0KHYM0l040Q"
+><img title=3D"RSS Feed" src=3D"http://information.rapid7.com/rs/rapid7/ima=
+ges/rss-footer.gif" border=3D"0" alt=3D"RSS Feed"></a> <a href=3D
+"http://info.rapid7.com/FfYNl00nI0K0M2PM000T4Q4"
+><img title=3D"Twitter" src=3D"http://information.rapid7.com/rs/rapid7/imag=
+es/twitter-footer.gif" border=3D"0" alt=3D"Twitter"></a> <a href=3D
+"http://info.rapid7.com/a0200l0fMK0Y00JToNQP4M4"
+><img title=3D"Rapid7 Community" src=3D"http://information.rapid7.com/rs/ra=
+pid7/images/community-footer.gif" border=3D"0" alt=3D"Rapid7 Community"></a=
+> <a href=3D
+"http://info.rapid7.com/p0400K0fKT0M0pQN4l0MYP2"
+><img title=3D"Email Rapid7" src=3D"http://information.rapid7.com/rs/rapid7=
+/images/mail-footer.gif" border=3D"0" alt=3D"Email Rapid7"></a><br>
+<a href=3D
+"http://info.rapid7.com/m000QG2040M4flMYNPl0KT0"
+><img src=3D"http://information.rapid7.com/rs/rapid7/images/r7-logo-small.g=
+if" border=3D"0" alt=3D"Rapid7 Home Page"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End Wrapper --></div>
+</div>
+
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTE2MjI6=
+MTcyMzg6MzY1OTk6MDoxMzU1ODo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/ZNQ4M0fL40000M0Yq20lTKP"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_879515644_734481088.1467428951033--
+

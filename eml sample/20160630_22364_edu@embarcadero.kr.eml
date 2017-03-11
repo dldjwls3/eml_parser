@@ -1,0 +1,191 @@
+Received: (qmail 23299 invoked by uid 100); 30 Jun 2016 05:38:28 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda01.wmail.naver.com with SMTP;30 Jun 2016 05:38:28 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.co.kr (gw.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id GBc33BunTDmlA5-2vXs28w
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 30 Jun 2016 05:38:28 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u5U5dAq002FA;
+	Thu, 30 Jun 2016 14:39:10 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u5U5dAq002FA
+X-SmartFilter: FROM,u5U5dAq002FA,joseph@duzon.com
+x-forward-id: <201606301438094056@send43.postman.co.kr>
+Received: from external ([209.85.213.43])
+	by smf.duzon.co.kr (1.0) id u5U5d7e002EE;
+	Thu, 30 Jun 2016 14:39:07 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u5U5d7e002EE
+X-SmartFilter: FROM,u5U5d7e002EE,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f43.google.com with SMTP id u68so52789242vkf.2
+        for <joseph@duzon.com>; Wed, 29 Jun 2016 22:38:20 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:dkim-signature:from:to:reply-to
+         :subject:date:list-unsubscribe:mime-version:message-id
+         :content-transfer-encoding;
+        bh=dG7rQUq1iXVoLrMyCxjCGDxzJ8KVLKHuoq35zi230So=;
+        b=KzK/xqNY+69gFbY2G24qUyoSRBTR7BuPbuXWdIT0xVb3jvTbqXW21xsU+G/TX3K3yu
+         M4E2F6FAoB4Fb0ShRx3gyGHI9wAT3QamnUL7wVyKPyrSVXlSTe1UtBHKio/D9TazHqiZ
+         DwQfiMUZOGk4Le7d2Sg0o/Da9WkPBIxtSBHE/oFr5iPXSX1SJ2tEAbEq1j0Q7NC+/Ebr
+         4pzv7Y0L0z2iU5pA7QQLxFHRLbFxukcjDEauDIHgjIl+oiofFL6UV57tZWO62nCkRPkn
+         xFbhf7QQm4vcHLsGWwEM93CKsQqg1SHSFBaBZIcp0tK8C3Xenf8m8Dz4exqfIf8sHvDU
+         oOHQ==
+X-Gm-Message-State: ALyK8tL4OH+5TdXpuyF+q3mTM/Lbfh+jKH7HPb/d7hk+cZDyKHngRgRHO8KJ4ENgDFpR9YK7xvIfHcCH/NRDk0Vb1YyWmvs=
+X-Received: by 10.159.38.46 with SMTP id 43mr922280uag.126.1467265099671;
+        Wed, 29 Jun 2016 22:38:19 -0700 (PDT)
+X-Forwarded-To: pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.42.70 with SMTP id q67csp179334vsq;
+        Wed, 29 Jun 2016 22:38:18 -0700 (PDT)
+X-Received: by 10.36.213.135 with SMTP id a129mr12750474itg.8.1467265098864;
+        Wed, 29 Jun 2016 22:38:18 -0700 (PDT)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id i196si2782048itc.102.2016.06.29.22.38.18
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 29 Jun 2016 22:38:18 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@postman.co.kr;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u5U5ctc002EC;
+	Thu, 30 Jun 2016 14:38:55 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u5U5ctc002EC
+X-SmartFilter: FROM,u5U5ctc002EC,forensic@duzon.com
+x-forward-id: <201606301438094056@send43.postman.co.kr>
+Received: from external ([119.207.76.43])
+	by smf.duzon.co.kr (1.0) id u5U5csa002EA;
+	Thu, 30 Jun 2016 14:38:54 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u5U5csa002EA
+X-SmartFilter: FROM,u5U5csa002EA,return_postman0630143536@return.postman.co.kr
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1467265089;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=HnMMtvD3cWRbRQzY8mCGkiGjY/um2blZ1ZGuQPs3UkA=;
+	b=WU6vmSoMzckHCF6U8/7lciGIcErGUecEjjsK9Hv96xsOxh5F2J2H3Tb0VYlf3mxR
+	I/+fdzkESrNT9/EpXBuVv2i7qTxhNke5pSaOPx7dBO7Si/oLuSBWeSaIS53CXSOwq2P
+	/sAvTRVamkwDgG5rfF5yp6gZhDyy2J7EJzxokvBc=
+From: "=?euc-kr?B?taW66rHivu4=?=" <edu@embarcadero.kr>
+To: "=?euc-kr?B?sO2wtLTU?=" <forensic@duzon.com>
+Reply-to: <edu@embarcadero.kr>
+Subject: =?euc-kr?B?W7Wluuqx4r7uLbHivPq3ucXNXSDD4rCjIQ==?= =?euc-kr?B?IL3DwNvHz7TCILvntve16cC7IMCnx9Egtag=?= =?euc-kr?B?xsTAzCDHwbfOsde3obnWICgyMDE2Lg==?= =?euc-kr?B?Nyk=?=
+Date: Thu, 30 Jun 2016 14:38:09 +0900
+X-WORKER_ID: <single.default_Worker_9>
+X-MAIL_ID: <UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw==>
+X-MEMBER_ID: <TV9JRD04MTM0MTA1Mjc4>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDY2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=beomyong&customer_id=8134105278>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201606301438094056@send43.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: wqRn+6J4p635WrlY7BwdpBmmFxK/KoCYkXm=
+
+<html>
+<head>
+<title></title>
+</head>
+<body style=3D"font-family: Malgun Gothic;">
+<table align=3D"center" style=3D"font-family: Malgun Gothic;">
+<tbody>
+<tr>
+<td style=3D"font-family: Malgun Gothic;"><img src=3D"http://www.devgear.co.kr/images/header/eDM_top_img.jpg" /><br />
+<br />
+<strong>=B5=A5=BA=EA=B1=E2=BE=EE =B1=E2=BC=FA=B7=B9=C5=CD - 2016=B3=E2 7=BF=F9</strong>
+<hr align=3D"left" width=3D"670" /><br />
+<span style=3D"font-size: 12px;">=A1=E1&nbsp;<strong>=B1=E2=BC=FA=C0=DA=B7=E1(=B0=B3=B9=DF =BA=CE=B9=AE)</strong></span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://tech.devgear.co.kr/devgearbook/421276" target=3D"_blank"><span style=3D"font-size: 16px;"><strong><span style=3D"color: rgb(0, 0, 205);">[=C3=E2=B0=A3] =BD=C3=C0=DB=C7=CF=B4=C2 =BB=E7=B6=F7=B5=E9=C0=BB =C0=A7=C7=D1 =B5=A8=C6=C4=C0=CC =C7=C1=B7=CE=B1=D7=B7=A1=B9=D6</span></strong></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">=C7=C1=B7=CE=B1=D7=B7=A1=B9=D6=C0=BB =C3=B3=C0=BD =BD=C3=C0=DB=C7=CF=B4=C2 =BA=D0=B5=E9=C0=BB =C0=A7=C7=D1 &#39;=BB=FD=B0=A2=C7=CF=B4=C2 =C8=FB&#39;=C0=BB =B1=E2=B8=A6 =BC=F6 =C0=D6=B4=C2 =C7=C1=B7=CE=B1=D7=B7=A1=B9=D6 =C0=D4=B9=AE=BC=AD=C0=D4=B4=CF=B4=D9.<br />
+=B4=D9=BE=E7=C7=D1 =BD=C7=BD=C0=B9=AE=C1=A6=BF=CD =B0=AD=C0=C7=C0=DA=B7=E1=B8=A6 =C7=D4=B2=B2 =C1=A6=B0=F8=C7=D5=B4=CF=B4=D9.&nbsp;</span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://tech.devgear.co.kr/delphi_news/423575" target=3D"_blank"><span style=3D"font-size: 16px;"><strong><span style=3D"color: rgb(0, 0, 205);">[=BF=C2=B6=F3=C0=CE =BC=BC=B9=CC=B3=AA-=B4=D9=BD=C3=BA=B8=B1=E2] =BC=D2=B0=B3=C7=D5=B4=CF=B4=D9! RAD=BC=AD=B9=F6</span></strong></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">=BF=A5=B9=D9=C4=AB=B5=A5=B7=CE=C0=C7 =BB=F5=B7=CE=BF=EE =BC=D6=B7=E7=BC=C7 =B9=E9=BF=A3=B5=E5 =C7=C3=B7=A7=C6=FB RAD =BC=AD=B9=F6=B8=A6 =B8=B8=B3=AA=BA=B8=BC=BC=BF=E4.<br />
+10.1 =BA=A3=B8=A6=B8=B0 =B9=F6=C0=FC =BB=E7=BF=EB=C0=DA=B6=F3=B8=E9, =B9=D9=B7=CE =C1=F6=B1=DD! =BD=C3=C0=DB=C7=D2 =BC=F6 =C0=D6=BD=C0=B4=CF=B4=D9..</span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttp://tech.devgear.co.kr/recruit" target=3D"_blank"><span style=3D"color: rgb(0, 0, 205);"><span style=3D"font-size: 16px;"><strong>=B5=A8=C6=C4=C0=CC/C++=BA=F4=B4=F5 =B0=B3=B9=DF=C0=DA=B8=A6 =C3=A4=BF=EB=C7=CF=B0=ED =BD=CD=C0=B8=BD=C5=B0=A1=BF=E4?</strong></span></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">=B5=A5=BA=EA=B1=E2=BE=EE =C3=A4=BF=EB =BE=C8=B3=BB =B0=D4=BD=C3=C6=C7=C0=BB =C8=B0=BF=EB=C7=D8=BA=B8=BC=BC=BF=E4.&nbsp;</span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://www.devgear.co.kr/edu" target=3D"_blank"><span style=3D"color: rgb(0, 0, 205);"><span style=3D"font-size: 16px;"><strong>12=B0=B3 =B0=FA=C1=A4=C0=B8=B7=CE =C8=AE=C0=E5=B5=C8 =B5=A5=BA=EA=B1=E2=BE=EE =B1=B3=C0=B0</strong></span></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">=BE=EE=B6=B2 =B0=AD=C0=C7=B0=A1 =C7=CA=BF=E4=C7=CF=BD=C5=B0=A1=BF=E4? =B4=F5=BF=ED =C3=BC=B0=E8=C8=AD=B5=C8 =B5=A5=BA=EA=B1=E2=BE=EE =B1=B3=C0=B0=C0=BB =C7=D1 =B4=AB=BF=A1 =C8=AE=C0=CE=C7=D8=BA=B8=BC=BC=BF=E4.</span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp://www.embarcadero.com/products/rad-studio/start-for-free" target=3D"_blank"><span style=3D"color: rgb(0, 0, 255);"><span style=3D"font-size: 16px;"><strong>[=B9=AB=B7=E1 =C6=F2=B0=A1=C6=C7] RAD Studio</strong></span></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">=C0=A9=B5=B5=BF=EC/=B8=C6/=B8=F0=B9=D9=C0=CF =BE=DB=C0=BB =C7=D1 =B9=F8=BF=A1 =B0=B3=B9=DF=C7=CF=B0=ED =BB=E7=B9=B0=C0=CE=C5=CD=B3=DD=C0=B8=B7=CE=B5=B5 =C8=AE=C0=E5=C7=CF=BC=BC=BF=E4.</span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAwNg=3D=3D&URL=3Dhttp://tech.devgear.co.kr/delphi_news/423648" target=3D"_blank"><span style=3D"color: rgb(0, 0, 205);"><span style=3D"font-size: 16px;"><strong>=C0=CC =B4=DE=C0=C7 =B1=E2=BC=FA=C0=DA=B7=E1</strong></span></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">=C0=CC=B9=F8=B4=DE =B2=C0 =C8=AE=C0=CE=C7=D8=BE=DF =C7=D2 =C1=D6=BF=E4 =B1=E2=BC=FA=C0=DA=B7=E1=B8=A6 =C8=AE=C0=CE=C7=D8=BA=B8=BC=BC=BF=E4.</span><br />
+<br />
+<br />
+<span style=3D"font-size: 12px;">=A1=E1&nbsp;<strong>=B1=E2=BC=FA=C0=DA=B7=E1(DB =BA=CE=B9=AE)</strong></span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAwNw=3D=3D&URL=3Dhttp://tech.devgear.co.kr/db_kb/404076" target=3D"_blank"><span style=3D"color: rgb(0, 0, 255);"><span style=3D"font-size: 16px;"><strong>ER/Studio =C6=C0 =BC=AD=B9=F6: =C0=A5=BA=EA=B6=F3=BF=EC=C0=FA=B7=CE =B8=DE=C5=B8=B5=A5=C0=CC=C5=CD =C1=A4=BA=B8 =C8=AE=C0=CE =B9=D7 =C1=B6=C8=B8=C7=CF=B1=E2</strong></span></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">ER/Studio=C0=C7 =C0=A5=C6=F7=C5=BB &#39;=C6=C0 =BC=AD=B9=F6(Team Server)&#39;=B8=A6 =B0=E6=C7=E8=C7=D8=BA=B8=BC=BC=BF=E4.</span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAwOA=3D=3D&URL=3Dhttp://tech.devgear.co.kr/db_kb/410014" target=3D"_blank"><span style=3D"color: rgb(0, 0, 205);"><span style=3D"font-size: 16px;"><strong>[=B0=ED=B0=B4 =BB=E7=B7=CA] =B8=B6=C0=CC=C5=A9=B7=CE=BC=D2=C7=C1=C6=AE=B0=A1 ER/Studio=B8=A6 =BC=B1=C5=C3=C7=D1 =C0=CC=C0=AF=B4=C2?</strong></span></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">=BC=BC=B0=E8=C0=FB=C0=CE IT =B8=AE=B4=F5=B5=E9=C0=CC =BC=B1=C5=C3=C7=CF=B4=C2 ER/Studio=B8=A6 =C8=AE=C0=CE=C7=D8=BA=B8=BC=BC=BF=E4.</span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAwOQ=3D=3D&URL=3Dhttp://www.devgear.co.kr/products/db-powerstudio/" target=3D"_blank"><span style=3D"color: rgb(0, 0, 255);"><span style=3D"font-size: 16px;"><strong>DB PowerStudio: DB =B0=FC=B8=AE, =B0=B3=B9=DF, =BC=BA=B4=C9, =C6=A9=B4=D7 =C5=F8 =BC=C2</strong></span></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">=B5=A5=C0=CC=C5=CD=BA=A3=C0=CC=BD=BA =BE=D6=C7=C3=B8=AE=C4=C9=C0=CC=BC=C7=C0=C7 =C0=AF=C1=F6=BA=B8=BC=F6, =BC=B3=B0=E8, DB=BA=AF=B0=E6=B0=FC=B8=AE =C7=C1=B7=CE=BC=BC=BD=BA =B0=A3=BC=D2=C8=AD, =BD=C5=BC=D3=C7=D1 =BA=B4=B8=F1=C7=F6=BB=F3 =C7=D8=BC=D2 =B5=EE=C0=C7 =B1=E2=B4=C9=C0=BB =C1=A6=B0=F8=C7=D5=B4=CF=B4=D9.&nbsp;</span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxMA=3D=3D&URL=3Dhttp://www.embarcadero.com/products/er-studio/downloads#nofollow/0/" target=3D"_blank"><span style=3D"color: rgb(0, 0, 255);"><span style=3D"font-size: 16px;"><strong>[=B9=AB=B7=E1 =C6=F2=B0=A1=C6=C7] ER/Studio</strong></span></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">=BC=BC=B0=E8=C0=FB=C0=CE =B5=A5=C0=CC=C5=CD =B8=F0=B5=A8=B8=B5 =C5=F8=C0=BB =C1=F7=C1=A2 =BB=E7=BF=EB=C7=D8=BA=B8=BC=BC=BF=E4.</span><br />
+<br />
+<br />
+<span style=3D"font-size: 12px;">=A1=E1 <b>=BA=B8=B5=B5=C0=DA=B7=E1</b></span><br />
+<br />
+<span style=3D"font-size: 16px;"><strong><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxMQ=3D=3D&URL=3Dhttp://www.dt.co.kr/contents.html?article_no=3D2016060902109952660010" target=3D"_blank"><span style=3D"color:#0000FF;">=B5=A5=BA=EA=B1=E2=BE=EE, =B9=D9=C0=CE=C5=D7=C5=A9 IoT-EMS =C7=C1=B7=CE=C1=A7=C6=AE=BF=A1 =BC=D6=B7=E7=BC=C7 =B0=F8=B1=DE</span></a></strong></span><br />
+<br />
+<span style=3D"font-size: 16px;"><strong><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxMg=3D=3D&URL=3Dhttp://www.ddaily.co.kr/news/article.html?no=3D144435" target=3D"_blank"><span style=3D"color: rgb(0, 0, 255);">=B5=A5=BA=EA=B1=E2=BE=EE, =BC=BC=C1=F8=C0=CE=C6=F7=C5=D821 ABS =C1=A6=BE=EE=C0=E5=C4=A1 =BE=F7=B1=D7=B7=B9=C0=CC=B5=E5=BF=A1 =B5=A8=C6=C4=C0=CC =B0=F8=B1=DE</span></a></strong></span><br style=3D"font-size: 12px;" />
+<br />
+<br />
+<span style=3D"font-size: 12px;">=A1=E1&nbsp;<strong>=BC=BC=B9=CC=B3=AA/=B1=B3=C0=B0</strong></span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxMw=3D=3D&URL=3Dhttp://www.devgear.co.kr/support/education/delphi_miniproj/" target=3D"_blank"><span style=3D"font-size: 16px;"><strong><span style=3D"color: rgb(0, 0, 205);">[=C7=C1=B7=CE=C1=A7=C6=AE =B0=FA=C1=A4] =B5=A8=C6=C4=C0=CC =C7=C1=B7=CE=B1=D7=B7=A5 =BF=CF=BC=BA=C7=CF=B1=E2(3=C0=CF)</span></strong></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">2016.8.17(=BC=F6)~8.19(=B1=DD), =BF=C0=C8=C4 9:30 ~ =BF=C0=C8=C4 5:30<br />
+=C6=C4=C0=CC=BE=EE=B8=F9=C5=B0 =B1=E2=B9=DD=C0=C7 &#39;=C7=C1=B7=CE=C1=A7=C6=AE =BC=F6=C7=E0 =C0=CE=BF=F8 =B0=FC=B8=AE =C7=C1=B7=CE=B1=D7=B7=A5(=B8=D6=C6=BC-=C6=BC=BE=EE =B6=C7=B4=C2 REST =C8=B0=BF=EB)&#39;=C0=BB =BF=CF=BC=BA=C7=D8=BA=BE=B4=CF=B4=D9.</span><br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxNA=3D=3D&URL=3Dhttp://www.devgear.co.kr/support/education/delphi_project/" target=3D"_blank"><span style=3D"font-size: 16px;"><strong><span style=3D"color: rgb(0, 0, 205);">[=C7=C1=B7=CE=C1=A7=C6=AE =B0=FA=C1=A4] =B5=A8=C6=C4=C0=CC =B0=B3=B9=DF =B4=C9=B7=C2 =C0=CE=C1=F5 =B0=FA=C1=A4(10=C0=CF)</span></strong></span></a><br style=3D"font-size: 12px;" />
+<span style=3D"font-size: 12px;">2016.8.22(=BF=F9)~9.2(=B1=DD), =BF=C0=C8=C4 9:30 ~ =BF=C0=C8=C4 5:30<br />
+=BF=CF=BC=BA=C7=CF=B0=ED =BD=CD=C0=BA =C7=C1=B7=CE=C1=A7=C6=AE=B0=A1 =C0=D6=C0=B8=BD=C5=B0=A1=BF=E4? =C1=F6=B1=DD =BF=CF=BC=BA=C7=D8=BA=B8=BC=BC=BF=E4.</span><br />
+<br />
+&nbsp;
+<hr align=3D"left" width=3D"670" /><strong><strong> </strong></strong>
+
+<div><strong><strong><span style=3D"font-size:10px;">=B5=A5=BA=EA=B1=E2=BE=EE =C8=A8=C6=E4=C0=CC=C1=F6 <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxNQ=3D=3D&URL=3Dhttp://www.devgear.co.kr" target=3D"_blank">www.devgear.co.kr</a>&nbsp; &nbsp; =B1=E2=BC=FA=C1=F6=BF=F8 <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxNg=3D=3D&URL=3Dhttp://tech.devgear.co.kr" target=3D"_blank">tech.devgear.co.kr</a>&nbsp; &nbsp; =B5=A5=BA=EA=B1=E2=BE=EE =BC=EE=C7=CE=B8=F4 &nbsp;<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6!
+ b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2M=
+A=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxNw=3D=3D&URL=3Dhttp://shop.devgear.co.kr" target=3D"_blank">shop.devgear.co.kr</a>&nbsp; &nbsp; =C6=E4=C0=CC=BD=BA=BA=CF <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxOA=3D=3D&URL=3Dhttp://facebook.com/devgear" target=3D"_blank">facebook.com/devgear</a></span></strong></strong></div>
+<strong><strong> </strong></strong></td>
+</tr>
+</tbody>
+</table>
+
+<table width=3D"600" align=3D"center" style=3D"font-size:12px; line-height:140%; border:1px solid #cccccc">
+<tr align=3D"center">
+<td style=3D"font-color:#4C4C4C; font-size: 12px; font-family:'=B5=B8=BF=F2','helvetica';">=BA=BB =B8=DE=C0=CF=C0=BA =B5=A5=BA=EA=B1=E2=BE=EE=C0=C7 =B0=F8=C1=F6=BB=E7=C7=D7 =B6=C7=B4=C2 =C0=CC=BA=A5=C6=AE =BE=CB=B8=B2, =BE=C8=B3=BB=B8=A6 =C0=A7=C7=D8=BC=AD =B9=DF=BC=DB =B5=C7=BE=FA=BD=C0=B4=CF=B4=D9.
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr>
+<td align=3D"center" style=3D"color:#666666;">
+<p>=C0=CC=B8=DE=C0=CF=C0=C7 =BC=F6=BD=C5=C0=BB =B4=F5 =C0=CC=BB=F3 =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9 [<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1D&Q0lEPTAxOQ=3D=3D&URL=3Dhttp://www.postman.co.kr/open/unsubscription.jsp?user_id=3Dbeomyong&amp;customer_id=3D8134105278&amp;reject_script=3DK&amp;post_id=3D20160630100009346627" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#ff6600; font-weight:bold">=BC=F6=BD=C5=B0=C5=BA=CE</span></a>]=B8=A6 =C5=AC=B8=AF=C7=D8 =C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9.<br />To unsubscribe <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0l!
+ ORD1D&Q0lEPTAyMA=3D=3D&URL=3Dhttp:=
+//www.postman.co.kr/open/unsubscription.jsp?user_id=3Dbeomyong&amp;customer_id=3D8134105278&amp;reject_script=3DE&amp;post_id=3D20160630100009346627" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#666666; font-weight:bold;">click here</span></a>.</p>
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr align=3D"center">
+<td style=3D"font-size: 11px; font-family:'=B5=B8=BF=F2','helvetica'; font-color:#4C4C4C;">=BC=AD=BF=EF=C6=AF=BA=B0=BD=C3 =BC=AD=C3=CA=B1=B8 =BB=E7=C6=F2=B4=EB=B7=CE 359(=B9=DD=C6=F7=B5=BF, 3=C3=FE)
+(=C1=D6)=B5=A5=BA=EA=B1=E2=BE=EE (www.devgear.co.kr 02-595-4288 ask@embarcadero.kr)
+</td>
+</tr>
+</table><div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MTM0MTA1Mjc4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDY2MA=3D=3D&UE9TVF9JRD0yMDE2MDYzMDEwMDAwOTM0NjYyNw=3D=3D&VEM9MjAxNjA3MDc=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+
+

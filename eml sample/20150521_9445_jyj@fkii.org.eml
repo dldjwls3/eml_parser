@@ -1,0 +1,182 @@
+Received: (qmail 31336 invoked from network); 21 May 2015 00:48:06 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda02.wmail.naver.com with SMTP; 21 May 2015 00:48:06 -0000
+Received: from [202.167.215.64] ([202.167.215.64]) 
+          by crcvmail02.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1432169286.597440.3552541584.crcvmail02
+          for <jonghyun.kim@dforensic.com>; 
+          Thu, 21 May 2015 09:48:06 +0900 (KST) 
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t4L0lnB00DB2;
+	Thu, 21 May 2015 09:47:49 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t4L0lnB00DB2
+X-SmartFilter: FROM,t4L0lnB00DB2,joseph@duzon.com
+x-forward-id: 1432169202339_935649226
+recvDate: Thu, 21 May 2015 09:46:42 +0900
+x-newturns-hashkey: 17be2e7f6b269db22737ff05ea24bc70b85280f183c2c21f61987dc08b426ae1
+Received: from external ([209.85.217.174])
+	by smf.duzon.com (1.0) id t4L0lZT00D88;
+	Thu, 21 May 2015 09:47:36 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t4L0lZT00D88
+X-SmartFilter: FROM,t4L0lZT00D88,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by lbcmx3 with SMTP id mx3so6718934lbc.1
+        for <joseph@duzon.com>; Wed, 20 May 2015 17:47:34 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:subject:to
+         :from:reply-to:errors-to:mime-version:date:message-id:importance
+         :organization:content-type:content-transfer-encoding;
+        bh=Oex1SMMlRmu87/CbRVzLqWs55/+gann7pCtArCtpMbo=;
+        b=cYb9toH8AKwuJwkA4SwuUZG1oPlbzb340oEh+Rcrq2ClY9OaKq8LzPEGQ3JBx+n902
+         50ArmyXQKjgF3f7O5kEOGu+myyquWOH+1fjybLr6PzXmVFXp7p22TnV2WYs+4RdVlQok
+         BWKRpUWx3eJs1iTsPTF/jiQ8C4Rk7kWX/RJoV/dHDV5tfALYUbcMhaY4jT5vn625yHJp
+         3/0JQNTrHth/n3FrqMzptbXwnpPh/TEGWdYCvWBHQ/hLieugaMLhq4/Lpu7a5CmbD1ak
+         LnqCD55i9BIwhCJNCy8VE94gaZ0a5F88AMdHZKMEYLaPgOXEe4exwEqzoTPbR6bRi0sG
+         bIHw==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+X-Received: by 10.152.5.3 with SMTP id o3mr60737lao.45.1432169254204;
+        Wed, 20 May 2015 17:47:34 -0700 (PDT)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.186.169 with SMTP id fl9csp63930ldc;
+        Wed, 20 May 2015 17:47:32 -0700 (PDT)
+X-Received: by 10.70.49.47 with SMTP id r15mr228310pdn.114.1432169250832;
+        Wed, 20 May 2015 17:47:30 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id mm7si28789642pbc.110.2015.05.20.17.47.28
+        for <forensic.duzon@gmail.com>;
+        Wed, 20 May 2015 17:47:30 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t4L0lJ700D62;
+	Thu, 21 May 2015 09:47:19 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t4L0lJ700D62
+X-SmartFilter: FROM,t4L0lJ700D62,forensic@duzon.com
+x-forward-id: 1432169171513_2433444502
+recvDate: Thu, 21 May 2015 09:46:11 +0900
+x-newturns-hashkey: 38ea7611bc3c5c5a4ee39cfb64c11cc82e9edf0acf6c53c9e67f350049a7da0e
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id t4L0l6q00D53;
+	Thu, 21 May 2015 09:47:06 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t4L0l6q00D53
+X-SmartFilter: FROM,t4L0l6q00D53,user29001@sendd.ozmailer.com
+Subject: =?EUC-KR?B?U1ex4rz6ILDFt6EgyPG4wSCw+LHeseK+9yDBtrvnIL7Is7u15biztM+02S4=?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?x9GxucGkuri76r73v6zH1ci4?=" <jyj@fkii.org>
+Reply-To: <jyj@fkii.org>
+Errors-To: <jyj@fkii.org>
+MIME-Version: 1.0
+Date: Thu, 21 May 2015 09:47:06 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1791566@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +fFYpB3G1Hbqa0ixyueaFL/dFL0YbzJqbXmmKAt/KApYkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=6357517" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Mail</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: 'µ¸¿ò',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<p>¾È³çÇÏ½Ê´Ï±î.</p><p>ÇÑ±¹Á¤º¸»ê¾÷¿¬ÇÕÈ¸ÀÔ´Ï´Ù. </p><p><span style="background: rgb(255, 255, 255); font-size: 9pt;"></span>&nbsp;</p><p><span style="background: rgb(255, 255, 255); font-size: 9pt;">Á¤º¸Åë½Å»ê¾÷ÁøÈï¿ø</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">(NIPA)</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">Àº </span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">SW</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">±â¼ú °Å·¡ È°¼ºÈ­¸¦ À§ÇØ </span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">SW</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">±â¼ú</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">(</span><span s!
+ tyle="background: rgb(255, 255, 255); font-size: 9pt;">ÀÚ»ê</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">)</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">ÀÇ ÀÌÀü </span><span style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-size: 9pt;">¹× Àç°³¹ßÀ» Áö¿øÇÏ´Â</span><span style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-size: 9pt; font-weight: bold;">¡¸</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-family: ¸¼Àº °íµñ; font-size: 9pt; font-weight: bold;">2015</span><span style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-size: 9pt; font-weight: bold;">³â </span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-family: ¸¼Àº °íµñ; font-size: 9pt; font-weight: bold;">SW</span><span style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; fo!
+ nt-size: 9pt; font-weight: bold;">ÀÚ»êÀç°³¹ß»ç¾÷</span><span style="ba
+ckground: rgb(255, 255, 255); letter-spacing: -0.2pt; font-size: 9pt; font-weight: bold;">¡¹</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">*</span><span style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-size: 9pt;">À» ÃßÁøÇÕ´Ï´Ù</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: -0.2pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">.</span>&nbsp;</p><p><br></p><p><span style="background: rgb(255, 255, 255); font-size: 9pt;">º» °ø¸ð¿¡ Âü¿©ÇÏ´Â </span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">SW</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">±â¼ú °ø±Þ±â¾÷¿¡°Ô´Â ÇâÈÄ </span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">SW</span><span style="background: rgb(255, 255, 255); font-size: 9p!
+ t;">±â¼ú¼³¸íÈ¸¿¡¼­ ÀÚ»çÀÇ </span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">SW</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">±â¼úÀ» ¼Ò°³ÇÏ´Â ±âÈ¸¸¦ Á¦°øÇÏ°í</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">, SW</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">±â¼ú ÀÌÀü¿¡ ÇÊ¿äÇÑ ¼ö¿äÃ³ ¿¬°è ¹× ¸¶ÄÉÆÃ È°µ¿</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">, </span><span style="background: rgb(255, 255, 255); font-size: 9pt;">¹ý·üÄÁ¼³ÆÃ µîÀ» Áö¿øÇÕ´Ï´Ù</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ¸¼Àº °íµñ; font-size: 9pt;">.</span>&nbsp;</p><p><br></p><p>¤· ´ë»ó</p><p><span style="background: rgb(255, 255, 255); font-size: 9pt;">&nbsp;&nbsp;&nbsp; - º¸À¯ ÁßÀ!
+ Î </span><span lang="EN-US" style="background: rgb(255, 255, 255); let
+ter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">SW</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">±â¼ú</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">(</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">ÀÚ»ê</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">)</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">¿¡ ´ëÇØ ±â¼ú ÀÌÀü</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">(</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">¾çµµ</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">, </span><span style="background: rgb(255, 255, 255); font-size: 9pt;">½Ç½Ã µî</span><span lang="EN-US" style="backgr!
+ ound: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">) </span><span style="background: rgb(255, 255, 255); font-size: 9pt;">ÀÇ»ç°¡ ÀÖ´Â ±¹³» Áß¼Ò </span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">SW</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">±â¾÷ ¹× ±â°ü</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">(</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">´ëÇÐ</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">, </span><span style="background: rgb(255, 255, 255); font-size: 9pt;">¹Î°£¿¬±¸¼Ò</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">)</span></p><p><span style="background: rgb(255, 255, 255); font-s!
+ ize: 9pt;">&nbsp;&nbsp;&nbsp; - ÀÚ»ç°¡ ¼ÒÀ¯ÇÑ </span><span lang="EN-US
+" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">SW</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">±â¼ú</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">(</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">ÀÚ»ê</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">)</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">À» Å¸ ±â¾÷</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">(</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">¶Ç´Â ±â°ü</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">)</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">¿¡°Ô !
+ ÀÌÀüÇÏ¿© ÀÚ»çÀÇ ¸ÅÃâ</span><span lang="EN-US" style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-family: ÈÞ¸Õ¸íÁ¶; font-size: 9pt;">/</span><span style="background: rgb(255, 255, 255); font-size: 9pt;">¼öÀÍÀ» Áõ´ëÇÏ°íÀÚ ÇÏ´Â ±â¾÷</span><br></p><p><!--StartFragment--></p><p class="0" style="text-indent: -30pt; -ms-layout-grid-mode: both;"><span lang="EN-US" style="background: rgb(255, 255, 255); font-family: ÈÞ¸Õ¸íÁ¶; font-size: 15pt;"></span><span style="background: rgb(255, 255, 255); letter-spacing: 0pt; font-size: 9pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p><br></p>
+
+
+
+<title>¢Æ SW±â¼ú °Å·¡ Èñ¸Á °ø±Þ±â¾÷ Á¶»ç  ¢Æ</title>
+
+
+
+<!-- Save for Web Slices (EDM3-02.jpg) -->
+<img width="600" height="638" alt="" src="http://www.fkii.org/upload/files/2015/sw/swtrade/main1_2.jpg" border="0" usemap="#Map2"><br>
+<img width="600" height="680" alt="" src="http://www.fkii.org/upload/files/2015/sw/swtrade/main3_1.jpg" border="0" usemap="#Map2MapMap">
+<map name="Map2MapMap">
+  
+
+
+<area href="http://www.ozmailer.com/oele/o9hnj_3s9hp_yfusl0.php" shape="rect" coords="175,564,409,642" target="_blank">
+  
+
+
+<area href="mailto:%20swasset@nipa.kr" shape="rect" coords="257,437,402,460" target="_blank">
+</map>
+<br>
+<br>
+<br>
+<!-- End Save for Web Slices --><p><br></p>
+		<!--OZ_ModuleStart-->
+		<div align='center'>
+			<table cellpadding='0' cellspacing='0'>
+				<tr>
+					<td height='11'></td>
+				</tr>
+			</table>
+			
+			<table width='630' height='100%' cellpadding='0' cellspacing='0' style='border:2px solid #EFEFEF;'>
+				
+			<tr>
+				<td>
+					<table width='100%' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+						<tr>
+							<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>ÇÑ±¹Á¤º¸»ê¾÷¿¬ÇÕÈ¸´Â ¼ö½ÅÀ» µ¿ÀÇÇÑ ºÐµé¿¡ ÇÑ ÇØ ¸ÞÀÏ¸µ ÇÏ°í ÀÖ½À´Ï´Ù.</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+				
+				
+			<tr>
+				<td>
+					<table width='100%' height='47' cellpadding='0' cellspacing='0' bgcolor='#EFEFEF'>
+						<tr>
+							<td align='center' valign='top' height='47'>
+								<table cellpadding='0' cellspacing='0'>
+									<tr>
+										<td height='8'></td>
+									</tr>
+									<tr>
+										
+		<td align='left' valign='top'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=6357517' target=_blank><img src='http://img.ozmailer.com/mail/good_template/bottom_module_frame/button/unsubscribe_kor.png' border='0' alt='¼ö½Å°ÅºÎ' /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</div>
+		<!--OZ_ModuleEnd-->
+		<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+
+

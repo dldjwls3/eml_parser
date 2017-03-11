@@ -1,0 +1,990 @@
+Received: (qmail 19695 invoked by uid 100); 20 Sep 2016 22:40:07 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda003.wmail.worksmobile.com with SMTP;20 Sep 2016 22:40:07 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.co.kr (duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id pT9Xnez0QCmingoUIJq2DA
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 20 Sep 2016 22:40:07 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u8KMfkC005DC;
+	Wed, 21 Sep 2016 07:41:46 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u8KMfkC005DC
+X-SmartFilter: FROM,u8KMfkC005DC,joseph@duzon.com
+x-forward-id: <201609210739057191@send47.postman.co.kr>
+Received: from external ([209.85.161.180])
+	by smf.duzon.co.kr (1.0) id u8KMfNs005CA;
+	Wed, 21 Sep 2016 07:41:23 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u8KMfNs005CA
+X-SmartFilter: FROM,u8KMfNs005CA,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-yw0-f180.google.com with SMTP id i129so25132625ywb.0
+        for <joseph@duzon.com>; Tue, 20 Sep 2016 15:39:37 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:dkim-signature:from:to:reply-to
+         :subject:date:list-unsubscribe:mime-version:message-id
+         :content-transfer-encoding;
+        bh=RZ7OtszcxQF7IquezucJOVjA1GHudZvVlDEjGqUrJbw=;
+        b=BX4nX+DbOcY8uHPAErf6rROn/8HOdjpk/ijj638Wi3DOWTrWO9JuQJD1lynE3WtAkZ
+         wSecLODWxjzEEtmCDo0XqzNFnmctlziZq3pJL+DgD7/KNYDzpeedeKCs8adV6YvrGac8
+         3n87L7pMC/zTxp8Hf8W3Qz+Ppk/hfsZyZzXIdJxT+n0YOAsEE2bU0qQc5Xru4Vnei731
+         e+jM4+ndXCfkoZERoY6dMdvbJhkwHp9ka0p8GtDEYN80l/PwE1mdQrf+aNcJxhLZsLG4
+         457MgoYAh5uJMB0uFr9cErmGzeVxYyCWp5uiIrCdUiuGV60tBov0ZuMTH7ZPrdPO5fas
+         pMsA==
+X-Gm-Message-State: AE9vXwNqmiX+f9MVOqG5ith4R/Jydz82u0iJcYNCPfXnVJoloHly+VMHxYF80rMNSS0VECPtAR8BtjjLfAMW4vLqd3tqv3E=
+X-Received: by 10.129.34.2 with SMTP id i2mr30187201ywi.3.1474411176783;
+        Tue, 20 Sep 2016 15:39:36 -0700 (PDT)
+X-Forwarded-To: pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.38.71 with SMTP id m68csp1767826vsm;
+        Tue, 20 Sep 2016 15:39:35 -0700 (PDT)
+X-Received: by 10.98.54.199 with SMTP id d190mr59303517pfa.121.1474411175869;
+        Tue, 20 Sep 2016 15:39:35 -0700 (PDT)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id d8si13725418pfj.103.2016.09.20.15.39.34
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 20 Sep 2016 15:39:35 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@postman.co.kr;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u8KMf8h005BF;
+	Wed, 21 Sep 2016 07:41:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u8KMf8h005BF
+X-SmartFilter: FROM,u8KMf8h005BF,forensic@duzon.com
+x-forward-id: <201609210739057191@send47.postman.co.kr>
+Received: from external ([119.207.76.47])
+	by smf.duzon.co.kr (1.0) id u8KMeob005B9;
+	Wed, 21 Sep 2016 07:40:50 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u8KMeob005B9
+X-SmartFilter: FROM,u8KMeob005B9,return_postman0921073000@return.postman.co.kr
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1474411145;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=oGKCQbUV5dUXmzhFDeWra/4GGJ460BEDNCfa2R4cyRU=;
+	b=j7P5jTqz+kWwtszfWiDVkh5kPECglJnE7gTvJ1HtriReqm9GHEVD+U9+DEr8fU+o
+	cdobSHW3rB2hlJsg6q11kLGabW4vqMHzgNO/YH94+QuSf7Kwj2OaXyPjDoZBuq6VaeV
+	egCTUaWzna2VimviWATku1sSZ40slOo1dmCsWO44=
+From: "=?euc-kr?B?taW66rHivu4=?=" <edu@embarcadero.kr>
+To: "=?euc-kr?B?sO2wtLTU?=" <forensic@duzon.com>
+Reply-to: <edu@embarcadero.kr>
+Subject: =?euc-kr?B?W7Wluuqx4r7uXSBSQUQgU3R1ZA==?= =?euc-kr?B?aW8sIMH2sd0gMTAlIMfSwM4gud4=?= =?euc-kr?B?wLi8vL/kIC0gw9a9xSDAqbW1v+wgQW4=?= =?euc-kr?B?bml2ZXJzYXJ5IL+htfC8xyDB9g==?= =?euc-kr?B?v/ggvve1pcDMxq4h?=
+Date: Wed, 21 Sep 2016 07:39:05 +0900
+X-WORKER_ID: <single.default_Worker_44>
+X-MAIL_ID: <UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ==>
+X-MEMBER_ID: <TV9JRD04MjcwMTgzMzE2>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDk2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=beomyong&customer_id=8270183316>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201609210739057191@send47.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: wmen+6J4p635WrlY7BwdpBmZKotmKA+YkXm=
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head><title>=BA=A3=B8=A6=B8=B0 =B9=F6=C0=FC =C3=D6=BD=C5 =BF=A1=B5=F0=BC=C7 - 10% =C7=D2=C0=CE</title><link rel=3D"SHORTCUT ICON" href=3D"/e/ref.ico" />
+<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type">
+<meta content=3D"width=3Ddevice-width" name=3D"viewport">
+</head>
+<body style=3D"-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;word-break: keep-all;-ms-hyphens: none; -webkit-hyphens:none ; -moz-hyphens: none; hyphens: none ;"><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<style align=3D"center" class=3D"float-center" type=3D"text/css">@media only screen {
+html {
+min-height: 100%;
+background: #f3f3f3;
+}
+}
+
+@media only screen and (max-width: 596px) {
+.....small-float-center {
+margin: 0 auto !important;
+float: none !important;
+text-align: center !important;
+}
+.....small-text-center {
+text-align: center !important;
+}
+.....small-text-left {
+text-align: left !important;
+}
+.....small-text-right {
+text-align: right !important;
+}
+}
+
+@media only screen and (max-width: 596px) {
+table.body table.container .hide-for-large {
+display: block !important;
+width: auto !important;
+overflow: visible !important;
+}
+}
+
+@media only screen and (max-width: 596px) {
+table.body table.container .row.hide-for-large,
+table.body table.container .row.hide-for-large {
+display: table !important;
+width: 100% !important;
+}
+}
+
+@media only screen and (max-width: 596px) {
+table.body table.container .show-for-large {
+display: none !important;
+width: 0;
+mso-hide: all;
+overflow: hidden;
+}
+}
+
+@media only screen and (max-width: 596px) {
+table.body img {
+width: auto !important;
+height: auto !important;
+}
+table.body center {
+min-width: 0 !important;
+}
+table.body .container {
+width: 95% !important;
+}
+table.body .columns,
+table.body .column {
+height: auto !important;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding-left: 16px !important;
+padding-right: 16px !important;
+}
+table.body .columns .column,
+table.body .columns .columns,
+table.body .column .column,
+table.body .column .columns {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+table.body .collapse .columns,
+table.body .collapse .column {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+td.small-1,
+th.small-1 {
+display: inline-block !important;
+width: 8.33333% !important;
+}
+td.small-2,
+th.small-2 {
+display: inline-block !important;
+width: 16.66667% !important;
+}
+td.small-3,
+th.small-3 {
+display: inline-block !important;
+width: 25% !important;
+}
+td.small-4,
+th.small-4 {
+display: inline-block !important;
+width: 33.33333% !important;
+}
+td.small-5,
+th.small-5 {
+display: inline-block !important;
+width: 41.66667% !important;
+}
+td.small-6,
+th.small-6 {
+display: inline-block !important;
+width: 50% !important;
+}
+td.small-7,
+th.small-7 {
+display: inline-block !important;
+width: 58.33333% !important;
+}
+td.small-8,
+th.small-8 {
+display: inline-block !important;
+width: 66.66667% !important;
+}
+td.small-9,
+th.small-9 {
+display: inline-block !important;
+width: 75% !important;
+}
+td.small-10,
+th.small-10 {
+display: inline-block !important;
+width: 83.33333% !important;
+}
+td.small-11,
+th.small-11 {
+display: inline-block !important;
+width: 91.66667% !important;
+}
+td.small-12,
+th.small-12 {
+display: inline-block !important;
+width: 100% !important;
+}
+.....columns td.small-12,
+.....column td.small-12,
+.....columns th.small-12,
+.....column th.small-12 {
+display: block !important;
+width: 100% !important;
+}
+table.body td.small-offset-1,
+table.body th.small-offset-1 {
+margin-left: 8.33333% !important;
+Margin-left: 8.33333% !important;
+}
+table.body td.small-offset-2,
+table.body th.small-offset-2 {
+margin-left: 16.66667% !important;
+Margin-left: 16.66667% !important;
+}
+table.body td.small-offset-3,
+table.body th.small-offset-3 {
+margin-left: 25% !important;
+Margin-left: 25% !important;
+}
+table.body td.small-offset-4,
+table.body th.small-offset-4 {
+margin-left: 33.33333% !important;
+Margin-left: 33.33333% !important;
+}
+table.body td.small-offset-5,
+table.body th.small-offset-5 {
+margin-left: 41.66667% !important;
+Margin-left: 41.66667% !important;
+}
+table.body td.small-offset-6,
+table.body th.small-offset-6 {
+margin-left: 50% !important;
+Margin-left: 50% !important;
+}
+table.body td.small-offset-7,
+table.body th.small-offset-7 {
+margin-left: 58.33333% !important;
+Margin-left: 58.33333% !important;
+}
+table.body td.small-offset-8,
+table.body th.small-offset-8 {
+margin-left: 66.66667% !important;
+Margin-left: 66.66667% !important;
+}
+table.body td.small-offset-9,
+table.body th.small-offset-9 {
+margin-left: 75% !important;
+Margin-left: 75% !important;
+}
+table.body td.small-offset-10,
+table.body th.small-offset-10 {
+margin-left: 83.33333% !important;
+Margin-left: 83.33333% !important;
+}
+table.body td.small-offset-11,
+table.body th.small-offset-11 {
+margin-left: 91.66667% !important;
+Margin-left: 91.66667% !important;
+}
+table.body table.columns td.expander,
+table.body table.columns th.expander {
+display: none !important;
+}
+table.body .right-text-pad,
+table.body .text-pad-right {
+padding-left: 10px !important;
+}
+table.body .left-text-pad,
+table.body .text-pad-left {
+padding-right: 10px !important;
+}
+table.menu {
+width: 100% !important;
+}
+table.menu td,
+table.menu th {
+width: auto !important;
+display: inline-block !important;
+}
+table.menu.vertical td,
+table.menu.vertical th,
+table.menu.small-vertical td,
+table.menu.small-vertical th {
+display: block !important;
+}
+table.menu[align=3D"center"] {
+width: auto !important;
+}
+}
+</style>
+<!-- <style> -->
+<table class=3D"body" style=3D"Margin: 0; background: #efefef; border-collapse: collapse; border-spacing: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td align=3D"center" class=3D"float-center" style=3D" Margin: 0 auto; border-collapse: collapse !important; color: #0a0a0a; float: none; font-family: Helvetica, Arial, sans-serif; line-height: 19px; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; " valign=3D"top">
+<center style=3D"min-width: 580px; width: 100%;"><!-- 6/6 Logo - View in browser -->
+<table align=3D"center" class=3D"wrapper header float-center" style=3D"Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: middle;">
+<td class=3D"wrapper-inner" style=3D" border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: middle; ">
+<table align=3D"center" class=3D"container" style=3D"background: #fefefe; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 580px;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D"background: #333; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; line-height: 9px; margin: 0; padding: 10px 20px 10px 20px; text-align: left; vertical-align: middle; " valign=3D"middle">
+<table class=3D"row collapse" style=3D"border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: middle; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: middle;">
+<th class=3D"small-12 large-6 columns first" style=3D"Margin: 0 auto; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; line-height: 19px; margin: 0; padding: 0; padding-left: 0; text-align: left; width: 298px; height:34px" valign=3D"middle">
+<table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; line-height: 19px; margin: 0; padding: 0px 0px 0px 0px; text-align: left;" valign=3D"middle">
+<p class=3D"text-left small-text-center" style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; line-height: 9px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-align: left; height:34px"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://s608.t.en25.com/e/er?s=3D608&lid=3D11994&elqTrackId=3Da3e1024d93024d69be2fa61b47841327&elq=3D052acae8de06495b915e2bd46fc40b82&elqaid=3D18800&elqat=3D1"><img align=3D"left" alt=3D"Embarcadero" border=3D"0" height=3D"34" src=3D"http://img.en25.com/EloquaImages/clients/Embarcadero/%7Bf3806ec4-03b3-4fd1-8cbc-75cd8cbb5c3d%7D_Embarcadero_Logo_White_Header_2016.png" width=3D"200"></a></p>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+<th class=3D"small-12 large-6 columns last" style=3D"Margin: 0 auto; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0px !important; padding-left: 0; padding-right: 0; text-align: left; width: 298px;" valign=3D"middle">&nbsp;</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+<style class=3D"float-center" align=3D"center" type=3D"text/css">
+span.MsoHyperlink {
+mso-style-priority:99;
+color:inherit;
+}
+span.MsoHyperlinkFollowed {
+mso-style-priority:99;
+color:inherit;
+}
+@media only screen {
+html {
+min-height: 100%;
+background: #f3f3f3;
+}
+}
+@media only screen and (max-width: 596px) {
+.....small-float-center {
+margin: 0 auto !important;
+float: none !important;
+text-align: center !important;
+}
+.....small-text-center {
+text-align: center !important;
+}
+.....small-text-left {
+text-align: left !important;
+}
+.....small-text-right {
+text-align: right !important;
+}
+}
+@media only screen and (max-width: 596px) {
+table.body table.container .hide-for-large {
+display: block !important;
+width: auto !important;
+overflow: visible !important;
+}
+}
+@media only screen and (max-width: 596px) {
+table.body table.container .row.hide-for-large,
+table.body table.container .row.hide-for-large {
+display: table !important;
+width: 100% !important;
+}
+}
+@media only screen and (max-width: 596px) {
+table.body table.container .show-for-large {
+display: none !important;
+width: 0;
+mso-hide: all;
+overflow: hidden;
+}
+}
+@media only screen and (max-width: 596px) {
+table.body img {
+width: auto !important;
+height: auto !important;
+}
+table.body center {
+min-width: 0 !important;
+}
+table.body .container {
+width: 95% !important;
+}
+table.body .columns,
+table.body .column {
+height: auto !important;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding-left: 16px !important;
+padding-right: 16px !important;
+}
+table.body .columns .column,
+table.body .columns .columns,
+table.body .column .column,
+table.body .column .columns {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+table.body .collapse .columns,
+table.body .collapse .column {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+td.small-1,
+th.small-1 {
+display: inline-block !important;
+width: 8.33333% !important;
+}
+td.small-2,
+th.small-2 {
+display: inline-block !important;
+width: 16.66667% !important;
+}
+td.small-3,
+th.small-3 {
+display: inline-block !important;
+width: 25% !important;
+}
+td.small-4,
+th.small-4 {
+display: inline-block !important;
+width: 33.33333% !important;
+}
+td.small-5,
+th.small-5 {
+display: inline-block !important;
+width: 41.66667% !important;
+}
+td.small-6,
+th.small-6 {
+display: inline-block !important;
+width: 50% !important;
+}
+td.small-7,
+th.small-7 {
+display: inline-block !important;
+width: 58.33333% !important;
+}
+td.small-8,
+th.small-8 {
+display: inline-block !important;
+width: 66.66667% !important;
+}
+td.small-9,
+th.small-9 {
+display: inline-block !important;
+width: 75% !important;
+}
+td.small-10,
+th.small-10 {
+display: inline-block !important;
+width: 83.33333% !important;
+}
+td.small-11,
+th.small-11 {
+display: inline-block !important;
+width: 91.66667% !important;
+}
+td.small-12,
+th.small-12 {
+display: inline-block !important;
+width: 100% !important;
+}
+.....columns td.small-12,
+.....column td.small-12,
+.....columns th.small-12,
+.....column th.small-12 {
+display: block !important;
+width: 100% !important;
+}
+table.body td.small-offset-1,
+table.body th.small-offset-1 {
+margin-left: 8.33333% !important;
+Margin-left: 8.33333% !important;
+}
+table.body td.small-offset-2,
+table.body th.small-offset-2 {
+margin-left: 16.66667% !important;
+Margin-left: 16.66667% !important;
+}
+table.body td.small-offset-3,
+table.body th.small-offset-3 {
+margin-left: 25% !important;
+Margin-left: 25% !important;
+}
+table.body td.small-offset-4,
+table.body th.small-offset-4 {
+margin-left: 33.33333% !important;
+Margin-left: 33.33333% !important;
+}
+table.body td.small-offset-5,
+table.body th.small-offset-5 {
+margin-left: 41.66667% !important;
+Margin-left: 41.66667% !important;
+}
+table.body td.small-offset-6,
+table.body th.small-offset-6 {
+margin-left: 50% !important;
+Margin-left: 50% !important;
+}
+table.body td.small-offset-7,
+table.body th.small-offset-7 {
+margin-left: 58.33333% !important;
+Margin-left: 58.33333% !important;
+}
+table.body td.small-offset-8,
+table.body th.small-offset-8 {
+margin-left: 66.66667% !important;
+Margin-left: 66.66667% !important;
+}
+table.body td.small-offset-9,
+table.body th.small-offset-9 {
+margin-left: 75% !important;
+Margin-left: 75% !important;
+}
+table.body td.small-offset-10,
+table.body th.small-offset-10 {
+margin-left: 83.33333% !important;
+Margin-left: 83.33333% !important;
+}
+table.body td.small-offset-11,
+table.body th.small-offset-11 {
+margin-left: 91.66667% !important;
+Margin-left: 91.66667% !important;
+}
+table.body table.columns td.expander,
+table.body table.columns th.expander {
+display: none !important;
+}
+table.body .right-text-pad,
+table.body .text-pad-right {
+padding-left: 10px !important;
+}
+table.body .left-text-pad,
+table.body .text-pad-left {
+padding-right: 10px !important;
+}
+table.menu {
+width: 100% !important;
+}
+table.menu td,
+table.menu th {
+width: auto !important;
+display: inline-block !important;
+}
+table.menu.vertical td,
+table.menu.vertical th,
+table.menu.small-vertical td,
+table.menu.small-vertical th {
+display: block !important;
+}
+table.menu[align=3D"center"] {
+width: auto !important;
+}
+}
+</style>
+
+<!-- <style> -->
+<table style=3D"Margin: 0; background: #efefef; border-collapse: collapse; border-spacing: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; height: 100%; line-height: 19px; margin: 0; text-align: left; vertical-align: top; width: 100%;" data-made-with-foundation=3D"" class=3D"body">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td valign=3D"top" align=3D"center" style=3D" Margin: 0 auto; border-collapse: collapse !important; color: #0a0a0a; float: none; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; " class=3D"float-center"><center style=3D"min-width: 580px; width: 100%;">
+<table align=3D"center" style=3D"Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;" class=3D"wrapper header float-center">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D" Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; padding: 10px 0px 10px; text-align: left; vertical-align: top; " class=3D"wrapper-inner"><table align=3D"center" style=3D"Margin: 0 auto; background:#004276; border-radius: 6px; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 580px;" class=3D"container">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D" Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; "><table style=3D"border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;" class=3D"row collapse">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"margin: 0 auto; padding: 0; padding-bottom: 0px !important; padding-left: 0; padding-right: 0; text-align: left; width: 180px;" class=3D"small-12 large-4 columns first"><table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"margin: 0; padding: 10px 0px 10px 20px; text-align: left;"> <img alt=3D"Anniversary Update" height=3D"101" width=3D"180" src=3D"http://img.en25.com/EloquaImages/clients/Embarcadero/%7Bf608522c-2c15-4a03-a680-9f9c7dbba46b%7D_windows_10_anniversary_update_180_blue.png" style=3D"display: inline; float: none; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; clear: both; height:101px; width:180px" align=3D"none"> </th>
+</tr>
+</tbody>
+</table>
+</th>
+<th style=3D"margin: 0 auto; padding: 0; padding-bottom: 0px !important; padding-left: 0; padding-right: 0; text-align: left; width: 400px;" class=3D"small-12 large-8 columns last"> <table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D" margin: 0; padding: 25px 10px 20px 20px; text-align: left;"> <table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D" Margin: 0; border-collapse: collapse !important; font-family: Helvetica, Arial, sans-serif; font-size: 20px; font-weight: bold; line-height: 26px; margin: 0; padding: 0; text-align: left; vertical-align: top; "><p style=3D"font-size: 23px; line-height: 35px; color: #F7F7F7; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; margin: 0 0 0px; padding: 0;" align=3D"left">RAD Studio =BA=A3=B8=A6=B8=B0 =BE=F7=B5=A5=C0=CC=C6=AE1 =C3=E2=BD=C3<br />
+- <font color=3D"yellow"><i>10% =C7=D2=C0=CE</i></font> =C7=FD=C5=C3 =B9=DE=C0=B8=BC=BC=BF=E4!</p></td>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+<table align=3D"center" style=3D"Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;" class=3D"wrapper header float-center">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D" Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; " class=3D"wrapper-inner"><table align=3D"center" style=3D"Margin: 0 auto; background: #fefefe; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 580px;" class=3D"container">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D" Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; "><table style=3D"border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;" class=3D"row collapse">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"Margin: 0 auto; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0px !important; padding-left: 0; padding-right: 0; text-align: left; width: 580px;" class=3D"small-12 large-12 columns last"> <table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; padding: 10px 20px 20px 20px; text-align: left;"> <table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D"color: #333333; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 24px; font-size: 15px; padding: 0px 0px 0px 0px; word-break: keep-all; -ms-hyphens: none; -webkit-hyphens: none; -moz-hyphens: none; hyphens: none;"><p style=3D" font-weight: normal; font-size:14px;">=BF=A5=B9=D9=C4=AB=B5=A5=B7=CE=B4=C2 =B8=B6=C0=CC=C5=A9=B7=CE=BC=D2=C7=C1=C6=AE(MS)=BF=CD=C0=C7 =B1=E4=B9=D0=C7=D1 =BE=F7=B9=AB =C7=F9=B7=C2=C0=BB =C7=D8=BF=C0=B0=ED =C0=D6=BD=C0=B4=CF=B4=D9. =B8=B6=C0=CC=C5=A9=B7=CE=BC=D2=C7=C1=C6=AE(MS)=B4=C2 =C3=D6=BD=C5 =C0=A9=B5=B5=BF=EC =B9=F6=C0=FC =C3=E2=BD=C3=B8=A6 =C5=EB=C7=D8 =C0=FC=C3=BC=C0=FB=C0=CE =C0=A9=B5=B5=BF=EC =C7=C3=B7=A7=C6=FB=BF=A1 =B4=EB=C7=D1 UI/UX =C7=E2=BB=F3=B0=FA =BB=F5=B7=CE=BF=EE =B1=E2=B4=C9 =C3=DF=B0=A1(=C1=D6=B7=CE WinRT =B1=E2=B9=DD) =B5=EE =C0=FB=B1=D8=C0=FB=C0=CE =C1=F6=BF=F8=C0=BB =C7=CF=B0=ED =C0=D6=BD=C0=B4=CF=B4=D9. =C0=CC=BF=A1 =B8=C2=C3=DF=BE=EE RAD Studio =B6=C7=C7=D1 =C0=A9=B5=B5=B!
+ F=EC=C0=C7 =BE=F7=B5=A5=C0=CC=C6=
+=AE=B5=C8 =B1=E2=B4=C9=B5=E9=C0=BB =B1=B8=C7=F6=C7=D2 =BC=F6 =C0=D6=B5=B5=B7=CF =BA=FC=B8=A3=B0=D4 =C1=F6=BF=F8=C7=CF=B0=ED =C0=D6=BD=C0=B4=CF=B4=D9.</p>
+<p><strong>RAD Studio 10.1 =BA=A3=B8=A6=B8=B0 '=BE=F7=B5=A5=C0=CC=C6=AE1'=BF=A1=BC=AD=B4=C2 =BE=EE=B6=B2 =B1=E2=B4=C9=C0=BB =C1=A6=B0=F8=C7=D2=B1=EE=BF=E4?</strong>
+<ul>
+<li style=3D"font-family: malgun gothic; font-size: 15px">
+=C0=A9=B5=B5=BF=EC 10 Anniversary =BF=A1=B5=F0=BC=C7=C0=C7 =BB=F5=B7=CE=BF=EE =B1=E2=B4=C9=B5=E9=C0=BB =B1=B8=C7=F6=C7=D2 =BC=F6 =C0=D6=BD=C0=B4=CF=B4=D9.
+</li>
+<li style=3D"font-family: malgun gothic; font-size: 15px">
+iOS 10, =BE=C8=B5=E5=B7=CE=C0=CC=B5=E5 N (Nougat), macOX Sierra=B8=A6 =C1=F6=BF=F8=C7=D5=B4=CF=B4=D9.
+</li>
+<li style=3D"font-family: malgun gothic; font-size: 15px">
+=B4=F5 =C0=DA=BC=BC=C7=D1 =B3=BB=BF=EB=C0=BB =C8=AE=C0=CE=C7=D8=BA=B8=BC=BC=BF=E4: <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://tech.devgear.co.kr/delphi_news/425554" style=3D"text-decoration: none; target=3D"_blank"><font color=3D"blue">tech.devgear.co.kr/425554</font></a><br /><br />
+</li>
+</ul>
+
+</p>
+
+<!--<p>=BF=A5=B9=D9=C4=AB=B5=A5=B7=CE=C0=C7 =C0=A9=B5=B5=BF=EC10 =B1=E2=B4=C9 =C1=F6=BF=F8=C0=BB =C0=A7=C7=D1 =B3=EB=B7=C2=C0=BA =BC=BA=B0=F8=C0=FB=C0=B8=B7=CE =C6=F2=B0=A1=B5=C7=B0=ED =C0=D6=BD=C0=B4=CF=B4=D9. =B1=D7=B8=AE=B0=ED =C0=CC=C1=A6 10.1 =BA=A3=B8=A6=B8=B0 =BE=F7=B5=A5=C0=CC=C6=AE=B8=A6 =C5=EB=C7=D8 =B0=A1=C0=E5 =C3=D6=BD=C5 =C0=A9=B5=B5=BF=EC Anniversary =BF=A1=B5=F0=BC=C7=C0=BB RAD Studio=B0=A1 =BE=EE=B6=BB=B0=D4 =C1=F6=BF=F8=C7=CF=B4=C2=C1=F6 =C1=A4=BA=B8=BF=CD =B0=A1=C4=A1=B5=E9=C0=BB =B0=F8=C0=AF=C7=CF=B0=ED=C0=DA =C7=D5=B4=CF=B4=D9.<br /> =C0=CC=B9=F8 =BE=F7=B5=A5=C0=CC=C6=AE=BF=A1=B4=C2 =B1=E2=C1=B8 =BE=D6=C7=C3=B8=AE=C4=C9=C0=CC=BC=C7 =B8=B6=C0=CC=B1=D7=B7=B9=C0=CC=BC=C7 =C1=F6=BF=F8(=C0=A9=B5=B5=BF=EC =B5=A5=BD=BA=C5=A9=C5=BE =BA=EA=B8=B4=C1=F6 =C8=B0=BF=EB) =C7=E2=BB=F3 =B5=EE =BB=F5=B7=CE=BF=EE =B1=E2=B4=C9=B5=E9=C0=CC =C1=A6=B0=F8=B5=CB=B4=CF=B4=D9.</p>-->
+</td>
+</tr>
+
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D"color: #646464; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif ; font-weight: normal; line-height: 22px; font-size: 15px; padding: 0px 0px 0px 0px">
+
+<table class=3D"button radius medium-button success" style=3D"border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden; padding: 0;">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"left">
+<td style=3D" border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #004276; margin: 0; padding: 12px 0 10px; border: 1px solid #457a1a;" align=3D"center" bgcolor=3D"#004276" valign=3D"top"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttp://www.devgear.co.kr/radoffer" target=3D"_blank" style=3D"color: #ffffff; text-decoration: none; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 18px;">RAD Studio =C3=D6=BD=C5 =B9=F6=C0=FC(=BE=F7=B5=A5=C0=CC=C6=AE1 =C6=F7=C7=!
+ D4), =C1=F6=B1=DD <font color=
+=3D"yellow">10% =C7=D2=C0=CE</font> =B9=DE=C0=B8=BC=BC=BF=E4</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+<table style=3D"border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;" class=3D"row collapse" >
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"Margin: 0 auto; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0px !important; padding-left: 0; padding-right: 0; text-align: left; width: 420px;" class=3D"small-12 large-4 columns first">
+
+
+
+
+
+
+
+
+
+
+
+
+<table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;" >
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; padding: 10px 10px 0px 0px; text-align: left;" class=3D"small-12 large-8 columns last"> <table bgcolor=3D"#ffffff" style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;" >
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D" Margin: 0; border-collapse: collapse !important; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif ; font-weight: normal; line-height: 22px; font-size: 15px; color: #646464; margin: 0; text-align: left; vertical-align: top; " ><p style=3D"font-size: 15px; line-height: 24px; color:#333333; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; text-align: left; margin: 0 0 10px; padding: 0;" align=3D"left"><span style=3D"color:#da242b; font-weight:bold; word-break: keep-all;-ms-hyphens: none; -webkit-hyphens:none ; -moz-hyphens: none; hyphens: none ; ">&nbsp;=C6=AF=BA=B0 =C7=C1=B7=CE=B8=F0=BC=C7:</span> =BA=A3=B8=A6=B8=B0 10.1 =BE=F7=B5=A5=C0=CC=C6=AE 1 =C3=E2=BD=C3 =B1=E2=B3=E4<br />&nbsp;<strong>10% =C7=D2=C0=CE</strong> =C7=C1=B7=CE=B8=F0=BC=C7=C0=CC =C1=F8=C7=E0=C1=DF=C0=D4=B4=CF=B4=D9. =B9=D9=B7=CE =C1=F6=B1=DD =C7=D2=C0=CE =B9=DE=BE=C6<br />&nbsp;=B1=B8=C0=D4=C7=CF=B0=ED, <strong>=BA=B8=B3=CA=BD=BA =C6=D1=B5=B5 =B9=AB=B7=E1!</strong>=B7=CE =B9=!
+ DE=BE=C6=BA=B8=BC=BC=BF=E4.<br=
+ />&nbsp;=BA=BB =C7=C1=B7=CE=B8=F0=BC=C7=C0=BA <strong>2016=B3=E2 9=BF=F9 30=C0=CF=B1=EE=C1=F6</strong>=B8=B8 =C1=F8=C7=E0=B5=CB=B4=CF=B4=D9.</p>
+<p style=3D"font-size: 15px; line-height: 24px; color:#333333; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; text-align: left; margin: 0 0 10px; padding: 0;" align=3D"left">&nbsp;=C0=DA=BC=BC=C8=F7 =BA=B8=B1=E2: <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://www.devgear.co.kr/radoffer" target=3D"_blank">www.devgear.co.kr/radoffer</a></td>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+<th style=3D"Margin: 0 auto; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0px !important; padding-left: 0; padding-right: 0; text-align: left; width: 140px;" class=3D"small-12 large-8 columns last">
+<table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; padding: 0px 0px 0px 0px; text-align: left;"> <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp://www.devgear.co.kr/radoffer" target=3D"_blank"><img src=3D"http://img.en25.com/EloquaImages/clients/Embarcadero/%7B1d14049d-46db-4a1b-a51e-94021f73459d%7D_10percent.png" alt=3D"Get 10% OFF" width=3D"140" height=3D"140" style=3D"display: inline; float: none; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; clear: both;" align=3D"none"></a> </th>
+</tr>
+</tbody>
+</table>
+
+
+
+
+</th>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D"color: #646464; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif ; font-weight: normal; line-height: 22px; font-size: 15px; padding: 0px 0px 0px 0px"><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"width: 100%; border-collapse: collapse; border-spacing: 0; vertical-align: top; text-align: left; padding: 0; color: #646464;">
+<tr style=3D"text-align: center; vertical-align: top; padding: 0;" align=3D"center">
+<td align=3D"left" valign=3D"top" style=3D" border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 10px;"><div style=3D"width: 100%; margin: auto;">
+
+
+
+
+
+
+<!--<table class=3D"button radius medium-button success" width=3D"100%" style=3D"border-spacing: 0; border-cllapse: collapse; vertical-align: top; text-align: left; overflow: hidden; padding 0">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"left">
+<td style=3D" border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: 300; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #004276; margin: 0; padding: 12px 0 10px; border: 1px solid #457a1a;" align=3D"center" bgcolor=3D"#004276" valign=3D"top"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAwNg=3D=3D&URL=3Dhttp://tech.devgear.co.kr/425554" target=3D"_blank" style=3D"color: #ffffff; text-decoration: none; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 18px;">1=B3=E2 =C0=AF=C1=F6=BA=B8=BC=F6=B0=E8=BE=E0(Update Subscription) =B0=ED=B0=B4=C0=CC=B!
+ 6=F3=B8=E9, <br />=C1=F6=B1=DD =
+=BE=F7=B5=A5=C0=CC=C6=AE1=C0=BB =B9=DE=C0=B8=BC=BC=BF=E4. </a></td>
+<td width=3D"20"></td>
+<td style=3D" border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: 300; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #004276; margin: 0; padding: 12px 0 10px; border: 1px solid #457a1a;" align=3D"center" bgcolor=3D"#004276" valign=3D"top"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAwNw=3D=3D&URL=3Dhttp://tech.devgear.co.kr/425554" target=3D"_blank" style=3D"color: #ffffff; text-decoration: none; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 18px;">1=B3=E2 =C0=AF=C1=F6=BA=B8=BC=F6=B0=E8=BE=E0(Update Subscription) =B0=ED=B0=B4=C0=CC=B!
+ 6=F3=B8=E9, <br />=C1=F6=B1=DD =
+=BE=F7=B5=A5=C0=CC=C6=AE1=C0=BB =B9=DE=C0=B8=BC=BC=BF=E4. </a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+<!--<table class=3D"button radius medium-button success" style=3D"border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden; padding: 0;">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"left">
+<td style=3D" border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #004276; margin: 0; padding: 12px 0 10px; border: 1px solid #457a1a;" align=3D"center" bgcolor=3D"#004276" valign=3D"top"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAwOA=3D=3D&URL=3Dhttp://tech.devgear.co.kr/425554" target=3D"_blank" style=3D"color: #ffffff; text-decoration: none; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 18px;">1=B3=E2 =C0=AF=C1=F6=BA=B8=BC=F6=B0=E8=BE=E0(Update Subscription) =B0=ED=B!
+ 0=B4=C0=CC=B6=F3=B8=E9, <br />=
+=C1=F6=B1=DD =BE=F7=B5=A5=C0=CC=C6=AE1=C0=BB =B9=DE=C0=B8=BC=BC=BF=E4. </a></td>
+</tr>
+</tbody>
+</table>-->
+</div></td>
+</tr>
+</table></td>
+</tr>
+
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D"color: #646464; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif ; font-weight: normal; line-height: 22px; font-size: 15px; padding: 10px 0px 10px 0px"><div style=3D"width: 100%; margin: auto;">
+<table class=3D"button radius medium-button success" style=3D"border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden; padding: 0;">
+<tbody>
+<tr style=3D"vertical-align: top; text-align: left; padding: 0;" align=3D"left">
+<td style=3D" border-collapse: collapse !important; vertical-align: top; font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #ffffff; margin: 0; border: 1px solid #FF0101;" bgcolor=3D"#ffffff" valign=3D"top">
+<ul>
+<li>
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAwOQ=3D=3D&URL=3Dhttp://tech.devgear.co.kr/delphi_news/425554" target=3D"_blank" style=3D"color: #010000; text-decoration: none; font-weight: normal; font-family: Helvetica, Arial, sans-serif; font-size: 14px;">1=B3=E2 =C0=AF=C1=F6=BA=B8=BC=F6(Update Subscription) =B0=E8=BE=E0 =B0=ED=B0=B4=C0=CC=B6=F3=B8=E9 <br />: <font color=3D"blue"><strong>=C1=F6=B1=DD =BE=F7=B5=A5=C0=CC=C6=AE1=C0=BB =B4=D9=BF=EE=B7=CE=B5=E5 =B9=DE=C0=B8=BC=BC=BF=E4.</strong></font></a><br /><br />
+</li>
+<li>
+<a href=3D"mailto:sales@embarcadero.kr" target=3D"_blank" style=3D"color: #010000; text-decoration: none; font-weight: normal; font-family: Helvetica, Arial, sans-serif; font-size: 14px;">1=B3=E2 =C0=AF=C1=F6=BA=B8=BC=F6(Update Subscription) =B0=E8=BE=E0=C0=CC <u>=C1=BE=B7=E1=B5=C7=BC=CC=B3=AA=BF=E4?</u> <br />: <font color=3D"blue"><strong>=C1=F6=B1=DD =B5=A5=BA=EA=B1=E2=BE=EE=B7=CE =B9=AE=C0=C7=C7=CF=BC=BC=BF=E4(sales@embarcadero.kr)</strong></font></a><br /><br />
+</li>
+<li>
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAxMQ=3D=3D&URL=3Dhttp://tech.devgear.co.kr/board_in1/425293" target=3D"_blank" style=3D"color: #010000; text-decoration: none; font-weight: normal; font-family: Helvetica, Arial, sans-serif; font-size: 14px;">[=BF=C2=B6=F3=C0=CE =BC=BC=B9=CC=B3=AA] =B3=AA=B8=B8=C0=C7 =BE=DB =BF=CF=BC=BA=C7=CF=B1=E2 with =B5=A8=C6=C4=C0=CC(2016.9.29) <br />: <font color=3D"blue"><strong>=C1=F6=B1=DD =B5=EE=B7=CF=C7=CF=BC=BC=BF=E4.</strong></font></a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</center></td>
+</tr>
+</tbody>
+</table>
+
+
+<!-- <style> -->
+<table class=3D"body" style=3D"Margin: 0; background: #efefef; border-collapse: collapse; border-spacing: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td align=3D"center" class=3D"float-center" style=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0 auto; border-collapse: collapse !important; color: #0a0a0a; float: none; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 19px; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; word-wrap: break-word;" valign=3D"top">
+<center style=3D"min-width: 580px; width: 100%;"><!-- Row header Black --><!-- End Row header Black --><!-- 4/8 Columns Content - Logo/Text --><!-- End 4/8 Columns Content - Logo/Text --><!-- 12 Columns Content --><!-- End 12 Columns Content --><!-- 12 Columns Links Bar -->
+<table align=3D"center" class=3D"wrapper header float-center" style=3D"Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td class=3D"wrapper-inner" style=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+<table align=3D"center" class=3D"container" style=3D"Margin: 0 auto; background: #2d2d2d; border-collapse: collapse; border-spacing: 0; margin: 0 auto; margin-bottom: 16px solid #efefef; padding: 0; text-align: inherit; vertical-align: top; width: 580px;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+<table class=3D"row collapse" style=3D"border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th class=3D"small-12 large-12 columns last" style=3D"Margin: 0 auto; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0px !important; padding-left: 0; padding-right: 0; text-align: left; width: 588px;">
+<table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; padding: 10px 20px 10px 20px; text-align: left;">
+<p class=3D"center whitelinks" style=3D"Margin: 0; Margin-bottom: 10px; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 16px; margin: 0; margin-bottom: 10px; padding: 0; padding-top: 10px; text-align: center;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAxMg=3D=3D&URL=3Dhttp://www.devgear.co.kr/products/rad-studio?elqTrackId=3Da09f183f241d4fe0bfc1197339f459e0&elq=3De7cc578b992e48868ec6693483aa1145&elqaid=3D18717&elqat=3D1&elqCampaignId=3D" style=3D"Margin: 0; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">=C1=A6=C7=B0</a> &middot; <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzM!
+ zE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfS=
+UQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAxMw=3D=3D&URL=3Dhttp://tech.devgear.co.kr/?elqTrackId=3D286a354dc44243dc960ff0fd8b895e23&elq=3De7cc578b992e48868ec6693483aa1145&elqaid=3D18717&elqat=3D1&elqCampaignId=3D" style=3D"Margin: 0; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">=B1=E2=BC=FA=C0=DA=B7=E1</a> &middot; <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAxNA=3D=3D&URL=3Dhttp://www.devgear.co.kr/edu?elqTrackId=3Dea874d3920a946c9908c4b73fe103287&elq=3De7cc578b992e48868ec6693483aa1145&elqaid=3D18717&elqat=3D1&elqCampaignId=3D" style=3D"Margin: 0; color: #ffffff; !
+ font-family: Helvetica, Arial, san=
+s-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">=B1=B3=C0=B0=BE=C8=B3=BB</a> &middot; <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAxNQ=3D=3D&URL=3Dhttp://shop.devgear.co.kr/?elqTrackId=3D4e25b77caa34422da8867d5c42cf0232&elq=3De7cc578b992e48868ec6693483aa1145&elqaid=3D18717&elqat=3D1&elqCampaignId=3D" style=3D"Margin: 0; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">=BC=EE=C7=CE=B8=F4</a> &middot; <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ!
+ =3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D=
+&Q0lEPTAxNg=3D=3D&URL=3Dhttp://www.devgear.co.kr/buy?elqTrackId=3D604e6098173042be875890b8f220fdcc&elq=3De7cc578b992e48868ec6693483aa1145&elqaid=3D18717&elqat=3D1&elqCampaignId=3D" style=3D"color: #ffffff; text-decoration: none;">=B1=B8=C0=D4=BE=C8=B3=BB</a></p>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End 12 Columns Links Bar --><!-- 12 Columns Social Network -->
+
+<table align=3D"center" class=3D"wrapper header float-center" style=3D"Margin: 0 auto; border-collapse: collapse; border-spacing: 0; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td class=3D"wrapper-inner" style=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+<table align=3D"center" class=3D"container" style=3D"Margin: 0 auto; background: #efefef; border-bottom: 16px solid #efefef; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 580px;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<td style=3D"-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+<table class=3D"row collapse" style=3D"border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th class=3D"small-12 large-12 columns last" style=3D"Margin: 0 auto; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0px !important; padding-left: 0; padding-right: 0; text-align: left; width: 588px;">
+<table style=3D"border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+<tbody>
+<tr style=3D"padding: 0; text-align: left; vertical-align: top;">
+<th style=3D"Margin: 0; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 19px; margin: 0; padding: 20px 0px 2px 0px; text-align: left;">
+<p align=3D"center" style=3D"Margin: 0; Margin-bottom: 10px; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 38px; margin: 0; margin-bottom: 10px; padding: 0; text-align: center;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAxNw=3D=3D&URL=3Dhttp://s608.t.en25.com/e/er?s=3D608&lid=3D6812&elqTrackId=3D3dda143fe9b74230a7660ff2e47a3f50&elq=3De7cc578b992e48868ec6693483aa1145&elqaid=3D18717&elqat=3D1" style=3D"Margin: 0; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: center; text-decoration: none;"><img alt=3D"Facebook" class=3D"center" src=3D"http://img.en25.com/EloquaImages/clients/Embarcadero/%7b3aaaf539-17b0-4762-a152-e57fa1a5be3c%7d!
+ _Facebook_Icon_36x47px.png" style=
+=3D"-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; max-width: 100%; outline: none; text-decoration: none; width: auto;"></a> <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAxOA=3D=3D&URL=3Dhttp://s608.t.en25.com/e/er?s=3D608&lid=3D8899&elqTrackId=3D8a7798caaf644989bfc5534daf1740e1&elq=3De7cc578b992e48868ec6693483aa1145&elqaid=3D18717&elqat=3D1" style=3D"Margin: 0; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img alt=3D"Twitter" class=3D"center" src=3D"http://img.en25.com/EloquaImages/clients/Embarcadero/%7bbcc2de6e-692d-4744-83a4-e72a7647b996%7d_Twitter_Icon_36x47px.png" style=3D"-ms-interpolation-mode: bicubic; border: none; clear: !
+ both; display: inline; max-width: =
+100%; outline: none; text-decoration: none; width: auto;"></a> <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAxOQ=3D=3D&URL=3Dhttp://s608.t.en25.com/e/er?s=3D608&lid=3D7152&elqTrackId=3D22bc999de5714a198e86ddbeae2df060&elq=3De7cc578b992e48868ec6693483aa1145&elqaid=3D18717&elqat=3D1" style=3D"Margin: 0; color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img alt=3D"Youtube" class=3D"center" src=3D"http://img.en25.com/EloquaImages/clients/Embarcadero/%7b73a95da4-2b80-41eb-bd73-f2bee6773ea1%7d_Youtube_Icon_36x47px.png" style=3D"-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; max-width: 100%; outline: none; text-decoration: none; width: auto;">!
+ </a></p>
+
+<p class=3D"center" style=3D"color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal; line-height: 20px; text-align: center;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAyMA=3D=3D&URL=3Dhttp://www.embarcadero.com?elqTrackId=3D98227e6ee14445b8949586e377abc600&elq=3D052acae8de06495b915e2bd46fc40b82&elqaid=3D18800&elqat=3D1&elqCampaignId=3D" style=3D"color: #2199e8; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.3; padding: 10px 0px 10px 0px; text-align: center; text-decoration: none;"><img alt=3D"Embarcadero" class=3D"center" src=3D"http://img.en25.com/EloquaImages/clients/Embarcadero/%7B99155b78-3304-49f8-be73-0ace5e2f6587%7D_Logo_Emb_Black_2016.png" style=3D"-ms-interpolation-mode: bicubic; border: none; !
+ clear: both; display: inline; floa=
+t: none; max-width: 100%; outline: none; text-decoration: none; width: auto;"></a></p>
+
+<p align=3D"center" style=3D"Margin: 0; Margin-bottom: 10px; color: #0a0a0a; font-family: Helvetica, Arial, sans-serif; font-size: 10px !important; font-weight: normal; line-height: 13px !important; margin: 0; margin-bottom: 10px; padding: 0; padding-top: 5px; text-align: center;"><span style=3D"font-size:10.5pt; color:#646464">Copyright &copy; 2016 EMBARCADERO Inc. All Right Reserved.</span></p>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End 12 Columns Social Network --><!-- 12 Columns Subscription Links -->
+
+
+<!-- End 12 Columns Subscription Links --></center>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table width=3D"600" align=3D"center" style=3D"font-size:12px; line-height:140%; border:1px solid #cccccc">
+<tr align=3D"center">
+<td style=3D"font-color:#4C4C4C; font-size: 12px; font-family:'=B5=B8=BF=F2','helvetica';">=BA=BB =B8=DE=C0=CF=C0=BA =B5=A5=BA=EA=B1=E2=BE=EE=C0=C7 =B0=F8=C1=F6=BB=E7=C7=D7 =B6=C7=B4=C2 =C0=CC=BA=A5=C6=AE =BE=CB=B8=B2, =BE=C8=B3=BB=B8=A6 =C0=A7=C7=D8=BC=AD =B9=DF=BC=DB =B5=C7=BE=FA=BD=C0=B4=CF=B4=D9.
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr>
+<td align=3D"center" style=3D"color:#666666;">
+<p>=C0=CC=B8=DE=C0=CF=C0=C7 =BC=F6=BD=C5=C0=BB =B4=F5 =C0=CC=BB=F3 =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9 [<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1D&Q0lEPTAyMQ=3D=3D&URL=3Dhttp://www.postman.co.kr/open/unsubscription.jsp?user_id=3Dbeomyong&amp;customer_id=3D8270183316&amp;reject_script=3DK&amp;post_id=3D20160920100009560341" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#ff6600; font-weight:bold">=BC=F6=BD=C5=B0=C5=BA=CE</span></a>]=B8=A6 =C5=AC=B8=AF=C7=D8 =C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9.<br />To unsubscribe <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0l!
+ ORD1D&Q0lEPTAyMg=3D=3D&URL=3Dhttp:=
+//www.postman.co.kr/open/unsubscription.jsp?user_id=3Dbeomyong&amp;customer_id=3D8270183316&amp;reject_script=3DE&amp;post_id=3D20160920100009560341" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#666666; font-weight:bold;">click here</span></a>.</p>
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr align=3D"center">
+<td style=3D"font-size: 11px; font-family:'=B5=B8=BF=F2','helvetica'; font-color:#4C4C4C;">=BC=AD=BF=EF=C6=AF=BA=B0=BD=C3 =BC=AD=C3=CA=B1=B8 =BB=E7=C6=F2=B4=EB=B7=CE 359(=B9=DD=C6=F7=B5=BF, 3=C3=FE)
+(=C1=D6)=B5=A5=BA=EA=B1=E2=BE=EE (www.devgear.co.kr 02-595-4288 ask@embarcadero.kr)
+</td>
+</tr>
+</table><div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MjcwMTgzMzE2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE2MDkyMDEwMDAwOTU2MDM0MQ=3D=3D&VEM9MjAxNjA5Mjg=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+
+

@@ -1,0 +1,437 @@
+Received: (qmail 690 invoked by uid 100); 19 Jan 2017 01:40:30 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda001.wmail.worksmobile.com with SMTP;19 Jan 2017 01:40:30 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail01.wmail.naver.com with ESMTP id pcynIZkOQPiF0NuuYzVD6g
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 19 Jan 2017 01:40:30 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v0J1hfl00BAE;
+	Thu, 19 Jan 2017 10:43:41 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0J1hfl00BAE
+X-SmartFilter: FROM,v0J1hfl00BAE,joseph@duzon.com
+x-forward-id: <1119576303.1807665247.1484789967527.JavaMail.root@sjmas01.marketo.org>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3v3mkP0t2vz11gNt; Thu, 19 Jan 2017 10:39:40 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3v3mjP1cQ0z11gNr
+	for <joseph@duzon.com>; Thu, 19 Jan 2017 10:39:37 +0900 (KST)
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id v0J1gea00BA3;
+	Thu, 19 Jan 2017 10:42:40 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v0J1gea00BA3
+X-SmartFilter: FROM,v0J1gea00BA3,495-KNT-277.0.32022.0.0.17552.9.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTQyMTU6MjI2NzA6NDg4ODc6MDoxNzU1Mjo5OjMyMDIyOjExNDE1
+	OTI=
+Received: from [10.0.87.249] ([10.0.87.249:40134] helo=sjmas01.marketo.org)
+	by sjmta10.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 2B/EA-03440-FC810885; Wed, 18 Jan 2017 19:39:27 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1484789967;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=QKudVcgA8BgfndpL24nPw9zhmeTDNEaB9YYOLilENc4=;
+	b=d3uuSTOlSlnGm36eDo6XTAjYPirzJDujWkluP6x110A4Nh2t+93qxQseI+Jm/BEv
+	loje4GUUl4tm29X1gXNdvkRyvr+/iLdA2Tvx+hI6HqaeSK7XnPBzi2N6eZyeAlDpCD8
+	Lhlg+RldMxWxpzKXd2c1PMbeFzGafoOB1xqJVMmU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1484789967;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=QKudVcgA8BgfndpL24nPw9zhmeTDNEaB9YYOLilENc4=;
+	b=D8IQoukyNTYg4dR5fxCh0KfRz6RvxhN7AksNYp44Cos4uliFFbWxzg9Uizx72Yxn
+	v9nSlJYa/UTNca4dhKYWNtLZIVHLx8vkXP2Kd6uTuds+RntGLYUkAIFVxqJoO5YfNka
+	XaReB459xTpnrWcAjxu8xnyFmJfjZ1atGX9TJJCk=
+Date: Wed, 18 Jan 2017 19:39:27 -0600 (CST)
+From: Rapid7 Resources <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1119576303.1807665247.1484789967527.JavaMail.root@sjmas01.marketo.org>
+Subject: New 2017 Vulnerability Management Resources
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1807665246_1447353296.1484789967527"
+X-PVIQ: mkto-495KNT277-000001-000000-032022
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:14215:22670:48887:0:17552:9:32022:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.32022.17552.9@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.32022.0.0.17552.9.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: +deYpB3G1H+YbXFCbHmRKAudKAKmjJ+Y
+
+------=_Part_1807665246_1447353296.1484789967527
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+It's you against the vulnerabilities in your network - and you need to be able to act at the moment of impact.
+
+You need constant intelligence to discover, locate, and prioritize vulnerabilities for your business, and confirm your exposure has been reduced. Rapid7 has you covered.
+We've assembled these practical resources <http://info.rapid7.com/E040K0MeNLY0Q0MT2R04l0l> to help you know where to focus in 2017. Below is a snap shot of some of the resources available.
+
+
+
+
+
+
+
+ <http://info.rapid7.com/E040K0MeNLY0Q0MT2R04l0l>
+
+
+
+
+Download Now! <http://info.rapid7.com/E040K0MeNLY0Q0MT2R04l0l>
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center-page.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiWkRNeFl6WmlPV1EwWkdWaSIsInQiOiJzN2FmcE9xQ1JGNjJPSE10dDB6bzUyUE4wNmJPei84eCt4RERqeHVVNldvdStScjdpMER4VmlTOXFrc2RJdzR6bFdLVlhpQkdVc2ZiUW8vZzdzbFZkdnlXWE9tLzJub0R1dzhJZzc4eEhnTEFEQXVsaGs0MDBIU2FrZk50K0RiNSJ9.
+
+------=_Part_1807665246_1447353296.1484789967527
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+<link href=3D"https://fonts.googleapis.com/css?family=3DHind" rel=3D"styles=
+heet" type=3D"text/css">
+<link href=3D"https://fonts.googleapis.com/css?family=3DMontserrat" rel=3D"=
+stylesheet" type=3D"text/css">
+<style type=3D"text/css">
+   =20
+            /* Some resets and issue fixes */
+            #outlook a { padding:0; }
+            body{ width:100% !important; -webkit-text; size-adjust:100%; -m=
+s-text-size-adjust:100%; margin:0; padding:0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass {width:100%;}
+            .backgroundTable {margin:0 auto; padding:0; width:100%;!importa=
+nt;}
+            table td {border-collapse: collapse;}
+            .ExternalClass * {line-height: 115%;}
+            /* End reset */
+           =20
+            /* Custom */
+            body,table,td,span,a,ul,li {font-family: 'Montserrat Light', sa=
+ns-serif !important;}
+            .forcefont {font-family: 'Montserrat Light', sans-serif !import=
+ant;}
+            .appleLinksWhite a {color: #ffffff !important; text-decoration:=
+ none;}
+            .appleLinksBlack a {color: #000000 !important; text-decoration:=
+ none;}
+                        .appleLinksGray a {color: #55585a !important; text-=
+decoration: none;}
+                        .appleLinksLightGray a {color: #999999 !important; =
+text-decoration: none;}
+            .appleLinksOrange a {color: #e95f26 !important; text-decoration=
+: none;}
+                        .appleLinksBlue a {color: #2596cd !important; text-=
+decoration: none;}
+           =20
+            /* These are our tablet/medium screen media queries */
+            @media screen and (max-width: 630px){
+                =20
+                                .align-center{text-align: center !important=
+;}
+   =20
+                /* Display block allows us to stack elements */            =
+         =20
+                *[class=3D"mobile-column"] {display: block;}
+               =20
+                /* Some more stacking elements */
+                *[class=3D"mob-column"] {float: none !important;width: 100%=
+ !important;}
+                    =20
+                /* Hide stuff */
+                *[class=3D"hide"] {display:none !important;}
+               =20
+                /* This sets elements to 100% width and fixes the height is=
+sues too, a god send */
+                *[class=3D"100p"] {width:100% !important; height:auto !impo=
+rtant;}
+                   =20
+                /* For the 2x2 stack */                =20
+                *[class=3D"condensed"] {padding-bottom:40px !important; dis=
+play: block;}
+               =20
+                /* Centers content on mobile */
+                *[class=3D"center"] {text-align:center !important; width:10=
+0% !important; height:auto !important;}
+               =20
+                /* 100percent width section with 20px padding */
+                *[class=3D"100pad"] {width:100% !important; padding:20px;}
+               =20
+                /* 100percent width section with 20px padding left & right =
+*/
+                *[class=3D"100padleftright"] {width:100% !important; paddin=
+g:0 20px 0 20px;}
+               =20
+                /* 100percent width section with 20px padding top & bottom =
+*/
+                *[class=3D"100padtopbottom"] {width:100% !important; paddin=
+g:20px 0px 20px 0px;}
+           =20
+            }  =20
+           =20
+</style>
+<!--[if mso]>
+        <style type=3D=E2=80=9Dtext/css=E2=80=9D>
+        .fallback-text {
+        font-family: Arial, sans-serif;
+        }
+        </style>
+        <![endif]-->
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table style=3D"=
+border-collapse:collapse; border:0px; margin:0; padding:0; " border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" ><tr ><td align=3D"center=
+" valign=3D"top" ><table width=3D"640" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<table style=3D"border-collapse: collapse; border:0px;" width=3D"100%" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"20" class=3D"100p" bgcolor=3D"#3A=
+454B">
+<tr>
+<td align=3D"center" valign=3D"top" width=3D"600">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td class=3D"100p fallback-text" align=3D"left" width=3D"600"><a href=3D
+"http://info.rapid7.com/eQ0YtT02000NKR0M4lWlM04"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" alt=3D"Rapid7" border=3D"0" style=3D"display:blo=
+ck"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"ContentBlock" class=3D"mktEditable" ><table class=3D"100p" style=
+=3D"border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"20" width=3D"640" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td class=3D"fallback-text" style=3D"font-size: 16x; color: #55585a; font-f=
+amily: 'Montserrat Light', sans-serif !important;" width=3D"600" align=3D"l=
+eft"><span style=3D"font-size: 16px; font-family: 'Montserrat Light', sans-=
+serif !important;">
+<p><strong>It's you against the vulnerabilities in your network - and you n=
+eed to be able to act at the moment of impact.</strong></p>
+<p>You need constant intelligence to discover, locate, and prioritize vulne=
+rabilities for your business, and confirm your exposure has been reduced. R=
+apid7 has you covered.</p>
+<div>We've assembled <a href=3D
+"http://info.rapid7.com/Y044R0XQM00MY002lNK0uTl"
+>these practical resources</a> to help you know where to focus in 2017. Bel=
+ow is a snap shot of some of the resources available.</div>
+</span></td>
+</tr>
+<tr>
+<td width=3D"600">
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"600" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td align=3D"center"><a href=3D
+"http://info.rapid7.com/Y044R0XQM00MY002lNK0uTl"
+><img class=3D"100p" style=3D"display: block;" src=3D"https://information.r=
+apid7.com/rs/495-KNT-277/images/2017 Vuln Mgmt Toolkit Image.PNG" border=3D=
+"0" alt=3D"2017 vuln Mgmt Toolkit Image" width=3D"611" height=3D"357" /></a=
+></td>
+</tr>
+</tbody>
+</table>
+<p><span style=3D"font-size: 16px;"><a href=3D
+"http://info.rapid7.com/Y044R0XQM00MY002lNK0uTl"
+>Download Now!</a></span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+<!-- Stop Blocks Here /-->
+<table style=3D"border-collapse: collapse;" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#E9EEF0" class=3D"100p">
+<tr>
+<td align=3D"center">
+<table style=3D"border-collapse: collapse;" width=3D"640" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"20" class=3D"100p">
+<tr>
+<td>
+<table border=3D"0" width=3D"280" align=3D"left" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"middle" align=3D"le=
+ft" style=3D"font-size:14px; color:#999999;"><img src=3D"https://informatio=
+n.rapid7.com/rs/495-KNT-277/images/rapid7-logo-clear-150px.png" alt=3D"Rapi=
+d7"><br>
+<br>
+<br>
+<span style=3D"font-family: 'Hind', sans-serif !important;">Sales: 866-7-Ra=
+pid7</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important;">Support: 866-390-8113</span><br>
+<span style=3D"font-family: 'Hind', sans-serif !important;">Incident Respon=
+se: 844-RAPID-IR</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important; color: #999999 !important; text-decoration:none !important;">=
+100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksLightGray" style=3D"font-family: 'Hind', sans-seri=
+f !important; color: #999999 !important; text-decoration:none !important;">=
+Boston, MA 02110-2131</span></td>
+</tr>
+</table>
+<table border=3D"0" width=3D"200" align=3D"left" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"top" align=3D"left"=
+ style=3D"font-size:14px; color:#2596cd;"><span style=3D"color: #000000"><s=
+trong>Products & Services</strong></span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/R00l4YlNM40020M0KvTRYQ0" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>InsightIDR</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/CNM00Z0wl0RK0Q4Y2M0lT04" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>InsightOps</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/p0400K0l0T0M0xQN4l0MYR2" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Nexpose</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/hlMly4N00K000M4RQ020T1Y" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Metasploit</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/p0400K0l2T0M0zQN4l0MYR2" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>AppSpider</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/kK03l0Q00RM02N4MYl0A40T" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Services</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/FlYNl00B40K0M2RM000T4Q4" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Product Training & Certification</a></span></td>
+</tr>
+</table>
+<table border=3D"0" width=3D"100" align=3D"right" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"border-collapse:collapse;" class=3D"100p">
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td class=3D"fallback-text align-center 100p" valign=3D"top" align=3D"left"=
+ style=3D"font-size:14px; color:#2596cd;"><span style=3D"color: #000000"><s=
+trong>Company</strong></span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/hlMlC4N00K000M4RQ020T5Y" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>About Us</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/O0R0M4MT0200QKlD0604lYN" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>News</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/lRNM7000llYM0T2440Q0E0K" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Careers</a></span><br>
+<span><a href=3D
+"http://info.rapid7.com/E040K0M8NFY0Q0MT2R04l0l" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Contact Us</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20"></td>
+</tr>
+<tr>
+<td height=3D"1" style=3D"line-height: 1px; font-size: 1px;" bgcolor=3D"#DC=
+DBDB">&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"center">
+<table style=3D"border-collapse: collapse;" width=3D"640" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"20" class=3D"100p">
+<tr>
+<td class=3D"fallback-text" valign=3D"top" align=3D"center" width=3D"640" s=
+tyle=3D"font-size:14px; color:#999999;"><span>&#169; Rapid7&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;<a href=3D
+"http://info.rapid7.com/CNM0090Gl0RK0Q4Y2M0lT04" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Legal</a> | <a href=3D
+"http://info.rapid7.com/r40H0T2R0NalYQKlM00M040" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Privacy Policy</a> | <a href=3D
+"http://info.rapid7.com/gI0Y4Ql0M20lNT04K000bRM" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Disclosure Policy</a> | <a href=3D
+"http://info.rapid7.com/b00004NlRKJ0TMlc020MY4Q" style=3D"font-family: 'Hin=
+d', sans-serif !important; color: #2596cd; text-decoration:none;"
+>Export Notice</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table style=3D"border-collapse: collapse;" width=3D"640" class=3D"100p" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href=3D
+"http://info.rapid7.com/VYNd0004Rl0T200Kl4MMKQ0"
+></a>
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTQyMTU6=
+MjI2NzA6NDg4ODc6MDoxNzU1Mjo5OjMyMDIyOjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3=
+D" width=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/hlMlM4N00K000M4RQ020TfY"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_1807665246_1447353296.1484789967527--
+

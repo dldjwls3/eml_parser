@@ -1,0 +1,125 @@
+Received: (qmail 19592 invoked from network); 23 Feb 2016 04:04:45 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda01.wmail.naver.com with SMTP; 23 Feb 2016 04:04:45 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id kPH+SJU0RmebggQPRO5Fyw
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 23 Feb 2016 04:04:45 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u1N3rta00794;
+	Tue, 23 Feb 2016 12:53:55 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1N3rta00794
+X-SmartFilter: FROM,u1N3rta00794,joseph@duzon.com
+x-forward-id: 1456200068164_935649226
+recvDate: Tue, 23 Feb 2016 13:01:08 +0900
+x-newturns-hashkey: 4c2df0c679e6044eb8f2e194a6f69be37d359bdd4d5138ae56b25d3a764570e6
+Received: from external ([209.85.217.172])
+	by smf.duzon.com (1.0) id u1N3rWN00787;
+	Tue, 23 Feb 2016 12:53:33 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1N3rWN00787
+X-SmartFilter: FROM,u1N3rWN00787,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-lb0-f172.google.com with SMTP id x1so93801753lbj.3
+        for <joseph@duzon.com>; Mon, 22 Feb 2016 20:04:07 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:recvdate:mime-version:date:content-type
+         :content-transfer-encoding:subject:from:to:reply-to;
+        bh=clfJ4IqsndEAxFu9Go/S3LkDCFIZ+zJc1u2/bTogw9s=;
+        b=TXGXl04mWmH/1Rr9N45ACvejAuDfdNEgAQPhFEBtXvLKgR8Dihrj76ruzMEjOdhe3p
+         P5F1Tp49kzixgrwHqozshruh9LAKztB3qkQe9NiHwZOrcC+csr1stFKiI/razLqTdXA4
+         KCmtp4yKuC2enE+XulirBYhamwQFo1tIMBHWaWUMd3jC90q8yiCL/63hpNbMlH/r2ql5
+         LcslS+OBywiD46Osnug0fSaf6vcMJBUtzfNqzlnBnoXrUcVfP/L0blnFACRhzPMgzARe
+         r5pBw84ITGK8vXniusniT56YmHL1HBi+c0fJWdCsManxY9TyR9eqj8F6mXflxFBgE7Xg
+         0Hxw==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AG10YOTanpmXmeuDTT4UrSrIUorZX/HGYhxQ9Uehj5zycJNq7PXYiOzXJVOeytTAZefLi90EtGPFmwiuWYHTcWngbC7LqyQ=
+X-Received: by 10.112.219.234 with SMTP id pr10mr384660lbc.145.1456200245953;
+        Mon, 22 Feb 2016 20:04:05 -0800 (PST)
+X-Forwarded-To: hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.70.74 with SMTP id k10csp1553261ldu;
+        Mon, 22 Feb 2016 20:04:05 -0800 (PST)
+X-Received: by 10.66.147.74 with SMTP id ti10mr43593105pab.128.1456200244959;
+        Mon, 22 Feb 2016 20:04:04 -0800 (PST)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id b27si44260073pfd.82.2016.02.22.20.04.04
+        for <forensic.duzon@gmail.com>;
+        Mon, 22 Feb 2016 20:04:04 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Message-ID: <56cbda34.1b07620a.3cee7.5b12SMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_947_185263_1_291_0_20160223130350_210.223.88.35>
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u1N3rM700777;
+	Tue, 23 Feb 2016 12:53:22 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1N3rM700777
+X-SmartFilter: FROM,u1N3rM700777,forensic@duzon.com
+x-forward-id: 1456200034809_2433444502
+recvDate: Tue, 23 Feb 2016 13:00:34 +0900
+x-newturns-hashkey: 7232c81f52df74a305d190bded93102c2ca0ab9e02bd04b40c340663053041f9
+Received: from external ([210.223.88.35])
+	by smf.duzon.com (1.0) id u1N3rC600776;
+	Tue, 23 Feb 2016 12:53:12 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1N3rC600776
+X-SmartFilter: FROM,u1N3rC600776,947_1_185263_forensic_duzon.com@academymail.kotra.or.kr
+MIME-Version: 1.0
+Date: Tue, 23 Feb 2016 13:03:50 +0900
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?UTF-8?B?W0tPVFJBXeyduOuPhOuEpOyLnOyVhCDsp4Dsl60g6rO87KCVIC8=?=
+	=?UTF-8?B?ICjquLDqs4Qp7ZWc7KSRIEZUQSDtirntmZQg7JuQ7IKw7KeA6rSA66as?=
+	=?UTF-8?B?7Iuk66y0IOustOujjOq1kOycoQ==?=
+From: =?UTF-8?B?S09UUkEgQUNBREVNWQ==?=<916021@kotra.or.kr>
+To: =?UTF-8?B?7Jyg7KeE7JWE?=<forensic@duzon.com>
+Reply-To: =?UTF-8?B?S09UUkEgQUNBREVNWQ==?=<916021@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+X-Naver-ESV: +XFYpB3G1H+YbXFCbHmRKAtmFAt9jJ+Y
+
+<img alt="" width="750" height="1554" usemap="#Map" src="http://file.cylearn.co.kr/hdlc/7911/0309-0310_indonesia.png" /> <map name="Map">
+<area shape="rect" target="_blank" coords="498,402,709,459" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=1&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://file.cylearn.co.kr/hdlc/7911/0309-0310_indonesia.pdf" />
+<area shape="rect" target="_blank" coords="395,1418,617,1481" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=2&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://file.cylearn.co.kr/hdlc/7911/2016_timetable.pdf" />
+<area shape="rect" target="_blank" coords="144,1416,354,1482" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=3&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://global-biz.cylearn.co.kr/" />
+<area shape="rect" target="_blank" coords="45,1495,142,1533" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=4&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/" />
+<area shape="rect" target="_blank" coords="149,1498,286,1525" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=5&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/" />
+<area shape="rect" target="_blank" coords="299,1498,447,1528" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=6&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://ftaedu.cylearn.co.kr/" />
+<area shape="rect" target="_blank" coords="450,1496,586,1528" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=7&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.hri.co.kr/" />
+<area shape="rect" target="_blank" coords="595,1497,711,1526" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=8&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ibckorea.net" /></map>
+<table cellspacing="0" cellpadding="0" width="700" border="0">
+    <tbody>
+        <tr>
+            <td height="1297" width="700">
+            <p style="line-height: 180%"><strong><span style="font-size: 14pt; font-family: 굴림; color: rgb(255,0,0)">♧ </span><span style="font-size: 14pt; font-family: 굴림; color: rgb(255,0,0)">기계 업종 1차 - 한중FTA특화 교육일정 및 교육장소 변경 안내</span></strong><strong><br />
+            </strong></p>
+            <p><strong><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp; </span><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp; ▷</span><span style="font-size: 10pt; font-family: 굴림">&nbsp;변경 후 : 2.24(수) ~ 2.26(금), IKP 1층 세미나실</span></strong><strong><br />
+            </strong></p>
+            <p><strong><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span><span style="font-size: 10pt; font-family: 굴림">* </span></strong><strong><u><span style="font-size: 10pt; font-family: 굴림; color: rgb(0,37,222)"><a target="_blank" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=9&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://infomailer.kotra.or.kr/20160215/2016_%EC%BB%A8%EC%86%8C%EC%8B%9C%EC%97%84%28FTA%EA%B5%90%EC%9C%A1%29_%EC%95%88%EB%82%B4%EB%AC%B8%20%EB%B0%8F%20%EC%B2%A8%EB%B6%80%ED%8C%8C%EC%9D%BC_KOTRA.zip">교육신청서 다운로드 클릭</a></span></u></strong></p>
+            <p><strong><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp; </span><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp; </span><span style="font-size: 10pt; font-family: 굴림">▷</span><span style="font-size: 10pt; font-family: 굴림"> 변경 전 : 3.16(수) ~ 3.18(금), IKP </span><span style="font-size: 10pt; font-family: 굴림">3층 중강의실</span></strong><br />
+            </p>
+            <p><img border="0" alt="" width="700" height="1297" usemap="#Map" src="http://infomailer.kotra.or.kr/20160108/FTA%20%EC%97%85%EC%A2%85%20%EC%B2%A8%EB%B6%80%ED%8C%8C%EC%9D%BC%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20%EC%96%91%EC%8B%9D-02.png" /></p>
+            <p><br />
+            </p>
+            <p style="line-height: 180%"><strong><span style="font-size: 14pt; font-family: 굴림; color: rgb(255,0,0)">♧ </span><span style="font-size: 14pt; font-family: 굴림; color: rgb(255,0,0)">기계 업종 1차 - 한중FTA특화 교육일정 및 교육장소 변경 안내</span></strong><strong><br />
+            </strong></p>
+            <p><strong><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp; </span><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp; ▷</span><span style="font-size: 10pt; font-family: 굴림">&nbsp;변경 후 : 2.24(수) ~ 2.26(금), IKP 1층 세미나실</span></strong><strong><br />
+            </strong></p>
+            <p><strong><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span><span style="font-size: 10pt; font-family: 굴림">* </span></strong><strong><u><span style="font-size: 10pt; font-family: 굴림; color: rgb(0,37,222)"><a target="_blank" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=10&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://infomailer.kotra.or.kr/20160215/2016_%EC%BB%A8%EC%86%8C%EC%8B%9C%EC%97%84%28FTA%EA%B5%90%EC%9C%A1%29_%EC%95%88%EB%82%B4%EB%AC%B8%20%EB%B0%8F%20%EC%B2%A8%EB%B6%80%ED%8C%8C%EC%9D%BC_KOTRA.zip">교육신청서 다운로드 클릭</a></span></u></strong></p>
+            <p><strong><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp; </span><span style="font-size: 10pt; font-family: 굴림">&nbsp;&nbsp; </span><span style="font-size: 10pt; font-family: 굴림">▷</span><span style="font-size: 10pt; font-family: 굴림"> 변경 전 : 3.16(수) ~ 3.18(금), IKP </span><span style="font-size: 10pt; font-family: 굴림">3층 중강의실</span></strong></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<map name="Map">
+<area shape="rect" alt="" target="_blank" coords="190,1121,307,1230" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=11&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://infomailer.kotra.or.kr/20160108/2016%20%EA%B5%90%EC%9C%A1%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%283%EC%9D%BC%29.xlsx" />
+<area shape="rect" alt="" target="_blank" coords="392,1121,509,1230" href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=12&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://infomailer.kotra.or.kr/20151208/2016%20%EC%B0%B8%EC%97%AC%EA%B8%B0%EA%B4%80%EC%8B%A0%EC%B2%AD%EC%84%9C%EB%A5%98%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%283%EC%9D%BC%29.hwp" /></map>*수신거부*<br />
+&nbsp; 수신거부 : <a href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=13&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://scrm.kotra.or.kr/crm/common.ComMail/UCP_D2?EMAILLOGID=16344132">코트라 서비스 통합사업안내&nbsp;에 해당되는 메일을 수신거부 합니다.</a><br />
+&nbsp;전체수신거부&nbsp;: <a href="http://210.223.88.35:8889/trace/checker.jsp?mailidx=947&linkno=14&seqidx=185263&service=1&dmidx=291&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://scrm.kotra.or.kr/crm/common.ComMail/UCP_D?EMAILLOGID=16344132">코트라에서 발송하는 모든 캠페인 메일을 수신 거부 합니다.</a><br />
+&nbsp;&nbsp; <br />
+<div style="display:none;"><img src="http://210.223.88.35:8889/trace/openChecker.jsp?mailidx=947&seqidx=185263&service=1&dmidx=291&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+
+

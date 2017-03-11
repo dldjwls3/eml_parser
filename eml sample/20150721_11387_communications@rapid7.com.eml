@@ -1,0 +1,1126 @@
+Received: (qmail 27787 invoked from network); 20 Jul 2015 18:41:25 -0000
+Received: from 10.114.29.98 (HELO crcvmailnw01.nm.naver.com) (10.114.29.98)
+  by cmda01.wmail.naver.com with SMTP; 20 Jul 2015 18:41:25 -0000
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmailnw01.nm.naver.com with ESMTP id 0rBuKS9jTKCZ00eDLLhZ5A
+  for <jonghyun.kim@dforensic.com>;
+  Mon, 20 Jul 2015 18:41:25 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t6KIYrN000BE;
+	Tue, 21 Jul 2015 03:34:53 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t6KIYrN000BE
+X-SmartFilter: FROM,t6KIYrN000BE,joseph@duzon.com
+x-forward-id: 1437417584959_935649226
+recvDate: Tue, 21 Jul 2015 03:39:44 +0900
+x-newturns-hashkey: 7f92f2a9128f98ee62a7c181cb6eb802ae608d1b743660b96e506e57e53add22
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id t6KIYjM000BD;
+	Tue, 21 Jul 2015 03:34:45 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t6KIYjM000BD
+X-SmartFilter: FROM,t6KIYjM000BD,495-KNT-277.0.12295.0.0.8914.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6NzY1MToxMjI5NToyNTI0NzowOjg5MTQ6NzoxMTQxNTky
+Received: from [10.0.11.252] ([10.0.11.252:37127] helo=sjmas01.marketo.org)
+	by sjmta06.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id A9/D4-63335-9C04DA55; Mon, 20 Jul 2015 13:41:13 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1437417673;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=3fjFIzglrlLoD9t5DHkAzLzUv1Q9dGMY8cJhyMLbY0A=;
+	b=mJt3c529gOUwWRNyw/OAZ+YR0RT7WXrVvh9EGhVjhHoK33T8+55vFNmQuCygJdFT
+	5Mxik24DdfsGoV7DfLE045A5REYPsSofjtm5ip5buCa5h9ACAL+6dFUZmBFCb/UGd5Z
+	514ueD4F7OxZs1ZBxGSBSE05xaQyyZGONRe4Rpt8=
+Date: Mon, 20 Jul 2015 13:41:13 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <945607812.882181684.1437417673421.JavaMail.root@sjmas01.marketo.org>
+Subject: Rapid7 Security Newsletter - July 2015
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_882181683_1691134151.1437417673421"
+X-PVIQ: 000326-001349-000001-000000-015999
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:7651:12295:25247:0:8914:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.12295.8914.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.12295.0.0.8914.7.1141592@em-sj-77.mktomail.com
+X-MktMailDKIM: true
+X-Naver-ESV: +/FYpB3G1H+YbXFCbHmRKx2dKxU9jJ+Y
+
+------=_Part_882181683_1691134151.1437417673421
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To view this email as a web page, go to the following address: https://info=
+rmation.rapid7.com/index.php/email/emailWebview?mkt_tok=3D3RkMMJWWfF9wsRonu=
+a7Ad%2B%2FhmjTEU5z16u0pWKK%2FgIkz2EFye%2BLIHETpodcMRMtjMa%2BTFAwTG5toziV8R7=
+TMKc1r1MEQWRbl
+
+<http://www.rapid7.com/>
+
+
+
+
+
+
+PRODUCTS <http://www.rapid7.com/products/index.jsp>     SOLUTIONS <http://w=
+ww.rapid7.com/solutions/index.jsp>     SERVICES <http://www.rapid7.com/serv=
+ices/index.jsp>   =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Come to Camp Rapid7: Free Security Learnings All Summer Long <https://infor=
+mation.rapid7.com/2015-rapid7-security-summer-camp.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+This summer, Rapid7 is hosting a ton of free, educational security content =
+at the Rapid7 Security Summer Camp <https://information.rapid7.com/2015-rap=
+id7-security-summer-camp.html?CS=3Dnewsletter>. Camp Rapid7 is a place wher=
+e security professionals of all ages (Girls AND Boys Allowed!) can gain kno=
+wledge and skill in incident detection and response, cloud security, phishi=
+ng, threat exposure=20
+management, and more.
+A few of the exciting activities for visitors at Camp Rapid7 <https://infor=
+mation.rapid7.com/2015-rapid7-security-summer-camp.html?CS=3Dnewsletter> =
+=E2=80=93
+
+
+
+ - Take a load off at the Webcast Fire Pit and listen to the Counselors (Se=
+curity Experts!) in live broadcasts throughout=20
+the summer!
+
+ - Scale Security Maturity Mountain for resources on how to ensure your sec=
+urity program is strong and measuring=20
+up
+
+ - Hit the beach and learn how to monitor for Phishing out on the water, an=
+d how to discover even more threats from the=20
+Incident Detection Lifeguard Hut
+
+ - Gaze into the skies to up your Cloud Security knowledge
+
+ - Stop by the CISO's Cabin to learn how to=20
+transform your organization's security program to be relevant, actionable, =
+and sustainable
+
+
+
+
+
+
+
+Start Exploring the Rapid7 Security Summer Camp Today! <https://information=
+...rapid7.com/2015-rapid7-security-summer-camp.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Join us at the 2015 Rapid7 Black Hat Party! <https://information.rapid7.com=
+/black-hat-2015-party-registration.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+Without fail, Rapid7 throws the best party of the week at Black Hat Las Veg=
+as. Join us* for open bar, entertainment, and the chance to rub elbows with=
+ your peers, special guests, and party sponsors!=20
+
+Where: XS=20
+Night Club at The Wynn Hotel
+ When: Wednesday, August 5th, 10pm-2am
+=20
+ *You must be registered to be able to attend
+
+
+
+
+
+Save your Spot Now! <https://information.rapid7.com/black-hat-2015-party-re=
+gistration.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Upcoming Webinar ] Storming the Breach, Part 1: Initial Infection Vector <=
+https://information.rapid7.com/storming-the-breach-part-1-initial-infection=
+-vector-live-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+Date/Time: Wednesday July 22, 2pm ET/11am PT
+
+Speakers: Mike Scutt, Senior Consultant for Analytic Response, Rapid7 | Wad=
+e Woolwine, Manager of Strategic Services, Rapid7
+Gear up to join Rapid7's incident response team for part 1 of our "Storming=
+ the Breach" series; a=20
+technical discussion on breach investigation methodologies. Register for th=
+is session <https://information.rapid7.com/storming-the-breach-part-1-initi=
+al-infection-vector-live-2.html?CS=3Dnewsletter>, in which Mike Scutt and W=
+ade Woolwine will:
+
+
+ - Discuss three common breach scenarios
+ - Share methods they use in the field to validate and investigate root cau=
+se
+ - Walk attendees through spear-phishing, web browser exploitation, and str=
+ategic web compromises
+ - Outline the investigative steps required to determine how the compromise=
+ occurred
+
+
+
+
+
+
+
+Save your Spot Now! <https://information.rapid7.com/storming-the-breach-par=
+t-1-initial-infection-vector-live-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Upcoming Webinar] Detecting the Bear in Camp: How to Find your True Vulner=
+abilities <https://information.rapid7.com/detecting-the-bear-in-camp-how-to=
+-find-your-true-vulnerabilities-live-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+Date/Time: Wednesday July 29, 2pm ET/11am PT
+
+Speakers: Jesika McEvoy, Senior Security Consultant, Rapid7 | Ryan Poppa, S=
+enior Manager, Product Management, Rapid7
+Is it possible to be successful in a vulnerability centric world? Once you =
+have great vulnerability=20
+management data, what do you do with it? Join this session to learn how to =
+find and focus on your true vulnerabilities to build stronger security. Reg=
+ister for this webcast <https://information.rapid7.com/detecting-the-bear-i=
+n-camp-how-to-find-your-true-vulnerabilities-live-2.html?CS=3Dnewsletter> t=
+o:
+
+
+
+
+ - Learn how to optimize your vulnerability management program
+
+ - Get best practices for the roles, responsibilities, processes, metrics, =
+and strategies for a full lifecycle vulnerability=20
+management program
+ - Learn how to focus on remediation that matters through improved communic=
+ation, goal-setting, and measurement
+
+
+
+
+
+Save your Spot Now! <https://information.rapid7.com/detecting-the-bear-in-c=
+amp-how-to-find-your-true-vulnerabilities-live-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[On-Demand Webcast] CISO Skill Training: Lack of Security? It's all in your=
+ head! <https://information.rapid7.com/ciso-skill-training-lack-of-security=
+-its-all-in-your-head-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+Watch this on-demand webinar <https://information.rapid7.com/ciso-skill-tra=
+ining-lack-of-security-its-all-in-your-head-2.html?CS=3Dnewsletter> with Ra=
+pid7's CISO in Residence, Bob Lord, to hear=20
+about:
+
+
+ - One of the main problems security is facing
+ - Why smart, well-meaning managers, executives, and boards may make decisi=
+ons that weaken the security posture of a company
+ - What security professionals can do to change this cycle and improve thei=
+r organization=E2=80=99s security posture
+
+
+
+
+
+
+View Now! <https://information.rapid7.com/ciso-skill-training-lack-of-secur=
+ity-its-all-in-your-head-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In the News & Community
+
+
+
+ -=20
+OpenSSL Fixes High-Severity, Narrow-Scope Vulnerability: OpenSSL released a=
+ fix <https://www.openssl.org/news/secadv_20150709.txt> for a new "high-sev=
+erity" vulnerability that could=20
+enable man-in-the-middle attackers to impersonate a certificate authority, =
+issue invalid certs, trick applications into treating the invalid cert like=
+ a legitimate one, and intercept or modify "secure" communications. This vu=
+lnerability is only useful to an active attacker who is already=20
+capable of performing a man-in-the-middle (MITM) attack, either locally or =
+upstream from the victim," Tod Beardsley of Rapid7 wrote <https://community=
+...rapid7.com/community/infosec/blog/2015/07/09/cve-2015-1793-openssl-certifi=
+cate-authority-impersonation>. "This limits the feasibility of attacks to a=
+ctors who are already in a privileged position on one of the hops between t=
+he client and the server, or locally on the same LAN and can impersonate DN=
+S servers or gateway routers. In short, the vulnerability is not useful for=
+ passive attacks, or for widespread, untargeted attacks. Learn more about t=
+his vulnerability. <http://www.darkreading.com/vulnerabilities---threats/op=
+enssl-fixes-high-severity-narrow-scope-vulnerability/d/d-id/1321240>
+
+
+ - The New Metasploit Browser Autopwn: Strikes Faster and Smarter <https://=
+community.rapid7.com/community/metasploit/blog/2015/07/15/the-new-metasploi=
+t-browser-autopwn-strikes-faster-and-smarter--part-1> : A blog post debutin=
+g a completely=20
+rewritten new cool toy for Metasploit. It is the easiest and quickest way t=
+o explicitly test browser vulnerabilities without having the user painfully=
+ learn everything there is to know about each exploit and the remote target=
+ before deployment.=20
+ - The Black Hat Attendee Guide <https://community.rapid7.com/community/inf=
+osec/blog/2015/07/13/the-black-hat-attendee-guide-part-1> : A blog series o=
+n how to get the most out of your Black Hat experience.
+
+
+
+
+
+
+
+
+
+
+Security Alert
+ Patch Tuesday, July 2015   <https://community.rapid7.com/community/nexpose=
+/blog/2015/07/16/patch-tuesday-july-2015>
+
+Administrators and security teams are in for a hectic week tackling 14 <htt=
+ps://technet.microsoft.com/library/security/ms15-jul> Microsoft security bu=
+lletins, 2 <https://helpx.adobe.com/security.html> Adobe updates addressing=
+ 4 CVEs for Flash\Shockwave and Oracle has released their quarterly update =
+for 63 <http://www.oracle.com/technetwork/topics/security/cpujul2015-236793=
+6.html> of their product suites (including Java, Oracle DB, MySQL and Solar=
+is).
+
+Of the 14 Microsoft security bulletins, 4 remote code execution vulnerabili=
+ties are rated as =E2=80=9CCritical=E2=80=9D including an Internet Explorer=
+ (IE) vulnerability that affects all known versions (v6 - v11) and CVE-2015=
+-2373 a=20
+vulnerability in remote desktop allowing remote code execution. Overall a t=
+on of updates but nothing that initially comes across as out of the ordinar=
+y. The remaining bulletins address elevation of privilege vulnerabilities a=
+nd are rated as important by Microsoft.
+
+Summary of Oracle=E2=80=99s Critical Patch Update Advisory:
+
+
+
+ - Oracle Database Server: 10 new security fixes (highest CVSS score: 9.0)
+
+
+ - Including 2 remotely exploitable vulns that don=E2=80=99t require authen=
+tication
+
+
+
+
+ - Oracle Fusion Middleware: 39 new security fixes (highest CVSS score: 7.5=
+)
+
+
+ - 36 of these vulnerabilities may be remotely exploitable without authenti=
+cation
+
+
+
+ - Oracle Hyperion: 4 new security fixes (highest CVSS score: 7.5)
+ - Oracle Enterprise Manager Grid Control: 3 new security fixes (highest CV=
+SS score: 5.5)
+ - Oracle E-Business Suite: 13 new security fixes (highest CVSS score: 5.0)
+ - Oracle Supply Chain Products Suite: 7 new security fixes (highest CVSS s=
+core: 5.0)
+ - Oracle PeopleSoft Products: 8 new security fixes (highest CVSS score: 6.=
+2)
+ - Oracle Siebel CRM: 5 new security fixes (highest CVSS score: 9.3)
+ - Oracle Commerce Platform: 2 new security fixes (highest CVSS score: 6.4)
+ - Oracle Communications Applications: 2 new security fixes (highest CVSS s=
+core: 10.0)
+ - Oracle Java SE: 25 new security fixes (highest CVSS score: 10.0)
+ - Oracle Sun Systems Products: 21 new security fixes (highest CVSS score: =
+10.0)
+ - Oracle Virtualization: 11 new security fixes (highest CVSS score: 7.8)
+ - Oracle MySQL: 18 new security fixes (highest CVSS score: 6.5)
+ - Oracle Berkeley DB: 25 new security fixes (highest CVSS score: 6.9)
+
+
+
+Reminder to all: 2015-07-14 was the last update for Windows Server 2003, it=
+ is now at end-of-life (EOL) and will no longer received updates unless you=
+=E2=80=99ve aquired an extended support contract from Microsoft.
+
+Enjoy the patching frenzy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FREE PRODUCT TRIALS
+
+
+ Download Metasploit <http://www.rapid7.com/products/metasploit/download.js=
+p>
+  Download UserInsight <http://www.rapid7.com/products/user-insight/user-in=
+sight-trial.jsp>
+  Download=20
+Nexpose
+  Download ControlsInsight <http://www.rapid7.com/products/controls-insight=
+/controls-insight-trial.jsp"><img style=3D>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONNECT WITH RAPID7
+
+
+ Join the Community
+  Subscribe to the=20
+Blog
+  Follow us on Twitter <https://twitter.com/Rapid>
+  Contact Us <mailto:info@rapid7.com"><img style=3D>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=C2=A9 2015 Rapid7, All Rights Reserved.
+ 100 Summer Street, 13th Floor
+ Boston, MA 02110-2131
+ www.rapid7.com <http://www.rapid7.com>
+ 866-7-RAPID7
+
+
+
+
+
+
+ <http://feeds2.feedburner.com/Rapid7>  <https://twitter.com/Rapid7"><img t=
+itle=3D>  <https://community.rapid7.com/welcome>  <mailto:info@rapid7.com">=
+<img title=3D>
+  <http://www.rapid7.com"><img src=3D>
+
+If you no longer wish to receive these emails, go to the following link to =
+unsubscribe: https://information.rapid7.com/UnsubscribePage.html?mkt_unsubs=
+cribe=3D1&mkt_tok=3D3RkMMJWWfF9wsRonua7Ad%2B%2FhmjTEU5z16u0pWKK%2FgIkz2EFye=
+%2BLIHETpodcMRMtjMa%2BTFAwTG5toziV8R7TMKc1r1MEQWRbl.
+
+------=_Part_882181683_1691134151.1437417673421
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Responsive Email Template</title>
+
+<style type="text/css">
+
+        .ReadMsgBody {width: 100%; background-color: #ffffff;}
+        .ExternalClass {width: 100%; background-color: #ffffff;}
+        body     {width: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased;font-family:
+'Trebuchet MS',Arial,Helvetica,sans-serif; font-size:14px; line-height:22px;}
+        h1 {font-size: 25px; color: #000000; padding: 0; margin:10px 0; line-height:34px; font-weight:normal;}
+        h2 {font-size: 20px; color: #ea5709; padding:0; margin:16px 0; font-weight:normal;}
+                .highlight {font-size: 16px; color: #333333;  font-weight:bold;}
+        a:link {color:#0197b8; text-decoration:none;}      /* unvisited link */
+        a:visited {color:#0197b8;text-decoration:none;}  /* visited link */
+        a:hover {color:#0197b8;text-decoration:none;}  /* mouse over link */
+        a:active {color:#0197b8;text-decoration:none;}  /* selected link */
+        
+        table {border-collapse: collapse;}
+        
+        @media only screen and (max-width: 640px)  {
+                                        body[yahoo] .deviceWidth {width:440px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+                        
+        @media only screen and (max-width: 479px) {
+                                        body[yahoo] .deviceWidth {width:280px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+
+
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix" >
+<div style="text-align: center"><font face="Verdana" size="1">To view this email as a web page, <a href=
+"http://info.rapid7.com/v/CNM00x0fl0TK0Q4Y2M08T04"
+>click here</a><br /><br /></font></div>
+<div ><div class="mktEditable" ><span style="font-family: arial, helvetica, sans-serif;"><!-- Wrapper --></span>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding-top: 20px;" valign="top" bgcolor="#FFFFFF" width="100%">
+<table class="deviceWidth" border="0" width="580" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 10px;" bgcolor="#000000" width="100%">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding: 10px 20px;"><span style="font-family: arial, helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/JN2lKM0M8T0Q3SY04M00040"
+><img src="http://information.rapid7.com/rs/rapid7/images/rapid7_logo_white-orange.png" alt="Rapid7" width="160" height="27" border="0" /></a></span></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #ffffff; font-weight: light; text-align: right; font-family: Arial; line-height: 18px; vertical-align: middle; padding: 10px 20px; font-style: NORMAL;"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none; color: 
+#cccccc;" href=
+"http://info.rapid7.com/Q0ST0YN0KN2lM0Q840044M0"
+>PRODUCTS</a> &nbsp;&nbsp;&nbsp; <a style="text-decoration: none; color: #cccccc;" href=
+"http://info.rapid7.com/T5QKS0M08000YNO20l4M4T0"
+>SOLUTIONS</a> &nbsp;&nbsp;&nbsp; <a style="text-decoration: none; color: #cccccc;"  href=
+"http://info.rapid7.com/n0KM0P602MQl0TN0Y8004S4"
+>SERVICES</a> &nbsp;&nbsp;&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" width="580" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 0px 0;">
+<table class="deviceWidth" border="0" width="580" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 0px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<table class="deviceWidth" style="margin-bottom: 10x;" border="0" width="580" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed; font-family: Arial, Helvetica, sans-serif;"><strong><a href=
+"http://info.rapid7.com/HK0020M0QM7YST40l8N00Q4" target="_blank" title="Rapid7 Security Summer 
+Camp"
+>Come to Camp Rapid7: Free Security Learnings All Summer Long</a></strong></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" width="100%" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td style="padding: 5px 10px 15px 10px; font-size: 16px;">
+<div>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;"><span style="margin: 0px; border: 0px; vertical-align: baseline;">This summer, Rapid7 is hosting a ton of free, educational security content at the <a  href=
+"http://info.rapid7.com/HK0020M0QM7YST40l8N00Q4" target="_blank" title="Rapid7 Security Summer Camp"
+>Rapid7 Security Summer Camp</a>.</span><span style="margin: 0px; border: 0px; font-style: inherit; vertical-align: baseline;"><span style="margin: 0px; 
+border: 0px; font-style: inherit; vertical-align: baseline; line-height: 1.5em;">&nbsp;Camp Rapid7 is a place where security professionals of all ages (Girls <em>AND</em>&nbsp;Boys Allowed!) can gain knowledge and skill in incident detection and response, cloud security, phishing, threat exposure 
+management, and more.</span></span></span></p>
+<p style="margin: 5px 0px 0px; border: 0px; font-weight: normal; font-style: normal; font-size: 14px; font-family: arial; vertical-align: baseline; color: #3d3d3d; font-variant: normal; letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; orphans: auto; text-align: left; 
+text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 1.39999997615814px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-size: 14px;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;"><span style="margin: 0px; 
+border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline;">A few of th</span></span><span style="color: #000000;"><span style="font-family: arial, helvetica, sans-serif;"><span style="margin: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: 
+baseline;">e exciting activities for visitors at <a href=
+"http://info.rapid7.com/HK0020M0QM7YST40l8N00Q4" target="_blank"
+>Camp Rapid7</a> </span></span><span style="font-family: arial, helvetica, sans-serif;"><span style="margin: 0px; border: 0px; font-weight: 
+inherit; font-style: inherit; vertical-align: baseline;"><span style="margin: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 1.5em;">&ndash;</span></span></span></span></span></p>
+<ul>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">Take a load off at the </span><strong style="letter-spacing: -0.140000000596046px; 
+line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">Webcast Fire Pit&nbsp;</strong><span style="letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">and listen to the Counselors (Security Experts!) in live broadcasts throughout 
+the summer!</span></span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">Scale </span><strong style="letter-spacing: -0.140000000596046px; line-height: 
+19.6000003814697px; word-spacing: 1.39999997615814px;">Security Maturity Mountain</strong><span style="letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">&nbsp;for resources on how to ensure your security program is strong and measuring 
+up</span></span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">Hit the beach and learn how to monitor for </span><strong style="letter-spacing: 
+-0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">Phishing</strong><span style="letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">&nbsp;out on the water, and how to discover even more threats from the 
+</span><strong style="letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">Incident Detection Lifeguard Hut</strong></span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">Gaze into the skies to up your </span><strong style="letter-spacing: 
+-0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">Cloud Security&nbsp;</strong><span style="letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px;">knowledge</span></span></li>
+<li><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="font-style: inherit; font-weight: inherit; letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px; margin: 0px; border: 0px; vertical-align: 
+baseline;">Stop by the <strong>CISO's Cabin</strong></span><span style="font-style: inherit; font-weight: inherit; letter-spacing: -0.140000000596046px; line-height: 19.6000003814697px; word-spacing: 1.39999997615814px; margin: 0px; border: 0px; vertical-align: baseline;">&nbsp;to learn how to 
+transform your organization's security program to be relevant, actionable, and sustainable</span></span></li>
+</ul>
+</div>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/HK0020M0QM7YST40l8N00Q4" target="_blank" title="Camp Rapid7"
+>Start Exploring the Rapid7 Security Summer Camp Today!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table class="deviceWidth" style="margin-bottom: 10x;" border="0" width="580" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed; font-family: Arial, Helvetica, sans-serif; font-weight: bold;"><a href=
+"http://info.rapid7.com/F8YNl00R80K0M2SM000T4Q4" target="_blank" title="Black Hat Party 
+Registration"
+>Join us at the 2015 Rapid7 Black Hat Party!</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" width="100%" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<div>
+<p><span style="margin: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; font-size: 14px;"><span style="margin: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 1.5em;"><span style="color: #000000; 
+font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 24px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; 
+-webkit-text-stroke-width: 0px; float: none; display: inline !important; background-color: #ffffff;">Without fail, Rapid7 throws the best party of the week at <strong>Black Hat Las Vegas</strong>.
+ Join us* for open bar, entertainment, and the chance to rub elbows with your peers, special guests, and party sponsors! </span></span></span></p>
+<p><span style="margin: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; line-height: 1.5em; font-size: 14px;"><span style="color: #000000; font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; 
+letter-spacing: normal; line-height: 24px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; float: none; display: inline !important; background-color: #ffffff;"><strong>Where:</strong> XS 
+Night Club at The Wynn Hotel<br /> <strong>When:</strong> Wednesday, August 5th, 10pm-2am<br /> <br /> *You must be registered to be able to attend</span></span></p>
+</div>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/F8YNl00R80K0M2SM000T4Q4" target="_blank"
+>Save your&nbsp;Spot&nbsp;Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table class="deviceWidth" style="margin-bottom: 10x;" border="0" width="580" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[Upcoming Webinar&nbsp;] <a  href=
+"http://info.rapid7.com/Q0ST0YN0KS2lM0Q840094M0" target="_blank" title="Storming the Breach, Part 1: Initial Infection Vector"
+>Storming the Breach, Part 1: Initial Infection Vector</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" width="100%" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+<div>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Date/Time:&nbsp;</strong>Wednesday July 22, 2pm ET/11am PT</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Speakers:</strong> Mike Scutt, Senior Consultant for Analytic Response, Rapid7 | Wade Woolwine, Manager of Strategic Services, Rapid7</span></p>
+<p style="margin: 0px 0px 1.5em; border: 0px; outline: 0px; font-size: 15px; vertical-align: baseline; color: #29383f; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: 
+left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background: #ffffff;"><span style="font-size: 14px; color: #000000;">Gear up to join Rapid7's incident response team for part 1 of our "Storming the Breach" series; a 
+technical discussion on breach investigation methodologies.
+ <a href=
+"http://info.rapid7.com/Q0ST0YN0KS2lM0Q840094M0" target="_blank"
+>Register for this session</a>, in which Mike Scutt and Wade Woolwine will:</span></p>
+<ul>
+<li><span style="font-size: 14px; color: #000000;">Discuss three common breach scenarios</span></li>
+<li><span style="font-size: 14px; color: #000000;">Share methods they use in the field to validate and investigate root cause</span></li>
+<li><span style="font-size: 14px; color: #000000;">Walk attendees through spear-phishing, web browser exploitation, and strategic web compromises</span></li>
+<li><span style="font-size: 14px; color: #000000;">Outline the investigative steps required to determine how the compromise occurred</span></li>
+</ul>
+</div>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/Q0ST0YN0KS2lM0Q840094M0" target="_blank"
+>Save your Spot&nbsp;Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" width="580" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[Upcoming Webinar] <a  href=
+"http://info.rapid7.com/kK0al0Q00SM02N4MY80T40T" target="_blank"
+>Detecting the Bear in Camp: How to Find your True Vulnerabilities</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" width="100%" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px; font-family: Helvetica, Arial, sans-serif; font-size: 16px;">
+<div>
+<div>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Date/Time:&nbsp;</strong>Wednesday July 29, 2pm ET/11am PT</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Speakers:</strong> Jesika McEvoy, Senior Security Consultant, Rapid7 | Ryan Poppa, Senior Manager, Product Management, Rapid7</span></p>
+<p style="margin: 0px 0px 1.5em; border: 0px; outline: 0px; font-size: 15px; vertical-align: baseline; color: #29383f; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: 
+left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background: #ffffff;"><span style="color: #000000; font-size: 14px;">Is it possible to be successful in a vulnerability centric world? Once you have great vulnerability 
+management data, what do you do with it? Join this session to learn how to find and focus on your true vulnerabilities to build stronger security.
+ <a href=
+"http://info.rapid7.com/kK0al0Q00SM02N4MY80T40T" target="_blank"
+>Register for this webcast</a>&nbsp;to:</span></p>
+</div>
+</div>
+<ul>
+<li style="margin: 0.25em 0px; border: 0px; outline: 0px; font-size: 15px; vertical-align: baseline; background: transparent;"><span style="color: #000000; font-size: 14px;">Learn how to optimize your vulnerability management program</span></li>
+<li style="margin: 0.25em 0px; border: 0px; outline: 0px; font-size: 15px; vertical-align: baseline; background: transparent;"><span style="color: #000000; font-size: 14px;">Get best practices for the roles, responsibilities, processes, metrics, and strategies for a full lifecycle vulnerability 
+management program</span></li>
+<li style="margin: 0.25em 0px; border: 0px; outline: 0px; font-size: 15px; vertical-align: baseline; background: transparent;"><span style="color: #000000; font-size: 14px;">Learn how to focus on remediation that matters through improved communication, goal-setting, and measurement</span></li>
+</ul>
+<table style="border: 1px dashed #bbbbbb; color: #000000; font-family: Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 22px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; 
+white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/kK0al0Q00SM02N4MY80T40T" target="_blank"
+>Save your Spot&nbsp;Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" width="580" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[On-Demand Webcast] <a href=
+"http://info.rapid7.com/m000Qb2040M48lMYNSU0KT0" 
+target="_blank"
+>CISO Skill Training: Lack of Security? It's all in your head!</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" width="100%" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px; font-family: Arial, Helvetica, sans-serif;">
+<p><span style="font-family: arial, helvetica, sans-serif;"><strong><a href=
+"http://info.rapid7.com/m000Qb2040M48lMYNSU0KT0" target="_blank"
+>Watch this on-demand webinar</a></strong> with Rapid7's CISO in Residence, Bob Lord, to hear 
+about:</span></p>
+<ul>
+<li>One of the main problems security is facing</li>
+<li>Why smart, well-meaning managers, executives, and boards may make decisions that weaken the security posture of a company</li>
+<li>What security professionals can do to change this cycle and improve their organization&rsquo;s security posture</li>
+</ul>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="color: #ffffff; background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/m000Qb2040M48lMYNSU0KT0" target="_blank"
+>View&nbsp;Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table class="deviceWidth" border="0" width="580" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc; font-family: Arial, Helvetica, sans-serif;" bgcolor="#FFFFFF">
+<h2><span style="font-family: arial, helvetica, sans-serif;"><a></a><strong><span style="line-height: 18px;">In the News &amp; Community</span></strong></span></h2>
+<ul>
+<li>
+<div><span style="font-family: arial, helvetica, sans-serif;"><strong>OpenSSL Fixes High-Severity, Narrow-Scope Vulnerability</strong>: OpenSSL&nbsp;<a href=
+"http://info.rapid7.com/NN00VKM40008MST0cQ40Y2l" target="_blank"
+>released a fix</a>&nbsp;for a new "high-severity" vulnerability that could 
+enable man-in-the-middle attackers to impersonate a certificate authority, issue invalid certs, trick applications into treating the invalid cert like a legitimate one, and intercept or modify "secure" communications.</span> This vulnerability is only useful to an active attacker who is already 
+capable of performing a man-in-the-middle (MITM) attack, either locally or upstream from the victim,"&nbsp;<a href=
+"http://info.rapid7.com/c0402MMK0lQN084Td0YWS00" target="_blank"
+>Tod Beardsley of Rapid7 wrote</a>.
+ "This limits the feasibility of attacks to actors who are already in a privileged position on one of the hops between the client and the server, or locally on the same LAN and can impersonate DNS servers or gateway routers.
+ In short, the vulnerability is not useful for passive attacks, or for widespread, untargeted attacks.<a href=
+"http://info.rapid7.com/m000Qe2040M48lMYNSX0KT0"
+> Learn more about this vulnerability.</a></div>
+</li>
+<li><strong><a href=
+"http://info.rapid7.com/ZNQ4M08f40000M0YY20lTKS" target="_blank"
+>The New Metasploit Browser Autopwn: Strikes Faster and Smarter</a></strong>&nbsp;: A blog post debuting a completely 
+rewritten new cool toy for Metasploit.
+ It is the easiest and quickest way to explicitly test browser vulnerabilities without having the user painfully learn everything there is to know about each exploit and the remote target before deployment.&nbsp;</li>
+<li><strong><a href=
+"http://info.rapid7.com/igSK0QN8MZl004000YM2T04" target="_blank"
+>The Black Hat Attendee Guide</a></strong>&nbsp;: A blog series on how to get the most out of your Black Hat experience.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" width="580" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2><span style="font-family: arial, helvetica, sans-serif;"><a name="Security Alert"></a><strong>Security Alert</strong></span></h2>
+<span style="font-family: arial, helvetica, sans-serif;"> <a href=
+"http://info.rapid7.com/DK0400i0TNY00T08lQ2M04M"
+><strong>Patch Tuesday, July&nbsp;</strong><strong>2015</strong>&nbsp; </a></span>
+<p><span style="font-family: arial, helvetica, sans-serif;">Administrators and security teams are in for a hectic week tackling&nbsp;<a class="jive-link-external-small" href=
+"http://info.rapid7.com/MQ0T0M0YKT48400jl0MN012"
+>14</a>&nbsp;Microsoft security bulletins,&nbsp;<a 
+class="jive-link-external-small" href=
+"http://info.rapid7.com/P000Q04KlN0M240T0YkT8M2"
+>2</a>&nbsp;Adobe updates addressing 4 CVEs for Flash\Shockwave and Oracle has released their quarterly update for&nbsp;<a class="jive-link-external-small"  href=
+"http://info.rapid7.com/P000Q04KlN0M340T0YlT8M2"
+>63</a>&nbsp;of their product suites (including Java, Oracle DB, MySQL and Solaris).</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Of the 14 Microsoft security bulletins, 4 remote code execution vulnerabilities are rated as &ldquo;Critical&rdquo; including an Internet Explorer (IE) vulnerability that affects all known versions (v6 - v11) and CVE-2015-2373 a 
+vulnerability in remote desktop allowing remote code execution.
+ Overall a ton of updates but nothing that initially comes across as out of the ordinary.
+ The remaining bulletins address elevation of privilege vulnerabilities and are rated as important by Microsoft.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Summary of Oracle&rsquo;s Critical Patch Update Advisory:</span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Database Server: 10 new security fixes (highest CVSS score: 9.0)</span>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif;">Including 2 remotely exploitable vulns that don&rsquo;t require authentication</span></li>
+</ul>
+</li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Fusion Middleware: 39 new security fixes (highest CVSS score: 7.5)</span>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif;">36 of these vulnerabilities may be remotely exploitable without authentication</span></li>
+</ul>
+</li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Hyperion:&nbsp;4 new security fixes (highest CVSS score: 7.5)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Enterprise Manager Grid Control:&nbsp;3 new security fixes (highest CVSS score: 5.5)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle E-Business Suite: 13 new security fixes&nbsp;(highest CVSS score: 5.0)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Supply Chain Products Suite: 7 new security fixes&nbsp;(highest CVSS score: 5.0)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle PeopleSoft Products: 8 new security fixes&nbsp;(highest CVSS score: 6.2)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Siebel CRM: 5 new security fixes&nbsp;(highest CVSS score: 9.3)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Commerce Platform: 2 new security fixes&nbsp;(highest CVSS score: 6.4)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Communications Applications: 2 new security fixes&nbsp;(highest CVSS score: 10.0)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Java SE: 25 new security fixes&nbsp;(highest CVSS score: 10.0)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Sun Systems Products: 21 new security fixes&nbsp;(highest CVSS score: 10.0)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Virtualization: 11 new security fixes&nbsp;(highest CVSS score: 7.8)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle MySQL: 18 new security fixes&nbsp;(highest CVSS score: 6.5)</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif;">Oracle Berkeley DB: 25 new security fixes&nbsp;(highest CVSS score: 6.9)</span></li>
+</ul>
+<p><span style="font-family: arial, helvetica, sans-serif;">Reminder to all: 2015-07-14 was the last update for Windows Server 2003, it is now at end-of-life (EOL) and will no longer received updates unless you&rsquo;ve aquired an extended support contract from Microsoft.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Enjoy the patching frenzy.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" width="580" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" width="48%" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><span style="font-family: arial, helvetica, sans-serif;"><strong>FREE PRODUCT TRIALS</strong></span></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none;"  href=
+"http://info.rapid7.com/b00004NlTK40TM8m020MY4Q"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/ms.gif" alt="Download Metasploit" /> <span style="color: #0197b8;">Download Metasploit</span></a></span><br /><span 
+style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/v04Y0QT504lTKMn8N02M000"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/ui.gif" alt="Download          
+                                                                                                                                               UserInsight" /> <span style="color: #0197b8;">Download UserInsight</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a 
+style="text-decoration: none;" href=
+"http://info.rapid7.com/b00004NlTK60TM8o020MY4Q"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/nx.gif" alt="Download Nexpose" /> <span style="color: #0197b8;">Download 
+Nexpose</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/HK0020M0QMpYTT40l8N0074"
+><img style="vertical-align: middle; margin-right: 6px;" 
+src="http://information.rapid7.com/rs/rapid7/images/ci.gif" alt="Download                                         ControlsInsight" /> <span style="color: #0197b8;">Download ControlsInsight</span></a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" width="48%" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><span style="font-family: arial, helvetica, sans-serif;"><strong>CONNECT WITH RAPID7</strong></span></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/wNYTQ44Kl0000M8q00M280T"
+><img 
+style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/community.gif" alt="Join the Community" /> <span style="color: #0197b8;">Join the Community</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a 
+style="text-decoration: none;" href=
+"http://info.rapid7.com/wNYTQ44Kl0000M8q00M280T"
+><img style="vertical-align: middle; margin-right: 10px;" src="http://information.rapid7.com/rs/rapid7/images/blog_rss.gif" alt="Subscribe to the Blog" /> <span style="color: #0197b8;">Subscribe to the 
+Blog</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/r4090T2T0NrlYQK8M00M040"
+><img style="vertical-align: middle; margin-right: 12px;" src="http://information.rapid7.com/rs/rapid7/images/twitter.gif" alt="Follow    us    on 
+                               Twitter" /> <span style="color: #0197b8;">Follow us on Twitter</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/UMsM04T0lN0K4T028Q000aY"
+><img style="vertical-align: middle; margin-right: 8px;" 
+src="http://information.rapid7.com/rs/rapid7/images/contact.gif" alt="Contact Us" /> <span style="color: #0197b8;">Contact Us</span></a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="padding: 5px 0;">
+<table class="deviceWidth" border="0" width="580" cellspacing="0" cellpadding="0" align="center" bgcolor="#333333">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" width="45%" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #cccccc; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; line-height: 14px; padding: 20px;" valign="top"><span style="font-family: arial, helvetica, sans-serif;">&copy; 2015 Rapid7, All Rights Reserved.</span><br /><span 
+style="font-family: arial, helvetica, sans-serif;"> 100 Summer Street, 13th Floor</span><br /><span style="font-family: arial, helvetica, sans-serif;"> Boston, MA 02110-2131</span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="color: #cccccc; text-decoration: underline;"  href=
+"http://info.rapid7.com/jMtN082lK004Y0MQT4b0T00"
+>www.rapid7.com</a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> 866-7-RAPID7</span></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" width="40%" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 15px; color: #fff; font-weight: normal; font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif; line-height: 20px; vertical-align: top; text-align: right; padding: 20px;" valign="top"><span style="font-family: arial, helvetica, sans-serif;"><a  href=
+"http://info.rapid7.com/F8YNl00cu0K0M2TM000T4Q4"
+><img title="RSS Feed" src="http://information.rapid7.com/rs/rapid7/images/rss-footer.gif" alt="RSS Feed" border="0" /></a> <a href=
+"http://info.rapid7.com/n0KM0dv02MQl0TN0Y8004T4"
+><img title="Twitter" src="http://information.rapid7.com/rs/rapid7/images/twitter-footer.gif" 
+alt="Twitter" border="0" /></a> <a href=
+"http://info.rapid7.com/r40e0T2T0NwlYQK8M00M040"
+><img title="Rapid7 Community" src="http://information.rapid7.com/rs/rapid7/images/community-footer.gif" alt="Rapid7 Community" border="0" /></a> <a href=
+"http://info.rapid7.com/UMsM04T0lN0K4T028Q000aY"
+><img title="Email Rapid7" 
+src="http://information.rapid7.com/rs/rapid7/images/mail-footer.gif" alt="Email Rapid7" border="0" /></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a href=
+"http://info.rapid7.com/jMtN082lK004Y0MQT4b0T00"
+><img src="http://information.rapid7.com/rs/rapid7/images/r7-logo-small.gif" alt="Rapid7 
+Home Page" border="0" /></a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<span style="font-family: arial, helvetica, sans-serif;"><!-- End Wrapper --></span>
+</div>
+</div>
+
+<IMG SRC="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6NzY1MToxMjI5NToyNTI0NzowOjg5MTQ6NzoxMTQxNTkyOmpvc2VwaEBkdXpvbi5jb20%3D" WIDTH="1" HEIGHT="1" BORDER="0" ALT="" />
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><p><font face="Verdana" size="1">If you no longer wish to receive these emails, click on the following link: <a href=
+"http://info.rapid7.com/u/P000Q04KlN0Mg40T0YyT8M2"
+>Unsubscribe</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_882181683_1691134151.1437417673421--
+

@@ -1,0 +1,217 @@
+Received: (qmail 16608 invoked from network); 24 Apr 2015 00:16:26 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda01.wmail.naver.com with SMTP; 24 Apr 2015 00:16:26 -0000
+Received: from [202.167.215.64] ([202.167.215.64]) 
+          by crcvmail02.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1429834586.763704.3866098576.crcvmail02
+          for <jonghyun.kim@dforensic.com>; 
+          Fri, 24 Apr 2015 09:16:26 +0900 (KST) 
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t3O05b400D6F;
+	Fri, 24 Apr 2015 09:05:37 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t3O05b400D6F
+X-SmartFilter: FROM,t3O05b400D6F,joseph@duzon.com
+x-forward-id: 1429834520657_935649226
+recvDate: Fri, 24 Apr 2015 09:15:20 +0900
+x-newturns-hashkey: a1730337034477a97a61161feda5f5a2ec2f16adac310756f45260c93d859659
+Received: from external ([209.85.217.175])
+	by smf.duzon.com (1.0) id t3O05K600D61;
+	Fri, 24 Apr 2015 09:05:21 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t3O05K600D61
+X-SmartFilter: FROM,t3O05K600D61,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by lbbqq2 with SMTP id qq2so24964316lbb.3
+        for <joseph@duzon.com>; Thu, 23 Apr 2015 17:15:59 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:subject:to
+         :from:reply-to:errors-to:mime-version:date:message-id:importance
+         :organization:content-type:content-transfer-encoding;
+        bh=7MwVy0FAZ72LvMio9DBjz1YNFQvwVetaXgW1geuWT0w=;
+        b=mVQqdIhQ2BuHGwg+s+pKMXvFMnQUiVbkAbK4DYH31n/WYp0lldwkJ74Y/6KxgsHFwV
+         Q0lOTeeEe6vtcXH3VHreYz77oFlxw2P2Fq8EdWIMCnCp1UiZooWV4HBIa7Rlo9K6P8S4
+         UlJICn8uCPReCoRQC/UJg4VLxstYrh4VW11MNfbz+2q9WzdESO8ITmuf0SZr1dIBh+Wa
+         aC9KLbOANB0DgX4dTxAd0esBsHcrv/97zgzE83JETM1aa++ZyApVfpDf8lldlgJUZuRv
+         wMTfKjuar4DgwSlCx3df1KFJMDw5YrI0T9s4nffeIIjfulujpiovxF6yE9GzK1zUywFa
+         0lRQ==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+X-Received: by 10.152.238.43 with SMTP id vh11mr4670685lac.45.1429834559194;
+        Thu, 23 Apr 2015 17:15:59 -0700 (PDT)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.186.169 with SMTP id fl9csp212485ldc;
+        Thu, 23 Apr 2015 17:15:57 -0700 (PDT)
+X-Received: by 10.70.42.139 with SMTP id o11mr544037pdl.66.1429834556635;
+        Thu, 23 Apr 2015 17:15:56 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id nk17si14841382pdb.26.2015.04.23.17.15.54
+        for <forensic.duzon@gmail.com>;
+        Thu, 23 Apr 2015 17:15:56 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t3O05Dv00D58;
+	Fri, 24 Apr 2015 09:05:13 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t3O05Dv00D58
+X-SmartFilter: FROM,t3O05Dv00D58,forensic@duzon.com
+x-forward-id: 1429834495948_2433444502
+recvDate: Fri, 24 Apr 2015 09:14:55 +0900
+x-newturns-hashkey: 735c156997b3dd714cf4de5e950541521cd000e7c2e4544f64d12752f7da5b48
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id t3O057q00D53;
+	Fri, 24 Apr 2015 09:05:07 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t3O057q00D53
+X-SmartFilter: FROM,t3O057q00D53,user24773@sendd.ozmailer.com
+Subject: =?EUC-KR?B?oa4yMDE1s+IgSy1HbG9iYWwgUmUtU3RhcnR1cCDExLnpIMS3x8EnIDHC9yAoNL/5Mjk=?=
+	=?EUC-KR?B?wM8p?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?RktJSQ==?=" <shs@fkii.org>
+Reply-To: <shs@fkii.org>
+Errors-To: <shs@fkii.org>
+MIME-Version: 1.0
+Date: Fri, 24 Apr 2015 09:15:46 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1775499@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +eRYpB3G1Hbqa0ixyueaFZ/wKZ0YbzJqbXmmKAurKopYkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=6284943" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Mail</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<p><font face="굴림" size="3">
+
+</font></p><p><span style="font-family: 굴림체; font-size: 10pt;">안녕하세요<span lang="EN-US">.
+K-Global Re-startup </span>컴백 캠프 사무국입니다<span lang="EN-US">. &nbsp;</span></span><span lang="EN-US" style="font-family: 돋움; font-size: 9pt;">&nbsp;</span></p><font face="굴림" size="3">
+
+</font><p><span lang="EN-US" style="font-family: 돋움; font-size: 9pt;">&nbsp;</span></p><font face="굴림" size="3">
+
+</font><p><span lang="EN-US" style='font-family: "Courier New"; font-size: 10pt;'>&#65279;</span><span style="font-family: 굴림체; font-size: 10pt;">오는<span lang="EN-US"> 4</span>월<span lang="EN-US"> 29</span>일<span lang="EN-US">(</span>수<span lang="EN-US">), </span>선릉역<span lang="EN-US"> D.CAMP</span>에서<strong><span style="font-family: 굴림체;">‘<span lang="EN-US">2015</span>년<span lang="EN-US"> K-Global Re-Startup </span>컴백 캠프<span lang="EN-US">'</span></span></strong><span lang="EN-US"> 1</span>차 행사가 개최됩니다<span lang="EN-US">. </span></span><span lang="EN-US" style="font-family: 돋움; font-size: 9pt;">&nbsp;</span></p><font face="굴림" size="3">
+
+</font><p><span lang="EN-US" style="font-family: 돋움; font-size: 9pt;">&nbsp;</span></p><font face="굴림" size="3">
+
+</font><p><span style="font-family: 굴림체; font-size: 10pt;">이번 캠프에서는 재도전에 대한 의미와<span lang="EN-US"> ICT </span>트랜드에 따른 비즈니스 기회<span lang="EN-US">, </span>재도전 성공 사례<span lang="EN-US">, </span></span><span lang="EN-US" style="font-family: 돋움; font-size: 9pt;">&nbsp;</span></p><font face="굴림" size="3">
+
+</font><p><span style="font-family: 굴림체; font-size: 10pt;">미래부의 재기<span lang="EN-US">/</span>재도전
+지원 정책 등이 종합적으로 소개될 예정입니다<span lang="EN-US">. </span></span><span lang="EN-US" style="font-family: 돋움; font-size: 9pt;">&nbsp;</span></p><font face="굴림" size="3">
+
+</font><p><span lang="EN-US" style="font-family: 돋움; font-size: 9pt;">&nbsp;</span></p><font face="굴림" size="3">
+
+</font><p><strong><span style="font-family: 굴림체; font-size: 10pt;">□ ‘<span lang="EN-US">2015</span>년<span lang="EN-US"> K-Global Re-Startup </span>컴백
+캠프 주요 사업내용</span></strong><span style="font-family: 굴림체; font-size: 10pt;"> </span></p><font face="굴림" size="3">
+
+</font><p><span lang="EN-US" style="font-family: 굴림체; font-size: 10pt;">&nbsp; - </span><span style="font-family: 굴림체; font-size: 10pt;">‘만남’<span lang="EN-US">, </span>‘소통’<span lang="EN-US">, </span>‘협력’을 주제로 한 컴백 캠프 행사<span lang="EN-US"> : 1</span>기<span lang="EN-US">(</span>상하반<span lang="EN-US">) 3</span>회<span lang="EN-US">, 2</span>기<span lang="EN-US">(</span>하반기<span lang="EN-US"> 3</span>회<span lang="EN-US">) </span></span></p><font face="굴림" size="3">
+
+</font><p><span lang="EN-US" style="font-family: 굴림체; font-size: 10pt;">&nbsp; - ICT </span><span style="font-family: 굴림체; font-size: 10pt;">분야 우수 창업 아이템 발굴을 위한 ‘재도전 컴백 캠프 경진대회’<span lang="EN-US"> : </span>상<span lang="EN-US">,</span>하반기 각<span lang="EN-US"> 1</span>회
+</span></p><font face="굴림" size="3">
+
+</font><p><span lang="EN-US" style="font-family: 굴림체; font-size: 10pt;">&nbsp; - </span><span style="font-family: 굴림체; font-size: 10pt;">재기 역량강화를 위한 ‘재도전 교육과정 운영’<span lang="EN-US"> : </span>상<span lang="EN-US">,</span>하반기 각<span lang="EN-US"> 1</span>회
+</span></p><font face="굴림" size="3">
+
+</font><p><span lang="EN-US" style="font-family: 굴림체; font-size: 10pt;">&nbsp; - </span><span style="font-family: 굴림체; font-size: 10pt;">재도전 웹사이트 구축<span lang="EN-US">, </span>운영
+</span></p><font face="굴림" size="3">
+
+</font><p><span lang="EN-US" style="font-family: 굴림체; font-size: 10pt;">&nbsp; - </span><span style="font-family: 굴림체; font-size: 10pt;">모의 창업팀 구성을 위한 소모임 활동 및 전문 퍼실리테이터 멘토링 등
+</span><span lang="EN-US" style="font-family: 굴림체; font-size: 9pt;">&nbsp;</span></p><font face="굴림" size="3">
+
+</font><p><br></p>
+
+
+
+<title>▒재도전 Comeback Camp(1차)  ▒</title>
+
+
+
+<!-- Save for Web Slices (EDM3-02.jpg) -->
+<p><img width="600" height="1720" alt="" src="http://www.fkii.org/upload/imgs/2015/20150429/FKII_20150422camp_main.jpg" border="0" usemap="#Map2">
+  <map name="Map2">
+    
+
+<area href="mailto:%20shs@fkii.org" shape="rect" coords="390,1523,470,1542" target="_blank">
+    
+
+<area href="mailto:%20rolee@fkii.org" shape="rect" coords="293,1524,379,1543" target="_blank">
+    
+
+<area href="http://www.ozmailer.com/oele/nvcoj_3qphr_xtf16g.php" shape="rect" coords="154,1560,399,1608" target="_blank">
+    
+
+<area href="http://www.ozmailer.com/oele/nvcoj_3qphr_xtf16g.php" shape="rect" coords="159,745,416,770" target="_blank">
+    
+
+<area href="mailto:%20ahnjih@nipa.kr" shape="rect" coords="232,1469,335,1485" target="_blank">
+  </map>  
+  <br>
+  <br>
+  <br>
+  <!-- End Save for Web Slices -->
+</p>
+
+
+		<!--OZ_ModuleStart-->
+		<div align='center'>
+			<table cellpadding='0' cellspacing='0'>
+				<tr>
+					<td height='11'></td>
+				</tr>
+			</table>
+			
+			<table width='630' height='100%' cellpadding='0' cellspacing='0' style='border:2px solid #EFEFEF;'>
+				
+			<tr>
+				<td>
+					<table width='100%' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+						<tr>
+							<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 한국정보산업연합회 행사나 교육에 참가하신 분들 대상으로 발송되었습니다.본 메일은 발신전용입니다. 수신거부를 원하시는 경우 &lt;메일&gt;를 회신하여 주시기 바랍니다.</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+				
+				
+			<tr>
+				<td>
+					<table width='100%' height='47' cellpadding='0' cellspacing='0' bgcolor='#EFEFEF'>
+						<tr>
+							<td align='center' valign='top' height='47'>
+								<table cellpadding='0' cellspacing='0'>
+									<tr>
+										<td height='8'></td>
+									</tr>
+									<tr>
+										
+		<td align='left' valign='top'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=6284943' target=_blank><img src='http://img.ozmailer.com/mail/good_template/bottom_module_frame/button/unsubscribe_kor.png' border='0' alt='수신거부' /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</div>
+		<!--OZ_ModuleEnd-->
+		<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+
+

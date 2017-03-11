@@ -1,0 +1,195 @@
+Received: (qmail 17538 invoked by uid 100); 4 Jan 2017 12:51:18 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda002.wmail.worksmobile.com with SMTP;4 Jan 2017 12:51:18 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id 33gtiNXjRtmmGz1l7bsI3w
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 04 Jan 2017 12:51:16 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v04CrnB0078A;
+	Wed, 04 Jan 2017 21:53:49 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v04CrnB0078A
+X-SmartFilter: FROM,v04CrnB0078A,joseph@duzon.com
+x-forward-id: <b7c03bd9badb75a60955b752d7676058@marco.54r3.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3ttrJl52WDz2fmFx; Wed,  4 Jan 2017 21:50:38 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3ttrJW3ND0z2fmFt
+	for <joseph@duzon.com>; Wed,  4 Jan 2017 21:50:35 +0900 (KST)
+Received: from external ([209.85.217.179])
+	by smf.duzon.co.kr (1.0) id v04CrYr00778;
+	Wed, 04 Jan 2017 21:53:35 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v04CrYr00778
+X-SmartFilter: FROM,v04CrYr00778,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f179.google.com with SMTP id i68so244662129uad.0
+        for <joseph@duzon.com>; Wed, 04 Jan 2017 04:50:32 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:domainkey-signature
+         :date:from:to:subject:mime-version:message-id
+         :content-transfer-encoding;
+        bh=u31rJovatbVclirNamNknuwwCHHpGoLJBgOjsPMWgeE=;
+        b=p0kqIC45FIJiDP2w3vWZgW55orIUqw0EShDnxSe6gJhCBMIlJ/81e5qqVLrfrULJi6
+         yZwyG9M9GZ91h6Z9vu6IM08RhtLsc2DtTm9kVw1Vw9q8I/xJ20ZJjfl+oPiyMQGpiEik
+         GrQcsVv+E69+qQCaH5EY3e4wzMCH4AeJCmpIw9KAJkm5cIyRGts1jrRM+1Xvl7a3gZL5
+         zOgUqugC/nyr1c+A5Vre1ZihpWZNl+Z2ZVWth0Uiy90p0AUZ3NAzjxupV0816DPer7sd
+         rciGcgB3hDe2lUnoS42kgZ5Rz/IsJLs3MxHbmuiY/0eG0rhshdSQ/mxsEIf0pHakapCg
+         sNAw==
+X-Gm-Message-State: AIkVDXJeKhTB+dr1BnVn8GZ0c76eNInQRAU5yDmfHXmsq9P+ulzsNGpNGJW5BYw00G+AUSBreuy0+v4ZWAduRCTaMkVtV4E=
+X-Received: by 10.159.48.18 with SMTP id h18mr49899665uab.39.1483534231596;
+        Wed, 04 Jan 2017 04:50:31 -0800 (PST)
+X-Forwarded-To: kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp8461482vsa;
+        Wed, 4 Jan 2017 04:50:30 -0800 (PST)
+X-Received: by 10.84.210.35 with SMTP id z32mr133719370plh.112.1483534230701;
+        Wed, 04 Jan 2017 04:50:30 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id q10si72288870pgf.264.2017.01.04.04.50.29
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Jan 2017 04:50:30 -0800 (PST)
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@marco.54r3.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v04Cqno00775;
+	Wed, 04 Jan 2017 21:52:49 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v04Cqno00775
+X-SmartFilter: FROM,v04Cqno00775,forensic@duzon.com
+x-forward-id: <b7c03bd9badb75a60955b752d7676058@marco.54r3.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3ttrHb32X9z11fl1; Wed,  4 Jan 2017 21:49:27 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3ttrHB4zcfz2fmFp
+	for <forensic@duzon.com>; Wed,  4 Jan 2017 21:49:26 +0900 (KST)
+Received: from external ([172.247.186.158])
+	by smf.duzon.co.kr (1.0) id v04CqQk00771;
+	Wed, 04 Jan 2017 21:52:27 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v04CqQk00771
+X-SmartFilter: FROM,v04CqQk00771,maureen-141-9612879.LmhoMW8uY29t-85-1-1182-141-mall@marco.54r3.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=marco.54r3.com;
+ h=Date:From:To:Subject:MIME-Version:Message-ID:Content-Type:Content-Transfer-Encoding; i=mall@marco.54r3.com;
+ bh=irnBfcIPny4/tR5K/wyM+ELYTUk=;
+ b=xB/Fu6I3wFKw23Z1SpFsPNTQaCAUvfDUkB4TKSGSROF5GRsIFitjA99CQDkoZ0MB8Q6eAXT7zl0g
+   R8EdLrxb8mNySa+zxSRUjNzFXQ89g1XSrkUa1c6lx1gc1pJ5c2+JPBtcrUOM20Tqz+0HfUVob23K
+   cCWthYuX7zW0cPW4czM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=marco.54r3.com;
+ b=JtN1F0I4yY4gIakGREYLZncR2msv15WlT6vdpCldWuQSrdyKVJ6i7YQdw1mzQgO6CaMmMDmcUsEF
+   zwaMtiWqVVRGFJH+AJ+T0MKFWDaLc7+KCPmsJLN6mQ0FwlKZ8Eeda5/ZTQ1QxLDTRCBt8lM6rviC
+   BlUq0ZkTD0YHIX/BQTY=;
+Date: Wed, 04 Jan 2017 07:48:50 -0500
+From: "Pandora" <mall@marco.54r3.com>
+To: "forensic" <forensic@duzon.com>
+Subject: Last Day: Extra 80% off sale styles. Get hype!
+MIME-Version: 1.0
+Message-ID: <b7c03bd9badb75a60955b752d7676058@marco.54r3.com>
+X-Mailer: Fmail 1.8[en]
+X-Mailer-LID: 62
+X-Mailer-RecptId: 9612879
+X-Mailer-SID: 141
+X-Mailer-Sent-By: 85
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +X+YpB3G1H+YbXFCbHmRKxU9Kxu/jJ+Y
+
+
+<table class=3D"ke-zeroborder" width=3D"660" cellspacing=3D"0" cellpaddin=
+g=3D"0"
+border=3D"0" align=3D"center">	<tbody>	<tr>	<td width=3D"60" valign=3D"mi=
+ddle"
+height=3D"30" align=3D"center">	<span style=3D"font-family:Arial, Helveti=
+ca,
+sans-serif;font-size:x-small;">Designing your own jewellery. <br />
+If the e-mail below is not displayed correctly,please click this is not
+spam.</span>	</td>	</tr>	<tr>	<td valign=3D"middle" align=3D"center">	<p>=
+	<a
+href=3D"http://b4yljtes6qb7.dkldt.com/index/61.php?M=3D9612879!N=3D141!L=3D=
+61!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/2fe716ed993a5cd946cbbfaf1f49ef2f/tumbl=
+r_oityr6kcnO1venyc6o1_1280.png"
+width=3D"660" height=3D"90" /></a>	</p>	</td>	</tr>	<tr>	<td valign=3D"mi=
+ddle"
+align=3D"center">	<table class=3D"ke-zeroborder" width=3D"100%" cellspaci=
+ng=3D"0"
+cellpadding=3D"0" border=3D"0">	<tbody>	<tr>	<td>	<a
+href=3D"http://b4yljtes6qb7.dkldt.com/index/61.php?M=3D9612879!N=3D141!L=3D=
+61!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/4180cd6482eb089573635a8e00759baf/tumbl=
+r_oityr6kcnO1venyc6o2_250.png"
+width=3D"114" height=3D"36" /></a>	</td>	<td>	<a
+href=3D"http://b4yljtes6qb7.dkldt.com/index/69.php?M=3D9612879!N=3D141!L=3D=
+69!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/7aee98741a3c69b64e5983af360619da/tumbl=
+r_oityr6kcnO1venyc6o3_250.png"
+width=3D"121" height=3D"36" /></a>	</td>	<td>	<a
+href=3D"http://b4yljtes6qb7.dkldt.com/index/70.php?M=3D9612879!N=3D141!L=3D=
+70!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/35666087da1de5044ff9347da93d3127/tumbl=
+r_oityr6kcnO1venyc6o4_250.png"
+width=3D"129" height=3D"36" /></a>	</td>	<td>	<a
+href=3D"http://b4yljtes6qb7.dkldt.com/index/57.php?M=3D9612879!N=3D141!L=3D=
+57!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/ec5c16b1de7201017b5791c5a8a1b063/tumbl=
+r_oityr6kcnO1venyc6o5_400.png"
+width=3D"296" height=3D"36"
+/></a>	</td>	</tr>	</tbody>	</table>	</td>	</tr>	<tr>	<td valign=3D"middl=
+e"
+align=3D"center">	<a
+href=3D"http://b4yljtes6qb7.dkldt.com/index/61.php?M=3D9612879!N=3D141!L=3D=
+61!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/80630856d9b69be19f69f760e09c564e/tumbl=
+r_oityr6kcnO1venyc6o6_1280.png"
+width=3D"660" height=3D"332" /></a>	</td>	</tr>	<tr>	<td valign=3D"middle=
+"
+align=3D"center">	<br />	</td>	</tr>	<tr>	<td valign=3D"middle"
+align=3D"center">	<a
+href=3D"http://b4yljtes6qb7.dkldt.com/index/61.php?M=3D9612879!N=3D141!L=3D=
+61!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/32755cfefc4cad30872a04a5ec6398e0/tumbl=
+r_oityr6kcnO1venyc6o7_1280.png"
+width=3D"660" height=3D"377" /></a>	</td>	</tr>	<tr>	<td valign=3D"middle=
+"
+align=3D"center">	<table class=3D"ke-zeroborder" width=3D"100%" cellspaci=
+ng=3D"0"
+cellpadding=3D"0" border=3D"0">	</table>	</td>	</tr>	<tr>	<td valign=3D"b=
+ottom"
+height=3D"60" align=3D"center">	<span style=3D"font-family:Arial, Helveti=
+ca,
+sans-serif;font-size:x-small;">PANDORA is a leading fashion specialty
+retailer offering charms, bracelets, rings for gift.<br />
+If you received this email from a friend and would like to subscribe to o=
+ur
+email list, click here.<br />
+</span><span style=3D"font-family:Arial, Helvetica,
+sans-serif;line-height:1.5;font-size:x-small;"><a
+href=3D"http://b4yljtes6qb7.dkldt.com/index/56.php?M=3D9612879!N=3D141!L=3D=
+56!F=3DH"
+target=3D"_blank">Privacy Policy</a> | <a
+href=3D"http://b4yljtes6qb7.dkldt.com/index/60.php?M=3D9612879!N=3D141!L=3D=
+60!F=3DH"
+target=3D"_blank">Contact Us</a> | <a
+href=3D"http://b4yljtes6qb7.dkldt.com/unsubscribe.php?M=3D9612879!C=3De82=
+3ebc663e3b8f35f3cb796347db6b2!G=3D0!L=3D62!N=3D141!lan=3Den">Unsubscribe<=
+/a>
+<br />
+</span>	</td>	</tr>	</tbody>
+</table>
+<p><img border=3D"0" alt=3D"9612879"
+src=3D"http://b4yljtes6qb7.dkldt.com/open.php?M=3D9612879!G=3D0!L=3D62!N=3D=
+141!F=3DH!image=3D.jpg"></p>
+
+
+
+

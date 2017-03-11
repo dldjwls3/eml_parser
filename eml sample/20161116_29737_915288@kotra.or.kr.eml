@@ -1,0 +1,87 @@
+Received: (qmail 21147 invoked by uid 100); 16 Nov 2016 01:30:00 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda003.wmail.worksmobile.com with SMTP;16 Nov 2016 01:30:00 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from  (mail.duzon.kr [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id lcczl6hNRsi3jnkXEL9VXw
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 16 Nov 2016 01:30:00 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAG1WO80079C;
+	Wed, 16 Nov 2016 10:32:24 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAG1WO80079C
+X-SmartFilter: FROM,uAG1WO80079C,joseph@duzon.com
+x-forward-id: <582bb68f.55e0630a.ce020.35b7SMTPIN_ADDED_BROKEN@mx.google.com>
+Received: from external ([209.85.217.182])
+	by smf.duzon.co.kr (1.0) id uAG1WIx00793;
+	Wed, 16 Nov 2016 10:32:19 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAG1WIx00793
+X-SmartFilter: FROM,uAG1WIx00793,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f182.google.com with SMTP id 12so102576946uas.2
+        for <joseph@duzon.com>; Tue, 15 Nov 2016 17:29:53 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:mime-version:date:content-transfer-encoding:subject:from
+         :to:reply-to;
+        bh=CYKh1TR+bJ+KpKgOC6eGNSrG5eyweY2z+59TW68va74=;
+        b=bROQ10azLvlxsVT4UP8LE8PGUTJw0543E/bX4FbEY3XgZb0jtxzDD5zG2dbxeWHxwp
+         Bg7K7lWILCpXd3btsXLyPyBYHPowjGILFebcANxi5r/dwmnngbXlS/lC5lvo5NcCxZfJ
+         l16Cq59PGsDdDwFu863gGGYxTfDFMPBHAJND7Dd+ZZtK0jEQNZS0tFyWFTA+bqDQTKH+
+         ROAix9D3oLMMHuCaoE1Y3Tbqh+dZSQzOt7GkQL46+N8UqHrjEqEx5byifLjvjDkugOgl
+         bMj8eQnYmCqk1hhuBBGb33e6mbguS1U9OFEA6vHoUnb8Q6IdlW51CxsmHUEBYMDElSBs
+         cLNg==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: ABUngvcGCWA6i5BJDGo75V+m5rHsRvFoWYVWOWCcRXYlAOhjoz0EDfp+d0WhD9TE4WwK/5GvB0yJIr3O6Feos491GCv7jx0=
+X-Received: by 10.176.17.18 with SMTP id e18mr230467uab.19.1479259792743;
+        Tue, 15 Nov 2016 17:29:52 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.43.131 with SMTP id r125csp1925887vsr;
+        Tue, 15 Nov 2016 17:29:52 -0800 (PST)
+X-Received: by 10.99.8.133 with SMTP id 127mr2404499pgi.76.1479259791963;
+        Tue, 15 Nov 2016 17:29:51 -0800 (PST)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id n21si29021770pgj.254.2016.11.15.17.29.51
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Nov 2016 17:29:51 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Message-ID: <582bb68f.55e0630a.ce020.35b7SMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_14257_39092_1_2322_0_20161116102946_210.223.88.35>
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAG1WEq0078C;
+	Wed, 16 Nov 2016 10:32:14 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAG1WEq0078C
+X-SmartFilter: FROM,uAG1WEq0078C,forensic@duzon.com
+x-forward-id: <IWNID_14257_39092_1_2322_0_20161116102946_210.223.88.35>
+Received: from external ([210.223.88.35])
+	by smf.duzon.co.kr (1.0) id uAG1WBn00789;
+	Wed, 16 Nov 2016 10:32:11 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAG1WBn00789
+X-SmartFilter: FROM,uAG1WBn00789,14257_1_39092_forensic_duzon.com@academymail.kotra.or.kr
+MIME-Version: 1.0
+Date: Wed, 16 Nov 2016 10:29:46 +0900
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?UTF-8?B?W0tPVFJB64yA7KCEL+ykkeq4sOyXsF0g7ISg7KeE6rWt7Iuc7J6lIA==?=
+	=?UTF-8?B?7IiY7LacIOyyq+qxuOydjCDqs7zsoJUg7LC46rCA7Iug7LKtIOyViOuCtCjshKDssKk=?=
+	=?UTF-8?B?7IicIOuqqOynkSk=?=
+From: =?UTF-8?B?S09UUkEgQUNBREVNWQ==?=<915288@kotra.or.kr>
+To: =?UTF-8?B?7Jyg7KeE7JWE?=<forensic@duzon.com>
+Reply-To: =?UTF-8?B?S09UUkEgQUNBREVNWQ==?=<915288@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+X-Naver-ESV: wQFn+6J4p635WrlY7BwdpBmmKxKmKAIYkXm=
+
+<img alt="kotra" width="750" height="2322" usemap="#image" src="http://www.kotra.or.kr/images/upload/webedit/images/000111/20161115134254730_V68J80MH.png" /> <map name="image">
+<area shape="rect" coords="104,2167,343,2232" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14257&linkno=1&seqidx=39092&service=1&dmidx=2322&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/images/upload/webedit/files/000004/20161114161946388_62GMSVD1.hwp" />
+<area shape="rect" coords="395,2167,632,2232" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14257&linkno=2&seqidx=39092&service=1&dmidx=2322&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/images/upload/webedit/files/000004/20161114173627121_4155BDOM.xlsx" /></map>
+<div style="display:none;"><img src="http://academymail.kotra.or.kr:8889/trace/openChecker.jsp?mailidx=14257&seqidx=39092&service=1&dmidx=2322&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+
+

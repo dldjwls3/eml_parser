@@ -1,0 +1,145 @@
+Received: (qmail 15848 invoked by uid 100); 10 Nov 2016 01:01:38 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda002.wmail.worksmobile.com with SMTP;10 Nov 2016 01:01:38 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from  (mail.duzon.kr [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id xljuTZw5RhyWA4OYL6DFpA
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 10 Nov 2016 01:01:38 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAA13ow00246;
+	Thu, 10 Nov 2016 10:03:50 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAA13ow00246
+X-SmartFilter: FROM,uAA13ow00246,joseph@duzon.com
+x-forward-id: <201611101001139990@send108.postman.co.kr>
+Received: from external ([209.85.217.176])
+	by smf.duzon.co.kr (1.0) id uAA13jg00236;
+	Thu, 10 Nov 2016 10:03:46 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAA13jg00236
+X-SmartFilter: FROM,uAA13jg00236,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f176.google.com with SMTP id 20so188718492uak.0
+        for <joseph@duzon.com>; Wed, 09 Nov 2016 17:01:24 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:dkim-signature:from:to:reply-to
+         :subject:date:list-unsubscribe:mime-version:message-id
+         :content-transfer-encoding;
+        bh=7pWOgYsc6IScTAlvvpTXjcWbXJHTqI1XnKMFAoaRl/k=;
+        b=hBzO2KTUJFtTHkB8FJ4VH46Sf+v/5KGnbUd5NxYInO8i8FUoihYsYDM1WIWIdQy4aO
+         Db8TFKwd1g6LZJ44tIUINKchN3jz4M8IOnWQK747URJxyCSHLRH3261Hm8LctCiefS+V
+         lQ4TciiSLB4/9NwgGx7TrI0Q2cPtGg9Py4RwOeVGXmHaWBADnex5lqvZAJMnloSAGgac
+         LEbVNhyjFdTeb6X2jJlPAU0QfK/QxTu0GSSowrI89e0ZE+UnPgLJo2MAfPUtiVPifduN
+         mNS215iOXOrDb9hmY3F/5fFLoZU28ahGhIs9kzvsvzYDVd+YyHrNbbGlfWyIPQMEmkZU
+         fl9A==
+X-Gm-Message-State: ABUngvfHHMJNrl6UlzTvKDNSmfqteEPddBvba8T5muiBkgNM+gpe6wRwywWA3BRJngQwBLQbjqwChN5bLuup+bMQ6g3EJOU=
+X-Received: by 10.159.48.28 with SMTP id h28mr1739104uab.39.1478739683590;
+        Wed, 09 Nov 2016 17:01:23 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.43.131 with SMTP id r125csp582845vsr;
+        Wed, 9 Nov 2016 17:01:22 -0800 (PST)
+X-Received: by 10.36.98.69 with SMTP id d66mr5778830itc.73.1478739682539;
+        Wed, 09 Nov 2016 17:01:22 -0800 (PST)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id yx2si1598451pab.293.2016.11.09.17.01.21
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 09 Nov 2016 17:01:22 -0800 (PST)
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@postman.co.kr;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAA13cG0021C;
+	Thu, 10 Nov 2016 10:03:38 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAA13cG0021C
+X-SmartFilter: FROM,uAA13cG0021C,forensic@duzon.com
+x-forward-id: <201611101001139990@send108.postman.co.kr>
+Received: from external ([119.207.76.108])
+	by smf.duzon.co.kr (1.0) id uAA13YA00216;
+	Thu, 10 Nov 2016 10:03:34 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAA13YA00216
+X-SmartFilter: FROM,uAA13YA00216,return_postman1110100000@return.postman.co.kr
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1478739673;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=7pWOgYsc6IScTAlvvpTXjcWbXJHTqI1XnKMFAoaRl/k=;
+	b=XFb+21+ERQH/2zN4q30QDkTq1RXCn80INSC5a0vkUFjOhvw2BI87F/6PPtEnCa10
+	svlnEoTheQYOow5gc3Y5EBYoVXEuZNYuM0WuyNZ1dCUs/1NGWwmR1CTYz6ly7/qCwy8
+	ciXJHHmxHcmR6PRySpEPTcawIY2slhYX99ZVYMUs=
+From: "=?euc-kr?B?t6+017/+wMzE2riuvsY=?=" <lwksc@learningway.co.kr>
+To: "=?euc-kr?B?sejBvsf2?=" <forensic@duzon.com>
+Reply-to: <lwksc@learningway.co.kr>
+Subject: =?euc-kr?B?W7evtNe//sDMxNq4rr7GXSBFeGNlbA==?= =?euc-kr?B?IERhdGEgvcOwosituKYgwKfH0SBQ?= =?euc-kr?B?b3dlciBCSSC5q7fhILy8ucyzqiA=?= =?euc-kr?B?vsizu8DUtM+02S4=?=
+Date: Thu, 10 Nov 2016 10:01:13 +0900
+X-WORKER_ID: <single.default_Worker_16>
+X-MAIL_ID: <UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ==>
+X-MEMBER_ID: <TV9JRD04MDA3NjM1OTY2>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMTE2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=newhorizons2&customer_id=8007635966>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201611101001139990@send108.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: wm+n+6J4p635WrlY7BwdpBmmKxgwKqCYkXm=
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>[=B7=AF=B4=D7=BF=FE=C0=CC=C4=DA=B8=AE=BE=C6] Excel Data =BD=C3=B0=A2=C8=AD=B8=A6 =C0=A7=C7=D1 Power BI =B9=AB=B7=E1 =BC=BC=B9=CC=B3=AA =BE=C8=B3=BB=C0=D4=B4=CF=B4=D9.</title>
+<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type" />
+<style type=3D"text/css">img {display:block;border:0}
+</style>
+</head>
+<body bgcolor=3D"#FFFFFF" leftmargin=3D"0" marginheight=3D"0" marginwidth=3D"0" topmargin=3D"0">
+<center>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"1450" id=3D"__01" width=3D"700">
+<tbody>
+<tr>
+<td colspan=3D"5"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/index.asp?utm_source=3DPOSTMAN&amp;utm_medium=3DEMAIL&amp;utm_campaign=3Dadv" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"200" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_01.jpg" width=3D"700" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"5"><img alt=3D"" height=3D"284" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_02.jpg" width=3D"700" /></td>
+</tr>
+<tr>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://www.learningway.co.kr/contract/contract02.asp?utm_source=3DPOSTMAN&amp;utm_medium=3DEMAIL&amp;utm_campaign=3Dadv" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"155" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_03.jpg" width=3D"518" /></a></td>
+<td colspan=3D"4"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/ncourse.apply.asp?x=3D496&amp;s=3D2280&amp;c=3D1&amp;utm_source=3DPOSTMAN&amp;utm_medium=3DEMAIL&amp;utm_campaign=3Dadv" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"155" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_04.jpg" width=3D"182" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"5"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://www.learningway.co.kr/training/ncourse.apply.asp?x=3D496&amp;s=3D2280&amp;c=3D1&amp;utm_source=3DPOSTMAN&amp;utm_medium=3DEMAIL&amp;utm_campaign=3Dadv" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"311" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_05.jpg" width=3D"700" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"5"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp://www.learningway.co.kr/contract/contract02.asp?utm_source=3DPOSTMAN&amp;utm_medium=3DEMAIL&amp;utm_campaign=3Dadv" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"260" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_06.jpg" width=3D"700" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"5"><img alt=3D"" height=3D"121" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_07.jpg" width=3D"700" /></td>
+</tr>
+<tr>
+<td colspan=3D"2"><img alt=3D"" height=3D"80" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_08.jpg" width=3D"582" /></td>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1D&Q0lEPTAwNg=3D=3D&URL=3Dhttps://www.facebook.com/lwkorea" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"80" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_09.jpg" width=3D"36" /></a></td>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1D&Q0lEPTAwNw=3D=3D&URL=3Dhttps://www.twitter.com/lwkorea" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"80" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_10.jpg" width=3D"36" /></a></td>
+<td><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1D&Q0lEPTAwOA=3D=3D&URL=3Dhttp://blog.naver.com/learningwaykorea" target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"80" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_11.jpg" width=3D"46" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"5"><a href=3D"mailto:jykang@learningway.co.kr?subject=3D=BC=F6=BD=C5=B0=C5=BA=CE=BF=E4=C3=BB&amp;body=3D=BC=F6=BD=C5=B0=C5=BA=CE =BF=E4=C3=BB=C7=D5=B4=CF=B4=D9." target=3D"_blank"><img alt=3D"" border=3D"0" height=3D"38" src=3D"http://www.learningway.co.kr/edm2016/ita/Power-BI_20161123_2st_12.jpg" width=3D"700" /></a></td>
+</tr>
+<tr>
+<td height=3D"1" width=3D"518">&nbsp;</td>
+<td height=3D"1" width=3D"64">&nbsp;</td>
+<td height=3D"1" width=3D"36">&nbsp;</td>
+<td height=3D"1" width=3D"36">&nbsp;</td>
+<td height=3D"1" width=3D"46">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</center>
+<div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04MDA3NjM1OTY2&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMTE2MA=3D=3D&UE9TVF9JRD0yMDE2MTEwOTEwMDAwOTY5ODY4NQ=3D=3D&VEM9MjAxNjExMTc=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+
+

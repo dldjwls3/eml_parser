@@ -1,0 +1,113 @@
+Received: (qmail 16691 invoked by uid 100); 30 Dec 2016 07:29:36 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda003.wmail.worksmobile.com with SMTP;30 Dec 2016 07:29:36 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id HjMZiuImQxeoBtiYZoHjrw
+  for <jonghyun.kim@dforensic.com>;
+  Fri, 30 Dec 2016 07:29:36 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBU7WJ100880;
+	Fri, 30 Dec 2016 16:32:19 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBU7WJ100880
+X-SmartFilter: FROM,uBU7WJ100880,joseph@duzon.com
+x-forward-id: <OFBB3C20FB.6BD4E54D-ON49258099.0029170C-49258099.00291718@lge.com>
+Received: from localhost.localdomain (localhost [127.0.0.1])
+	by duzon-ex.localdomain (Postfix) with SMTP id 3tqdQB0DJGz2fmG0
+	for <joseph@duzon.com>; Fri, 30 Dec 2016 16:29:22 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tqdQ96mdkz2fmG1
+	for <joseph@duzon.com>; Fri, 30 Dec 2016 16:29:21 +0900 (KST)
+Received: from external ([209.85.217.170])
+	by smf.duzon.co.kr (1.0) id uBU7WGh0086E;
+	Fri, 30 Dec 2016 16:32:17 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBU7WGh0086E
+X-SmartFilter: FROM,uBU7WGh0086E,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f170.google.com with SMTP id 88so242560875uaq.3
+        for <joseph@duzon.com>; Thu, 29 Dec 2016 23:29:19 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :from:subject:reply-to:auto-submitted:sender:to:message-id:date
+         :mime-version;
+        bh=Gc7YRXwDOhI3XWoUEj9o0kzGv4C8te6dDuoAopn+o/U=;
+        b=XIJzzr6j1iT9SPOZsWnMwLrpLr1qmgeQWOShVbV9Bb5X7+PiUfJ1OcQeHlcnQgJaUr
+         b7a9mvuR7OQKkFduqzoifcek5cc8hBsXfQVD2V+6Q+w9zdQtsaGv3BKxY/XE1WvlRij0
+         1sz2Mb/reWAlAj+hWVqT1eboCjotnR1kw4SPwfo8yfBeU3lQbnW0/MAsGs9kfN/IzXXL
+         bRtNwYTHZ65QcpkbdbxqeOahWm3dnUmOO9nfv+FHqYuWLJNhzOxj5+fL0Ev9iDJx8oiy
+         sVaXaGBZv7tiNjwLbkp/gGtAv2nZ5g+1ZU+TdS9Yp91mBqhC1UzH+jTLi3KqbASNS1O4
+         nBHw==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AIkVDXL9wivhCpiIO5V4MdbrnvXctQPsttgyb02x/95v5NNzrghQCVvP/agTii+09EdpBofag2BsIzV7sTN25cWeMN9QNK8=
+X-Received: by 10.176.8.201 with SMTP id o9mr35896642uaf.162.1483082959089;
+        Thu, 29 Dec 2016 23:29:19 -0800 (PST)
+X-Forwarded-To: kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp6273194vsa;
+        Thu, 29 Dec 2016 23:29:18 -0800 (PST)
+X-Received: by 10.99.127.72 with SMTP id p8mr82942786pgn.183.1483082958117;
+        Thu, 29 Dec 2016 23:29:18 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id 8si55984816pge.77.2016.12.29.23.29.17
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 29 Dec 2016 23:29:17 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBU7W5V00862;
+	Fri, 30 Dec 2016 16:32:05 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBU7W5V00862
+X-SmartFilter: FROM,uBU7W5V00862,forensic@duzon.com
+x-forward-id: <OFBB3C20FB.6BD4E54D-ON49258099.0029170C-49258099.00291718@lge.com>
+Received: from localhost.localdomain (localhost [127.0.0.1])
+	by duzon-ex.localdomain (Postfix) with SMTP id 3tqdPw1ltqz2fmFw
+	for <forensic@duzon.com>; Fri, 30 Dec 2016 16:29:08 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tqdPw1Wnhz2fmFv
+	for <forensic@duzon.com>; Fri, 30 Dec 2016 16:29:08 +0900 (KST)
+Received: from external ([156.147.23.52])
+	by smf.duzon.co.kr (1.0) id uBU7VkP0085C;
+	Fri, 30 Dec 2016 16:31:46 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBU7VkP0085C
+X-SmartFilter: FROM,uBU7VkP0085C,jongmin.kim@lge.com
+Received: from unknown (HELO lgeamrelo02.lge.com) (156.147.1.126)
+	by 156.147.23.52 with ESMTP; 30 Dec 2016 16:28:49 +0900
+X-Original-SENDERIP: 156.147.1.126
+X-Original-MAILFROM: jongmin.kim@lge.com
+Received: from unknown (HELO lgekrhqms22a.lge.com) (10.185.110.96)
+	by 156.147.1.126 with ESMTP; 30 Dec 2016 16:28:49 +0900
+X-Original-SENDERIP: 10.185.110.96
+X-Original-MAILFROM: jongmin.kim@lge.com
+From: =?EUC-KR?B?sejBvrnO?= <jongmin.kim@lge.com>
+Subject: =?EUC-KR?B?sejBvrnOIGlzIG91dCBvZiBvZmZpY2Uu?=
+Reply-To: "=?EUC-KR?B?sejBvrnO?=" <jongmin.kim@lge.com>
+Auto-Submitted: auto-generated
+Sender: "=?EUC-KR?B?sejBvrnO?=" <jongmin.kim@lge.com>
+To: "=?EUC-KR?B?tPXBuCDG97e7vcS8vsXN?=" <forensic@duzon.com>
+Message-ID: <OFBB3C20FB.6BD4E54D-ON49258099.0029170C-49258099.00291718@lge.com>
+Date: Fri, 30 Dec 2016 16:28:48 +0900
+X-AutoResponse: AutoResponse
+X-MIMETrack: Serialize by Router on LGEKRHQMS22A/LGE/LG Group(Release 8.5.3FP3HF583 | August
+ 9, 2013) at 2016/12/30 16:28:48
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+X-Naver-ESV: +lRYpB3G1H+YbXFCbHmRKAbZaxKrjJ+Y
+
+
+Period :  2016/12/29 ~ 2017/01/01
+
+Dear Sender,
+
+Thank you for your mail. I will reply you as soon as possible
+
+Happy New Year~~
+
+Best regards.
+
+
+
+

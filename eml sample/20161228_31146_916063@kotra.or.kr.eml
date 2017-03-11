@@ -1,0 +1,148 @@
+Received: (qmail 31315 invoked by uid 100); 28 Dec 2016 00:57:59 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda001.wmail.worksmobile.com with SMTP;28 Dec 2016 00:57:59 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.duzon.com [202.167.215.8])
+  by crcvmail01.wmail.naver.com with ESMTP id tbllJn0eQvq2z2zbtnNG7Q
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 28 Dec 2016 00:57:59 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBS10is00C79;
+	Wed, 28 Dec 2016 10:00:44 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBS10is00C79
+X-SmartFilter: FROM,uBS10is00C79,joseph@duzon.com
+x-forward-id: <58630de3.0814620a.352d0.6922SMTPIN_ADDED_BROKEN@mx.google.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tpDqJ3ht0z2fmFt; Wed, 28 Dec 2016 09:57:13 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tpDpb34wjz2fmFr
+	for <joseph@duzon.com>; Wed, 28 Dec 2016 09:57:11 +0900 (KST)
+Received: from external ([209.85.217.178])
+	by smf.duzon.co.kr (1.0) id uBS104V00C62;
+	Wed, 28 Dec 2016 10:00:04 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBS104V00C62
+X-SmartFilter: FROM,uBS104V00C62,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f178.google.com with SMTP id 88so190527745uaq.3
+        for <joseph@duzon.com>; Tue, 27 Dec 2016 16:57:09 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:mime-version:date:subject:from:to:reply-to
+         :content-transfer-encoding;
+        bh=2iaEJfdfR0iV5cXqjugHKR5w727WRAm+u3f54660AoI=;
+        b=Xn4tBEdrAHAYSG9pmAul3JM6nkSg2ghmBwBF9UNNKK5yWlJYS5CDjvLy1Bk+b3Cbyb
+         dEkBLHknTJioIB2to4RRR4Z+g/b3YyjyyZYHYUdvLkjvvN2YhJKj4RWmSqbV8CMCyq6d
+         iHohZUS9qfzdsPSiYWccnujm8rG4X6ZH4ZEtBPYW42/PhtpA3JxWZAVCaczENXxnLwQK
+         Ymnq+0VSw5djpZ+gL7QUatIObZWweHzSgTa1F4CsX2qYdaCBZp5P2lqCwgLKwzA7chb4
+         oVkX17Wox/uGZP1KK1dW65flf/UvCtpvv4vKURC/nnvVaG2Euv+UzUhTvfWKJDivMwhc
+         PXuQ==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AIkVDXJBsFtjlccoELQ8b2LkbzWGGhmzJhaz+BZe+/rD7eiqGBa8UtVwJxY2kzWEUMdTcn50E0rS+UsAj74tum4jbxCA2l8=
+X-Received: by 10.176.0.87 with SMTP id 81mr22148618uai.73.1482886628072;
+        Tue, 27 Dec 2016 16:57:08 -0800 (PST)
+X-Forwarded-To: kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp5225906vsa;
+        Tue, 27 Dec 2016 16:57:07 -0800 (PST)
+X-Received: by 10.84.128.46 with SMTP id 43mr72346732pla.100.1482886627093;
+        Tue, 27 Dec 2016 16:57:07 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id 8si48177820pfu.111.2016.12.27.16.57.06
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 27 Dec 2016 16:57:07 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Message-ID: <58630de3.0814620a.352d0.6922SMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_16239_126784_1_2643_0_20161228095611_210.223.88.35>
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBS0xiQ00C5D;
+	Wed, 28 Dec 2016 09:59:44 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBS0xiQ00C5D
+X-SmartFilter: FROM,uBS0xiQ00C5D,forensic@duzon.com
+x-forward-id: <IWNID_16239_126784_1_2643_0_20161228095611_210.223.88.35>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tpDp86vdbz2fmG1; Wed, 28 Dec 2016 09:56:12 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tpDnS2W4yz2fmG0
+	for <forensic@duzon.com>; Wed, 28 Dec 2016 09:56:12 +0900 (KST)
+Received: from external ([210.223.88.35])
+	by smf.duzon.co.kr (1.0) id uBS0x6J00C56;
+	Wed, 28 Dec 2016 09:59:06 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBS0x6J00C56
+X-SmartFilter: FROM,uBS0x6J00C56,16239_1_126784_forensic_duzon.com@academymail.kotra.or.kr
+MIME-Version: 1.0
+Date: Wed, 28 Dec 2016 09:56:11 +0900
+Content-Type: text/html; charset="UTF-8"
+Subject: =?UTF-8?B?W0tPVFJBXSDsoJwxNeq4sCDrr7jsloDrp4gg7KeA7Jet6rO8?=
+	=?UTF-8?B?7KCVL+uMgOyghCnrsqDtirjrgqgg7Iuc7J6l7J207ZW0IOq1kOycoS8yMDE=?=
+	=?UTF-8?B?NyBLT1RSQeq4gOuhnOuyjCBDRU8g7JWE7Lm0642w66+4?=
+From: =?UTF-8?B?S09UUkEgQUNBREVNWQ==?=<916063@kotra.or.kr>
+To: =?UTF-8?B?7Jyg7KeE7JWE?=<forensic@duzon.com>
+Reply-To: =?UTF-8?B?S09UUkEgQUNBREVNWQ==?=<916063@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +l+YpB3G1H+YbXFCbHmRKAg9FqEljJ+Y
+
+<meta charset=3D"utf-8" /><img alt=3D"kotra" width=3D"750" height=3D"1663=
+" usemap=3D"#image" src=3D"http://www.kotra.or.kr/images/upload/webedit/i=
+mages/000113/20161220110043502_ZQVL2WSR.png" /> <map name=3D"image">
+<area shape=3D"rect" coords=3D"465,569,647,638" href=3D"http://academymai=
+l.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16239&linkno=3D1&seqidx=3D=
+126784&service=3D1&dmidx=3D2643&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&link=
+url=3Dhttp://www.kotra.or.kr/images/upload/webedit/files/000005/201612200=
+90011302_VQXLK17I.pdf" />
+<area shape=3D"rect" coords=3D"486,1496,665,1550" href=3D"http://academym=
+ail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16239&linkno=3D2&seqidx=3D=
+126784&service=3D1&dmidx=3D2643&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&link=
+url=3Dhttp://global-biz.cylearn.co.kr/servlet/controller.homepage.MainSer=
+vlet" />
+<meta charset=3D"utf-8" /><img alt=3D"kotra" width=3D"750" height=3D"1682=
+" usemap=3D"#image" src=3D"http://www.kotra.or.kr/images/upload/webedit/i=
+mages/000113/20161220164209205_NBYN6IFR.png" /> <map name=3D"image">
+<area shape=3D"rect" coords=3D"219,1415,535,1500" href=3D"http://academym=
+ail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16239&linkno=3D3&seqidx=3D=
+126784&service=3D1&dmidx=3D2643&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&link=
+url=3Dhttp://kotra2016.com/daejeon/view.html?seq=3D95" /><img alt=3D"kotr=
+a" width=3D"751" height=3D"2029" usemap=3D"#image" src=3D"http://www.kotr=
+a.or.kr/images/upload/webedit/images/000113/20161212174119773_CV2MYJJC.jp=
+g" /> <map name=3D"image">
+<area shape=3D"rect" coords=3D"134,1658,362,1838" href=3D"http://academym=
+ail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16239&linkno=3D4&seqidx=3D=
+126784&service=3D1&dmidx=3D2643&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&link=
+url=3Dhttp://www.kotra.or.kr/images/upload/webedit/files/000005/201611251=
+13407687_3C0N4SW1.pdf" />
+<area shape=3D"rect" coords=3D"385,1658,640,1838" href=3D"http://academym=
+ail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16239&linkno=3D5&seqidx=3D=
+126784&service=3D1&dmidx=3D2643&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&link=
+url=3Dhttp://www.kotra.or.kr/images/upload/webedit/files/000005/201611251=
+13802930_YMYKAKC9.hwp" />*=EC=88=98=EC=8B=A0=EA=B1=B0=EB=B6=80*<br />
+&nbsp; =EC=88=98=EC=8B=A0=EA=B1=B0=EB=B6=80 : <a href=3D"http://academyma=
+il.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D16239&linkno=3D6&seqidx=3D=
+126784&service=3D1&dmidx=3D2643&emidx=3D0&uidx=3D1&gidx=3D1&site=3D0&link=
+url=3Dhttp://scrm.kotra.or.kr/crm/common.ComMail/UCP_D2?EMAILLOGID=3D1341=
+68810">=EC=BD=94=ED=8A=B8=EB=9D=BC =EC=84=9C=EB=B9=84=EC=8A=A4 =ED=86=B5=ED=
+=95=A9=EC=82=AC=EC=97=85=EC=95=88=EB=82=B4&nbsp;=EC=97=90 =ED=95=B4=EB=8B=
+=B9=EB=90=98=EB=8A=94 =EB=A9=94=EC=9D=BC=EC=9D=84 =EC=88=98=EC=8B=A0=EA=B1=
+=B0=EB=B6=80 =ED=95=A9=EB=8B=88=EB=8B=A4.</a><br />
+&nbsp;=EC=A0=84=EC=B2=B4=EC=88=98=EC=8B=A0=EA=B1=B0=EB=B6=80&nbsp;: <a hr=
+ef=3D"http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=3D162=
+39&linkno=3D7&seqidx=3D126784&service=3D1&dmidx=3D2643&emidx=3D0&uidx=3D1=
+&gidx=3D1&site=3D0&linkurl=3Dhttp://scrm.kotra.or.kr/crm/common.ComMail/U=
+CP_D?EMAILLOGID=3D134168810">=EC=BD=94=ED=8A=B8=EB=9D=BC=EC=97=90=EC=84=9C=
+ =EB=B0=9C=EC=86=A1=ED=95=98=EB=8A=94 =EB=AA=A8=EB=93=A0 =EC=BA=A0=ED=8E=98=
+=EC=9D=B8 =EB=A9=94=EC=9D=BC=EC=9D=84 =EC=88=98=EC=8B=A0 =EA=B1=B0=EB=B6=80=
+ =ED=95=A9=EB=8B=88=EB=8B=A4.</a><br />
+&nbsp;&nbsp; <br />
+</map></map></map>
+<div style=3D"display:none;"><img src=3D"http://academymail.kotra.or.kr:8=
+889/trace/openChecker.jsp?mailidx=3D16239&seqidx=3D126784&service=3D1&dmi=
+dx=3D2643&emidx=3D0&duration=3D0&site=3D0" border=3D"0" width=3D"0" heigh=
+t=3D"0"></div>
+
+
+

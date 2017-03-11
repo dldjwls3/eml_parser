@@ -1,0 +1,219 @@
+Received: (qmail 7300 invoked by uid 100); 1 Apr 2016 00:49:28 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda02.wmail.naver.com with SMTP;1 Apr 2016 00:49:28 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from  (mail.duzon.kr [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id coMSQTTATouN85KFmoDzYg
+  for <jonghyun.kim@dforensic.com>;
+  Fri, 01 Apr 2016 00:49:28 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u310mHs005E2;
+	Fri, 01 Apr 2016 09:48:17 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u310mHs005E2
+X-SmartFilter: FROM,u310mHs005E2,joseph@duzon.com
+x-forward-id: 1459471536559_935649226
+recvDate: Fri, 01 Apr 2016 09:45:36 +0900
+x-newturns-hashkey: 8b842fa061741a228522b1621b6431b457c53ff690bde579c24e25f42b9a44aa
+Received: from external ([209.85.214.181])
+	by smf.duzon.com (1.0) id u310lvj005D9;
+	Fri, 01 Apr 2016 09:47:58 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u310lvj005D9
+X-SmartFilter: FROM,u310lvj005D9,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ob0-f181.google.com with SMTP id fp4so35668949obb.2
+        for <joseph@duzon.com>; Thu, 31 Mar 2016 17:49:03 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :recvdate:subject:to:from:reply-to:errors-to:mime-version:date
+         :message-id:importance:organization:content-transfer-encoding;
+        bh=49olt+lGt2tu5DQ7YFqD+q98U5FMD4j09BT1/XlSWXM=;
+        b=OfNVuqTVGY0rEghiqDTgHACQ/cZx4bBx8XkgAxB7fNntqJYfQN2RhgR/a6uZnqBrU3
+         7nOUe4G75XaRsqUw8au6jFkcewSdyciEu2NQPDhDK8AXyIZBRraUzK3gk4XsrGI9O6sA
+         PrFi4AF1IJSlm4uzmLjWn21PfLCLZKhnWmyIoBjH/BZHWoVafsyrAeqjYt9Spkdp2br5
+         Xn8kQxndzUC3D3V5nhOLl8B27UMGpBUgSH22ft2uNTDPlaBFViYwcuKaerd802ZQRe5k
+         w1ogaDW0k3UPM0TCfJXNnVcm6GJbATlrvS81IyLKf7bnfZnwrtNCAl4IutrgUaLCkxs/
+         F3NA==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AD7BkJJx+docBCbqMhIchEa+pdF5RbeZUVPAnof0pxkvah5EMrl5QXmgiNwkHYK+IMTtNRXMKPU3HmOt8Hg//y/ockcQXLY=
+X-Received: by 10.60.155.97 with SMTP id vv1mr1202165oeb.60.1459471742427;
+        Thu, 31 Mar 2016 17:49:02 -0700 (PDT)
+X-Forwarded-To: hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.157.14.6 with SMTP id c6csp284049otc;
+        Thu, 31 Mar 2016 17:49:01 -0700 (PDT)
+X-Received: by 10.66.66.135 with SMTP id f7mr26301210pat.101.1459471741452;
+        Thu, 31 Mar 2016 17:49:01 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id e65si17310645pfd.212.2016.03.31.17.49.00
+        for <forensic.duzon@gmail.com>;
+        Thu, 31 Mar 2016 17:49:01 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u310lcS005C8;
+	Fri, 01 Apr 2016 09:47:38 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u310lcS005C8
+X-SmartFilter: FROM,u310lcS005C8,forensic@duzon.com
+x-forward-id: 1459471497449_2433444502
+recvDate: Fri, 01 Apr 2016 09:44:57 +0900
+x-newturns-hashkey: afde8ac3d2dfc2db1e04c5e9f89a15ad5421d37e9b1e21b4d05ae0244783add6
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id u310laR005C7;
+	Fri, 01 Apr 2016 09:47:36 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u310laR005C7
+X-SmartFilter: FROM,u310laR005C7,user29001@sendd.ozmailer.com
+Subject: =?EUC-KR?B?WzQvMTUosd0pse7B9l1dKFImRLrxv+vB9r/4KSChrjE2s+IgU1ex4rz6wabHsCCw7Q==?=
+	=?EUC-KR?B?tbXIrSDI8bjBILHivvcgwba75yC+yLO7teW4s7TPtNku?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?x9GxucGkuri76r73v6zH1ci4?=" <jyj@fkii.org>
+Reply-To: <jyj@fkii.org>
+Errors-To: <jyj@fkii.org>
+MIME-Version: 1.0
+Date: Fri, 01 Apr 2016 09:48:41 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1970125@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: wZen+6J4p635WrlY7BwdpBmmKAtlKoCYkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7156717" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>[4/15(금)까지]](R&D비용지원) ‘16년 SW기술제품 고도화 희망 기업 조사 안내드립니다.</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<p><!--StartFragment--></p><p class="0"><span>안녕하십니까</span></p><p class="0">&nbsp;&nbsp;<!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--> </p><p class="0" style="line-height: 130%; text-indent: -10.4pt;"><span>&nbsp;&nbsp; 한국정보산업연합회</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">(FKII), </span><span>정보통신산업진흥원</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">(NIPA)</span><span>은 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">SW</span><span>기술 이전을 통해 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">SW</span><span>기술</span><span style="letter-spacing: 0pt;">&#8231;</span><span>제품의 재개발 비용을 지원하는</span>&nbsp;</p><p class="0" style="line-height: 130%; text-indent: -10.4pt;"><span>&nbsp; &#65279;</span><span style="letter-spacing: 0pt;">『</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬�!
+ 芼�;">2016</span><span>년 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">SW</span><span>자산재개발 지원 사업</span><span style="letter-spacing: 0pt;">』</span><span>을 추진합니다</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">.</span>&nbsp;</p><p class="0" style="line-height: 130%; text-indent: -10.4pt;"><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;"></span>&nbsp;&nbsp; SW제품 고도화를 희망하는 기업에 대한 수요조사를 진행하오니 많은 참여를 바랍니다.</p><p class="0" style="line-height: 130%; text-indent: -10.4pt;">&nbsp;&nbsp;<!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--> </p><table class="__se_tbl" style="border-width: 1px 1px 0px 0px; border-style: solid solid none none; border-color: rgb(204, 204, 204) rgb(204, 204, 204) currentColor currentColor; border-image: none;" border="0" cellspacing="0" cellpadding="0"><tbody>
+<tr><td width="876" style="border-width: 0px 0px 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(204, 204, 204) rgb(204, 204, 204); border-image: none; background-color: rgb(255, 255, 255);"><p><span style="letter-spacing: 0pt;">◎ </span><span>개요 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">: SW</span><span>기술</span><span style="letter-spacing: 0pt;">&#8226;</span><span>제품 고도화에 필요한 타사 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">SW</span><span>기술을 이전</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">(</span><span>라이센싱</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">, </span><span>양수도</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">)</span><span>하고 재개발</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">(R&amp;D)</spa!
+ n><span>을 진행할 경우</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">, </span><span>재개발 비용을 지원하는 사업</span>&nbsp;<o:p></o:p></p><p class="0"><span style="letter-spacing: 0pt;">◎ </span><span>지원 사항 </span></p><p class="0"><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">- </span><span>재개발 비용</span><strong><span lang="EN-US" style="color: rgb(58, 50, 195); letter-spacing: 0pt; font-family: 함초롬바탕;">(</span><span style="color: rgb(58, 50, 195);">과제 당 </span><span lang="EN-US" style="color: rgb(58, 50, 195); letter-spacing: 0pt; font-family: 함초롬바탕;">1</span><span style="color: rgb(58, 50, 195);">억원 이내</span></strong><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;"><strong><span style="color: rgb(58, 50, 195);">)</span></strong> </span><span>및 결과물 품질관리 컨설팅 지원&nbsp;</span>&nbsp;<o:p></o:p></p><p class="0"><span lang="EN-US" style="letter-spacing: 0pt;!
+  font-family: 함초롬바탕;">- </span><span>기술 중개 마케팅 </span><spa
+n lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">: </span><span>필요 기술 매칭 및 중개 지원</span>&nbsp;<o:p></o:p></p><p class="0"><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">- </span><span>법무법인 컨설팅 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">: </span><span>선행 기술 분석</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">, </span><span>기술 계약 가이드 라인 및 자문 제공</span>&nbsp;<o:p></o:p></p><p class="0"><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">- </span><span>각종 마케팅</span><span style="letter-spacing: 0pt;">&#8226;</span><span>홍보 연계 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">: </span><span>기술설명회 개최</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">, ‘16</span><span>년 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초!
+ 롬바탕;">SW</span><span>제품 마케팅</span><span style="letter-spacing: 0pt;">&#8226;</span><span>홍보 지원 사업 참여 기회 제공</span>&nbsp;</p><p class="0"><span></span>&nbsp;</p><p></p></td>
+</tr>
+</tbody>
+</table><p></p><p> <o:p></o:p></p><p class="0">&nbsp;<o:p></o:p></p><p class="0" style="line-height: 130%;"><span style="letter-spacing: 0pt;">□ </span><span>기간 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">: 2016</span><span>년 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">4</span><span>월 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">1</span><span>일</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">(</span><span>금</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">)~ 4</span><span>월 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">15</span><span>일</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">(</span><span>금</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">)</span><span>까지 </span></p><p class="0" style="line-height!
+ : 130%;"><span style="letter-spacing: 0pt;">□ </span><span>문의 </span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">: </span><span>한국정보산업연합회 정용진 선임</span><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">(02-2132-0725, </span><a href="mailto:jyj@fkii.org"><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">jyj@fkii.org</span></a><span lang="EN-US" style="letter-spacing: 0pt; font-family: 함초롬바탕;">)</span></p><p><br></p><p><br></p><p><br></p><p align="center" style="text-align: center;">
+
+
+
+
+
+
+
+
+<title>SW기술·제품 고도화 희망기업 조사 설문 바로가기</title>
+
+
+
+<img width="400" height="127" src="http://www.fkii.org/upload/imgs/2016/swre/survey1.jpg" border="0" usemap="#Map">
+<map name="Map">
+  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=sr2h6_49e5p_8ad1ui" shape="rect" coords="47,36,348,93" target="_blank">
+</map>
+
+
+</p><p><br></p>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>뉴스레터의 수신을 더이상 원하지 않으시면, 하단의 '수신거부' 버튼을 클릭해주세요.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7156717' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

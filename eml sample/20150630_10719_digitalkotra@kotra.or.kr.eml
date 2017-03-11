@@ -1,0 +1,222 @@
+Received: (qmail 17461 invoked from network); 30 Jun 2015 06:29:32 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda02.wmail.naver.com with SMTP; 30 Jun 2015 06:29:32 -0000
+Received: from [202.167.215.64] ([202.167.215.64]) 
+          by crcvmail01.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1435645772.56302.2862599056.crcvmail01
+          for <jonghyun.kim@dforensic.com>; 
+          Tue, 30 Jun 2015 15:29:32 +0900 (KST) 
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t5U6PD8002AF;
+	Tue, 30 Jun 2015 15:25:13 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t5U6PD8002AF
+X-SmartFilter: FROM,t5U6PD8002AF,joseph@duzon.com
+x-forward-id: 1435645686314_935649226
+recvDate: Tue, 30 Jun 2015 15:28:06 +0900
+x-newturns-hashkey: 028f0e5251ca5a0474813e577adf78f48dffeeefda33a606be37897069a59b4f
+Received: from external ([209.85.215.42])
+	by smf.duzon.com (1.0) id t5U6Oxq0029F;
+	Tue, 30 Jun 2015 15:24:59 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t5U6Oxq0029F
+X-SmartFilter: FROM,t5U6Oxq0029F,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by lagh6 with SMTP id h6so472256lag.2
+        for <joseph@duzon.com>; Mon, 29 Jun 2015 23:29:16 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:date:from
+         :to:message-id:subject:mime-version:content-type;
+        bh=HuUJ5vvpXI+mkDdAgAjAlSLEA52rltU9xYOt2slF+E4=;
+        b=l/SQUBtIFCdRdSGx4aUZFg+WAC1lZEyOKBUmCQll0j0C16o6anU0+PXW4HxU1e6c6R
+         LX6InLPQqKG8OLVE4bpMONF5GmQZB48CnqFwM7e2tD0z8OkeiMVEge7zyNfcBYzWpgAu
+         Iw0V4M1EYB4pD8ueC83JumO74MSuQSSQwXHTZo0c3eAdsaC6rr8k7HjlEM2D41SuQ8i7
+         Hg0au3vYp1QddkTEldGWCwQ9pmy/BhtKUTHd3zZO2Nbf1kkQ4njtJvrEpsfjBSHBLaBq
+         rp6hSA+Ir6Y6Y16auNmlBwL4sjOwC1LTS6AYz8Rh+mvANVUvfLP8cYYOmshdUFIUbkpk
+         tORw==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+X-Received: by 10.152.5.167 with SMTP id t7mr12735707lat.112.1435645755787;
+        Mon, 29 Jun 2015 23:29:15 -0700 (PDT)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com, hoyong_kim@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com, hoyong_kim@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.186.169 with SMTP id fl9csp1886523ldc;
+        Mon, 29 Jun 2015 23:29:14 -0700 (PDT)
+X-Received: by 10.67.7.162 with SMTP id dd2mr39166410pad.151.1435645752946;
+        Mon, 29 Jun 2015 23:29:12 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id je6si68206366pbd.229.2015.06.29.23.29.11
+        for <forensic.duzon@gmail.com>;
+        Mon, 29 Jun 2015 23:29:12 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t5U6Opg00295;
+	Tue, 30 Jun 2015 15:24:51 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t5U6Opg00295
+X-SmartFilter: FROM,t5U6Opg00295,forensic@duzon.com
+x-forward-id: 1435645664286_2433444502
+recvDate: Tue, 30 Jun 2015 15:27:44 +0900
+x-newturns-hashkey: 6c4129b6b58e545213da3ebfc232a01f995d500c2d0c301d758306529fc4aa64
+Received: from external ([210.223.88.8])
+	by smf.duzon.com (1.0) id t5U6Ole00293;
+	Tue, 30 Jun 2015 15:24:47 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t5U6Ole00293
+X-SmartFilter: FROM,t5U6Ole00293,digitalkotra@kotra.or.kr
+Received: from unknown (HELO S160?WAS) (180.100.100.133)
+	by 210.223.88.8 with ESMTP; 30 Jun 2015 15:28:55 +0900
+X-Original-SENDERIP: 180.100.100.133
+X-Original-MAILFROM: digitalkotra@kotra.or.kr
+X-Original-RCPTTO: forensic@duzon.com,
+	forensic@duzon.com,
+	kotratest@gmail.com
+Date: Tue, 30 Jun 2015 15:29:04 +0900 (KST)
+From: =?UTF-8?B?7L2U7Yq46528?= <digitalkotra@kotra.or.kr>
+To: forensic@duzon.com
+Message-ID: <925841199.1231435645744638.JavaMail.tmax@S160_WAS>
+Subject: =?UTF-8?B?7L2U7Yq46528IOyViOuCtCDrqZTsnbw=?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_123_146475195.1435645744635"
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +e+YpB3G1HbZa0ixyueaKV/dKV0YbzJqbXmmFoUlKqiYkXm=
+
+------=_Part_123_146475195.1435645744635
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//Dtd HTML 4.0 transitional//EN"><HTML><HEAD><=
+meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" /><=
+TITLE>=EC=BD=94=ED=8A=B8=EB=9D=BC</TITLE><STYLE TYPE=3D"text/css"><!--td {f=
+ont-family: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetica"; font-size: 12px; =
+color: #666666; line-height: 17px;}.copy01 {font-family: "=EA=B5=B4=EB=A6=
+=BC", "Verdana", "Helvetica"; font-size: 12px; color: #7C7C7C; line-height:=
+ 17px; letter-spacing:-1;}.copy02 {font-family: "=EA=B5=B4=EB=A6=BC", "Verd=
+ana", "Helvetica"; font-size: 11px; color: #7C7C7C; line-height: 17px; lett=
+er-spacing:0;}.event {font-family: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvet=
+ica"; font-size: 12px; color: #333333; line-height: 17px; letter-spacing:0;=
+ }.event01 {font-family: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetica"; font=
+-size: 12px; color: #DBF35F; line-height: 17px; font-weight: bold; backgrou=
+nd-color:#000000;letter-spacing:0; }.event02 {font-family: "=EA=B5=B4=EB=A6=
+=BC", "Verdana", "Helvetica"; font-size: 12px; color: #FF62EB; line-height:=
+ 17px; font-weight: bold; letter-spacing:0;}a:link    {  font-family: "=EA=
+=B5=B4=EB=A6=BC", "Verdana", "Helvetica"; font-size: 12px; color: #666666; =
+text-decoration: none;}a:visited {  font-family: "=EA=B5=B4=EB=A6=BC", "Ver=
+dana", "Helvetica"; font-size: 12px; color: #666666; text-decoration: none;=
+}a:active  {  font-family: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetica"; fo=
+nt-size: 12px; color: #666666; text-decoration: none;}a:hover   {  font-fam=
+ily: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetica"; font-size: 12px; color: =
+#666666; text-decoration: none;}A.tit         {color: #1A7AC4; text-decorat=
+ion:none; =09font-family: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetica"; fon=
+t-size: 12px;  font-weight: bold;}A:visited.tit {color: #1A7AC4; text-decor=
+ation:none; =09font-family: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetica"; f=
+ont-size: 12px;  font-weight: bold;}A:hover.tit   {color: #1A7AC4; text-dec=
+oration:none; =09font-family: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetica";=
+ font-size: 12px;  font-weight: bold;}A.copy         {color: #5B9F00; text-=
+decoration:none; =09font-family: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetic=
+a"; font-size: 11px; }A:visited.copy {color: #5B9F00; text-decoration:none;=
+ =09font-family: "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetica"; font-size: 1=
+1px; }A:hover.copy   {color: #5B9F00; text-decoration:none; =09font-family:=
+ "=EA=B5=B4=EB=A6=BC", "Verdana", "Helvetica"; font-size: 11px; }.tbl_mailt=
+o01 {background-image: url(http://dev.kotra.or.kr/images/kh/common/tbl_mail=
+to01.gif); width: 25px; height: 15px;}.tbl_mailto02 {background-image: url(=
+http://dev.kotra.or.kr/images/kh/common/tbl_mailto02.gif);}.tbl_mailto03 {b=
+ackground-image: url(http://dev.kotra.or.kr/images/kh/common/tbl_mailto03.g=
+if); width: 25px; height:}.tbl_mailto04 {background-image: url(http://dev.k=
+otra.or.kr/images/kh/common/tbl_mailto04.gif); }.tbl_mailto05 {background-i=
+mage: url(http://dev.kotra.or.kr/images/kh/common/tbl_mailto05.gif); vertic=
+al-align:top; text-align:center;}.tbl_mailto06 {background-image: url(http:=
+//dev.kotra.or.kr/images/kh/common/tbl_mailto06.gif);}.tbl_mailto07 {backgr=
+ound-image: url(http://dev.kotra.or.kr/images/kh/common/tbl_mailto07.gif); =
+height: 15px;}.tbl_mailto08 {background-image: url(http://dev.kotra.or.kr/i=
+mages/kh/common/tbl_mailto08.gif);}.tbl_mailto09 {background-image: url(htt=
+p://dev.kotra.or.kr/images/kh/common/tbl_mailto09.gif);}.mailto_tit_bg {bac=
+kground-image: url(http://dev.kotra.or.kr/images/kh/common/mailto_tit_bg.gi=
+f); height: 40px;}.th { font-weight: bold; text-align: right; vertical-alig=
+n: top; padding: 6px 10px 3px 3px; width: 85px; background-color: #c7e1f2; =
+}.th-textarea { font-weight: bold; text-align: right; vertical-align: top; =
+padding: 12px 10px 3px 3px; width: 85px; background-color: #c7e1f2; }.tb { =
+text-align: left; vertical-align: top; padding: 6px 3px 3px 12px; backgroun=
+d-color: #f1f5fa;}.tb-textarea { text-align: left; vertical-align: top; pad=
+ding: 12px; background-color: #f1f5fa;}input { border: 1px solid #999999; f=
+ont-family: "=EA=B5=B4=EB=A6=BC", "=EA=B5=B4=EB=A6=BC=EC=B2=B4" ,"=EB=8F=8B=
+=EC=9B=80", "=EB=8F=8B=EC=9B=80=EC=B2=B4"; font-size:9pt; padding : 3px;}te=
+xtarea { border: 1px solid #999999; font-family: "=EA=B5=B4=EB=A6=BC", "=EA=
+=B5=B4=EB=A6=BC=EC=B2=B4" ,"=EB=8F=8B=EC=9B=80", "=EB=8F=8B=EC=9B=80=EC=B2=
+=B4"; font-size:9pt; padding : 5px; }--></STYLE></HEAD><BODY topmargin=3D"0=
+"><center><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">=09<tr>=
+=09=09<td colspan=3D"3" height=3D"15"></td>=09</tr>=09<tr>=09=09<td class=
+=3D"tbl_mailto01" style=3D"background-image: url(http://dev.kotra.or.kr/ima=
+ges/kh/common/tbl_mailto01.gif); width: 25px; height: 15px;"></td>=09=09<td=
+ class=3D"tbl_mailto02" style=3D"background-image: url(http://dev.kotra.or.=
+kr/images/kh/common/tbl_mailto02.gif);"></td>=09=09<td class=3D"tbl_mailto0=
+3" style=3D"{background-image: url(http://dev.kotra.or.kr/images/kh/common/=
+tbl_mailto03.gif); width: 25px; height:"></td>=09</tr>=09<tr>=09=09<td clas=
+s=3D"tbl_mailto04" style=3D"background-image: url(http://dev.kotra.or.kr/im=
+ages/kh/common/tbl_mailto04.gif); width: 25px;"></td>=09=09<td class=3D"tbl=
+_mailto05" style=3D"background-image: url(http://dev.kotra.or.kr/images/kh/=
+common/tbl_mailto05.gif); vertical-align:top; width: 670px; padding : 15px =
+0px 15px 0px; ">=09=09=09=09=09=09=09<!-- mailto start -->=09=09=09<table w=
+idth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"2" align=3D"cen=
+ter">=09=09=09=09<tr>=09=09=09=09=09<td class=3D"th" style=3D"font-weight: =
+bold; text-align: right; vertical-align: top; padding: 6px 10px 3px 3px; wi=
+dth: 85px; background-color: #c7e1f2;">=EB=B3=B4=EB=82=B4=EB=8A=94 =EC=82=
+=AC=EB=9E=8C</td>=09=09=09=09=09<td class=3D"tb" style=3D"text-align: left;=
+ vertical-align: top; padding: 6px 3px 3px 12px; background-color: #f1f5fa;=
+">=EC=BD=94=ED=8A=B8=EB=9D=BC(<a href=3D"mailto:digitalkotra@kotra.or.kr">d=
+igitalkotra@kotra.or.kr</a>)</td>=09=09=09=09</tr>=09=09=09=09<tr>=09=09=09=
+=09=09<td class=3D"th" style=3D"font-weight: bold; text-align: right; verti=
+cal-align: top; padding: 6px 10px 3px 3px; width: 85px; background-color: #=
+c7e1f2;">=EC=A0=9C=EB=AA=A9</td>=09=09=09=09=09<td class=3D"tb" style=3D"te=
+xt-align: left; vertical-align: top; padding: 6px 3px 3px 12px; background-=
+color: #f1f5fa;"><b>=EC=BD=94=ED=8A=B8=EB=9D=BC =EC=95=88=EB=82=B4 =EB=A9=
+=94=EC=9D=BC</b></td>=09=09=09=09</tr>=09=09=09=09<tr>=09=09=09=09=09<td cl=
+ass=3D"th-textarea" style=3D"font-weight: bold; text-align: right; vertical=
+-align: top; padding: 12px 10px 3px 3px; width: 85px; background-color: #c7=
+e1f2;">=EC=A0=84=ED=95=98=EB=8A=94 =EB=A7=90</td>=09=09=09=09=09<td class=
+=3D"tb-textarea" style=3D"text-align: left; vertical-align: top; padding: 1=
+2px; background-color: #f1f5fa;"><center><table width=3D'400' border=3D'0' =
+cellpadding=3D'0' cellspacing=3D'2' align=3D'center'><tr><td class=3D'th'><=
+span class=3D'st03'>ID</span></td><td class=3D'tb'><span class=3D'st02'>duz=
+onbizon2015</span></td></tr><tr><td class=3D'th'><span class=3D'st03'>=EC=
+=9E=84=EC=8B=9C Password</span></td><td class=3D'tb'><span class=3D'st02'>8=
+37v1n4c6@</span></td></tr><tr><td colspan=3D'2' align=3D'left'></td></tr></=
+table></center></td>=09=09=09=09</tr>=09=09=09</table>=09=09=09<!-- mailto =
+end //-->=09=09=09<!-- CONTENT start /*=EB=84=93=EC=9D=B4=EA=B6=8C=EC=9E=A5=
+=EC=82=AC=EC=9D=B4=EC=A6=88 670*/-->=09=09=09<table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" align=3D"center">=09=09=09=09<tr>=09=09=09=09=09<=
+td height=3D"15"></td>=09=09=09=09</tr>=09=09=09=09<tr>=09=09=09=09=09<td s=
+tyle=3D'font-size:12px;'></td>=09=09=09=09</tr>=09=09=09=09<tr>=09=09=09=09=
+=09<td height=3D"15"></td>=09=09=09=09</tr>=09=09=09</table>=09=09=09<!-- C=
+ONTENT end //-->=09=09=09<!-- copyright -->=09=09=09<table width=3D"600" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">=09=09=09=
+=09<tr>=09=09=09=09=09<td class=3D"copy01" style=3D"height:60px;padding-lef=
+t: 45px; vertical-align:middle; text-align:center;">=09=09=09=09=09=09=EB=
+=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 <font color=3D"red">=EB=B0=9C=EC=8B=A0=
+=EC=9E=90 =EC=A0=84=EC=9A=A9</font>=EC=9D=B4=EB=AF=80=EB=A1=9C <font color=
+=3D"red">=ED=9A=8C=EC=8B=A0=EC=9D=84 =EC=9B=90=ED=95=98=EC=8B=A4 =EA=B2=BD=
+=EC=9A=B0, =EB=B3=B4=EB=82=B4=EC=8B=A0 =EB=B6=84 =EC=9D=B4=EB=A9=94=EC=9D=
+=BC=EC=A3=BC=EC=86=8C=EB=A1=9C =ED=9A=8C=EC=8B=A0</font>=ED=95=98=EC=8B=9C=
+=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4. =09=09=09=09=09</td>=09=09=
+=09=09</tr>=09=09=09=09<tr>=09=09=09=09=09<td class=3D"copy02" style=3D"pad=
+ding-left: 170px; width: 600px; vertical-align:middle; height:75px; backgro=
+und-image:url(http://dev.kotra.or.kr/images/kh/common/eko_bg_copy.gif); fon=
+t-size: 11px; color: #7C7C7C; line-height: 17px; letter-spacing:0;">=09=09=
+=09=09=09=09=EC=9A=B0) 137-749 =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=84=9C=EC=B4=
+=88=EA=B5=AC =ED=97=8C=EB=A6=89=EB=A1=9C 13 (=EA=B5=AC : =EC=84=9C=EC=9A=B8=
+=EC=8B=9C =EC=84=9C=EC=B4=88=EA=B5=AC =EC=97=BC=EA=B3=A1=EB=8F=99 300-9)<br=
+ />=09=09=09=09=09=09Copyright 2006 <b>KOTRA</b>, All rights reserved. =09=
+=09=09=09=09</td>=09=09=09=09</tr>=09=09=09</table>=09=09=09<!-- copyright =
+end //-->=09=09=09=09</td>=09=09<td class=3D"tbl_mailto06" style=3D"backgro=
+und-image: url(http://dev.kotra.or.kr/images/kh/common/tbl_mailto06.gif); w=
+idth: 25px;"></td>=09</tr>=09<tr>=09=09<td class=3D"tbl_mailto07" style=3D"=
+background-image: url(http://dev.kotra.or.kr/images/kh/common/tbl_mailto07.=
+gif); width: 25px; height: 15px;"></td>=09=09<td class=3D"tbl_mailto08" sty=
+le=3D"background-image: url(http://dev.kotra.or.kr/images/kh/common/tbl_mai=
+lto08.gif); height: 15px;"></td>=09=09<td class=3D"tbl_mailto09" style=3D"b=
+ackground-image: url(http://dev.kotra.or.kr/images/kh/common/tbl_mailto09.g=
+if); width: 25px; height: 15px;"></td>=09</tr></table></center></BODY></HTM=
+L>
+------=_Part_123_146475195.1435645744635--
+
+
+

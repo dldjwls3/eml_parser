@@ -1,0 +1,196 @@
+Received: (qmail 26798 invoked by uid 100); 29 Dec 2016 02:16:18 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda003.wmail.worksmobile.com with SMTP;29 Dec 2016 02:16:18 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.duzon.com [202.167.215.8])
+  by crcvmail01.wmail.naver.com with ESMTP id RE2ia2p1T9WftsZN5+fn5A
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 29 Dec 2016 02:16:16 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBT2J5P0025C;
+	Thu, 29 Dec 2016 11:19:05 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBT2J5P0025C
+X-SmartFilter: FROM,uBT2J5P0025C,joseph@duzon.com
+x-forward-id: <f9cc718e4051d0c6bc91122b3f604cab@george.9ycs.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tptWF2Pyjz2fmFr; Thu, 29 Dec 2016 11:15:47 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tptVn0f0rz2fmFt
+	for <joseph@duzon.com>; Thu, 29 Dec 2016 11:15:45 +0900 (KST)
+Received: from external ([209.85.217.177])
+	by smf.duzon.co.kr (1.0) id uBT2IcG00253;
+	Thu, 29 Dec 2016 11:18:39 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBT2IcG00253
+X-SmartFilter: FROM,uBT2IcG00253,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f177.google.com with SMTP id 34so181359640uac.1
+        for <joseph@duzon.com>; Wed, 28 Dec 2016 18:15:42 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:domainkey-signature
+         :date:from:to:subject:mime-version:message-id
+         :content-transfer-encoding;
+        bh=ZaRLWD5mI+7QzA5ea4CmrXSUg56dk5HdKDISjubv0Is=;
+        b=kewWJ04VE3d/5lvLUT4/r2pKzdpKXbuYWzx9dtsgltg7g+dSiN1d7VYZKPotQuWOBy
+         8s8b/JZqS5TfqRUsQKGNbZ7gkDClqTo+Y+1hV2sLnPPoHC7UCpvHJGfu0/Y6s9YtKhQl
+         cECg88HHPOdq6r+Aor15rQnHBFmIC16OzUOT+lCnt1ggVsZRvusDWhABd2qciQtl0kbp
+         rVL/l/sVxDhtH7R+L0ymQyYP/bF7lP/aIOY0WedPqNc3+639fkWirkyO6dfT4X3GP/Fp
+         WNtfQ1WgfUipGbbW5apsUWo61mGy0lMYRGnrk0G8J0xGtWoJWgf/4fD1Hg9xwm8gX0xF
+         v9Fw==
+X-Gm-Message-State: AIkVDXLUkFPVFPlgizsTOMklmOzelcrrezazFzuE06DU9QX/5STiqDMyRS4I3Nv25ev5N+H5O8vEk2eG0WAoPmq3IiclzsY=
+X-Received: by 10.176.17.18 with SMTP id e18mr30672368uab.19.1482977741499;
+        Wed, 28 Dec 2016 18:15:41 -0800 (PST)
+X-Forwarded-To: kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp5722733vsa;
+        Wed, 28 Dec 2016 18:15:40 -0800 (PST)
+X-Received: by 10.99.128.198 with SMTP id j189mr71257774pgd.180.1482977740503;
+        Wed, 28 Dec 2016 18:15:40 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id b14si51822033pli.237.2016.12.28.18.15.39
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 28 Dec 2016 18:15:40 -0800 (PST)
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@george.9ycs.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBT2IY80024B;
+	Thu, 29 Dec 2016 11:18:34 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBT2IY80024B
+X-SmartFilter: FROM,uBT2IY80024B,forensic@duzon.com
+x-forward-id: <f9cc718e4051d0c6bc91122b3f604cab@george.9ycs.com>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tptVd65B3z2fmFv; Thu, 29 Dec 2016 11:15:22 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tptVK1JbDz2fmFr
+	for <forensic@duzon.com>; Thu, 29 Dec 2016 11:15:21 +0900 (KST)
+Received: from external ([198.16.40.64])
+	by smf.duzon.co.kr (1.0) id uBT2IF300246;
+	Thu, 29 Dec 2016 11:18:15 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBT2IF300246
+X-SmartFilter: FROM,uBT2IF300246,randal-659-29603412.LjNtNnouY29t-1-1-579-658-news@george.9ycs.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=george.9ycs.com;
+ h=Date:From:To:Subject:MIME-Version:Message-ID:Content-Type:Content-Transfer-Encoding; i=news@george.9ycs.com;
+ bh=rQsjH0EaCedL/np3A95EYkIJhXw=;
+ b=QxaR7P+Vc2+OhVFEcaKUeZFaJOrfdgQlv8Ia6GlSnqNX3NjgUAGtfkZpK/mK+jepvKvsVmK8qtjO
+   T/2fOz2AVqNJhDc+kxZLCbrxJkSdr6MAr4Pg/D0GBOKxfz99iS/bNZB94HX65yEyBQOE+St/gT5/
+   6O2xoo2qaPkQFZCRCYU=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=george.9ycs.com;
+ b=SJtnDio0mgL/hK3lBavY6tdiZV9DbpLcMPtYiX8uAwpOXiCIJhIZ5gqm+umXU2ZfAdSI8TcsD+WJ
+   kZ5/+BxpM0HZK7F6WMtTAQWkd0ixcIjL0ELntWKNpwXidd+iegDKfj3EZpa0EJEVaMzbvPXoz+WS
+   rcCVAXK1WYWOwb0+0S8=;
+Date: Wed, 28 Dec 2016 21:14:08 -0500
+From: "UGG" <news@george.9ycs.com>
+To: "forensic" <forensic@duzon.com>
+Subject: Never-before-seen styles in UGG Closet!
+MIME-Version: 1.0
+Message-ID: <f9cc718e4051d0c6bc91122b3f604cab@george.9ycs.com>
+X-Mailer: 3mail
+X-Mailer-LID: 336
+X-Mailer-RecptId: 29603412
+X-Mailer-SID: 658
+X-Mailer-Sent-By: 85
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +X+YpB3G1H+YbXFCbHmRKAUwFou/jJ+Y
+
+
+<table class=3D"ke-zeroborder" width=3D"650" cellspacing=3D"0" cellpaddin=
+g=3D"0"
+border=3D"0" align=3D"center">	<tbody>	<tr>	<td colspan=3D"4" valign=3D"m=
+iddle"
+height=3D"50" align=3D"center">	<span style=3D"font-family:Arial, Helveti=
+ca,
+sans-serif;font-size:x-small;">Free Delivery To Your Door.<br />
+If the e-mail below is not displayed correctly,please click this is not
+spam.</span>	</td>	</tr>	<tr>	<td colspan=3D"4" valign=3D"middle"
+align=3D"center">	<a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/361.php?M=3D29603412!N=
+=3D658!L=3D361!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/2c1e7405882d811a9da7470b197a3932/tumbl=
+r_oitk5lIYz41venyc6o1_1280.png"
+width=3D"660" height=3D"86" /></a>	</td>	</tr>	<tr>	<td valign=3D"middle"
+align=3D"center">	<a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/370.php?M=3D29603412!N=
+=3D658!L=3D370!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/43c709b4649b96aa10bc5c1041fd6839/tumbl=
+r_oitk3aUPLq1venyc6o2_250.png"
+width=3D"222" height=3D"42" /></a>	</td>	<td valign=3D"middle" align=3D"c=
+enter">	<a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/371.php?M=3D29603412!N=
+=3D658!L=3D371!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/b567f35d4d00ff746b050ed57d233387/tumbl=
+r_oitk3aUPLq1venyc6o3_250.png"
+width=3D"137" height=3D"42" /></a>	</td>	<td valign=3D"middle" align=3D"c=
+enter">	<a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/359.php?M=3D29603412!N=
+=3D658!L=3D359!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/89a22eb499434d9850d3ee8a7c50a074/tumbl=
+r_oitk3aUPLq1venyc6o4_250.png"
+width=3D"112" height=3D"42" /></a>	</td>	<td valign=3D"middle" align=3D"c=
+enter">	<a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/369.php?M=3D29603412!N=
+=3D658!L=3D369!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/883eab3544b94fdec609eda5f5c1c2ae/tumbl=
+r_oitk3aUPLq1venyc6o5_250.png"
+width=3D"189" height=3D"42" /></a>	</td>	</tr>	<tr>	<td colspan=3D"4"
+valign=3D"middle" align=3D"center">	<a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/361.php?M=3D29603412!N=
+=3D658!L=3D361!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/f7aa9e06ef7043ba0fe3fc3b5533f7f0/tumbl=
+r_oitk3aUPLq1venyc6o6_1280.png"
+width=3D"660" height=3D"277" /></a>	</td>	</tr>	<tr>	<td colspan=3D"4"
+valign=3D"middle" align=3D"center">	<a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/361.php?M=3D29603412!N=
+=3D658!L=3D361!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/605ba13832cbbfac78d06eb9466ac3a2/tumbl=
+r_oitk3aUPLq1venyc6o7_1280.png"
+width=3D"660" height=3D"277" /></a>	</td>	</tr>	<tr>	<td colspan=3D"4"
+valign=3D"middle" align=3D"center">	<a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/361.php?M=3D29603412!N=
+=3D658!L=3D361!F=3DH"
+target=3D"_blank"><img
+src=3D"https://68.media.tumblr.com/93157a7909f8bb361cc77bd91b8f62b2/tumbl=
+r_oitk3aUPLq1venyc6o8_1280.png"
+width=3D"660" height=3D"227" /></a>	</td>	</tr>	<tr>	<td colspan=3D"4"
+valign=3D"middle" align=3D"center">	<table class=3D"ke-zeroborder" width=3D=
+"100%"
+cellspacing=3D"0" cellpadding=3D"0" border=3D"0">	</table>	</td>	</tr>	<t=
+r>	<td
+colspan=3D"4" valign=3D"middle" height=3D"80" align=3D"center">	<span
+style=3D"font-family:Arial, Helvetica, sans-serif;font-size:x-small;">Gen=
+uine
+sheepskin that naturally wicks away moisture and helps keep feet dry and
+cozy.<br />
+Please do not reply to this email as this address is not monitored. <br /=
+>
+</span><span style=3D"font-family:Arial, Helvetica,
+sans-serif;line-height:1.5;font-size:x-small;"><a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/333.php?M=3D29603412!N=
+=3D658!L=3D333!F=3DH"
+target=3D"_blank">Privacy Policy</a> | <a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/index/338.php?M=3D29603412!N=
+=3D658!L=3D338!F=3DH"
+target=3D"_blank">Contact Us</a> | <a
+href=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/unsubscribe.php?M=3D29603412=
+!C=3D7deac74c2c30f5467d2c2504bfe93c91!G=3D0!L=3D336!N=3D658!lan=3Den">Uns=
+ubscribe</a>
+</span>	</td>	</tr>	</tbody>
+</table>
+<p><img border=3D"0" alt=3D"29603412"
+src=3D"http://7v0-gqyrqsvbf99td.b.vvdom.com/open.php?M=3D29603412!G=3D0!L=
+=3D336!N=3D658!F=3DH!image=3D.jpg"></p>
+
+
+
+

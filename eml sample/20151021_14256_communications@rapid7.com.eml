@@ -1,0 +1,574 @@
+Received: (qmail 8734 invoked from network); 21 Oct 2015 07:05:46 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda01.wmail.naver.com with SMTP; 21 Oct 2015 07:05:46 -0000
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id lsiJUqX9TtKw2fPZhnQO4g
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 21 Oct 2015 07:05:46 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t9L73ES002F1;
+	Wed, 21 Oct 2015 16:03:14 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t9L73ES002F1
+X-SmartFilter: FROM,t9L73ES002F1,joseph@duzon.com
+x-forward-id: 1445410991761_935649226
+recvDate: Wed, 21 Oct 2015 16:03:11 +0900
+x-newturns-hashkey: 85336c86a9848e59e1e46c9739b3814131b540b6fd2fd8a2d9dc683c1374443a
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id t9L738N002EC;
+	Wed, 21 Oct 2015 16:03:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t9L738N002EC
+X-SmartFilter: FROM,t9L738N002EC,495-KNT-277.0.13133.0.0.9879.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6ODQ3ODoxMzEzMzoyNzA4NDowOjk4Nzk6NzoxMTQxNTky
+Received: from [10.0.15.43] ([10.0.15.43:36800] helo=sjmas03.marketo.org)
+	by sjmta10.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 4C/C8-25751-A2937265; Wed, 21 Oct 2015 02:05:14 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1445411114;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=eO38B2dtYBVLAJHYeQuJvHmznnv+jDiNqBmDRgRcAIc=;
+	b=RrSV8t979nOrK1R5rvjelnGDv6XRgDNO70OFPTR+TcwTUV/BITKFkSGrb++uMIFP
+	owjlEh6J76jpgGHETaj11TgHUKKE+Dl5G0IblQdf3cYvQBMLQRFjFOW+wDsZpHy8+zq
+	yAvsYH3JRYFX2nnDaTmdhcmNXnKzQGT+FB0+pxbQ=
+Date: Wed, 21 Oct 2015 02:05:14 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1164292931.1544821.1445411114150.JavaMail.root@sjmas03.marketo.org>
+Subject: [APAC Webcast] You've Been Phished: Detecting and Investigating
+ Phishing Attacks
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1544820_1986047636.1445411114149"
+X-PVIQ: mkto-495KNT277-000001-000000-017377
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:8478:13133:27084:0:9879:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.13133.9879.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.13133.0.0.9879.7.1141592@em-sj-77.mktomail.com
+X-MktMailDKIM: true
+X-Naver-ESV: +/+YpB3G1H+YbXFCbHmRKAbmFxtrjJ+Y
+
+------=_Part_1544820_1986047636.1445411114149
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+=20
+
+
+
+=20
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+APAC Webcast=20
+
+
+
+
+You've Been Phished: Detecting and Investigating Phishing Attacks
+
+
+
+
+
+
+
+
+Register Now <https://information.rapid7.com/2015.10.29-Phishing-DetectingI=
+nvestigatingAttacks_youve-been-phished-detecting-and-investigating-phishing=
+-attacks-live-2.html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+Save your spot for this webcast <https://information.rapid7.com/2015.10.29-=
+Phishing-DetectingInvestigatingAttacks_youve-been-phished-detecting-and-inv=
+estigating-phishing-attacks-live-2.html> to learn about:
+
+
+
+ - Thinking like an attacker: why is phishing the easiest way in?
+ - Understanding types of phishing emails and attacker methodologies
+ - Phishing in the context of the attack chain
+ - Phishing check list: defense in depth against phishing attacks
+ - Detecting and investigating phishing attacks
+ - Live Demo: Rapid7 UserInsight
+
+
+
+
+
+
+
+
+Do your neck hairs stand up when a user tells you that they clicked on a li=
+nk in a =E2=80=9Cweird email=E2=80=9D? Phishing is the easiest way to compr=
+omise an organization, and it=E2=80=99s a difficult one to protect against.=
+ It=E2=80=99s important to have an incident detection and investigation pla=
+n in place to determine what steps the intruders took after compromising th=
+e user.=20
+This webinar will include a presentation and live Q&A.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Join Us <https://information.rapid7.com/2015.10.29-Phishing-DetectingInvest=
+igatingAttacks_youve-been-phished-detecting-and-investigating-phishing-atta=
+cks-live-2.html>
+
+
+
+
+Date: Oct 29th=20
+
+
+
+
+Time: 9AM SGT | 11AM AEST | 9PM EST
+
+
+
+=20
+
+
+
+
+
+
+
+
+=20
+
+=20
+
+=20
+
+
+
+
+
+
+
+
+
+
+
+
+Panelists
+
+
+
+
+
+
+
+
+
+
+
+
+Eric Sun
+
+
+
+
+Product Marketing Manager
+Rapid7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+
+
+
+=C2=A9 2015 Rapid7, All Rights Reserved.
+ 100 Summer Street, 13th Floor
+ Boston, MA 02110-2131
+ www.rapid7.com <http://www.rapid7.com>
+ 866-7-RAPID7
+
+
+
+
+
+
+ <http://feeds2.feedburner.com/Rapid7"><img title=3D>  <https://twitter.com=
+/Rapid7>  <https://community.rapid7.com/welcome>  <mailto:info@rapid7.com">=
+<img title=3D>
+ <http://www.rapid7.com>
+
+If you no longer wish to receive these emails or wish to update your email =
+preferences: https://information.rapid7.com/preference-center.html?mkt_unsu=
+bscribe=3D1&mkt_tok=3D3RkMMJWWfF9wsRonuK3Kce%2FhmjTEU5z16u0pWKK%2FgIkz2EFye=
+%2BLIHETpodcMRcplPK%2BTFAwTG5toziV8R7TMKc1r1MEQWRbl.
+
+------=_Part_1544820_1986047636.1445411114149
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" >
+<p>&nbsp;</p>
+<!-- table {         border-collapse:collapse !important; } @media only screen and (max-width: 640px) {         *[class].table_responsive{width:100% !important;}         *[class].deviceWidth{width:440px !important;}                  *[class].iphone_left_pad{padding-left:15px !important;}           
+                                                                     *[class].iphone_top_pad{padding-top:20px;}         *[class].banner_pad{padding-top:34px;text-align:center !important;}         *[class].iphone_img{max-width:100%;}         *[class].iphone_pad{padding:0px 15px;}                    
+         *[class].title_detail{padding:0                     15px;font-size:23px              !important;}                           *[class].no_right_pad{padding-right:0px !important;}         *[class].iphone_bullet_align{ padding-top: 7px !important;vertical-align: top !important;}               
+              *[class].footer_align{text-align:left                     !important;padding-bottom:0px     !important;padding-top:13px          !important;}                           *[class].foot_font{font-size:11px !important;padding-bottom:13px !important;}         
+*[class].events_table{width:100%                     !important;text-align:left !important;}                             *[class].text-center{text-align:center; margin:0 auto;}      } @media only screen and          (max-width: 475px) {                                  
+*[class].table_responsive{width:100% !important;}                             *[class].deviceWidth{width:280px !important;} } --> 
+<table class="deviceWidth" style="width: 600px; margin: 0 auto; font-family: Arial, Helvetica, sans-serif; border: 1px solid #F3F3F3;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="font-size: 1px; line-height: 1px; height: 25px;" height="25">&nbsp;</td>
+</tr>
+<tr>
+<td>
+<table class="table_responsive" style="width: 574px; margin: 0 auto; font-family: Arial, Helvetica, sans-serif;" cellspacing="0" cellpadding="0" width="574" align="center" border="0">
+<tbody>
+<tr>
+<td class="iphone_left_pad">
+<div id="logo" class="mktEditable"><img src="https://information.rapid7.com/rs/rapid7/images/logo.jpg" alt="Rapid7Logo" /></div>
+<div class="mktEditable">&nbsp;&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-size: 1px; line-height: 1px; height: 3px; background-color: #ea5709;" height="3">&nbsp;</td>
+</tr>
+<tr>
+<td style="background-color: #363636; mso-table-lspace: 0; mso-table-rspace: 0;" bgcolor="#363636">
+<table class="table_responsive" style="width: 585px; font-family: Arial, Helvetica, sans-serif;" cellspacing="0" cellpadding="0" width="585" align="right" border="0">
+<tbody>
+<tr>
+<td>
+<table class="table_responsive" style="width: 100%;" cellspacing="0" cellpadding="0" width="55%" align="left" border="0">
+<tbody>
+<tr>
+<td style="font-size: 1px; line-height: 1px; height: 22px; background-color: #363636;" height="22">&nbsp;</td>
+</tr>
+<tr>
+<td class="title_detail text-center" style="color: #ffffff; font-size: 30px; line-height: 30px; font-family: Arial, Helvetica, sans-serif;">
+<div id="title" class="mktEditable">APAC&nbsp;Webcast&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td class="text-center" style="color: #ffffff; font-size: 17px; line-height: 30px; font-family: Arial, Helvetica, sans-serif;">
+<div id="title_text" class="mktEditable"><span style="font-size: 18px;"><strong>You've Been Phished: Detecting and Investigating Phishing Attacks</strong></span></div>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 16px;">
+<table class="text-center" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="background-color: #ea5709; padding: 8px 13px; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 22px; text-align: center; vertical-align: middle; border-radius: 4px;" valign="middle">
+<div id="button" class="mktEditable"><strong><a title="Registration" href=
+"http://info.rapid7.com/t4TM2M03KY0lQ00QN4000am"
+>Register Now</a></strong></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+&nbsp;        
+<table class="table_responsive" style="width: 575px; margin: 0 auto; font-family: Arial, Helvetica, sans-serif;" cellspacing="0" cellpadding="0" width="575" align="center" border="0">
+<tbody>
+<tr>
+<td>
+<table class="table_responsive" style="width: 60%;" cellspacing="0" cellpadding="0" width="60%" align="left" border="0">
+<tbody>
+<tr>
+<td style="color: #333333; font-size: 14px; line-height: 23px; font-family: Arial, Helvetica, sans-serif;">
+<div class="mktEditable"><strong><a title="Registration" href=
+"http://info.rapid7.com/t4TM2M03KY0lQ00QN4000am"
+>Save your spot for this webcast</a>&nbsp;to learn about:</strong></div>
+<div class="mktEditable">
+<ul style="margin: 0px 0px 1.5em; border: 0px; outline: 0px; font-size: 15px; vertical-align: baseline; color: #29383f; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: 
+left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; background: #ffffff;">
+<li>Thinking like an attacker: why is phishing the easiest way in?</li>
+<li>Understanding types of phishing emails and attacker methodologies</li>
+<li>Phishing in the context of the attack chain</li>
+<li>Phishing check list: defense in depth against phishing attacks</li>
+<li>Detecting and investigating phishing attacks</li>
+<li>Live Demo: Rapid7 UserInsight</li>
+</ul>
+</div>
+<ul style="margin: 0px 0px 1.5em; border: 0px; outline: 0px; font-size: 15px; vertical-align: baseline; color: #29383f; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: 
+left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; background: #ffffff;">
+</ul>
+<p><span style="color: #29383f; font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; 
+widows: 1; word-spacing: 0px; display: inline !important; float: none; background-color: #ffffff;"><span>Do&nbsp;your neck hairs stand up when a user tells you that they clicked on a link in a &ldquo;weird email&rdquo;? Phishing is the easiest way to compromise an organization, and it&rsquo;s a    
+    difficult one to protect against.
+        It&rsquo;s important to have an incident detection and investigation plan in place to determine what steps the intruders took after compromising the user.&nbsp;</span></span></p>
+<p style="font-family: 'Trebuchet MS', Verdana; font-size: 13px;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">This webinar will include a presentation&nbsp;and&nbsp;<strong>live Q&amp;A.</strong></span></p>
+<p style="font-family: 'Trebuchet MS', Verdana; font-size: 13px;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;"><br /></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="table_responsive iphone_top_pad" style="width: 36%;" cellspacing="0" cellpadding="0" width="36%" align="right" border="0">
+<tbody>
+<tr>
+<td style="padding-top: 5px;">
+<table class="events_table" cellspacing="0" cellpadding="0" width="100%" align="left" border="0">
+<tbody>
+<tr>
+<td class="iphone_pad" style="background-color: #ededed; border: 1px solid #e2e2e2; border-radius: 4px;">
+<table class="table_responsive" style="width: 176px; margin: 0 auto; font-family: Arial, Helvetica, sans-serif;" cellspacing="0" cellpadding="0" width="176" align="center" border="0">
+<tbody>
+<tr>
+<td style="font-size: 14px; line-height: 22px; color: #333338; font-family: Arial, Helvetica, sans-serif;">
+<div id="date" class="mktEditable"><strong style="font-size: 16px; line-height: 30px; color: #ea5709; font-family: Arial, Helvetica, sans-serif;"><a title="Registration"  href=
+"http://info.rapid7.com/t4TM2M03KY0lQ00QN4000am" target="_blank"
+>Join    Us</a></strong></div>
+</td>
+</tr>
+<tr>
+<td style="font-size: 14px; line-height: 22px; color: #333338; font-family: Arial, Helvetica, sans-serif;">
+<div id="day" class="mktEditable"><span style="color: #ea5709;"><strong style="font-size: 14px; line-height: 30px; color: #000000; font-family: Arial, Helvetica, sans-serif;">Date:</strong></span>&nbsp;Oct 29th&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style="font-size: 14px; line-height: 20px; color: #333338; font-family: Arial, Helvetica, sans-serif;">
+<div id="address" class="mktEditable"><strong style="font-size: 14px; line-height: 22px; color: #000000; font-family: Arial, Helvetica, sans-serif;">Time</strong>: 9AM&nbsp;SGT&nbsp;| 11AM AEST&nbsp;| 9PM EST</div>
+</td>
+</tr>
+<tr>
+<td style="font-size: 1px; line-height: 1px; height: 12px;" height="12">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-size: 1px; line-height: 1px; background-color: #ffffff; height: 20px;" height="20">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="background-color: #ededed; border: 1px solid #e2e2e2;">
+<table class="table_responsive" style="width: 100%;" cellspacing="0" cellpadding="0" width="100%" border="0">
+<tbody>
+<tr>
+<td class="iphone_pad" style="background-color: #ea5709;" bgcolor="#e76e39">
+<table class="table_responsive" style="width: 176px; margin: 0 auto; font-family: Arial, Helvetica, sans-serif;" cellspacing="0" cellpadding="0" width="176" align="center" border="0">
+<tbody>
+<tr>
+<td style="font-size: 16px; line-height: 20px; color: #ffffff; background-color: #ea5709; font-family: Arial, Helvetica, sans-serif; padding: 8px 0 8px 0px; vertical-align: top;">
+<div id="events" class="mktEditable"><strong>Panelists</strong></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="table_responsive iphone_pad" style="width: 176px; margin: 0 auto; font-family: Arial, Helvetica, sans-serif;" cellspacing="0" cellpadding="0" width="176" align="center" border="0">
+<tbody>
+<tr>
+<td class="iphone_left_pad" style="font-size: 15px; color: #2faeff; font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 10px;">
+<div id="event_title-1" class="mktEditable">Eric Sun</div>
+</td>
+</tr>
+<tr>
+<td class="iphone_left_pad" style="font-size: 12px; line-height: 18px; color: #333333; font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px;">
+<div><strong>Product Marketing Manager</strong></div>
+<div>Rapid7</div>
+</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="iphone_left_pad" style="font-size: 15px; color: #2faeff; font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 10px; border-top: 1px solid #e2e2e2;"></td>
+</tr>
+<tr>
+<td class="iphone_left_pad" style="font-size: 12px; line-height: 18px; color: #333333; font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px;"><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+&nbsp; &nbsp;        
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+<tbody>
+<tr>
+<td style="padding: 7px 0;">
+<table class="deviceWidth" cellspacing="0" cellpadding="0" width="580" align="center" border="0" bgcolor="#363636">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" cellspacing="0" cellpadding="0" width="45%" align="left" border="0">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #999999; font-family: Arial, Helvetica, sans-serif; padding: 20px;" valign="top">&copy; 2015 Rapid7, All Rights Reserved.<br /> 100 Summer Street, 13th Floor<br /> Boston, MA 02110-2131<br /> <a style="color: #999; text-decoration: underline;"  href=
+"http://info.rapid7.com/ya3KYMMQ040lTNn04R00020"
+>www.rapid7.com</a><br /> 866-7-RAPID7</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" cellspacing="0" cellpadding="0" width="40%" align="right" border="0">
+<tbody>
+<tr>
+<td class="center" style="font-size: 15px; color: #f1f1f1; font-weight: normal; font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif; line-height: 26px; vertical-align: top; text-align: right; padding: 20px;" valign="top"><a href=
+"http://info.rapid7.com/Y04430SQM00MY002lNK0oTa"
+><img title="RSS Feed" 
+border="0" src="http://information.rapid7.com/rs/rapid7/images/rss-footer.gif" alt="RSS Feed" /></a> <a href=
+"http://info.rapid7.com/GaN0T320YT4pK04l0000MQM"
+><img title="Twitter" border="0" src="http://information.rapid7.com/rs/rapid7/images/twitter-footer.gif" alt="Twitter" /></a> <a  href=
+"http://info.rapid7.com/O030M4MT0200QKlq0U04aYN"
+><img title="Rapid7 Community" border="0" src="http://information.rapid7.com/rs/rapid7/images/community-footer.gif" alt="Rapid7 Community" /></a> <a href=
+"http://info.rapid7.com/NN00rKM4000aM3T0VQ40Y2l"
+><img title="Email Rapid7" border="0" 
+src="http://information.rapid7.com/rs/rapid7/images/mail-footer.gif" alt="Email Rapid7" /></a><br /> <a href=
+"http://info.rapid7.com/ya3KYMMQ040lTNn04R00020"
+><img border="0" src="http://information.rapid7.com/rs/rapid7/images/r7-logo-small.gif" alt="Rapid7 Home Page" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End Wrapper -->
+</div>
+</div>
+
+<IMG SRC="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6ODQ3ODoxMzEzMzoyNzA4NDowOjk4Nzk6NzoxMTQxNTkyOmpvc2VwaEBkdXpvbi5jb20%3D" WIDTH="1" HEIGHT="1" BORDER="0" ALT="" />
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><p><font face="Verdana" size="1">If you no longer wish to receive these emails or wish to update your email preferences, click on the following link: <a href=
+"http://info.rapid7.com/u/I0a0sKY0l4MWQ42M030NT00"
+>Unsubscribe & Preference Center</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_1544820_1986047636.1445411114149--
+

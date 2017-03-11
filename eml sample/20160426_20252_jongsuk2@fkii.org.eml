@@ -1,0 +1,195 @@
+Received: (qmail 10859 invoked by uid 100); 26 Apr 2016 00:17:28 -0000
+Received: from 10.114.29.98 (HELO crcvmail03.wmail.naver.com) (10.114.29.98)
+  by cmda01.wmail.naver.com with SMTP;26 Apr 2016 00:17:28 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from duzon.com (mail.duzon.com [202.167.215.60])
+  by crcvmail03.wmail.naver.com with ESMTP id CYO-YpiITO6evd31-Ipfuw
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 26 Apr 2016 00:17:28 -0000
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-1984242@senda.ozmailer.com>
+Received: by mail-ob0-f178.google.com with SMTP id n10so78504694obb.2
+        for <joseph@duzon.com>; Mon, 25 Apr 2016 17:17:27 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :subject:to:from:reply-to:errors-to:mime-version:date:message-id
+         :importance:organization:content-transfer-encoding;
+        bh=jSilnkR04vzJsoX9GQfPGzAkpSZ8rcLzby0ER/3SuAA=;
+        b=WyUQExZxizQdf8fl5XDGfTYSvwM2T1D2Je0H9HqH8l0hOu6n378M50hV4hiidP2Lr2
+         70bT81rp5+H1k/Ei2hdj5nM/EHei+D+4wBcANLL9iiLPqh3Uiaayd5ElSueyFPmcd5Z6
+         yAvosJH+4+6VsjM2E2uKW5AKFpUVIvlkb8Fztwf7CfmYmHhLNEfVZRhznq9vLshSyf0J
+         sM54E3NKc1wur1443eUkO2uU5BSOlSh32G3d6tVMHXBpogdcURWGEp16HTpXqRPH+RF3
+         Q2YqHjcHthELU3ve4ZpxyNv1P6mzKa8cMQ7hjLSgxSD3bydVHmieVShlrBjLvgX5NcZn
+         Blww==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AOPr4FW3Fnaiz0xnGK3caeaupDqi0/vE+lhVSlXyBi4G36tb1EUH35TAanNrqixQ8eUC7kNZ8Xq45QkzOkdm0vvJZMV2f+I=
+X-Received: by 10.60.142.8 with SMTP id rs8mr15661252oeb.76.1461629846444;
+        Mon, 25 Apr 2016 17:17:26 -0700 (PDT)
+X-Forwarded-To: pch88@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, forensic@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com pch88@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, forensic@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.157.35.101 with SMTP id k34csp943419otd;
+        Mon, 25 Apr 2016 17:17:25 -0700 (PDT)
+X-Received: by 10.66.118.70 with SMTP id kk6mr522589pab.74.1461629845916;
+        Mon, 25 Apr 2016 17:17:25 -0700 (PDT)
+Return-Path: <forensic@duzon.com>
+Received: from duzon.com (mail.duzon.com. [202.167.215.60])
+        by mx.google.com with ESMTP id le10si459335pab.161.2016.04.25.17.17.25
+        for <forensic.duzon@gmail.com>;
+        Mon, 25 Apr 2016 17:17:25 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-1984242@senda.ozmailer.com>
+Subject: =?EUC-KR?B?W7vnwPy4trCowNO52l0gNC4yNyi89ikgxdfFqSC4rrT1vbEgxMHG27exvbogIsGmNA==?=
+	=?EUC-KR?B?wvcgu+q+98f1uO0sIMDhtecgQUkguvHB7rTPvbq4piCx+r/2tvMhIg==?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?x9GxucGkuri76r73v6zH1ci4?=" <jongsuk2@fkii.org>
+Reply-To: <jongsuk2@fkii.org>
+Errors-To: <jongsuk2@fkii.org>
+MIME-Version: 1.0
+Date: Tue, 26 Apr 2016 09:17:24 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1984242@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: +9RYpB3G1H+Yp6lTWNmRKAgwFqU/jJ+Y
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7221756" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>[사전마감임박] 4.27(수) 테크 리더쉽 컨퍼런스 "제4차 산업혁명, 잠든 AI 비즈니스를 깨워라!"</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='left'><tr><td><!-- OZ_AlignTopEnd -->
+
+
+<title>:: 2016 Tech Leadership Conference ::</title>
+
+
+
+<!-- Save for Web Slices (EDM3-02.jpg) -->
+<img width="600" height="1262" alt="" src="http://www.fkii.org/upload/imgs/2016/conference/main1_2.jpg" border="0" usemap="#Map">
+<map name="Map">
+  
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=t3vuz_4ascc_93is5t" shape="rect" coords="186,620,415,698" target="_blank">
+  
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=t3vv3_4ascc_93is5t" shape="rect" coords="189,1125,327,1149" target="_blank">
+</map>
+<br>
+<img width="600" height="1123" alt="" src="http://www.fkii.org/upload/imgs/2016/conference/main2_2.jpg" border="0"><br>
+<img width="600" height="690" alt="" src="http://www.fkii.org/upload/imgs/2016/conference/main3_2.jpg" border="0" usemap="#Map2">
+<map name="Map2">
+  
+
+<area href="mailto:%20kyy@fkii.org" shape="rect" coords="331,60,422,83">
+  
+
+<area href="mailto:%20jongsuk2@fkii.org" shape="rect" coords="322,85,448,110">
+  
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=t3vv7_4ascc_93is5t" shape="rect" coords="189,544,411,631" target="_blank">
+</map>
+<!-- End Save for Web Slices -->
+
+
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7221756&En=1' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_eng.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

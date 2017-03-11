@@ -1,0 +1,412 @@
+Received: (qmail 18936 invoked by uid 100); 5 Jan 2017 16:05:08 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda002.wmail.worksmobile.com with SMTP;5 Jan 2017 16:05:08 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id r1VoZJLCR1SYSmyZjPdmDw
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 05 Jan 2017 16:05:08 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v05G82q00A77;
+	Fri, 06 Jan 2017 01:08:02 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v05G82q00A77
+X-SmartFilter: FROM,v05G82q00A77,joseph@duzon.com
+x-forward-id: <1020645527.755.1483630933202.JavaMail.trend@backend-mb-prod-001.localdomain.op.oemts.net>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tvXZN22pSz11fld; Fri,  6 Jan 2017 01:04:12 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tvXYP0Tm9z11fmF
+	for <joseph@duzon.com>; Fri,  6 Jan 2017 01:04:09 +0900 (KST)
+Received: from external ([209.85.217.171])
+	by smf.duzon.co.kr (1.0) id v05G79k00A71;
+	Fri, 06 Jan 2017 01:07:09 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v05G79k00A71
+X-SmartFilter: FROM,v05G79k00A71,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f171.google.com with SMTP id 34so342340424uac.1
+        for <joseph@duzon.com>; Thu, 05 Jan 2017 08:04:06 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:from:reply-to:to
+         :date:subject:precedence:list-unsubscribe:message-id:mime-version;
+        bh=MI+G2tJRQAN8TSCLmMz8fCgHqsTUAFAr/AY8GVo4IjA=;
+        b=bBMNjtKWJvLX7EJtcE04gNpwYRbUjxVPzeRFOtjT5ZkeoaZ5pYVqBtniDez7fnAzkP
+         xZRNXlpyAGCKx+Hy6fPGomMSe6tqCorsF77z+drBixHMWpA913rAy17+l/oF7iF5vKuh
+         bgVh4+fXR/JVI35H6wO9QmCCQNmFSjijfl50AXJ6DwcHCmIniekyVXE+fDHHvmEC3TpS
+         reSv5jiGhYE9O3vt7SVdzUgROayDxzkfQo7didmnWnSpoWSbr5tR5g6OlCaLTCrgoitH
+         Nv4M38X/DpUY4Q6p03fnU9VR5ZjcHo3ZDoE7q474MTwl7WbB4Bk6LXOcfhTEwbbw8wAJ
+         wstw==
+X-Gm-Message-State: AIkVDXJIAfjbr0clSgG3apq7DSTq3TcXzGWUWiV+Vy3s1mv1wFuhYVHbm8S1kt/qSju9fXLaCOOjjTQSG5KiIqaKMCY2d2c=
+X-Received: by 10.176.75.174 with SMTP id v46mr2026340uaf.174.1483632245135;
+        Thu, 05 Jan 2017 08:04:05 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp9019173vsa;
+        Thu, 5 Jan 2017 08:04:04 -0800 (PST)
+X-Received: by 10.99.253.85 with SMTP id m21mr135556451pgj.38.1483632244204;
+        Thu, 05 Jan 2017 08:04:04 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id d2si76449379pli.33.2017.01.05.08.04.03
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 05 Jan 2017 08:04:03 -0800 (PST)
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@mmdlv.it;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v05G73Z00A66;
+	Fri, 06 Jan 2017 01:07:03 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v05G73Z00A66
+X-SmartFilter: FROM,v05G73Z00A66,forensic@duzon.com
+x-forward-id: <1020645527.755.1483630933202.JavaMail.trend@backend-mb-prod-001.localdomain.op.oemts.net>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tvXYD4FS1z11fll; Fri,  6 Jan 2017 01:03:56 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tvXY75SxJz11flZ
+	for <forensic@duzon.com>; Fri,  6 Jan 2017 01:03:55 +0900 (KST)
+Received: from external ([185.6.194.195])
+	by smf.duzon.co.kr (1.0) id v05Fl7R00A22;
+	Fri, 06 Jan 2017 00:47:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v05Fl7R00A22
+X-SmartFilter: FROM,v05Fl7R00A22,22962-forensic=duzon.com@bounce.mmdlv.it
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=20151218_key2; d=mmdlv.it;
+ h=From:Reply-To:To:Date:Subject:List-Unsubscribe:Message-ID:MIME-Version:Content-Type;
+ bh=JJk0TvRvd3STmsCsSiJF5fIMpJ8=;
+ b=lUje4pCw30Ty40ItoCJW9A/90BTX/mOd89jovAhmN40SVn952M0Hx8kNaErR24JyDdcMYxT0MvCm
+   fiOH60U/7peZJGt2yTXYqpW2IGU0tEp9a0xktn+ljnRVXLd9FY0NrEVPpVntjD9azib1uLlHF3VN
+   XrxxtXvNfkIwK+0uw/g=
+From: Email Self Service <noreply@emailselfservice.it>
+Reply-To: noreply@emailselfservice.it
+To: forensic@duzon.com
+Date: Thu, 5 Jan 2017 16:42:13 +0100
+Subject: Trova Velocemente nuovi clienti con l'Email Marketing
+Precedence: bulk
+List-Unsubscribe: <http://tracker.mmdlv.it/fe/public/tracker/user/6745/issue/22962/detail/25658/contact/AVlvRmsCwQxM7kRD38_X/unsubscribe?code=A3122F41AA03508D068BD7617E46DDC4495714C10415FAB543BDA2A5A7B2>
+Message-ID: <1020645527.755.1483630933202.JavaMail.trend@backend-mb-prod-001.localdomain.op.oemts.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_753_451079369.1483630933201"
+X-Naver-ESV: +XeYpB3G1H+YbXFCbHmRKxMmFxg/jJ+Y
+
+------=_Part_753_451079369.1483630933201
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+------=_Part_753_451079369.1483630933201
+Content-Type: multipart/related; 
+	boundary="----=_Part_754_673680873.1483630933201"
+
+------=_Part_754_673680873.1483630933201
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml"><head>=20
+  <!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:Pix=
+elsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif=
+]-->=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+=20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">=20
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3D9; IE=3D8; IE=3D7; I=
+E=3DEDGE">=20
+  <title>Empty Template</title>=20
+ <style>@-ms-viewport{width:device-width;}@-moz-viewport{width:device-width=
+;}@-webkit-viewport{width:device-width;}@viewport{width:device-width;}#outl=
+ook a{padding:0}table,td{mso-table-lspace:0;mso-table-rspace:0}.yshortcuts =
+a{border-bottom:none !important}.ExternalClass{width:100%}.ExternalClass,.E=
+xternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.E=
+xternalClass div{line-height:100%}.onlyoutlook{mso-hide:none;max-width:0;ov=
+erflow:hidden}.ExternalClass .onlyoutlook{display:none !important;visibilit=
+y:hidden;max-width:0;overflow:hidden}.notoutlook{mso-hide:all}.ExternalClas=
+s .e{display:inline-block}.ExternalClass .e tr,.ExternalClass .e tbody{disp=
+lay:block}.outlook .one,.outlook .two,.outlook .three,.outlook .four,.outlo=
+ok .five,.outlook .six,.outlook .seven,.outlook .eight,.outlook .nine,.outl=
+ook .ten,.outlook .eleven,.outlook .twelve{width:100% !important}@media onl=
+y screen and (min-width:601px){table.container{-moz-min-width:600px !import=
+ant;-ms-min-width:600px !important;-o-min-width:600px !important;-webkit-mi=
+n-width:600px !important;min-width:600px !important}.one{width:50px !import=
+ant}.two{width:100px !important}.three{width:150px !important}.four{width:2=
+00px !important}.five{width:250px !important}.six{width:300px !important}.s=
+even{width:350px !important}.eight{width:400px !important}.nine{width:450px=
+ !important}.ten{width:500px !important}.eleven{width:550px !important}.twe=
+lve{width:100% !important}}@media only screen and (max-width:600px){.one,.t=
+wo,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve{width:1=
+00% !important;min-width:100%}.one .ec,.two,.three .ec,.four .ec,.five .ec,=
+.....six .ec,.seven .ec,.eight .ec,.nine .ec,.ten .ec,.eleven .ec,.twelve .ec{w=
+idth:100% !important;min-width:100% !important}.ec{min-width:100% !importan=
+t}table.container{max-width:98%;min-width:98%;width:100% !important}@-ms-vi=
+ewport{width:600px;}@viewport{width:600px;}}@media only screen and (max-wid=
+th:480px){table.container{min-width:100%}@-ms-viewport{width:480px;}@viewpo=
+rt{width:480px;}}@media only screen and (max-width:320px){table.container{m=
+in-width:100%}@-ms-viewport{width:320px;}@viewport{width:320px;}}</style></=
+head>=20
+ <body class=3D"contentmode" style=3D"-moz-min-width: 100%; -ms-min-width: =
+100%; -ms-text-size-adjust: 100%; -o-min-width: 100%; -webkit-min-width: 10=
+0%; -webkit-text-size-adjust: 100%; background-color: rgb(255,255,255); col=
+or: rgb(34,34,34); font-family: Arial; font-size: 13px; font-weight: normal=
+; line-height: 19px; margin: 0; min-width: 100%; padding: 0; text-align: le=
+ft; width: 100%;" bgcolor=3D"#ffffff" data-linkcolor=3D"rgb(43, 166, 203)">=
+<img src=3D"http://tracker.mmdlv.it/fe/public/tracker/user/6745/issue/22962=
+/detail/25658/code/D6B01CB2B86103BD342894E35CC4BF268B217=
+662D2029D92346BB3/open-email" width=3D"1" height=3D"1" alt=3D"  "/>=20
+  <style id=3D"customstyle">body,.text {font-family:Arial;font-size:13px;li=
+ne-height:19px;color:rgb(34, 34, 34);}.text a{ color:rgb(43, 166, 203) !imp=
+ortant;}body{background-color:rgb(255, 255, 255);}</style>=20
+  <!-- BODY -->=20
+  <table class=3D"body" bgcolor=3D"#ffffff" style=3D"background-color: rgb(=
+255,255,255); border-collapse: collapse; border-color: #000000; border-spac=
+ing: 0; border-style: none; color: inherit; font-family: inherit; font-size=
+: 13px; font-weight: inherit; height: 100%; line-height: 19px; margin: 0; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; text-align: inheri=
+t; vertical-align: top; width: 100%;">=20
+   <tbody style=3D"border-style: none; padding: 0; vertical-align: top;">=
+=20
+    <tr style=3D"border-style: none; padding: 0; vertical-align: top;">=20
+     <td class=3D"center" valign=3D"top" align=3D"center" style=3D"-moz-hyp=
+hens: none; -moz-word-break: break-word; -ms-hyphens: none; -ms-word-break:=
+ break-word; -o-hyphens: none; -o-word-break: break-word; -webkit-hyphens: =
+none; border-collapse: collapse; border-color: #000000; border-style: none;=
+ color: inherit; font-family: inherit; font-size: 13px; font-weight: inheri=
+t; hyphens: none; line-height: 19px; margin: 0; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; padding: 0; text-align: center; vertical-align: top; wor=
+d-break: break-word;">=20
+      <!--[if (gte mso 9)|(IE)]> <table width=3D"600" class=3D"outlook" al=
+ign=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"> <tr> <td> =
+<![endif]-->=20
+      <table style=3D"border-collapse: collapse; border-color: #000000; bor=
+der-spacing: 0; border-style: none; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt; padding: 0; vertical-align: top; width: 100%;" align=3D"center">=20
+       <tbody style=3D"border-style: none; padding: 0; vertical-align: top;=
+">=20
+        <tr style=3D"border-style: none; padding: 0; vertical-align: top;">=
+=20
+         <td class=3D"rc" valign=3D"top" style=3D"-moz-hyphens: none; -moz-=
+word-break: break-word; -ms-hyphens: none; -ms-word-break: break-word; -o-h=
+yphens: none; -o-word-break: break-word; -webkit-hyphens: none; border-coll=
+apse: collapse; border-color: #000000; border-style: none; color: inherit; =
+font-family: inherit; font-size: 13px; font-weight: inherit; hyphens: none;=
+ line-height: 19px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; padding: 0; text-align: inherit; vertical-align: top; word-break: break-w=
+ord;">=20
+          <!-- ROW -->=20
+          <table class=3D"row column center" align=3D"center" style=3D"bord=
+er-collapse: collapse; border-color: #000000; border-spacing: 0; border-sty=
+le: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; text-al=
+ign: center; vertical-align: top; width: 100%;">=20
+           <tbody style=3D"border-style: none; padding: 0; vertical-align: =
+top;">=20
+            <tr style=3D"border-style: none; padding: 0; vertical-align: to=
+p;">=20
+             <td class=3D"sc" valign=3D"top" style=3D"-moz-hyphens: none; -=
+moz-word-break: break-word; -ms-hyphens: none; -ms-word-break: break-word; =
+-o-hyphens: none; -o-word-break: break-word; -webkit-hyphens: none; border-=
+collapse: collapse; border-color: #000000; border-style: none; color: inher=
+it; font-family: inherit; font-size: 13px; font-weight: inherit; hyphens: n=
+one; line-height: 19px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; padding: 0; text-align: inherit; vertical-align: top; word-break: bre=
+ak-word;">=20
+              <!-- 100% COLUMN -->=20
+              <table align=3D"center" class=3D"container" width=3D"600" bgc=
+olor=3D"transparent" style=3D"background-color: ; border-collapse: collapse=
+; border-color: #000000; border-spacing: 0; border-style: none; margin: 0 a=
+uto; max-width: 600px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; paddin=
+g: 0; text-align: center; vertical-align: top; width: 100%;">=20
+               <tbody style=3D"border-style: none; padding: 0; vertical-ali=
+gn: top;">=20
+                <tr style=3D"border-style: none; padding: 0; vertical-align=
+: top;">=20
+                 <td class=3D"center f0" valign=3D"top" align=3D"center" st=
+yle=3D"-moz-hyphens: none; -moz-word-break: break-word; -ms-hyphens: none; =
+-ms-word-break: break-word; -o-hyphens: none; -o-word-break: break-word; -w=
+ebkit-hyphens: none; border-collapse: collapse; border-color: #000000; bord=
+er-style: none; color: inherit; font-family: inherit; font-size: 0; font-we=
+ight: inherit; hyphens: none; line-height: 19px; margin: 0; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; padding: 0; text-align: center; vertical-ali=
+gn: top; word-break: break-word;">=20
+                  <!--[if (gte mso 9)|(IE)]><table width=3D"100%" align=3D=
+"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td valign=3D=
+"top" width=3D"600"><![endif]-->=20
+                  <div class=3D"twelve col" style=3D"border-style: none; di=
+splay: inline-block; font-size: 0; vertical-align: top; width: 100%;">=20
+                   <table width=3D"100%" align=3D"center" class=3D"center" =
+style=3D"border-collapse: collapse; border-color: #000000; border-spacing: =
+0; border-style: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt; paddin=
+g: 0; text-align: center; vertical-align: top;">=20
+                    <tbody style=3D"border-style: none; padding: 0; vertica=
+l-align: top;">=20
+                     <tr style=3D"border-style: none; padding: 0; vertical-=
+align: top;">=20
+                      <td class=3D"cell" valign=3D"top" bgcolor=3D"transpar=
+ent" style=3D"-moz-hyphens: none; -moz-word-break: break-word; -ms-hyphens:=
+ none; -ms-word-break: break-word; -o-hyphens: none; -o-word-break: break-w=
+ord; -webkit-hyphens: none; background-color: ; border-collapse: collapse; =
+border-color: #000000; border-style: none; color: inherit; font-family: inh=
+erit; font-size: 13px; font-weight: inherit; hyphens: none; line-height: 19=
+px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; =
+text-align: inherit; vertical-align: top; word-break: break-word;" data-bor=
+der-collapsed=3D"true">=20
+                       <!-- LINK TO HTML -->=20
+                       <table class=3D"ec linkhtml" style=3D"border-collaps=
+e: collapse; border-color: #000000; border-spacing: 0; border-style: none; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: t=
+op; width: 100%;">=20
+                        <tbody style=3D"border-style: none; padding: 0; ver=
+tical-align: top;">=20
+                         <tr style=3D"border-style: none; padding: 0; verti=
+cal-align: top;">=20
+                          <td class=3D"tdec ea center" style=3D"-moz-hyphen=
+s: none; -moz-word-break: break-word; -ms-hyphens: none; -ms-word-break: br=
+eak-word; -o-hyphens: none; -o-word-break: break-word; -webkit-hyphens: non=
+e; border-collapse: collapse; border-color: #000000; border-style: none; co=
+lor: inherit; font-family: inherit; font-size: 13px; font-weight: inherit; =
+hyphens: none; line-height: 19px; margin: 0; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt; padding: 0; text-align: center; vertical-align: top; word-b=
+reak: break-word;">=20
+                           <table class=3D"e ew eam ebg " style=3D"border-c=
+ollapse: collapse; border-color: #000000; border-spacing: 0; border-style: =
+none; margin: 0 auto; min-width: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 0; vertical-align: top; width: 100%;">=20
+                            <tbody style=3D"border-style: none; padding: 0;=
+ vertical-align: top;">=20
+                             <tr style=3D"border-style: none; padding: 0; v=
+ertical-align: top;">=20
+                              <td class=3D" eb ep center" style=3D"-moz-hyp=
+hens: none; -moz-word-break: break-word; -ms-hyphens: none; -ms-word-break:=
+ break-word; -o-hyphens: none; -o-word-break: break-word; -webkit-hyphens: =
+none; border-collapse: collapse; border-color: #000000; border-style: none;=
+ color: inherit; font-family: inherit; font-size: 13px; font-weight: inheri=
+t; hyphens: none; line-height: 19px; margin: 0; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; padding: 0; text-align: center; vertical-align: top; wor=
+d-break: break-word;"> <a style=3D"color: rgb(0,0,0); font-family: Arial; t=
+ext-decoration: none;" class=3D"efs eta eff etc elh" href=3D"http://tracker=
+.....mmdlv.it/fe/public/tracker/user/6745/issue/22962/link/119956/detail/=
+25658/code/A3122F41AA03508D068BD7617E46DDC4495714C10415FAB5438=
+DE255676241/open-link">Se non visualizzi correttamente la mail clicca qui</=
+a> </td>=20
+                             </tr>=20
+                            </tbody>=20
+                           </table> </td>=20
+                         </tr>=20
+                        </tbody>=20
+                       </table>=20
+                       <!-- LINK TO HTML -->=20
+                       <!-- UNSUBSCRIBE -->=20
+                       <!-- CUSTOM HTML -->=20
+                       <div class=3D"html" style=3D"border-style: none; fon=
+t-size: 12px; vertical-align: top;"></div>=20
+                       <div class=3D"html" style=3D"border-style: none; fon=
+t-size: 12px; vertical-align: top;">=20
+                        <meta http-equiv=3D"Content-Type" content=3D"text/h=
+tml; charset=3Dwindows-1252">=20
+                        <title>Email Marketing</title>=20
+                        <style type=3D"text/css">
+.....style1 {
+=09=09=09=09font-family: Calibri;
+}
+</style>=20
+                        <p align=3D"center" style=3D"color: inherit; font-f=
+amily: inherit; font-size: 13px; font-weight: inherit; line-height: 19px; m=
+argin: 0; padding: 0; text-align: inherit;"><a href=3D"http://tracker.mmdlv=
+.....it/fe/public/tracker/user/6745/issue/22962/link/119957/detail/=
+25658/code/A3122F41AA03508D068BD7617E46DDC4495714C10415FAB5438DE2556=
+76251/open-link" style=3D"color: #2ba6cb; text-decoration: none;"> <img bor=
+der=3D"0" src=3D"http://www.emailselfservice.it/img/newsletter-email-self-s=
+ervice.png" style=3D"-ms-interpolation-mode: bicubic; border: none; clear: =
+both; display: block; font-size: 13px; max-width: 100%; outline: none; text=
+-decoration: none; width: auto;"></a><br> <br> <br> <span class=3D"style1" =
+style=3D"border-style: none; font-family: Calibri;"><strong>webianbox.it</s=
+trong><br> Soluzioni "fai da te" per aumentare la visibilit=E0 del vostro s=
+ito web<br> <br></span></p>=20
+                       </div>=20
+                       <!--CUSTOM HTML -->=20
+                       <table class=3D"ec unsubscribe" style=3D"border-coll=
+apse: collapse; border-color: #000000; border-spacing: 0; border-style: non=
+e; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align=
+: top; width: 100%;">=20
+                        <tbody style=3D"border-style: none; padding: 0; ver=
+tical-align: top;">=20
+                         <tr style=3D"border-style: none; padding: 0; verti=
+cal-align: top;">=20
+                          <td class=3D"tdec ea center" style=3D"-moz-hyphen=
+s: none; -moz-word-break: break-word; -ms-hyphens: none; -ms-word-break: br=
+eak-word; -o-hyphens: none; -o-word-break: break-word; -webkit-hyphens: non=
+e; border-collapse: collapse; border-color: #000000; border-style: none; co=
+lor: inherit; font-family: inherit; font-size: 13px; font-weight: inherit; =
+hyphens: none; line-height: 19px; margin: 0; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt; padding: 0; text-align: center; vertical-align: top; word-b=
+reak: break-word;">=20
+                           <table class=3D"e ew eam ebg " style=3D"-moz-min=
+-width: 100%; -ms-min-width: 100%; -o-min-width: 100%; -webkit-min-width: 1=
+00%; background-color: transparent; border-collapse: collapse; border-color=
+: #000000; border-spacing: 0; border-style: none; margin: 0 auto; min-width=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; overflow: hidden; pad=
+ding: 0; vertical-align: top; width: 100%;">=20
+                            <tbody style=3D"border-style: none; padding: 0;=
+ vertical-align: top;">=20
+                             <tr style=3D"border-style: none; padding: 0; v=
+ertical-align: top;">=20
+                              <td class=3D" eb ep center" style=3D"-moz-hyp=
+hens: none; -moz-word-break: break-word; -ms-hyphens: none; -ms-word-break:=
+ break-word; -o-hyphens: none; -o-word-break: break-word; -webkit-hyphens: =
+none; border-collapse: collapse; border-color: #000000; border-style: none;=
+ color: #ffffff; display: block; font-family: inherit; font-size: 13px; fon=
+t-weight: inherit; hyphens: none; line-height: initial; margin: 0; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; text-align: center; ver=
+tical-align: top; width: auto; word-break: break-word;"> <a class=3D"efs et=
+a eff etc elh" href=3D"http://tracker.mmdlv.it/fe/public/tracker/user/6745/=
+issue/22962/detail/25658/contact/AVlvRmsCwQxM7kRD38_X/unsubscr=
+ibe?code=3DA3122F41AA03508D068BD7617E46DDC4495714C10415FAB543BDA2A5A7B2" style=3D"color: rgb(0,0,0); display=
+: block; font-family: Arial; font-size: 13px; font-weight: normal; height: =
+100%; line-height: 16px; text-decoration: none; width: 100%;">Disiscrizione=
+</a> </td>=20
+                             </tr>=20
+                            </tbody>=20
+                           </table> </td>=20
+                         </tr>=20
+                        </tbody>=20
+                       </table>=20
+                       <!-- UNSUBSCRIBE --> </td>=20
+                     </tr>=20
+                    </tbody>=20
+                   </table>=20
+                  </div>=20
+                  <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--=
+> </td>=20
+                </tr>=20
+               </tbody>=20
+              </table>=20
+              <!-- 100% COLUMN --> </td>=20
+            </tr>=20
+           </tbody>=20
+          </table>=20
+          <!-- ROW --> <div style=3D"border-style: none; font-size: 0; text=
+-align: center; vertical-align: top;"><hr style=3D"border: 0; border-bottom=
+: 1px solid black; border-color: #ccc; display: inline-block; height: 2px; =
+margin: 0 auto; max-width: 600px; width: 100%;"/><p style=3D"color: #333; f=
+ont-family: Arial; font-size: 11px; font-weight: normal; line-height: 19px;=
+ margin: 0; padding: 0; text-align: center;"><a style=3D"color: #333; text-=
+decoration: none;" href=3D"http://pages.mmdlv.it/privacy.html">Privacy</a><=
+/p></div></td>=20
+        </tr>=20
+       </tbody>=20
+      </table>=20
+      <!--[if (gte mso 9)|(IE)]> </td> </tr> </table> <![endif]--> </td>=
+=20
+    </tr>=20
+   </tbody>=20
+  </table>=20
+  <!-- BODY -->=20
+  <div class=3D"spacer" style=3D"border-style: none; font-size: 0; vertical=
+-align: top;"></div>=20
+=20
+</body></html>
+------=_Part_754_673680873.1483630933201--
+
+------=_Part_753_451079369.1483630933201--
+

@@ -1,0 +1,2593 @@
+Received: (qmail 17305 invoked from network); 23 Dec 2015 15:09:33 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda03.wmail.naver.com with SMTP; 23 Dec 2015 15:09:33 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id BlxNK9SzTpW-WKS1o6TTCQ
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 23 Dec 2015 15:09:33 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id tBNF5HV00E8F;
+	Thu, 24 Dec 2015 00:05:17 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,tBNF5HV00E8F
+X-SmartFilter: FROM,tBNF5HV00E8F,joseph@duzon.com
+x-forward-id: 1450883187543_935649226
+recvDate: Thu, 24 Dec 2015 00:06:27 +0900
+x-newturns-hashkey: 5a29e7ecf67f25dccc2bb8fd12bac2b9b20204f66189d8bbee3b1c07cb71f5ac
+Received: from external ([198.2.183.109])
+	by smf.duzon.com (1.0) id tBNF5DU00E8E;
+	Thu, 24 Dec 2015 00:05:13 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,tBNF5DU00E8E
+X-SmartFilter: FROM,tBNF5DU00E8E,bounce-mc.us7_19778971.369209-joseph=duzon.com@mail109.suw13.rsgsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail109.suw13.rsgsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=info=3Di-hls.com@mail109.suw13.rsgsv.net;
+ bh=OMoUIyJ3EKT69hH2Af8RG1lUw4o=;
+ b=XU4f+AvJ4Zn0e5uXLOeAjM594bHc3yKV6PlDo1b2rbZf4wvHpLxyMmDiVx0//zBZSOUoxPaIESf/
+   4+AIxMMkVvSrtm1HsDpDXU4WSbouNh+1RpmsaA+ysjkaW8JZ+nulOBNHkWWZVrH/GHpsMwdZKWnd
+   4k6fI3MJRYFdCMhVbgk=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail109.suw13.rsgsv.net;
+ b=pROphFabo3bAhqJlvQqUrmLVayNRZsIYNLlwccAW+uk4L35f0gl318Pz70am7f85cZg2XGJVFAhw
+   1Qo4vbwMmcgq6e+GWnByXaUkJpjIzQuernxfwKne4Z9mCe5AdbXUrrkZxtoXhXZwsiriP/NCa4+s
+   QBcd0wrOhmZMGqoqbps=;
+Received: from (127.0.0.1) by mail109.suw13.rsgsv.net id hfashm22s7g4 for <joseph@duzon.com>; Wed, 23 Dec 2015 15:09:12 +0000 (envelope-from <bounce-mc.us7_19778971.369209-joseph=duzon.com@mail109.suw13.rsgsv.net>)
+Subject: =?utf-8?Q?Israel=20Homeland=20Security=20Weekly=20News?=
+From: =?utf-8?Q?Israel=20Homeland=20Security=20=28iHLS=29?= <info@i-hls.com>
+Reply-To: =?utf-8?Q?Israel=20Homeland=20Security=20=28iHLS=29?= <info@i-hls.com>
+To: =?utf-8?Q?Joseph?= <joseph@duzon.com>
+Date: Wed, 23 Dec 2015 15:09:12 +0000
+Message-ID: <5acc1ed377b590a98a195f62477ab4125da.20151223150845@mail109.suw13.rsgsv.net>
+X-Mailer: MailChimp Mailer - **CID1b2035bbe177ab4125da**
+X-Campaign: mailchimp5acc1ed377b590a98a195f624.1b2035bbe1
+X-campaignid: mailchimp5acc1ed377b590a98a195f624.1b2035bbe1
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=5acc1ed377b590a98a195f624&id=1b2035bbe1&e=77ab4125da
+X-MC-User: 5acc1ed377b590a98a195f624
+X-Feedback-ID: 19778971:19778971.369209:us7:mc
+List-ID: 5acc1ed377b590a98a195f624mc list <5acc1ed377b590a98a195f624.157721.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us7_5acc1ed377b590a98a195f624.1b2035bbe1-77ab4125da@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://i-hls.us7.list-manage.com/unsubscribe?u=5acc1ed377b590a98a195f624&id=8ee2e16ed1&e=77ab4125da&c=1b2035bbe1>
+Sender: "Israel Homeland Security (iHLS)" <info=i-hls.com@mail109.suw13.rsgsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_947374712"
+MIME-Version: 1.0
+X-Naver-ESV: +/FYpB3G1H+YbXFCbHmRKxEmaxKqjJ+Y
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_947374712
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Following are excerpts from articles published recently on i-HLS.com (http=
+://www.i-hls.com?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]) . You can change=
+ your subscription or unsubscribe at the end of this email.
+
+Can't see this email? Click here (http://i-hls.com/newsletters/20151223/en=
+g/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/newsletter-subscription/?mc_cid=3D1b2035bbe1&mc_eid=3D[U=
+NIQID] http://i-hls.us7.list-manage2.com/profile?u=3D5acc1ed377b590a98a195=
+f624&id=3D8ee2e16ed1&e=3D77ab4125da
+
+http://www.i-hls.com?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] http://www.i-h=
+ls.com?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] Wednesday December 23=2C 201=
+5
+http://i-hls.com/events/bigdata2015/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID=
+]
+iHLS Newsletter Wednesday December 23=2C 2015
+Hebrew Newsletter (http://i-hls.com/newsletters/20151223/heb/?mc_cid=3D1b2=
+035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/3-cool-technologies-for-the-future-soldier/?mc_ci=
+d=3D1b2035bbe1&mc_eid=3D[UNIQID]
+3 Cool Technologies For The Future Soldier Futuristic designs for new mili=
+tary uniforms were recently unveiled by the British Ministry of Defence (M=
+oD) as part of plans to modernise UK troops=D7=92=E2=82=AC=E2=84=A2 equipm=
+ent... Read More (http://i-hls.com/2015/12/3-cool-technologies-for-the-fut=
+ure-soldier/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/67330/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]   =
+                                 Lockheed Martin Demonstrates Drone Air Tr=
+affic Control System Lockheed Martin has successfully demonstrated an Unma=
+nned Aerial System (UAS) air traffic control system on 18 November... Read=
+ More (http://i-hls.com/2015/12/67330/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQ=
+ID])
+http://i-hls.com/2015/12/how-was-samir-kuntar-killed/?mc_cid=3D1b2035bbe1&=
+mc_eid=3D[UNIQID]              How Was Samir Kuntar Killed? How was Samir=
+ Kuntar killed=2C and what does it have to do with Terrain Dominance?... R=
+ead More (http://i-hls.com/2015/12/how-was-samir-kuntar-killed/?mc_cid=3D1=
+b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/us-vulnerable-to-electromagnetic-warfare/?mc_cid=
+=3D1b2035bbe1&mc_eid=3D[UNIQID] US Vulnerable to Electromagnetic Warfare=
+ With nearly every aspect of modern life relying on computers and electron=
+ics=2C the dangers of electromagnetic pulse (EMP) weaponry cannot be overs=
+tated... Read More (http://i-hls.com/2015/12/us-vulnerable-to-electromagne=
+tic-warfare/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+i-HLS Events
+http://i-hls.com/events/bigdata2015/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID=
+] Big Data for HLS Conference & Exhibition 25.2.16 (http://i-hls.com/event=
+s/bigdata2015/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+Fourth International Big Data Conference=2Cthe challenge lies in gathering=
+=2C assessing=2C and providing real-time relevant alerts...
+
+Pre Registration (http://i-hls.com/events/bigdata2015/registration/?mc_cid=
+=3D1b2035bbe1&mc_eid=3D[UNIQID]) | For more details about the booth- bigd=
+ata@i-hls.com (mailto:bigdata@i-hls.com?subject=3Dbooth big data)
+http://i-hls.com/events/pioneer?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] Int=
+ernational Startup Convention TLV 17.3.16 (http://i-hls.com/events/pioneer=
+?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+At our Startup Area you could find a wide range of startups from different=
+ fields=2C including IoT=2C Cyber=2C Big Data=2C VR/AR=2C Cloud=2C and man=
+y many more...
+
+Registration (http://i-hls.com/events/pioneer/?mc_cid=3D1b2035bbe1&mc_eid=
+=3D[UNIQID]#register) | For more details about the booth- pioneers@i-hls.=
+com (mailto:pioneers@i-hls.com?subject=3Dbooth pioneers)
+http://i-hls.com/events/offshoreperimiter2015/?mc_cid=3D1b2035bbe1&mc_eid=
+=3D[UNIQID] OFF SHORE & PERIMETER SECURITY CONFERENCE& EXHIBITION 25.5.20=
+16 (http://i-hls.com/events/offshoreperimiter2015/?mc_cid=3D1b2035bbe1&mc_=
+eid=3D[UNIQID])
+Israel is a global leader in the HLS=2C with demonstrated capabilities and=
+ resources...
+
+Pre Registration (http://i-hls.com/events/offshoreperimiter2015/registrati=
+on/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]) | For more details about the b=
+ooth- offshore@i-hls.com (mailto:offshore@i-hls.com?subject=3Dbooth offsho=
+re)
+http://i-hls.com/events/iamd2015/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] I=
+AMD Conference & Exhibition 27.6.2016 (http://i-hls.com/events/iamd2015/?m=
+c_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+The change in the challenges to air defense in the modern era is a well-kn=
+own phenomenon...
+
+Pre Registration (http://i-hls.com/events/iamd2015/registration/?mc_cid=3D=
+1b2035bbe1&mc_eid=3D[UNIQID]) | For more details about the booth- iamd@i-=
+hls.com (mailto:iamd@i-hls.com?subject=3Dbooth iamd)
+http://i-hls.com/events/future-forces2016/?mc_cid=3D1b2035bbe1&mc_eid=3D[=
+UNIQID] Future Forces 4HLS 20.07.16 (http://i-hls.com/events/offshoreperim=
+iter2015/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+The Future Forces 2016 Conference will focus on the tools available to sec=
+urity and law enforcement forces...
+
+Pre Registration (http://i-hls.com/events/future-forces2016/?page_id=3D26&=
+mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]) | For more details about the booth=
+- futureforces@i-hls.com (mailto:ausr@i-hls.com?subject=3Dbooth future for=
+ces)
+http://ausr.i-hls.com/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] AUSR-UNMANNE=
+D SYSTEMS & ROBOTICS Conference 19.09.16 (http://ausr.i-hls.com/?mc_cid=3D=
+1b2035bbe1&mc_eid=3D[UNIQID])
+Conference attended by Israel=D7=92=E2=82=AC=E2=84=A2s top figures=2C majo=
+r generals and senior defense industry officials...
+
+Pre Registration (http://ausr.i-hls.com/registration?mc_cid=3D1b2035bbe1&m=
+c_eid=3D[UNIQID]) | For more details about the booth- ausr@i-hls.com (mai=
+lto:ausr@i-hls.com?subject=3Dbooth ausr)
+http://i-hls.com/i-hls-events-2016/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]
+Top Stories
+http://i-hls.com/2015/12/us-spy-plane-deployed-to-singapore-amidst-south-c=
+hina-sea-tension/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]     US Spy Plane=
+ Deployed To Singapore In another development in the so-far peaceful tit-f=
+or-tat dispute between China and its US-backed neighbours over territorial=
+ claims in South China Sea... Read More (http://i-hls.com/2015/12/us-spy-p=
+lane-deployed-to-singapore-amidst-south-china-sea-tension/?mc_cid=3D1b2035=
+bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/southeast-asian-countries-request-israels-aid-in-=
+countering-terrorism/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] Southeast Asi=
+an Countries Request Israel=D7=92=E2=82=AC=E2=84=A2s Aid In Countering Ter=
+rorism South Asian countries have approached companies in Israel to evalua=
+te their capabilities in reinforcing these countries tools to counter the=
+ growing threat of Islamic terror... Read More (http://i-hls.com/2015/12/s=
+outheast-asian-countries-request-israels-aid-in-countering-terrorism/?mc_c=
+id=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/an-exclusive-i-hls-interview-with-former-georgian=
+-minister-of-defense/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] An Exclusive=
+ I-HLS Interview With Former Georgian Minister of Defense Georgia may be o=
+n the other side of the Muslim refugees=D7=92=E2=82=AC=E2=84=A2 path=2C bu=
+t that isn=D7=92=E2=82=AC=E2=84=A2t to say that it hasn=D7=92=E2=82=AC=E2=
+=84=A2t felt the threat of terrorism and the need to defend itself against=
+ it... Read More (http://i-hls.com/2015/12/an-exclusive-i-hls-interview-wi=
+th-former-georgian-minister-of-defense/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNI=
+QID])
+http://i-hls.com/2015/12/67339/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]   =
+                                                              Business Joi=
+ns Academia For Large-Scale Face-Search To Fight Crime=2C Terrorism Survei=
+llance cameras are omnipresent on modern life... Read More (http://i-hls.c=
+om/2015/12/67339/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/67342/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]   =
+                                                              EU Sends Ter=
+rorism Experts To The Frontlines The European Union is increasing efforts=
+ to understand and combat terrorism and extremism... Read More (http://i-h=
+ls.com/2015/12/67342/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://www.itl.co.il/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]
+http://i-hls.com/2015/12/67345/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]   =
+                                                              Nearly Half=
+ Of Enterprises To Deploy IoT By End Of 2016 Nearly half of enterprises ar=
+e set to deploy Internet of Things (IoT) by the end of 2016=2C according t=
+o findings from 451 Research=2C an enterprise IT research institute... Rea=
+d More (http://i-hls.com/2015/12/67345/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNI=
+QID])
+http://i-hls.com/2015/12/67348/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]   =
+                                                              Too Many Clo=
+se Encounters Between Drones And Aircrafts The ever growing number of unma=
+nned aerial vehicles (UAVs) operated by professionals and hobbyists... Rea=
+d More (http://i-hls.com/2015/12/67348/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNI=
+QID])
+http://i-hls.com/2015/12/saudi-arabia-launches-34-state-anti-terror-coalit=
+ion/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]                  Saudi Arabia=
+ Launches 34-state Anti-Terror Coalition Saudi Arabia is forming a 34-stat=
+e Islamic military coalition to combat terrorism=2C according to governmen=
+t-backed Saudi Press Agency... Read More (http://i-hls.com/2015/12/saudi-a=
+rabia-launches-34-state-anti-terror-coalition/?mc_cid=3D1b2035bbe1&mc_eid=
+=3D[UNIQID])
+http://i-hls.com/2015/12/nypd-feds-conduct-active-shooter-exercise/?mc_cid=
+=3D1b2035bbe1&mc_eid=3D[UNIQID]                             NYPD & Feds C=
+onduct Active Shooter Exercise New York has not recently suffered a devast=
+ating terror attack of the likes that struck London=2C Madrid=2C and Paris=
+=2E.. Read More (http://i-hls.com/2015/12/nypd-feds-conduct-active-shooter-e=
+xercise/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://www.raytheon.com/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]
+http://i-hls.com/events/bigdata2015/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID=
+]
+http://www.iai.co.il/2013/36570-45720-en/IAI.aspx?mc_cid=3D1b2035bbe1&mc_e=
+id=3D[UNIQID]
+http://www.youtube.com/israelhls?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]
+http://www.iai.co.il/2013/22031-en/homepage.aspx?mc_cid=3D1b2035bbe1&mc_ei=
+d=3D[UNIQID]
+http://i-hls.com/events/bigdata2015/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID=
+]
+http://i-hls.com/2015/12/kazakhstans-internet-spying-likely-to-flop/?mc_ci=
+d=3D1b2035bbe1&mc_eid=3D[UNIQID]                Kazakhstan=D7=92=E2=82=AC=
+=E2=84=A2s Internet Spying Likely To Flop While Western powers are deeply=
+ engaged in debating the merits and dangers of encryption=2C Kazakhstan is=
+ leading the charge in bypassing the security mechanism altogether... Read=
+ More (http://i-hls.com/2015/12/kazakhstans-internet-spying-likely-to-flop=
+/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/protecting-the-israeli-aviation-infrastructure/?m=
+c_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]            Protecting the Israeli Av=
+iation Infrastructure A big effort is being made to protect the Israeli av=
+iation infrastructure from Cyber attacks... Read More (http://i-hls.com/20=
+15/12/protecting-the-israeli-aviation-infrastructure/?mc_cid=3D1b2035bbe1&=
+mc_eid=3D[UNIQID])
+http://www.iai.co.il/2013/22031-en/homepage.aspx?mc_cid=3D1b2035bbe1&mc_ei=
+d=3D[UNIQID]
+http://i-hls.com/2015/12/67366/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]   =
+                                                  Western Intelligence A S=
+tep Behind ISIS=2C According To Expert Derek Harvey=2C a former top intell=
+igence agent and advisor in Afghanistan=2C Pakistan=2C and Iraq=2C has sai=
+d that... Read More (http://i-hls.com/2015/12/67366/?mc_cid=3D1b2035bbe1&m=
+c_eid=3D[UNIQID])
+http://i-hls.com/2015/12/of-cyber-and-regulation/?mc_cid=3D1b2035bbe1&mc_e=
+id=3D[UNIQID]                                   Of Cyber And Regulation A=
+t the Cyber and Regulation conference=2C which took place in the Universit=
+y of Haifa last week=2C special attention was given to the regulatory chal=
+lenges that cross state borders in the cyber field... Read More (http://i-=
+hls.com/2015/12/of-cyber-and-regulation/?mc_cid=3D1b2035bbe1&mc_eid=3D[UN=
+IQID])
+http://i-hls.com/2015/12/public-wants-body-cameras-for-police-officers-do-=
+officers/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] Public Wants Body Cameras=
+ For Police Officers =D7=92=E2=82=AC=E2=80=9C Do Officers? The use of forc=
+e and police behavior continue to be a prominent topic in the media... Rea=
+d More (http://i-hls.com/2015/12/public-wants-body-cameras-for-police-offi=
+cers-do-officers/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+https://googleads.g.doubleclick.net/aclk?sa=3DL&ai=3DB40vAfx9xVrPADZSfbvTT=
+srAH1t6powgAAAAQASDu0oYZOABY3ojN188CYPm69IOcELIBCWktaGxzLmNvbboBCTcyOHg5MF=
+9hc8gBAtoBEWh0dHA6Ly9pLWhscy5jb20vwAIC4AIA6gIQLzQ0ODI5MTAvUk9TXzcyOPgCg9Ie=
+gAMBkAPIBpgDyAaoAwHIA5kE4AQBkAYBoAYU2AcB&mc_cid=3D1b2035bbe1&mc_eid=3D[UN=
+IQID]#=3D0&cid=3D5GhY6mAvTR_TSd6MkFxnbwxK&sig=3DAOD64_1gaX14GVp_VHmmZ6b_Zx=
+-TyoY-oA&client=3Dca-pub-0343196008502146&adurl=3Dhttp://www.smag.de/en.ht=
+ml&nm=3D2&nx=3D213&ny=3D35&mb=3D2
+http://i-hls.com/2015/12/fast-draw-israel-and-turkey-reach-an-agreement/?m=
+c_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]            Fast Draw =D7=92=E2=82=AC=
+=E2=80=9C Israel And Turkey Reach an Agreement Israel and Turkey have reac=
+hed an agreement for normalizing their relations... Read More (http://i-hl=
+s.com/2015/12/fast-draw-israel-and-turkey-reach-an-agreement/?mc_cid=3D1b2=
+035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/cyber-terrorists-are-gaining-ground/?mc_cid=3D1b2=
+035bbe1&mc_eid=3D[UNIQID]                       Cyber Terrorists Are Gain=
+ing Ground The field of cyber warfare has brought about a paradigm shift i=
+n the old balance of power... Read More (http://i-hls.com/2015/12/cyber-te=
+rrorists-are-gaining-ground/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/67322/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]   =
+                                                  Paris Attacks: A Wake Up=
+ Call For Europe=D7=92=E2=82=AC=E2=84=A2s Security Theatre The multiple br=
+eaches and deficiencies in European security structures exposed in the Par=
+is attacks throw a light on the Union=D7=92=E2=82=AC=E2=84=A2s unpreparedn=
+ess for the threats of the modern era... Read More (http://i-hls.com/2015/=
+12/67322/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://www.itl.co.il/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]
+https://googleads.g.doubleclick.net/aclk?sa=3DL&ai=3DB40vAfx9xVrPADZSfbvTT=
+srAH1t6powgAAAAQASDu0oYZOABY3ojN188CYPm69IOcELIBCWktaGxzLmNvbboBCTcyOHg5MF=
+9hc8gBAtoBEWh0dHA6Ly9pLWhscy5jb20vwAIC4AIA6gIQLzQ0ODI5MTAvUk9TXzcyOPgCg9Ie=
+gAMBkAPIBpgDyAaoAwHIA5kE4AQBkAYBoAYU2AcB&mc_cid=3D1b2035bbe1&mc_eid=3D[UN=
+IQID]#=3D0&cid=3D5GhY6mAvTR_TSd6MkFxnbwxK&sig=3DAOD64_1gaX14GVp_VHmmZ6b_Zx=
+-TyoY-oA&client=3Dca-pub-0343196008502146&adurl=3Dhttp://www.smag.de/en.ht=
+ml&nm=3D2&nx=3D213&ny=3D35&mb=3D2
+https://googleads.g.doubleclick.net/aclk?sa=3DL&ai=3DBO_g87SBxVorALIWbbteO=
+t-gDtqyHoggAAAAQASDu0oYZOABY7obRk88CYPm69IOcELIBCWktaGxzLmNvbboBCTcyOHg5MF=
+9hc8gBAtoBEWh0dHA6Ly9pLWhscy5jb20vwAIC4AIA6gIQLzQ0ODI5MTAvUk9TXzcyOPgCg9Ie=
+gAMBkAPIBpgDyAaoAwHIA5kE4AQBkAYBoAYU2AcB&mc_cid=3D1b2035bbe1&mc_eid=3D[UN=
+IQID]#=3D0&cid=3D5GihQRsugWxKy-fVUwDXwVcP&sig=3DAOD64_0wwEOhpdgyXTKfLJwaqu=
+hy4ZCcIw&client=3Dca-pub-0343196008502146&adurl=3Dhttp://niceglobalforum.o=
+rg/&nm=3D2&nx=3D93&ny=3D64&mb=3D2
+http://niceglobalforum.org/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]
+http://i-hls.com/2015/12/last-successful-experiment-for-davids-sling/?mc_c=
+id=3D1b2035bbe1&mc_eid=3D[UNIQID]                                 Last Su=
+ccessful Experiment For David=D7=92=E2=82=AC=E2=84=A2s Sling The Israeli M=
+inistry of Defense has declared today (Monday) a successful trial of the a=
+nti-rockets aerial defense system=2C David=D7=92=E2=82=AC=E2=84=A2s Sling.=
+ This was the last test before the system is declared operational... Read=
+ More (http://i-hls.com/2015/12/last-successful-experiment-for-davids-slin=
+g/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/isis-oil-trouble/?mc_cid=3D1b2035bbe1&mc_eid=3D[=
+UNIQID]                                                            ISIS=D7=
+=92=E2=82=AC=E2=84=A2 Oil Trouble The tides may be turning on ISIS=2C if a=
+nalysis of the group=D7=92=E2=82=AC=E2=84=A2s recent revenue downturn turn=
+s out to be correct... Read More (http://i-hls.com/2015/12/isis-oil-troubl=
+e/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/67397/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]   =
+                                                                    Big Da=
+ta Can Help Fight Crime The amount of data floating around the world is hu=
+ge. According to some estimates=2C 4.5 quintillion bytes of data are creat=
+ed daily around the world... Read More (http://i-hls.com/2015/12/67397/?mc=
+_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/elbit-provides-ruag-defence-cyber-security-simula=
+tor/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]                        Elbit P=
+rovides RUAG Defence with Cyber Security Simulator Elbit Systems=D7=92=E2=
+=82=AC=E2=84=A2 wholly-owned subsidiary=2C CYBERBIT... Read More (http://i=
+-hls.com/2015/12/elbit-provides-ruag-defence-cyber-security-simulator/?mc_=
+cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/turkey-forms-comprehensive-border-control-unit-to=
+-protect-homeland-security/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] Turkey=
+ Forms Comprehensive Border Control Unit to Protect Homeland Security Perh=
+aps due to international pressure=2C mainly from the US and Russia... Read=
+ More (http://i-hls.com/2015/12/turkey-forms-comprehensive-border-control-=
+unit-to-protect-homeland-security/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID])
+http://i-hls.com/2015/12/foxcom-communications-solution-now-for-the-securi=
+ty-industry/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]                Foxcom:=
+ Communications Solution=2C Now For the Security Industry Out of all the t=
+echnologies surrounding us=2C perhaps the most revolutionary technology is=
+ the we use to communicate... Read More (http://i-hls.com/2015/12/foxcom-c=
+ommunications-solution-now-for-the-security-industry/?mc_cid=3D1b2035bbe1&=
+mc_eid=3D[UNIQID])
+Israel's homeland security on facebook (http://www.facebook.com/pages/Isra=
+els-Homeland-security-i-HLS/508579132507750?mc_cid=3D1b2035bbe1&mc_eid=3D[=
+UNIQID])
+http://i-hls.com/newsletter-subscription/?first=3DJoseph&last=3D=
+Kim&email=3Djoseph@duzon.com&company=3D"Duzon Digital Forensic Center&posit=
+ion=3D=E2=98=8E=3D+821052161318
+
+In Cooperation with:
+
+http://i-hls.com/2013/01/networking/?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID=
+]
+https://plus.google.com/u/0/100075572765826826504/posts?mc_cid=3D1b2035bbe=
+1&mc_eid=3D[UNIQID] Google+ http://www.facebook.com/pages/i-HLS/508579132=
+507750?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] Facebook https://twitter.com=
+/iHLS1?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID] Twitter http://www.linkedin.=
+com/groups/iHLS-Israel-Homeland-Security-iHLS-5176448?mc_cid=3D1b2035bbe1&=
+mc_eid=3D[UNIQID] LinkedIn http://www.youtube.com/israelhls?mc_cid=3D1b20=
+35bbe1&mc_eid=3D[UNIQID] Youtube
+Copyright 2012 i-HLS=2C All rights reserved. You are recieveing this news=
+ letter as part of Israel Homeland Security (i-HLS) Community Our mailing=
+ address is: i-HLS POB 36886 Tel Aviv 61368 Israel
+http://www.i-hls.com?mc_cid=3D1b2035bbe1&mc_eid=3D[UNIQID]
+
+http://i-hls.com/newsletter-subscription/?mc_cid=3D1b2035bbe1&mc_eid=3D[U=
+NIQID] http://i-hls.us7.list-manage2.com/profile?u=3D5acc1ed377b590a98a195=
+f624&id=3D8ee2e16ed1&e=3D77ab4125da
+
+(function() { var _analytics_scr =3D document.createElement('script'); _an=
+alytics_scr.type =3D 'text/javascript'; _analytics_scr.async =3D true; _an=
+alytics_scr.src =3D '/_Incapsula_Resource?SWJIYLWA=3D2977d8d74f63d7f8fedbe=
+a018b7a1d05&ns=3D1'; var _analytics_elem =3D document.getElementsByTagName=
+('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr=2C=
+ _analytics_elem); })(); //
+
+This email was sent to joseph@duzon.com (mailto:joseph@duzon.com)
+why did I get this? (http://i-hls.us7.list-manage1.com/about?u=3D5acc1ed37=
+7b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D1b2035bbe1) =D7=B2=C2=B2=
+=D6=B2 =D7=B2=C2=B2=D6=B2 =D7=B2=C2=B2=D6=B2 =D7=B2=C2=B2=D6=B2 unsubscrib=
+e from this list (http://i-hls.us7.list-manage.com/unsubscribe?u=3D5acc1ed=
+377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D1b2035bbe1) =D7=B2=C2=
+=B2=D6=B2 =D7=B2=C2=B2=D6=B2 =D7=B2=C2=B2=D6=B2 =D7=B2=C2=B2=D6=B2 update=
+ subscription preferences (http://i-hls.us7.list-manage2.com/profile?u=3D5=
+acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da)
+iHLS Israel Homeland Security . Tel Aviv . Tel Aviv 36886 . Israel
+--_----------=_MCPart_947374712
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html style=3D"-webkit-text-size-adjust: none;">
+<head>
+    <title>Israel Homeland security weekly news</title>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwind=
+ows-1255">
+    <meta property=3D"og:image" content=3D"http://i-hls.com/wp-content/upl=
+oads/logo.jpg">
+<base href=3D"http://i-hls.com/newsletters/20151014/eng/"></head>
+<body bgcolor=3D"#FFFFFF" leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"=
+0" marginheight=3D"0">
+    <!-- Save for Web Slices (newsletter1.psd) -->
+    <div style=3D"font: 12px Arial; text-align: center;">
+        <br>
+        Following are excerpts from articles published recently on <a href=
+=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195=
+f624&id=3D24da412d7f&e=3D77ab4125da">i-HLS.com</a>. You can change your s=
+ubscription or unsubscribe at the end of
+        this email.
+        <br>
+        <p style=3D"font: 14px Arial;">
+            <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5a=
+cc1ed377b590a98a195f624&id=3D6a1c648b3e&e=3D77ab4125da">Can't see this em=
+ail? Click here</a>
+        </p>
+        <br>
+        <table width=3D"700" align=3D"center">
+            <tr>
+                <td align=3D"left">
+                    <a href=3D"http://i-hls.us7.list-manage.com/track/clic=
+k?u=3D5acc1ed377b590a98a195f624&id=3D1777075730&e=3D77ab4125da">
+                        <img style=3D"border: 0;" src=3D"images/subscribe.=
+png"></a>
+                </td>
+                <td align=3D"right">
+                    <a href=3D"http://i-hls.us7.list-manage2.com/profile?u=
+=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da">
+                        <img style=3D"border: 0;" src=3D"images/update.png=
+"></a>
+                </td>
+            </tr>
+        </table>
+        <br>
+    </div>
+    <table id=3D"Table_01" width=3D"700" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" dir=3D"ltr" align=3D"center" style=3D"font: 12px Arial; -w=
+ebkit-text-size-adjust: none;">
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_01.jpg" width=3D"24" height=3D"31" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_02.jpg" width=3D"650" height=3D"31" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_03.jpg" width=3D"26" height=3D"31" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_04.jpg" width=3D"24" height=3D"37" alt=3D"">
+            </td>
+            <td>
+                <a href=3D"http://i-hls.us7.list-manage1.com/track/click?u=
+=3D5acc1ed377b590a98a195f624&id=3D44613d839c&e=3D77ab4125da">
+                    <img style=3D"border: 0; display: block" src=3D"images=
+/index_05.jpg" width=3D"63" height=3D"37" alt=3D"">
+                </a>
+            </td>
+            <td>
+                <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=
+=3D5acc1ed377b590a98a195f624&id=3D97e1a778e2&e=3D77ab4125da">
+                    <img style=3D"border: 0; display: block" src=3D"images=
+/index_06.jpg" width=3D"263" height=3D"37" alt=3D"">
+                </a>
+            </td>
+            <td width=3D"324" height=3D"37" align=3D"right">
+                <span style=3D"font: bold 20px Arial; color: #606060;">Wed=
+nesday December 23=2C 2015</span>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_08.jpg" width=3D"26" height=3D"37" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_09.jpg" width=3D"24" height=3D"43" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_10.jpg" width=3D"650" height=3D"43" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_11.jpg" width=3D"26" height=3D"43" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_12.jpg" width=3D"24" height=3D"90" alt=3D"">
+            </td>
+            <td colspan=3D"3" width=3D"650" height=3D"90">
+                <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=
+=3D5acc1ed377b590a98a195f624&id=3D5fbaf86949&e=3D77ab4125da">
+                    <img style=3D"border: 0; display: block" src=3D"https:=
+//gallery.mailchimp.com/5acc1ed377b590a98a195f624/images/93d731c8-4e67-4fb=
+e-ac29-de9e81e9b97e.jpg" width=3D"650" height=3D"90" alt=3D""></a>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_14.jpg" width=3D"26" height=3D"90" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_15.jpg" width=3D"24" height=3D"12" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_16.jpg" width=3D"650" height=3D"12" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_17.jpg" width=3D"26" height=3D"12" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_18.jpg" width=3D"24" height=3D"29" alt=3D"">
+            </td>
+            <td colspan=3D"3" width=3D"650" height=3D"29" style=3D"backgro=
+und-color: #dfdfdf">
+                <table width=3D"650" cellpadding=3D"0" cellspacing=3D"0">
+                    <tr>
+                        <td>
+                            <span style=3D"font: bold 18px Arial; color: #=
+d3292a;">iHLS Newsletter <span style=3D"font: bold 14px Arial; color: #846=
+934;">Wednesday December 23=2C 2015</span></span>
+                        </td>
+                        <td align=3D"right">
+                            <table cellpadding=3D"0" cellspacing=3D"0">
+                                <tr>
+                                    <td width=3D"40">
+                                        <img src=3D"images/flag.jpg">
+                                    </td>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dd6749b0244&e=3D=
+77ab4125da" style=3D"font: bold 16px Arial; color: #0028b4;">Hebrew Newslet=
+ter</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_20.jpg" width=3D"26" height=3D"29" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_21.jpg" width=3D"24" height=3D"5" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_22.jpg" width=3D"650" height=3D"5" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_23.jpg" width=3D"26" height=3D"5" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_24.jpg" width=3D"24" height=3D"420" alt=3D"">
+            </td>
+            <td colspan=3D"3" width=3D"650" style=3D"background-color: #f1=
+f1f1" valign=3D"top">
+                <table width=3D"650" style=3D"font: 12px Arial;">
+                    <tr>
+                        <td valign=3D"top">
+                            <table width=3D"290" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"font: 12px Arial;">
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D6412268aae&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block" src=3D"http://i-hls.com/wp-content/uploads/2015/12/warrior-web-=
+e1450540551319.jpg" width=3D"280"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D110ce04f75&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black; width: 280px; display: block"><b><u><span style=3D"font-size:=
+ 16px;">3 Cool Technologies For The Future Soldier</span></u>
+                                        </b>
+                                            <br>
+                                            <span style=3D"font-size: 14px=
+;">
+
+
+
+
+
+
+
+
+
+
+Futuristic designs for new military uniforms were recently unveiled by the=
+ British  Ministry of Defence (MoD) as part of plans to modernise UK troop=
+s=E2=80=99 equipment...         <br>                                   <sp=
+an style=3D"text-decoration: none; color: #d3292a; font-weight: bold;">Rea=
+d More</span></span></span></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td valign=3D"top">
+                            <table width=3D"350" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"font: 12px Arial;">
+                               <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D7886fe89c1&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/lockheed-ma=
+rtim-UTM.jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                         <a href=3D"http://i-hls.us7.list-=
+manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D2655b83564&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"=
+color: Black">
+                                            <b><u>Lockheed Martin Demonstr=
+ates Drone Air Traffic Control System</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+Lockheed Martin has successfully demonstrated an Unmanned Aerial System (U=
+AS) air traffic control system on 18 November...<br>                     =
+                       <span style=3D"color: #d3292a; font-weight: bold;">=
+Read More</span></span> </a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09 <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D3f218d316e&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/kuntar.jpg"=
+ width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                         <a href=3D"http://i-hls.us7.list-=
+manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Db77bbb6c7b&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"=
+color: Black">
+                                            <b><u>How Was Samir Kuntar Kil=
+led?</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+How was Samir Kuntar killed=2C and what does it have to do with Terrain Do=
+minance?...<br>                                            <span style=3D"=
+color: #d3292a; font-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage2.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D4881acf091&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/emp-blast.j=
+pg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3De593f83afc&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>US Vulnerable to Electro=
+magnetic Warfare</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+With nearly every aspect of modern life relying on computers and electroni=
+cs=2C the dangers of electromagnetic pulse (EMP) weaponry cannot be overst=
+ated...<br>                                            <span style=3D"colo=
+r: #d3292a; font-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_26.jpg" width=3D"26" height=3D"420" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_27.jpg" width=3D"24" height=3D"21" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_28.jpg" width=3D"650" height=3D"21" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_29.jpg" width=3D"26" height=3D"21" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_30.jpg" width=3D"24" height=3D"30" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_31.jpg" width=3D"63" height=3D"30" alt=3D"">
+            </td>
+            <td colspan=3D"2" width=3D"587" height=3D"30" style=3D"backgro=
+und-color: #e9e9e9">
+                <span style=3D"font: bold 18px Arial; color: #d3292a;">i-H=
+LS Events</span>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_33.jpg" width=3D"26" height=3D"30" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_34.jpg" width=3D"24" height=3D"13" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_35.jpg" width=3D"650" height=3D"13" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_36.jpg" width=3D"26" height=3D"13" alt=3D"">
+            </td>
+        </tr>
+         <tr>
+            <td style=3D"background: url(images/index_37.jpg) repeat-y;">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_37.jpg" width=3D"24" height=3D"360" alt=3D"">
+            </td>
+            <td colspan=3D"3" width=3D"650" valign=3D"top">
+                <table cellspacing=3D"0" cellpadding=3D"0" style=3D"direct=
+ion: ltr;">
+                    <tbody>
+                        <tr>
+                            <td height=3D"10"></td>
+                        </tr>
+                        <tr>
+                            <td colspan=3D"2">
+                                <table style=3D"font: 12px Arial;">
+                                    <tr>
+
+                                        <td width=3D"50%" align=3D"center"=
+ valign=3D"top">
+                                           <table style=3D"font: 12px Aria=
+l;">
+=09=09=09=09=09=09=09=09=09=09   <tr>
+                                                    <td valign=3D"top" sty=
+le=3D"background-color: #eee; padding: 10px; font-size: 12px;">
+                                                        <table style=3D"fo=
+nt: 12px Arial;">
+                                                            <tr>
+                                                                <td>
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a19=
+5f624&id=3Dd55c1eed77&e=3D77ab4125da">
+                                                                        <i=
+mg style=3D"border: 0; display: block;" src=3D"http://i-hls.com/wp-content=
+/uploads/2015/01/BigData2016_ban300x250-300x159.jpg" width=3D"120" height=
+=3D"120"></a>
+                                                                </td>
+                                                                <td style=
+=3D"padding: 10px;">
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage2.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D33afc3cef2&e=3D77ab4125da" style=3D"text-decoration: none; co=
+lor: #d3292a; font-size: 14px"><b>Big Data for HLS Conference & Exhibition
+                                                                        25=
+=2E2.16</b></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <br>
+                                                        <span style=3D"fon=
+t-size: 12px">Fourth International Big Data Conference=2Cthe challenge lie=
+s in gathering=2C assessing=2C and providing real-time relevant alerts...
+</span>
+                                                        <br>
+                                                        <br>
+                                                        <a style=3D"color:=
+ #d3292a; font: bold 14px Arial;background-color:yellow;" href=3D"http://i=
+-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D55=
+f235b9d6&e=3D77ab4125da">Pre Registration</a> | <a style=3D"color: #d3292=
+a; font: bold 14px Arial;background-color:yellow;" href=3D"mailto:bigdata@=
+i-hls.com?subject=3Dbooth big data">For more details about the booth- bigd=
+ata@i-hls.com</a><br>
+                                                    </td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+                                                </tr>
+
+                                            </table>
+                                        </td>
+=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"background-color=
+: #eee; padding: 10px; font-size: 12px;">
+                                                        <table style=3D"fo=
+nt: 12px Arial;">
+                                                            <tr>
+                                                                <td>
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a19=
+5f624&id=3Dd1cb13dea0&e=3D77ab4125da">
+                                                                        <i=
+mg style=3D"border: 0; display: block;" src=3D"http://i-hls.com/wp-content=
+/uploads/2015/12/Tel-Aviv6-2-copy.jpg" width=3D"120" height=3D"120"></a>
+                                                                </td>
+                                                                <td style=
+=3D"padding: 10px;">
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D2e53f75981&e=3D77ab4125da" style=3D"text-decoration: none; co=
+lor: #d3292a; font-size: 14px"><b>International Startup Convention <br>TLV=
+ 17.3.16</b></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <br>
+                                                        <span style=3D"fon=
+t-size: 12px">At our Startup Area you could find a wide range of startups=
+ from different fields=2C including IoT=2C Cyber=2C Big Data=2C VR/AR=2C C=
+loud=2C and many many more...
+</span>
+                                                        <br>
+                                                        <br>
+                                                        <a style=3D"color:=
+ #d3292a; font: bold 14px Arial;background-color:yellow;" href=3D"http://i=
+-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D2=
+b1747c5cf&e=3D77ab4125da">Registration</a> | <a style=3D"color: #d3292a;=
+ font: bold 14px Arial;background-color:yellow;" href=3D"mailto:pioneers@i=
+-hls.com?subject=3Dbooth pioneers">For more details about the booth- pione=
+ers@i-hls.com</a><br>
+                                                    </td>
+                                    </tr>
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09
+                                        <td width=3D"50%" align=3D"center"=
+ valign=3D"top">
+                                            <table style=3D"font: 12px Ari=
+al;">
+=09=09=09=09=09=09=09=09=09=09=09 <tr>
+                                                    <td valign=3D"top" sty=
+le=3D"background-color: #eee; padding: 10px; font-size: 12px;">
+                                                        <table style=3D"fo=
+nt: 12px Arial;">
+                                                            <tr>
+                                                                <td>
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D1a8867ef16&e=3D77ab4125da">
+                                                                        <i=
+mg style=3D"border: 0; display: block;" src=3D"http://i-hls.com/wp-content=
+/uploads/2015/01/offshore-2016_ban300x250-300x159.jpg" width=3D"120" heigh=
+t=3D"120"></a>
+                                                                </td>
+                                                                <td style=
+=3D"padding: 10px;">
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D81758bd4f5&e=3D77ab4125da" style=3D"text-decoration: none; co=
+lor: #d3292a; font-size: 14px"><b>OFF SHORE & PERIMETER SECURITY CONFERENC=
+E& EXHIBITION 25.5.2016</b></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <br>
+                                                        <span style=3D"fon=
+t-size: 12px">Israel is a global leader in the HLS=2C with demonstrated ca=
+pabilities and resources...
+</span>
+                                                        <br>
+                                                        <br>
+                                                        <a style=3D"color:=
+ #d3292a; font: bold 14px Arial;background-color:yellow;" href=3D"http://i=
+-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D87=
+19cb0148&e=3D77ab4125da">Pre Registration</a> | <a style=3D"color: #d3292=
+a; font: bold 14px Arial;background-color:yellow;" href=3D"mailto:offshore=
+@i-hls.com?subject=3Dbooth offshore">For more details about the booth- off=
+shore@i-hls.com</a><br>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" align=3D"center" valign=3D=
+"top">
+                                           <table style=3D"font: 12px Aria=
+l;">
+=09=09=09=09=09=09=09=09=09=09   <tr>
+                                                    <td valign=3D"top" sty=
+le=3D"background-color: #eee; padding: 10px; font-size: 12px;">
+                                                        <table style=3D"fo=
+nt: 12px Arial;">
+                                                            <tr>
+                                                                <td>
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D50c21632c1&e=3D77ab4125da">
+                                                                        <i=
+mg style=3D"border: 0; display: block;" src=3D"http://i-hls.com/wp-content=
+/uploads/2015/01/ADME-2016_ban300x250-300x159.jpg" width=3D"120" height=3D=
+"120"></a>
+                                                                </td>
+                                                                <td style=
+=3D"padding: 10px;">
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D6c9b988c41&e=3D77ab4125da" style=3D"text-decoration: none; co=
+lor: #d3292a; font-size: 14px"><b>IAMD Conference & Exhibition 27.6.2016</=
+b></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <br>
+                                                        <span style=3D"fon=
+t-size: 12px">The change in the challenges to air defense in the modern er=
+a is a well-known phenomenon...
+</span>
+                                                        <br>
+                                                        <br>
+                                                       <a style=3D"color:=
+ #d3292a; font: bold 14px Arial;background-color:yellow;" href=3D"http://i=
+-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dca=
+364cede6&e=3D77ab4125da">Pre Registration</a> | <a style=3D"color: #d3292=
+a; font: bold 14px Arial;background-color:yellow;" href=3D"mailto:iamd@i-h=
+ls.com?subject=3Dbooth iamd">For more details about the booth- iamd@i-hls.=
+com</a><br>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+=09=09=09=09=09=09=09=09=09=09</tr><tr>
+                                        <td width=3D"50%" align=3D"center"=
+ valign=3D"top">
+                                           <table style=3D"font: 12px Aria=
+l;">
+=09=09=09=09=09=09=09=09=09=09   <tr>
+                                                    <td valign=3D"top" sty=
+le=3D"background-color: #eee; padding: 10px; font-size: 12px;">
+                                                        <table style=3D"fo=
+nt: 12px Arial;">
+                                                            <tr>
+                                                                <td>
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a19=
+5f624&id=3D6ad49553d6&e=3D77ab4125da">
+                                                                        <i=
+mg style=3D"border: 0; display: block;" src=3D"http://i-hls.com/wp-content=
+/uploads/2015/12/future2016_banE300x250.jpg" width=3D"120" height=3D"120">=
+</a>
+                                                                </td>
+                                                                <td style=
+=3D"padding: 10px;">
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a19=
+5f624&id=3Db337c7b15c&e=3D77ab4125da" style=3D"text-decoration: none; col=
+or: #d3292a; font-size: 14px"><b>Future Forces 4HLS 20.07.16
+                                                                </b></a></=
+td>
+                                                            </tr>
+                                                        </table>
+                                                        <br>
+                                                        <span style=3D"fon=
+t-size: 12px">The Future Forces 2016 Conference will focus on the tools av=
+ailable to security and law enforcement forces...
+</span>
+                                                        <br>
+                                                        <br>
+                                                        <a style=3D"color:=
+ #d3292a; font: bold 14px Arial;background-color:yellow;" href=3D"http://i=
+-hls.us7.list-manage2.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Df=
+90faacbb2&e=3D77ab4125da">Pre Registration</a> | <a style=3D"color: #d329=
+2a; font: bold 14px Arial;background-color:yellow;" href=3D"mailto:ausr@i-=
+hls.com?subject=3Dbooth future forces">For more details about the booth- f=
+utureforces@i-hls.com</a><br>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" align=3D"center" valign=3D=
+"top">
+                                           <table style=3D"font: 12px Aria=
+l;">
+=09=09=09=09=09=09=09=09=09=09   <tr>
+                                                    <td valign=3D"top" sty=
+le=3D"background-color: #eee; padding: 10px; font-size: 12px;">
+                                                        <table style=3D"fo=
+nt: 12px Arial;">
+                                                            <tr>
+                                                                <td>
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage2.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D4058e60f86&e=3D77ab4125da">
+                                                                        <i=
+mg style=3D"border: 0; display: block;" src=3D"http://i-hls.com/wp-content=
+/uploads/2015/12/40c36eaa-3f55-42d4-89f9-6cc83678ff0f-300x159.jpg" width=
+=3D"120" height=3D"120"></a>
+                                                                </td>
+                                                                <td style=
+=3D"padding: 10px;">
+                                                                    <a hre=
+f=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a1=
+95f624&id=3D051ae3f6ea&e=3D77ab4125da" style=3D"text-decoration: none; co=
+lor: #d3292a; font-size: 14px"><b>AUSR-UNMANNED SYSTEMS & ROBOTICS Confere=
+nce 19.09.16
+                                                                </b></a></=
+td>
+                                                            </tr>
+                                                        </table>
+                                                        <br>
+                                                        <span style=3D"fon=
+t-size: 12px">Conference attended by Israel=E2=80=99s top figures=2C major=
+ generals and senior defense industry officials...
+</span>
+                                                        <br>
+                                                        <br>
+                                                        <a style=3D"color:=
+ #d3292a; font: bold 14px Arial;background-color:yellow;" href=3D"http://i=
+-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dc=
+50a162d51&e=3D77ab4125da">Pre Registration</a> | <a style=3D"color: #d329=
+2a; font: bold 14px Arial;background-color:yellow;" href=3D"mailto:ausr@i-=
+hls.com?subject=3Dbooth ausr">For more details about the booth- ausr@i-hls=
+=2Ecom</a><br>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+=09=09=09=09=09=09=09=09=09=09
+                                    </tr>
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td height=3D"10"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href=3D"http://i-hls.us7.list-manage1.c=
+om/track/click?u=3D5acc1ed377b590a98a195f624&id=3Db7b72f360c&e=3D=
+77ab4125da">
+                                    <img style=3D"display: block; border:=
+ none;" src=3D"images/pics/events2016.jpg">
+                                </a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </td>
+            <td style=3D"background: url(images/index_39.jpg) repeat-y;">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_39.jpg" width=3D"26" height=3D"360" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_54.jpg" width=3D"24" height=3D"21" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_53.jpg" width=3D"650" height=3D"21" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_52.jpg" width=3D"26" height=3D"21" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_30.jpg" width=3D"24" height=3D"30" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_31.jpg" width=3D"63" height=3D"30" alt=3D"">
+            </td>
+            <td colspan=3D"2" width=3D"587" height=3D"30" style=3D"backgro=
+und-color: #e9e9e9">
+                <span style=3D"font: bold 18px Arial; color: #d3292a;">Top=
+ Stories</span>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_33.jpg" width=3D"26" height=3D"30" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_34.jpg" width=3D"24" height=3D"13" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_35.jpg" width=3D"650" height=3D"13" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_36.jpg" width=3D"26" height=3D"13" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_37.jpg" width=3D"24" height=3D"1310" alt=3D"">
+            </td>
+            <td colspan=3D"3" width=3D"650" valign=3D"top">
+                <table width=3D"650" cellpadding=3D"0" cellspacing=3D"0">
+                    <tr>
+                        <td width=3D"460" valign=3D"top">
+                            <table width=3D"460" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"font: 12px Arial">
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+<a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590=
+a98a195f624&id=3Dd5e0c21351&e=3D77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/P8.jpg" wid=
+th=3D"120" height=3D"120"></a>                                    </td>
+                                    <td valign=3D"top">
+                                         <a href=3D"http://i-hls.us7.list-=
+manage2.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D7365501084&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"=
+color: Black">
+                                            <b><u>US Spy Plane Deployed To=
+ Singapore</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+In another development in the so-far peaceful tit-for-tat dispute between=
+ China and its US-backed neighbours over territorial claims in South China=
+ Sea...<br>                                            <span style=3D"colo=
+r: #d3292a; font-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D83b22d1f51&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/Abu-Sayyaf.=
+jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Ded7d2e912c&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Southeast Asian Countrie=
+s Request Israel=E2=80=99s Aid In Countering Terrorism</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+South Asian countries have approached companies in Israel to evaluate thei=
+r capabilities in reinforcing these countries tools to counter the growing=
+ threat of Islamic terror...<br>                                         =
+   <span style=3D"color: #d3292a; font-weight: bold;">Read More</span></sp=
+an> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3De819ccfd52&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/irakli.jpg"=
+ width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                       <a href=3D"http://i-hls.us7.list-ma=
+nage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D308300ed0b&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"col=
+or: Black">
+                                            <b><u>An Exclusive I-HLS Inter=
+view With Former Georgian Minister of Defense</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+Georgia may be on the other side of the Muslim refugees=E2=80=99 path=2C b=
+ut that isn=E2=80=99t to say that it hasn=E2=80=99t felt the threat of ter=
+rorism and the need to defend itself against it...<br>                   =
+                         <span style=3D"color: #d3292a; font-weight: bold;=
+">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dc1f8b043da&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/facial_2-re=
+cognition.jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D85aa689a94&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Business Joins Academia=
+ For Large-Scale Face-Search To Fight Crime=2C Terrorism</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+Surveillance cameras are omnipresent on modern life...<br>               =
+                             <span style=3D"color: #d3292a; font-weight: b=
+old;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                                                         =
+       <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed=
+377b590a98a195f624&id=3D56ae0977b8&e=3D77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/IslamOnly.j=
+pg" width=3D"120" height=3D"120"></a>
+
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D3931b9aa76&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>EU Sends Terrorism Exper=
+ts To The Frontlines</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+The European Union is increasing efforts to understand and combat terroris=
+m and extremism...<br>                                            <span st=
+yle=3D"color: #d3292a; font-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan=3D"2">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dbbc21ea83d&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"images/banners/itl-wide.jpg"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Daaf3263a28&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/internet.jp=
+g" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dd6e4222e18&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Nearly Half Of Enterpris=
+es To Deploy IoT By End Of 2016</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+Nearly half of enterprises are set to deploy Internet of Things (IoT) by t=
+he end of 2016=2C according to findings from 451 Research=2C an enterprise=
+ IT research institute...<br>                                            <=
+span style=3D"color: #d3292a; font-weight: bold;">Read More</span></span>=
+ </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage2.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Df5af15ce9f&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/near_collis=
+ion-e1450444918389.jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D662da91cc8&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"c=
+olor: Black">
+                                            <b><u>Too Many Close Encounter=
+s Between Drones And Aircrafts</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+The ever growing number of unmanned aerial vehicles (UAVs) operated by pro=
+fessionals and hobbyists...<br>                                          =
+  <span style=3D"color: #d3292a; font-weight: bold;">Read More</span></spa=
+n> </a>
+                                    </td>
+                                </tr>
+
+=09=09=09=09=09=09=09=09                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dd4172b12e4&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/coalition-e=
+1450474758685.jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                         <a href=3D"http://i-hls.us7.list-=
+manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D1e068931b3&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"=
+color: Black">
+                                            <b><u>Saudi Arabia Launches 34=
+-state Anti-Terror Coalition</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+Saudi Arabia is forming a 34-state Islamic military coalition to combat te=
+rrorism=2C according to government-backed Saudi Press Agency...          =
+                              <span style=3D"color: #d3292a; font-weight:=
+ bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09<tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top" width=3D"130">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D1539639c2c&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/NYC-drill.j=
+pg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D08adf5c062&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"c=
+olor: Black">
+                                            <b><u>NYPD & Feds Conduct Acti=
+ve Shooter Exercise</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+New York has not recently suffered a devastating terror attack of the like=
+s that struck London=2C Madrid=2C and Paris...<br>
+                                            <span style=3D"color: #d3292a;=
+ font-weight: bold;">Read More</span></span></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td valign=3D"top" align=3D"right">
+                            <table cellpadding=3D"0" cellspacing=3D"0">
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Df49b0d937e&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/banners/raytheon-side.jpg">
+                                        </a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09<tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D279219eab9&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"https://gallery.mailchimp.com/5acc1ed377b590a98a195f624/images/3e075b3=
+4-3fad-465e-afbe-df88fa748bc3.jpg">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3De4e203bdd8&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/banners/iai-battle-side.jpg">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D337c7e0004&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/banners/tv-side.jpg">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dcedcecebb3&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/banners/iai.jpg">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_39.jpg" width=3D"26" height=3D"1310" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_37.jpg" width=3D"24" height=3D"1310" alt=3D"">
+            </td>
+            <td colspan=3D"3" width=3D"650" valign=3D"top">
+                <table width=3D"650" cellpadding=3D"0" cellspacing=3D"0">
+                    <tr>
+                        <td width=3D"460" valign=3D"top">
+                            <table width=3D"460" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"font: 12px Arial">
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan=3D"2">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D916b1589a0&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"https://gallery.mailchimp.com/5acc1ed377b590a98a195f624=
+/images/d2f48aec-beb9-4626-ac5b-569b6ad7856a.jpg" width=3D"460" height=3D"=
+59"></a>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top" width=3D"130">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D20f4ccb338&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/spy.jpg" wi=
+dth=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Daa24bd173f&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Kazakhstan=E2=80=99s Int=
+ernet Spying Likely To Flop</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+While Western powers are deeply engaged in debating the merits and dangers=
+ of encryption=2C Kazakhstan is leading the charge in bypassing the securi=
+ty mechanism altogether...
+<br>                                            <span style=3D"color: #d32=
+92a; font-weight: bold;">Read More</span></span></a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09<tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                                                         =
+       <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed=
+377b590a98a195f624&id=3Df9775e56cf&e=3D77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/atc.jpg" wi=
+dth=3D"120" height=3D"120"></a>
+
+                                    </td>
+                                    <td valign=3D"top">
+                                       <a href=3D"http://i-hls.us7.list-ma=
+nage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Debd52fcd63&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Protecting the Israeli A=
+viation Infrastructure</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+A big effort is being made to protect the Israeli aviation infrastructure=
+ from Cyber attacks...<br>                                            <spa=
+n style=3D"color: #d3292a; font-weight: bold;">Read More</span></span> </a=
+>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan=3D"2">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Ddca723169a&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"images/banners/iai-counter-wide.jpg"></a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                                                         =
+      <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed3=
+77b590a98a195f624&id=3Dd83b4bf6f0&e=3D77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/daesh1.jpg"=
+ width=3D"120" height=3D"120"></a>
+
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dd7d85446a2&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Western Intelligence A S=
+tep Behind ISIS=2C According To Expert
+</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+Derek Harvey=2C a former top intelligence agent and advisor in Afghanistan=
+=2C Pakistan=2C and Iraq=2C has said that...<br>                         =
+                   <span style=3D"color: #d3292a; font-weight: bold;">Read=
+ More</span></span> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D3463dd3c3f&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/computer-la=
+w.jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D81fd303783&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Of Cyber And Regulation<=
+/u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+At the Cyber and Regulation conference=2C which took place in the Universi=
+ty of Haifa last week=2C special attention was given to the regulatory cha=
+llenges that cross state borders in the cyber field...                   =
+                         <span style=3D"color: #d3292a; font-weight: bold;=
+">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Db8c6d0e175&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/pcam.jpeg"=
+ width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D3ac6fa5f2c&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"c=
+olor: Black">
+                                            <b><u>Public Wants Body Camera=
+s For Police Officers =E2=80=93 Do Officers?</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+The use of force and police behavior continue to be a prominent topic in t=
+he media...<br>                                            <span style=3D"=
+color: #d3292a; font-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09<tr>
+                                    <td colspan=3D"2">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dc05767a084&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"https://gallery.mailchimp.com/5acc1ed377b590a98a195f624=
+/images/dc0efd62-4ec4-485b-9b5f-32c03f1bd9cf.jpg?_ga=3D1.74339218.14521114=
+83.1446729111" width=3D"460" height=3D"59"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D3d35a0c4a1&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/israelturke=
+y.jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dcac62a9f79&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Fast Draw =E2=80=93 Isra=
+el And Turkey Reach an Agreement</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+Israel and Turkey have reached an agreement for normalizing their relation=
+s... <br>                                            <span style=3D"color:=
+ #d3292a; font-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09 <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top" width=3D"130">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage2.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D8a2b342c5b&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/Cyberterror=
+ist.jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dc367a78b24&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Cyber Terrorists Are Gai=
+ning Ground</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+The field of cyber warfare has brought about a paradigm shift in the old b=
+alance of power...
+<br>                                            <span style=3D"color: #d32=
+92a; font-weight: bold;">Read More</span></span></a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09<tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage2.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D7f79972c42&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/french-poli=
+ce.jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                       <a href=3D"http://i-hls.us7.list-ma=
+nage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dc9ab6d6e43&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"col=
+or: Black">
+                                            <b><u>Paris Attacks: A Wake Up=
+ Call For Europe=E2=80=99s Security Theatre</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+The multiple breaches and deficiencies in European security structures exp=
+osed in the Paris attacks throw a light on the Union=E2=80=99s unpreparedn=
+ess for the threats of the modern era...<br>                             =
+               <span style=3D"color: #d3292a; font-weight: bold;">Read Mor=
+e</span></span> </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td valign=3D"top" align=3D"right">
+                            <table cellpadding=3D"0" cellspacing=3D"0">
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Da63d2ec575&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/banners/itl-side.jpg"></a>
+                                    </td>
+                                </tr>
+
+=09=09=09=09=09=09=09=09 <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Db18ce5bdec&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"https://gallery.mailchimp.com/5acc1ed377b590a98a195f624/images/31c0449=
+e-667a-4694-8c2e-f83630dfa2d5.jpg"></a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09 <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Df3d994c575&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"https://gallery.mailchimp.com/5acc1ed377b590a98a195f624/images/b86aaf4=
+c-c4c9-4415-9598-15670eaa70c9.jpg"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_39.jpg" width=3D"26" height=3D"1310" alt=3D"">
+            </td>
+        </tr>
+=09=09
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_37.jpg" width=3D"24" height=3D"840" alt=3D"">
+            </td>
+            <td colspan=3D"3" width=3D"650" valign=3D"top">
+                <table width=3D"650" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09 <tr>
+                                    <td colspan=3D"2">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D39ffa076e6&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"https://gallery.mailchimp.com/5acc1ed377b590a98a195f624=
+/images/2da38a93-a4d2-4d3a-aacf-c9fb16fb40fe.jpg" width=3D"460" height=3D"=
+59"></a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09
+                    <tr>
+                        <td width=3D"460" valign=3D"top">
+                            <table width=3D"460" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"font: 12px Arial">
+
+=09=09=09=09=09=09=09
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D0978311e42&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/davids-slin=
+g.jpg" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Daf9d1b9e9d&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Last Successful Experime=
+nt For David=E2=80=99s Sling</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+The Israeli Ministry of Defense has declared today (Monday) a successful t=
+rial of the anti-rockets aerial defense system=2C David=E2=80=99s Sling. T=
+his was the last test before the system is declared operational...<br>   =
+                                         <span style=3D"color: #d3292a; fo=
+nt-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dcbb83baa48&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/isisoils.jp=
+g" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D013d19ac5a&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>ISIS=E2=80=99 Oil Troubl=
+e</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+The tides may be turning on ISIS=2C if analysis of the group=E2=80=99s rec=
+ent revenue downturn turns out to be correct...<br>
+                                            <span style=3D"color: #d3292a;=
+ font-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D7d30938124&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/bigdata2.jp=
+g" width=3D"120" height=3D"120"></a>
+                                    </td>
+                                    <td valign=3D"top">
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D25849b33d0&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"co=
+lor: Black">
+                                            <b><u>Big Data Can Help Fight=
+ Crime</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+The amount of data floating around the world is huge. According to some es=
+timates=2C 4.5 quintillion bytes of data are created daily around the worl=
+d...<br>
+                                            <span style=3D"color: #d3292a;=
+ font-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+<a href=3D"http://i-hls.us7.list-manage2.com/track/click?u=3D5acc1ed377b59=
+0a98a195f624&id=3D2acefc8b8f&e=3D77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/RUAG-Traini=
+ng-Support-Cyber_1small.jpg" width=3D"120" height=3D"120"></a>           =
+                         </td>
+                                    <td valign=3D"top">
+                                         <a href=3D"http://i-hls.us7.list-=
+manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D308bea03d3&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"c=
+olor: Black">
+                                            <b><u>Elbit Provides RUAG Defe=
+nce with Cyber Security Simulator</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+Elbit Systems=E2=80=99 wholly-owned subsidiary=2C CYBERBIT...<br>        =
+                                    <span style=3D"color: #d3292a; font-we=
+ight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09<tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+<a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590=
+a98a195f624&id=3Da2d11cd9ab&e=3D77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/syria-turke=
+y-border-guard.jpg" width=3D"120" height=3D"120"></a>                    =
+                </td>
+                                    <td valign=3D"top">
+                                         <a href=3D"http://i-hls.us7.list-=
+manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D541d0c5be9&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"c=
+olor: Black">
+                                            <b><u>Turkey Forms Comprehensi=
+ve Border Control Unit to Protect Homeland Security</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+Perhaps due to international pressure=2C mainly from the US and Russia...<=
+br>                                            <span style=3D"color: #d329=
+2a; font-weight: bold;">Read More</span></span> </a>
+                                    </td>
+                                </tr>
+=09=09=09=09=09=09=09=09<tr>
+                                    <td height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top">
+<a href=3D"http://i-hls.us7.list-manage.com/track/click?u=3D5acc1ed377b590=
+a98a195f624&id=3Df34c334fe9&e=3D77ab4125da">
+                                            <img style=3D"border: 0; displ=
+ay: block;" src=3D"http://i-hls.com/wp-content/uploads/2015/12/foxcom.png"=
+ width=3D"120" height=3D"120"></a>                                    </td=
+>
+                                    <td valign=3D"top">
+                                         <a href=3D"http://i-hls.us7.list-=
+manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Da4f6b35ed4&e=3D=
+77ab4125da" style=3D"text-decoration: none; color: black"><span style=3D"c=
+olor: Black">
+                                            <b><u>Foxcom: Communications S=
+olution=2C Now For the Security Industry</u></b>
+                                            <br>
+
+
+
+
+
+
+
+
+
+
+
+Out of all the technologies surrounding us=2C perhaps the most revolutiona=
+ry technology is the we use to communicate...<br>                        =
+                    <span style=3D"color: #d3292a; font-weight: bold;">Rea=
+d More</span></span> </a>
+                                    </td>
+                                </tr>
+
+
+=09=09=09=09=09=09=09=09
+                            </table>
+                        </td>
+                        <td valign=3D"top" align=3D"right">
+                            <table cellpadding=3D"0" cellspacing=3D"0">
+                                <tr>
+                                    <td width=3D"130" height=3D"10"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_39.jpg" width=3D"26" height=3D"840" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_37.jpg" width=3D"24" height=3D"320" alt=3D"">
+            </td>
+            <td colspan=3D"3" width=3D"650" valign=3D"top">
+                <table width=3D"650" cellpadding=3D"0" cellspacing=3D"0">
+                    <tr>
+                        <td width=3D"650" valign=3D"top">
+                            <table width=3D"650" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"font: 12px Arial">
+                                <tr>
+                                    <td colspan=3D"2">
+                                        <br>
+                                        <table cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"650">
+                                            <tr>
+                                                <td width=3D"50">
+                                                    <img src=3D"images/lik=
+e.png">
+                                                </td>
+                                                <td>
+                                                    <a href=3D"http://i-hl=
+s.us7.list-manage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Ded2d9=
+69004&e=3D77ab4125da" style=3D"color: #385397; font: bold 16px Arial;">Is=
+rael's homeland security on facebook</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D86a981bce3&e=3D=
+77ab4125da">
+                                            <img style=3D"display: block;=
+ border: none 0;" src=3D"images/banners/custom-newsletter.jpg">
+                                        </a>
+                                        <br>
+                                        <br>
+                                        In Cooperation with:
+                                        <br>
+                                        <br>
+                                        <table cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"650">
+                                            <tr>
+                                                <td width=3D"150">
+                                                    <a href=3D"http://i-hl=
+s.us7.list-manage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D6eeb=
+c7768f&e=3D77ab4125da">
+                                                        <img style=3D"bord=
+er: 0" src=3D"images/coop3.jpg"></a>
+                                                </td>
+                                                <td width=3D"150"></td>
+                                                <td width=3D"150">
+                                                    <!--<a href=3D"http://=
+i-hls.com/2013/02/romaniagateway/">
+                                                        <img style=3D"bord=
+er: 0" src=3D"images/coop4.jpg"></a>-->
+                                                </td>
+                                                <td width=3D"150"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_39.jpg" width=3D"26" height=3D"320" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_40.jpg" width=3D"24" height=3D"13" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_41.jpg" width=3D"650" height=3D"13" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_42.jpg" width=3D"26" height=3D"13" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_43.jpg" width=3D"24" height=3D"102" alt=3D"">
+            </td>
+            <td colspan=3D"3" width=3D"650" height=3D"102" style=3D"backgr=
+ound-color: #e8e8e8">
+                <table cellpadding=3D"0" cellspacing=3D"0">
+                    <tr>
+                        <td>
+                            <table cellpadding=3D"4" cellspacing=3D"0">
+                                <tr>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dc821108d35&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/google.png">
+                                        </a>
+                                    </td>
+                                    <td>Google+
+                                    </td>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D699424cf0b&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/facebook.png">
+                                        </a>
+                                    </td>
+                                    <td>Facebook
+                                    </td>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dbec18a73c2&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/twitter.png">
+                                        </a>
+                                    </td>
+                                    <td>Twitter
+                                    </td>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage2.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3D2d3a90ed0a&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/linkedin.png">
+                                        </a>
+                                    </td>
+                                    <td>LinkedIn
+                                    </td>
+                                    <td>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/track/click?u=3D5acc1ed377b590a98a195f624&id=3Dfca7408a11&e=3D=
+77ab4125da">
+                                            <img style=3D"border: 0" src=
+=3D"images/icon-youtube.png">
+                                        </a>
+                                    </td>
+                                    <td>Youtube
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=3D"35" valign=3D"top" style=3D"font: bo=
+ld 12px Arial; color: #5e5e5e">Copyright  2012 i-HLS=2C All rights reserve=
+d. You are recieveing this news letter
+                            as part of Israel Homeland Security (i-HLS) Co=
+mmunity Our mailing address is: i-HLS
+                            POB 36886 Tel Aviv 61368 Israel
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_45.jpg" width=3D"26" height=3D"102" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_46.jpg" width=3D"24" height=3D"13" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_47.jpg" width=3D"650" height=3D"13" alt=3D"">
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_48.jpg" width=3D"26" height=3D"13" alt=3D"">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_49.jpg" width=3D"24" height=3D"39" alt=3D"">
+            </td>
+            <td colspan=3D"3">
+                <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=
+=3D5acc1ed377b590a98a195f624&id=3Ddf8e4e674b&e=3D77ab4125da">
+                    <img style=3D"border: 0; display: block" src=3D"images=
+/index_50.jpg" width=3D"650" height=3D"39" alt=3D"">
+                </a>
+            </td>
+            <td>
+                <img style=3D"border: 0; display: block" src=3D"images/ind=
+ex_51.jpg" width=3D"26" height=3D"39" alt=3D"">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table width=3D"700" align=3D"center">
+        <tr>
+            <td align=3D"left">
+                <a href=3D"http://i-hls.us7.list-manage.com/track/click?u=
+=3D5acc1ed377b590a98a195f624&id=3Dcb991efbbd&e=3D77ab4125da">
+                    <img style=3D"border: 0;" src=3D"images/subscribe.png"=
+></a>
+            </td>
+            <td align=3D"right">
+                <a href=3D"http://i-hls.us7.list-manage2.com/profile?u=3D5=
+acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da">
+                    <img style=3D"border: 0;" src=3D"images/update.png"></=
+a>
+            </td>
+        </tr>
+    </table>
+    <!-- End Save for Web Slices -->
+<![CDATA[
+(function() {
+var _analytics_scr =3D document.createElement('script');
+_analytics_scr.type =3D 'text/javascript'; _analytics_scr.async =3D true;=
+ _analytics_scr.src =3D '/_Incapsula_Resource?SWJIYLWA=3D2977d8d74f63d7f8f=
+edbea018b7a1d05&ns=3D1';
+var _analytics_elem =3D document.getElementsByTagName('script'); _analy=
+tics_elem.parentNode.insertBefore(_analytics_scr=2C _analytics_elem);
+})();
+// ]]>            <center>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" id=3D"canspamBarWrapper" style=3D"background-color:#FFFFFF; b=
+order-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align=3D"center" valign=3D"top" style=3D"paddi=
+ng-top:20px; padding-bottom:20px;">
+                            <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"canspamBar">
+                                <tr>
+                                    <td align=3D"center" valign=3D"top" st=
+yle=3D"color:#606060; font-family:Helvetica=2C Arial=2C sans-serif; font-s=
+ize:11px; line-height:150%; padding-right:20px; padding-bottom:5px; paddin=
+g-left:20px; text-align:center;">
+                                        This email was sent to <a href=3D"=
+mailto:joseph@duzon.com" target=3D"_blank" style=3D"color:#404040 !importa=
+nt;">joseph@duzon.com</a>
+                                        <br>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage1.com/about?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D=
+77ab4125da&c=3D1b2035bbe1" target=3D"_blank" style=3D"color:#404040 !important;"><e=
+m>why did I get this?</em></a>=D6=B2=C2=A0=D6=B2=C2=A0=D6=B2=C2=A0=D6=B2=
+=C2=A0<a href=3D"http://i-hls.us7.list-manage.com/unsubscribe?u=3D5acc1ed3=
+77b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D1b2035bbe1" style=3D"co=
+lor:#404040 !important;">unsubscribe from this list</a>=D6=B2=C2=A0=D6=B2=
+=C2=A0=D6=B2=C2=A0=D6=B2=C2=A0<a href=3D"http://i-hls.us7.list-manage2.com=
+/profile?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da" style=
+=3D"color:#404040 !important;">update subscription preferences</a>
+                                        <br>
+                                        iHLS Israel Homeland Security &mid=
+dot; Tel Aviv &middot; Tel Aviv 36886 &middot; Israel
+                                        <br>
+                                        <br>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <style type=3D"text/css">
+                    @media only screen and (max-width: 480px){
+                        table[id=3D"canspamBar"] td{font-size:14px !impor=
+tant;}
+                        table[id=3D"canspamBar"] td a{display:block !impo=
+rtant; margin-top:10px !important;}
+                    }
+                </style>
+            </center><img src=3D"http://i-hls.us7.list-manage.com/track/op=
+en.php?u=3D5acc1ed377b590a98a195f624&id=3D1b2035bbe1&e=3D77ab4125da" heig=
+ht=3D"1" width=3D"1"></body>
+</html>
+--_----------=_MCPart_947374712--
+

@@ -1,0 +1,93 @@
+Received: (qmail 16382 invoked from network); 30 Dec 2015 08:39:15 -0000
+Received: from 10.114.29.98 (HELO crcvmail03.wmail.naver.com) (10.114.29.98)
+  by cmda02.wmail.naver.com with SMTP; 30 Dec 2015 08:39:15 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmail03.wmail.naver.com with ESMTP id UvPChGNRQrmf+5xDgnuf2A
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 30 Dec 2015 08:39:15 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id tBU8YOQ00602;
+	Wed, 30 Dec 2015 17:34:24 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,tBU8YOQ00602
+X-SmartFilter: FROM,tBU8YOQ00602,joseph@duzon.com
+x-forward-id: 1451464574054_935649226
+recvDate: Wed, 30 Dec 2015 17:36:14 +0900
+x-newturns-hashkey: 3a8e823d189f885c8d2df000a2865d93cd19c3cc627b8fdfc5334ecfcad54891
+Received: from external ([209.85.215.42])
+	by smf.duzon.com (1.0) id tBU8Y68005F0;
+	Wed, 30 Dec 2015 17:34:06 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,tBU8Y68005F0
+X-SmartFilter: FROM,tBU8Y68005F0,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-lf0-f42.google.com with SMTP id c192so46781458lfe.2
+        for <joseph@duzon.com>; Wed, 30 Dec 2015 00:38:50 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:from
+         :subject:reply-to:auto-submitted:sender:to:message-id:date
+         :mime-version:content-type:content-transfer-encoding;
+        bh=uWZD2iYjMSs4Wd3dAWLWc1i0EEJjf71wsuECdOgiHq8=;
+        b=GSx8sRp1Vqyorxnok8IZiU96yNa9L6osnLx8RvGU8R++EWXx/NA+J4HRRbrTYFw1m7
+         mdd+oTVU684YPaQJ3vAfXGEUE6I14x5rX0b5+7IQTw4g4hPJ527nVNxAU5sqJz8BIy6q
+         1A51lB348zRXYJOcJ7TqNGWvCYlBJR3fXLaZqbhQfF9hsau/wTeyUyKBiI9mL4WBGtRO
+         FQSoyu1ws0zgaDkpyPKXSjkjQYsiw+kYDUDY96bTY+64RgRDWTGZG6yjjgK7AGUlIo9T
+         v5+nCG3Z70+1NM0rPw5/kJ+eL3ENjB96PNo+2yJ9eFOWxV63sMzafHJ0po+xt5NmDoiD
+         KbEw==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Received: by 10.25.159.211 with SMTP id i202mr12078394lfe.145.1451464729240;
+        Wed, 30 Dec 2015 00:38:49 -0800 (PST)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, jaylee@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, jaylee@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.70.74 with SMTP id k10csp3941764ldu;
+        Wed, 30 Dec 2015 00:38:48 -0800 (PST)
+X-Received: by 10.98.14.69 with SMTP id w66mr61620505pfi.67.1451464728096;
+        Wed, 30 Dec 2015 00:38:48 -0800 (PST)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id bz6si16310073pab.100.2015.12.30.00.38.47
+        for <forensic.duzon@gmail.com>;
+        Wed, 30 Dec 2015 00:38:48 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id tBU8XcX005CD;
+	Wed, 30 Dec 2015 17:33:38 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,tBU8XcX005CD
+X-SmartFilter: FROM,tBU8XcX005CD,forensic@duzon.com
+x-forward-id: 1451464527990_2433444502
+recvDate: Wed, 30 Dec 2015 17:35:27 +0900
+x-newturns-hashkey: aafbeec1f916a7a532880518039f1c9b5f97f38c891c7ec88ef39069eebe8bf8
+Received: from external ([156.147.23.52])
+	by smf.duzon.com (1.0) id tBU8X8B005B7;
+	Wed, 30 Dec 2015 17:33:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,tBU8X8B005B7
+X-SmartFilter: FROM,tBU8X8B005B7,willy.kang@lge.com
+Received: from unknown (HELO lgeamrelo02.lge.com) (156.147.1.126)
+	by 156.147.23.52 with ESMTP; 30 Dec 2015 17:37:53 +0900
+X-Original-SENDERIP: 156.147.1.126
+X-Original-MAILFROM: willy.kang@lge.com
+Received: from unknown (HELO lgekrhqms48a.lge.com) (10.185.110.146)
+	by 156.147.1.126 with ESMTP; 30 Dec 2015 17:37:53 +0900
+X-Original-SENDERIP: 10.185.110.146
+X-Original-MAILFROM: willy.kang@lge.com
+From: =?EUC-KR?B?sK3Fwr/4?= <willy.kang@lge.com>
+Subject: =?EUC-KR?B?sK3Fwr/4IGlzIG91dCBvZiBvZmZpY2Uu?=
+Reply-To: "=?EUC-KR?B?sK3Fwr/4?=" <willy.kang@lge.com>
+Auto-Submitted: auto-generated
+Sender: "=?EUC-KR?B?sK3Fwr/4?=" <willy.kang@lge.com>
+To: "=?EUC-KR?B?tPXBuCDG97e7vcS8vsXN?=" <forensic@duzon.com>
+Message-ID: <OF7EB3E79A.6FCD20F6-ON49257F2B.002F6977-49257F2B.002F697F@lge.com>
+Date: Wed, 30 Dec 2015 17:37:51 +0900
+X-AutoResponse: AutoResponse
+X-MIMETrack: Serialize by Router on LGEKRHQMS48A/LGE/LG Group(Release 8.5.3FP3HF583 | August
+ 9, 2013) at 2015/12/30 17:37:52
+MIME-Version: 1.0
+Content-type: text/plain; charset=EUC-KR
+Content-transfer-encoding: base64
+X-Naver-ESV: +l+YpB3G1H+YbXFCbHmRKA2qaxu9jJ+Y
+
+DQpQZXJpb2QgOiAgMjAxNS8xMi8zMCB+IDIwMTYvMDEvMDMNCg0KyN6woSDB38DUtM+02S4=
+
+
+

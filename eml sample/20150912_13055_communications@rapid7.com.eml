@@ -1,0 +1,875 @@
+Received: (qmail 994 invoked from network); 11 Sep 2015 15:14:36 -0000
+Received: from 10.114.29.98 (HELO crcvmailnw01.nm.naver.com) (10.114.29.98)
+  by cmda02.wmail.naver.com with SMTP; 11 Sep 2015 15:14:36 -0000
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmailnw01.nm.naver.com with ESMTP id HF14WqybROypQ+w8GM85yQ
+  for <jonghyun.kim@dforensic.com>;
+  Fri, 11 Sep 2015 15:14:36 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t8BF2NZ00442;
+	Sat, 12 Sep 2015 00:02:23 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t8BF2NZ00442
+X-SmartFilter: FROM,t8BF2NZ00442,joseph@duzon.com
+x-forward-id: 1441984347239_935649226
+recvDate: Sat, 12 Sep 2015 00:12:27 +0900
+x-newturns-hashkey: ae4ebd799e4e30ff8d16d5844ab222e771a202273af4f4bb6c3d659b38d955e6
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id t8BF1qn00414;
+	Sat, 12 Sep 2015 00:01:52 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t8BF1qn00414
+X-SmartFilter: FROM,t8BF1qn00414,495-KNT-277.0.12753.0.0.9505.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6ODEzNToxMjc1MzoyNjAzNTowOjk1MDU6NzoxMTQxNTky
+Received: from [10.0.11.252] ([10.0.11.252:54658] helo=sjmas02.marketo.org)
+	by sjmta06.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 74/BF-50197-6BFE2F55; Fri, 11 Sep 2015 10:13:58 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1441984438;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=xlfZt/zLpe1U2wQUV1im9Yg4SfYy+4och0xpbaYMVqo=;
+	b=kj3uexo/qOMmoVXUUdjFZhUM46E6kccT8qhiS1UiVWSWlXW5Zwdwvr1HlmVxRjoP
+	JBu8t7Dp/yvjiw6KTmyG9oBZwWXg7AxMP50dv9+RqGzmkbt7KefYfXfsa0PJ1EDmHVR
+	D+glTZLfixPnnRrMu6bnIKZL0nUOMaKc1lK5XftY=
+Date: Fri, 11 Sep 2015 10:13:58 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <93531997.97456610.1441984438147.JavaMail.root@sjmas02.marketo.org>
+Subject: Rapid7 Security Newsletter - September 2015
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_97456609_1899074027.1441984438147"
+X-PVIQ: 000326-001349-000001-000000-016793
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:8135:12753:26035:0:9505:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.12753.9505.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.12753.0.0.9505.7.1141592@em-sj-77.mktomail.com
+X-MktMailDKIM: true
+X-Naver-ESV: +XeYpB3G1H+YbXFCbHmRKxEwFAKrjJ+Y
+
+------=_Part_97456609_1899074027.1441984438147
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To view this email as a web page, go to the following address: https://info=
+rmation.rapid7.com/index.php/email/emailWebview?mkt_tok=3D3RkMMJWWfF9wsRonu=
+avMce%2FhmjTEU5z16u0pWKK%2FgIkz2EFye%2BLIHETpodcMRcdiMK%2BTFAwTG5toziV8R7TM=
+Kc1r1MEQWRbl
+
+<http://www.rapid7.com/>
+
+
+
+
+
+
+PRODUCTS <http://www.rapid7.com/products/index.jsp>     SOLUTIONS <http://w=
+ww.rapid7.com/solutions/index.jsp>     SERVICES <http://www.rapid7.com/serv=
+ices/index.jsp>   =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Upcoming Webinar] You've Been Phished: Detecting and Investigating Phishin=
+g Attacks <https://information.rapid7.com/youve-been-phished-detecting-and-=
+investigating-phishing-attacks-live-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+Date/Time: Wednesday, September 16, 2pm ET/11am PT
+
+Speaker: Christian Kirsch, Principal Product Marketing Manager, Rapid7
+
+Do your neck hairs stand up when a user tells you that they clicked on a li=
+nk in a =E2=80=9Cweird email=E2=80=9D? Phishing is the easiest way to compr=
+omise an organization, and it=E2=80=99s a difficult one to protect against.=
+ It=E2=80=99s important to have an incident detection and investigation pla=
+n in place to determine what steps the intruders took after compromising th=
+e user. Register now for this webcast <https://information.rapid7.com/youve=
+-been-phished-detecting-and-investigating-phishing-attacks-live-2.html?CS=
+=3Dnewsletter> on:
+
+
+ - Think Like An Attacker: Why Is Phishing the Easiest Way In
+ - Understanding Types of Phishing Emails and Attacker Methodologies
+ - Phishing in the Context of the Attack Chain
+ - Phishing Check List: Defense in Depth Against Phishing Attacks
+ - Detecting and Investigating Phishing Attacks
+ - Live Demo: Rapid7 UserInsight
+
+
+
+
+
+
+
+
+
+
+
+Save your Spot Now! <https://information.rapid7.com/youve-been-phished-dete=
+cting-and-investigating-phishing-attacks-live-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[Upcoming Webinar] The Rise of Economically-Motivated Online Crime <https:/=
+/information.rapid7.com/the-rise-of-economically-motivated-online-crime-liv=
+e-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+Date/Time: Thursday, September 17, 2pm ET/11am PT
+
+Speakers: Nicolas Christin, Assistant Research Professor in Electrical and =
+Computer Engineering, Carnegie Mellon University
+
+Over the past two decades, computer abuse has become increasingly financial=
+ly motivated. In this webcast, Nicolas Christin, Assistant Research Profess=
+or in Electrical and Computer Engineering at Carnegie Mellon University, wi=
+ll discuss some of the main features of today's online crime ecosystem - an=
+d how it affects the day to day jobs of security professionals. Register no=
+w <https://information.rapid7.com/the-rise-of-economically-motivated-online=
+-crime-live-2.html?CS=3Dnewsletter> to learn about:
+
+
+ - How the online crime ecosystem consists of a decentralized set of actors=
+ performing different, specialized tasks
+ - How the high degree of commoditization present in the ecosystem lowers t=
+he barriers of entry for aspiring criminals
+ - Why understanding economic incentives is vital to understanding and disr=
+upting online crime
+ - What security can do to disrupt online crime and protect their organizat=
+ions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save your Spot Now! <https://information.rapid7.com/the-rise-of-economicall=
+y-motivated-online-crime-live-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[Upcoming Webinar] Increasing Security and Transparency for Office 365 <htt=
+ps://information.rapid7.com/increasing-security-and-transparency-for-office=
+-365-live-3.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+Date/Time: Thursday September 24, 2pm ET/11am PT
+Speakers: Christian Kirsch, Principal Product Marketing Manager, Rapid7
+
+
+It=E2=80=99s time for your security program to evolve with your company=E2=
+=80=99s strategic IT cloud initiatives. As Office 365 and other cloud servi=
+ces extend the security perimeter to the individual user, it=E2=80=99s a ch=
+allenge to identify intruders moving across your on-premise, cloud, and mob=
+ile sections of your network ecosystem. Register now <https://information.r=
+apid7.com/increasing-security-and-transparency-for-office-365-live-3.html?C=
+S=3Dnewsletter> to learn about:
+
+
+ - Trends: Office 365 and other strategic cloud applications
+ - Rethinking the attack chain in the age of cloud services
+ - The User: A common denominator across systems
+ - Credentials as a common blind spot in breaches
+ - Running analytics across on-premise and cloud systems
+ - Detecting and investigating compromised users in Office 365
+ - Live Demo: Rapid7 UserInsight
+
+
+
+
+
+
+
+
+
+
+Save your Spot Now! <https://information.rapid7.com/increasing-security-and=
+-transparency-for-office-365-live-3.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+In the News: #IoTsec
+Several video baby monitors from a cross-section of manufacturers were subj=
+ected to in-depth security testing, and all of the devices under test exhib=
+ited several common security issues. Rapid7 researchers focused on ten new =
+vulnerabilities <https://community.rapid7.com/community/infosec/blog/2015/0=
+9/02/iotsec-disclosure-10-new-vulns-for-several-video-baby-monitors>. The=
+=20
+vulnerabilities are broken down according to "reach" =E2=80=93 that is, if =
+the issues are exploitable only with physical access to the device, if they=
+ are exploitable via the local network, or if they are exploitable from the=
+ Internet.
+The results of this research are particularly relevant in light of the grow=
+ing risk that businesses face as employees accumulate more interconnected d=
+evices on their home networks. If key personnel are operating IoT devices o=
+n networks that are routinely exposed to business assets, a compromise on a=
+n otherwise relatively low-value target =E2=80=93 like the video baby monit=
+ors covered in this research =E2=80=93 can quickly provide a path to compro=
+mise of the larger, nominally external, organizational network.
+Learn more <https://www.rapid7.com/resources/iot/index.jsp>:
+
+
+ - Wall Street Journal: Flaws in Baby Monitors Open Door For Hackers <http:=
+//blogs.wsj.com/digits/2015/09/02/flaws-in-baby-monitors-open-door-for-hack=
+ers/>
+ - Associated Press: Some top baby monitors lack basic security features <h=
+ttp://bigstory.ap.org/article/7417c45882fa436c9107147fedb8cb03/report-some-=
+top-baby-monitors-lack-basic-security-features>
+ - Rapid7 Community: #IoTsec and the Business Impact of Hacked Baby Monitor=
+s <https://community.rapid7.com/community/infosec/blog/2015/09/08/iotsec-an=
+d-the-business-impact-of-hacked-baby-monitors>
+ - On-Demand Webinar: IoT Security: Consumer Devices and the Extended Corpo=
+rate Network <https://information.rapid7.com/iot-security-consumer-devices-=
+and-the-extended-corporate-network-2.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+Security Alert
+
+Update Tuesday, September 2015 <https://community.rapid7.com/community/nexp=
+ose/blog/2015/09/10/update-tuesday-september-2015>
+
+
+This month, Microsoft includes 12 security bulletins, comprised of 52 CVEs,=
+ with five bulletins being rated critical. All five critical bulletins (MS1=
+5-094, MS15-095, MS15-097, MS15-098, MS15-099) and MS15-100 are remote code=
+ execution issues affecting Internet Explorer, Edge, Microsoft Graphics, Wi=
+ndows Journal, Microsoft Office and Media Center. Users can be affected by =
+the remote execution issues by viewing a specially crafted web page, journa=
+l file, office file or media center link (.mcl).
+
+CVE-2015-2506, CVE-2015-2510 and CVE-2015-2545 are Office vulnerabilities a=
+ctively being exploited in the wild. The positive news is exploitation of t=
+hese vulnerabilities requires user interaction. As always users should be a=
+ware of the document origins whenever they open Office documents, particula=
+rly for documents received via email or downloaded from an untrusted online=
+ source.
+
+Users, remember to be wary of untrusted sources. Your best bet for resolvin=
+g these is to get patching quickly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FREE PRODUCT TRIALS
+
+
+ Download Metasploit <http://www.rapid7.com/products/metasploit/download.js=
+p>
+ Download UserInsight <http://www.rapid7.com/products/user-insight/user-ins=
+ight-trial.jsp>
+ Download Nexpose <http://www.rapid7.com/products/nexpose/compare-downloads=
+...jsp"> <span style=3D>
+ Download ControlsInsight <http://www.rapid7.com/products/controls-insight/=
+controls-insight-trial.jsp"><img style=3D>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONNECT WITH RAPID7
+
+
+ Join the Community
+ Subscribe to the=20
+Blog
+ Follow us on Twitter <https://twitter.com/Rapid>
+ Contact Us <mailto:info@rapid7.com"><img style=3D>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=C2=A9 2015 Rapid7, All Rights Reserved.
+ 100 Summer Street, 13th Floor
+ Boston, MA 02110-2131
+ www.rapid7.com <http://www.rapid7.com>
+ 866-7-RAPID7
+
+
+
+
+
+
+ <http://feeds2.feedburner.com/Rapid7>  <https://twitter.com/Rapid7"><img t=
+itle=3D>  <https://community.rapid7.com/welcome>  <mailto:info@rapid7.com">=
+<img title=3D>
+ <http://www.rapid7.com"><img src=3D>
+
+If you no longer wish to receive these emails or wish to update your email =
+preferences: https://information.rapid7.com/preference-center.html?mkt_unsu=
+bscribe=3D1&mkt_tok=3D3RkMMJWWfF9wsRonuavMce%2FhmjTEU5z16u0pWKK%2FgIkz2EFye=
+%2BLIHETpodcMRcdiMK%2BTFAwTG5toziV8R7TMKc1r1MEQWRbl.
+
+------=_Part_97456609_1899074027.1441984438147
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Responsive Email Template</title>
+
+<style type="text/css">
+
+        .ReadMsgBody {width: 100%; background-color: #ffffff;}
+        .ExternalClass {width: 100%; background-color: #ffffff;}
+        body     {width: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased;font-family:
+'Trebuchet MS',Arial,Helvetica,sans-serif; font-size:14px; line-height:22px;}
+        h1 {font-size: 25px; color: #000000; padding: 0; margin:10px 0; line-height:34px; font-weight:normal;}
+        h2 {font-size: 20px; color: #ea5709; padding:0; margin:16px 0; font-weight:normal;}
+                .highlight {font-size: 16px; color: #333333;  font-weight:bold;}
+        a:link {color:#0197b8; text-decoration:none;}      /* unvisited link */
+        a:visited {color:#0197b8;text-decoration:none;}  /* visited link */
+        a:hover {color:#0197b8;text-decoration:none;}  /* mouse over link */
+        a:active {color:#0197b8;text-decoration:none;}  /* selected link */
+        
+        table {border-collapse: collapse;}
+        
+        @media only screen and (max-width: 640px)  {
+                                        body[yahoo] .deviceWidth {width:440px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+                        
+        @media only screen and (max-width: 479px) {
+                                        body[yahoo] .deviceWidth {width:280px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+
+
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix" >
+<div style="text-align: center"><font face="Verdana" size="1">To view this email as a web page, <a href=
+"http://info.rapid7.com/v/I090sKY0l4MuQ42M0C0NT00"
+>click here</a><br /><br /></font></div>
+<div ><div class="mktEditable" >
+<p><span style="font-family: arial, helvetica, sans-serif;"><!-- Wrapper --></span></p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding-top: 20px;" width="100%" valign="top" bgcolor="#FFFFFF">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="padding: 10px;" width="100%" bgcolor="#000000">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding: 10px 20px;"><span style="font-family: arial, helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/HK0020M0QM5YCT40l9N0034"
+><img src="http://information.rapid7.com/rs/rapid7/images/rapid7_logo_white-orange.png" border="0" alt="Rapid7" width="160" height="27" /></a></span></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #ffffff; font-weight: light; text-align: right; font-family: Arial; line-height: 18px; vertical-align: middle; padding: 10px 20px; font-style: NORMAL;"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none; color: 
+#cccccc;" href=
+"http://info.rapid7.com/R00l4Y9NM40020M0K4TC6Q0"
+>PRODUCTS</a> &nbsp;&nbsp;&nbsp; <a style="text-decoration: none; color: #cccccc;" href=
+"http://info.rapid7.com/kK07l0Q00CM02N4MY90540T"
+>SOLUTIONS</a> &nbsp;&nbsp;&nbsp; <a style="text-decoration: none; color: #cccccc;"  href=
+"http://info.rapid7.com/UM8M04T0lN0K4C029Q0006Y"
+>SERVICES</a> &nbsp;&nbsp;&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="padding: 0px 0;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 0px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<table class="deviceWidth" style="margin-bottom: 10x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">[Upcoming Webinar] <a  href=
+"http://info.rapid7.com/G9N0TC20Y947K04l0000MQM"
+>You've Been Phished: Detecting and Investigating Phishing Attacks</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<div>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Date/Time: </strong>Wednesday, September 16, 2pm ET/11am PT</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Speaker:</strong>&nbsp;Christian Kirsch, Principal Product Marketing Manager, Rapid7</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Do your neck hairs stand up when a user tells you that they clicked on a link in a &ldquo;weird email&rdquo;? Phishing is the easiest way to compromise an organization, and it&rsquo;s a difficult one to protect against.
+           It&rsquo;s important to have an incident detection and investigation plan in place to determine what steps the intruders took after compromising the user.&nbsp;<strong><a  href=
+"http://info.rapid7.com/G9N0TC20Y947K04l0000MQM"
+>Register now for this webcast</a></strong> on:</span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Think Like An Attacker: Why Is Phishing the Easiest Way In</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Understanding Types of Phishing Emails and Attacker Methodologies</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Phishing in the Context of the Attack Chain</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Phishing Check List: Defense in Depth Against Phishing Attacks</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Detecting and Investigating Phishing Attacks</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Live Demo: Rapid7 UserInsight</span></li>
+</ul>
+<ul>
+</ul>
+</div>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/G9N0TC20Y947K04l0000MQM" target="_blank"
+>Save your&nbsp;Spot&nbsp;Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 10x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[Upcoming Webinar] <a href=
+"http://info.rapid7.com/u8Q000YN4l040a02CMMKT90"
+>The Rise 
+         of Economically-Motivated Online Crime</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+<div>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Date/Time:&nbsp;</strong>Thursday, September 17, 2pm ET/11am PT</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Speakers:</strong> Nicolas Christin, Assistant Research Professor in Electrical and Computer Engineering, Carnegie Mellon University</span></p>
+<p><span style="font-size: 14px;">Over the past two decades, computer abuse has become increasingly financially motivated.
+           In this webcast, Nicolas Christin, Assistant Research Professor in Electrical and Computer Engineering at Carnegie Mellon University, will discuss some of the main features of today's online crime ecosystem - and how it affects the day to day jobs of security professionals.
+           <strong><a href=
+"http://info.rapid7.com/u8Q000YN4l040a02CMMKT90"
+>Register now</a></strong> to learn about:</span></p>
+<ul>
+<li><span style="font-size: 14px;">How the online crime ecosystem consists of a decentralized set of actors performing different, specialized tasks</span></li>
+<li><span style="font-size: 14px;">How the high degree of commoditization present in the ecosystem lowers the barriers of entry for aspiring criminals</span></li>
+<li><span style="font-size: 14px;">Why understanding economic incentives is vital to understanding and disrupting online crime</span></li>
+<li><span style="font-size: 14px;">What security can do to disrupt online crime and protect their organizations</span></li>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+</div>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/u8Q000YN4l040a02CMMKT90" target="_blank"
+>Save your Spot&nbsp;Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[Upcoming Webinar] <a  href=
+"http://info.rapid7.com/DK9400b0TNY00C09lQ2M04M"
+>Increasing Security and Transparency for Office 365</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px; font-family: Helvetica, Arial, sans-serif; font-size: 16px;">
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Date/Time:&nbsp;</strong>Thursday September 24, 2pm ET/11am PT</span></p>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong>Speakers:</strong> <span><span>Christian Kirsch, Principal Product Marketing Manager, Rapid7</span></span></span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><span><br /></span></span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">It&rsquo;s time for your security program to evolve with your company&rsquo;s strategic IT cloud initiatives.
+          As Office 365 and other cloud services extend the security perimeter to the individual user, it&rsquo;s a challenge to identify intruders moving across your on-premise, cloud, and mobile sections of your network ecosystem.&nbsp;<strong><a  href=
+"http://info.rapid7.com/DK9400b0TNY00C09lQ2M04M"
+>Register now</a></strong> to learn about:</span></div>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Trends: Office 365 and other strategic cloud applications</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Rethinking the attack chain in the age of cloud services</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">The User: A common denominator across systems</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Credentials as a common blind spot in breaches</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Running analytics across on-premise and cloud systems</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Detecting and investigating compromised users in Office 365</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Live Demo: Rapid7 UserInsight</span></li>
+</ul>
+<ul>
+</ul>
+<div>
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;"  href=
+"http://info.rapid7.com/DK9400b0TNY00C09lQ2M04M"
+>Save your Spot&nbsp;Now!</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc; font-family: Arial, Helvetica, sans-serif;" bgcolor="#FFFFFF">
+<h2 style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: arial, helvetica, sans-serif;"><a></a><strong><span style="line-height: 18px;">In the News: #IoTsec</span></strong></span></h2>
+<span style="font-family: Arial, Helvetica, sans-serif;">Several video baby monitors from a cross-section of manufacturers were subjected to in-depth security testing, and all of the devices under test exhibited several common security issues.
+          Rapid7 researchers focused on <strong><a href=
+"http://info.rapid7.com/p0400K09cT0M0aQN4l0MYC2"
+>ten new vulnerabilities</a></strong>.</span><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp;The  
+vulnerabilities are     broken     down according to "reach" &ndash; that is, if the issues are exploitable only with physical access to the device, if they are exploitable via the local network, or if they are exploitable from the Internet.</span>
+<p style="font-family: Arial, Helvetica, sans-serif;">The results of this research are particularly relevant in light of the growing risk that businesses face as employees accumulate more interconnected devices on their home networks.
+          If key personnel are operating IoT devices on networks that are routinely exposed to business assets, a compromise on an otherwise relatively low-value target &ndash; like the video baby monitors covered in this research &ndash; can quickly provide a path to compromise of the larger,     
+ nominally     external, organizational network.</p>
+<p style="font-family: Arial, Helvetica, sans-serif;"><strong><a href=
+"http://info.rapid7.com/LM42TN0090bC0KdYM0l040Q"
+>Learn more</a>:</strong></p>
+<ul>
+<li><span style="font-family: Arial, Helvetica, sans-serif;">Wall Street Journal: <strong><a href=
+"http://info.rapid7.com/p0400K09eT0M0cQN4l0MYC2"
+>Flaws in Baby Monitors Open Door For Hackers</a></strong></span></li>
+<li><span style="font-family: Arial, Helvetica, sans-serif;">Associated Press: <strong><a href=
+"http://info.rapid7.com/DKd400f0TNY00C09lQ2M04M"
+>Some top baby monitors lack basic security features</a></strong></span></li>
+<li><span style="font-family: Arial, Helvetica, sans-serif;">Rapid7 Community: <strong><a href=
+"http://info.rapid7.com/HK0020M0QMgYCT40l9N00e4"
+>#IoTsec and the Business Impact of Hacked Baby Monitors</a></strong></span></li>
+<li>On-Demand Webinar: <strong><a href=
+"http://info.rapid7.com/t4TM2M0CKY0lh00QN40009f"
+>IoT Security: Consumer Devices and the Extended Corporate Network</a></strong></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2><span style="font-family: arial, helvetica, sans-serif;"><a name="Security Alert"></a><strong>Security Alert</strong></span></h2>
+<p><span style="font-family: arial, helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/s0gC0l90YNQi0K0M4M2040T"
+><strong>Update Tuesday, September&nbsp;</strong><strong>2015</strong></a></span></p>
+<div><span style="font-family: arial, helvetica, sans-serif;">
+<p><span>This month, Microsoft includes 12 security bulletins, comprised of 52 CVEs, with five bulletins being rated critical.
+      All five critical bulletins (MS15-094, MS15-095, MS15-097, MS15-098, MS15-099) and MS15-100 are remote code execution issues affecting Internet Explorer, Edge, Microsoft Graphics, Windows Journal, Microsoft Office and Media Center.
+      Users can be affected by the remote execution issues by viewing a specially crafted web page, journal file, office file or media center link (.mcl).</span></p>
+<p><span>CVE-2015-2506, CVE-2015-2510 and CVE-2015-2545 are Office vulnerabilities actively being exploited in the wild.
+      The positive news is exploitation of these vulnerabilities requires user interaction.
+      As always users should be aware of the document origins whenever they open Office documents, particularly for documents received via email or downloaded from an untrusted online source.</span></p>
+<p><span>Users, remember to be wary of untrusted sources.
+      Your best bet for resolving these is to get patching quickly.</span></p>
+</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="48%" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><span style="font-family: arial, helvetica, sans-serif;"><strong>FREE PRODUCT TRIALS</strong></span></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none;"  href=
+"http://info.rapid7.com/hlM9h4N00K000M4CQ020TjY"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/ms.gif" alt="Download Metasploit" /> <span style="color: #0197b8;">Download Metasploit</span></a></span><br /><span 
+style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/f00C40l0Yi009N2MKQTkM04"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/ui.gif" alt="Download          
+                                                                                                                                                                  UserInsight" /> <span style="color: #0197b8;">Download UserInsight</span></a></span><br /><span style="font-family: arial, helvetica,    
+       sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/c0402MMK0lQN094Tl0YjC00"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/nx.gif" alt="Download Nexpose" /> <span style="color: 
+#0197b8;">Download                  Nexpose</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/wNYTQ44Kl0000M9m00M2k0C"
+><img style="vertical-align: middle; margin-right: 6px;" 
+src="http://information.rapid7.com/rs/rapid7/images/ci.gif" alt="Download                                         ControlsInsight" /> <span style="color: #0197b8;">Download ControlsInsight</span></a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="48%" align="right">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><span style="font-family: arial, helvetica, sans-serif;"><strong>CONNECT WITH RAPID7</strong></span></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/JN2lKM0l9T0QnCY04M00040"
+><img 
+style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/community.gif" alt="Join the Community" /> <span style="color: #0197b8;">Join the Community</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a 
+style="text-decoration: none;" href=
+"http://info.rapid7.com/JN2lKM0l9T0QnCY04M00040"
+><img style="vertical-align: middle; margin-right: 10px;" src="http://information.rapid7.com/rs/rapid7/images/blog_rss.gif" alt="Subscribe to the Blog" /> <span style="color: #0197b8;">Subscribe to the                    
+Blog</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/gm0Y4Ql0M209NT04K000oCM"
+><img style="vertical-align: middle; margin-right: 12px;" src="http://information.rapid7.com/rs/rapid7/images/twitter.gif" alt="Follow    us    on 
+                                                  Twitter" /> <span style="color: #0197b8;">Follow us on Twitter</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/y9CKYMMQ040lTNn04p00020"
+><img style="vertical-align: middle; 
+margin-right: 8px;" src="http://information.rapid7.com/rs/rapid7/images/contact.gif" alt="Contact Us" /> <span style="color: #0197b8;">Contact Us</span></a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding: 5px 0;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#333333">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="45%" align="left">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #cccccc; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; line-height: 14px; padding: 20px;" valign="top"><span style="font-family: arial, helvetica, sans-serif;">&copy; 2015 Rapid7, All Rights Reserved.</span><br /><span 
+style="font-family: arial, helvetica, sans-serif;"> 100 Summer Street, 13th Floor</span><br /><span style="font-family: arial, helvetica, sans-serif;"> Boston, MA 02110-2131</span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="color: #cccccc; text-decoration: underline;"  href=
+"http://info.rapid7.com/c0402MMK0lQN094Tq0YoC00"
+>www.rapid7.com</a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> 866-7-RAPID7</span></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="40%" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 15px; color: #fff; font-weight: normal; font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif; line-height: 20px; vertical-align: top; text-align: right; padding: 20px;" valign="top"><span style="font-family: arial, helvetica, sans-serif;"><a  href=
+"http://info.rapid7.com/n0KM0pr02MQl0TN0Y9004C4"
+><img title="RSS Feed" src="http://information.rapid7.com/rs/rapid7/images/rss-footer.gif" border="0" alt="RSS Feed" /></a> <a href=
+"http://info.rapid7.com/R00l4Y9NM40020M0KqTCsQ0"
+><img title="Twitter" src="http://information.rapid7.com/rs/rapid7/images/twitter-footer.gif" 
+border="0" alt="Twitter" /></a> <a href=
+"http://info.rapid7.com/v04Y0QCr04lTKMt9N02M000"
+><img title="Rapid7 Community" src="http://information.rapid7.com/rs/rapid7/images/community-footer.gif" border="0" alt="Rapid7 Community" /></a> <a href=
+"http://info.rapid7.com/y9CKYMMQ040lTNn04p00020"
+><img title="Email Rapid7" 
+src="http://information.rapid7.com/rs/rapid7/images/mail-footer.gif" border="0" alt="Email Rapid7" /></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a href=
+"http://info.rapid7.com/c0402MMK0lQN094Tq0YoC00"
+><img src="http://information.rapid7.com/rs/rapid7/images/r7-logo-small.gif" border="0" 
+alt="Rapid7  Home Page" /></a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: arial, helvetica, sans-serif;"><!-- End Wrapper --></span></p>
+</div>
+</div>
+
+<IMG SRC="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6ODEzNToxMjc1MzoyNjAzNTowOjk1MDU6NzoxMTQxNTkyOmpvc2VwaEBkdXpvbi5jb20%3D" WIDTH="1" HEIGHT="1" BORDER="0" ALT="" />
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><p><font face="Verdana" size="1">If you no longer wish to receive these emails or wish to update your email preferences, click on the following link: <a href=
+"http://info.rapid7.com/u/t4TM2M0CKY0lv00QN40009t"
+>Unsubscribe & Preference Center</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_97456609_1899074027.1441984438147--
+

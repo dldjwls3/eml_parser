@@ -1,0 +1,197 @@
+Received: (qmail 18021 invoked by uid 100); 20 Oct 2016 07:09:38 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda003.wmail.worksmobile.com with SMTP;20 Oct 2016 07:09:38 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from smf.duzon.co.kr (mail.duzon.kr [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id TiURp+aUQbmMg1URazjeKQ
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 20 Oct 2016 07:09:37 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u9K7BME00A56;
+	Thu, 20 Oct 2016 16:11:22 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u9K7BME00A56
+X-SmartFilter: FROM,u9K7BME00A56,joseph@duzon.com
+x-forward-id: <b8aea8ccc8d3190b315e8791974f7aa9@www.emailsend.it>
+Received: from external ([209.85.213.48])
+	by smf.duzon.co.kr (1.0) id u9K7BK000A48;
+	Thu, 20 Oct 2016 16:11:20 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u9K7BK000A48
+X-SmartFilter: FROM,u9K7BK000A48,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f48.google.com with SMTP id 2so59678851vkb.3
+        for <joseph@duzon.com>; Thu, 20 Oct 2016 00:09:14 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :date:to:from:reply-to:subject:message-id:mime-version;
+        bh=EfZ+IYKFiFT2RXVYgJWOtnpgYNQ7PAaRuIObr+aaq6s=;
+        b=XP37DrVWnynTAOUAlOJktD0RUXx9aIivBVwZCnei4odjoedIePnqrqAJ9EVFa9/Z6R
+         qwgJUP/G0SqPartZNMbki2zXOTfMU/8yckKKNSyKeviEaDmvuf/UxYR62EaR2uQTOMGi
+         HUKgn+OHOSrIDueJW/TSdhvs0YErE7DkdM9WXHdMmuaooTCRt7+h3fGulwKsg4KKyy+X
+         hKOKRSSgokAeMHe13K2mdVvK0kJ7O0TCtRu6bS8K+WDSqiEdZs39tvmg3pToTXsLHvxX
+         sI7Y1mi18V9U/PL0qbGNAiRvPL702cTyh8OQ8GtWfXBBCLMfdqJtlotNk1Sf6hSJJYzP
+         S4Gw==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AA6/9RmnwOz/rHJH8zVLXVsiRDuX39zm64t+GpTH1bun+UBHuXjd2+8Ljs4YjUj8hNm6OOV4cCNLIFISDms2BrbS8+msjKY=
+X-Received: by 10.31.125.196 with SMTP id y187mr9180483vkc.1.1476947353419;
+        Thu, 20 Oct 2016 00:09:13 -0700 (PDT)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.43.131 with SMTP id r125csp518064vsr;
+        Thu, 20 Oct 2016 00:09:12 -0700 (PDT)
+X-Received: by 10.99.47.7 with SMTP id v7mr15437123pgv.15.1476947352322;
+        Thu, 20 Oct 2016 00:09:12 -0700 (PDT)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id i5si40349421pgj.28.2016.10.20.00.09.11
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 20 Oct 2016 00:09:11 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u9K7B5u00A44;
+	Thu, 20 Oct 2016 16:11:05 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u9K7B5u00A44
+X-SmartFilter: FROM,u9K7B5u00A44,forensic@duzon.com
+x-forward-id: <b8aea8ccc8d3190b315e8791974f7aa9@www.emailsend.it>
+Received: from external ([37.187.211.203])
+	by smf.duzon.co.kr (1.0) id u9K7B3t00A43;
+	Thu, 20 Oct 2016 16:11:03 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u9K7B3t00A43
+X-SmartFilter: FROM,u9K7B3t00A43,sender@emailsend.it
+Received: from www.emailsend.it (emailsend.it [37.187.211.203])
+	by vps50951.ovh.net (Postfix) with ESMTPA id EFDFE1179DD
+	for <forensic@duzon.com>; Thu, 20 Oct 2016 09:10:34 +0200 (CEST)
+Date: Thu, 20 Oct 2016 09:10:34 +0200
+To: forensic@duzon.com
+From: CSM Sistemi <sender@emailsend.it>
+Reply-to: CSM Sistemi <sender@emailsend.it>
+Subject: Fornitura lampade led costo zero
+Message-ID: <b8aea8ccc8d3190b315e8791974f7aa9@www.emailsend.it>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_b8aea8ccc8d3190b315e8791974f7aa9"
+X-Naver-ESV: wqen+6J4p635WrlY7BwdpBmmFqglKqCYkXm=
+
+
+--b1_b8aea8ccc8d3190b315e8791974f7aa9
+Content-Type: text/plain; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+Risparmia oltre il 65%
+            
+        
+        
+            
+            Fornitura e sostituzione lampade a led per uffici e capannoni industriali a COSTO ZERO!
+            
+        
+        
+            
+            
+                Fornitura: di tutte le lampade della tua azienda anche quelle per l'illuminazione di grandi aree.
+                Sostituzione: di tutti i punti luce e smaltimento delle lampade rimosse.
+                Calcolo risparmio: con la bolletta alla mano calcoliamo in anticipo l'effettivo risparmio energetico.
+                Ammortamento: dal risparmio ottenuto ne pagherai meno per l'intera sostituzione delle lampade.
+            
+            
+            
+        
+        
+            
+            Soluzioni personalizzate in base al risparmio in bolletta
+            per ottenere un costo pari a zero.
+            
+        
+        
+            
+        
+        
+            
+        
+        
+            
+        
+        
+            
+        
+        
+            
+        
+        
+            
+            CSM Sistemi dal 1984 - P.iva: 01604020139
+            Via Gallarate 122 - 20151 Milano
+            
+        
+    
+Ricevi questa mail perchè sei iscritto a www.databaseaziendali.com. Per cancellare la tua iscrizione segui questo  link.
+
+
+--b1_b8aea8ccc8d3190b315e8791974f7aa9
+Content-Type: text/html; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+<html><head></head><body><table width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="font-family:Arial, Helvetica, sans-serif">
+    <tbody>
+        <tr>
+            <td align="center" colspan="2">
+            <h1 style="color:#054068">Risparmia oltre il 65%</h1>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="70" colspan="2">
+            <h3>Fornitura e sostituzione lampade a led per uffici e capannoni industriali a COSTO ZERO!</h3>
+            </td>
+        </tr>
+        <tr>
+            <td width="319">
+            <ul style="font-size:16px">
+                <li style="margin-bottom: 15px;"><strong>Fornitura</strong>: di tutte le lampade della tua azienda anche quelle per l'illuminazione di grandi aree.</li>
+                <li style="margin-bottom: 15px;"><strong>Sostituzione</strong>: di tutti i punti luce e smaltimento delle lampade rimosse.</li>
+                <li style="margin-bottom: 15px;"><strong>Calcolo risparmio</strong>: con la bolletta alla mano calcoliamo in anticipo l'effettivo risparmio energetico.</li>
+                <li style="margin-bottom: 15px;"><strong>Ammortamento</strong>: dal risparmio ottenuto ne pagherai meno per l'intera sostituzione delle lampade.</li>
+            </ul>
+            </td>
+            <td width="281"><img alt="Lampade, tubi e faretti a led" src="http://www.richiestecontatto.it/landing/lampade-led/dem/img-06.jpg" /></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+            <p style="font-size:18px; font-style:italic; color:#054068">Soluzioni personalizzate in base al risparmio in bolletta<br />
+            per ottenere un <u>costo pari a zero</u>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td height="120" colspan="2"><a href="http://www.richiestecontatto.it/landing/lampade-led/?ref=173"><img border="0" alt="Richiedi informazioni senza impegno" src="http://www.richiestecontatto.it/landing/lampade-led/dem/img-05.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td colspan="2"><img border="0" src="http://www.richiestecontatto.it/landing/lampade-led/dem/img-04.jpg" alt="" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><img border="0" src="http://www.richiestecontatto.it/landing/lampade-led/dem/img-03.jpg" alt="" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><img border="0" src="http://www.richiestecontatto.it/landing/lampade-led/dem/img-02.jpg" alt="" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><img border="0" src="http://www.richiestecontatto.it/landing/lampade-led/dem/img-01.jpg" alt="" /></td>
+        </tr>
+        <tr>
+            <td align="center" height="50" colspan="2">
+            <p style="font-size:12px;">CSM Sistemi dal 1984 - P.iva: 01604020139<br />
+            Via Gallarate 122 - 20151 Milano</p>
+            </td>
+        </tr>
+    </tbody>
+</table><br style="clear: both;"/><span style="margin-top: 10px;float: left;font-size:12px;color:#333;">Ricevi questa mail perch&egrave; sei iscritto a <a href="http://www.impreseonline.net" style="text-decoration: underline;color: #333;">www.impreseonline.net</a>. Per cancellare la tua iscrizione segui questo <a href="http://www.gate3way.it/unsubscribe.php?h=Zm9yZW5zaWNAZHV6b24uY29tOjM6MTIyOnd3dy5pbXByZXNlb25saW5lLm5ldA==" style="text-decoration: underline;color: #333;"> link</a>.</span><br /><img src="http:///www.emailsend.it/read.php?id=MTIy" /></body></html>
+
+
+
+--b1_b8aea8ccc8d3190b315e8791974f7aa9--
+
+
+

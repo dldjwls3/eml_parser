@@ -1,0 +1,389 @@
+Received: (qmail 27802 invoked by uid 100); 23 Jul 2016 14:36:03 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda001.wmail.worksmobile.com with SMTP;23 Jul 2016 14:36:03 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.co.kr (gw.duzon.com [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id WEdsQN+xTUOv+q7IuzmL0Q
+  for <jonghyun.kim@dforensic.com>;
+  Sat, 23 Jul 2016 14:36:03 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u6NEb5r008BF;
+	Sat, 23 Jul 2016 23:37:05 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u6NEb5r008BF
+X-SmartFilter: FROM,u6NEb5r008BF,joseph@duzon.com
+x-forward-id: <1807327240.1334643634.1469284552328.JavaMail.root@sjmas03.marketo.org>
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id u6NEatq008BE;
+	Sat, 23 Jul 2016 23:36:56 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u6NEatq008BE
+X-SmartFilter: FROM,u6NEatq008BE,495-KNT-277.0.17683.0.0.14025.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTE5MTQ6MTc2ODM6Mzc0OTg6MDoxNDAyNTo3OjExNDE1OTI=
+Received: from [10.0.87.249] ([10.0.87.249:45965] helo=sjmas03.marketo.org)
+	by sjmta09.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id E3/3C-37522-8C083975; Sat, 23 Jul 2016 09:35:52 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1469284552;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=mZp//DdoN07ma7unZ+KayF2UvSG/zKYUVuvoFh42GEk=;
+	b=YxXUvUEE117r8rLY4UkrGvmi2TIlAKt+0PJIn15PDxn160xpx7s0355YWEQSXyoE
+	Bfwvh29XaKDBu7I1A/2DRy4QSiTmMQBqxNyL0X5nZFKLZoD9K9qinqTmBtuXdYQ7CzS
+	jYsPKj6Tj1HtA3VKHrmo1vjofkkXLFL1RHCSkmmo=
+Date: Sat, 23 Jul 2016 09:35:52 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1807327240.1334643634.1469284552328.JavaMail.root@sjmas03.marketo.org>
+Subject: [Security Webcast] Ransomware: Don't Believe The Vendor Hype!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1334643632_1129446237.1469284552328"
+X-PVIQ: mkto-495KNT277-000001-000000-025616
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:11914:17683:37498:0:14025:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.17683.14025.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.17683.0.0.14025.7.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: ww+n+6J4p635WrlY7BwdpBmwFAKrKAFYkXm=
+
+------=_Part_1334643632_1129446237.1469284552328
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<http://info.rapid7.com/jM2N0g2lK004Y0MQT400v00>
+Contact Us <http://info.rapid7.com/ygvKYMMQ040lTN104300020>
+Security Webcast
+
+Ransomware: Don't Believe The Hype of Vendors
+ 
+ Thursday, Jul 28th @ 11am SGT | 1pm AEST
+ 
+ <[[https://information.rapid7.com/ransomware-dont-believe-the-hype-2-apac.html?CS=email&utm_medium=email&utm_source=email]]>
+
+
+
+REGISTER NOW <[[https://information.rapid7.com/ransomware-dont-believe-the-hype-2-apac.html?CS=email&utm_medium=email&utm_source=email]]>
+A number of Rapid7's customers have been evaluating the risks posed by the swift rise of ransomware as an attack vector. As of today, there is no known method for recovering lost data without cooperating with the criminals responsible for the ransomware. Of course, backing up valuable data before an attack is critical in order to recover from this kind of attack.
+ 
+ 
+
+
+
+
+
+Matthew Hathaway
+Senior Manager, Solutions Marketing for Rapid7
+
+
+
+
+
+ 
+
+This webcast will cover:
+
+
+ - Snake oil sales techniques around ransomware
+ - Best ways to protect your organization from this threat
+ - Disaster recovery processes to have in place
+ - And more!
+
+
+Register for the webcast <[[https://information.rapid7.com/ransomware-dont-believe-the-hype-2-apac.html?utm_medium=email&utm_source=email&CS=email]]>
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center-page.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiTURoaVptWXpZVEF6WVdSaSIsInQiOiJIYk5VWHJpbTc3YXppeUZNbGsvZW1LTURjSUZnRWlLaEJ0N2pCU0J5dGdNVk5pL2Z4ZHVhV0s5M2IwK2dkRFBHZGI4U1krdnZoZ0JRQS95QTRyN052SnBjVmRrczcyYVRCbFhmbWJZb24vWT0ifQ%3D%3D.
+
+------=_Part_1334643632_1129446237.1469284552328
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+
+<style type=3D"text/css">
+
+                /* Some resets and issue fixes */
+        #outlook a { padding:0; }
+                body{ width:100% !important; -webkit-text; size-adjust:100%=
+; -ms-text-size-adjust:100%; margin:0; padding:0; }    =20
+        .ReadMsgBody { width: 100%; }
+        .ExternalClass {width:100%;}=20
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;}=
+=20
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}  =20
+        /* End reset */
+               =20
+                /* Custom */
+                body,table,td,span,a,ul,li {font-family: Arial, sans-serif =
+!important;}
+                .forcefont {font-family: Arial, sans-serif !important;}
+                .appleLinksWhite {color: #ffffff !important; text-decoratio=
+n: none;}=20
+                .appleLinksBlack {color: #000000 !important; text-decoratio=
+n: none;}
+                .appleLinksOrange {color: #ec5f27 !important; text-decorati=
+on: none;}
+                table,div {margin-top: -1px;} /* Gets rid of 1px space betw=
+een tables and divs */
+               =20
+                /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 630px){
+               =20
+
+                        /* Display block allows us to stack elements */    =
+                 =20
+            *[class=3D"mobile-column"] {display: block;}=20
+                       =20
+                        /* Some more stacking elements */
+            *[class=3D"mob-column"] {float: none !important;width: 100% !im=
+portant;}    =20
+                            =20
+                        /* Hide stuff */
+            *[class=3D"hide"] {display:none !important;}         =20
+           =20
+                        /* This sets elements to 100% width and fixes the h=
+eight issues too, a god send */
+                        *[class=3D"100p"] {width:100% !important; height:au=
+to !important;}                               =20
+                               =20
+                        /* For the 2x2 stack */                =20
+                        *[class=3D"condensed"] {padding-bottom:40px !import=
+ant; display: block;}
+                       =20
+                        /* Centers content on mobile */
+                        *[class=3D"center"] {text-align:center !important; =
+width:100% !important; height:auto !important;}           =20
+                       =20
+                        /* 100percent width section with 20px padding */
+                        *[class=3D"100pad"] {width:100% !important; padding=
+:20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding left =
+& right */
+                        *[class=3D"100padleftright"] {width:100% !important=
+; padding:0 20px 0 20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding top &=
+ bottom */
+                        *[class=3D"100padtopbottom"] {width:100% !important=
+; padding:20px 0px 20px 0px;}=20
+               =20
+        }      =20
+       =20
+</style>
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0; padding:0; " wid=
+th=3D"100%" ><tr ><td align=3D"center" valign=3D"top" ><table width=3D"640"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"Header1Link" class=3D"mktEditable" ><table class=3D"100p" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3B3=
+B">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"600">
+<tbody>
+<tr>
+<td class=3D"100p" width=3D"50%" align=3D"left"><a href=3D
+"http://info.rapid7.com/qgTK040YlV0Q4u02N0MU00M"
+><img style=3D"display: block;" src=3D"https://information.rapid7.com/rs/49=
+5-KNT-277/images/rapid7_logo_white-orange-400px.png" border=3D"0" alt=3D"Ra=
+pid7"></a></td>
+<td class=3D"hide" style=3D"font-size: 16px; color: #ffffff;" width=3D"50%"=
+ align=3D"right"><a style=3D"color: #ffffff; text-decoration: none;" href=
+=3D
+"http://info.rapid7.com/jMWN0g2lK004Y0MQT4V0u00"
+>Contact Us</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id=3D"WebcastIntro" class=3D"mktEditable" ><table class=3D"100p" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3B=
+3B">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"600">
+<tbody>
+<tr>
+<td height=3D"35"></td>
+</tr>
+<tr>
+<td style=3D"color: #ffffff;" align=3D"center">
+<p><span style=3D"font-size: 34px;"><strong>Security Webcast</strong></span=
+></p>
+<p><span style=3D"font-size: 24px;">Ransomware: Don't Believe The Hype of V=
+endors</span><br /> <br /> <span class=3D"appleLinksOrange" style=3D"font-s=
+ize: 24px; color: #ec5f27 !important;">Thursday, Jul 28th @ 11am SGT | 1pm =
+AEST</span><br /> <br /> <a style=3D"color: #ec5f27; text-decoration: none;=
+" href=3D"https://information.rapid7.com/ransomware-dont-believe-the-hype-2=
+-apac.html?CS=3Demail&amp;utm_medium=3Demail&amp;utm_source=3Demail"></a></=
+p>
+<table style=3D"border: 2px solid #ec5f27;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"10" bgcolor=3D"#EC5F27">
+<tbody>
+<tr>
+<td style=3D"color: #ec5f27; font-size: 16px;" align=3D"center"><a style=3D=
+"color: #ffffff; text-decoration: none;" href=3D"https://information.rapid7=
+...com/ransomware-dont-believe-the-hype-2-apac.html?CS=3Demail&amp;utm_medium=
+=3Demail&amp;utm_source=3Demail">REGISTER NOW</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"WebcastContentBlock" class=3D"mktEditable" ><table class=3D"100p=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=
+=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; color: #848484;" align=3D"left"><span style=
+=3D"font-size: 16px;"><span>A number of Rapid7's customers have been evalua=
+ting the risks posed by the swift rise of ransomware as an attack vector.</=
+span> <span>As of today, there is no known method for recovering lost data =
+without cooperating with the criminals responsible for the ransomware. Of c=
+ourse, backing up valuable data before an attack is critical in order to re=
+cover from this kind of attack.</span></span><br /> <br /> <!-- Presenter B=
+lock /-->=20
+<table class=3D"100p" style=3D"color: #848484; font-size: 14px;" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"20" width=3D"600" bgcolor=3D"#F9F9F9">
+<tbody>
+<tr>
+<td width=3D"40%" align=3D"center"><img class=3D"100p" style=3D"display: bl=
+ock;" src=3D"https://information.rapid7.com/rs/495-KNT-277/images/webcast-c=
+ircle-image-template-hathaway.png" border=3D"0" alt=3D"Matt Hathaway" width=
+=3D"150" height=3D"150" /></td>
+<td width=3D"40%" align=3D"left">
+<div><span style=3D"font-size: 24px;"><strong><span style=3D"color: #ec5f27=
+;">Matthew Hathaway</span></strong></span></div>
+<div><span style=3D"font-size: 24px;"><strong>Senior Manager, Solutions Mar=
+keting for Rapid7</strong></span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><span style=3D"color: #848484;"><span style=3D"font-size: 16px;">This we=
+bcast will cover:</span></span></p>
+<ul style=3D"font-size: 16px;">
+<li>Snake oil sales techniques around ransomware</li>
+<li>Best ways to protect your organization from this threat</li>
+<li>Disaster recovery processes to have in place</li>
+<li>And more!</li>
+</ul>
+<strong style=3D"color: #ec5f27; text-decoration: none;"><a style=3D"color:=
+ #ec5f27; text-decoration: none;" href=3D"https://information.rapid7.com/ra=
+nsomware-dont-believe-the-hype-2-apac.html?utm_medium=3Demail&amp;utm_sourc=
+e=3Demail&amp;CS=3Demail">Register for the webcast</a>&nbsp;</strong></td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"Summer Camp" class=3D"mktEditable" ><table width=3D"640" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#FFFFFF" class=3D"100=
+p">
+<tr>
+<td align=3D"right"><img src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/r7roadtrip.png" class=3D"100p" border=3D"0" align=3D"right" style=
+=3D"display:block"></td>
+</tr>
+</table>
+</div>
+<!-- Stop Blocks Here /-->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" bgco=
+lor=3D"#3B3B3B" class=3D"100p">
+<tr>
+<td valign=3D"middle" align=3D"left" width=3D"50%" style=3D"font-size:14px;=
+ color:#ffffff;"><span>=C2=A9 2016 Rapid7, All Rights Reserved.</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">Boston, MA 02110-2131</span><br>
+<span><a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/x0K0000u2Wg0lQN0X44MYTM"
+>www.rapid7.com</a></span><br>
+<span>866-7-RAPID7</span></td>
+<td valign=3D"middle" align=3D"right" width=3D"50%" style=3D"font-size:14px=
+; color:#ffffff;"><span><a href=3D
+"http://info.rapid7.com/p0400K0gYT0M0XQN4l0MYu2"
+><img title=3D"Facebook" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-fb-2016-36px-white.png" border=3D"0" alt=3D"Facebook"></a>=
+<a href=3D
+"http://info.rapid7.com/f00u40l0YY00gN2MKQTZM04"
+><img title=3D"Twitter" src=3D"https://information.rapid7.com/rs/495-KNT-27=
+7/images/social-tw-2016-36px-white.png" border=3D"0" alt=3D"Twitter"></a><a=
+ href=3D
+"http://info.rapid7.com/d40lMgZQuM0TY00N40020K0"
+><img title=3D"LinkedIn" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-li-2016-36px-white.png" border=3D"0" alt=3D"LinkedIn"></a>=
+</span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/x0K0000u2Wg0lQN0X44MYTM"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" border=3D"0" alt=3D"Rapid7 Home Page"></a></span=
+></td>
+</tr>
+</table>
+<table width=3D"640" class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTE5MTQ6=
+MTc2ODM6Mzc0OTg6MDoxNDAyNTo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/LM42TN00g02v0K4YM0l040Q"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_1334643632_1129446237.1469284552328--
+

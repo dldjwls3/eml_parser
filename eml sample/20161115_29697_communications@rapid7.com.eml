@@ -1,0 +1,416 @@
+Received: (qmail 31451 invoked by uid 100); 15 Nov 2016 03:03:43 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda001.wmail.worksmobile.com with SMTP;15 Nov 2016 03:03:43 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id Shk5WQjKQSeu4T1ia1fxPA
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 15 Nov 2016 03:03:43 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAF363d004BB;
+	Tue, 15 Nov 2016 12:06:03 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAF363d004BB
+X-SmartFilter: FROM,uAF363d004BB,joseph@duzon.com
+x-forward-id: <39444660.51707402.1479179016737.JavaMail.root@sjmas03.marketo.org>
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id uAF361b004B9;
+	Tue, 15 Nov 2016 12:06:01 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAF361b004B9
+X-SmartFilter: FROM,uAF361b004B9,495-KNT-277.0.21804.0.0.16615.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTM3Mjk6MjE4MDQ6NDY0NDE6MDoxNjYxNTo3OjExNDE1OTI=
+Received: from [10.0.87.249] ([10.0.87.249:40767] helo=sjmas03.marketo.org)
+	by sjmta18.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 08/53-20550-80B7A285; Mon, 14 Nov 2016 21:03:36 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1479179016;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=K7XnOju8Dzdk0J5B+2P1nyicOJuxvLMO1VSLb6U8/ho=;
+	b=utZuDYF5FPYma3V7Bgi3S5YwDlbFXJ8e1+DIlh2bklUM3kwjpxxKTYDEC5oWcnit
+	/0DChYROCTv/iXwGobG2P1r6mBoiJDYkjMTHgi+QAEJUEfhDVCkh2A4Vdj5gzuHvs6Y
+	RazkKW3VjYXMLdxVUkgghU0HesTbHHaiGztGOzTE=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1479179016;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=K7XnOju8Dzdk0J5B+2P1nyicOJuxvLMO1VSLb6U8/ho=;
+	b=ovfA8dML4qfnGT6fG3A0X+pW3gAGBKnYHv7f+So/Ezysk3RlHP68jGMpZe8pLEFe
+	sMd+IpLG/Tpuu4W4n77SDZxRzwBUMiZZkqeB/YY/Ik3dwZNhktjGGV7KYK6L0ihmdZN
+	Y39no/4ehNRcsOTOE65pEOPQawePRa0E5WkZ66Us=
+Date: Mon, 14 Nov 2016 21:03:36 -0600 (CST)
+From: Rapid7 Webcasts <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <39444660.51707402.1479179016737.JavaMail.root@sjmas03.marketo.org>
+Subject: [Breaking News Webcast] Rapid7 Integration with McAfee
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_51707401_1330504353.1479179016737"
+X-PVIQ: mkto-495KNT277-000001-000000-030854
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:13729:21804:46441:0:16615:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.21804.16615.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.21804.0.0.16615.7.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: wm+n+6J4p635WrlY7BwdpBmmKqgqFAFYkXm=
+
+------=_Part_51707401_1330504353.1479179016737
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<http://info.rapid7.com/v04Y0Q7V04lTKMDkN02M000>
+Contact Us <http://info.rapid7.com/TEQK70M0k000YNW20l4M4T0>
+BREAKING NEWS
+ Rapid7's Bidirectional McAfee ePO and DXL Integration for Always-on Vulnerability Management
+ 
+ Thursday 24th November @  11AM SGT | 1PM AEST
+ 
+ <[[https://information.rapid7.com/epo-dxl-nexpose-feature-webcast-2-apac.html?CS=email&utm_medium=email&utm_source=email]]> 
+
+
+
+REGISTER NOW <http://info.rapid7.com/o02XQ00F700kMK04YTN4Ml0>
+Join us for the live webcast! <http://info.rapid7.com/o02XQ00F700kMK04YTN4Ml0>
+Rapid7's Nexpose bidirectional integration with McAfee ePO and DXL is the first of its kind. Now joint customers will have always-on vulnerability management, unparalleled visibility into their IT environments, and the ability to effectively prioritize remediation.
+Join Nate Palanov, Solutions Marketing Manager and Ken Mizota, Nexpose Product Manager from Rapid7 for a discussion on how this new integration will improve the ability for joint customers to connect multivendor security products, exchange information, and make their security tools work more efficiently and effectively.
+
+
+
+
+
+Nathan Palanov,
+Solutions Marketing Manager for Rapid7
+
+
+
+
+
+Ken Mizota,
+ Product Marketing Manager for Rapid7
+
+
+
+
+
+You'll learn:
+
+
+ - Why Nexpose was chosen as the only solution to provide attacker context for your assets into ePO and DXL, via the unique Nexpose risk scoring system
+ - How to save time with asset discovery by automatically linking ePO assets to Nexpose assets, so your scans never miss a system
+ - How to use McAfee threat intelligence to prioritize vulnerability remediation based on potential active breaches and compromised systems
+ - And more!
+
+
+Register now! <http://info.rapid7.com/kK0Gl0Q007M02N4MYk0Y40T>
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center-page.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiTlROa05qZzBaR1E0TURSbSIsInQiOiIrMFV1WStmMndQTHgwN2dJUkRrZFZpOXpSdXRsTlZ1aTVJdEVhTFROeDd2UUY1UXJSWWpYL2FhV20relZ5K3BlU3J2OGUzRzgxelFjelJvcFNQUy9VdUpCanBJM25UcHdrdGE4cVE2YUZtUT0ifQ%3D%3D.
+
+------=_Part_51707401_1330504353.1479179016737
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+
+<style type=3D"text/css">
+
+                /* Some resets and issue fixes */
+        #outlook a { padding:0; }
+                body{ width:100% !important; -webkit-text; size-adjust:100%=
+; -ms-text-size-adjust:100%; margin:0; padding:0; }    =20
+        .ReadMsgBody { width: 100%; }
+        .ExternalClass {width:100%;}=20
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;}=
+=20
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}  =20
+        /* End reset */
+               =20
+                /* Custom */
+                body,table,td,span,a,ul,li {font-family: Arial, sans-serif =
+!important;}
+                .forcefont {font-family: Arial, sans-serif !important;}
+                .appleLinksWhite {color: #ffffff !important; text-decoratio=
+n: none;}=20
+                .appleLinksBlack {color: #000000 !important; text-decoratio=
+n: none;}
+                .appleLinksOrange {color: #ec5f27 !important; text-decorati=
+on: none;}
+                table,div {margin-top: -1px;} /* Gets rid of 1px space betw=
+een tables and divs */
+               =20
+                /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 630px){
+               =20
+
+                        /* Display block allows us to stack elements */    =
+                 =20
+            *[class=3D"mobile-column"] {display: block;}=20
+                       =20
+                        /* Some more stacking elements */
+            *[class=3D"mob-column"] {float: none !important;width: 100% !im=
+portant;}    =20
+                            =20
+                        /* Hide stuff */
+            *[class=3D"hide"] {display:none !important;}         =20
+           =20
+                        /* This sets elements to 100% width and fixes the h=
+eight issues too, a god send */
+                        *[class=3D"100p"] {width:100% !important; height:au=
+to !important;}                               =20
+                               =20
+                        /* For the 2x2 stack */                =20
+                        *[class=3D"condensed"] {padding-bottom:40px !import=
+ant; display: block;}
+                       =20
+                        /* Centers content on mobile */
+                        *[class=3D"center"] {text-align:center !important; =
+width:100% !important; height:auto !important;}           =20
+                       =20
+                        /* 100percent width section with 20px padding */
+                        *[class=3D"100pad"] {width:100% !important; padding=
+:20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding left =
+& right */
+                        *[class=3D"100padleftright"] {width:100% !important=
+; padding:0 20px 0 20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding top &=
+ bottom */
+                        *[class=3D"100padtopbottom"] {width:100% !important=
+; padding:20px 0px 20px 0px;}=20
+               =20
+        }      =20
+       =20
+</style>
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0; padding:0; " wid=
+th=3D"100%" ><tr ><td align=3D"center" valign=3D"top" ><table width=3D"640"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"Header1Link" class=3D"mktEditable" ><table class=3D"100p" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3B3=
+B">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"600">
+<tbody>
+<tr>
+<td class=3D"100p" width=3D"50%" align=3D"left"><a href=3D
+"http://info.rapid7.com/kK0vl0Q007M02N4MYk0N40T"
+><img style=3D"display: block;" src=3D"https://information.rapid7.com/rs/49=
+5-KNT-277/images/rapid7_logo_white-orange-400px.png" border=3D"0" alt=3D"Ra=
+pid7" /></a></td>
+<td class=3D"hide" style=3D"font-size: 16px; color: #ffffff;" width=3D"50%"=
+ align=3D"right"><a style=3D"color: #ffffff; text-decoration: none;" href=
+=3D
+"http://info.rapid7.com/TwQK70M0k000YNO20l4M4T0"
+>Contact Us</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"WebcastIntro" class=3D"mktEditable" ><table class=3D"100p" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3B=
+3B">
+<tbody>
+<tr>
+<td valign=3D"top">
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"600">
+<tbody>
+<tr>
+<td height=3D"35"></td>
+</tr>
+<tr>
+<td style=3D"color: #ffffff;" align=3D"center"><span style=3D"font-size: 34=
+px;"><strong>BREAKING NEWS</strong></span><br /> <span style=3D"font-size: =
+24px;">Rapid7's Bidirectional McAfee ePO and DXL Integration for Always-on =
+Vulnerability Management</span><br /> <br /> <span class=3D"appleLinksOrang=
+e" style=3D"font-size: 24px; color: #ec5f27 !important;">Thursday 24th Nove=
+mber @  11AM SGT | 1PM AEST</span><br /> <br /> <a style=3D"color: #ec5f27;=
+ text-decoration: none;" href=3D"https://information.rapid7.com/epo-dxl-nex=
+pose-feature-webcast-2-apac.html?CS=3Demail&amp;utm_medium=3Demail&amp;utm_=
+source=3Demail"></a>=20
+<table style=3D"border: 2px solid #ec5f27;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"10" bgcolor=3D"#EC5F27">
+<tbody>
+<tr>
+<td style=3D"color: #ec5f27; font-size: 16px;" align=3D"center"><a style=3D=
+"color: #ffffff; text-decoration: none;" href=3D
+"http://info.rapid7.com/r40P0T270NxlYQKkM00M040"
+>REGISTER NOW</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"WebcastContentBlock" class=3D"mktEditable" ><table class=3D"100p=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=
+=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 14px; color: #848484;" align=3D"left">
+<p style=3D"color: #848484; font-size: 14px;"><span style=3D"font-size: 16p=
+x; color: #000000;"><a style=3D"color: #ec5f27; text-decoration: none;" hre=
+f=3D
+"http://info.rapid7.com/r40P0T270NxlYQKkM00M040"
+>Join us for the live webcast!</a></span></p>
+<p style=3D"color: #848484; font-size: 14px;"><span style=3D"font-size: 16p=
+x; color: #000000;">Rapid7's Nexpose bidirectional integration with McAfee =
+ePO and DXL is the first of its kind. Now joint customers will have always-=
+on vulnerability management, unparalleled visibility into their IT environm=
+ents, and the ability to effectively prioritize remediation.</span></p>
+<p style=3D"color: #848484; font-size: 14px;"><span style=3D"font-size: 16p=
+x; color: #000000;">Join Nate Palanov, Solutions Marketing Manager and Ken =
+Mizota, Nexpose Product Manager from Rapid7 for a discussion on how this ne=
+w integration will improve the ability for joint customers to connect multi=
+vendor security products, exchange information, and make their security too=
+ls work more efficiently and effectively.</span></p>
+<table class=3D"100p" style=3D"color: #848484; font-size: 14px;" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"20" width=3D"600" bgcolor=3D"#F9F9F9">
+<tbody>
+<tr>
+<td width=3D"40%" align=3D"center"><img class=3D"100p" style=3D"display: bl=
+ock;" src=3D"https://information.rapid7.com/rs/495-KNT-277/images/webcast-c=
+ircle-image-template-nate_p.png" border=3D"0" alt=3D"Nate Palanov" width=3D=
+"150" height=3D"150" /></td>
+<td width=3D"40%" align=3D"left">
+<div><span style=3D"font-size: 24px;"><strong><span style=3D"color: #ec5f27=
+;">Nathan Palanov</span>,</strong></span></div>
+<div><span style=3D"font-size: 24px;"><strong>Solutions Marketing Manager f=
+or Rapid7</strong></span></div>
+</td>
+</tr>
+<tr>
+<td width=3D"40%" align=3D"center"><img class=3D"100p" style=3D"display: bl=
+ock;" src=3D"https://information.rapid7.com/rs/495-KNT-277/images/webcast-c=
+ircle-image-template-4-18-16-kenm.png" border=3D"0" alt=3D"Ken Mizota" widt=
+h=3D"150" height=3D"150" /></td>
+<td width=3D"40%" align=3D"left">
+<div><span style=3D"font-size: 24px;"><strong><span style=3D"color: #ec5f27=
+;">Ken Mizota</span>,</strong></span></div>
+<div><span style=3D"font-size: 24px;"><strong> Product Marketing Manager fo=
+r Rapid7</strong></span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style=3D"font-size: 16px; text-align: -webkit-center; color: #0000=
+00;">You'll learn:</span></p>
+<ul style=3D"font-size: 16px;">
+<li><span style=3D"color: #000000;">Why Nexpose was chosen as the only solu=
+tion to provide attacker context for your assets into ePO and DXL, via the =
+unique Nexpose risk scoring system</span></li>
+<li><span style=3D"color: #000000;">How to save time with asset discovery b=
+y automatically linking ePO assets to Nexpose assets, so your scans never m=
+iss a system</span></li>
+<li><span style=3D"color: #000000;">How to use McAfee threat intelligence t=
+o prioritize vulnerability remediation based on potential active breaches a=
+nd compromised systems</span></li>
+<li><span style=3D"color: #000000;">And more!</span></li>
+</ul>
+<a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/r40P0T270NxlYQKkM00M040"
+><strong>Register now!</strong></a></td>
+</tr>
+</tbody>
+</table></div>
+<!-- Stop Blocks Here /-->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" bgco=
+lor=3D"#3B3B3B" class=3D"100p">
+<tr>
+<td valign=3D"middle" align=3D"left" width=3D"50%" style=3D"font-size:14px;=
+ color:#ffffff;"><span>=C2=A9 2016 Rapid7, All Rights Reserved.</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">Boston, MA 02110-2131</span><br>
+<span><a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/A70y04KN20Q4kMM00l0Q0YT"
+>www.rapid7.com</a></span><br>
+<span>866-7-RAPID7</span></td>
+<td valign=3D"middle" align=3D"right" width=3D"50%" style=3D"font-size:14px=
+; color:#ffffff;"><span><a href=3D
+"http://info.rapid7.com/hlMkR4N00K000M47Q020TzY"
+><img title=3D"Facebook" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-fb-2016-36px-white.png" border=3D"0" alt=3D"Facebook"></a>=
+<a href=3D
+"http://info.rapid7.com/l7NMA000lkYM0T2440Q0S0K"
+><img title=3D"Twitter" src=3D"https://information.rapid7.com/rs/495-KNT-27=
+7/images/social-tw-2016-36px-white.png" border=3D"0" alt=3D"Twitter"></a><a=
+ href=3D
+"http://info.rapid7.com/t4TM2M07KY0lB00QN4000kT"
+><img title=3D"LinkedIn" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-li-2016-36px-white.png" border=3D"0" alt=3D"LinkedIn"></a>=
+</span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/A70y04KN20Q4kMM00l0Q0YT"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" border=3D"0" alt=3D"Rapid7 Home Page"></a></span=
+></td>
+</tr>
+</table>
+<table width=3D"640" class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href=3D
+"http://info.rapid7.com/r40U0T270NClYQKkM00M040"
+></a>
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTM3Mjk6=
+MjE4MDQ6NDY0NDE6MDoxNjYxNTo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/R00l4YkNM40020M0KZT7HQ0"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_51707401_1330504353.1479179016737--
+

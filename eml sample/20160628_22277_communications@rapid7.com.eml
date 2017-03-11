@@ -1,0 +1,386 @@
+Received: (qmail 29429 invoked by uid 100); 28 Jun 2016 03:10:08 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda02.wmail.naver.com with SMTP;28 Jun 2016 03:10:08 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.co.kr (gw.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id IaKy-HVMQTesEigE3uHN+g
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 28 Jun 2016 03:10:07 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u5S3AqF00799;
+	Tue, 28 Jun 2016 12:10:52 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u5S3AqF00799
+X-SmartFilter: FROM,u5S3AqF00799,joseph@duzon.com
+x-forward-id: <1375326064.746505687.1467083404903.JavaMail.root@sjmas01.marketo.org>
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id u5S3AoE00798;
+	Tue, 28 Jun 2016 12:10:50 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u5S3AoE00798
+X-SmartFilter: FROM,u5S3AoE00798,495-KNT-277.0.17189.0.0.13596.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTE1MzY6MTcxODk6MzY1MjU6MDoxMzU5Njo3OjExNDE1OTI=
+Received: from [10.0.12.42] ([10.0.12.42:57520] helo=sjmas01.marketo.org)
+	by sjmta13.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 1C/0A-01586-C8AE1775; Mon, 27 Jun 2016 22:10:04 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1467083404;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=pR6nmj8YOjckLTklfkc+xmDmO16ivp9C41DnNQbTlSk=;
+	b=EZnWgoRQuK9cJoaWNVK/XtQ9JIDSbYtwDW6MUjs5EMMbgYc0FTlnq6n6yO7fGwNW
+	hGEjK1bcRmclZwx6GpjjbFKixkpdFxcxgXOVE7KoxH62HA/tbxsy+ReFNO70kqo4q88
+	cDDiEGz+HpfyRgJ4BN7zkg50EGl7wSRYAtw9I7+c=
+Date: Mon, 27 Jun 2016 22:10:04 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1375326064.746505687.1467083404903.JavaMail.root@sjmas01.marketo.org>
+Subject: Whitepaper - Four Steps to Modernize your Application Security
+ Program
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_746505686_7237128.1467083404903"
+X-PVIQ: mkto-495KNT277-000001-000000-024714
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:11536:17189:36525:0:13596:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.17189.13596.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.17189.0.0.13596.7.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: wmFn+6J4p635WrlY7BwdpBmmKqumKACYkXm=
+
+------=_Part_746505686_7237128.1467083404903
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<http://info.rapid7.com/lFNMv000lfYM0T2440Q0k0K>
+Contact Us <http://info.rapid7.com/eQ0YlT02000NKF0M4fwlM04>
+Whitepaper: Four Steps to Modernize your Application Security Program
+DOWNLOAD <http://info.rapid7.com/jMDN0f2lK004Y0MQT4s0F00>
+Read this whitepaper to learn the four simple steps to ensuring your modern=
+ apps are ready for the modern world
+
+So, your company has been developing lots of cool new applications. These a=
+pplications are sure to improve your business=E2=80=99 next major revenue s=
+tream. Conscious of security, you=E2=80=99ve run the applications through a=
+ web app security scanner to identify weaknesses in the code. Those vulnera=
+bilities have been remediated, and now you=E2=80=99re ready to go live.
+
+Not so fast. Despite your best intentions, chances are good that your appli=
+cation is going live with dangerous security flaws.
+
+Most traditional web application security scanners don=E2=80=99t provide th=
+e necessary protection when you=E2=80=99re dealing with modern application =
+architectures, data formats, and other underlying technologies. But some ap=
+plication security solutions are able to address modern applications. With =
+a little bit of analysis and the right solution, your developers can contin=
+ue to release state-of-the-art modern applications and you can confirm that=
+ your solution is reliable and effective against in assessing your applicat=
+ions.
+
+
+
+
+
+
+
+
+
+
+
+ <http://info.rapid7.com/FfYNl00ny0K0M2FM000T4Q4>
+
+
+
+
+
+
+Download the Whitepaper today <http://info.rapid7.com/LM42TN00f0tF0KEYM0l04=
+0Q>
+
+If you no longer wish to receive these emails or wish to update your email =
+preferences: https://information.rapid7.com/preference-center.html?mkt_unsu=
+bscribe=3D1&mkt_tok=3DeyJpIjoiTVdFNU1UWXlNV0kxTkRGaSIsInQiOiJDejQwNU5rMmE3W=
+UdKN3g3bzcxT0xHeWRxZzNnbVQrTjB0eDM3U3U5aFp6VWJjSDF2Z1RIQVgzUno3QURPeGpKMDdi=
+bEQyNDRzN2hQUGRIQVNFcjBNSlE4alRwSHVSK1hqU3J4QzByc3FqYz0ifQ%3D%3D.
+
+------=_Part_746505686_7237128.1467083404903
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+
+<style type=3D"text/css">
+
+                /* Some resets and issue fixes */
+        #outlook a { padding:0; }
+                body{ width:100% !important; -webkit-text; size-adjust:100%=
+; -ms-text-size-adjust:100%; margin:0; padding:0; }    =20
+        .ReadMsgBody { width: 100%; }
+        .ExternalClass {width:100%;}=20
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;}=
+=20
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}  =20
+        /* End reset */
+               =20
+                /* Custom */
+                body,table,td,span,a,ul,li {font-family: Arial, sans-serif =
+!important;}
+                .forcefont {font-family: Arial, sans-serif !important;}
+                .appleLinksWhite {color: #ffffff !important; text-decoratio=
+n: none;}=20
+                .appleLinksBlack {color: #000000 !important; text-decoratio=
+n: none;}
+                .appleLinksOrange {color: #ec5f27 !important; text-decorati=
+on: none;}
+                table,div {margin-top: -1px;} /* Gets rid of 1px space betw=
+een tables and divs */
+               =20
+                /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 630px){
+               =20
+
+                        /* Display block allows us to stack elements */    =
+                 =20
+            *[class=3D"mobile-column"] {display: block;}=20
+                       =20
+                        /* Some more stacking elements */
+            *[class=3D"mob-column"] {float: none !important;width: 100% !im=
+portant;}    =20
+                            =20
+                        /* Hide stuff */
+            *[class=3D"hide"] {display:none !important;}         =20
+           =20
+                        /* This sets elements to 100% width and fixes the h=
+eight issues too, a god send */
+                        *[class=3D"100p"] {width:100% !important; height:au=
+to !important;}                               =20
+                               =20
+                        /* For the 2x2 stack */                =20
+                        *[class=3D"condensed"] {padding-bottom:40px !import=
+ant; display: block;}
+                       =20
+                        /* Centers content on mobile */
+                        *[class=3D"center"] {text-align:center !important; =
+width:100% !important; height:auto !important;}           =20
+                       =20
+                        /* 100percent width section with 20px padding */
+                        *[class=3D"100pad"] {width:100% !important; padding=
+:20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding left =
+& right */
+                        *[class=3D"100padleftright"] {width:100% !important=
+; padding:0 20px 0 20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding top &=
+ bottom */
+                        *[class=3D"100padtopbottom"] {width:100% !important=
+; padding:20px 0px 20px 0px;}=20
+               =20
+        }      =20
+       =20
+</style>
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0; padding:0; " wid=
+th=3D"100%" ><tr ><td align=3D"center" valign=3D"top" ><table width=3D"640"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"Header1Link" class=3D"mktEditable" ><table width=3D"640" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"20" class=3D"100p" bgcolor=3D"#3B3B=
+3B">
+<tr>
+<td valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td align=3D"left" width=3D"50%" class=3D"100p"><a href=3D
+"http://info.rapid7.com/lFNMv000lfYM0T2440Q0k0K"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" alt=3D"Rapid7" border=3D"0" style=3D"display:blo=
+ck"></a></td>
+<td width=3D"50%" class=3D"hide" align=3D"right" style=3D"font-size:16px; c=
+olor:#FFFFFF;"><a href=3D
+"http://info.rapid7.com/eQ0YlT02000NKF0M4fwlM04" style=3D"color:#FFFFFF; te=
+xt-decoration:none;"
+>Contact Us</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id=3D"IntroHeadline" class=3D"mktEditable" ><table class=3D"100p" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3=
+B3B">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 24px;" align=3D"center">
+<p><span style=3D"font-size: 44px;">Whitepaper: Four Steps to Modernize you=
+r Application Security Program</span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"GrayContent-OrangeButton" class=3D"mktEditable" ><table class=3D=
+"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgco=
+lor=3D"#3B3B3B">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #ffffff;" align=3D"center"><br /> <a s=
+tyle=3D"color: #ffffff; text-decoration: none;"></a>=20
+<table style=3D"border: 2px solid #ec5f27;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"10" bgcolor=3D"#EC5F27">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 16px;" align=3D"center"><a style=3D=
+"color: #ffffff; text-decoration: none;" href=3D
+"http://info.rapid7.com/GfN0TF20Yx4mK04l0000MQM"
+>DOWNLOAD</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"ContentBlock-Image-ContentBlock" class=3D"mktEditable" ><table c=
+lass=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"64=
+0" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #848484;" align=3D"left">
+<p style=3D"color: #848484; font-size: 16px;"><span style=3D"color: #3598d3=
+; font-size: 24px;">Read this whitepaper to learn the four simple steps to =
+ensuring your modern apps are ready for the modern world</span></p>
+<p><span>So, your company has been developing lots of cool new applications=
+... These applications are sure to improve your business&rsquo; next major re=
+venue stream. Conscious of security, you&rsquo;ve run the applications thro=
+ugh a web app security scanner to identify weaknesses in the code. Those vu=
+lnerabilities have been remediated, and now you&rsquo;re ready to go live.<=
+/span></p>
+<p>Not so fast. Despite your best intentions, chances are good that your ap=
+plication is going live with dangerous security flaws.</p>
+<p>Most traditional web application security scanners don&rsquo;t provide t=
+he necessary protection when you&rsquo;re dealing with modern application a=
+rchitectures, data formats, and other underlying technologies. But some app=
+lication security solutions are able to address modern applications. With a=
+ little bit of analysis and the right solution, your developers can continu=
+e to release state-of-the-art modern applications and you can confirm that =
+your solution is reliable and effective against in assessing your applicati=
+ons.</p>
+<ul>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"640" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td align=3D"center"><a href=3D
+"http://info.rapid7.com/FfYNl00ny0K0M2FM000T4Q4"
+><img class=3D"100p" style=3D"border: 1px solid black; display: block;" src=
+=3D"https://information.rapid7.com/rs/495-KNT-277/images/four-steps-moderni=
+ze-app-security.PNG" border=3D"1" alt=3D"four-steps-modern-apps" width=3D"4=
+22" height=3D"548" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" wid=
+th=3D"640" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #848484;" align=3D"left"><span style=
+=3D"font-size: 16px;"><a style=3D"color: #ec5f27; text-decoration: none;" h=
+ref=3D
+"http://info.rapid7.com/GfN0TF20Yx4mK04l0000MQM"
+>Download the Whitepaper today</a></span></td>
+</tr>
+</tbody>
+</table></div>
+<!-- Stop Blocks Here /-->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" bgco=
+lor=3D"#3B3B3B" class=3D"100p">
+<tr>
+<td valign=3D"middle" align=3D"left" width=3D"50%" style=3D"font-size:14px;=
+ color:#ffffff;"><span>=C2=A9 2016 Rapid7, All Rights Reserved.</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">Boston, MA 02110-2131</span><br>
+<span><a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/yfFKYMMQ040lTNo04z00020"
+>www.rapid7.com</a></span><br>
+<span>866-7-RAPID7</span></td>
+<td valign=3D"middle" align=3D"right" width=3D"50%" style=3D"font-size:14px=
+; color:#ffffff;"><span><a href=3D
+"http://info.rapid7.com/z0MY24l0004NQpFfKMA0T00"
+><img title=3D"Facebook" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-fb-2016-36px-white.png" border=3D"0" alt=3D"Facebook"></a>=
+<a href=3D
+"http://info.rapid7.com/z0MY24l0004NQqFfKMB0T00"
+><img title=3D"Twitter" src=3D"https://information.rapid7.com/rs/495-KNT-27=
+7/images/social-tw-2016-36px-white.png" border=3D"0" alt=3D"Twitter"></a><a=
+ href=3D
+"http://info.rapid7.com/v04Y0QFr04lTKMCfN02M000"
+><img title=3D"LinkedIn" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-li-2016-36px-white.png" border=3D"0" alt=3D"LinkedIn"></a>=
+</span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/yfFKYMMQ040lTNo04z00020"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" border=3D"0" alt=3D"Rapid7 Home Page"></a></span=
+></td>
+</tr>
+</table>
+<table width=3D"640" class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTE1MzY6=
+MTcxODk6MzY1MjU6MDoxMzU5Njo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/lFNMF000lfYM0T2440Q0u0K"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_746505686_7237128.1467083404903--
+

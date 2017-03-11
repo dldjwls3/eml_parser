@@ -1,0 +1,331 @@
+Received: (qmail 27541 invoked from network); 14 Jan 2016 14:38:25 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda01.wmail.naver.com with SMTP; 14 Jan 2016 14:38:25 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id KrP6KmzwS468duQykX7v1w
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 14 Jan 2016 14:38:25 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u0EEVn600A2A;
+	Thu, 14 Jan 2016 23:31:49 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0EEVn600A2A
+X-SmartFilter: FROM,u0EEVn600A2A,joseph@duzon.com
+x-forward-id: 1452782109908_935649226
+recvDate: Thu, 14 Jan 2016 23:35:09 +0900
+x-newturns-hashkey: e9f0f6667fdbb5109f4e3ac5bb7088807ce6317d51a46dc0004ada93314f739e
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id u0EEVk400A28;
+	Thu, 14 Jan 2016 23:31:47 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u0EEVk400A28
+X-SmartFilter: FROM,u0EEVk400A28,495-KNT-277.0.13894.0.0.10703.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6OTI2NzoxMzg5NDoyODQzNzowOjEwNzAzOjc6MTE0MTU5Mg==
+Received: from [10.0.12.42] ([10.0.12.42:57441] helo=sjmas01.marketo.org)
+	by sjmta13.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 46/B1-28165-0D2B7965; Thu, 14 Jan 2016 08:38:08 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1452782288;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=uYygyMnuM8Ph7YuURmZDfU9b8nWyocV2jMhJ1X56YRY=;
+	b=r4bIDsJtR/TvBwLZl+1l6YMNNK0EK9GLGIYTS61Pr8UDE6EdmPNwexzk2WrTAdjd
+	46pM9UqimeiI3E/9VnVBFxTePv8dmzD0d0Dp/FluM1pKgFnPVUW9wiKrmODDKnQqAk3
+	jRG70zttyWG2zv46WY2yNADDyAyBxGZIdIk2uabE=
+Date: Thu, 14 Jan 2016 08:38:08 -0600 (CST)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <161746717.1457076619.1452782288517.JavaMail.root@sjmas01.marketo.org>
+Subject: [New Security Webcast] 2015 Incident Detection & Response Survey
+ Results
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1457076618_1432091299.1452782288517"
+X-PVIQ: mkto-495KNT277-000001-000000-019969
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:9267:13894:28437:0:10703:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.13894.10703.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.13894.0.0.10703.7.1141592@em-sj-77.mktomail.com
+X-MktMailDKIM: true
+X-Naver-ESV: +/RYpB3G1H+YbXFCbHmRKxtqaAU9jJ+Y
+
+------=_Part_1457076618_1432091299.1452782288517
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Security Webcast
+2015 Incident Detection & Response Survey Results
+Register Now <http://info.rapid7.com/Bb00qK2TQ000405N0YTlMM4>
+Save your spot now <http://info.rapid7.com/Bb00qK2TQ000405N0YTlMM4> to lear=
+n:
+
+
+ - Size and resources of your fellow security teams
+ - Security solutions that are in organizations today
+ - Top initiatives and security concerns
+ - Cloud services =E2=80=93 who is using what, and is it secure?
+ - Rapid7=E2=80=99s Approach to Incident Detection & Response
+ - Live Demo: Rapid7 UserInsight
+
+
+
+Incident Detection & Response is a growing challenge =E2=80=93 security tea=
+ms are often understaffed, the attack surface for intruders is expanding, a=
+nd it=E2=80=99s difficult to detect stealthy user-based attacks. To learn m=
+ore about the initiatives, concerns, and solutions security teams are runni=
+ng today, we surveyed 270 security professionals. Join us to learn about th=
+e wealth of interesting findings on the state of incident detection and res=
+ponse today. Register now <http://info.rapid7.com/Bb00qK2TQ000405N0YTlMM4> =
+to learn more.
+
+This webinar will include a presentation and live Q&A, and you will earn 1 =
+CPE credit for attending.
+
+Can't attend live? Register now to be sent the recording. <http://info.rapi=
+d7.com/Bb00qK2TQ000405N0YTlMM4>
+Join Us <http://info.rapid7.com/Bb00qK2TQ000405N0YTlMM4>
+Date: Thurs. Jan. 21st
+Time: 11am ET/8am PT/4pm GMT
+Speaker
+Eric Sun
+
+
+
+
+Product Marketing Manager
+Rapid7
+
+If you no longer wish to receive these emails or wish to update your email =
+preferences: https://information.rapid7.com/preference-center.html?mkt_unsu=
+bscribe=3D1&mkt_tok=3D3RkMMJWWfF9wsRonuKTAdu%2FhmjTEU5z16u0pWKK%2FgIkz2EFye=
+%2BLIHETpodcMTcJlNbrYDBceEJhqyQJxPr3BJdUN0dtpRhPlDw%3D%3D.
+
+------=_Part_1457076618_1432091299.1452782288517
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+</head>
+<body ><div ><div ><p>&nbsp;</p>
+<!-- table {         border-collapse:collapse !important; } @media only screen and (max-width: 640px) {         *[class].table_responsive{width:100% !important;}         *[class].deviceWidth{width:440px !important;}                  *[class].iphone_left_pad{padding-left:15px !important;}           
+                                                                        *[class].iphone_top_pad{padding-top:20px;}         *[class].banner_pad{padding-top:34px;text-align:center !important;}         *[class].iphone_img{max-width:100%;}         *[class].iphone_pad{padding:0px 15px;}                 
+               *[class].title_detail{padding:0                     15px;font-size:23px              !important;}                           *[class].no_right_pad{padding-right:0px !important;}         *[class].iphone_bullet_align{ padding-top: 7px !important;vertical-align: top !important;}         
+                       *[class].footer_align{text-align:left                     !important;padding-bottom:0px     !important;padding-top:13px          !important;}                           *[class].foot_font{font-size:11px !important;padding-bottom:13px !important;}            
+*[class].events_table{width:100%                     !important;text-align:left !important;}                             *[class].text-center{text-align:center; margin:0 auto;}      } @media only screen and          (max-width: 475px) {                                     
+*[class].table_responsive{width:100% !important;}                             *[class].deviceWidth{width:280px !important;} } -->
+<table class="deviceWidth" style="width:600px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; border:1px solid #F3F3F3; " cellspacing="0" cellpadding="0" width="600" align="center" ><tbody ><tr>
+<td style="font-size: 1px; line-height: 1px; height: 25px;" height="25">&nbsp;</td>
+</tr>
+<tr ><td ><table class="table_responsive" style="width:574px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; " border="0" cellspacing="0" cellpadding="0" width="574" align="center" ><tbody ><tr ><td class="iphone_left_pad" ><div id="logo" class="mktEditable" ><img src="https://information.rapid7.com/rs/rapid7/images/logo.jpg" alt="Rapid7 Logo"></div>
+<div>&nbsp;&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-size: 1px; line-height: 1px; height: 3px; background-color: #ea5709;" height="3">&nbsp;</td>
+</tr>
+<tr ><td style="background-color:#363636; mso-table-lspace:0; mso-table-rspace:0; " bgcolor="#363636" ><table class="table_responsive" style="width:585px; font-family:Arial, Helvetica, sans-serif; " border="0" cellspacing="0" cellpadding="0" width="585" align="right" ><tbody ><tr ><td ><table class="table_responsive" style="width:100%; " border="0" cellspacing="0" cellpadding="0" width="55%" align="left" ><tbody ><tr>
+<td style="font-size: 1px; line-height: 1px; height: 22px; background-color: #363636;" height="22">&nbsp;</td>
+</tr>
+<tr ><td class="title_detail text-center" style="color:#ffffff; font-size:30px; line-height:30px; font-family:Arial, Helvetica, sans-serif; " ><div id="title" class="mktEditable" >Security Webcast</div>
+</td>
+</tr>
+<tr ><td class="text-center" style="color:#ffffff; font-size:17px; line-height:30px; font-family:Arial, Helvetica, sans-serif; " ><div id="title_text" class="mktEditable" ><span style="font-size: 18px;"><strong>2015 Incident Detection &amp; Response Survey Results</strong></span></div>
+</td>
+</tr>
+<tr ><td style="padding-top:16px; " ><table class="text-center" border="0" cellspacing="0" cellpadding="0" ><tbody ><tr ><td style="background-color:#ea5709; padding:8px 13px; font-family:Arial, Helvetica, sans-serif; font-size:18px; line-height:22px; text-align:center; vertical-align:middle; border-radius:4px; " valign="middle" ><div id="button" class="mktEditable" ><strong><a style="text-decoration: none; color: #ffffff; font-size: 18px; font-family: Arial, Helvetica, sans-serif;" href=
+"http://info.rapid7.com/GbN0T520Yk4NK04l0000MQM" target="_blank"
+>Register Now</a></strong></div>
+</td>
+</tr>
+<tr>
+<td>
+<div>&nbsp;&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="table_responsive" style="width:575px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; " border="0" cellspacing="0" cellpadding="0" width="575" align="center" ><tbody ><tr ><td ><table class="table_responsive" style="width:60%; " border="0" cellspacing="0" cellpadding="0" width="60%" align="left" ><tbody ><tr ><td style="color:#333333; font-size:14px; line-height:23px; font-family:Arial, Helvetica, sans-serif; " ><div id="body_text" class="mktEditable" ><p style="color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 23px;"><strong><a href=
+"http://info.rapid7.com/GbN0T520Yk4NK04l0000MQM"
+>Save your spot now</a></strong> to learn:</p>
+<ul>
+<li>Size and resources of your fellow security teams</li>
+<li>Security solutions that are in organizations today</li>
+<li>Top initiatives and security concerns</li>
+<li>Cloud services &ndash; who is using what, and is it secure?</li>
+<li>Rapid7&rsquo;s Approach to Incident Detection &amp; Response</li>
+<li>Live Demo: Rapid7 UserInsight</li>
+</ul>
+<p><span>Incident Detection &amp; Response is a growing challenge &ndash; security teams are often understaffed, the attack surface for intruders is expanding, and it&rsquo;s difficult to detect stealthy user-based attacks. To learn more about the initiatives, concerns, and solutions security teams are running today, we surveyed 270 security professionals. Join us to learn about the wealth of interesting findings on the state of incident detection and response today.&nbsp;</span><strong><a href=
+"http://info.rapid7.com/GbN0T520Yk4NK04l0000MQM"
+>Register now</a></strong> to learn more.</p>
+<p>This webinar will include a presentation and <strong>live Q&amp;A,</strong> and you will earn 1 CPE credit for attending.</p>
+<p><strong><a href=
+"http://info.rapid7.com/GbN0T520Yk4NK04l0000MQM" target="_blank"
+>Can't attend live? Register now to be sent the recording.</a></strong></p></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="table_responsive iphone_top_pad" style="width:36%; " border="0" cellspacing="0" cellpadding="0" width="36%" align="right" ><tbody ><tr ><td style="padding-top:5px; " ><table class="events_table" border="0" cellspacing="0" cellpadding="0" width="100%" align="left" ><tbody ><tr ><td class="iphone_pad" style="background-color:#ededed; border:1px solid #e2e2e2; border-radius:4px; " ><table class="table_responsive" style="width:176px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; " border="0" cellspacing="0" cellpadding="0" width="176" align="center" ><tbody ><tr ><td style="font-size:14px; line-height:22px; color:#333338; font-family:Arial, Helvetica, sans-serif; " ><div id="join_us" class="mktEditable" ><strong style="font-size: 16px; line-height: 30px; color: #ea5709; font-family: Arial, Helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/GbN0T520Yk4NK04l0000MQM" target="_blank"
+>Join Us</a></strong></div>
+</td>
+</tr>
+<tr ><td style="font-size:14px; line-height:22px; color:#333338; font-family:Arial, Helvetica, sans-serif; " ><div id="date" class="mktEditable" ><span style="font-size: 14px; line-height: 30px; color: #000000; font-family: Arial, Helvetica, sans-serif;"><strong>Date:</strong>&nbsp;Thurs. Jan. 21st</span></div>
+</td>
+</tr>
+<tr ><td style="font-size:14px; line-height:20px; color:#333338; font-family:Arial, Helvetica, sans-serif; " ><div id="time" class="mktEditable" ><span style="font-size: 14px; line-height: 22px; color: #000000; font-family: Arial, Helvetica, sans-serif;"><strong>Time:</strong>&nbsp;11am ET/8am PT/4pm GMT</span></div>
+</td>
+</tr>
+<tr>
+<td style="font-size: 1px; line-height: 1px; height: 12px;" height="12">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-size: 1px; line-height: 1px; background-color: #ffffff; height: 20px;" height="20">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr ><td style="background-color:#ededed; border:1px solid #e2e2e2; " ><table class="table_responsive" style="width:100%; " border="0" cellspacing="0" cellpadding="0" width="100%" ><tbody ><tr ><td class="iphone_pad" style="background-color:#ea5709; " bgcolor="#E76E39" ><table class="table_responsive" style="width:176px; margin:0 auto; font-family:Arial, Helvetica, sans-serif; " border="0" cellspacing="0" cellpadding="0" width="176" align="center" ><tbody ><tr ><td style="font-size:16px; line-height:20px; color:#ffffff; background-color:#ea5709; font-family:Arial, Helvetica, sans-serif; padding:8px 0 8px 0px; vertical-align:top; " ><div id="speakers" class="mktEditable" ><strong>Speaker</strong></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div id="speaker_section" class="mktEditable" ><table class="table_responsive iphone_pad" style="width: 176px; margin: 0 auto; font-family: Arial, Helvetica, sans-serif;" border="0" cellspacing="0" cellpadding="0" width="176" align="center">
+<tbody>
+<tr>
+<td class="iphone_left_pad" style="font-size: 15px; color: #2faeff; font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 10px;">
+<div>Eric Sun</div>
+</td>
+</tr>
+<tr>
+<td class="iphone_left_pad" style="font-size: 12px; line-height: 18px; color: #333333; font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px;">
+<div><strong>Product Marketing Manager</strong></div>
+<div>Rapid7</div>
+</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="iphone_left_pad" style="font-size: 15px; color: #2faeff; font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-top: 10px;"></td>
+</tr>
+<tr>
+<td class="iphone_left_pad" style="font-size: 12px; line-height: 18px; color: #333333; font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px;"></td>
+</tr>
+</tbody>
+<tbody>
+</tbody>
+</table></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding: 7px 0;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#363636">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="45%" align="left">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #999999; font-family: Arial, Helvetica, sans-serif; padding: 20px;" valign="top">
+<p>&copy; 2016 Rapid7, All Rights Reserved.<br>
+100 Summer Street, 13th Floor<br>
+Boston, MA 02110-2131<br>
+<a style="color: #999; text-decoration: underline;" href=
+"http://info.rapid7.com/gO0Y4Ql0M20bNT04K000l5M"
+>www.rapid7.com</a><br>
+866-7-RAPID7</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="40%" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 15px; color: #f1f1f1; font-weight: normal; font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif; line-height: 26px; vertical-align: top; text-align: right; padding: 20px;" valign="top"><a href=
+"http://info.rapid7.com/I0b0PKY0l4MmQ42M050NT00"
+><img title="RSS Feed" src="http://information.rapid7.com/rs/rapid7/images/rss-footer.gif" border="0" alt="RSS Feed"></a> <a href=
+"http://info.rapid7.com/E040K0MnNQY0Q0MT2504l0b"
+><img title="Twitter" src="http://information.rapid7.com/rs/rapid7/images/twitter-footer.gif" border="0" alt="Twitter"></a> <a href=
+"http://info.rapid7.com/wNYTQ44Kl0000Mbo00M2R05"
+><img title="Rapid7 Community" src="http://information.rapid7.com/rs/rapid7/images/community-footer.gif" border="0" alt="Rapid7 Community"></a> <a href=
+"http://info.rapid7.com/E040K0MpNSY0Q0MT2504l0b"
+><img title="Email Rapid7" src="http://information.rapid7.com/rs/rapid7/images/mail-footer.gif" border="0" alt="Email Rapid7"></a><br>
+<a href=
+"http://info.rapid7.com/gO0Y4Ql0M20bNT04K000l5M"
+><img src="http://information.rapid7.com/rs/rapid7/images/r7-logo-small.gif" border="0" alt="Rapid7 Home Page"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End Wrapper --></div>
+</div>
+
+<img src="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6OTI2NzoxMzg5NDoyODQzNzowOjEwNzAzOjc6MTE0MTU5Mjpqb3NlcGhAZHV6b24uY29t" width="1" height="1" style="display:none !important;" alt="" />
+
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" >
+	<tbody>
+    	<tr>
+        	<td class="center">
+            	<p style="font-size: 10px; color: #000000; font-family: Arial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receive these emails or wish to update your email preferences, click on the following link: <a href=
+"http://info.rapid7.com/u/Bb00rK2TQ000405N0YUlMM4"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+	</tbody>
+</table>
+</body>
+</html>
+------=_Part_1457076618_1432091299.1452782288517--
+

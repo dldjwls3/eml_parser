@@ -1,0 +1,125 @@
+Received: (qmail 17876 invoked from network); 23 Feb 2016 02:03:18 -0000
+Received: from 10.114.29.98 (HELO crcvmail03.wmail.naver.com) (10.114.29.98)
+  by cmda02.wmail.naver.com with SMTP; 23 Feb 2016 02:03:18 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from  ([202.167.215.64])
+  by crcvmail03.wmail.naver.com with ESMTP id TAwy9fe7T2SnBLaPVf2yog
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 23 Feb 2016 02:03:18 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u1N1qcw00622;
+	Tue, 23 Feb 2016 10:52:38 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1N1qcw00622
+X-SmartFilter: FROM,u1N1qcw00622,joseph@duzon.com
+x-forward-id: 1456192790765_935649226
+recvDate: Tue, 23 Feb 2016 10:59:50 +0900
+x-newturns-hashkey: a32c3f0d994765c7cb2e69306c5feb8bdd92db34705acfc5655d2a7ef3e2d0c4
+Received: from external ([209.85.215.52])
+	by smf.duzon.com (1.0) id u1N1qIf00611;
+	Tue, 23 Feb 2016 10:52:19 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1N1qIf00611
+X-SmartFilter: FROM,u1N1qIf00611,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-lf0-f52.google.com with SMTP id l143so106176933lfe.2
+        for <joseph@duzon.com>; Mon, 22 Feb 2016 18:02:54 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:recvdate:dkim-signature:from:to
+         :reply-to:subject:date:list-unsubscribe:mime-version:message-id
+         :content-type:content-transfer-encoding;
+        bh=EotEdcHVA0qfnIyKPlIaJRSvsyp2D+Xo1urhfaU2CtQ=;
+        b=kkA1CRlAsp+MJZJrfXeSZGHm9XbKrDTUYPx+NUJg4rcz3BsgXWk5EpidOOLDWuuAES
+         BnS3NDv1oip9gsdqDfTrdN2GqgeZ5Weo4xbSkhKwQQre/QpczI0gDSZiFtCThX/8ERzx
+         8FTNCqIVTTGghFgwiIy5KZHmMbjzyyVQNLTk6caQsf5SmvR/146npHizIkg1Ix06cpSX
+         USNbcz/eIyc8+zgGQRc6+gKKc+uDRvWpSRwarGWEJFikeVovL98wY2B1V6zxaZjCRWcS
+         4/H5BQoe4N++HwqBjyH9rc4ukTLXPzTbb34YLEKXbGdf1+hfLCQk5YClMz1S00CHgi8I
+         6few==
+X-Gm-Message-State: AG10YOT4xEg0VXLEzpk9ELM8m37Bf3HqkK+fCi0BDjNvPn89f0XMnfw4MJ3AK+J3gntpkAmRuXaUckY5TmJ9cEdPOGOjrRc=
+X-Received: by 10.25.26.83 with SMTP id a80mr11535096lfa.36.1456192972597;
+        Mon, 22 Feb 2016 18:02:52 -0800 (PST)
+X-Forwarded-To: hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.70.74 with SMTP id k10csp1518215ldu;
+        Mon, 22 Feb 2016 18:02:51 -0800 (PST)
+X-Received: by 10.50.43.226 with SMTP id z2mr15212602igl.78.1456192971721;
+        Mon, 22 Feb 2016 18:02:51 -0800 (PST)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id g97si44097293ioi.120.2016.02.22.18.02.50
+        for <forensic.duzon@gmail.com>;
+        Mon, 22 Feb 2016 18:02:51 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com;
+       dkim=neutral (body hash did not verify) header.i=@postman.co.kr
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u1N1q8N005FF;
+	Tue, 23 Feb 2016 10:52:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1N1q8N005FF
+X-SmartFilter: FROM,u1N1q8N005FF,forensic@duzon.com
+x-forward-id: 1456192760080_2433444502
+recvDate: Tue, 23 Feb 2016 10:59:20 +0900
+x-newturns-hashkey: 10a19abaea29385c69c4ed101c35a958855b73ef01b3a3ea4bc6314287cdbfb5
+Received: from external ([119.207.76.110])
+	by smf.duzon.com (1.0) id u1N1q3G005F8;
+	Tue, 23 Feb 2016 10:52:03 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u1N1q3G005F8
+X-SmartFilter: FROM,u1N1q3G005F8,return_postman0223105950@return.postman.co.kr
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1456192959;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=twPtJultmSzaVnEWZCL3DhjIlqRpooY5JnUAeKa1o5M=;
+	b=Td3cPnXP5qXh3eI182L0OlBwcq7NdhxQcZMJREza7gT+D37+o2pzWajearPu/5Gi
+	LgDIfI1tFi2A3MHp0NJOyyef0eSfK83kZLsSNx1vdkq26IvycgJASvoPnJo5vXSlHw+
+	+J3jGkG7TImflp5K1FMoRARliramc7Klih3oUjcQ=
+From: "=?euc-kr?B?x9GxucGkuri76r73v6zH1ci4?=" <jongsuk2@fkii.org>
+To: "=?euc-kr?B?yLi/+A==?=" <forensic@duzon.com>
+Reply-to: <jongsuk2@fkii.org>
+Subject: =?euc-kr?B?wM+6uyDAzsXNt9MgtbXE7CAyMDE2IA==?= =?euc-kr?B?wPy9w8i4IMfRsbmw/CDC/LChvcXDuyAofg==?= =?euc-kr?B?Mi4yObHuwfYp?=
+Date: Tue, 23 Feb 2016 11:02:39 +0900
+X-WORKER_ID: <single.default_Worker_45>
+X-MAIL_ID: <UE9TVF9JRD0yMDE2MDIyMzEwMDAwODk2MzA3Mw==>
+X-MEMBER_ID: <TV9JRD03OTEzOTYzMzM1>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDI2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=fkii3000&customer_id=7913963335>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201602231102396143@send110.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +r+YpB3G1H+YbXFCbHmRKAUmKqu/jJ+Y
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<p><img alt=3D"" border=3D"0" height=3D"489" src=3D"http://www.fkii.org/upload/imgs/2016/interop/main1.jpg" width=3D"600" /><br />
+<img alt=3D"" border=3D"0" height=3D"319" src=3D"http://www.fkii.org/upload/imgs/2016/interop/main2.jpg" usemap=3D"#Map2" width=3D"600" /><br />
+<img alt=3D"" border=3D"0" height=3D"319" src=3D"http://www.fkii.org/upload/imgs/2016/interop/main3.jpg" usemap=3D"#Map2Map" width=3D"600" /><map name=3D"Map2Map"><area coords=3D"390,189,564,251" href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03OTEzOTYzMzM1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDI2MA=3D=3D&UE9TVF9JRD0yMDE2MDIyMzEwMDAwODk2MzA3Mw=3D=3D&VEM9MjAxNjAzMDE=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://www.fkii.org/upload/imgs/2016/interop/Interop2016_Application.hwp" shape=3D"rect" target=3D"_blank" /><area coords=3D"167,260,294,285" href=3D"mailto:%20jongsuk2@fkii.org" shape=3D"rect" target=3D"_blank" /></map><map name=3D"Map2"><area coords=3D"399,194,556,243" href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03OTEzOTYzMzM1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDI2MA=3D=3D&UE9TVF9JRD0yMDE2MDIyMzEwMDAwODk2MzA3Mw=3D=3D&VEM9MjAxNjAzMDE=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dh!
+ ttp://www.fkii.org/upload/imgs/201=
+6/interop/Interop2016_Information.hwp" shape=3D"rect" target=3D"_blank" /></map><br />
+<!-- End Save for Web Slices --></p>
+
+<table width=3D"600" align=3D"left" style=3D"font-size:12px; line-height:140%; border:1px solid #cccccc">
+<tr align=3D"center">
+<td style=3D"font-color:#4C4C4C; font-size: 12px; font-family:'=B5=B8=BF=F2','helvetica';">The Federation of Korean Information Industries give you useful information about IT industry with your consent.
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr>
+<td align=3D"center" style=3D"color:#666666;">
+<p>To unsubscribe <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03OTEzOTYzMzM1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDI2MA=3D=3D&UE9TVF9JRD0yMDE2MDIyMzEwMDAwODk2MzA3Mw=3D=3D&VEM9MjAxNjAzMDE=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://www.postman.co.kr/open/unsubscription.jsp?user_id=3Dfkii3000&amp;customer_id=3D7913963335&amp;reject_script=3DE&amp;post_id=3D20160223100008963073" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#666666; font-weight:bold;">click here</span></a>.</p>
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr align=3D"center">
+<td style=3D"font-size: 11px; font-family:'=B5=B8=BF=F2','helvetica'; font-color:#4C4C4C;">Address : 8th Fl, Business Tower, Nuritkum Square, 396 WorldCupBuk-ro, Mapo-Gu, Seoul, Korea
+</td>
+</tr>
+</table><div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03OTEzOTYzMzM1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDI2MA=3D=3D&UE9TVF9JRD0yMDE2MDIyMzEwMDAwODk2MzA3Mw=3D=3D&VEM9MjAxNjAzMDE=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03OTEzOTYzMzM1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDI2MA=3D=3D&UE9TVF9JRD0yMDE2MDIyMzEwMDAwODk2MzA3Mw=3D=3D&VEM9MjAxNjAzMDE=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+
+

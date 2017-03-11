@@ -1,0 +1,252 @@
+Received: (qmail 19614 invoked from network); 10 Mar 2016 09:54:01 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda01.wmail.naver.com with SMTP; 10 Mar 2016 09:54:01 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from  (mail.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id jvA9bQXmRWK9Ba+VURPqmA
+  for <jonghyun.kim@dforensic.com>;
+  Thu, 10 Mar 2016 09:54:01 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u2A9fZU00606;
+	Thu, 10 Mar 2016 18:41:35 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2A9fZU00606
+X-SmartFilter: FROM,u2A9fZU00606,joseph@duzon.com
+x-forward-id: 1457603422407_935649226
+recvDate: Thu, 10 Mar 2016 18:50:22 +0900
+x-newturns-hashkey: 0b6595b2671456d9cfcc5749c9707cfdb18e22933afcbee71879e6bc0346c4cf
+Received: from external ([209.85.217.181])
+	by smf.duzon.com (1.0) id u2A9fNI005FA;
+	Thu, 10 Mar 2016 18:41:24 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2A9fNI005FA
+X-SmartFilter: FROM,u2A9fNI005FA,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-lb0-f181.google.com with SMTP id k15so105304200lbg.0
+        for <joseph@duzon.com>; Thu, 10 Mar 2016 01:53:43 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :recvdate:subject:to:from:reply-to:errors-to:mime-version:date
+         :message-id:importance:organization:content-transfer-encoding;
+        bh=JGjWHIurYF5L9qvHTFHcexIX03QiXbBzo+R/svSiT9c=;
+        b=YEiTBZmKiZG5vZMDjSBXheyFQ+4E003t1mm0OemHz8nI6d+XhtoGgwEbRrvMgnehHy
+         fm2ncGhzqdl6gFNz0B7tRMUgeHbaqz0cv+dONv3z25O5jRNvrf9jn/gjNdYLDVpnWwJm
+         /QYfPjsYmZMFd5BOrscOl6WmZSYz7+bhdG+WHdYvBwwCHX/dmkvGaoEqD0H+IzUS0dxz
+         ScrIxwfj/w84CHlU1ployqQBq+OStp5v0/ieBIJ6944mMluomNstM9Yl610ZZ1tA4pqC
+         oKhQfqPu+beZlsJYBQXjdWmRJN/mxrj1ECLCD9q+5rG/FHBb35pO207VGwcZ7gsvwOFa
+         uMBA==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AD7BkJLAb6Cdkx+SSciDsQUfY+CHREItAlX2O3MRd7lnsNDBSLS0hEvIS0jSirKduJhcnFWw3Btz+iaNU6S4CZ9gfo+so54=
+X-Received: by 10.25.208.143 with SMTP id h137mr657600lfg.110.1457603622411;
+        Thu, 10 Mar 2016 01:53:42 -0800 (PST)
+X-Forwarded-To: hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.70.74 with SMTP id k10csp355145ldu;
+        Thu, 10 Mar 2016 01:53:41 -0800 (PST)
+X-Received: by 10.98.15.23 with SMTP id x23mr3668029pfi.60.1457603621031;
+        Thu, 10 Mar 2016 01:53:41 -0800 (PST)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id q190si4921075pfq.247.2016.03.10.01.53.40
+        for <forensic.duzon@gmail.com>;
+        Thu, 10 Mar 2016 01:53:40 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u2A9fHC005F4;
+	Thu, 10 Mar 2016 18:41:17 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2A9fHC005F4
+X-SmartFilter: FROM,u2A9fHC005F4,forensic@duzon.com
+x-forward-id: 1457603404447_2433444502
+recvDate: Thu, 10 Mar 2016 18:50:04 +0900
+x-newturns-hashkey: 44e1c6215bef6e15dd8f6983fdd0023596a6685bbb97d324ca70e6125654ad87
+Received: from external ([211.115.217.140])
+	by smf.duzon.com (1.0) id u2A9eY3005EB;
+	Thu, 10 Mar 2016 18:40:34 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2A9eY3005EB
+X-SmartFilter: FROM,u2A9eY3005EB,user24773@sendc.ozmailer.com
+Subject: =?EUC-KR?B?KMfRsbnBpLq4u+q+97+sx9XIuCkgQ0lPIL7GxKu1pbnMIMGmIDMwseIgsPrBpCC+yA==?=
+	=?EUC-KR?B?s7s=?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?Q0lPIL7GxKu1pbnM?=" <lmh@fkii.org>
+Reply-To: <lmh@fkii.org>
+Errors-To: <lmh@fkii.org>
+MIME-Version: 1.0
+Date: Thu, 10 Mar 2016 18:52:54 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1957719@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: +XRYpB3G1H+YbXFCbHmRKAv9FAgwjJ+Y
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7099633" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>(한국정보산업연합회) CIO 아카데미 제 30기 과정 안내</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<p>안녕하세요?</p><p>
+한국정보산업연합회 CIO아카데미 담당자 이명훈 선임입니다.
+</p><p>본회에서는 현직&amp;예비 CIO/CISO의 자질 향상과 리더십 함양, 역량강화 등을 위해 
+국내 최고의 전문가 및 현직 CIO로 강사진을 구성해 현업에 즉시 적용 가능한 실용적인 커리큘럼으로 
+다음과 같이 제30기 CIO아카데미를 개설합니다.</p><p>이에 관련 교육 안내문 보내드리오니 검토하시어 수강할 수 있도록 독려해 주시면 감사하겠습니다.
+</p><p>감사합니다. </p><p>
+이명훈 올림
+
+
+
+
+
+	
+	<title>CIO아카데미 제30기 과정 안내</title>
+
+
+
+  &nbsp;</p><table>
+	<tbody><tr><td width="800">
+		<img width="800" src="http://www.fkii.org/upload/imgs/2016/20160216/CIOAcademy30th_edm_top.jpg" border="0">
+		<img width="800" src="http://www.fkii.org/upload/imgs/2016/20160216/CIOAcademy30th_edm_main1.jpg" border="0" usemap="#Map2">
+
+			<map name="Map2" id="Map2">
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=sfe2q_48641_7kb515" shape="rect" coords="593,1,767,41">
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=sfe3e_48641_7kb515" shape="rect" coords="171,287,641,306" target="_blank">
+      </map>
+	  
+		<img width="800" src="http://www.fkii.org/upload/imgs/2016/20160216/CIOAcademy30th_edm_main2.jpg" border="0" usemap="#Map3">
+			<map name="Map3" id="Map3">
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=sfe2q_48641_7kb515" shape="rect" coords="594,5,756,39" target="_blank">
+      </map>
+			
+		<img width="800" src="http://www.fkii.org/upload/imgs/2016/20160216/CIOAcademy30th_edm_main3.jpg" border="0" usemap="#Map4">
+			<map name="Map4" id="Map4">
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=sfe42_48641_7kb515" shape="rect" coords="79,89,477,112" target="_blank">
+ 		
+			  
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=sfe4q_48641_7kb515" shape="rect" coords="290,900,509,960" target="_blank">
+      </map>
+			
+	   <img width="800" src="http://www.fkii.org/upload/imgs/2016/20160216/CIOAcademy30th_edm_bottom.jpg" border="0" usemap="#Map5">
+	   		<map name="Map5" id="Map5">
+			  
+
+
+<area href="mailto:rolee@fkii.org" shape="rect" coords="83,76,681,95" target="_blank">
+ 			  
+
+
+<area href="mailto:lmh@fkii.org" shape="rect" coords="83,100,682,128" target="_blank">
+      </map>	 </td>
+  </tr></tbody></table><p><br></p>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>뉴스레터의 수신을 더이상 원하지 않으시면, 하단의 '수신거부' 버튼을 클릭해주세요.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7099633' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

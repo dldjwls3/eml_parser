@@ -1,0 +1,179 @@
+Received: (qmail 1755 invoked from network); 8 Apr 2015 22:51:16 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda03.wmail.naver.com with SMTP; 8 Apr 2015 22:51:16 -0000
+Received: from [202.167.215.64] ([202.167.215.64]) 
+          by crcvmail01.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1428533476.870961.3056577424.crcvmail01
+          for <jonghyun.kim@dforensic.com>; 
+          Thu, 09 Apr 2015 07:51:16 +0900 (KST) 
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t38Mg9o00CD9;
+	Thu, 09 Apr 2015 07:42:09 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t38Mg9o00CD9
+X-SmartFilter: FROM,t38Mg9o00CD9,joseph@duzon.com
+x-forward-id: 1428533421265_935649226
+recvDate: Thu, 09 Apr 2015 07:50:21 +0900
+x-newturns-hashkey: c5be8aeef977d8a4c4797a5c0896cc320568d0b63696518043d7042f603a5f1b
+Received: from external ([209.85.217.170])
+	by smf.duzon.com (1.0) id t38Mg2m00CD7;
+	Thu, 09 Apr 2015 07:42:03 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t38Mg2m00CD7
+X-SmartFilter: FROM,t38Mg2m00CD7,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by lbbuc2 with SMTP id uc2so74840608lbb.2
+        for <joseph@duzon.com>; Wed, 08 Apr 2015 15:51:04 -0700 (PDT)
+X-Received: by 10.112.185.101 with SMTP id fb5mr25851097lbc.12.1428533464251;
+        Wed, 08 Apr 2015 15:51:04 -0700 (PDT)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.98.167 with SMTP id ej7csp118062ldb;
+        Wed, 8 Apr 2015 15:51:02 -0700 (PDT)
+X-Received: by 10.68.215.9 with SMTP id oe9mr50658018pbc.146.1428533461601;
+        Wed, 08 Apr 2015 15:51:01 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id fc6si18576779pdb.146.2015.04.08.15.50.58
+        for <forensic.duzon@gmail.com>;
+        Wed, 08 Apr 2015 15:50:59 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t38MfqZ00CCA;
+	Thu, 09 Apr 2015 07:41:52 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t38MfqZ00CCA
+X-SmartFilter: FROM,t38MfqZ00CCA,forensic@duzon.com
+x-forward-id: 1428533403636_2433444502
+recvDate: Thu, 09 Apr 2015 07:50:03 +0900
+x-newturns-hashkey: 16e4a500b1052592a03de53703d8be6f38c60b64e2f3a82ed72175423537be28
+Received: from external ([119.207.76.119])
+	by smf.duzon.com (1.0) id t387IN00005B;
+	Wed, 08 Apr 2015 16:18:23 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t387IN00005B
+X-SmartFilter: FROM,t387IN00005B,return_postman04@return.postman.co.kr
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1428478042;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=7d9XgLkkwnjsX7Ieu0tDAJHHMTCJX4isv4Z4pvKHGMM=;
+	b=ZK5FL4qWl3sNShMHBmcqQx87F/DXWlu4/zomWvI2m/FDuuZCUi8ITHwLBQRpktpi
+	YS5zhwJbeXevML/0rIp2sFOzuRNyrEPEzm7XkAasufYZSiXc9K4ZqeU1X8ph+L+V6Br
+	TYtkVmGTQZqcW/88tBgfAOmTAVbRX9ZkgroVdrd0=
+From: "=?euc-kr?B?x9GxucGkuri76r73v6zH1ci4?=" <jongsuk2@fkii.org>
+To: "=?euc-kr?B?yLi/+A==?=" <forensic@duzon.com>
+Reply-to: <jongsuk2@fkii.org>
+Subject: =?euc-kr?B?wM+6uyBJbnRlcm9wIFRva3k=?= =?euc-kr?B?byAyMDE1IMfRsbmw/CDC/LChseK+9w==?= =?euc-kr?B?ILjwwf0gvsizuw==?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+Date: Wed, 08 Apr 2015 16:27:22 +0900
+X-WORKER_ID: <single.default_Worker_45>
+X-MAIL_ID: <UE9TVF9JRD0yMDE1MDQwODEwMDAwODAxNjMwOQ==>
+X-MEMBER_ID: <TV9JRD02MTE4MzIxOTk1>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDQ2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=fkii3000&customer_id=6118321995>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201504081627227312@send119.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +mFYpB3G1Hbla0ixyueaKL//FV0YbzJqbXmZKoEwKxpYkXm=
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<p><span style=3D"font-size: 14px;">=B1=CD=BB=E7=C0=C7 =B9=AB=B1=C3=C7=D1 =B9=DF=C0=FC=C0=BB =B1=E2=BF=F8=C7=D5=B4=CF=B4=D9.<br />
+=C7=D1=B1=B9=C1=A4=BA=B8=BB=EA=BE=F7=BF=AC=C7=D5=C8=B8=B4=C2 =B1=B9=B3=BB =C1=DF=BC=D2 IT =B9=D7 SW=B1=E2=BE=F7=C0=C7 =C0=CF=BA=BB =C1=F8=C3=E2 =B9=D7 =BC=F6=C3=E2=C0=FA=BA=AF =C8=AE=B4=EB=B8=A6 =C0=A7=C7=D8<br />
+=BF=C0=B4=C2 6=BF=F9 10=C0=CF(=BC=F6)=BA=CE=C5=CD 12=C0=CF(=B1=DD)=B1=EE=C1=F6 =C0=CF=BA=BB =C4=A1=B9=D9=BF=A1=BC=AD =B0=B3=C3=D6=B5=C7=B4=C2=A1=BAInterop Tokyo 2015(=C0=CE=C5=CD=B7=D3 =B5=B5=C4=EC)=A1=BB=C0=FC=BD=C3=C8=B8=BF=A1<br />
+=C7=D1=B1=B9=B0=FC=C0=BB =B1=B8=BC=BA=C7=CF=BF=A9 =C2=FC=B0=A1=C7=D2 =BF=B9=C1=A4=C0=CC=BF=C0=B4=CF =C0=CF=BA=BB=BD=C3=C0=E5 =C1=F8=C3=E2=BF=A1 =B0=FC=BD=C9=C0=D6=B4=C2 =B1=E2=BE=F7=B5=E9=C0=C7 =B8=B9=C0=BA =C2=FC=BF=A9 =B9=D9=B6=F8=B4=CF=B4=D9.<br />
+<br />
+<strong>=A1=E0 =C0=FC=BD=C3=C8=B8 =B0=B3=BF=E4</strong><br />
+&nbsp; =A4=B7 =C0=FC=BD=C3=C8=B8=B8=ED : Interop Tokyo 2015 (=C0=CE=C5=CD=B7=D3 =B5=B5=C4=EC)<br />
+&nbsp; =A4=B7 =B1=E2&nbsp; =B0=A3 : 2015=B3=E2 6=BF=F9 10=C0=CF(=BC=F6) ~ 2015=B3=E2 6=BF=F9 12=C0=CF(=B1=DD) (3=C0=CF =B0=A3)<br />
+&nbsp; =A4=B7 =C0=E5&nbsp; =BC=D2 : =C0=CF=BA=BB =C4=A1=B9=D9 =B8=B6=C4=ED=C7=CF=B8=AE =B8=DE=BD=EA =C0=FC=BD=C3=C0=E5(Makuhari Messe, Chiba, Japan)<br />
+&nbsp; =A4=B7 =C1=D6&nbsp; =C3=D6 : Interop Tokyo 2015 Steering Committee<br />
+&nbsp; =A4=B7 =C1=D6&nbsp; =B0=FC : Internet Association Japan, NANO OPT Media<br />
+&nbsp; =A4=B7 =B1=D4 =B8=F0(=C0=FC=B3=E2=B5=B5 =B1=E2=C1=D8)<br />
+&nbsp;&nbsp;&nbsp; - =C2=FC=B0=A1=BE=F7=C3=BC : 526=B0=B3=BB=E7, 1,960=BA=CE=BD=BA<br />
+&nbsp;&nbsp;&nbsp; - =B9=E6=B9=AE=B0=B4 : 132,609=B8=ED<br />
+&nbsp; =A4=B7 2015=B3=E2 =C0=FC=BD=C3 =C1=D6=BF=E4 =C5=D7=B8=B6<br />
+&nbsp;&nbsp;&nbsp; - Cloud Computing, Virtualization, IoT/M2M, Security, Mobile/Wireless, Communication/Collaboration, SDN/NFV,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Green ICT, IPv6 migration, Data Center, BYOD/MDM<br />
+&nbsp; =A4=B7 =C0=FC=BD=C3=C8=B8 =C0=A5=BB=E7=C0=CC=C6=AE : <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD02MTE4MzIxOTk1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE1MDQwODEwMDAwODAxNjMwOQ=3D=3D&VEM9MjAxNTA0MTU=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://www.interop.jp">www.interop.jp</a><br />
+<br />
+<strong>=A1=E0 =C1=D6=BF=E4 =C6=AF=C2=A1</strong><br />
+&nbsp; =A4=B7 =B5=BF=BE=C6=BD=C3=BE=C6 =C0=AF=C0=CF=C0=C7 Interop =C0=FC=BD=C3=C8=B8 : =C0=FC =BC=BC=B0=E8 =C3=D6=B4=EB IT =C0=FC=BD=C3=C8=B8 =BA=EA=B7=A3=B5=E5=C0=CE Interop =BD=C3=B8=AE=C1=EE =C1=DF =B0=A1=C0=E5 =B1=D4=B8=F0=B0=A1 =C5=AB =C0=FC=BD=C3=C8=B8<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =A1=D8 Interop =C0=FC=BD=C3=C8=B8 =BD=C3=B8=AE=C1=EE : Tokyo, New York, Las Vegas, Mumbai<br />
+&nbsp; =A4=B7 B2B =C0=FC=B9=AE =C0=FC=BD=C3=C8=B8 : B2B =C1=DF=BD=C9=C0=C7 =C0=FC=BD=C3=C8=B8=B7=CE =C1=D6=C3=D6=BB=E7=C0=C7 =B1=DB=B7=CE=B9=FA =B8=B6=C4=C9=C6=C3, =BE=E7=C1=FA=C0=C7 =B9=D9=C0=CC=BE=EE =C3=CA=C3=BB =B5=EE =BA=F1=C1=EE=B4=CF=BD=BA =C3=F8=B8=E9=BF=A1=BC=AD =B0=AD=C1=A1<br />
+&nbsp; =A4=B7 =C0=CF=BA=BB IT=BB=EA=BE=F7=C0=C7 =C6=AE=B7=BB=B5=E5 =C1=D6=B5=B5 : =C0=CF=BA=BB=C0=C7 =B4=EB=C7=FC =C0=AF=C0=FA=B1=E2=BE=F7, =C0=AF=C5=EB=B1=E2=BE=F7, IT?=C5=EB=BD=C5?=B9=E6=BC=DB=B0=FC=B7=C3 =BE=F7=C3=BC=B5=E9=C0=CC =C2=FC=B0=A1 =B9=D7 =B9=E6=B9=AE<br />
+&nbsp; =A4=B7 =B4=D9=BE=E7=C7=D1 =BA=CE=B4=EB =C8=B0=B5=BF : Connected Media Tokyo, Digital Signage Japan , Location Business Japan, Apps Japan =B5=EE=C0=C7 =C0=FC=BD=C3=C8=B8 =B9=D7 =C4=C1=C6=DB=B7=B1=BD=BA =BA=B4=C7=E0<br />
+&nbsp; =A4=B7 =B1=B9=B3=BB =C2=FC=B0=A1=BE=F7=C3=BC=B5=E9=C0=C7 =B3=F4=C0=BA =BC=B1=C8=A3=B5=B5 : =B8=DE=B4=BA=BE=F3=C8=AD =B5=C8 =C0=FC=BD=C3 =BD=C3=BD=BA=C5=DB, =C1=F6=B8=AE=C0=FB =C0=CC=C1=A1, =C7=D1=B1=B9=B0=FC=BF=A1 =B4=EB=C7=D1 =B3=F4=C0=BA =C7=F6=C1=F6 =C8=A3=C0=C0=B5=B5 =B5=EE=C0=B8=B7=CE 2001=B3=E2=B5=B5=BA=CE=C5=CD =B8=C5=B3=E2 =C7=D1=B1=B9=B0=FC=C0=CC =B1=B8=BC=BA<br />
+<br />
+<strong>=A1=E0 =C7=D1=B1=B9=B0=FC =B0=B3=BF=E4</strong><br />
+&nbsp; =A4=B7 =C0=FC=BD=C3=B1=E2=B0=A3 : 2015=B3=E2 6=BF=F9 10=C0=CF(=BC=F6) ~ 12=C0=CF(=B1=DD)<br />
+&nbsp; =A4=B7 =C1=D6=B0=FC=B1=E2=B0=FC : =C7=D1=B1=B9=C1=A4=BA=B8=BB=EA=BE=F7=BF=AC=C7=D5=C8=B8<br />
+&nbsp;&nbsp;&nbsp;&nbsp; * =BA=BB=C8=B8=B4=C2 2007=A2=A62014=B3=E2=B1=EE=C1=F6 =C1=DF=B1=E2=C3=BB =B9=AB=BF=AA=C3=CB=C1=F8=B4=DC =C1=F6=BF=F8=BB=E7=BE=F7=C0=C7 =B5=BF =C0=FC=BD=C3=C8=B8=C0=C7 =C7=D1=B1=B9=B0=FC =B1=B8=BC=BA =B9=D7 =C2=FC=B0=A1=BB=E7=BE=F7=C0=BB =BC=F6=C7=E0.</span></p>
+
+<p><span style=3D"font-size: 10px;"><span style=3D"font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =B5=BF =C0=FC=BD=C3=C8=B8=B4=C2 2010=B3=E2=BA=CE=C5=CD =BC=F6=C3=E2=C0=AF=B8=C1=C0=FC=BD=C3=C8=B8=B7=CE =C1=F6=C1=A4=B5=CA<br />
+&nbsp; =A4=B7 =C2=FC=B0=A1=B1=D4=B8=F0 : 11=B0=B3 =BA=CE=BD=BA(99=A7=B3), =B0=F8=B5=BF=C8=AB=BA=B8=BA=CE=BD=BA =BA=B0=B5=B5<br />
+&nbsp;&nbsp;&nbsp;&nbsp; * =B1=B8=BC=BA=B0=E8=C8=B9 : =C3=D6=B1=D9 =C0=CF=BA=BB =C0=FC=BD=C3=C8=B8=C0=C7 =C6=AF=BC=BA=BF=A1 =B8=C2=B0=D4 Open Style =BA=CE=BD=BA=C7=FC=C5=C2=B7=CE =B1=B8=BC=BA =BF=B9=C1=A4<br />
+&nbsp; =A4=B7 =C1=F6=BF=F8 =B3=BB=BF=EB<br />
+&nbsp;&nbsp;&nbsp; - =BA=CE=BD=BA=C0=D3=C2=F7=B7=E1, =BA=CE=BD=BA=C0=E5=C4=A1=BA=F1 50% =C1=F6=BF=F8<br />
+&nbsp;&nbsp;&nbsp; - =C6=ED=B5=B5=BF=EE=BC=DB=BA=F1(=C7=D8=BB=F3, 1CBM =B1=E2=C1=D8) 100% =C1=F6=BF=F8<br />
+&nbsp;&nbsp;&nbsp; - =C7=D1=B1=B9=B0=FC =B0=F8=B5=BF=BA=EA=B7=CE=BC=C5 =C1=A6=C0=DB, =C5=EB=BF=AA=BF=F8, =C0=CE=C5=CD=B3=DD =C8=B8=BC=B1 =C0=D3=C2=F7 =C1=F6=BF=F8 =B5=EE<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * =C2=FC=B0=A1=BA=F1=B4=C2 =B1=B9=B0=ED=C1=F6=BF=F8=B1=DD 50%=B0=A1 =B9=DD=BF=B5=B5=C8 =B1=DD=BE=D7=C0=CC=B0=ED, =C3=E2=C0=E5=C0=DA =C7=D7=B0=F8=B7=E1 =B9=D7 =C3=BC=C0=E7=BA=F1, =C0=FC=BD=C3=C7=B0=B9=DD=BC=DB=BA=F1=BF=EB =B5=EE=C0=BA =B0=B3=BA=B0 =BA=CE=B4=E3<br />
+<br />
+<strong>=A1=E0 =BD=C5=C3=BB =B9=E6=B9=FD</strong><br />
+&nbsp; =A4=B7 =BD=C5=C3=BB=C0=DA=B0=DD : =C1=DF=BC=D2=B1=E2=BE=F7=B1=E2=BA=BB=B9=FD =C1=A62=C1=B6 =B1=D4=C1=A4=BF=A1 =C0=C7=C7=D1 =C1=DF=BC=D2=B1=E2=BE=F7<br />
+&nbsp; =A4=B7 =BD=C5=C3=BB=B9=E6=B9=FD : =BC=AD=B7=F9 =C1=A2=BC=F6(=C0=CC=B8=DE=C0=CF =B6=C7=B4=C2 FAX) =C8=C4 =C2=FC=B0=A1=BA=F1 =C0=D4=B1=DD<br />
+&nbsp; =A4=B7 =C2=FC=B0=A1=BA=F1 : 450=B8=B8=BF=F8<br />
+&nbsp; =A4=B7 =C1=A6=C3=E2=BC=AD=B7=F9 : =C2=FC=B0=A1=BD=C5=C3=BB=BC=AD, =BB=E7=BE=F7=C0=DA=B5=EE=B7=CF=C1=F5 =BB=E7=BA=BB, =C8=B8=BB=E7=BC=D2=B0=B3=BC=AD =B5=EE =B0=A2 1=BA=CE<br />
+&nbsp; =A4=B7 =C0=D4=B1=DD=B0=E8=C1=C2 : =BF=DC=C8=AF=C0=BA=C7=E0 630-009619-813 (=BF=B9=B1=DD=C1=D6:=C7=D1=B1=B9=C1=A4=BA=B8=BB=EA=BE=F7=BF=AC=C7=D5=C8=B8)<br />
+&nbsp; =A4=B7 =BD=C5=C3=BB=B8=B6=B0=A8 : =B8=B6=B0=A8=BD=C3=B1=EE=C1=F6<br />
+<br />
+<strong>=A1=E0 =B1=E2&nbsp; =C5=B8</strong><br />
+&nbsp; =A4=B7 =C2=FC=B0=A1=BE=F7=C3=BC =BC=B1=C1=A4 : =C2=FC=B0=A1=BE=F7=C3=BC =BC=B1=C1=A4=B1=E2=C1=D8=BF=A1 =C0=C7=B0=C5<br />
+&nbsp;&nbsp;&nbsp; * =C5=BB=B6=F4=BE=F7=C3=BC=B4=C2 =C2=FC=B0=A1=BA=F1 =C0=FC=BE=D7 =C8=AF=BA=D2, =BC=B1=C1=A4 =C0=CC=C8=C4 =C2=FC=B0=A1 =C3=EB=BC=D2 =BD=C3 =BE=E0=B0=FC=BF=A1 =B5=FB=B8=A7<br />
+&nbsp; =A4=B7 =C2=FC=B0=A1=BA=F1 =B3=B3=C0=D4 : =C2=FC=B0=A1=BD=C5=C3=BB =C8=C4 1=C1=D6=C0=CF =C0=CC=B3=BB =C0=D4=B1=DD<br />
+&nbsp;&nbsp;&nbsp; * =C0=D4=B1=DD =C8=C4 =C0=CC=B8=DE=C0=CF(<a href=3D"mailto:jongsuk2@fkii.org">jongsuk2@fkii.org</a>)=B7=CE =BD=C5=C3=BB=BB=E7=C7=D7 =BC=DB=BA=CE(=BD=C5=C3=BB=C0=CF, =C0=D4=B1=DD=C0=CF=C0=DA =B5=EE)<br />
+&nbsp; =A4=B7 =BD=C5=C3=BB =B9=D7 =B9=AE=C0=C7<br />
+&nbsp;&nbsp;&nbsp;&nbsp; =C7=D1=B1=B9=C1=A4=BA=B8=BB=EA=BE=F7=BF=AC=C7=D5=C8=B8 =C1=A4=C1=BE=BC=AE =C3=A5=C0=D3<br />
+&nbsp;&nbsp;&nbsp;&nbsp; (Tel: 02-2132-0722, Fax: 02-782-1266, Email: <a href=3D"mailto:jongsuk2@fkii.org">jongsuk2@fkii.org</a>)</span></span></p>
+
+<p>&nbsp;</p>
+
+<div align=3D"left"><table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF">
+<tr><td><img src=3D"http://image.postman.co.kr/img_user/box_mailsend_stop.gif"></td></tr>
+<tr><td><tr><td bgcolor=3D"ffffff" style=3D"border-left:1px solid #A6A6A6;border-right:1px solid #A6A6A6">
+<table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF"><tr>
+<td style=3D"padding: 5 10 5 10;" align=3D"left" colspan=3D"2">
+<font size=3D"2" color=3D"#4C4C4C">* =C7=D8=B4=E7 =C3=B7=BA=CE=C6=C4=C0=CF=C0=BA 2015=B3=E2 04=BF=F9 22=C0=CF =B1=EE=C1=F6 =B4=D9=BF=EE=B7=CE=B5=E5 =B0=A1=B4=C9=C7=D5=B4=CF=B4=D9.</font><br/>
+<font size=3D"2" color=3D"#4C4C4C">&nbsp;&nbsp; ( Following attached files can be downloaded until <b>22.Apr.2015</b> )</font>
+</td></tr><tr><td width=3D"20%" height=3D"30" bgcolor=3D"F4F4F2" style=3D"padding: 5 0 5 10;">
+<img src=3D"http://image.postman.co.kr/img_user/tit_mail_file.gif" align=3D"absmiddle"></td>
+<td width=3D"80%" align=3D"left" bgcolor=3D"#FAFAFA"><a target=3D"popup" style=3D"color:black;" href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD02MTE4MzIxOTk1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE1MDQwODEwMDAwODAxNjMwOQ=3D=3D&VEM9MjAxNTA0MTU=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://www.postman.co.kr/open/download.jsp?key=3D82420bc9c15e6a782dfb25c540b2b4dc&id=3Dfkii3000"><img src=3Dhttp://image.postman.co.kr/postman2011/send/hwp.gif border=3D0 />=C0=CE=C5=CD=B7=D3=B5=B5=C4=EC2015_=C2=FC=B0=A1=BE=C8=B3=BB=B9=AE.hwp</a><br><a target=3D"popup" style=3D"color:black;" href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD02MTE4MzIxOTk1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE1MDQwODEwMDAwODAxNjMwOQ=3D=3D&VEM9MjAxNTA0MTU=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp://www.postman.co.kr/open/download.jsp?key=3De8cbfb3984225d279de52a78d3d546c!
+ 2&id=3Dfkii3000"><img src=3Dhttp:/=
+/image.postman.co.kr/postman2011/send/hwp.gif border=3D0 />=C0=CE=C5=CD=B7=D3=B5=B5=C4=EC2015_=C2=FC=B0=A1=BD=C5=C3=BB=BC=AD.hwp</a><br></td></tr></table></td></tr><tr><td><img src=3D"http://image.postman.co.kr/img_user/box_mailsend_sbottom.gif"></td></tr></table></div>
+<table width=3D"600" align=3D"left" style=3D"font-size:12px; line-height:140%; border:1px solid #cccccc">
+<tr align=3D"center">
+<td style=3D"font-color:#4C4C4C; font-size: 12px; font-family:'=B5=B8=BF=F2','helvetica';">The Federation of Korean Information Industries give you useful information about IT industry with your consent.
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr>
+<td align=3D"center" style=3D"color:#666666;">
+<p>To unsubscribe <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD02MTE4MzIxOTk1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE1MDQwODEwMDAwODAxNjMwOQ=3D=3D&VEM9MjAxNTA0MTU=3D&S0lORD1D&Q0lEPTAwNg=3D=3D&URL=3Dhttp://www.postman.co.kr/open/unsubscription.jsp?user_id=3Dfkii3000&amp;customer_id=3D6118321995&amp;reject_script=3DE&amp;post_id=3D20150408100008016309" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#666666; font-weight:bold;">click here</span></a>.</p>
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr align=3D"center">
+<td style=3D"font-size: 11px; font-family:'=B5=B8=BF=F2','helvetica'; font-color:#4C4C4C;">Address : 8th Fl, Business Tower, Nuritkum Square, 396 WorldCupBuk-ro, Mapo-Gu, Seoul, Korea
+</td>
+</tr>
+</table><div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD02MTE4MzIxOTk1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE1MDQwODEwMDAwODAxNjMwOQ=3D=3D&VEM9MjAxNTA0MTU=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD02MTE4MzIxOTk1&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9Zm9yZW5zaWNAZHV6b24uY29t&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE1MDQwODEwMDAwODAxNjMwOQ=3D=3D&VEM9MjAxNTA0MTU=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+
+
+

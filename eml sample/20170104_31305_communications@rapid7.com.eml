@@ -1,0 +1,128 @@
+Received: (qmail 24130 invoked by uid 100); 3 Jan 2017 16:39:34 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda001.wmail.worksmobile.com with SMTP;3 Jan 2017 16:39:34 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id iP0HNMtBSHqPSLAPfM9WnA
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 03 Jan 2017 16:39:33 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v03GgX9005D4;
+	Wed, 04 Jan 2017 01:42:33 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v03GgX9005D4
+X-SmartFilter: FROM,v03GgX9005D4,joseph@duzon.com
+x-forward-id: <643193706.1277622575.1483461180561.JavaMail.root@sjmas03.marketo.org>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3ttKJJ4Cpwz2fmFt; Wed,  4 Jan 2017 01:33:13 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3ttKHq0F8Wz2fmFs
+	for <joseph@duzon.com>; Wed,  4 Jan 2017 01:33:11 +0900 (KST)
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id v03GaAA005C5;
+	Wed, 04 Jan 2017 01:36:10 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v03GaAA005C5
+X-SmartFilter: FROM,v03GaAA005C5,495-KNT-277.0.31820.0.0.17472.9.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTQxMDY6MjI1NTU6NDg3MjQ6MDoxNzQ3Mjo5OjMxODIwOjExNDE1
+	OTI=
+Received: from [10.0.87.249] ([10.0.87.249:50360] helo=sjmas03.marketo.org)
+	by sjmta07.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id DD/31-22270-C32DB685; Tue, 03 Jan 2017 10:33:00 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1483461180;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=vJdUZAp+OlMzKugqUUm91vBgld8WQGuyGaqlDfrGDaQ=;
+	b=IKn00RX+VxKBaIwDQAfTSt6fDFjK3oKoEmjVQtFJUSLzeoYXykXLtRUdDPHS5AmO
+	6TyS4R0qO1FaTvZmOGlns+GGXubfxlSom0nk3mIdVkQunO1V0pDAYshDpxscyr01dlT
+	n7Q/1Oc/mmgJt0kEa6jBqe1cOhFPgptfWo1tr9qo=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1483461180;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=vJdUZAp+OlMzKugqUUm91vBgld8WQGuyGaqlDfrGDaQ=;
+	b=JnPEG35mYoblaZ8hO/YHuWkR66c/MaWUguVReOz/qFLgxWOYglBgLHiB2t7H4Lxg
+	lUSFmU+2JA/wccSMZvztJvyKtxiOkH0TiVo78f8E7XIG340kFCGEfeq7TEDdXf2+dzR
+	OrN4kIg2QfFu962H512X0y56t9U5wrBHl7Et4EOI=
+Date: Tue, 3 Jan 2017 10:33:00 -0600 (CST)
+From: Rapid7 Webcasts <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <643193706.1277622575.1483461180561.JavaMail.root@sjmas03.marketo.org>
+Subject: [EXPERT WEBCAST] Secure The Internet of Things
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1277622574_1172460703.1483461180560"
+X-PVIQ: mkto-495KNT277-000001-000000-031820
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:14106:22555:48724:0:17472:9:31820:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.31820.17472.9@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.31820.0.0.17472.9.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: +l+YpB3G1H+YbXFCbHmRKxMqaxKdjJ+Y
+
+------=_Part_1277622574_1172460703.1483461180560
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+I wanted to make sure you got the invite to tomorrow's webcast <http://info.rapid7.com/Q0lT0YN0KU2lM0Ql400R4M0> at 2pm ET/11am PT on the topic of  securing the internet of things through security research and vulnerability analysis.
+
+Join Deral Heiland, Research Leader of Global Services for Rapid7 to learn the world of IoT security research and the process around analysis and testing of IoT technologies, by evaluating and reviewing various methodologies.
+
+Hope you can join us <http://info.rapid7.com/Q0lT0YN0KU2lM0Ql400R4M0>!
+Kathryn Falco | Demand Generation Specialist
+Tel: 857.415.4266 | M: 978.302.0186
+Email: kathryn_falco@rapid7.com
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center-page.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiTWpnd1l6YzJaV1ptTTJWaiIsInQiOiJqSDJmR2JtSzhxaDRid2RZWHVWR21LRXNvMmw0VkZ6SkczL2VVOTc3KzJ0RE1TeWNMMDJ6cGxYTGUwc3IxRTFoZTVNWDZzL2dsak9BYTNaTXMwY3VqaUJLNzVjemxLOVByVWtTREJvTnFoeExQdUVzMzRMTHhxdEFyY2ZUTW5rSiJ9.
+
+------=_Part_1277622574_1172460703.1483461180560
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+</head>
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">I wanted to make sure you got the invite to tomorrow's&nbsp;<a href=
+"http://info.rapid7.com/GlN0Tl20YP4SK04l0000MQM"
+>webcast</a> at&nbsp;</span><span style="font-size: 12px; font-family: arial, helvetica, sans-serif;">2pm ET/11am PT on the topic of &nbsp;securing the internet of things through security research and vulnerability analysis.</span></p>
+<p><span style="font-family: helvetica;"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;">Join Deral Heiland, Research Leader of Global Services for Rapid7 to learn the world of IoT security research and the process around analysis and testing of IoT technologies, by evaluating and reviewing various methodologies.</span></span></span></p>
+<p><span style="font-family: helvetica; font-size: 12px;">Hope you can <a href=
+"http://info.rapid7.com/GlN0Tl20YP4SK04l0000MQM"
+>join us</a>!</span></p></div>
+<div id="contact-info" class="mktEditable" ><div><span style="font-family: helvetica; font-size: 12px;">Kathryn Falco | <em>Demand Generation Specialist</em></span></div>
+<div><span style="font-family: helvetica; font-size: 12px;"><strong>Tel:</strong> 857.415.4266 | <strong>M:</strong> 978.302.0186</span></div>
+</div>
+<div class="mktEditable" ><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 12px;"><strong>Email:</strong> kathryn_falco@rapid7.com</span></span></div>
+<p><img src="https://information.rapid7.com/rs/495-KNT-277/images/sig-logo.png" alt="Rapid7 Signature Logo"></p>
+<div class="mktEditable" ><strong style="font-family: helvetica; font-size: 12px;"><strong style="font-family: helvetica; font-size: 12px;"><br>
+<br></strong></strong></div>
+<div class="mktEditable" ><strong style="font-family: helvetica; font-size: 12px;"><strong style="font-family: helvetica; font-size: 12px;"><br>
+<br></strong></strong></div>
+</div>
+<a href=
+"http://info.rapid7.com/Al0Q04KN20Q4lMM00l0T0YT"
+></a>
+<img src="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6MTQxMDY6MjI1NTU6NDg3MjQ6MDoxNzQ3Mjo5OjMxODIwOjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" width="1" height="1" style="display:none !important;" alt="" />
+
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" >
+	<tbody>
+    	<tr>
+        	<td class="center">
+            	<p style="font-size: 10px; color: #000000; font-family: Arial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receive these emails or wish to update your email preferences, click on the following link: <a href=
+"http://info.rapid7.com/u/X4l0MSN0Q000Tl4YM02lKV0"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+	</tbody>
+</table>
+</body>
+</html>
+------=_Part_1277622574_1172460703.1483461180560--
+

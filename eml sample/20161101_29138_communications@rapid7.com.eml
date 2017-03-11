@@ -1,0 +1,359 @@
+Received: (qmail 26577 invoked by uid 100); 1 Nov 2016 10:08:11 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda003.wmail.worksmobile.com with SMTP;1 Nov 2016 10:08:11 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from smf.duzon.co.kr (gw.duzon.com [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id DwYyeZ5ySNGouXYc5gjzYw
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 01 Nov 2016 10:08:11 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uA1AAFF00E67;
+	Tue, 01 Nov 2016 19:10:15 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uA1AAFF00E67
+X-SmartFilter: FROM,uA1AAFF00E67,joseph@duzon.com
+x-forward-id: <680723362.-567888319.1477994877003.JavaMail.root@sjmas03.marketo.org>
+Received: from external ([199.15.214.5])
+	by smf.duzon.co.kr (1.0) id uA1AADE00E66;
+	Tue, 01 Nov 2016 19:10:13 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uA1AADE00E66
+X-SmartFilter: FROM,uA1AADE00E66,495-KNT-277.0.21302.0.0.16553.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6MTM1NjQ6MjEzMDI6NDU3Nzg6MDoxNjU1Mzo3OjExNDE1OTI=
+Received: from [10.0.87.249] ([10.0.87.249:40079] helo=sjmas03.marketo.org)
+	by sjmta03.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id A9/11-26349-D7968185; Tue, 01 Nov 2016 05:07:57 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1477994877;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=TIGvh7ifomp8N9DFiFtJOdd+aTTWrjFjMZOPoxwThmI=;
+	b=Fe2zucRJ+rdQJ5SmS8WDRa1VVnRr7PDllVN0FcyTyZro63qrnPYccrvTcWAJXU2m
+	3PmJk25ILtmmb3R+YikfMQfhGfZiIpiDz7lOD/hg+DP3z2eHAbGUph2GpPQaTnSOYqC
+	4UQ2j6zdq34Ly15MNSMvJCDW8MQtYRLqDS7YN9qA=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1477994877;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=TIGvh7ifomp8N9DFiFtJOdd+aTTWrjFjMZOPoxwThmI=;
+	b=j4hB5Uwb7T+Ewf+Sa+P9Ic1kI5no3h55GK9OFMmmehkbHfm1odFyutyCqwJLbv23
+	iFNphSf2aYtP4V1YRogVdvGDT9TRC93YjDTad/wM/lZzSeJLVFCAXj5NSkD7dhxWf2h
+	aTtKajHkZwhdFak0tS+GEJ8pCvGxb3ZmXx65dHIM=
+Date: Tue, 1 Nov 2016 05:07:57 -0500 (CDT)
+From: Rapid7 Resources <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <680723362.-567888319.1477994877003.JavaMail.root@sjmas03.marketo.org>
+Subject: Your 2016 Critical Security Controls Toolkit
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_-567888320_1220402037.1477994877003"
+X-PVIQ: mkto-495KNT277-000001-000000-030253
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:13564:21302:45778:0:16553:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.21302.16553.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.21302.0.0.16553.7.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: wfen+6J4p635WrlY7BwdpBmwKAg/KxJYkXm=
+
+------=_Part_-567888320_1220402037.1477994877003
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<http://info.rapid7.com/NN00wKM4000jMNT0TQ40Y2l>
+Contact Us <http://info.rapid7.com/hlMjx4N00K000M4NQ020TUY>
+The 2016 Top Critical Security Controls
+Protecting Your Organization from Today's Most Common Attack Patterns
+ 
+ <http://info.rapid7.com/ZNQ4M0j140000M0YE20lTKN> 
+
+
+
+DOWNLOAD NOW <http://info.rapid7.com/ZNQ4M0j140000M0YE20lTKN>
+Did you know Rapid7 ranks for 19 out of the 20 security controls - more than any other security provider in the market today?
+There is no better guideline for answering the question "How can I be prepared to stop known attacks?" than the Center for Internet Security (CIS) Top 20 Critical Security Controls.
+These controls help you transform best-in-class threat data into prioritized and actionable ways to protect your organization from today's most common attack patterns.
+
+
+
+ <http://info.rapid7.com/ZNQ4M0j140000M0YE20lTKN>
+
+
+
+
+Download the 2016 Top Critical Security Controls to see the framework and find out how Rapid7 ranks against other security providers in monitoring and improving your implementation of these controls.
+
+Download your copy today. <http://info.rapid7.com/ZNQ4M0j140000M0YE20lTKN>
+
+If you no longer wish to receive these emails or wish to update your email preferences: https://information.rapid7.com/preference-center-page.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiWVdZeU1ERm1NelJpTVRsaSIsInQiOiJpUTdxYXdPYmErbEQ2amF1QXVIMmtpenVpanNUUnovQ1pkTFJVRmw1WXZxTys2RjNIaHhCNlMyclR3V2JTaGkxL0hIR0hEZWl5ZTBvSWRsRjZuRCtQVzZzYlhKWklPdnd0WlhENWorQmcwWT0ifQ%3D%3D.
+
+------=_Part_-567888320_1220402037.1477994877003
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Email</title>
+
+<style type=3D"text/css">
+
+                /* Some resets and issue fixes */
+        #outlook a { padding:0; }
+                body{ width:100% !important; -webkit-text; size-adjust:100%=
+; -ms-text-size-adjust:100%; margin:0; padding:0; }    =20
+        .ReadMsgBody { width: 100%; }
+        .ExternalClass {width:100%;}=20
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;}=
+=20
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}  =20
+        /* End reset */
+               =20
+                /* Custom */
+                body,table,td,span,a,ul,li {font-family: Arial, sans-serif =
+!important;}
+                .forcefont {font-family: Arial, sans-serif !important;}
+                .appleLinksWhite {color: #ffffff !important; text-decoratio=
+n: none;}=20
+                .appleLinksBlack {color: #000000 !important; text-decoratio=
+n: none;}
+                .appleLinksOrange {color: #ec5f27 !important; text-decorati=
+on: none;}
+                table,div {margin-top: -1px;} /* Gets rid of 1px space betw=
+een tables and divs */
+               =20
+                /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 630px){
+               =20
+
+                        /* Display block allows us to stack elements */    =
+                 =20
+            *[class=3D"mobile-column"] {display: block;}=20
+                       =20
+                        /* Some more stacking elements */
+            *[class=3D"mob-column"] {float: none !important;width: 100% !im=
+portant;}    =20
+                            =20
+                        /* Hide stuff */
+            *[class=3D"hide"] {display:none !important;}         =20
+           =20
+                        /* This sets elements to 100% width and fixes the h=
+eight issues too, a god send */
+                        *[class=3D"100p"] {width:100% !important; height:au=
+to !important;}                               =20
+                               =20
+                        /* For the 2x2 stack */                =20
+                        *[class=3D"condensed"] {padding-bottom:40px !import=
+ant; display: block;}
+                       =20
+                        /* Centers content on mobile */
+                        *[class=3D"center"] {text-align:center !important; =
+width:100% !important; height:auto !important;}           =20
+                       =20
+                        /* 100percent width section with 20px padding */
+                        *[class=3D"100pad"] {width:100% !important; padding=
+:20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding left =
+& right */
+                        *[class=3D"100padleftright"] {width:100% !important=
+; padding:0 20px 0 20px;}=20
+                       =20
+                        /* 100percent width section with 20px padding top &=
+ bottom */
+                        *[class=3D"100padtopbottom"] {width:100% !important=
+; padding:20px 0px 20px 0px;}=20
+               =20
+        }      =20
+       =20
+</style>
+</head>
+<body style=3D"padding:0; margin:0; " bgcolor=3D"#FFFFFF" ><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0; padding:0; " wid=
+th=3D"100%" ><tr ><td align=3D"center" valign=3D"top" ><table width=3D"640"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"hide">
+<tr>
+<td height=3D"20"></td>
+</tr>
+</table>
+<!-- Add Blocks Here /-->
+<div id=3D"Header1Link" class=3D"mktEditable" ><table width=3D"640" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"20" class=3D"100p" bgcolor=3D"#3B3B=
+3B">
+<tr>
+<td valign=3D"top">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"600" class=
+=3D"100p">
+<tr>
+<td align=3D"left" width=3D"50%" class=3D"100p"><a href=3D
+"http://info.rapid7.com/NN00wKM4000jMNT0TQ40Y2l"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" alt=3D"Rapid7" border=3D"0" style=3D"display:blo=
+ck"></a></td>
+<td width=3D"50%" class=3D"hide" align=3D"right" style=3D"font-size:16px; c=
+olor:#FFFFFF;"><a href=3D
+"http://info.rapid7.com/hlMjx4N00K000M4NQ020TUY" style=3D"color:#FFFFFF; te=
+xt-decoration:none;"
+>Contact Us</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id=3D"IntroHeadline" class=3D"mktEditable" ><table class=3D"100p" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgcolor=3D"#3B3=
+B3B">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 24px;" align=3D"center"><span style=
+=3D"font-size: 44px;">The 2016 Top Critical Security Controls</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id=3D"GrayContent-OrangeButton" class=3D"mktEditable" ><table class=3D=
+"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"640" bgco=
+lor=3D"#3B3B3B">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #ffffff;" align=3D"center"><span style=
+=3D"font-size: 24px;">Protecting Your Organization from Today's Most Common=
+ Attack Patterns</span><br /> <br /> <span style=3D"font-size: 16px;"><a st=
+yle=3D"color: #ffffff; text-decoration: none;" href=3D
+"http://info.rapid7.com/c0402MMK0lQN0j4TV0YyN00"
+></a></span>=20
+<table style=3D"border: 2px solid #ec5f27;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"10" bgcolor=3D"#EC5F27">
+<tbody>
+<tr>
+<td style=3D"color: #ffffff; font-size: 16px;" align=3D"center"><a style=3D=
+"color: #ffffff; text-decoration: none;" href=3D
+"http://info.rapid7.com/c0402MMK0lQN0j4TV0YyN00"
+>DOWNLOAD NOW</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+<div id=3D"ContentBlock-Image-ContentBlock" class=3D"mktEditable" ><table c=
+lass=3D"100p" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" width=3D"64=
+0" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td style=3D"font-size: 16px; color: #848484;" align=3D"left">
+<p><strong style=3D"text-align: -webkit-center;">Did you know Rapid7 ranks =
+for 19 out of the 20 security controls - more than any other security provi=
+der in the market today?</strong></p>
+<p style=3D"color: #848484; font-size: 16px;">There is no better guideline =
+for answering the question "How can I be prepared to stop known attacks?" t=
+han the Center for Internet Security (CIS) Top 20 Critical Security Control=
+s.</p>
+<p style=3D"color: #848484; font-size: 16px;">These controls help you trans=
+form best-in-class threat data into prioritized and actionable ways to prot=
+ect your organization from today's most common attack patterns.</p>
+<table class=3D"100p" style=3D"color: #848484; font-size: 16px;" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"640" bgcolor=3D"#FFFFFF">
+<tbody>
+<tr>
+<td align=3D"center"><a href=3D
+"http://info.rapid7.com/c0402MMK0lQN0j4TV0YyN00"
+><img class=3D"100p" style=3D"border: 1px solid black; display: block;" src=
+=3D"https://information.rapid7.com/rs/495-KNT-277/images/Capture-sans top 2=
+0.PNG" border=3D"1" alt=3D"sans top 20" width=3D"450" height=3D"318" /></a>=
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style=3D"text-align: -webkit-center;">Download the 2016 Top Critic=
+al Security Controls to see the framework and find out how Rapid7 ranks aga=
+inst other security providers in monitoring and improving your implementati=
+on of these controls.</span></p>
+<p><span style=3D"text-align: -webkit-center;"><a style=3D"color: #ec5f27; =
+text-decoration: none;" href=3D
+"http://info.rapid7.com/c0402MMK0lQN0j4TV0YyN00"
+>Download your copy today.</a><span>&nbsp;</span></span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+<!-- Stop Blocks Here /-->
+<table width=3D"640" border=3D"0" cellspacing=3D"0" cellpadding=3D"20" bgco=
+lor=3D"#3B3B3B" class=3D"100p">
+<tr>
+<td valign=3D"middle" align=3D"left" width=3D"50%" style=3D"font-size:14px;=
+ color:#ffffff;"><span>=C2=A9 2016 Rapid7, All Rights Reserved.</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">100 Summer Street, 13th Floor</span><br>
+<span class=3D"appleLinksWhite" style=3D"color:#ffffff !important; text-dec=
+oration:none !important;">Boston, MA 02110-2131</span><br>
+<span><a style=3D"color: #ec5f27; text-decoration: none;" href=3D
+"http://info.rapid7.com/E040K0MWNzY0Q0MT2N04l0j"
+>www.rapid7.com</a></span><br>
+<span>866-7-RAPID7</span></td>
+<td valign=3D"middle" align=3D"right" width=3D"50%" style=3D"font-size:14px=
+; color:#ffffff;"><span><a href=3D
+"http://info.rapid7.com/DKA400X0TNY00N0jlQ2M04M"
+><img title=3D"Facebook" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-fb-2016-36px-white.png" border=3D"0" alt=3D"Facebook"></a>=
+<a href=3D
+"http://info.rapid7.com/r40B0T2N0NYlYQKjM00M040"
+><img title=3D"Twitter" src=3D"https://information.rapid7.com/rs/495-KNT-27=
+7/images/social-tw-2016-36px-white.png" border=3D"0" alt=3D"Twitter"></a><a=
+ href=3D
+"http://info.rapid7.com/AN0Z04KN20Q4jMM00l0C0YT"
+><img title=3D"LinkedIn" src=3D"https://information.rapid7.com/rs/495-KNT-2=
+77/images/social-li-2016-36px-white.png" border=3D"0" alt=3D"LinkedIn"></a>=
+</span><br>
+<br>
+<span><a href=3D
+"http://info.rapid7.com/E040K0MWNzY0Q0MT2N04l0j"
+><img src=3D"https://information.rapid7.com/rs/495-KNT-277/images/rapid7_lo=
+go_white-orange-400px.png" border=3D"0" alt=3D"Rapid7 Home Page"></a></span=
+></td>
+</tr>
+</table>
+<table width=3D"640" class=3D"100p" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">
+<tr>
+<td height=3D"50"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href=3D
+"http://info.rapid7.com/WK0j0QN4l0D2T4M00M0YN00"
+></a>
+<img src=3D"http://info.rapid7.com/trk?t=3D1&mid=3DNDk1LUtOVC0yNzc6MTM1NjQ6=
+MjEzMDI6NDU3Nzg6MDoxNjU1Mzo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+<table class=3D"deviceWidth" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" >
+=09<tbody>
+    =09<tr>
+        =09<td class=3D"center">
+            =09<p style=3D"font-size: 10px; color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receiv=
+e these emails or wish to update your email preferences, click on the follo=
+wing link: <a href=3D
+"http://info.rapid7.com/u/t4TM2M0NKY0l200QN4000jF"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+=09</tbody>
+</table>
+</body>
+</html>
+------=_Part_-567888320_1220402037.1477994877003--
+

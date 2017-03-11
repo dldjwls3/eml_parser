@@ -1,0 +1,970 @@
+Received: (qmail 31672 invoked by uid 100); 23 Mar 2016 03:06:31 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda03.wmail.naver.com with SMTP;23 Mar 2016 03:06:31 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.64 as permitted sender) smtp.mailfrom=joseph@duzon.com
+Received: from smf.duzon.com (mail.duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id C8haGgK2RiaccMqA2mtI1A
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 23 Mar 2016 03:06:31 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u2N36Kg00A12;
+	Wed, 23 Mar 2016 12:06:20 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2N36Kg00A12
+X-SmartFilter: FROM,u2N36Kg00A12,joseph@duzon.com
+x-forward-id: 1458702167983_935649226
+recvDate: Wed, 23 Mar 2016 12:02:47 +0900
+x-newturns-hashkey: c2a1377991d55c727c1720b68a9d05dc10d61c5c2516dfb73e89c747745b70cb
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id u2N36Ge00A10;
+	Wed, 23 Mar 2016 12:06:17 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u2N36Ge00A10
+X-SmartFilter: FROM,u2N36Ge00A10,495-KNT-277.0.15570.0.0.11488.7.1141592@em-sj-77.mktomail.com
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6OTk5NDoxNTU3MDozMTkyNjowOjExNDg4Ojc6MTE0MTU5Mg==
+Received: from [10.0.12.43] ([10.0.12.43:55770] helo=sjmas02.marketo.org)
+	by sjmta13.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 1F/A5-59427-03802F65; Tue, 22 Mar 2016 22:06:24 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1458702384;
+	s=m1; d=rapid7.com; i=@rapid7.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=Dx5m46OYcJuatpiCONcsx4zsyN9oXt8V1PfErKFim2U=;
+	b=XNPWN2vrui03+y1ngxa44oO69g7VXVzC9ukQGhSRONMHhfsRwvMLjLiAuHQ1H6Ua
+	BS5fAIU5Uspm2Mi8fZV0mNVZnc1/Loaj1hlk2By1poaDXx+u8imyzaW0GBBT2X4aoEE
+	5bs7SZ9SUPX7KJrh4FMjlAF7AAsUMcEg9hTzLHdU=
+Date: Tue, 22 Mar 2016 22:06:24 -0500 (CDT)
+From: Rapid7 News <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <24956846.-1824538903.1458702384399.JavaMail.root@sjmas02.marketo.org>
+Subject: Rapid7 Security Newsletter - March 2016
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_-1824538904_1351713837.1458702384399"
+X-PVIQ: mkto-495KNT277-000001-000000-022118
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:9994:15570:31926:0:11488:7:1141592
+X-MktArchive: false
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.15570.11488.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.15570.0.0.11488.7.1141592@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Naver-ESV: +rFYpB3G1H+YbXFCbHmRKAKmFoKwjJ+Y
+
+------=_Part_-1824538904_1351713837.1458702384399
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To view this email as a web page, go to the following address: https://info=
+rmation.rapid7.com/index.php/email/emailWebview?mkt_tok=3D3RkMMJWWfF9wsRonv=
+qnOcu%2FhmjTEU5z16u0pWKK%2FgIkz2EFye%2BLIHETpodcMTcNmPbHYDBceEJhqyQJxPr3BJd=
+UN0dtpRhPlDw%3D%3D
+
+<http://info.rapid7.com/GcN0Tn20Y84iK04l0000MQM>
+
+
+
+
+
+
+PRODUCTS <http://info.rapid7.com/s0jn0lc0YNQ90K0M4M2040T>     SOLUTIONS <ht=
+tp://info.rapid7.com/GcN0Tn20Ya4kK04l0000MQM>     SERVICES <http://info.rap=
+id7.com/ulQ000YN4l040b02nMMKTc0>   =20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Announcement] Intel choose Rapid7 to partner with for MVM EOL  <http://inf=
+o.rapid7.com/eQ0YmT02000NKn0M4cclM04>
+
+
+
+
+
+
+
+
+Intel announced the end of life (EOL) of their Mcafee Vulnerability Manager=
+ (MVM) solution late last year. They have selected Rapid7 as their partner =
+of choice <http://info.rapid7.com/eQ0YmT02000NKn0M4cclM04> to transition cu=
+stomers over to Rapid7's market-leading Nexpose solution.
+More about Nexpose: check out our resources page <http://info.rapid7.com/ln=
+NMd000lcYM0T2440Q0n0K> with associated guides and information
+
+
+
+
+
+=20
+=20
+
+
+
+
+
+
+
+
+
+Nexpose Resource Page <http://info.rapid7.com/lnNMd000lcYM0T2440Q0n0K>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[Research Report] The Attacker's Dictionary: Auditing Criminal Credentials =
+<http://info.rapid7.com/t4TM2M0nKY0le00QN4000co>
+
+
+
+
+
+
+
+
+Rapid7 researchers, Tod Beardsley, Roy Hodgman, Jon Hart and Harley Geiger =
+have recently released a new research report entitled, 'The Attacker's Dict=
+ionary'. The report contains nearly a years worth of opportunistic credenti=
+al scanning data collected from Heisenberg, Rapid7's public-facing network =
+of low-interaction honeypots. In the report, more than 221,000 log-in attem=
+pts were monitored and the credentials hackers were using studied. Download=
+ the report & discover the top ten passwords hackers are using!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read the Paper <http://info.rapid7.com/t4TM2M0nKY0le00QN4000co>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[Upcoming Webinar] Building Your 2016 Security Program 4-Part Series <http:=
+//info.rapid7.com/upQ000YN4l040f02nMMKTc0>
+
+
+
+
+
+
+
+Join us live this Thursday at 11am SGT | 2pm AEST for the last in our 4-par=
+t March series of webcasts in APAC. The 45mins webcasts are designed for IT=
+ professionals who are involved in planning, design or managing of their da=
+y-to-day security programs. Part 4 suggests ways to improve your organisati=
+ons security posture by looking at best practices, vulnerability management=
+ tools and compliance standards.=20
+
+
+
+
+Speaker: Ivan Lee, Sales Engineer, Rapid7
+
+
+Don't worry if you can't make this one or missed the first 3, you can catch=
+ up On Demand here. <http://info.rapid7.com/upQ000YN4l040f02nMMKTc0>
+
+
+
+
+
+
+=20
+
+
+
+Register Now <http://info.rapid7.com/upQ000YN4l040f02nMMKTc0>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[Event] We're at Blackhat ASIA <http://info.rapid7.com/VYNg0004nc0T200Kl4MM=
+qQ0>
+
+
+
+
+
+
+
+
+ <http://info.rapid7.com/VYNg0004nc0T200Kl4MMqQ0>
+
+If you're going to be at Blackhat this year, come over and say hello. We're=
+ Gold Sponsors on booth number A02 so you shouldn't miss us. We'd love to s=
+how you our solutions via live demonstrations. Plus have some really cool g=
+iveaways...=20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View Now <http://info.rapid7.com/VYNg0004nc0T200Kl4MMqQ0>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[Tech Workshop] Hands On Tech Workshop Series <http://info.rapid7.com/kK0hl=
+0Q00nM02N4MYc0r40T>
+
+
+
+
+
+
+
+Downloaded our trial license? Interested to learn how you can fully maximiz=
+e the features of Nexpose, Metasploit or Appspider? Then join us in our Apr=
+il hands-on tech workshop at one of the following locations:
+
+Registration open now!
+
+5-7 April - Malaysia [Register <http://info.rapid7.com/kK0hl0Q00nM02N4MYc0r=
+40T>]
+8 April - Hong Kong [Register <http://info.rapid7.com/r40s0T2n0NilYQKcM00M0=
+40>]
+15 April - Hong Kong [Register <http://info.rapid7.com/jMjN0c2lK004Y0MQT4t0=
+n00>]
+18-19 April - Sydney [Register <http://info.rapid7.com/r40u0T2n0NklYQKcM00M=
+040>]
+26-28 April - Indonesia [Register <http://info.rapid7.com/r40v0T2n0NllYQKcM=
+00M040>]
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+Rapid7 in the Press!
+
+
+ - Rapid7 InsightIDR reduces time  <http://info.rapid7.com/UMmM04T0lN0K4n02=
+cQ000wY>- Global Banking and Finance
+ - POS Hackers caught scanning for simple passwords <http://info.rapid7.com=
+/jMnN0c2lK004Y0MQT4x0n00> - Infosecurity Magazine
+ - Has Google got stagefright regarding OTA Android security updates? <http=
+://info.rapid7.com/JN2lKM0ycT0QonY04M00040> - SC Magazine
+
+
+
+
+
+
+
+
+
+
+Security Alert
+
+Update Tuesday, March 2016 <http://info.rapid7.com/K00M4KN00lnz2p4YM0cQ0T0>
+March continues this quarter=E2=80=99s trend with the majority of bulletins=
+ (8) addressing remote code execution (RCE) vulnerabilities; the remaining =
+address elevation of privilege (4) and security feature bypass. All of the =
+critical bulletins are remote code execution issues affecting a variety of =
+products and platforms including Edge, Internet Explorer, Office, Office fo=
+r Mac, Office Web Apps, SharePoint and releases of Microsoft Windows (Clien=
+t and Server)... (read more) <http://info.rapid7.com/K00M4KN00lnz2p4YM0cQ0T=
+0>
+
+Resolved Vulnerability Reference <http://info.rapid7.com/K00M4KN00lnz2p4YM0=
+cQ0T0>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FREE PRODUCT DEMOS
+
+
+ <http://info.rapid7.com/X4l0MqN0Q000Tn4YM02cKA0>Metasploit Product Demo <h=
+ttp://info.rapid7.com/X4l0MrN0Q000Tn4YM02cKB0>
+ <http://info.rapid7.com/kK0sl0Q00nM02N4MYc0C40T>InsightIDR Product Demo <h=
+ttp://info.rapid7.com/VYNt0004nc0T200Kl4MMDQ0>
+ <http://info.rapid7.com/ycnKYMMQ040lTNE04u00020>Nexpose Product Demo <http=
+://info.rapid7.com/GcN0Tn20Yv4FK04l0000MQM>
+ Appspider Product Demo <http://info.rapid7.com/hlMcG4N00K000M4nQ020TwY>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONNECT WITH RAPID7
+
+
+ Join the Community <[[https://community.rapid7.com/welcome"><img style=3D]=
+]>
+ Follow us on Twitter <[[https://twitter.com/Rapid7"><img style=3D]]>
+ <http://info.rapid7.com/o02JQ00zn00cMK04YTN4Ml0> Contact Us <http://info.r=
+apid7.com/qcTK040YlA0Q4n02N0MK00M>
+ <http://info.rapid7.com/LM42TN00c0Hn0KxYM0l040Q>   Free Tools <http://info=
+...rapid7.com/DKL400B0TNY00n0clQ2M04M>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=C2=A9 2016 Rapid7, All Rights Reserved.
+ APAC HQ
+51 Cuppage Road, StarHub Centre, #06-06 Singapore 229469
+ www.rapid7.com <http://info.rapid7.com/b00004NlnKM0TMcC020MY4Q>
+
+
+
+
+
+
+
+ <[[http://feeds2.feedburner.com/Rapid7"><img title=3D]]>  <http://info.rap=
+id7.com/jMyN0c2lK004Y0MQT4I0n00>  <[[https://community.rapid7.com/welcome">=
+<img title=3D]]>  <http://info.rapid7.com/qcTK040YlA0Q4n02N0MK00M>
+
+If you no longer wish to receive these emails or wish to update your email =
+preferences: https://information.rapid7.com/preference-center.html?mkt_unsu=
+bscribe=3D1&mkt_tok=3D3RkMMJWWfF9wsRonvqnOcu%2FhmjTEU5z16u0pWKK%2FgIkz2EFye=
+%2BLIHETpodcMTcNmPbHYDBceEJhqyQJxPr3BJdUN0dtpRhPlDw%3D%3D.
+
+------=_Part_-1824538904_1351713837.1458702384399
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Responsive Email Template</title>
+
+<style type="text/css">
+
+        .ReadMsgBody {width: 100%; background-color: #ffffff;}
+        .ExternalClass {width: 100%; background-color: #ffffff;}
+        body     {width: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased;font-family:
+'Trebuchet MS',Arial,Helvetica,sans-serif; font-size:14px; line-height:22px;}
+        h1 {font-size: 25px; color: #000000; padding: 0; margin:10px 0; line-height:34px; font-weight:normal;}
+        h2 {font-size: 20px; color: #ea5709; padding:0; margin:16px 0; font-weight:normal;}
+                .highlight {font-size: 16px; color: #333333;  font-weight:bold;}
+        a:link {color:#0197b8; text-decoration:none;}      /* unvisited link */
+        a:visited {color:#0197b8;text-decoration:none;}  /* visited link */
+        a:hover {color:#0197b8;text-decoration:none;}  /* mouse over link */
+        a:active {color:#0197b8;text-decoration:none;}  /* selected link */
+        
+        table {border-collapse: collapse;}
+        
+        @media only screen and (max-width: 640px)  {
+                                        body[yahoo] .deviceWidth {width:440px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+                        
+        @media only screen and (max-width: 479px) {
+                                        body[yahoo] .deviceWidth {width:280px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+
+
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix" >
+<div style="text-align: center"><font face="Verdana" size="1">To view this email as a web page, <a href=
+"http://info.rapid7.com/v/gO0Y4Ql0M20cNT04K000EnM"
+>click here</a><br /><br /></font></div>
+<div ><div class="mktEditable" >
+<p><span style="font-family: arial, helvetica, sans-serif;"><!-- Wrapper --></span></p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding-top: 20px;" width="100%" valign="top" bgcolor="#FFFFFF">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="padding: 10px;" width="100%" bgcolor="#000000">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding: 10px 20px;"><span style="font-family: arial, helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/GcN0Tn20Y84iK04l0000MQM"
+><img src="http://information.rapid7.com/rs/rapid7/images/rapid7_logo_white-orange.png" border="0" alt="Rapid7" width="160" height="27" /></a></span></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #ffffff; font-weight: light; text-align: right; font-family: Arial; line-height: 18px; vertical-align: middle; padding: 10px 20px; font-style: NORMAL;"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none; color: #cccccc;" href=
+"http://info.rapid7.com/s0jn0lc0YNQ90K0M4M2040T"
+>PRODUCTS</a> &nbsp;&nbsp;&nbsp; <a 
+style="text-decoration: none; color: #cccccc;" href=
+"http://info.rapid7.com/GcN0Tn20Ya4kK04l0000MQM"
+>SOLUTIONS</a> &nbsp;&nbsp;&nbsp; <a style="text-decoration: none; color: #cccccc;" href=
+"http://info.rapid7.com/ulQ000YN4l040b02nMMKTc0"
+>SERVICES</a> &nbsp;&nbsp;&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="padding: 0px 0;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 0px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<table class="deviceWidth" style="margin-bottom: 10x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed; font-family: Arial, Helvetica, sans-serif;">[Announcement] <a href=
+"http://info.rapid7.com/eQ0YmT02000NKn0M4cclM04"
+>Intel choose Rapid7 to partner with for MVM EOL&nbsp;</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 5px 10px 15px 10px; font-size: 16px;">
+<div>
+<p class="byline marB0"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;">Intel announced the end of life (EOL) of their Mcafee Vulnerability Manager (MVM) solution late last year.
+                           <a href=
+"http://info.rapid7.com/eQ0YmT02000NKn0M4cclM04"
+>They have selected Rapid7 as their partner of choice</a> to transition customers over to Rapid7's market-leading Nexpose solution.</span></span></p>
+<p class="byline marB0"><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px;"><strong>More about Nexpose</strong>: check out our <a href=
+"http://info.rapid7.com/lnNMd000lcYM0T2440Q0n0K"
+>resources page</a> with associated guides and information</span></span></p>
+<ul>
+</ul>
+<span style="font-family: arial, helvetica, sans-serif; line-height: 22px;"><ol> </ol></span> 
+<ul style="font-size: 16px;">
+</ul>
+</div>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;" href=
+"http://info.rapid7.com/lnNMd000lcYM0T2440Q0n0K" target="_blank"
+>Nexpose Resource Page</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 10x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">[Research Report] <a href=
+"http://info.rapid7.com/t4TM2M0nKY0le00QN4000co"
+>The Attacker's Dictionary: Auditing Criminal Credentials</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<p><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Rapid7 researchers<span>, Tod Beardsley, Roy Hodgman, Jon Hart and Harley Geiger have recently released a new research report entitled, 'The Attacker's Dictionary'.
+                          The report contains nearly a years worth of opportunistic credential scanning data collected from Heisenberg, Rapid7's public-facing network of low-interaction honeypots.
+                          In the report, more than 221,000 log-in attempts were monitored and the credentials hackers were using studied.
+                          Download the report &amp; discover the top ten passwords hackers are using!</span></span></p>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;" href=
+"http://info.rapid7.com/t4TM2M0nKY0le00QN4000co" target="_blank"
+>Read the Paper</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 10x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">[Upcoming Webinar] <a href=
+"http://info.rapid7.com/upQ000YN4l040f02nMMKTc0"
+>Building Your 2016 Security Program 4-Part Series</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<div><span style="font-family: arial, helvetica, sans-serif;">Join us live this Thursday at 11am SGT | 2pm AEST for the last in our 4-part March series of webcasts in APAC.
+                      The 45mins webcasts are designed for IT professionals who are involved in planning, design or managing of their day-to-day security programs.
+                      Part 4 suggests ways to improve your organisations security posture by looking at best practices, vulnerability management tools and compliance standards.</span> 
+<ul>
+</ul>
+<div><span style="font-family: arial, helvetica, sans-serif;"><strong>Speaker:&nbsp;</strong>Ivan Lee, Sales Engineer, Rapid7</span></div>
+<div><span style="font-family: arial, helvetica, sans-serif;"><br /></span></div>
+<div><span style="font-family: arial, helvetica, sans-serif;">Don't worry if you can't make this one or missed the first 3, you can <a href=
+"http://info.rapid7.com/upQ000YN4l040f02nMMKTc0"
+>catch up On Demand here.</a></span></div>
+<div>
+<ul>
+</ul>
+</div>
+<span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 22px;"> 
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;" href=
+"http://info.rapid7.com/upQ000YN4l040f02nMMKTc0" target="_blank"
+>Register Now</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+</ul>
+</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[Event] <a href=
+"http://info.rapid7.com/VYNg0004nc0T200Kl4MMqQ0"
+>We're at Blackhat ASIA</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px; font-family: Helvetica, Arial, sans-serif; font-size: 16px;">
+<p><a href=
+"http://info.rapid7.com/VYNg0004nc0T200Kl4MMqQ0"
+><img src="https://information.rapid7.com/rs/495-KNT-277/images/BH2016_EmailBanner.png" alt="BH Banner" width="550" height="100" /></a></p>
+<p><span style="font-size: 14px; line-height: 22px;">If you're going to be at Blackhat this year, come over and say hello.
+                      We're Gold Sponsors on booth number A02 so you shouldn't miss us.
+                         We'd love to show you our solutions via live demonstrations.
+                         Plus have some really cool giveaways...&nbsp;</span></p>
+<ul style="font-size: 16px;">
+</ul>
+<ul style="font-size: 16px;">
+</ul>
+<ul style="font-size: 16px;">
+</ul>
+<div style="font-size: 16px;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><strong><span style="background-color: #ea5709;"><a style="text-decoration: none; color: #ffffff;" href=
+"http://info.rapid7.com/VYNg0004nc0T200Kl4MMqQ0"
+>View Now</a></span></strong></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 10x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;"><span style="font-family: arial, helvetica, sans-serif;">[Tech Workshop] <a href=
+"http://info.rapid7.com/kK0hl0Q00nM02N4MYc0r40T"
+>Hands On Tech Workshop Series</a></span></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px; font-family: Helvetica, Arial, sans-serif; color: #000000;">
+<p style="color: #000000; font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 14px; line-height: 22px; font-family: arial, helvetica, sans-serif;">Downloaded our trial license? Interested to learn how you can fully maximize the features of Nexpose, Metasploit or Appspider? Then join us in our April hands-on tech workshop at one of the following locations:</span></p>
+<p><span style="font-family: arial, helvetica,    sans-serif;"><span style="font-size: 14px; line-height: 22px;">Registration open now!</span></span></p>
+<p><span style="font-family: arial, helvetica,    sans-serif;"><span style="font-size: 14px; line-height: 22px;">5-7 April - Malaysia [<a href=
+"http://info.rapid7.com/kK0hl0Q00nM02N4MYc0r40T"
+>Register</a>]<br />8 April - Hong Kong [<a href=
+"http://info.rapid7.com/r40s0T2n0NilYQKcM00M040"
+>Register</a>]<br />15 April - Hong Kong [<a  href=
+"http://info.rapid7.com/jMjN0c2lK004Y0MQT4t0n00"
+>Register</a>]<br />18-19 April - Sydney [<a href=
+"http://info.rapid7.com/r40u0T2n0NklYQKcM00M040"
+>Register</a>]<br />26-28 April - Indonesia [<a href=
+"http://info.rapid7.com/r40v0T2n0NllYQKcM00M040"
+>Register</a>]</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc; font-family: Arial, Helvetica, sans-serif;" bgcolor="#FFFFFF">
+<h2 style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="line-height: 18px;">Rapid7 in the Press!</span></strong></span></h2>
+<ul>
+<li><a href=
+"http://info.rapid7.com/UMmM04T0lN0K4n02cQ000wY"
+>Rapid7 InsightIDR reduces time&nbsp;</a>- Global Banking and Finance</li>
+<li><a href=
+"http://info.rapid7.com/jMnN0c2lK004Y0MQT4x0n00"
+>POS Hackers caught scanning for simple passwords</a>&nbsp;- Infosecurity Magazine</li>
+<li><a href=
+"http://info.rapid7.com/JN2lKM0ycT0QonY04M00040"
+>Has Google got stagefright regarding OTA Android security updates?</a>&nbsp;- SC Magazine</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2><span style="font-family: arial, helvetica, sans-serif;"><a name="Security Alert"></a><strong>Security Alert</strong></span></h2>
+<p><span style="font-family: arial, helvetica, sans-serif;"><strong><a href=
+"http://info.rapid7.com/K00M4KN00lnz2p4YM0cQ0T0"
+>Update Tuesday, March 2016</a></strong></span></p>
+<div><span style="font-family: arial, helvetica, sans-serif;">March continues this quarter&rsquo;s trend with the majority of bulletins (8) addressing remote code execution (RCE) vulnerabilities; the remaining address elevation of privilege (4) and security feature bypass.
+                       All of the critical bulletins are remote code execution issues affecting a variety of products and platforms including Edge, Internet Explorer, Office, Office for Mac, Office Web Apps, SharePoint and releases of Microsoft Windows (Client and Server)...
+             <a href=
+"http://info.rapid7.com/K00M4KN00lnz2p4YM0cQ0T0"
+>(read more)</a></span></div>
+<div><span style="font-family: arial, helvetica, sans-serif;"><br /></span></div>
+<div><span style="font-family: arial, helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/K00M4KN00lnz2p4YM0cQ0T0"
+>Resolved Vulnerability Reference</a>.</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="48%" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><span style="font-family: arial, helvetica, sans-serif;"><strong>FREE PRODUCT DEMOS</strong></span></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #ffffff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #000000;"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/X4l0MqN0Q000Tn4YM02cKA0"
+>&nbsp; </a><span style="font-size: 
+12px;"><a href=
+"http://info.rapid7.com/X4l0MrN0Q000Tn4YM02cKB0"
+>Metasploit Product Demo</a></span></span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; line-height: 22px; color: #000000;"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/kK0sl0Q00nM02N4MYc0C40T"
+>&nbsp; </a><a  href=
+"http://info.rapid7.com/VYNt0004nc0T200Kl4MMDQ0"
+>InsightIDR Product Demo</a></span><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; line-height: 22px; color: #000000;"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/ycnKYMMQ040lTNE04u00020"
+>&nbsp; </a><a href=
+"http://info.rapid7.com/GcN0Tn20Yv4FK04l0000MQM"
+>Nexpose&nbsp;Product    
+                        Demo</a></span><br /><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 12px; line-height: 22px;">&nbsp; <a href=
+"http://info.rapid7.com/hlMcG4N00K000M4nQ020TwY"
+>Appspider Product Demo</a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="48%" align="right">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><span style="font-family: arial, helvetica, sans-serif;"><strong>CONNECT WITH RAPID7</strong></span></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/LM42TN00c0Hn0KxYM0l040Q"
+><img style="vertical-align: middle; margin-right: 6px;" 
+src="http://information.rapid7.com/rs/rapid7/images/community.gif" alt="Join the Community" />&nbsp;&nbsp;<span style="color: #0197b8;">Join the Community</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/jMyN0c2lK004Y0MQT4I0n00"
+><img style="vertical-align: middle; margin-right: 12px;" 
+src="http://information.rapid7.com/rs/rapid7/images/twitter.gif" alt="Follow          us          on                                                    Twitter" />&nbsp;            &nbsp;<span style="color: #0197b8;">Follow us on Twitter</span></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"><a style="text-decoration: none;"  href=
+"http://info.rapid7.com/o02JQ00zn00cMK04YTN4Ml0"
+><img style="vertical-align: middle; margin-right: 8px;" src="http://information.rapid7.com/rs/rapid7/images/contact.gif" alt="Contact Us" />&nbsp;&nbsp;</a>&nbsp;<span style="color: #0197b8;"><a href=
+"http://info.rapid7.com/qcTK040YlA0Q4n02N0MK00M"
+>Contact Us</a></span></span><br /><span style="font-family: arial, helvetica, sans-serif;"><a style="font-family: 
+arial,   &#10;                      helvetica,  sans-serif; line-height: 22px;" href=
+"http://info.rapid7.com/LM42TN00c0Hn0KxYM0l040Q"
+><img src="http://information.rapid7.com/rs/rapid7/images/community.gif" alt="Join the Community" /></a><span style="line-height: 22px;"><span style="color: #ffffff;">&nbsp;    &nbsp;</span><span style="color: #0197b8;"><a  href=
+"http://info.rapid7.com/DKL400B0TNY00n0clQ2M04M"
+>Free Tools</a></span></span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding: 5px 0;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#333333">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="45%" align="left">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #cccccc; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; line-height: 14px; padding: 20px;" valign="top"><span style="font-family: arial, helvetica, sans-serif;">&copy; 2016 Rapid7, All Rights Reserved.</span><br /><span style="font-family: arial, helvetica, sans-serif;"> APAC HQ</span><br /><span style="font-family: arial, helvetica, 
+&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;sans-serif;">51 Cuppage Road, StarHub Centre, #06-06 Singapore 229469</span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a style="color: #cccccc; text-decoration: underline;" href=
+"http://info.rapid7.com/b00004NlnKM0TMcC020MY4Q"
+>www.rapid7.com</a></span><br /></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="40%" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 15px; color: #fff; font-weight: normal; font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif; line-height: 20px; vertical-align: top; text-align: right; padding: 20px;" valign="top"><span style="font-family: arial, helvetica, sans-serif;"><a href=
+"http://info.rapid7.com/X4l0MDN0Q000Tn4YM02cKN0"
+><img title="RSS Feed" 
+src="http://information.rapid7.com/rs/rapid7/images/rss-footer.gif" border="0" alt="RSS Feed" /></a> <a href=
+"http://info.rapid7.com/jMyN0c2lK004Y0MQT4I0n00"
+><img title="Twitter" src="http://information.rapid7.com/rs/rapid7/images/twitter-footer.gif" border="0" alt="Twitter" /></a> <a href=
+"http://info.rapid7.com/LM42TN00c0Hn0KxYM0l040Q"
+><img title="Rapid7 Community" 
+src="http://information.rapid7.com/rs/rapid7/images/community-footer.gif" border="0" alt="Rapid7 Community" /></a> <a href=
+"http://info.rapid7.com/qcTK040YlA0Q4n02N0MK00M"
+><img title="Email Rapid7" src="http://information.rapid7.com/rs/rapid7/images/mail-footer.gif" border="0" alt="Email Rapid7" /></a></span><br /><span style="font-family: arial, helvetica, sans-serif;"> <a href=
+"http://info.rapid7.com/b00004NlnKM0TMcC020MY4Q"
+><img 
+src="http://information.rapid7.com/rs/rapid7/images/r7-logo-small.gif" border="0" alt="Rapid7  Home Page" /></a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: arial, helvetica, sans-serif;"><!-- End Wrapper --></span></p>
+</div>
+</div>
+
+<img src="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6OTk5NDoxNTU3MDozMTkyNjowOjExNDg4Ojc6MTE0MTU5Mjpqb3NlcGhAZHV6b24uY29t" width="1" height="1" style="display:none !important;" alt="" />
+
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" >
+	<tbody>
+    	<tr>
+        	<td class="center">
+            	<p style="font-size: 10px; color: #000000; font-family: Arial, Helvetica, sans-serif; padding: 20px;">If you no longer wish to receive these emails or wish to update your email preferences, click on the following link: <a href=
+"http://info.rapid7.com/u/hlMcP4N00K000M4nQ020TFY"
+>Unsubscribe & Preference Center</a></p>
+            </td>
+        </tr>
+	</tbody>
+</table>
+</body>
+</html>
+------=_Part_-1824538904_1351713837.1458702384399--
+

@@ -1,0 +1,189 @@
+Received: (qmail 9850 invoked by uid 100); 5 Apr 2016 02:20:27 -0000
+Received: from 10.114.29.98 (HELO crcvmail03.wmail.naver.com) (10.114.29.98)
+  by cmda02.wmail.naver.com with SMTP;5 Apr 2016 02:20:27 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+Received: from  (mail.duzon.com [202.167.215.64])
+  by crcvmail03.wmail.naver.com with ESMTP id gMzX8NN0QvyGo3oy-rNZ5w
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 05 Apr 2016 02:20:27 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u352ImA005B6;
+	Tue, 05 Apr 2016 11:18:48 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u352ImA005B6
+X-SmartFilter: FROM,u352ImA005B6,joseph@duzon.com
+x-forward-id: 1459822590718_935649226
+recvDate: Tue, 05 Apr 2016 11:16:30 +0900
+x-newturns-hashkey: 3c3ffe726d774e77c37994a81cd111b3506c369bae9a88f79974553790014a42
+Received: from external ([209.85.218.50])
+	by smf.duzon.com (1.0) id u352Icu005A8;
+	Tue, 05 Apr 2016 11:18:39 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u352Icu005A8
+X-SmartFilter: FROM,u352Icu005A8,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-oi0-f50.google.com with SMTP id w85so305249oiw.0
+        for <joseph@duzon.com>; Mon, 04 Apr 2016 19:20:10 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :recvdate:subject:to:from:reply-to:errors-to:mime-version:date
+         :message-id:importance:organization:content-transfer-encoding;
+        bh=OsUTQiG2k1vaeoA/UQMikAPu55rUn+kgPQWJB96w5ow=;
+        b=Sz4n0sLGUfrDuck6kp9YCm9FD4wIV+wA9JpFBfCDne20UJUR2sPpMcUSRfbSFxZM3y
+         D82mckWHjyQFhAK9i9Hc4iGIriO2Y6GlpQJV6SWI+nOc0SVfOMdAwxiOpcaTw1jh907/
+         5v1VGIl00jbmbPxkZoGW4DbDitGfsa5EUWoA2omYWXtiKmQp5jkIoeq9Tn7/F2/lwn68
+         N+HJeAfayNX8M7czdzvsaFw4mqaymlv0JHy8OkTHgfE4F3qrG1Q14EXpfMvHNX0Y0zD6
+         ZJz9BYrBKBLogTwJuccokGND98CF9VbvZPL7vK26+OUKiBM34aIl5/su1+P85zzPSc8D
+         ++gQ==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AD7BkJIVPPy3zeEzSJoHkeg/n/a0iAMiPRHteseNqO46aS53E5yfYjciiw7HyqPESjwIyBvEfgwFlgZwHOEPJnAslWEOJns=
+X-Received: by 10.157.37.61 with SMTP id k58mr7791790otb.42.1459822809494;
+        Mon, 04 Apr 2016 19:20:09 -0700 (PDT)
+X-Forwarded-To: hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com hoyong_kim@duzon.com, yf111@duzon.com, yourock@duzon.com, jsham@duzon.com, ysm@duzon.com, joseph@duzon.com, ihbark@duzon.com, seonho1987@duzon.com, soohee@duzon.com, pch88@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, yja2014@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.157.14.6 with SMTP id c6csp130757otc;
+        Mon, 4 Apr 2016 19:20:08 -0700 (PDT)
+X-Received: by 10.66.54.205 with SMTP id l13mr9751189pap.66.1459822808733;
+        Mon, 04 Apr 2016 19:20:08 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id e5si45506123pfb.36.2016.04.04.19.20.08
+        for <forensic.duzon@gmail.com>;
+        Mon, 04 Apr 2016 19:20:08 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id u352IYl0059F;
+	Tue, 05 Apr 2016 11:18:34 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u352IYl0059F
+X-SmartFilter: FROM,u352IYl0059F,forensic@duzon.com
+x-forward-id: 1459822577071_2433444502
+recvDate: Tue, 05 Apr 2016 11:16:17 +0900
+x-newturns-hashkey: 1c7b0799cc5c83e5a97a255e629a0e4978b8a21ccb27e014a313ee44fa03a21d
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id u352IMT0058D;
+	Tue, 05 Apr 2016 11:18:22 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u352IMT0058D
+X-SmartFilter: FROM,u352IMT0058D,user29001@sendd.ozmailer.com
+Subject: =?EUC-KR?B?MjAxNrPiILW/s7K+xiBJVCC89sPixMG80r3DvvYgwvywobHivvcguPDB/SC+yLO7ICg=?=
+	=?EUC-KR?B?fjQuMTKx7sH2KQ==?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?waTBvryu?=" <jongsuk2@fkii.org>
+Reply-To: <jongsuk2@fkii.org>
+Errors-To: <jongsuk2@fkii.org>
+MIME-Version: 1.0
+Date: Tue, 05 Apr 2016 11:19:53 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1972352@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: wm+n+6J4p635WrlY7BwdpBmmKoUmKo+YkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7166161" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>2016년 동남아 IT 수출컨소시엄 참가기업 모집 안내 (~4.12까지)</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='left'><tr><td><!-- OZ_AlignTopEnd -->
+<p></p><p><span style="font-size: 11pt;">귀사의 무궁한 발전을 기원합니다.</span><br><span style="font-size: 11pt;">한국정보산업연합회는 중소기업청 무역촉진단사업의 일환으로 동남아 IT 수출컨소시엄을 구성하여 </span><br><span style="font-size: 11pt;">전략적인 공동마케팅 수행을 통한 성공적인 시장진출을 도모하고자 『2016년 동남아 IT 수출컨소시엄』의 </span><br><span style="font-size: 11pt;">참가업체를 모집하오니, 많은 관심과 참여 바랍니다.<br></span><br></p><p><span style="font-size: 11pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - 다&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 음 - <br></span><br></p><p><span style="font-size: 11pt;">1. 컨소시엄 개요</span><br><span style="font-size: 11pt;">&nbsp; 가. 컨소시엄명 : 2016년 동남아 IT 수출컨소시엄 </span><br><spa!
+ n style="font-size: 11pt;">&nbsp; 나. 사업기간 : 2016년 5월 ~ 12월 (8개월간)</span><br><span style="font-size: 11pt;">&nbsp; 다. 진출지역 : 인도네시아(자카르타), 베트남(하노이)</span><br><span style="font-size: 11pt;">&nbsp; 라. 대상품목 : 소프트웨어, 컴퓨터시스템</span><br><span style="font-size: 11pt;">&nbsp; 마. 참가규모 : 국내 중소 IT 및 SW기업 10개사 이내</span><br><span style="font-size: 11pt;">&nbsp; 바. 참가기업 지원내용 : 사전마케팅, 현지활동, 사후마케팅 등&nbsp;</span><span style="font-size: 11pt;">(세부 내용은 첨부파일 참고)<br><br></span><span style="font-size: 11pt;">2. 신청 및 문의</span><br><span style="font-size: 11pt;">&nbsp; 가. 신청기간 : 2016년 4월 12일까지&nbsp;</span><br><span style="font-size: 11pt;">&nbsp; 나. 문의 : 한국정보산업연합회 정종석 책임</span><br><span style="font-size: 11pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Tel: 02-2132-0722, Email: </span><a href="mailto:jongsuk2@fkii.org"><span style="font-size: 11pt;!
+ ">jongsuk2@fkii.org</span></a><span style="font-size: 11pt;">)<br></sp
+an>&nbsp;<br></p><p><strong><span style="font-size: 11pt;">&lt;다운로드 파일&gt;</span></strong>&nbsp;</p><p><strong><span style="font-size: 11pt;">&#65279;</span></strong><a href="http://www.ozmailer.com/oele/downLoad.php?fileNo=1467626&amp;mail_no=7166161&amp;email=forensic@duzon.com"><strong><span style="font-size: 11pt;">2016 동남아 IT수출컨소시엄 참가안내문.hwp</span></strong></a>&nbsp;</p><p><a href="http://www.ozmailer.com/oele/downLoad.php?fileNo=1467627&amp;mail_no=7166161&amp;email=forensic@duzon.com"><strong><span style="font-size: 11pt;">2016 동남아 IT수출컨소시엄 참가신청서.hwp</span></strong></a><br></p><p><br></p><p><br></p><p><br></p>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>한국정보산업연합회는 수신을 동의한 분들에 한 해 메일링 하고 있습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7166161&En=1' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_eng.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

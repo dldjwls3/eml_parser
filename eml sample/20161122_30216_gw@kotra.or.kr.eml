@@ -1,0 +1,298 @@
+Received: (qmail 517 invoked by uid 100); 22 Nov 2016 08:05:45 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda003.wmail.worksmobile.com with SMTP;22 Nov 2016 08:05:45 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from  (mail.duzon.kr [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id siH3AoJdQQiYI5tneDg70w
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 22 Nov 2016 08:05:45 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAM87v80049C;
+	Tue, 22 Nov 2016 17:07:57 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAM87v80049C
+X-SmartFilter: FROM,uAM87v80049C,joseph@duzon.com
+x-forward-id: <5833fc42.d52a620a.8ff1b.425dSMTPIN_ADDED_BROKEN@mx.google.com>
+Received: from external ([209.85.213.48])
+	by smf.duzon.co.kr (1.0) id uAM87sv00491;
+	Tue, 22 Nov 2016 17:07:55 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAM87sv00491
+X-SmartFilter: FROM,uAM87sv00491,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f48.google.com with SMTP id 137so7530912vkl.0
+        for <joseph@duzon.com>; Tue, 22 Nov 2016 00:05:24 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:mime-version:date:content-transfer-encoding:subject:from
+         :to:reply-to;
+        bh=FG/xdYrhpeHOhpxDP4VmKNfUuxoNPYjjs347Yqpl0Fo=;
+        b=e0k5ZriycVJCsHq/lXLpwyNhysr4PkNwpEurya3/7xuGOxtJmoFG7vhd5vCopi2n09
+         74J6fRSCodB56q7q72gth0+lGiievtWlGVUEcNtJm83iBZt8crFzu5lgk3kcgf5fnZkz
+         S6DRQFsKXQE1kT3UnwfBeOWTfZqcaIOrwRD2wVqnM568ehWRhBYHP4QzjeyOWPx5Dk+S
+         ZJqWzla8LoWnFUAIY/f0eH2yKE0roIGj3zCj+kwnbGqvEeEZivnyKJmNCEocC+5wnZVY
+         EaRI9p9AY98DVC+Xbe2HOSVfEyOrZUsKDTo9IhjA+ZrY6SIfxzLQFyEzbUIoYt3rjlPj
+         +/cQ==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AKaTC02OVTsF/rCE6SAboW13cVm1qZSXegNSvBz6zLWsLlqlvvn3DGo0HUBxXN6kDH3DjICZvVala650S92z1btpr52qVFc=
+X-Received: by 10.31.93.193 with SMTP id r184mr7366883vkb.159.1479801923839;
+        Tue, 22 Nov 2016 00:05:23 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp2081215vsa;
+        Tue, 22 Nov 2016 00:05:22 -0800 (PST)
+X-Received: by 10.99.174.4 with SMTP id q4mr41193908pgf.178.1479801922491;
+        Tue, 22 Nov 2016 00:05:22 -0800 (PST)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id q204si27163937pfq.242.2016.11.22.00.05.21
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 22 Nov 2016 00:05:22 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Message-ID: <5833fc42.d52a620a.8ff1b.425dSMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_14488_20654_1_2384_0_20161122170513_210.223.88.35>
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uAM87jl00487;
+	Tue, 22 Nov 2016 17:07:45 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAM87jl00487
+X-SmartFilter: FROM,uAM87jl00487,forensic@duzon.com
+x-forward-id: <IWNID_14488_20654_1_2384_0_20161122170513_210.223.88.35>
+Received: from external ([210.223.88.35])
+	by smf.duzon.co.kr (1.0) id uAM87ei00484;
+	Tue, 22 Nov 2016 17:07:40 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uAM87ei00484
+X-SmartFilter: FROM,uAM87ei00484,14488_1_20654_forensic_duzon.com@academymail.kotra.or.kr
+MIME-Version: 1.0
+Date: Tue, 22 Nov 2016 17:05:13 +0900
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?UTF-8?B?W0tPVFJBXSDigJjrs4DtmZTsnZgg7YyM64+E66W8IO2Wpe2VtCA=?=
+	=?UTF-8?B?64W466W8IOyggOyWtOudvCAyMDE3IEtPVFJBIOumrO2PrA==?=
+	=?UTF-8?B?7Yq44oCZIOuwnOqwhA==?=
+From: =?UTF-8?B?S09UUkE=?=<gw@kotra.or.kr>
+To: =?UTF-8?B?7Jyg7KeE7JWE?=<forensic@duzon.com>
+Reply-To: =?UTF-8?B?S09UUkE=?=<gw@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+X-Naver-ESV: wZRn+6J4p635WrlY7BwdpBmmaAg9FAkYkXm=
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><!--KOTRA_NEWSLETTER-->
+<div><!-- top -->
+<p style="padding-left: 10px"><xmeta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" name="viewport"></xmeta></p>
+<!--// top -->
+<div style="max-width: 700px; border-top: #dbdcd7 1px solid; border-right: #dbdcd7 1px solid; min-width: 300px; border-bottom: #dbdcd7 1px solid; margin: auto; border-left: #dbdcd7 1px solid"><!-- NEWSLETTER_TITLE -->
+<div style="border-top: #058ed3 10px solid; border-bottom: #058ed3 10px solid; color: #fff">
+<div align="center"><a target="_blank" style="text-decoration: none; color: #142c4d" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=1&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/newsLetter/kotranews/59/usrGwNewsLetterList.do"><img border="0" style="max-width: 100%" alt="" src="http://news.kotra.or.kr/site/kotranews/images/weburl/2016/11/newletter_title_20161101.png" /> <!--<strong>KOTRA NEWSLETTER</strong> NO. 01--></a></div>
+</div>
+<!--// NEWSLETTER_TITLE --><!-- NEWSLETTER_TOP -->
+<div style="padding-bottom: 10px; padding-top: 20px; padding-left: 20px; padding-right: 20px">
+<div style="float: left"><!-- <a href="#" target=_blank>
+              <img src="http://www.kotra.or.kr/images/upload/webedit/images/000071/20150710101845638_7C06J914.jpg" border="0" width="112" height="42" />
+            </a> --></div>
+<div style="font-size: 12px; font-family: '맑은 고딕'; float: right; color: #5f6062"><span style="font-size: 12px; font-family: '맑은 고딕'; float: right; color: #5f6062"><b>Vol.249&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016.11.22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" style="text-decoration: none; color: #142c4d" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=2&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/">www.kotra.or.kr</a></b></span></div>
+</div>
+<!--// NEWSLETTER_TOP --><!-- NEWSLETTER_CONTENTS --><!-- 통상전략팀 시작 -->
+<div style="margin-left: 5px; margin-top: 5px; margin-right: 5px"><!-- TITLE -->
+<div style="font-size: 15px; text-decoration: none; border-top: #ccc 3px solid; font-family: '맑은 고딕'; background: #fff; border-bottom: #ccc 3px solid; font-weight: bold; padding-bottom: 10px; padding-top: 10px; padding-left: 20px"><a target="_blank" style="text-decoration: none; color: #142c4d" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=3&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/gw/main/GWMAIN010M.html"><b style="color: #69c7f6; padding-right: 10px">┿</b><strong>주요 무역ㆍ투자뉴스</strong> </a><a target="_blank" style="text-decoration: none" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=4&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/gw/main/GWMAIN010M.html"><img border="0" height="20" style="vertical-align: middle; padding-left: 10px" alt="" src="http://news.kotra.or.kr/sit!
+ e/mkotranews/images/common/k-logo.png" /> </a>
+<div style="float: right; padding-right: 20px"><b style="font-size: 12px; float: right; color: #69c7f6; padding-bottom: 10px">Tel: 02-3460-7508 </b></div>
+</div>
+<!--// TITLE --><!-- kotra 해외시장뉴스 배너 --><!-- a href="http://news.kotra.or.kr" target="_blank">
+                  <img src="http://news.kotra.or.kr/site/kotranews/images/weburl/2016/10/newsletter_bnaner_20161020_1.jpg" alt=""  style="max-width:100%;" border="0" />
+                </a>  
+
+<br /><br / --><!-- tel --><!-- div style="padding-top:15px;padding-right:15px;padding-bottom:15px;border-bottom:#f4f4f4 10px solid;">
+            <b style="float:right;padding-bottom:10px;font-size:12px;color:#69C7F6;">Tel: 02-3460-7508<br />
+            </b>
+          </div --><!-- SECTION -->
+<div style="border-top: #f4f4f4 8px solid; border-right: #f4f4f4 8px solid; border-bottom: #f4f4f4 5px solid; border-left: #f4f4f4 8px solid"><!-- news_1 시작 -->
+<div style="border-bottom: #f4f4f4 10px solid; padding-bottom: 10px; padding-top: 10px; padding-left: 10px; padding-right: 10px">
+<div style="clear: both">
+<div style="float: left; padding-right: 20px"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=5&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/about/KHKICP020M.html?ARTICLE_ID=3010918&amp;RowCountPerPage=10&amp;Page=1&amp;SEARCH_TYPE=SJCN&amp;SEARCH_VALUE=&amp;MENU_CD=F0138&amp;TOP_MENU_CD=F0104&amp;LEFT_MENU_CD=F0138&amp;PARENT_MENU_CD=F0117"><img border="0" alt="2017 KOTRA 리포트" width="119" height="77" src="http://news.kotra.or.kr/site/kotranews/images/weburl/2016/11/newsletter_20161122.png" /></a></div>
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.05em; line-height: 1.4em"><a target="_&quot;blank&quot;" style="text-decoration: none; color: #131212" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=6&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/about/KHKICP020M.html?ARTICLE_ID=3010918&amp;RowCountPerPage=10&amp;Page=1&amp;SEARCH_TYPE=SJCN&amp;SEARCH_VALUE=&amp;MENU_CD=F0138&amp;TOP_MENU_CD=F0104&amp;LEFT_MENU_CD=F0138&amp;PARENT_MENU_CD=F0117"><b style="font-size: 17px">2017 KOTRA 리포트</b> <br />
+<br />
+2017년 세계시장의 변화와 기회를 다룬 책, &lsquo;2017 KOTRA 리포트&rsquo;가 발간됐다. 세계시장을 전망하기 위해 KOTRA가 5년째 시리즈로 발간하고 있는 이 책은 △ CHANGE 변하지 않는 것은 없다 △ CHANCE 위기를 알아야 기회가 보인다 △ CHOICE 시장에 맡길 것인가 시장을 선택할 것인가 등&middot;&middot;&middot;</a>&nbsp;</div>
+</div>
+</div>
+<!-- news_1 종료 --><!-- news_2 시작 -->
+<div style="border-bottom: #f4f4f4 10px solid; padding-bottom: 10px; padding-top: 10px; padding-left: 10px; padding-right: 10px">
+<div style="clear: both">
+<div style="float: left; padding-right: 20px"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=7&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalBbs/kotranews/7/globalBbsDataView.do?setIdx=245&amp;dataIdx=155468"><img border="0" alt="이스라엘, 마스크팩 매력에 빠지다" width="119" height="77" src="http://news.kotra.or.kr/site/kotranews/upload/mainView/mainView_20161121180614_839ab46820b524afda05122893c2fe8e.PNG" /> </a></div>
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.05em; line-height: 1.4em"><a target="_&quot;blank&quot;" style="text-decoration: none; color: #131212" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=8&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalBbs/kotranews/7/globalBbsDataView.do?setIdx=245&amp;dataIdx=155468"><b style="font-size: 17px">이스라엘, 마스크팩 매력에 빠지다</b> <br />
+<br />
+최근 이스라엘에서 마스크팩이 인기몰이 중이다. 한국의 대이스라엘 화장품 수출 규모는 낮은 편이나 최근 마스크팩 수요가 증가하고 있어 국내 업체들의 이스라엘 시장&middot;&middot;&middot;</a>&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=9&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalBbs/mkotranews/170/globalBbsDataMobileView.do?setIdx=245&amp;dataIdx=155468"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a></div>
+</div>
+</div>
+<!-- news_2 종료 --><!-- news_list 시작 -->
+<div style="border-bottom: #f4f4f4 10px solid; padding-bottom: 8px; padding-top: 8px; padding-left: 8px; padding-right: 8px">
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.06em; line-height: 2em">
+<ul style="list-style-type: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; list-style-image: none; padding-right: 0px">
+    <li style="list-style-type: none; padding-bottom: 5px"><a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=10&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?dataIdx=155441&amp;column=title&amp;search=&amp;searchAreaCd=10007&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px">ㆍ[무역관 르포] 전설의 게임 &lsquo;World of Tanks&rsquo;를 개발한 나라, 벨라루스</b></a> &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=11&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobi!
+ leView.do?dataIdx=155441&amp;column=title&amp;search=&amp;searchAreaCd=10007&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a><br />
+    <a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=12&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?dataIdx=155324&amp;column=title&amp;search=&amp;searchAreaCd=10001&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px">ㆍ美 전통 약초제품 시장 동향</b></a> &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=13&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dataIdx=155324&amp;column=title&amp;search=&amp;searchAreaCd=10001&amp;searchNationCd=&amp;searchTradeCd=&!
+ amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a><br />
+    <a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=14&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?dataIdx=155514&amp;column=title&amp;search=&amp;searchAreaCd=10006&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px">ㆍ미얀마 농기계 수입 급증, 5년새 5배 증가</b></a> &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=15&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dataIdx=155514&amp;column=title&amp;search=&amp;searchAreaCd=10006&amp;searchNationCd=&am!
+ p;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a><br />
+    <a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=16&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?dataIdx=155463&amp;column=title&amp;search=&amp;searchAreaCd=10012&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px">ㆍ콩고 경제 침체 심각</b></a> &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=17&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dataIdx=155463&amp;column=title&amp;search=&amp;searchAreaCd=10012&amp;searchNationCd=&amp;searchTradeCd=&amp;search!
+ StartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a><br />
+    <a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=18&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?dataIdx=155474&amp;column=title&amp;search=&amp;searchAreaCd=10003&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px">ㆍ[무역관 르포] 스웨덴 보일러시장 진출 시 에너지라벨은 필수</b></a> &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=19&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dataIdx=155474&amp;column=title&amp;search=&amp;searchAreaCd=1!
+ 0003&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a><br />
+    <a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=20&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?dataIdx=155469&amp;column=title&amp;search=&amp;searchAreaCd=10002&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px">ㆍ日, 소비심리 위축에 따른 기업들의 생존전략은?</b></a> &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=21&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dataIdx=155469&amp;column=title&amp;search=&amp;searchAreaCd=10002&amp;searchNa!
+ tionCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a><br />
+    <a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=22&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?dataIdx=155467&amp;column=title&amp;search=&amp;searchAreaCd=10004&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px">ㆍ2016년 中 자동차부품 시장 현황 및 전망</b></a> &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=23&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dataIdx=155467&amp;column=title&amp;search=&amp;searchAreaCd=10004&amp;searchNationCd=&amp;!
+ searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a><br />
+    <a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=24&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?dataIdx=155325&amp;column=title&amp;search=&amp;searchAreaCd=10005&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px">ㆍ파나마, 의료 애플리케이션 열풍</b></a> &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=25&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dataIdx=155325&amp;column=title&amp;search=&amp;searchAreaCd=10005&amp;searchNationCd=&amp;searchTra!
+ deCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a><br />
+    <a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=26&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalAllBbs/kotranews/album/2/globalBbsDataAllView.do?dataIdx=155410&amp;column=title&amp;search=&amp;searchAreaCd=10008&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px">ㆍ터키 조세사면법, 신고기한 11월 25일로 연장</b></a> &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=27&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/mobileAllBbs/mkotranews/165/globalBbsDataAllMobileView.do?dataIdx=155410&amp;column=title&amp;search=&amp;searchAreaCd=10008&amp;searchNationCd!
+ =&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=10"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- news_list 종료 --><!-- 포토뉴스 시작 -->
+<div style="border-bottom: #f4f4f4 10px solid; padding-bottom: 10px; padding-top: 10px; padding-left: 10px; padding-right: 10px">
+<div style="clear: both">
+<div style="float: left; padding-right: 20px"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=28&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalBbs/kotranews/36/globalBbsDataView.do?setIdx=261&amp;dataIdx=155606&amp;column=&amp;search=&amp;searchAreaCd=&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=16"><img border="0" alt="[포토뉴스] K-Goods Showcase / 화상 상담회" width="119" height="77" src="http://news.kotra.or.kr/site/kotranews/upload/globalBbs/261/thumb_20161118134535_c0e190d8267e36708f955d7ab048990d.png" /> </a></div>
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.05em; line-height: 1.4em"><a target="_&quot;blank&quot;" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=29&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalBbs/kotranews/36/globalBbsDataView.do?setIdx=261&amp;dataIdx=155606&amp;column=&amp;search=&amp;searchAreaCd=&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=16"><b style="font-size: 15px">[포토뉴스] K-Goods Showcase / 화상 상담회</b><br />
+<br />
+창사 무역관은 2016년 11월 9~11일 &lsquo;K-Goods Showcase 화상 상담회&rsquo;를 개최했다. 유망기업 제품 샘플 홍보관을 운영해 심층상담을 희망하는 바이어들과 사이버 상담회를 개최했다. 이번 상담회에는 식품 11개사, 화장품 14개사, 생활용품 19개사 등 총 44개 한국 기업이 참여했으며 신규수출기업 ... </a>&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=30&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/globalBbs/mkotranews/175/globalBbsDataMobileView.do?setIdx=261&amp;dataIdx=155606&amp;column=&amp;search=&amp;searchAreaCd=&amp;searchNationCd=&amp;searchTradeCd=&amp;searchStartDate=&amp;searchEndDate=&amp;searchCategoryIdxs=&amp;searchIndustryCateIdx=&amp;page=1&amp;row=16"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a>
+<p></p>
+</div>
+</div>
+</div>
+<!-- 포토뉴스 종료 --><!-- 신규보고서 시작 -->
+<div style="border-bottom: #f4f4f4 10px solid; padding-bottom: 10px; padding-top: 10px; padding-left: 10px; padding-right: 10px">
+<div style="clear: both">
+<div style="float: left; padding-right: 20px"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=31&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/reports/kotranews/20/usrReportsView.do?page=1&amp;reportsIdx=6674&amp;orderByType=image&amp;searchStartDate=&amp;searchEndDate=&amp;searchReportGbn=title&amp;searchText=&amp;searchAreaCd=&amp;searchIndustryCateIdx=&amp;CSRFToken=79eec866-ddc6-4354-9059-e969d5fe41ce"><img border="0" alt="[신규보고서] 2017 해외시장 진출 호&middot;부진 품목 : 국가 및 무역관별 HS 색인별" width="119" height="77" src="http://news.kotra.or.kr/site/kotranews/upload/reports/20161117172544_1479345982908.JPG" /> </a></div>
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.05em; line-height: 1.4em"><a target="_&quot;blank&quot;" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=32&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/reports/kotranews/20/usrReportsView.do?page=1&amp;reportsIdx=6674&amp;orderByType=image&amp;searchStartDate=&amp;searchEndDate=&amp;searchReportGbn=title&amp;searchText=&amp;searchAreaCd=&amp;searchIndustryCateIdx=&amp;CSRFToken=79eec866-ddc6-4354-9059-e969d5fe41ce"><b style="font-size: 15px">[신규보고서] 2017 해외시장 진출 호&middot;부진 품목 : 국가 및 무역관별 HS 색인별</b><br />
+<br />
+해외무역관이 현지 시장에서 수출이 유망할 것으로 예상하는 중소기업형 품목을 HS 6단위로 세분화하여 추천하는 한편, 부진품목 또는 수입제한품목을 게재함으로써 우리 중소기업들이 해외마케팅 계획을 수립할 때 도움을 주기 위하여 작성되었다. ... </a>&nbsp;<a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=33&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://news.kotra.or.kr/user/reports/mkotranews/163/mobileReportsView.do?reportsIdx=6674"><b style="font-size: 13px; color: #1d76bc">[모바일]</b></a>
+<p></p>
+</div>
+</div>
+</div>
+<!-- 신규보고서 종료 --><!-- 통상전략팀 끝 --><!-- 성과확산팀 시작-->
+<div style="margin-top: 18px"><!-- TITLE -->
+<div style="font-size: 15px; text-decoration: none; border-top: #ccc 3px solid; font-family: '맑은 고딕'; background: #fff; border-bottom: #ccc 3px solid; font-weight: bold; padding-bottom: 10px; padding-top: 10px; padding-left: 20px"><a target="_blank" style="text-decoration: none; color: #142c4d" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=34&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/"><b style="color: #69c7f6; padding-right: 10px">┿</b><strong>알고보면 쉬운 정상외교</strong> </a><img border="0" height="20" style="vertical-align: middle; padding-left: 10px" alt="" src="http://president.globalwindow.org/bzguide/images/288/logo_02.PNG" />
+<div style="float: right; padding-right: 20px"><b style="font-size: 12px; float: right; color: #69c7f6; padding-bottom: 10px">Tel: 02-3460-3285 </b></div>
+</div>
+<!--// TITLE --><!-- tel --><!-- div style="padding-top:15px;padding-right:15px;padding-bottom:25px;border-bottom:#f4f4f4 1px solid;">
+            <b style="float:right;font-size:12px;color:#69C7F6;">Tel:&nbsp02-3460-3285</b>
+          </div --><!-- SECTION -->
+<div style="border-top: #f4f4f4 10px solid; border-right: #f4f4f4 10px solid; border-bottom: #f4f4f4 5px solid; border-left: #f4f4f4 10px solid"><!-- news_1 -->
+<div style="border-bottom: #f4f4f4 10px solid; padding-bottom: 25px; padding-top: 15px; padding-left: 15px; padding-right: 15px">
+<div style="clear: both">
+<div style="float: left; padding-right: 20px"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=35&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.aftBiz.AftBizDetail.do?aft_biz_seq=421&amp;listUrl=kz.aftBiz.AftBizList.do&amp;order_column=&amp;order_opt=DESC&amp;=&amp;s_cnts=&amp;s_biz_start_ymd=&amp;s_biz_end_ymd=&amp;s_appl_start_ymd=&amp;s_appl_end_ymd=&amp;s_host_org_nm=&amp;s_spvs_org_nm=&amp;pageUnit=10&amp;pageIndex=1"><img border="0" alt="" width="120" height="77" src="http://president.globalwindow.org/common.ImgView.do?file_id=FILE_000000000016942" /> </a></div>
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.05em; line-height: 1.4em"><a target="_&quot;blank&quot;" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=36&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.aftBiz.AftBizDetail.do?aft_biz_seq=421&amp;listUrl=kz.aftBiz.AftBizList.do&amp;order_column=&amp;order_opt=DESC&amp;=&amp;s_cnts=&amp;s_biz_start_ymd=&amp;s_biz_end_ymd=&amp;s_appl_start_ymd=&amp;s_appl_end_ymd=&amp;s_host_org_nm=&amp;s_spvs_org_nm=&amp;pageUnit=10&amp;pageIndex=1"><b style="font-size: 13px">[지원사업] 2016 붐업코리아 설명회 및 수출상담회</b> <br />
+<br />
+KOTRA는 우리의 수출이 유망한 7개 지역의 수출 환경 점검 및 새로운 수출방식의 일환으로 기업 간 '협업'을 통한 相生형 수출과 한중 FTA 수혜품목 수출 그리고 수출애로산업 수출을 지원코자 합니다... <b>[PC보기]&nbsp;&nbsp;</b> </a><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=37&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://prapp.globalwindow.org/mobile/aftBiz/view.do?currentId=aftBiz&amp;s_cnts=&amp;s_biz_start_ymd=&amp;s_biz_end_ymd=&amp;s_appl_start_ymd=&amp;s_appl_end_ymd=&amp;s_host_org_nm=&amp;s_spvs_org_nm=&amp;aft_biz_seq=421&amp;pageIndex=1"><b style="font-size: 13px; color: #1d76bc">[모바일]</b> </a></div>
+</div>
+</div>
+<!-- news_2 -->
+<div style="border-bottom: #f4f4f4 10px solid; padding-bottom: 25px; padding-top: 15px; padding-left: 15px; padding-right: 15px">
+<div style="clear: both">
+<div style="float: left; padding-right: 20px"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=38&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/em.bsnsReview.BsnsReviewDetail.do?entr_post_seq=157&amp;formMode=&amp;searchCondition=1&amp;searchKeyword=&amp;pageUnit=10&amp;pageIndex=1"><img border="0" alt="" width="120" height="77" src="http://president.globalwindow.org/crosseditor/binary/images/000039/코비코리아비스타_1.jpg" /> </a></div>
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.05em; line-height: 1.4em"><a target="_&quot;blank&quot;" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=39&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/em.bsnsReview.BsnsReviewDetail.do?entr_post_seq=157&amp;formMode=&amp;searchCondition=1&amp;searchKeyword=&amp;pageUnit=10&amp;pageIndex=1"><b style="font-size: 13px">[참가후기] 프로젝트 참가와 블라디 제품판매를 위한 거래...</b> <br />
+<br />
+러시아 블라디보스톡 경제사절단 참가 후 현재 2개 업체와 진행중입니다. 극동 하바롭스크지역 난방공사 프로젝트 참가문의를 받았고, 블라디업체로부터는 당사 제품 블라디 판매를 위한 거래 협의... <b>[PC보기]&nbsp;&nbsp;</b> </a><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=40&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://prapp.globalwindow.org/mobile/review/view.do?entr_post_seq=157&amp;searchCondition=1&amp;searchKeyword=&amp;pageIndex=1"><b style="font-size: 13px; color: #1d76bc">[모바일]</b> </a></div>
+</div>
+</div>
+<!-- news_list -->
+<div style="border-bottom: rgb(244,244,244) 10px solid; padding-bottom: 15px; padding-top: 15px; padding-left: 30px; padding-right: 30px">
+<div style="font-size: 12px; text-decoration: none; font-family: &quot;맑은 고딕&quot;; color: rgb(85,85,85); letter-spacing: -0.06em; line-height: 2em">
+<ul style="list-style-type: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; list-style-image: none; padding-right: 0px">
+    <li style="list-style-type: none; padding-bottom: 5px; clear: both"><a target="_blank" style="text-decoration: none; color: rgb(108,108,108)" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=41&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.relateData.InDepthDataDetail.do?data_seq=301&amp;listUrl=kz.relateData.InDepthDataList.do&amp;=&amp;s_cnts=&amp;s_data_catg=&amp;pageUnit=10&amp;pageIndex=1"><b>&middot;&nbsp;[해외시장정보] 2017 해외시장 진출 호&middot;부진 품목 : 국가 및 무역관별 HS 색인별&nbsp;&nbsp;[PC보기]&nbsp;&nbsp;</b></a></li>
+    <li style="list-style-type: none; padding-bottom: 5px; clear: both"><a target="_blank" style="text-decoration: none; color: rgb(108,108,108)" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=42&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.aftBiz.AftBizDetail.do?aft_biz_seq=424&amp;listUrl=kz.aftBiz.AftBizList.do&amp;order_column=&amp;order_opt=DESC&amp;=&amp;s_cnts=&amp;s_biz_start_ymd=&amp;s_biz_end_ymd=&amp;s_appl_start_ymd=&amp;s_appl_end_ymd=&amp;s_host_org_nm=&amp;s_spvs_org_nm=&amp;pageUnit=10&amp;pageIndex=1"><b>&middot;&nbsp;[지원사업] 한중 FTA 지방경제협력 포럼 &nbsp;&nbsp;[PC보기]&nbsp;&nbsp;</b></a> <a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=43&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://prapp.globalwindow.org/mobile/aftBiz/view.do?currentId=aftBiz&amp;s_cnts=&a!
+ mp;s_biz_start_ymd=&amp;s_biz_end_ymd=&amp;s_appl_start_ymd=&amp;s_appl_end_ymd=&amp;s_host_org_nm=&amp;s_spvs_org_nm=&amp;aft_biz_seq=424&amp;pageIndex=1"><b style="font-size: 13px; color: #1d76bc">[모바일]</b> </a></li>
+    <li style="list-style-type: none; padding-bottom: 5px; clear: both"><a target="_blank" style="text-decoration: none; color: rgb(108,108,108)" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=44&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.video.VideoBoardDetail.do?noti_seq=184&amp;pageUnit=10&amp;nation_cd=&amp;listUrl=%2Fkz%2Fuseinfo%2FSiteMap.jsp&amp;mp_url=&amp;searchCondition=1&amp;searchKeyword=&amp;pageIndex=1"><b>&middot;&nbsp;[동영상정보] 한-중미 FTA 타결... 품목 95% 이상 '관세 철폐'&nbsp;&nbsp;[PC보기]&nbsp;&nbsp;</b></a> <a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=45&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://prapp.globalwindow.org/mobile/video/view.do?noti_seq=184&amp;pageIndex=1"><b style="font-size: 13px; color: #1d76bc">[모바일]</b> </a><a target="_bla!
+ nk" style="text-decoration: none; color: rgb(108,108,108)" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=46&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.rsltBiz.RsltBizDetail.do?rslt_biz_seq=316&amp;listUrl=kz.rsltBiz.RsltBizList.do&amp;order_column=&amp;order_opt=&amp;=&amp;s_cnts=&amp;s_biz_start_ymd=&amp;s_biz_end_ymd=&amp;s_host_org_nm=&amp;s_spvs_org_nm=&amp;pageUnit=10&amp;pageIndex=1"><b>&middot;&nbsp;[지원사업결과] GLABAL MOBILE VISION 2016&nbsp;&nbsp;[PC보기]&nbsp;&nbsp;</b></a> <a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=47&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://prapp.globalwindow.org/mobile/rsltBiz/view.do?currentId=rsltBiz&amp;s_nation_type=&amp;relate_nation_cd=&amp;s_cnts=&amp;s_biz_start_ymd=&amp;s_biz_end_ymd=&amp;s_host_org_nm=&amp;s_spvs_org_nm=&amp;rslt_biz_!
+ seq=316&amp;pageIndex=1"><b style="font-size: 13px; color: #1d76bc">[모바일]</b> </a></li>
+    <li style="list-style-type: none; padding-bottom: 5px; clear: both"></li>
+</ul>
+</div>
+</div>
+<!-- news_3 -->
+<div style="border-bottom: #f4f4f4 10px solid; padding-bottom: 0px; padding-top: 0px; padding-left: 15px; padding-right: 15px">
+<div align="center"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=48&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/kz.notice.NoticeInfoDetail.do?news_bner_seq=273&amp;listUrl=kz.notice.NoticeInfoList.do&amp;s_cnts=1&amp;searchKeyword=&amp;pageUnit=10&amp;pageIndex=1"><img alt="정상외교 활용앱 안내" style="max-width: 100%; border-top: #ddd 1px solid; border-right: #ddd 1px solid; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid" src="http://president.globalwindow.org/common.ImgView.do?file_id=FILE_000000000016207" /> </a></div>
+</div>
+</div>
+<!--// SECTION --></div>
+<!--<!-- 성과확산팀 끝--><!-- 해외투자지원단 시작-->
+<div style="margin-left: 18px; margin-top: 18px; margin-right: 18px"><!-- TITLE -->
+<div style="font-size: 15px; text-decoration: none; border-top: #ccc 3px solid; font-family: '맑은 고딕'; background: #fff; border-bottom: #ccc 3px solid; font-weight: bold; padding-bottom: 10px; padding-top: 10px; padding-left: 20px"><a target="_blank" style="text-decoration: none; color: #142c4d" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=49&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,674897&amp;_dad=portal&amp;_schema=PORTAL&amp;page=main"><b style="color: #69c7f6; padding-right: 10px">┿</b><strong>해외투자</strong> </a><a target="_blank" style="text-decoration: none" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=50&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,674897&amp;_dad=portal&amp;_schema=PORTAL&amp;page=main"><img border="0" height="20" style="v!
+ ertical-align: middle; padding-left: 10px" alt="" src="http://president.globalwindow.org/bzguide/images/288/logo_03.PNG" /> </a>
+<div style="float: right; padding-right: 20px"><b style="font-size: 12px; float: right; color: #69c7f6; padding-bottom: 10px">Tel: 02-3460-7362 </b></div>
+</div>
+<!--// TITLE --><!-- tel --><!-- div style="padding-top:15px;padding-right:15px;padding-bottom:25px;border-bottom:#f4f4f4 10px solid;">
+            <b style="float:right;font-size:12px;color:#69C7F6;">Tel:&nbsp02-3460-7362</b>
+          </div --><!-- SECTION --><!-- news_1 -->
+<div style="border-right: #f4f4f4 10px solid; border-bottom: #f4f4f4 5px solid; padding-bottom: 15px; padding-top: 15px; padding-left: 0px; border-left: #f4f4f4 10px solid; padding-right: 0px">
+<div align="center"><a target="_blank" style="text-decoration: none; color: #142c4d" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=51&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,720985&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=home&amp;p_deps2=&amp;pageNum=0&amp;oid=1161031141521166309"><img border="0" style="max-width: 100%" alt="" src="http://www.ois.go.kr/Storages/Images/0/1372/1161115163232011677/아프리카-OIS배너(1).jpg" /></a><br />
+<br />
+<a target="_blank" style="text-decoration: none; color: #142c4d" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=52&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,720985&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=home&amp;p_deps2=&amp;pageNum=0&amp;oid=1161116153913041484"><img border="0" style="max-width: 100%" alt="" src="http://www.ois.go.kr/Storages/Images/0/1372/1161122115412655787/아시아_아프리카-OIS배너.jpg" /> </a></div>
+</div>
+<div style="border-top: #f4f4f4 5px solid; border-right: #f4f4f4 10px solid; border-bottom: #f4f4f4 5px solid; border-left: #f4f4f4 10px solid"><!-- news_2 -->
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; border-bottom: #f4f4f4 10px solid; color: #555555; padding-bottom: 15px; padding-top: 15px; padding-left: 15px; letter-spacing: -0.05em; line-height: 1.4em; padding-right: 15px"><b style="color: #69c7f6; padding-right: 10px">|</b><b style="font-size: 14px"> <a target="_&quot;blank&quot;" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=53&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,727077&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=intro&amp;p_deps2=">有대리의 즐거운 해외투자 이야기 <br />
+<br />
+</a><a target="_&quot;blank&quot;" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=54&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,727073&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=intro&amp;p_deps2=&amp;searchword1=&amp;oid=1161117164006103608">제 488호 (2016/11/17)</a><br />
+<br />
+<p style="float: left; padding-right: 20px"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=55&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,727073&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=intro&amp;p_deps2=&amp;searchword1=&amp;oid=1161117164006103608"><img border="0" alt="러시아 김영란법 img" width="119" height="77" src="http://www.ois.go.kr/Storages/Images/0/1372/1161117165622914015/유즐해488호-(119_77)_.png" /> </a></p>
+<a target="_&quot;blank&quot;" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=56&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,727073&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=intro&amp;p_deps2=&amp;searchword1=&amp;oid=1161117164006103608"><b style="line-height: 28px">러시아에도 김영란 법이 있을까</b><br />
+<b><span style="font-size: 13px; font-weight: normal; line-height: 25px">&gt;&gt; KOTRA 상트페테르부르크 무역관, 정보람 과장</span></b> <br />
+최근 우리나라에 뇌물 수수와 공여를 금지하는 김영란 법이 발효되어 이슈입니다. 업무상 지자체 및 중앙정부 공무원들을 종종 접하는 무역관의 입장에서도 식사를 겸한 업무협의 시에 매번 식사비의 인당 지출액 및 원화 가치가 정해진 범위를 넘지 않도록 관리해야 ....<b style="font-size: 13px; color: #1d76bc"><b style="font-size: 13px; color: #1d76bc">[더보기]</b></b> </a></b></div>
+<!-- news_3 -->
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; padding-bottom: 15px; padding-top: 15px; padding-left: 15px; letter-spacing: -0.05em; line-height: 1.4em; padding-right: 15px"><b style="color: #69c7f6; padding-right: 10px">|</b><b style="font-size: 14px">발간자료</b> <br />
+<br />
+<div style="clear: both">
+<div style="float: left; padding-right: 20px"><a target="_blank" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=57&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=8939&amp;linkno=31&amp;seqidx=191&amp;service=0&amp;dmidx=0&amp;emidx=0&amp;uidx=1943&amp;gidx=10007&amp;site=0&amp;linkurl=http://www.ois.go.kr/portal/page?_pageid=93,721184&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=pds&amp;p_deps2=&amp;oid=1160229110143344520"><img border="0" alt="" width="90" height="115" src="http://www.ois.go.kr/Storages/Images/0/1147/1160229110143344520/0229.jpg" /> </a></div>
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.05em; line-height: 1.4em"><a target="_&quot;blank&quot;" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=58&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=8939&amp;linkno=31&amp;seqidx=191&amp;service=0&amp;dmidx=0&amp;emidx=0&amp;uidx=1943&amp;gidx=10007&amp;site=0&amp;linkurl=http://www.ois.go.kr/portal/page?_pageid=93,721184&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=pds&amp;p_deps2=&amp;oid=1160229110143344520"><b style="color: #69c7f6; padding-right: 10px">|</b><b style="font-size: 13px">이란 투자 실무 가이드</b><br />
+<span style="float: right; margin-right: 10px"><b>발행처 : </b>KOTRA</span> <br />
+<br />
+인구 8천만명 규모의 내수시장, 풍부한 천연자원(천연가스 매장량 세계1위, 원유 매장량 세계 4위), 연간 100만대 이상의 자동차 생산 능력. 이란은 이러한 강점을 앞세워 경제제재 해제 이후 세계 경제 무대로 급부상하고 있습니다. 이란에 대한 기대가 커지고 있는..<b style="font-size: 13px; color: #1d76bc">[더보기]</b> </a></div>
+</div>
+</div>
+<!-- news_4 -->
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.05em; line-height: 1.4em">
+<div style="border-bottom: #f4f4f4 10px solid; padding-bottom: 55px; padding-top: 15px; padding-left: 15px; clear: both; padding-right: 15px">
+<div style="float: left; padding-right: 20px"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=59&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=8939&amp;linkno=28&amp;seqidx=191&amp;service=0&amp;dmidx=0&amp;emidx=0&amp;uidx=1943&amp;gidx=10007&amp;site=0&amp;linkurl=http://www.ois.go.kr/portal/page?_pageid=93,721184&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=pds&amp;p_deps2=&amp;oid=1160107101720311303"><img border="0" alt="" width="90" height="115" src="http://www.ois.go.kr/Storages/Images/0/1147/1160107101720311303/book.jpg" /> </a></div>
+<div style="font-size: 12px; text-decoration: none; font-family: '맑은 고딕'; color: #555555; letter-spacing: -0.05em; line-height: 1.4em"><a target="_&quot;blank&quot;" style="text-decoration: none; color: #6c6c6c" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=60&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=8939&amp;linkno=28&amp;seqidx=191&amp;service=0&amp;dmidx=0&amp;emidx=0&amp;uidx=1943&amp;gidx=10007&amp;site=0&amp;linkurl=http://www.ois.go.kr/portal/page?_pageid=93,721184&amp;_dad=portal&amp;_schema=PORTAL&amp;p_deps1=pds&amp;p_deps2=&amp;oid=1160107101720311303"><b style="color: #69c7f6; padding-right: 10px">|</b><b style="font-size: 13px">인도 라자스탄 한국전용공단 클러스터맵</b><br />
+<span style="float: right; margin-right: 5px"><b>발행처 : </b>KOTRA 뉴델리무역관</span> <br />
+<br />
+The objective of the study is to provide an overview of 5 industry sectors in India and identify major players who can be potential customers for Korean companies looking to set up a manufacturing base in the Korea Investment Zone in Ghiloth, Alwar...<b style="font-size: 13px; color: #1d76bc">[더보기]</b> </a></div>
+</div>
+</div>
+</div>
+<!--// SECTION --></div>
+<!-- 해외투자지원단 끝--><!--// NEWSLETTER_CONTENTS --><!-- NEWSLETTER_FOOTER -->
+<div style="border-top: #dbdcd7 1px solid; background: #058ed3; border-bottom: #dbdcd7 1px solid; padding-bottom: 10px; padding-top: 10px; padding-left: 10px; margin-top: 10px; line-height: 1.4em; padding-right: 10px">
+<div style="font-size: 12px; color: #fff">
+<p style="padding-top: 0px; margin: 0px; letter-spacing: -0.07em">본 뉴스레터(발신전용)는 KOTRA 회원가입시 이메일 수신에 동의하신 분께만 발송됩니다. <br />
+KOTRA 뉴스레터를 받지 않으시려면 MY KOTRA [회원정보수정]에서 수신여부를 변경하시기 바랍니다.</p>
+<ul style="list-style-type: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; list-style-image: none; padding-right: 0px">
+    <li style="list-style-type: none">ㆍ<a target="_blank" style="color: #fff" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=61&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=8939&amp;linkno=35&amp;seqidx=191&amp;service=0&amp;dmidx=0&amp;emidx=0&amp;uidx=1943&amp;gidx=10007&amp;site=0&amp;linkurl=http://www.kotra.or.kr/kh/member/KHMMMJ010M.html?MENU_CD=F0150&amp;TOP_MENU_CD=F0145&amp;LEFT_MENU_CD=F0150&amp;PARENT_MENU_CD=F0150"><strong>[신규가입]</strong></a> ㆍ<a target="_blank" style="color: #fff" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=62&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=8939&amp;linkno=34&amp;seqidx=191&amp;service=0&amp;dmidx=0&amp;emidx=0&amp;uidx=1943&amp;gidx=10007&amp;site=0&amp;linkurl=http://scrm.kot!
+ ra.or.kr/crm/common.ComMail/UCP_D2?EMAILLOGID=118428839"><strong>[수신거부]</strong></a></li>
+</ul>
+</div>
+</div>
+<div style="color: #656565; padding-bottom: 10px; padding-top: 10px; padding-left: 20px; padding-right: 20px">
+<table cellspacing="0" cellpadding="0" border="0" style="list-style-type: none; font-size: 11px; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; list-style-image: none; padding-right: 0px">
+    <tbody>
+        <tr>
+            <td style="float: left; padding-top: 17px; padding-left: 3px; padding-right: 21px"><a target="_blank" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=14488&linkno=63&seqidx=20654&service=1&dmidx=2384&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr"><img border="0" alt="KOTRA" width="120" height="50" style="vertical-align: middle; float: left" src="http://www.kotra.or.kr/images/upload/webedit/images/000071/20150710101845638_7C06J914.jpg" /></a></td>
+            <td style="font-size: 11px; float: left; padding-top: 5px; line-height: 17px">
+            <p>주소 <span style="color: #5f5f5f"><strong>(137-749)</strong> 서울시 서초구 헌릉로 13 |</span><strong><span style="color: #5f5f5f"> TEL 1600-7119 </span></strong>| <br />
+            Copyright&copy; <strong>KOTRA</strong> All rights reserved.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!--// NEWSLETTER_FOOTER --></div>
+</div>
+</div>
+<div style="display:none;"><img src="http://academymail.kotra.or.kr:8889/trace/openChecker.jsp?mailidx=14488&seqidx=20654&service=1&dmidx=2384&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+
+

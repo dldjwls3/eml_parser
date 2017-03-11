@@ -1,0 +1,203 @@
+Received: (qmail 14588 invoked by uid 100); 4 Oct 2016 00:16:40 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda001.wmail.worksmobile.com with SMTP;4 Oct 2016 00:16:40 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from smf.duzon.co.kr (duzon.com [202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id 9Fh+h7v2TTKKG2cN9QtBYA
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 04 Oct 2016 00:16:40 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u940IYB001DB;
+	Tue, 04 Oct 2016 09:18:34 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u940IYB001DB
+X-SmartFilter: FROM,u940IYB001DB,joseph@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2070798@senda.ozmailer.com>
+Received: from external ([209.85.217.170])
+	by smf.duzon.co.kr (1.0) id u940IW0001D0;
+	Tue, 04 Oct 2016 09:18:33 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u940IW0001D0
+X-SmartFilter: FROM,u940IW0001D0,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-ua0-f170.google.com with SMTP id r64so1795004uar.3
+        for <joseph@duzon.com>; Mon, 03 Oct 2016 17:16:37 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :subject:to:from:reply-to:errors-to:mime-version:date:message-id
+         :importance:organization:content-transfer-encoding;
+        bh=7fhEU8JGquOu7AQ2gj8A6GXIuyYcGKcMZ08gno8d4Ug=;
+        b=ZUjJ4rlg5LMwOVURiKwxOfYvdypOldemzhHofCMNz3bRM5JYsUIitCuqVq2nmVrlBF
+         U7ITqDkyDRe2aH0dfA1EX7Gcg7saC/zYN3AZ+4T7wxVIG058IjWq206TE9uaIuWaGZ3V
+         v3BlUkEmz8EM9698hfy1Th4lpeONqPZ2lB2e00zl54rFlBxS9lBLqrHCoDVR6i6M19a1
+         eulpk7hfEvCp/lBsL4AJM49T1c9g7FAT3eg71OZ+kTDgVZGAQUEclixv33v8ENVRcYOU
+         Qkd7wYgoXxBfGg2x8IwcvMC5fm0czmfMFia3vi8y48KAo4wvoo4F++DB3WTbNr2Wa1gG
+         rkNg==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AA6/9Rn8HDI4zl8FZwgb3O0tcX7DVU8P5zz1rnkgrWRpXot/nEaFG3xjX0dn9cKxxb5WGN7Jw160esn92CLcgfR9cX3lVb4=
+X-Received: by 10.176.2.101 with SMTP id 92mr510442uas.61.1475540197119;
+        Mon, 03 Oct 2016 17:16:37 -0700 (PDT)
+X-Forwarded-To: pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.38.71 with SMTP id m68csp1925695vsm;
+        Mon, 3 Oct 2016 17:16:36 -0700 (PDT)
+X-Received: by 10.107.131.216 with SMTP id n85mr1677448ioi.84.1475540196438;
+        Mon, 03 Oct 2016 17:16:36 -0700 (PDT)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id f133si1666848ioa.153.2016.10.03.17.16.35
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 03 Oct 2016 17:16:36 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id u940IFu001CC;
+	Tue, 04 Oct 2016 09:18:15 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u940IFu001CC
+X-SmartFilter: FROM,u940IFu001CC,forensic@duzon.com
+x-forward-id: <666F72656E7369634064757A6F6E2E636F6D-2070798@senda.ozmailer.com>
+Received: from external ([211.115.217.140])
+	by smf.duzon.co.kr (1.0) id u940I9o001C6;
+	Tue, 04 Oct 2016 09:18:09 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,u940I9o001C6
+X-SmartFilter: FROM,u940I9o001C6,user24773@sendc.ozmailer.com
+Subject: =?EUC-KR?B?W8GkurjF673Fu+q+98H4yO+/+F0gwOe1tcD8IMOivve6uMCwvL7FzShCSSkgvcWx1CA=?=
+	=?EUC-KR?B?wNTB1rHivvcguPDB/SCw+LDtKDkvOX4xMC83KQ==?=
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?RktJSQ==?=" <young@fkii.org>
+Reply-To: <young@fkii.org>
+Errors-To: <young@fkii.org>
+MIME-Version: 1.0
+Date: Tue, 04 Oct 2016 09:16:14 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-2070798@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: wfen+6J4p635WrlY7BwdpBmmKAurFAIYkXm=
+
+<img src="http://www.webstage.co.kr/oele/receipt_confirm.php?email=forensic@duzon.com&mail_no=7621821" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>[정보통신산업진흥원] 재도전 창업보육센터(BI) 신규 입주기업 모집 공고(9/9~10/7)</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: '돋움',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<p><span style="font-size: 10pt;">본문 이미지를 클릭하시면, 신청양식 및 공고문 파일을 다운로드 하실 수 있습니다. </span>&nbsp; </p><p><title>▒재도전 창업보육센터 신규 입주기업 모집 공고▒</title>
+
+
+
+<!-- Save for Web Slices (EDM3-02.jpg) -->
+<map name="Map1">
+	
+
+
+<area href="http://www.ozmailer.com/oele/ut.php?U=vc92w_4jd19_e7zw8x" shape="rect" coords="1,2,595,1837" target="_blank">
+  </map>&nbsp;</p><table width="600" border="0">
+<tbody><tr><td width="600"><img width="" alt="" src="http://www.fkii.org/upload/imgs/2016/20160909/한국정보산업연합회.jpg" border="0" usemap="#Map1"></tr>
+  
+
+</tbody></table>
+ 
+
+  <!-- End Save for Web Slices -->
+<p></p><p><br></p>
+<!--OZ_ModuleStart-->
+<div align='center'>
+
+
+
+	<div style='height:10px;'></div>
+
+
+
+	<table width=630 bgcolor='#EFEFEF' cellpadding=0 cellspacing=0 style='width:630px; border:2px solid #EFEFEF; background-color:#EFEFEF;'>
+	<tr>
+		<td>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>본 메일은 회원님께서 수신동의를 하셨기에 발송되었습니다.</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table width='100%' height=2 cellspacing=0 cellpadding=0 bgcolor='#EFEFEF'>
+		<tr>
+			<td height=2 bgcolor='#EFEFEF'></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width='100%' cellpadding=0 cellspacing=0 bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+		<tr>
+			<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>뉴스레터의 수신을 더이상 원하지 않으시면, 하단의 '수신거부' 버튼을 클릭해주세요.<br />
+To unsubscribe. please click the 'Unsubscribe' button.</td>
+		</tr>
+		</table>
+
+
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+
+
+			<table cellpadding=0 cellspacing=0 align='center'>
+			<tr>
+				
+				
+				<td width='10'></td>
+				
+				
+				
+				<td width='10'></td>
+				<td width=5 height=50><div style='width:5px; height:50px;'></div></td><td><div style='padding:10px 0px 8px 0px;'><a href='http://www.ozmailer.com/oele/neo_reject.php?email=forensic@duzon.com&mail_no=7621821' target='_blank'><img src='http://img.ozmailer.com/oele/bottom_module/unsubscribe_kor.png' width=92 height=32 border=0 alt='수신거부' style='display:block;'></a></div></td>
+				
+				
+			</tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+	</table>
+
+
+
+</div>
+<!--OZ_ModuleEnd-->
+<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+

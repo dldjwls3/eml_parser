@@ -1,0 +1,317 @@
+Received: (qmail 7277 invoked from network); 22 Jul 2015 22:45:35 -0000
+Received: from 10.114.29.98 (HELO crcvmailnw01.nm.naver.com) (10.114.29.98)
+  by cmda03.wmail.naver.com with SMTP; 22 Jul 2015 22:45:35 -0000
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmailnw01.nm.naver.com with ESMTP id bdm6xy+zS0iOcbz8KNTsIg
+  for <jonghyun.kim@dforensic.com>;
+  Wed, 22 Jul 2015 22:45:35 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t6MMcn3000AA;
+	Thu, 23 Jul 2015 07:38:49 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t6MMcn3000AA
+X-SmartFilter: FROM,t6MMcn3000AA,joseph@duzon.com
+x-forward-id: 1437605031911_935649226
+recvDate: Thu, 23 Jul 2015 07:43:51 +0900
+x-newturns-hashkey: 50771607f6137c3d1a0ea8e6b5203eb5c41c5e4275ae93b26f3e65ef1f7330ea
+Received: from external ([209.85.215.47])
+	by smf.duzon.com (1.0) id t6MMcVn0009C;
+	Thu, 23 Jul 2015 07:38:32 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t6MMcVn0009C
+X-SmartFilter: FROM,t6MMcVn0009C,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by lahh5 with SMTP id h5so146710020lah.2
+        for <joseph@duzon.com>; Wed, 22 Jul 2015 15:45:13 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:message-id
+         :from:to:subject:date:mime-version:reply-to:errors-to:content-type
+         :content-transfer-encoding;
+        bh=XIc+eZUzJ1b5pgFevoqxvE4UTYLCTPovwgWU7x9J2KQ=;
+        b=Xqo7l5a5j7ww9mBs5cr5E8Xq6N+XUOo2ImubzcSgPJYbqSGd0v1Ge+62gT8YHez62W
+         UfpbVe9qOgort07TNud5vP3g+D8L8qWCa3C7Xjb6yGhBh/BjJoUpe1TPgG7dLYzPDtf8
+         VlapFqO1POuk0065suLNUMt080PpvpPvrVTXOWqNvQC0z/58/bqwKju0GBvIhHkX/yFR
+         Ulf9QEcF9m0RooUv0CdSw1IpxTuDvEyXffPBHJqp983GiXa0by85bD7veuWVq1qvyCd3
+         89muIDxb7EMnbDBBtWYzXv9fW+zZdK/rpmgURvT8mmN4k3OzgeALwMwvOpO7SKXXFpbk
+         XYnw==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+X-Received: by 10.152.179.131 with SMTP id dg3mr4469489lac.22.1437605112677;
+        Wed, 22 Jul 2015 15:45:12 -0700 (PDT)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com, hoyong_kim@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, soohee@duzon.com, seonho1987@duzon.com, yf111@duzon.com, yourock@duzon.com, hoyong_kim@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.114.186.169 with SMTP id fl9csp184170ldc;
+        Wed, 22 Jul 2015 15:45:11 -0700 (PDT)
+X-Received: by 10.66.62.194 with SMTP id a2mr11165239pas.67.1437605110473;
+        Wed, 22 Jul 2015 15:45:10 -0700 (PDT)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id d2si6946101pdn.45.2015.07.22.15.45.08
+        for <forensic.duzon@gmail.com>;
+        Wed, 22 Jul 2015 15:45:10 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t6MMcNe00093;
+	Thu, 23 Jul 2015 07:38:23 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t6MMcNe00093
+X-SmartFilter: FROM,t6MMcNe00093,forensic@duzon.com
+x-forward-id: 1437605009212_2433444502
+recvDate: Thu, 23 Jul 2015 07:43:29 +0900
+x-newturns-hashkey: 9426d1d1cc0c46a1b0d2e5c229d92730aef086901a342db0442992b14f732d29
+Received: from external ([210.223.88.32])
+	by smf.duzon.com (1.0) id t6MMcHd00092;
+	Thu, 23 Jul 2015 07:38:17 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t6MMcHd00092
+X-SmartFilter: FROM,t6MMcHd00092,21-82760-265578-0-10-124976-1-duzon_com@supermail.kotra.or.kr
+Message-ID: <C_M_M_I_D.21_10_82760_0_265578.124976.1437604534@kotra.or.kr>
+From: =?UTF-8?B?S09UUkEg7ZW07Jm47Yis7J6Q7KeA7JuQ64uo?= <ois@kotra.or.kr>
+To: <forensic@duzon.com>
+Subject: =?UTF-8?B?W+acieymkO2VtF0g7IS46rOEIOy1nOqzoCDsiJjspIDsnZgg7Iqk7Juo6420IOyXrOyEsSDqs6DsmqnrpaAsIOq3uCDruYTqsrDsnYA/?=
+Date:  Thu, 23 Jul 2015 07:35:34 +0900
+MIME-Version: 1.0
+Reply-To: =?UTF-8?B?S09UUkEg7ZW07Jm47Yis7J6Q7KeA7JuQ64uo?= <ois@kotra.or.kr>
+Errors-To: =?UTF-8?B?WyRGUk9NTkFNRSRd?= <[$FROMEMAIL$]>
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-Mailer: ClickMailer Ver 4.0.0
+X-Naver-ESV: +/FYpB3G1H+YbXFCbHmRKoUdFxK9jJ+Y
+
+<table id="wrap" cellspacing="7" style="border-bottom: #eee 1px solid; border-left: #eee 1px solid; padding-bottom: 0px; margin: 0px auto; padding-left: 0px; width: 620px; padding-right: 0px; font-family: sans-serif, dotum; background: #eee; table-layout: fixed; color: #000; font-size: 12px; border-top: #eee 1px solid; border-right: #eee 1px solid; padding-top: 0px">
+    <tbody>
+        <tr>
+            <td valign="top" style="box-sizing: border-box; padding-left: 5px; width: 65%; background: #eee"><a target="_blank" style="text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=1&url=http://www.ois.go.kr/portal/page?_pageid=93,727077&_dad=portal&_schema=PORTAL&p_deps1=intro&p_deps2=&gubun=d">
+            <p style="margin: 0px; font-family: sans-serif, dotum; color: #153d86; font-size: 20px; font-weight: bold">有대리의 즐거운 해외투자 이야기</p>
+            </a>
+            <p style="text-align: left; margin: 3px 0px 0px 3px; font-family: sans-serif, dotum; color: #666; font-size: 12px">제 402호 (2015/07/23)</p>
+            </td>
+            <td style="box-sizing: border-box; text-align: right; width: 35%; padding-right: 2px; background: #eee"><a target="_blank" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=2&url=http://www.kotra.go.kr/"><img alt style="border-bottom: medium none; border-left: medium none; height: 48px; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/logo_kotra.png" /></a></td>
+        </tr>
+        <tr>
+            <td valign="top" colspan="2" style="box-sizing: border-box; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; background: #fff; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 10px">
+            <p style="line-height: 25px; margin: 0px; font-family: sans-serif, dotum; color: #153d86; font-size: 17px; font-weight: bold">|&nbsp;&nbsp;세계 최고 수준의 스웨덴 여성 고용률, 그 비결은?</p>
+            <p style="line-height: 25px; margin: 0px 0px 5px; font-family: sans-serif, dotum; color: #666; font-size: 13px">&gt;&gt; KOTRA 스톡홀름 무역관 박지우 과장</p>
+            <p style="line-height: 20px; margin: 0px 0px 10px; font-family: sans-serif, dotum; color: #000; font-size: 13px">&nbsp;&nbsp;스웨덴의 여성 고용률은 2013년 기준 72.5%로 OECD 국가 중 최고 수준을 자랑한다. 이는 여성의 경력이 육아와 출산 때문에 단절되지 않도록 스웨덴 정부가 법적 보호 장치를 꾸준히 마련해 온 결과다.</p>
+            <p style="line-height: 20px; margin: 0px 0px 10px; font-family: sans-serif, dotum; color: #000; font-size: 13px">&nbsp;&nbsp;1974년 스웨덴 정부는 &lsquo;육아휴직제도&rsquo;를 &lsquo;부모휴가제도&rsquo;로 개정해 남녀 공동 양육모델을 제시했다. 부모출산휴가법 5조에 따르면 부모는 자녀 출생 후 18개월이 될 때까지 휴가를 가질 권리가 있으며 부모수당도 받을 수 있다(사회보장법 12조). 유급 육아 휴직은 사회보장법 15조에 따라 부모가 각각 240일 씩 가질 수 있다.</p>
+            <p style="line-height: 20px; margin: 0px 0px 10px; font-family: sans-serif, dotum; color: #000; font-size: 13px">&nbsp;&nbsp;부부의 유급 육아 휴직 권리는 사회보장법 17조에 따라 배우자끼리 서로 양도 가능하지만 17조 1항 및 2항에 따라 240일 중 60일은 반드시 본인이 써야하며 나머지 180일에 한해 배우자에게 양도할 수 있다. 육아휴직으로 인한 불이익은 법으로 금지되며 휴직 종료 후 이전과 동일한 지위로 복귀된다. 또한 엄마들은 자녀가 8세가 될 때까지 정해진 하루 근무시간의 75%만 일할 수 있는 권리가 있고 이 경우 급여도 75%만 수령하게 된다.</p>
+            <p style="line-height: 20px; margin: 0px 0px 10px; font-family: sans-serif, dotum; color: #000; font-size: 13px">&nbsp;&nbsp;스웨덴 정부는 &lsquo;요람에서 무덤까지&rsquo;라는 복지정책의 일환으로 아동 양육에 관한 전폭적인 지원을 하고 있다. 국가사회보험청(forsakringskassan)은 양육수당(barnbidrag)의 명목으로 16세 미만의 자녀 1명당 월 1050크로나씩을 지급한다. 그리고 16세 이상이 되면 국립학자금지원위원회(CSN; Centrala studiestodsnamnden)를 통해 학업지원금의 지원으로 형태가 변경되며 만 18세가 넘으면 자녀 명의의 통장으로 지원금이 직접 입금된다. 이와 함께 스웨덴 전국 어디든 도보 5분 이내에 위치한 탁아소(Dagis) 등 다양한 자녀 양육 지원 제도들에 힘입어 여성들의 양육 부담이 덜어질 뿐만 아니라 여성들의 활발한 사회 진출 또한 장려되고 또 가속화되고 있다.</!
+ p>
+            <table style="padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-family: sans-serif, dotum; font-size: 12px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td style="text-align: center; padding-bottom: 5px; padding-left: 5px; width: 100px; padding-right: 5px; font-family: sans-serif, dotum; background: #153d86; padding-top: 5px"><a target="_blank" style="text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=3&url=http://www.ois.go.kr/portal/page?_pageid=93,727073&_dad=portal&_schema=PORTAL&p_deps1=intro&p_deps2=&searchword1=&oid=1150715162259029426">
+                        <p style="margin: 0px; color: #fff; font-size: 13px; font-weight: bold">전체 글 보기 &rarr;</p>
+                        </a></td>
+                        <td valign="middle" style="text-align: right">
+                        <p style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: sans-serif, dotum; color: #999; padding-top: 0px">※ 기고된 글 내용은 KOTRA의 공식 입장과는 관계가 없음을 알립니다.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" colspan="2" style="box-sizing: border-box; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 10px; padding-left: 10px; width: 65%; padding-right: 10px; background: #fff; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 10px">
+            <table style="padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-family: sans-serif, dotum; font-size: 12px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td>
+                        <p style="line-height: 20px; margin: 0px 0px 10px; font-family: sans-serif, dotum; color: #153d86; font-size: 15px; font-weight: bold">|&nbsp;&nbsp;시장정보</p>
+                        <a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=4&url=http://www.ois.go.kr/portal/page?_pageid=93,721498&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&oid=1150722105821019305">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(대외경제정책연구원) 세계 3대 커피 선물거래중심을 꿈꾸는 충칭</p>
+                        </a><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=5&url=http://www.ois.go.kr/portal/page?_pageid=93,721498&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&oid=1150722100542044708">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(KOTRA) 중국 최대 로봇 전시회 'CiROS 2015'로 살펴보는 로봇 시장 발전 동향</p>
+                        </a><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=6&url=http://www.ois.go.kr/portal/page?_pageid=93,721498&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&oid=1150722100026798289">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(KOTRA) 독일 자동차 부품 애프터세일즈 시장의 미래</p>
+                        </a><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=7&url=http://www.ois.go.kr/portal/page?_pageid=93,721498&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&oid=1150722095624051034">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(KOTRA) 오스트리아 의료장비 시장, 주목받는 실험실용 검사장비 제품</p>
+                        </a></td>
+                        <td style="background-image: url(http://infomailer.kotra.or.kr/20150317/circle70.png); text-align: center; width: 120px; background-repeat: no-repeat; background-position: center 50%"><a target="_blank" style="color: #fff; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=8&url=http://www.ois.go.kr/portal/page?_pageid=93,721530&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=">
+                        <p style="margin: 0px; font-family: sans-serif, dotum; color: #fff; font-size: 13px; font-weight: bold">더 보기</p>
+                        </a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" colspan="2" style="box-sizing: border-box; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 10px; padding-left: 10px; width: 65%; padding-right: 10px; background: #fff; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 10px">
+            <table style="padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-family: sans-serif, dotum; font-size: 12px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td>
+                        <p style="line-height: 20px; margin: 0px 0px 10px; font-family: sans-serif, dotum; color: #153d86; font-size: 15px; font-weight: bold">|&nbsp;&nbsp;전문자료</p>
+                        <a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=9&url=http://www.ois.go.kr/portal/page?_pageid=93,721216&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&oid=1150721101517109797">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(한국은행)Carney 영란은행 총재, 금년말~내년초 금리인상 시사 발언</p>
+                        </a><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=10&url=http://www.ois.go.kr/portal/page?_pageid=93,721216&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&oid=1150721145332004233">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(대외경제정책연구원) 중국 정책성 은행 개혁의 주요 내용</p>
+                        </a><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=11&url=http://www.ois.go.kr/portal/page?_pageid=93,721216&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&oid=1150722111228602743">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(대외경제정책연구원) 중국 주가하락, 실물경제 및 금융시스템에 미치는...</p>
+                        </a></td>
+                        <td style="background-image: url(http://infomailer.kotra.or.kr/20150317/circle70.png); text-align: center; width: 120px; background-repeat: no-repeat; background-position: center 50%"><a target="_blank" style="color: #fff; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=12&url=http://www.ois.go.kr/portal/page?_pageid=93,721212&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=">
+                        <p style="margin: 0px; font-family: sans-serif, dotum; color: #fff; font-size: 13px; font-weight: bold">더 보기</p>
+                        </a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" colspan="2" style="box-sizing: border-box; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 10px; padding-left: 10px; width: 65%; padding-right: 10px; background: #fff; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 10px">
+            <table style="padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-family: sans-serif, dotum; font-size: 12px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td>
+                        <p style="line-height: 20px; margin: 0px 0px 10px; font-family: sans-serif, dotum; color: #153d86; font-size: 15px; font-weight: bold">|&nbsp;&nbsp;공지사항 &middot; 행사안내</p>
+                        <a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=13&url=http://www.ois.go.kr/portal/page?_pageid=93,720943&_dad=portal&_schema=PORTAL&p_deps1=home&p_deps2=&oid=1150714140719610828">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(공지사항) 폴란드 회사 WARA SYSTEM Sp. z o.o. 투자 오퍼</p>
+                        </a><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=14&url=http://www.ois.go.kr/portal/page?_pageid=93,720943&_dad=portal&_schema=PORTAL&p_deps1=home&p_deps2=&oid=1150706154705637629">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(공지사항) 특허전쟁 2015 - 특허전쟁에서 특허공유와 협력으로</p>
+                        </a><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=15&url=http://www.ois.go.kr/portal/page?_pageid=93,720985&_dad=portal&_schema=PORTAL&p_deps1=home&p_deps2=&oid=1150716175157977117">
+                        <p style="line-height: 15px; margin: 0px 0px 5px; text-overflow: ellipsis; font-family: sans-serif, dotum; white-space: nowrap; font-size: 13px; overflow: hidden">(행사안내) 해외진출기UP 지원 설명회</p>
+                        </a></td>
+                        <td style="background-image: url(http://infomailer.kotra.or.kr/20150317/circle70.png); text-align: center; width: 120px; background-repeat: no-repeat; background-position: center 50%"><a target="_blank" style="color: #fff; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=16&url=http://www.ois.go.kr/portal/page?_pageid=93,720939&_dad=portal&_schema=PORTAL&p_deps1=home&p_deps2=">
+                        <p style="margin: 0px; font-family: sans-serif, dotum; color: #fff; font-size: 13px; font-weight: bold">더 보기</p>
+                        </a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" colspan="2" style="box-sizing: border-box; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 10px; padding-left: 10px; width: 65%; padding-right: 10px; background: #fff; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 10px">
+            <table style="padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-size: 12px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td style="padding-right: 5px">
+                        <p style="line-height: 20px; margin: 0px 0px 10px; font-family: sans-serif, dotum; color: #153d86; font-size: 15px; font-weight: bold">|&nbsp;&nbsp;동영상 자료</p>
+                        <p style="line-height: 18px; margin: 0px 0px 5px; font-family: sans-serif, dotum; font-size: 14px; font-weight: bold">&gt;&gt; [BizGuide] 태국 - 방콕(Thailand, Bangkok)</p>
+                        <span style="line-height: 18px; margin: 0px 5px 0px 0px; font-family: sans-serif, dotum; font-size: 13px">- 태국은 인도차이나 반도의 중앙부에 위치해 있으며, 푸켓, 코사무이 등 세계적인 휴양지로 널리 알려진 나라입니다. 아세안 국가 중 처음 서방국가에 개방의 문을 열고 적극적으로 교역에 나섰으며...</span><a style="text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=17&url=http://www.ois.go.kr/portal/page?_pageid=93,721192&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&oid=1150126165525970739"><span style="line-height: 18px; margin: 0px; font-family: sans-serif, dotum; color: #153d86; font-size: 13px; font-weight: bold">더보기</span> </a></td>
+                        <td style="background-image: url(http://infomailer.kotra.or.kr/20150722/vid07221.png); text-align: center; width: 185px; background-repeat: no-repeat; background-position: center 50%"><a style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=18&url=http://www.ois.go.kr/portal/page?_pageid=93,721192&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&oid=1150126165525970739"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/play.png" /></a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" colspan="2" style="box-sizing: border-box; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 10px; padding-left: 10px; width: 65%; padding-right: 10px; background: #fff; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 10px">
+            <p style="line-height: 20px; margin: 0px 0px 10px; font-family: sans-serif, dotum; color: #153d86; font-size: 15px; font-weight: bold">|&nbsp;&nbsp;국가별 투자뉴스</p>
+            <table style="padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-family: sans-serif, dotum; font-size: 11px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=19&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=china"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/china.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">중국</p>
+                        </a></td>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=20&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=vietnam"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/vietnam.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">베트남</p>
+                        </a></td>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=21&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=indonesia"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/indonesia.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">인도네시아</p>
+                        </a></td>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=22&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=philippine"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/philippines.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">필리핀</p>
+                        </a></td>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=23&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=india"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/india.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">인도</p>
+                        </a></td>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=24&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=poland"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/poland.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">폴란드</p>
+                        </a></td>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=25&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=Cambodia"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/cambodia.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">캄보디아</p>
+                        </a></td>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=26&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=Myanmar"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/myanmar.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">미얀마</p>
+                        </a></td>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=27&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=Brazil"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/brazil.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">브라질</p>
+                        </a></td>
+                        <td style="text-align: center; width: 10%"><a target="_blank" style="color: #000; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=28&url=http://www.ois.go.kr/portal/page?_pageid=93,726939&_dad=portal&_schema=PORTAL&p_deps1=info&p_deps2=&nation=Romania"><img alt style="border-bottom: medium none; border-left: medium none; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/romania.png" /><br />
+                        <p style="margin: -3px 0px 3px; font-family: sans-serif, dotum; font-size: 11px">루마니아</p>
+                        </a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" colspan="2" style="box-sizing: border-box; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; background: #fff; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 10px">
+            <table style="padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-size: 12px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td style="width: 143px"><a target="_blank" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=29&url=http://www.ois.go.kr/"><img alt style="border-bottom: medium none; border-left: medium none; width: 140px; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/logo_ois.png" /></a></td>
+                        <td style="box-sizing: border-box; padding-left: 10px">
+                        <p style="line-height: 18px; margin: 0px; font-family: sans-serif, dotum; color: #000">OIS는 KOTRA에서 관리하는 대한민국 정부 해외투자정보 포털 사이트입니다.<br />
+                        24개 유관기관에서 수집된 최신 해외투자정보를 제공하며 해외진출 한국기업<br />
+                        검색 등 투자관련 서비스는 홈페이지(<a target="_blank" style="color: #153d86; font-weight: bold; text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=30&url=http://www.ois.go.kr/">www.ois.go.kr</a>)를 참고하시기 바랍니다.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" style="box-sizing: border-box; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; background: #fff; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 10px">
+            <table style="padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-family: sans-serif, dotum; font-size: 12px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td style="text-align: left; width: 38px"><img alt style="height: 45px" src="http://infomailer.kotra.or.kr/20150317/icon_phone.png" /></td>
+                        <td style="box-sizing: border-box; text-align: right">
+                        <p style="line-height: 18px; margin: 0px; font-family: sans-serif, dotum; color: #000">해외투자&middot;진출상담 : KOTRA 해외투자상담팀 1600-7119 +3</p>
+                        <p style="line-height: 18px; margin: 0px; font-family: sans-serif, dotum; color: #000">뉴스레터 관련문의 : KOTRA 해외투자지원단 02-3460-7355</p>
+                        <p style="line-height: 18px; margin: 0px; font-family: sans-serif, dotum; color: #000">有즐해 기고&middot;정정요청 : yejang@kotra.or.kr / 02-3460-7362</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+            <td valign="top" style="box-sizing: border-box; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; background: #fff; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 10px">
+            <table style="padding-bottom: 0px; margin: 0px 0px 5px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-family: sans-serif, dotum; font-size: 12px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td style="text-align: right; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px"><span style="line-height: 20px; margin: 0px; font-family: sans-serif, dotum; color: #666; font-size: 12px">Follow us on</span></td>
+                        <td style="text-align: right; padding-bottom: 0px; padding-left: 0px; width: 25px; padding-right: 0px; padding-top: 0px"><a target="_blank" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=31&url=https://twitter.com/ois_kotra"><img alt style="border-bottom: medium none; border-left: medium none; height: 20px; border-top: medium none; border-right: medium none" src="http://infomailer.kotra.or.kr/20150317/symbol_twitter_link.png" /></a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table style="padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 100%; padding-right: 0px; border-collapse: collapse; font-size: 12px; padding-top: 0px">
+                <tbody>
+                    <tr>
+                        <td style="text-align: center; padding-bottom: 5px; padding-left: 5px; width: 45%; padding-right: 5px; background: #153d86; padding-top: 5px"><a target="_blank" style="text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=32&url=http://scrm.kotra.or.kr/crm/common.ComMail/UCP_D2?EMAILLOGID=774547882">
+                        <p style="margin: 0px; font-family: sans-serif, dotum; color: #fff; font-size: 12px; font-weight: bold">수신거부</p>
+                        </a></td>
+                        <td></td>
+                        <td style="text-align: center; padding-bottom: 5px; padding-left: 5px; width: 45%; padding-right: 5px; background: #153d86; padding-top: 5px"><a target="_blank" style="text-decoration: none" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=33&url=http://www.kotra.or.kr/kh/member/KHMMMJ010M.html?MENU_CD=F0150&TOP_MENU_CD=F0145&LEFT_MENU_CD=F0150&PARENT_MENU_CD=F0150">
+                        <p style="margin: 0px; font-family: sans-serif, dotum; color: #fff; font-size: 12px; font-weight: bold">회원가입</p>
+                        </a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table></br><STYLE type=text/css>
+TD.cmftd {FONT-SIZE: 9pt; COLOR: #2D2D2D; FONT-FAMILY: 굴림}
+A.cmfa:link		{ text-decoration:none;  font-weight:bold; color:#666666; font-size:12px; font-family: 굴림,돋움;}
+A.cmfa:visited 	{ text-decoration:none;  font-weight:bold; color:#666666; font-size:12px; font-family: 굴림,돋움;}
+A.cmfa:active 	{ text-decoration:none;  font-weight:bold; color:#666666; font-size:12px; font-family: 굴림,돋움;}
+A.cmfa:hover 	{ text-decoration:underline;  color:#4D4D4D; font-size:12px; font-family: 굴림,돋움;}
+.....cmffs { FONT-SIZE: 8pt; COLOR: #666666; FONT-FAMILY: 굴림}
+</STYLE>
+<table width="100%" height="104" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td class="cmftd" width="210" height="35" background="http://scrm.kotra.or.kr//img/ba.gif" style="padding:10 10 6 10"><img src="http://scrm.kotra.or.kr//img/bul_link.gif" width="4" height="7"> 
+      <strong>첨부파일</strong> </td>
+  </tr>
+  <tr>
+    <td class="cmftd" height="28"><table width="279" height="47" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+          <td class="cmftd" height="27" style="padding:0 0 0 30"><img src="http://scrm.kotra.or.kr//img/ico_zip.gif" width="7" height="12" align="absmiddle">
+            <span class="link"><a class="cmfa" href="http://supermail.kotra.or.kr:9998/bin/checker?mode=4&module=21&mailidx=82760&dmidx=265578&emidx=0&service=10&cidx=&etime=20150802070803&seqidx=124976&objidx=34&url=http://scrm.kotra.or.kr/crm/common.ComMail/download?fid=450979" target="_blank">유즐해402_목_1437551578476.html</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cmffs">25 KB</span></td>
+        </tr>
+
+      </table></td>
+  </tr>
+</table>
+<iframe src name="FILE_HIDDEN" id="FILE_HIDDEN" height="0" width="0"></iframe>
+
+<img src="http://supermail.kotra.or.kr:9998/bin/checker?mode=1&dtime=0&module=21&service=10&etime=20150802070803&mailidx=82760&seqidx=124976&dmidx=265578&emidx=0" width=0 height=0>
+

@@ -1,0 +1,226 @@
+Received: (qmail 22735 invoked from network); 2 Dec 2014 07:05:20 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda02.wmail.naver.com with SMTP; 2 Dec 2014 07:05:20 -0000
+Received: from [202.167.215.64] ([202.167.215.64]) 
+          by crcvmail01.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1417503920.565952.3918928784.crcvmail01
+          for <jonghyun.kim@dforensic.com>; 
+          Tue, 02 Dec 2014 16:05:20 +0900 (KST) 
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id sB26vw400745;
+	Tue, 02 Dec 2014 15:57:58 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sB26vw400745
+X-SmartFilter: FROM,sB26vw400745,joseph@duzon.com
+x-forward-id: 1417503901361_935649226
+recvDate: Tue, 02 Dec 2014 16:05:01 +0900
+x-newturns-hashkey: 73f75940a85b94ebde2224e833e74d2528300d0d6d08d1876f7dfdba63c8fc5e
+Received: from external ([74.125.82.46])
+	by smf.duzon.com (1.0) id sB26vnm00735;
+	Tue, 02 Dec 2014 15:57:49 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sB26vnm00735
+X-SmartFilter: FROM,sB26vnm00735,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-wg0-f46.google.com with SMTP id a1so8013708wgh.33
+        for <joseph@duzon.com>; Mon, 01 Dec 2014 23:05:02 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:recvdate:subject:to
+         :from:reply-to:errors-to:mime-version:date:message-id:importance
+         :organization:content-type:content-transfer-encoding;
+        bh=pdYj/cP1+8J7r9QK0ZNwctrBFTWrwDNeOpYEW/pW3SE=;
+        b=PS1yGGzN8YwYT7WWtxGdqSpl74bEkWOZWcUsJITjjye/roL0t928mt9TY/uhyxz/jH
+         w6w5mZkeZLNb0dD7BKQYoIoiLc+b2O+oduoo0hOJgxLxDCHr8SauNHGbHXRv2U+fw5/t
+         yOpyKo1RrukDmOSWsWvt/ARFao5BP277bkxNDFntxt+zTuKyvuBPI1ko1yapu5I+COsq
+         3uhiqEgoJP/uLHag49xnQNNd3gn3biuMedFsB9uKp6qmvkbBmaMw6SZ7FJOpboNwS09p
+         MGXBgrChPQ3Bi16FezkOylAYq3cQw7Bt98Hpfb+5iPqP5YsQrKqhuEeRjyaQ/XC5idxc
+         iDHQ==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+X-Received: by 10.194.92.148 with SMTP id cm20mr101958627wjb.88.1417503902270;
+        Mon, 01 Dec 2014 23:05:02 -0800 (PST)
+X-Forwarded-To: ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com ysm@duzon.com, jsham@duzon.com, brentkorea@duzon.com, lunar29@duzon.com, yja2014@duzon.com, wndms5125@duzon.com, joseph@duzon.com, ihbark@duzon.com, pch88@duzon.com, yf111@duzon.com, yourock@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.194.79.72 with SMTP id h8csp380943wjx;
+        Mon, 1 Dec 2014 23:05:01 -0800 (PST)
+X-Received: by 10.66.170.197 with SMTP id ao5mr92680889pac.20.1417503900255;
+        Mon, 01 Dec 2014 23:05:00 -0800 (PST)
+Received: from smf.duzon.com ([202.167.215.64])
+        by mx.google.com with ESMTP id kf3si32278909pbc.52.2014.12.01.23.04.58
+        for <forensic.duzon@gmail.com>;
+        Mon, 01 Dec 2014 23:05:00 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.64 as permitted sender) smtp.mail=forensic@duzon.com
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id sB26vfg0072F;
+	Tue, 02 Dec 2014 15:57:41 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sB26vfg0072F
+X-SmartFilter: FROM,sB26vfg0072F,forensic@duzon.com
+x-forward-id: 1417503884670_2433444502
+recvDate: Tue, 02 Dec 2014 16:04:44 +0900
+x-newturns-hashkey: 757250e4fdf4337356a68640ac2867077e72308dae12b332e2e1bb0928cd3433
+Received: from external ([211.115.217.141])
+	by smf.duzon.com (1.0) id sB26vUU00723;
+	Tue, 02 Dec 2014 15:57:30 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,sB26vUU00723
+X-SmartFilter: FROM,sB26vUU00723,user24773@sendd.ozmailer.com
+Subject: =?EUC-KR?B?KLmrt+Epuaux4sO8sOhTVyC9xbfavLogvPbH4CC51yDH4rvzILnmvsgsILTZwd/Hww==?=
+	=?EUC-KR?B?t6fG+yCxurz2waS6uLz2wf3DvLDoILCzud8gseK8+ry8ucyzqiCws8PWKDEyLzQp?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+To: "=?Euc-Kr?B?yLi/+A==?=" <forensic@duzon.com>
+From: "=?Euc-Kr?B?RktJSQ==?=" <ssh@fkii.org>
+Reply-To: <ssh@fkii.org>
+Errors-To: <ssh@fkii.org>
+MIME-Version: 1.0
+Date: Tue, 02 Dec 2014 16:04:45 +0900
+Message-ID: <666F72656E7369634064757A6F6E2E636F6D-1693390@senda.ozmailer.com>
+Importance: normal
+Organization: 
+X-Priority: 3 (Normal)
+X-mailer: OzMailer(ozmailer.com) Version 4.0
+Content-Type: text/html;	Charset="Euc-Kr"
+Content-Transfer-Encoding: 8bit
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +QeYpB3G1Hb9a0ixyueaaL/mFS0YbzJqbXmmFqg9KoIYkXm=
+
+<IMG SRC="http://www.ozmailer.com/fcso/receipt_confirm.php?email=forensic@duzon.com&mail_no=5926243" WIDTH=0 HEIGHT=0 BORDER=0>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>Mail</title>
+<style>
+img { border:0; }
+body, .se2_inputarea { margin: 0; padding: 0; font-family: 'µ¸¿ò',Dotum,Helvetica,Sans-serif; font-size: 12px; line-height: 1.5; }
+ .se2_inputarea p, .se2_inputarea br { margin: 0; padding: 0; }
+ .se2_inputarea { margin: 15px; word-wrap: break-word; *word-wrap: normal; *word-break: break-all; }
+ .se2_inputarea_890 { width: 741px; margin: 20px 0 10px 64px; }
+ .se2_inputarea_698 { width: 548px; margin: 20px 0 10px 64px; }
+</style>
+</head>
+<body class="smartOutput se2_inputarea"><!-- OZ_AlignTopStart --><table cellpadding=0 cellspacing=0 align='center'><tr><td><!-- OZ_AlignTopEnd -->
+<span>&#65279;</span><p><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>&#65279;</span>&nbsp;</p><p><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>¾È³çÇÏ½Ê´Ï±î<span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;">?</span></span><span lang="EN-US"><o:p></o:p></span>&nbsp;</p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>ÇÑ±¹Á¤º¸»ê¾÷¿¬ÇÕÈ¸ ÀÓº£µðµåSW¤ýSystem»ê¾÷ÇùÈ¸ »ç¹«±¹ ÀÔ´Ï´Ù.</span></p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><span lang="EN-US" style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>&nbsp;</span><span lang="EN-US"><o:p></o:p></span></p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><span lang="EN-US" style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>ÀÓº£µðµåSW¤ýSystem»ê¾÷ÇùÈ¸¿¡¼­ ¿î¿µÇÏ´Â ÀÓº£µðµåSW±â¼úÆ÷·³ 
+±¹¹æSWÀ¶ÇÕºÐ°ú¿¡¼­´Â</span></p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>¹«±âÃ¼°èSW ½Å·Ú¼º ¼öÇà ¹× 
+Çâ»ó ¹æ¾È, ´ÙÁßÇÃ·§Æû ±º¼öÁ¤º¸¼öÁýÃ¼°è °³¹ßÀÇ ÁÖÁ¦·Î</span></p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>Á¦2Â÷ ±¹¹æSWÀ¶ÇÕºÐ°úÈ¸ÀÇ¸¦ 
+¾Æ·¡¿Í °°ÀÌ °³ÃÖÇÕ´Ï´Ù.</span></p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><span style='font-family: "¸¼Àº °íµñ";'><br></span></p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'><b><span style="color: rgb(0, 0, 0); font-size: 10pt;">1. Çà»ç¸í :</span></b>&nbsp;Á¦2Â÷ 
+±¹¹æSWÀ¶ÇÕºÐ°úÈ¸ÀÇ&nbsp;</span></p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "¸¼Àº °íµñ";'><b><span style="color: rgb(0, 0, 0); font-size: 10pt;">2.&nbsp;</span></b></span><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'><b><span style="color: rgb(0, 0, 0); font-size: 10pt;">ÀÏ</span><span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;">&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0); font-size: 10pt;">½Ã</span></b><span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;"><b><span style="color: rgb(0, 0, 0); font-size: 10pt;">&nbsp;:</span></b>&nbsp;2014</span>³â<span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;">&nbsp;12</span>¿ù<span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;">&nbsp;4</span>ÀÏ<span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;">(</span>¸ñ<span lang="EN-U!
+ S" style="color: rgb(0, 0, 0); font-size: 10pt;">) 15:30 ~ 18:00</span></span><span lang="EN-US"><o:p></o:p></span></p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><span lang="EN-US" style='font-family: "¸¼Àº °íµñ";'><b><span style="color: rgb(0, 0, 0); font-size: 10pt;">3.&nbsp;</span></b></span><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'><b><span style="color: rgb(0, 0, 0); font-size: 10pt;">Àå</span><span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;">&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0); font-size: 10pt;">¼Ò</span></b><span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;"><b><span style="color: rgb(0, 0, 0); font-size: 10pt;">&nbsp;:</span></b>&nbsp;</span>ÅäÁî °­³²<span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;">2</span>È£Á¡</span><span lang="EN-US"><a style="color: rgb(73, 73, 73);" href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1692457&amp;mail_no=5921882&amp;email=ssh@fkii.org&am!
+ p;OZTRACKING=6accbf47d22d8203a5460751790b73f3&amp;url=http://www.toz.co.kr/branch/main/index.htm?id=11" target="_blank"><span style='color: rgb(114, 25, 71); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>(</span><span lang="EN-US" style='font-family: "¸¼Àº °íµñ";'><span lang="EN-US" style="color: rgb(114, 25, 71); font-size: 10pt;">À§Ä¡º¸±â)</span></span></a><o:p></o:p></span></p>
+<p style="color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px; margin-top: 1px; margin-bottom: 0pt;"><b style='font-family: "¸¼Àº °íµñ"; font-size: 10px;'><span style="color: rgb(0, 0, 0); font-size: 10pt;">4. ÀÏ &nbsp; Á¤</span></b>&nbsp;</p><table class="__se_tbl" style="background-color: rgb(199, 199, 199);" border="0" cellspacing="1" cellpadding="0" _se2_tbl_template="7"><tbody>
+<tr><td style="padding: 3px 4px 2px; width: 127px; height: 18px; text-align: left; color: rgb(255, 255, 255); font-weight: normal; background-color: rgb(51, 51, 51);"><p align="center"><strong>&nbsp;<font face="¸¼Àº °íµñ" size="2">½Ã °£</font></strong></p></td>
+<td style="padding: 3px 4px 2px; width: 253px; height: 18px; text-align: left; color: rgb(255, 255, 255); font-weight: normal; background-color: rgb(51, 51, 51);"><p align="center"><strong>&nbsp;<font face="¸¼Àº °íµñ" size="2">³» ¿ë</font></strong></p></td>
+<td style="padding: 3px 4px 2px; width: 233px; height: 18px; text-align: left; color: rgb(255, 255, 255); font-weight: normal; background-color: rgb(51, 51, 51);"><p align="center"><strong>&nbsp;<font face="¸¼Àº °íµñ" size="2">¹ßÇ¥ÀÚ</font></strong></p></td>
+</tr>
+<tr><td style="padding: 3px 4px 2px; width: 127px; height: 18px; text-align: left; color: rgb(102, 102, 102); font-weight: normal; background-color: rgb(248, 248, 248);"><p align="center">&nbsp;<font face="¸¼Àº °íµñ" size="2">15:30 ~ 15:40</font></p></td>
+<td style="padding: 3px 4px 2px; width: 253px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);"><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>ÀÎ»ç¸» ¹× ±¹¹æ<span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;">SW</span>À¶ÇÕºÐ°ú 
+¼Ò°³</span></p></td>
+<td style="padding: 3px 4px 2px; width: 233px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);"><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>ÀÓÃ¤´ö 
+ºÐ°úÀ§¿øÀå</span></p></td>
+</tr>
+<tr><td style="padding: 3px 4px 2px; width: 127px; height: 18px; text-align: left; color: rgb(102, 102, 102); font-weight: normal; background-color: rgb(248, 248, 248);"><p align="center">&nbsp;<font face="¸¼Àº °íµñ" size="2">15:40 ~ 16:20</font></p></td>
+<td style="padding: 3px 4px 2px; width: 253px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);"><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>¹æÀ§»ç¾÷Ã» ¹«±âÃ¼°è 
+¼ÒÇÁÆ®¿þ¾î °³¹ß ¹×</span><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>°ü¸® ÁöÄ§¾È¿¡ µû¸¥ ½Å·Ú¼º 
+½ÃÇè ¼öÇà ¹æ¾È</span></p></td>
+<td style="padding: 3px 4px 2px; width: 233px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);"><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>½´¾î¼ÒÇÁÆ®Å×Å© </span></p><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>½É</span><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>¿ë±Ô 
+´ë¸®</span><span lang="EN-US"><o:p></o:p></span>&nbsp;</p></td>
+</tr>
+<tr><td style="padding: 3px 4px 2px; width: 127px; height: 18px; text-align: left; color: rgb(102, 102, 102); font-weight: normal; background-color: rgb(248, 248, 248);"><p align="center">&nbsp;<font face="¸¼Àº °íµñ" size="2">16:20 ~ 17:00</font></p></td>
+<td style="padding: 3px 4px 2px; width: 253px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);"><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>´ÙÁßÇÃ·§Æû ±º¼öÁ¤º¸¼öÁýÃ¼°è 
+°³¹ß</span></p></td>
+<td style="padding: 3px 4px 2px; width: 233px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);"><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>»ï¼ºÅ»·¡½º ±è½ÂÃá 
+¼ö¼®</span></p></td>
+</tr>
+<tr><td style="padding: 3px 4px 2px; width: 127px; height: 18px; text-align: left; color: rgb(102, 102, 102); font-weight: normal; background-color: rgb(248, 248, 248);"><p align="center">&nbsp;<font face="¸¼Àº °íµñ" size="2">17:00 ~ 17:20</font></p></td>
+<td style="padding: 3px 4px 2px; width: 486px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);" rowspan="1" colspan="2"><p align="center"><span lang="EN-US" style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>Break 
+Time</span></p></td>
+
+</tr>
+<tr><td style="padding: 3px 4px 2px; width: 127px; height: 18px; text-align: left; color: rgb(102, 102, 102); font-weight: normal; background-color: rgb(248, 248, 248);"><p align="center">&nbsp;<font face="¸¼Àº °íµñ" size="2">17:20 ~ 18:00</font></p></td>
+<td style="padding: 3px 4px 2px; width: 253px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);"><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>¹«±âÃ¼°è<span lang="EN-US" style="color: rgb(0, 0, 0); font-size: 10pt;">&nbsp;SW&nbsp;</span>½Å·Ú¼º Çâ»ó 
+¹æ¾È</span></p></td>
+<td style="padding: 3px 4px 2px; width: 233px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);"><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>¹æÀ§»ê¾÷±â¼úÁö¿ø¼¾ÅÍ </span>&nbsp;</p><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>&#65279;</span><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>Á¶º´ÀÎ 
+ÆÀÀå</span><span lang="EN-US"><o:p></o:p></span>&nbsp;</p></td>
+</tr>
+<tr><td style="padding: 3px 4px 2px; width: 127px; height: 18px; text-align: left; color: rgb(102, 102, 102); font-weight: normal; background-color: rgb(248, 248, 248);"><p align="center">&nbsp;<font face="¸¼Àº °íµñ" size="2">18:00</font></p></td>
+<td style="padding: 3px 4px 2px; width: 486px; height: 18px; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);" rowspan="1" colspan="2"><p align="center"><span style='color: rgb(0, 0, 0); font-family: "¸¼Àº °íµñ"; font-size: 10pt;'>Á¾·á</span></p></td>
+
+</tr>
+</tbody>
+</table><p></p><p><b style='font-family: "¸¼Àº °íµñ"; font-size: 10px;'><span style="color: rgb(0, 0, 0); font-size: 10pt;">&#65279;</span></b><br>&nbsp;</p>
+<div style="margin: 0px; padding: 0px; color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px;"><span style="color: rgb(149, 16, 21); font-size: 18pt;"><b><span style="font-size: 14pt;">5. Âü¼®ÇÏ±â :</span></b></span><span style="font-size: 14pt;"> </span><span style="color: rgb(58, 50, 195);"><span style="color: rgb(58, 50, 195); font-size: 14pt;"><b><span style="color: rgb(43, 40, 95);"><a href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1692457&amp;mail_no=5921882&amp;email=ssh@fkii.org&amp;OZTRACKING=76a5f8dbe47e8ca91b6f017b620d6c5f&amp;url=http://www.kessia.kr/community/event.php?mode=write&amp;no=180" target="_blank">(Å¬¸¯)</a></span></b></span></span></div>
+<div style="margin: 0px; padding: 0px; color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px;"><br></div>
+<div style="margin: 0px; padding: 0px; color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px;"><span style="color: rgb(0, 0, 0); font-size: 10pt;">¿©·¯ºÐÀÇ ¸¹Àº °ü½É°ú Âü¿© ºÎÅ¹ µå¸³´Ï´Ù.</span></div>
+<div style="margin: 0px; padding: 0px; color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px;"><br></div>
+<div style="margin: 0px; padding: 0px; color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px;"><span style="color: rgb(0, 0, 0); font-size: 10pt;">°¨»çÇÕ´Ï´Ù.</span></div>
+<div style="margin: 0px; padding: 0px; color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px;"><br></div>
+<div style="margin: 0px; padding: 0px; color: rgb(85, 85, 85); line-height: normal; font-family: Tahoma, Verdana, Arial; font-size: 10px;"><span style="color: rgb(0, 0, 0); font-size: 10pt;">½Å¼ºÈÆ&nbsp;µå¸².</span></div>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">===================================================</font></p>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="color: rgb(0, 0, 128); font-family: ¸¼Àº °íµñ; font-size: 12pt; font-weight: bold;">ÀÓº£µðµå¼ÒÇÁÆ®¿þ¾î¤ý½Ã½ºÅÛ»ê¾÷ÇùÈ¸(KESSIA)</font></p>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: ¸¼Àº °íµñ; font-size: 11pt; font-weight: bold;">½Å¼ºÈÆ 
+¼±ÀÓ¿¬±¸¿ø</font></p>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: ¸¼Àº °íµñ; font-size: 6pt;">&nbsp;</font></p>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">Address : ¼­¿ïÆ¯º°½Ã ¸¶Æ÷±¸ ¿ùµåÄÅºÏ·Î 396 ´©¸®²Þ½ºÄù¾î 
+ºñÁî´Ï½ºÅ¸¿ö 8Ãþ</font></p>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">Tel. 02-2132-0756</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">Fax. 02-782-1266</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;Mobile. 010-9160-1436</font></p>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">E-mail : </font><a href="mailto:ssh@fkii.org"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">ssh@fkii.org</font></a></p>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">URL : </font><a href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1692457&amp;mail_no=5921882&amp;email=ssh@fkii.org&amp;OZTRACKING=efeb49e5d146a48c33d48ee080710e61&amp;url=http://www.kessia.kr/"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">www.kessia.kr</font></a><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">,</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;</font><a href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1692457&amp;mail_no=5921882&amp;email=ssh@fkii.org&amp;OZTRACKING=61e03e3b5ca8699ec44a77941ca57db2&amp;url=http://www.opensw-seed.org/"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">www.opensw-seed.org</font></a><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">,</font><font style="font-family: ¸¼Àº !
+ °íµñ; font-size: 10pt;">&nbsp;&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;</font><a href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1692457&amp;mail_no=5921882&amp;email=ssh@fkii.org&amp;OZTRACKING=7b86bd32859ea21ccd3752ef7edec2d0&amp;url=http://www.ebis.kr/"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">www.ebis.kr</font></a></p>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><a href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1692457&amp;mail_no=5921882&amp;email=ssh@fkii.org&amp;OZTRACKING=2d81a16873ebe17f765539d18ffa1830&amp;url=http://www.eswforum.org/"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">www.eswforum.org</font></a><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">,</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;</font><a href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1692457&amp;mail_no=5921882&amp;email=ssh@fkii.org&amp;OZTRACKING=36b88db5f15e9e17177465e7a226eb9a&amp;url=http://www.eswcontest.com/"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">www.eswcontest.com</font></a><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;"!
+ >,</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;&nbsp;</font><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">&nbsp;</font><a href="http://www.ozmailer.com/fcso/URL_tracking.php?send_no=1692457&amp;mail_no=5921882&amp;email=ssh@fkii.org&amp;OZTRACKING=d059e3b9c92be04dcba6f371989dfb51&amp;url=http://www.fkii.org/"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">www.fkii.org</font></a></p>
+<p style="line-height: 1.2; margin-top: 0px; margin-bottom: 0px;"><font style="font-family: ¸¼Àº °íµñ; font-size: 10pt;">===================================================</font></p>
+		<!--OZ_ModuleStart-->
+		<div align='center'>
+			<table cellpadding='0' cellspacing='0'>
+				<tr>
+					<td height='11'></td>
+				</tr>
+			</table>
+			
+			<table width='630' height='100%' cellpadding='0' cellspacing='0' style='border:2px solid #EFEFEF;'>
+				
+			<tr>
+				<td>
+					<table width='100%' cellpadding='0' cellspacing='0' bgcolor='#FFFFFF' style='word-break:break-all; table-layout:fixed;'>
+						<tr>
+							<td align='left' style='word-wrap:break-word; word-break:break-all; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:7px; color:#000000; font-size:12px;'>º» ¸ÞÀÏÀº ÇÑ±¹Á¤º¸»ê¾÷¿¬ÇÕÈ¸ Çà»ç³ª ±³À°¿¡ Âü°¡ÇÏ½Å ºÐµé ´ë»óÀ¸·Î ¹ß¼ÛµÇ¾ú½À´Ï´Ù.º» ¸ÞÀÏÀº ¹ß½ÅÀü¿ëÀÔ´Ï´Ù. ¼ö½Å°ÅºÎ¸¦ ¿øÇÏ½Ã´Â °æ¿ì &lt;¸ÞÀÏ&gt;¸¦ È¸½ÅÇÏ¿© ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+				
+				
+			<tr>
+				<td>
+					<table width='100%' height='47' cellpadding='0' cellspacing='0' bgcolor='#EFEFEF'>
+						<tr>
+							<td align='center' valign='top' height='47'>
+								<table cellpadding='0' cellspacing='0'>
+									<tr>
+										<td height='8'></td>
+									</tr>
+									<tr>
+										
+		<td align='left' valign='top'><a href='http://www.ozmailer.com/fcso/neo_reject.php?email=forensic@duzon.com&mail_no=5926243' target=_blank><img src='http://img.ozmailer.com/mail/good_template/bottom_module_frame/button/unsubscribe_kor.png' border='0' alt='¼ö½Å°ÅºÎ' /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</div>
+		<!--OZ_ModuleEnd-->
+		<!-- OZ_AlignBottomStart --></td></tr></table><!-- OZ_AlignBottomEnd -->
+</body>
+</html>
+
+
+

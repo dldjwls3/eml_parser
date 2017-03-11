@@ -1,0 +1,434 @@
+Received: (qmail 6326 invoked from network); 25 Oct 2015 11:11:36 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda02.wmail.naver.com with SMTP; 25 Oct 2015 11:11:36 -0000
+Received: from smf.duzon.com ([202.167.215.64])
+  by crcvmail02.wmail.naver.com with ESMTP id 8DrUDFKlRxKc3XJ1xbPXlQ
+  for <jonghyun.kim@dforensic.com>;
+  Sun, 25 Oct 2015 11:11:36 -0000
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id t9PB8Zg00A87;
+	Sun, 25 Oct 2015 20:08:35 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t9PB8Zg00A87
+X-SmartFilter: FROM,t9PB8Zg00A87,joseph@duzon.com
+x-forward-id: 1445771336772_935649226
+recvDate: Sun, 25 Oct 2015 20:08:56 +0900
+x-newturns-hashkey: 70bebb27f15040cf2f5b5262ad012ddbbe8afe56e858383c424c9bb182f44465
+Received: from external ([198.2.131.3])
+	by smf.duzon.com (1.0) id t9PB8Vc00A83;
+	Sun, 25 Oct 2015 20:08:32 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,t9PB8Vc00A83
+X-SmartFilter: FROM,t9PB8Vc00A83,bounce-mc.us7_19778971.368385-joseph=duzon.com@mail3.atl111.rsgsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail3.atl111.rsgsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=info=3Di-hls.com@mail3.atl111.rsgsv.net;
+ bh=M1Cmsh308FdBSWBg2MUvbJ4Y/Ms=;
+ b=mFYTwObNWrskT3FttsE9XtYBfqMwdbzAGpkbbhzhzBBtFgQuKcUVEI1csOZslfPvBeQnQ2lCfzb+
+   trqVF14cQWWtdM/Ydy5S3vDmcka1HYIuG/PRcRH++vHmeIE7nQ7sj1wUcDmc23+aCgzOhfRnkN80
+   skHeeXSyGlDWOvIu8/4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail3.atl111.rsgsv.net;
+ b=C08x8XYlisbA/KWPkitc4IIGOXq8+ksBzugPDcnTnnVkoYnO7MvE+udD1o37r4iHLemhnviTxMmP
+   QeiqUM8eLpC2SlqcNi6tz1bYpVp7XwkeAjRRmwN39OLPN4AhJ8iYPdiXRKiI2yCpomIayTf7DEc6
+   jEmxVPv5vHElfDSipeo=;
+Received: from (127.0.0.1) by mail3.atl111.rsgsv.net id h5isd41ohlgu for <joseph@duzon.com>; Sun, 25 Oct 2015 11:11:05 +0000 (envelope-from <bounce-mc.us7_19778971.368385-joseph=duzon.com@mail3.atl111.rsgsv.net>)
+Subject: =?utf-8?Q?conference=2Dvideo=20analytics=20security=2028.10.15?=
+From: =?utf-8?Q?Israel=20Homeland=20Security=20=28iHLS=29?= <info@i-hls.com>
+Reply-To: =?utf-8?Q?Israel=20Homeland=20Security=20=28iHLS=29?= <info@i-hls.com>
+To: =?utf-8?Q?Joseph?= <joseph@duzon.com>
+Date: Sun, 25 Oct 2015 11:11:05 +0000
+Message-ID: <5acc1ed377b590a98a195f62477ab4125da.20151025111034@mail3.atl111.rsgsv.net>
+X-Mailer: MailChimp Mailer - **CID07e8c3d09177ab4125da**
+X-Campaign: mailchimp5acc1ed377b590a98a195f624.07e8c3d091
+X-campaignid: mailchimp5acc1ed377b590a98a195f624.07e8c3d091
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=5acc1ed377b590a98a195f624&id=07e8c3d091&e=77ab4125da
+X-MC-User: 5acc1ed377b590a98a195f624
+X-Feedback-ID: 19778971:19778971.368385:us7:mc
+List-ID: 5acc1ed377b590a98a195f624mc list <5acc1ed377b590a98a195f624.157721.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us7_5acc1ed377b590a98a195f624.07e8c3d091-77ab4125da@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://i-hls.us7.list-manage1.com/unsubscribe?u=5acc1ed377b590a98a195f624&id=8ee2e16ed1&e=77ab4125da&c=07e8c3d091>
+Sender: "Israel Homeland Security (iHLS)" <info=i-hls.com@mail3.atl111.rsgsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_2140818058"
+MIME-Version: 1.0
+X-Naver-ESV: +rFYpB3G1H+YbXFCbHmRKxuwKxKrjJ+Y
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_2140818058
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Can't see this email? Click here ( http://i-hls.com/video-analytics-28-10-=
+15/?mc_cid=3D07e8c3d091&mc_eid=3D[UNIQID]) =D7=9C=D7=A2=D7=91=D7=A8=D7=99=
+=D7=AA =D7=9C=D7=97=D7=A5/=D7=99 =D7=9B=D7=90=D7=9F (http://i-hls.com/he/6=
+6204-2/?mc_cid=3D07e8c3d091&mc_eid=3D[UNIQID])
+
+08:30-09:00 Regisatration (#chapter4)
+09:15-09:30 Opening Speech Shavit Or=2C Chairman (#chapter4)
+09:30 First seat (#chapter4)
+09:30-10:00 Challenges in Land Forces Operational C2 Systems Col. Avi Ulie=
+l=2C Head of C4I Technology Division=2C Land Forces Command (#chapter4)
+10:00-10:30 Video Analytics: from SECURITY to SAFETY (#chapter4)
+Gideon Ben Zvi=2C founder and cofounder of Ligature=2C Wizcom Venture Part=
+ner in Aviv II
+Co-founder and chairman: BriefCam and EnVerid
+10:30-11:00 When to Patent Data Analysis Inventions - an Up-to-Date Review=
+ in Light of Current USPTO Practice Roy S. Melzer=2C Ehrlich & Fenster (#c=
+hapter4)
+11:00-11:30 Break (#chapter4)
+11:30 Second Seat // Civilian Technologies In Security Uses (#chapter4)
+11:30-11:50 Video Analytics Platform in IBM's Cloud Udi Barzelay=2C IBM (#=
+chapter4)
+11:50-12:10 Information Technology Application for Military Lethality Col.=
+ Eyal Bar=2C Northern District Command C4I commander. Formerly Commander o=
+f Hoshen Unit. (#chapter4)
+12:30-12:50 Video Synopsis as a New Operational Tool for Rapid Review of S=
+urveillance Video Warren Stein=2C VP Sales=2C BriefCam (#chapter4)
+12:50-13:45 Break (#chapter4)
+13:45 Third seat (#chapter4)
+13:45-14:10 Video-based Fire Detection (VFD) Shmuel Ben Uzi=2C Bosch and L=
+edico Representative in Israel (#chapter4)
+14:10-14:35 Laser Radar technology Combined with Video Analytics Replacing=
+ Classic Video Motion Detection (VMD) Systems for Outdoor Perimeter Protec=
+tion (#chapter4)
+Rami Segal CTO DFSL Dr.Frucht Systems
+14:35-15:00
+15:00-15:25 "Quantum ID" - The Missing Link Novel Method and Algorithm for=
+ Identifying and Following Individuals in Different Video Feeds Independen=
+t of Filming Angle Shai Amisar=2C QuantumRGB CEO and Co-founder (#chapter4=
+)
+Closing remarks
+
+Lectures and Lecturers subject to change *
+
+Registration (http://i-hls.com/events/videoanalytics2015?mc_cid=3D07e8c3d0=
+91&mc_eid=3D[UNIQID])
+
+This email was sent to joseph@duzon.com (mailto:joseph@duzon.com)
+why did I get this? (http://i-hls.us7.list-manage.com/about?u=3D5acc1ed377=
+b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D07e8c3d091)     unsubscri=
+be from this list (http://i-hls.us7.list-manage1.com/unsubscribe?u=3D5acc1=
+ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da&c=3D07e8c3d091)     upda=
+te subscription preferences (http://i-hls.us7.list-manage.com/profile?u=3D=
+5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da)
+iHLS Israel Homeland Security . Tel Aviv . Tel Aviv 36886 . Israel
+--_----------=_MCPart_2140818058
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+  <title></title>
+  <meta charset=3D"utf-8">
+  <style type=3D"text/css">
+  body
+  {
+  width:728px;
+  }
+  .button{
+  color:white    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-shadow: none;
+    cursor: pointer;
+    background: #70d934;
+    background-image: -webkit-linear-gradient(top=2C #70d934=2C #53b82b);
+    background-image: -moz-linear-gradient(top=2C #70d934=2C #53b82b);
+    background-image: -ms-linear-gradient(top=2C #70d934=2C #53b82b);
+    background-image: -o-linear-gradient(top=2C #70d934=2C #53b82b);
+    background-image: linear-gradient(to bottom=2C #70d934=2C #53b82b);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+=09width:150px;
+  }
+  td
+  {
+      display: table-cell;
+    vertical-align: top;
+  }
+  </style>
+  </head>
+  <body style=3D"width: 728px;">
+  <center>
+ <a href=3D"http://i-hls.us7.list-manage1.com/track/click?u=3D5acc1ed377b5=
+90a98a195f624&id=3Dac7915f078&e=3D77ab4125da" style=3D"color: #333;">Can'=
+t see this email? Click here</a>
+        <a href=3D"http://i-hls.us7.list-manage2.com/track/click?u=3D5acc1=
+ed377b590a98a195f624&id=3Df908b6f3f8&e=3D77ab4125da" style=3D"color: #333=
+;">=D7=9C=D7=A2=D7=91=D7=A8=D7=99=D7=AA =D7=9C=D7=97=D7=A5/=D7=99 =D7=9B=
+=D7=90=D7=9F</a></center><br>
+  <img src=3D"https://gallery.mailchimp.com/5acc1ed377b590a98a195f624/imag=
+es/f91b1670-703e-4f37-b7c0-87ed8cd8a98b.jpg">
+ <table border=3D"1" style=3D"width:725px;border: 1px solid #ddd;
+    border-collapse: collapse;">
+ <tr style=3D"color:#DD5A18;">
+        <td style=3D"border-right: 1px solid #ddd;width: 141px;display: ta=
+ble-cell;vertical-align: top;">08:30-09:00</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:#DD5A18;text-decor=
+ation:none;"><b>Regisatration</b></a></td>
+      </tr>
+      <tr>
+        <td class=3D"first" style=3D"display: table-cell;vertical-align: t=
+op;">09:15-09:30</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:black;text-decorat=
+ion:none;"><b>Opening Speech</b>
+=09=09<br>
+=09=09<span style=3D"line-height:10px">Shavit Or=2C Chairman</span> </a>
+=09=09</td>
+      </tr>
+      <tr style=3D"background-color:darkgray;color:red;">
+        <td style=3D"border-right: 1px solid #ddd;width: 141px;display: ta=
+ble-cell;vertical-align: top;">09:30</td>
+        <td style=3D"display: table-cell;vertical-align: top;"><a href=3D"=
+#chapter4" style=3D"color:red;text-decoration:none;">First seat</a></td>
+
+      </tr>
+=09  <tr>
+        <td class=3D"sixth" style=3D"display: table-cell;vertical-align: t=
+op;">09:30-10:00 </td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:black;text-decorat=
+ion:none;"><b>Challenges in Land Forces Operational C2 Systems </b>
+=09=09<br>
+=09=09Col. Avi Uliel=2C Head of C4I Technology Division=2C Land Forces Com=
+mand</a>
+=09=09</td>
+
+      </tr>
+=09   <tr>
+        <td style=3D"display: table-cell;vertical-align: top;">10:00-10:30=
+ </td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><b><a href=3D"#chapter4" style=3D"color:black;text-deco=
+ration:none;">Video Analytics: from SECURITY to SAFETY</a></b>
+=09=09<br>
+=09=09Gideon Ben Zvi=2C founder and cofounder of Ligature=2C Wizcom Ventur=
+e Partner in Aviv II
+<br>
+Co-founder and chairman: BriefCam and EnVerid
+=09=09</td>
+
+      </tr>
+=09  <tr>
+        <td class=3D"second" style=3D"display: table-cell;vertical-align:=
+ top;">10:30-11:00 </td>
+       <td style=3D"border-right: 1px solid #ddd;display: table-cell;verti=
+cal-align: top;"><a href=3D"#chapter4" style=3D"color:black;text-decoratio=
+n:none;"><b>When to Patent Data Analysis Inventions - an Up-to-Date Review=
+ in Light of Current USPTO Practice</b>
+=09=09<br>
+=09=09Roy S. Melzer=2C Ehrlich & Fenster</a>
+=09=09</td>
+
+      </tr>
+=09  =09  <tr style=3D"color:#DD5A18;">
+        <td style=3D"border-right: 1px solid #ddd;width: 141px;display: ta=
+ble-cell;vertical-align: top;">11:00-11:30 </td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:#DD5A18;text-decor=
+ation:none;"><b>Break</b></a>
+=09=09</td>
+
+      </tr>
+=09  <tr style=3D"background-color:darkgray;color:red;">
+        <td style=3D"border-right: 1px solid #ddd;width: 141px;display: ta=
+ble-cell;vertical-align: top;">11:30</td>
+         <td style=3D"border-right: 1px solid #ddd;width: 141px;display: t=
+able-cell;vertical-align: top;"><a href=3D"#chapter4" style=3D"color:red;t=
+ext-decoration:none;">Second Seat // Civilian Technologies In Security Use=
+s</a>
+=09=09</td>
+
+      </tr>
+=09  <tr>
+        <td class=3D"fifth" style=3D"display: table-cell;vertical-align: t=
+op;">11:30-11:50</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:black;text-decorat=
+ion:none;"><b>Video Analytics Platform in IBM's Cloud</b>
+<br>
+Udi Barzelay=2C IBM</a>
+=09=09</td>
+
+      </tr>
+=09  <tr>
+        <td class=3D"fifth" style=3D"display: table-cell;vertical-align: t=
+op;">11:50-12:10</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:black;text-decorat=
+ion:none;"><b>Information Technology Application for Military Lethality</b=
+>
+<br>
+Col. Eyal Bar=2C Northern District Command C4I commander.
+Formerly Commander of Hoshen Unit.</a>
+=09=09</td>
+
+      </tr>
+=09    <tr>
+        <td class=3D"fifth" style=3D"display: table-cell;vertical-align: t=
+op;">12:30-12:50</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:black;text-decorat=
+ion:none;"><b>Video Synopsis as a New Operational Tool for Rapid Review of=
+ Surveillance Video</b>
+<br>
+Warren Stein=2C VP Sales=2C BriefCam</a>
+=09=09</td>
+
+      </tr>
+=09  <tr style=3D"color:#DD5A18;">
+        <td class=3D"sixth" style=3D"display: table-cell;vertical-align: t=
+op;">12:50-13:45</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:#DD5A18;text-decor=
+ation:none;"><b>Break</b></a>
+=09=09</td>
+
+      </tr>
+=09
+=09   <tr style=3D"background-color:darkgray;color:red;">
+        <td class=3D"sixth" style=3D"display: table-cell;vertical-align: t=
+op;">13:45</td>
+        <td style=3D"display: table-cell;vertical-align: top;"><a href=3D"=
+#chapter4" style=3D"color:red;text-decoration:none;">Third seat</a>
+=09=09</td>
+
+      </tr>
+=09
+=09  <tr>
+        <td class=3D"sixth" style=3D"display: table-cell;vertical-align: t=
+op;">13:45-14:10</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:black;text-decorat=
+ion:none;"><b>Video-based Fire Detection (VFD)</b>
+<br>
+Shmuel Ben Uzi=2C Bosch and Ledico Representative in Israel</a>
+=09=09</td>
+
+      </tr>
+=09  <tr>
+        <td class=3D"seventh" style=3D"display: table-cell;vertical-align:=
+ top;">14:10-14:35</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><b><a href=3D"#chapter4" style=3D"color:black;text-deco=
+ration:none;">Laser Radar technology Combined with Video Analytics Replaci=
+ng Classic Video Motion Detection (VMD) Systems for Outdoor Perimeter Prot=
+ection</a></b>
+<br>
+
+Rami Segal
+CTO DFSL Dr.Frucht Systems
+=09=09</td>
+
+      </tr>
+=09  <tr>
+        <td class=3D"sixth" style=3D"display: table-cell;vertical-align: t=
+op;">14:35-15:00</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a style=3D"color:black;text-decoration:none;"><b>Facia=
+l Recognition Application to Assist Police with Real Time Alerts</b>
+<br>
+Moshe Greenshpan=2C Churchix & Face-Six CEO</a>
+=09=09</td>
+
+      </tr>
+=09  <tr>
+        <td class=3D"seventh" style=3D"display: table-cell;vertical-align:=
+ top;">15:00-15:25</td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><a href=3D"#chapter4" style=3D"color:black;text-decorat=
+ion:none;"><b>"Quantum ID" - The Missing Link
+Novel Method and Algorithm for Identifying and Following Individuals in Di=
+fferent Video Feeds Independent of Filming Angle</b>
+<br>
+Shai Amisar=2C QuantumRGB CEO and Co-founder</a>
+=09=09</td>
+
+      </tr>
+=09  <tr style=3D"color:#DD5A18;">
+        <td style=3D"border-right: 1px solid #ddd;display: table-cell;vert=
+ical-align: top;"></td>
+         <td style=3D"border-right: 1px solid #ddd;display: table-cell;ver=
+tical-align: top;"><b>Closing remarks</b>
+=09=09</td>
+
+      </tr>
+=09
+=09
+
+  </table>
+  <span style=3D"color:#DD5A18;">Lectures and Lecturers subject to change=
+ *</span>
+
+  <center>
+  <br>
+   <a name=3D"chapter4">  </a><a href=3D"http://i-hls.us7.list-manage.com/=
+track/click?u=3D5acc1ed377b590a98a195f624&id=3D7dff2fe13f&e=3D77ab4125da"=
+ class=3D"button" style=3D"color: #ffffff;font-size: 20px;line-height: inh=
+erit;text-shadow: none;cursor: pointer;background: #70d934;background-imag=
+e: linear-gradient(to bottom=2C #70d934=2C #53b82b);-webkit-border-radius:=
+ 5;-moz-border-radius: 5;border-radius: 5px;font-family: Arial;padding: 10=
+px 20px 10px 20px;text-decoration: none;width: 150px;">Registration</a>
+
+ </center>
+
+            <center>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" id=3D"canspamBarWrapper" style=3D"background-color:#FFFFFF; b=
+order-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align=3D"center" valign=3D"top" style=3D"paddi=
+ng-top: 20px;padding-bottom: 20px;display: table-cell;vertical-align: top;=
+">
+                            <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"canspamBar">
+                                <tr>
+                                    <td align=3D"center" valign=3D"top" st=
+yle=3D"color: #606060;font-family: Helvetica=2C Arial=2C sans-serif;font-s=
+ize: 11px;line-height: 150%;padding-right: 20px;padding-bottom: 5px;paddin=
+g-left: 20px;text-align: center;display: table-cell;vertical-align: top;">
+                                        This email was sent to <a href=3D"=
+mailto:joseph@duzon.com" target=3D"_blank" style=3D"color:#404040 !importa=
+nt;">joseph@duzon.com</a>
+                                        <br>
+                                        <a href=3D"http://i-hls.us7.list-m=
+anage.com/about?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16ed1&e=3D77ab4125da=
+&c=3D07e8c3d091" target=3D"_blank" style=3D"color:#404040 !important;"><em=
+>why did I get this?</em></a>=C2=A0=C2=A0=C2=A0=C2=A0<a href=3D"http://i-h=
+ls.us7.list-manage1.com/unsubscribe?u=3D5acc1ed377b590a98a195f624&id=3D8ee=
+2e16ed1&e=3D77ab4125da&c=3D07e8c3d091" style=3D"color:#404040 !important;">u=
+nsubscribe from this list</a>=C2=A0=C2=A0=C2=A0=C2=A0<a href=3D"http://i-h=
+ls.us7.list-manage.com/profile?u=3D5acc1ed377b590a98a195f624&id=3D8ee2e16e=
+d1&e=3D77ab4125da" style=3D"color:#404040 !important;">update subscription p=
+references</a>
+                                        <br>
+                                        iHLS Israel Homeland Security &mid=
+dot; Tel Aviv &middot; Tel Aviv 36886 &middot; Israel
+                                        <br>
+                                        <br>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+            </center><img src=3D"http://i-hls.us7.list-manage.com/track/op=
+en.php?u=3D5acc1ed377b590a98a195f624&id=3D07e8c3d091&e=3D77ab4125da" heig=
+ht=3D"1" width=3D"1"></body></html>
+--_----------=_MCPart_2140818058--
+

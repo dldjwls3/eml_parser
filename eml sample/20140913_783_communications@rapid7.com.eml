@@ -1,0 +1,961 @@
+Received: (qmail 28396 invoked from network); 12 Sep 2014 17:07:05 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda01.wmail.naver.com with SMTP; 12 Sep 2014 17:07:05 -0000
+Received: from [202.167.215.60] ([202.167.215.60]) 
+          by crcvmail01.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1410541624.700013.3639606160.crcvmail01
+          for <jonghyun.kim@dforensic.com>; 
+          Sat, 13 Sep 2014 02:07:04 +0900 (KST) 
+x-forward-id: 1410541622086_935649226
+recvDate: Sat, 13 Sep 2014 02:07:04 +0900
+x-newturns-hashkey : c7b83fabfa74f032012bf24a5b34cbef7ee7a06cdb2eabf4a611b85ec1bd4466
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id s8CGo8R00A98;
+	Sat, 13 Sep 2014 01:50:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,s8CGo8R00A98
+X-SmartFilter: FROM,s8CGo8R00A98,495-KNT-277.0.9521.0.0.5797.7.1141592@em-sj-77.mktomail.com
+DKIM-Signature: v=1; a=rsa-sha256; d=rapid7.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; i=@rapid7.com; t=1410541615;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=ZOHwwMNsxzkJOsvhgcwuyNVdRvAbLKLjYr3kVO/hVWY=;
+	b=ByUx3dp1Qcr8uFi7egHwPUdk49JkM6xGBjirdkl8O9zUg7Py+ZZIr/DfOGuGBiR0
+	MMYFEDOKDmeABSgBZ387TMUEFTTKbVhAwuIV2LfkEUI4rd23xPlo3w3aXsl3/9Xq
+	ZhuXBZ7jkAgiMTieUKPCJre+5CtuXcfiZmjGlD3+Uho=;
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6NTM3MDo5NTIxOjE5ODE5OjA6NTc5Nzo3OjExNDE1OTI=
+Received: from [10.0.12.43] ([10.0.12.43:53438] helo=sjmas02.marketo.org)
+	by sjmta07.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.5.0.35861 r(Momo-dev:tip)) with ESMTP
+	id 01/83-06295-F2823145; Fri, 12 Sep 2014 12:06:55 -0500
+Date: Fri, 12 Sep 2014 12:06:55 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <914416763.122087236.1410541615521.JavaMail.root@sjmas02.marketo.org>
+Subject: Rapid7 Security Newsletter - September 2014
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_122087234_821958486.1410541615521"
+X-Report-Abuse: Please report abuse here: http://www.marketo.com/policy
+X-PVIQ: 000326-001349-000001-000000-011571
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:5370:9521:19819:0:5797:7:1141592
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.9521.5797.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.9521.0.0.5797.7.1141592@em-sj-77.mktomail.com
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +P+YpB3G1Hbwa0ixyueaKAb5Fo2GjV9YKxbmFqg9jJ+Y
+
+------=_Part_122087234_821958486.1410541615521
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To view this email as a web page, go to the following address: https://info=
+rmation.rapid7.com/index.php/email/emailWebview?mkt_tok=3D3RkMMJWWfF9wsRovv=
+q7IZKXonjHpfsX56ugsXK60lMI%2F0ER3fOvrPUfGjI4ES8tlI%2BSLDwEYGJlv6SgFTrnAMatu=
+zrgPXBY%3D
+
+<http://www.rapid7.com/>
+
+
+
+
+
+
+PRODUCTS <http://www.rapid7.com/products/index.jsp>     SOLUTIONS <http://w=
+ww.rapid7.com/solutions/index.jsp>     SERVICES <http://www.rapid7.com/serv=
+ices/index.jsp>   =20
+
+
+
+
+
+
+
+
+
+
+
+Rapid7 Real-Time: Free security event still coming to Toronto, San Francisc=
+o, and Dallas!
+
+Rapid7 is hosting a free security event <http://www.rapid7.com/real-time/?C=
+S=3Dnewsletter2> in cities across North America. Join industry experts and =
+fellow security professionals at Rapid7 Real-Time and you'll get 6 CPE cred=
+its and learn how to:
+
+
+ - Think like an attacker so you can find and stop attackers on your networ=
+k
+ - Prove security's key business value to executives and Board members
+
+
+Learn more and register now <http://www.rapid7.com/real-time/?CS=3Dnewslett=
+er2>.
+
+
+
+
+
+
+
+Webcasts
+
+
+
+
+
+
+
+
+
+[UPCOMING] Incident Response: Why You Need to Detect More Than Pass the Has=
+h <https://information.rapid7.com/detect-more-than-pass-the-hash.html?CS=3D=
+newsletter>
+
+
+
+
+
+
+
+
+Date/Time: Wednesday, September 17 @ 2PM ET/11AM PT
+
+Speakers: Matt Hathaway, Senior Manager, Platform Products, Rapid7; Jeff My=
+ers, Lead Software Engineer, Rapid7
+
+In this technical presentation for incident responders and other security p=
+rofessionals, we will discuss how compromised credentials are a key predato=
+ry weapon in the attacker=E2=80=99s arsenal. This isn't changing in the for=
+eseeable future. We will systematically explore why they can be prevented b=
+ut never cut off completely, and how to leverage this knowledge in detectio=
+n. We will discuss indicators of compromise (IoCs) for Pass-the-Hash (PtH) =
+attacks in depth, while detailing more efficient detection techniques focus=
+ed on misused, =E2=80=9Cdonated=E2=80=9D, or otherwise compromised credenti=
+als.
+
+In this webinar, participants will learn about:
+
+
+
+ -=20
+Why stolen credentials are going to be used
+
+
+ -=20
+How not to detect them
+
+
+ -=20
+How you can detect the characteristics
+
+
+ -=20
+What is more important than the exact characteristics
+
+
+ -=20
+How Rapid7 can automate this detection for you
+
+
+
+The webcast consists of a technical presentation and time for questions.=20
+
+
+
+
+
+
+
+
+
+
+
+
+Save your spot=20
+now!
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[On Demand] Security Controls: How to Align Security Controls to Reduce Ris=
+k to your=20
+Business
+
+
+
+
+
+
+
+
+Watch this webcast now to learn about:
+
+
+ - Which controls from all programs are the most important & effective risk=
+ reduction tools
+ - The best of the security controls best practices
+ - How different industries should look at controls to protect the way they=
+ uniquely conduct their business
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View=20
+Now!
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+[On Demand] Credentials are the New Exploits: How to Effectively Use Creden=
+tials in Penetration=20
+Tests
+
+
+
+
+
+
+
+
+Watch this on-demand webcast to learn about:
+
+
+ - Trends that cause attackers to increasingly use credentials
+ - The ways attackers obtain credentials and move across the network
+ - Techniques penetration testers use to simulate credential abuse
+ - Efficient new ways to manage and reuse credentials with Metasploit Pro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View Now! <https://information.rapid7.com/creds-are-the-new-exploits-webcas=
+t.html?CS=3Dnewsletter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+News
+
+Home Depot was the latest victim <http://krebsonsecurity.com/2014/09/banks-=
+credit-card-breach-at-home-depot/> in the chain of massive retail store dat=
+a breaches in the past year. The scope and scale of this breach is still un=
+known and being investigated. Lee Weiner, SVP of products and engineering a=
+t Rapid7, explains <mailto:http://www.my9nj.com/story/26448219/home-depot-p=
+ossibly-the-latest-victim-of-huge-data-security-breach> that, =E2=80=9Cthe =
+type of data that would have been stolen would be stuff that is captured of=
+f your magnetic=20
+strip. That includes your first name, your last name, the expiration date, =
+and the credit card account number.=E2=80=9D This incident highlights the o=
+ngoing troubles that retailers face with cybercriminals. Many still remain =
+vulnerable to attacks, particularly through their point-of-sale and back-en=
+d software systems. Through shadow financial markets, criminals are increas=
+ingly able to realize profits from stolen data, so these kinds of attacks a=
+ren=E2=80=99t going away anytime soon. It=E2=80=99s important for all organ=
+izations handling payment card or personally identifiable information to wa=
+tch their networks closely for suspicious activity.
+
+
+
+
+
+
+
+
+Community
+
+Mozilla's Firefox and Thunderbird recently removed 1024-bit certificate aut=
+hority (CA) certificates from their trusted store. This change was shipped =
+with Firefox 32 on September 2nd. Researchers at Rapid7 Labs discovered tha=
+t 107,535 sites are using a certificate signed by the soon-to-be untrusted =
+CA certificates <https://community.rapid7.com/community/infosec/sonar/blog/=
+2014/09/04/107000-web-sites-no-longer-trusted-by-mozilla>. That is a relati=
+vely large number of sites and represents roughly half a percent of all of =
+the web sites in our database, but the problem isn't nearly as bad as the i=
+nitial numbers indicated - most sites that are active and affected have alr=
+eady expired, and shouldn't be trusted on that basis=20
+alone. So, the repeal of trust for these certificates is a sound decision b=
+ased upon NIST recommendations. We hope that Chrome and other browsers will=
+ also remove these certificates to mitigate the potential risk involved wit=
+h these 1024-bit CA keys. If you still use a 1024-bit RSA key for any other=
+ purpose, such as a Secure Shell (SSH) or PGP, it is past time to consider =
+those obsolete and start rolling out stronger keys, of at least 2048 bits, =
+and using ECC-based keys where available. Learn more here <https://communit=
+y.rapid7.com/community/infosec/sonar/blog/2014/09/04/107000-web-sites-no-lo=
+nger-trusted-by-mozilla>.
+
+Another exciting development this past month, you can now run Metasploit Fr=
+amework on iOS =E2=80=93 learn how <https://community.rapid7.com/community/=
+metasploit/blog/2012/08/21/metasploit-portable-ios>.
+
+
+
+
+
+
+
+
+Security Alert
+Patch Tuesday, September 2014 <https://community.rapid7.com/community/nexpo=
+se/blog/2014/09/11/patch-tuesday--september-2014?CS=3Dnewsletter>
+
+It=E2=80=99s a light round of Microsoft Patching this month.  Only four adv=
+isories, of which only one is critical.  The sole critical issue this month=
+ is the expected Internet Explorer roll up affecting all supported (and lik=
+ely some unsupported) versions.  This IE roll up addresses 36 privately dis=
+closed Remote Code Execution issues and 1 publically disclosed Information =
+Disclosure issue which is under limited attack in the wild. This will be th=
+e top patching priority for this month.
+Of the three non-critical things this month, two are denial of service issu=
+es affecting Lync and Windows/.NET.  The other is an elevation of privilege=
+ issue affecting Windows 8/8.1 and Server 2012 & 2012 R2.  The Lync advisor=
+y also addresses an XSS which could disclose information of a connecting us=
+er. Nothing to ignore, but definitely secondary to the IE issue unless it t=
+urns out that some or all of these are under active exploitation.
+Adobe and Microsoft have released patches to address issues in Adobe Flash.=
+  These issues are grouped by Adobe as APSB14-21, but actually include 12 C=
+VEs which most are top priority patching issues for embedded flash in the b=
+rowser.  These issues affect Chrome on Mac,=20
+Windows and Linux, Internet Explorer 10 and 11, and any browser using the F=
+lash Desktop Runtime.  In effect this is almost everyone with a browser who=
+ has Flash support.  These are all high priority issues, though I'm inferri=
+ng from the disclosure list that they are not active in the wild.
+It sure doesn=E2=80=99t seem like an end is in sight for IE patches, does i=
+t?  I think in practical terms, this it not technically, an infinite supply=
+ of remote code execution vulnerabilities.  It has to trail off sometime, w=
+hen most of the codebase has been overhauled, and all the use-after-free ty=
+pe issues have been addressed.  However, I don=E2=80=99t know when that wil=
+l be.  IE is a hugely complex codebase and is deeply integrated with Window=
+s operating systems. Hopefully Microsoft will keep up the intensity they ha=
+ve shown in hunting down and fixing these issues.
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+
+
+
+FREE PRODUCT TRIALS
+
+
+ Download Metasploit <http://www.rapid7.com/products/metasploit/download.js=
+p"><img style=3D>
+ Download UserInsight <http://www.rapid7.com/products/user-insight/user-ins=
+ight-trial.jsp"><img style=3D>
+ Download Nexpose
+ Download=20
+ControlsInsight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONNECT WITH RAPID7
+
+
+ Join the Community <https://community.rapid7.com/welcome"><img style=3D>
+ Subscribe to the Blog <http://feeds2.feedburner.com/Rapid7"><img style=3D>
+ Follow us on Twitter <https://twitter.com/Rapid"><img style=3D>
+ Contact Us <mailto:info@rapid7.com"><img style=3D>
+
+
+
+
+
+
+
+
+
+
+
+
+=20
+
+
+
+
+
+
+
+
+
+
+
+=C2=A9 2014 Rapid7, All Rights Reserved.
+ 100 Summer Street, 13th Floor
+ Boston, MA 02110-2131
+ www.rapid7.com <http://www.rapid7.com>
+ 866-7-RAPID7
+
+
+
+
+
+
+ <http://feeds2.feedburner.com/Rapid7"><img title=3D>  <https://twitter.com=
+/Rapid7>  <https://community.rapid7.com/welcome>  <mailto:info@rapid7.com">=
+<img title=3D>
+ <http://www.rapid7.com>
+
+If you no longer wish to receive these emails, go to the following link to =
+unsubscribe: https://information.rapid7.com/UnsubscribePage.html?mkt_unsubs=
+cribe=3D1&mkt_tok=3D3RkMMJWWfF9wsRovvq7IZKXonjHpfsX56ugsXK60lMI%2F0ER3fOvrP=
+UfGjI4ES8tlI%2BSLDwEYGJlv6SgFTrnAMatuzrgPXBY%3D.
+
+------=_Part_122087234_821958486.1410541615521
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Responsive Email Template</title>
+
+<style type="text/css">
+
+        .ReadMsgBody {width: 100%; background-color: #ffffff;}
+        .ExternalClass {width: 100%; background-color: #ffffff;}
+        body     {width: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased;font-family:
+'Trebuchet MS',Arial,Helvetica,sans-serif; font-size:14px; line-height:22px;}
+        h1 {font-size: 25px; color: #000000; padding: 0; margin:10px 0; line-height:34px; font-weight:normal;}
+        h2 {font-size: 20px; color: #ea5709; padding:0; margin:16px 0; font-weight:normal;}
+                .highlight {font-size: 16px; color: #333333;  font-weight:bold;}
+        a:link {color:#0197b8; text-decoration:none;}      /* unvisited link */
+        a:visited {color:#0197b8;text-decoration:none;}  /* visited link */
+        a:hover {color:#0197b8;text-decoration:none;}  /* mouse over link */
+        a:active {color:#0197b8;text-decoration:none;}  /* selected link */
+        
+        table {border-collapse: collapse;}
+        
+        @media only screen and (max-width: 640px)  {
+                                        body[yahoo] .deviceWidth {width:440px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+                        
+        @media only screen and (max-width: 479px) {
+                                        body[yahoo] .deviceWidth {width:280px!important; padding:0;}    
+                                        body[yahoo] .center {text-align: center!important;}      
+                        }
+
+
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix" >
+<div style="text-align: center"><font face="Verdana" size="1">To view this email as a web page, <a href=
+"http://info.rapid7.com/v/n0KM0cm02MQl0TN0Y3004Q4"
+>click here</a><br /><br /></font></div>
+<div ><div class="mktEditable" >
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding-top: 20px;" width="100%" valign="top" bgcolor="#FFFFFF">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="padding: 10px;" width="100%" bgcolor="#000000">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding: 10px 20px;"><a href=
+"http://info.rapid7.com/uPQ000YN4l040Y02PMMKT30"
+><img src="http://information.rapid7.com/rs/rapid7/images/rapid7_logo_white-orange.png" border="0" alt="Rapid7" width="160" height="27" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 12px; color: #ffffff; font-weight: light; text-align: right; font-family: Arial; line-height: 22px; vertical-align: middle; padding: 10px 20px; font-style: NORMAL;"><a style="text-decoration: none; color: #cccccc;"  href=
+"http://info.rapid7.com/AP0Z04KN20Q43MM00l0Q0YT"
+>PRODUCTS</a> &nbsp;&nbsp;&nbsp; <a style="text-decoration: none; color: #cccccc;" href=
+"http://info.rapid7.com/p0400K030T0M0RQN4l0MYP2"
+>SOLUTIONS</a> &nbsp;&nbsp;&nbsp; <a style="text-decoration: none; color: #cccccc;"  href=
+"http://info.rapid7.com/jM1N032lK004Y0MQT4S0P00"
+>SERVICES</a> &nbsp;&nbsp;&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td style="padding: 0px 0;">
+<h2><strong>Rapid7 Real-Time</strong>: Free security event still coming to Toronto, San Francisco, and Dallas!</h2>
+<p>Rapid7 is hosting a<a href=
+"http://info.rapid7.com/UM2M04T0lN0K4P023Q000TY"
+> <strong>free</strong> security event</a> in cities across North America.
+                       Join industry experts and fellow security professionals at Rapid7 Real-Time and you'll <strong>get 6 CPE credits</strong> and learn how to:</p>
+<ul>
+<li><span>Think like an attacker so you can </span><strong><span>find and stop      attackers</span></strong><span> on your network</span></li>
+<li><strong><span>Prove security's      key business value</span></strong><span> to executives and Board members</span></li>
+</ul>
+<span><strong><a href=
+"http://info.rapid7.com/UM2M04T0lN0K4P023Q000TY"
+>Learn more and register now</a></strong>.</span></td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2><span style="line-height: 22px;">Webcasts</span></h2>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;">[UPCOMING]&nbsp;<a href=
+"http://info.rapid7.com/B3003K2TQ00040PN0YUlMM4"
+>Incident Response: Why You Need to Detect More Than Pass the Hash</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<p><strong>Date/Time: </strong>Wednesday, September 17 @ 2PM ET/11AM PT</p>
+<p><strong>Speakers</strong>: Matt Hathaway, Senior Manager, Platform Products, Rapid7; Jeff Myers, Lead Software Engineer, Rapid7</p>
+<p>In this technical presentation for incident responders and other security professionals, we will discuss how compromised credentials are a key predatory weapon in the attacker&rsquo;s arsenal.
+      This isn't changing in the foreseeable future.
+      We will systematically explore why they can be prevented but never cut off completely, and how to leverage this knowledge in detection.
+      We will discuss indicators of compromise (IoCs) for Pass-the-Hash (PtH) attacks in depth, while detailing more efficient detection techniques focused on misused, &ldquo;donated&rdquo;, or otherwise compromised credentials.</p>
+<p>In this webinar, participants will learn about:</p>
+<ul>
+<li>
+<div>Why stolen credentials are going to be used</div>
+</li>
+<li>
+<div>How not to detect them</div>
+</li>
+<li>
+<div>How you can detect the characteristics</div>
+</li>
+<li>
+<div>What is more important than the exact characteristics</div>
+</li>
+<li>
+<div>How Rapid7 can automate this detection for you</div>
+</li>
+</ul>
+<div>The webcast consists of a technical presentation and time for questions.&nbsp;</div>
+<ul>
+</ul>
+<ul>
+</ul>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;" href=
+"http://info.rapid7.com/B3003K2TQ00040PN0YUlMM4"
+>Save your spot                   
+now!</a></span></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;">[On Demand] <a href=
+"http://info.rapid7.com/y3PKYMMQ040lTNV04400020"
+>Security Controls: How to Align Security Controls to Reduce Risk to your   
+Business</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<p><strong><span style="line-height: 22px;">Watch this webcast now to learn about:</span></strong></p>
+<ul>
+<li>Which controls from all programs are the most important &amp; effective risk reduction tools</li>
+<li>The best of the security controls best practices</li>
+<li>How different industries should look at controls to protect the way they uniquely conduct their business</li>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><strong><span style="color: #ffffff; background-color: #ea5709;"><a style="color: #ffffff;" href=
+"http://info.rapid7.com/y3PKYMMQ040lTNV04400020"
+>View      
+Now!</a></span></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" style="margin-bottom: 20x;" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="highlight" style="padding: 10px; border: 1px solid #d7d7d7; background-color: #ededed;">[On Demand] <a href=
+"http://info.rapid7.com/NN00WKM40003MPT05Q40Y2l"
+>Credentials are the New Exploits: How to Effectively Use Credentials in Penetration   
+Tests</a></td>
+</tr>
+<tr>
+<td style="border: 1px solid #d7d7d7; vertical-align: top;">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="100%" align="right">
+<tbody>
+<tr>
+<td style="padding: 10px 10px 15px 10px;">
+<p><strong>Watch this on-demand webcast to learn about:</strong></p>
+<ul>
+<li>Trends that cause attackers to increasingly use credentials</li>
+<li>The ways attackers obtain credentials and move across the network</li>
+<li>Techniques penetration testers use to simulate credential abuse</li>
+<li>Efficient new ways to manage and reuse credentials with Metasploit Pro</li>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<ul>
+</ul>
+<div style="text-align: left;">
+<table>
+<tbody>
+<tr>
+<td style="background-color: #ea5709; color: #ffffff; padding: 4px 20px; text-align: center;"><strong><span style="background-color: #ea5709;"><a style="color: #ffffff;" href=
+"http://info.rapid7.com/NN00WKM40003MPT05Q40Y2l"
+>View    Now!</a></span></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2>News</h2>
+<p><span><a href=
+"http://info.rapid7.com/I030XKY0l4M6Q42M0P0NT00"
+>Home Depot was the latest victim</a> in the chain of massive retail store data breaches in the past year.
+ The scope and scale of this breach is still unknown and being investigated.
+ <a href=
+"http://info.rapid7.com/T7QKP0M03000YNY20l4M4T0"
+>Lee Weiner, SVP of products and engineering at Rapid7, explains</a> that, &ldquo;the type of data that would have been stolen would be stuff that is captured off your magnetic 
+strip.
+ That includes your first name, your last name, the expiration date, and the credit card account number.&rdquo; This incident highlights the ongoing troubles that retailers face with cybercriminals.
+ Many still remain vulnerable to attacks, particularly through their point-of-sale and back-end software systems.
+ Through shadow financial markets, criminals are increasingly able to realize profits from stolen data, so these kinds of attacks aren&rsquo;t going away anytime soon.
+ It&rsquo;s important for all organizations handling payment card or personally identifiable information to watch their networks closely for suspicious activity.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2>Community</h2>
+<p><span>Mozilla's Firefox and Thunderbird recently removed 1024-bit certificate authority (CA) certificates from their trusted store.
+ This change was shipped with Firefox 32 on September 2nd.
+ Researchers at Rapid7 Labs discovered that <a href=
+"http://info.rapid7.com/c0402MMK0lQN034T80YZP00"
+>107,535 sites are using a certificate signed by the soon-to-be untrusted CA certificates</a>.
+ That is a relatively large number of sites and represents roughly half a percent of all of the web sites in our database, but the problem isn't nearly as bad as the initial numbers indicated - most sites that are active and affected have already expired, and shouldn't be trusted on that basis 
+alone.
+ So, the repeal of trust for these certificates is a sound decision based upon NIST recommendations.
+ We hope that Chrome and other browsers will also remove these certificates to mitigate the potential risk involved with these 1024-bit CA keys.
+ If you still use a 1024-bit RSA key for any other purpose, such as a Secure Shell (SSH) or PGP, it is past time to consider those obsolete and start rolling out stronger keys, of at least 2048 bits, and using ECC-based keys where available.
+ <a href=
+"http://info.rapid7.com/c0402MMK0lQN034T80YZP00"
+>Learn more here</a>.</span></p>
+<p><span>Another exciting development this past month, <a href=
+"http://info.rapid7.com/y3QKYMMQ040lTN004a00020"
+>you can now run Metasploit Framework on iOS &ndash; learn how</a>.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 0px 0px 20px 0px; border-bottom: 1px solid #cccccc;" bgcolor="#FFFFFF">
+<h2>Security Alert</h2>
+<strong><a href=
+"http://info.rapid7.com/NN001KM40003MQT0bQ40Y2l"
+>Patch Tuesday, September 2014</a></strong><br />
+<p class="p1">It&rsquo;s a light round of Microsoft Patching this month.&nbsp; Only four advisories, of which only one is critical.&nbsp; The sole critical issue this month is the expected Internet Explorer roll up affecting all supported (and likely some unsupported) versions.&nbsp; This IE roll  
+    up addresses 36 privately disclosed Remote Code Execution issues and 1 publically disclosed Information Disclosure issue which is under limited attack in the wild.
+      This will be the top patching priority for this month.</p>
+<p class="p1">Of the three non-critical things this month, two are denial of service issues affecting Lync and Windows/.NET.&nbsp; The other is an elevation of privilege issue affecting Windows 8/8.1 and Server 2012 &amp; 2012 R2.&nbsp; The Lync advisory also addresses an XSS which could disclose  
+    information of a connecting user.
+      Nothing to ignore, but definitely secondary to the IE issue unless it turns out that some or all of these are under active exploitation.</p>
+<p class="p1">Adobe and Microsoft have released patches to address issues in Adobe Flash.&nbsp; These issues are grouped by Adobe as APSB14-21, but actually include 12 CVEs which most are top priority patching issues for embedded flash in the browser.&nbsp; These issues affect Chrome on Mac,      
+Windows and Linux, Internet Explorer 10 and 11, and any browser using the Flash Desktop Runtime.&nbsp; In effect this is almost everyone with a browser who has Flash support.&nbsp; These are all high priority issues, though I'm inferring from the disclosure list that they are not active in the     
+ wild.</p>
+<p class="p1">It sure doesn&rsquo;t seem like an end is in sight for IE patches, does it?&nbsp; I think in practical terms, this it not technically, an infinite supply of remote code execution vulnerabilities.&nbsp; It has to trail off sometime, when most of the codebase has been overhauled, and   
+   all the use-after-free type issues have been addressed.&nbsp; However, I don&rsquo;t know when that will be.&nbsp; IE is a hugely complex codebase and is deeply integrated with Windows operating systems.
+      Hopefully Microsoft will keep up the intensity they have shown in hunting down and fixing these issues.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> 
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="48%" align="left">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><strong>FREE PRODUCT TRIALS</strong></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/K00M4KN00lQ22c4YM03Q0T0"
+><img style="vertical-align: middle; margin-right: 
+6px;" src="http://information.rapid7.com/rs/rapid7/images/ms.gif" alt="Download Metasploit" /> <span style="color: #0197b8;">Download Metasploit</span></a><br /> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/Q0QT0YN0K32lM0Q3400d4M0"
+><img style="vertical-align: 
+middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/ui.gif" alt="Download UserInsight" /> <span style="color: #0197b8;">Download  UserInsight</span></a><br /> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/g40Y4Ql0M203NT04K000eQM"
+><img 
+style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/nx.gif" alt="Download Nexpose" /> <span style="color: #0197b8;">Download                                                         Nexpose</span></a><br /> <a style="text-decoration: none;"  href=
+"http://info.rapid7.com/q3TK040Ylf0Q4Q02N0M500M"
+><img style="vertical-align: middle; margin-right: 6px;" src="http://information.rapid7.com/rs/rapid7/images/ci.gif" alt="Download                  ControlsInsight" /> <span style="color: #0197b8;">Download     
+ControlsInsight</span></a><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="48%" align="right">
+<tbody>
+<tr>
+<td class="center" style="padding-top: 20px;" align="center" valign="top">
+<table width="99%">
+<tbody>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#333333"><strong>CONNECT WITH RAPID7</strong></td>
+</tr>
+<tr>
+<td style="padding: 10px; color: #fff; font-family: Arial; font-size: 13px; border: 1px solid #cccccc;" align="left" valign="top" bgcolor="#FFFFFF"><a style="text-decoration: none;" href=
+"http://info.rapid7.com/c0402MMK0lQN034Tg0Y6Q00"
+><img style="vertical-align: middle; margin-right: 6px;" 
+src="http://information.rapid7.com/rs/rapid7/images/community.gif" alt="Join the Community" /> <span style="color: #0197b8;">Join the Community</span></a><br /> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/NN007KM40003MQT0hQ40Y2l"
+><img style="vertical-align: middle; margin-right: 10px;" 
+src="http://information.rapid7.com/rs/rapid7/images/blog_rss.gif" alt="Subscribe to the Blog" /> <span style="color: #0197b8;">Subscribe to the Blog</span></a><br /> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/jMiN032lK004Y0MQT480Q00"
+><img style="vertical-align: middle; margin-right: 12px;" 
+src="http://information.rapid7.com/rs/rapid7/images/twitter.gif" alt="Follow us on Twitter" /> <span style="color: #0197b8;">Follow us on Twitter</span></a><br /> <a style="text-decoration: none;" href=
+"http://info.rapid7.com/g90Y4Ql0M203NT04K000jQM"
+><img style="vertical-align: middle; margin-right: 8px;" 
+src="http://information.rapid7.com/rs/rapid7/images/contact.gif" alt="Contact Us" /> <span style="color: #0197b8;">Contact Us</span></a><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="height: 35px;">&nbsp;</div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="padding: 30px 0;" bgcolor="#363636">
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="580" align="center">
+<tbody>
+<tr>
+<td>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="45%" align="left">
+<tbody>
+<tr>
+<td class="center" style="font-size: 14px; color: #999; font-family: Arial; padding-bottom: 20px;" valign="top">&copy; 2014 Rapid7, All Rights Reserved.<br /> 100 Summer Street, 13th Floor<br /> Boston, MA 02110-2131<br /> <a style="color: #999; text-decoration: underline;"  href=
+"http://info.rapid7.com/Q0QT0YN0Ka2lM0Q3400k4M0"
+>www.rapid7.com</a><br /> 866-7-RAPID7</td>
+</tr>
+</tbody>
+</table>
+<table class="deviceWidth" border="0" cellspacing="0" cellpadding="0" width="40%" align="right">
+<tbody>
+<tr>
+<td class="center" style="font-size: 15px; color: #f1f1f1; font-weight: normal; font-family: Arial; line-height: 26px; vertical-align: top; text-align: right;" valign="top"><a href=
+"http://info.rapid7.com/NN007KM40003MQT0hQ40Y2l"
+><img title="RSS Feed" 
+src="http://information.rapid7.com/rs/rapid7/images/rss-footer.gif" border="0" alt="RSS Feed" /></a> <a href=
+"http://info.rapid7.com/DKb400l0TNY00Q03lQ2M04M"
+><img title="Twitter" src="http://information.rapid7.com/rs/rapid7/images/twitter-footer.gif" border="0" alt="Twitter" /></a> <a  href=
+"http://info.rapid7.com/c0402MMK0lQN034Tg0Y6Q00"
+><img title="Rapid7 Community" src="http://information.rapid7.com/rs/rapid7/images/community-footer.gif" border="0" alt="Rapid7 Community" /></a> <a href=
+"http://info.rapid7.com/g90Y4Ql0M203NT04K000jQM"
+><img title="Email Rapid7" 
+src="http://information.rapid7.com/rs/rapid7/images/mail-footer.gif" border="0" alt="Email Rapid7" /></a><br /> <a href=
+"http://info.rapid7.com/Q0QT0YN0Ka2lM0Q3400k4M0"
+><img src="http://information.rapid7.com/rs/rapid7/images/r7-logo-small.gif" border="0" alt="Rapid7 Home Page" /></a><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<IMG SRC="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6NTM3MDo5NTIxOjE5ODE5OjA6NTc5Nzo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" WIDTH="1" HEIGHT="1" BORDER="0" ALT="" />
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><p><font face="Verdana" size="1">If you no longer wish to receive these emails, click on the following link: <a href=
+"http://info.rapid7.com/u/jMnN032lK004Y0MQT4d0Q00"
+>Unsubscribe</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_122087234_821958486.1410541615521--
+
+

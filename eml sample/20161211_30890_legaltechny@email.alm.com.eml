@@ -1,0 +1,631 @@
+Received: (qmail 18146 invoked by uid 100); 10 Dec 2016 16:15:04 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda001.wmail.worksmobile.com with SMTP;10 Dec 2016 16:15:04 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+  by crcvmail01.wmail.naver.com with ESMTP id xocBAxGvTWuTHVxJVjF5yg
+  for <jonghyun.kim@dforensic.com>;
+  Sat, 10 Dec 2016 16:15:04 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uBAGHkh00452;
+	Sun, 11 Dec 2016 01:17:46 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBAGHkh00452
+X-SmartFilter: FROM,uBAGHkh00452,joseph@duzon.com
+x-forward-id: <0b4af51c-bb35-4325-81b5-b453f4da0196@xtinp2mta4238.xt.local>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3tbZ1y6LFbz2fmFq; Sun, 11 Dec 2016 01:14:55 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3tbZ1q5gqHz2fmFp
+	for <joseph@duzon.com>; Sun, 11 Dec 2016 01:14:55 +0900 (KST)
+Received: from external ([198.245.80.97])
+	by smf.duzon.co.kr (1.0) id uBAGHZg00451;
+	Sun, 11 Dec 2016 01:17:36 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uBAGHZg00451
+X-SmartFilter: FROM,uBAGHZg00451,bounce-137_HTML-18091749-2893029-6203401-24@bounce.email.alm.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=email.alm.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:List-ID:Message-ID:Content-Type; i=legaltechny@email.alm.com;
+ bh=93hyREi7hoj8AeZ+dtKEGDhIkus=;
+ b=jpczyLIXnq0zl0euzoOggHQGSkK+PGa8DxqzmvrCx0weyCHKjPsLUhHpYPn3NR22cYGi1CSlo7b4
+   f/p3fFK1GM627D9cNh4DIk8X+LMeL+OSlGpN87HjxA7JbVvPLI1afs96Q6xuWlKgwowJP8xlyF84
+   CiVJ3z7y2pjJK8qyXmo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=email.alm.com;
+ b=go9VfYc3QlOmusT1845aGYcr/q5fR6E1OuuLq67kTdGU5VYqvGxwhHCHbyPJqsNnWGlQP78ERt1C
+   y5koQbVtLslzxzvFfCLONZicXyNzIqrSrvNLNcaTFBPyaZOvIz3FOV/w7YOhqpkRxFTdv9L4aY/4
+   5HjBbfA9dJDXfTfIKGI=;
+Received: by mta.email.alm.com id h9gkvm163hss for <JOSEPH@DUZON.COM>; Sat, 10 Dec 2016 10:14:22 -0600 (envelope-from <bounce-137_HTML-18091749-2893029-6203401-24@bounce.email.alm.com>)
+From: "Legaltech New York" <legaltechny@email.alm.com>
+To: <JOSEPH@DUZON.COM>
+Subject: Legaltech Keynote Speakers Announced
+Date: Sat, 10 Dec 2016 10:14:24 -0600
+List-Unsubscribe: <mailto:leave-fd501573720b5c392848-fe581578756d057a711d-fe8e16787c67047f7c-fe9f12727567007d74-ff991674@leave.email.alm.com>
+MIME-Version: 1.0
+Reply-To: "Legaltech" <reply-fe8e16787c67047f7c-137_HTML-18091749-6203401-24@email.alm.com>
+List-ID: <6203401_2893029.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 6203401_2893029
+Message-ID: <0b4af51c-bb35-4325-81b5-b453f4da0196@xtinp2mta4238.xt.local>
+Content-Type: multipart/alternative;
+	boundary="muvzCVyh5F0U=_?:"
+X-Naver-ESV: ww+n+6J4p635WrlY7BwdpBmwFou9KA3YkXm=
+
+This is a multi-part message in MIME format.
+
+--muvzCVyh5F0U=_?:
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+To view this email as a web page, go to the link below, or copy and paste it into your browser's address window.
+http://view.email.alm.com/?qs=51345528447105601ea7138283a02a8811ab4537d754a4a9aba432c33471fb8bac5725a342301f0ffdf965d712c1846136c4973c04c7d540a4b77f2b72ca05cb3303cafb8516e405To view this email as a web page, go http://view.email.alm.com/?qs=51345528447105601ea7138283a02a8811ab4537d754a4a9aba432c33471fb8bac5725a342301f0ffdf965d712c1846136c4973c04c7d540a4b77f2b72ca05cb3303cafb8516e405 here. 
+
+Legaltech 
+January 31 - February 2, 2017
+New York Hilton Midtown
+>> Now Part of Legalweek, The Experience 
+http://click.email.alm.com/?qs=a8b46f83ef8cbf93a3c221879bea2e7e8fbdb3426d6b1f61bd341e290e3bba097491af7299b9afb3 
+
+Secure Your Place Today for Your New Legaltech Experience
+New Topics / New Speakers / New Networking Opportunities
+Register: http://click.email.alm.com/?qs=a8b46f83ef8cbf9390cdd05182ed60e17e07c50742dd3eb3b7093a1b8649a55d3a0b7e78907b9580 
+
+=================================================
+ 
+Legaltech, taking place on January 31-February 2, 2017 at the New York Hilton Midtown brings together thousands of legal professionals to collaborate on emerging trends, innovative technology and the generational shift in talent impacting the legal industry. Featuring 12 educational tracks, three interactive keynote sessions, 100+ speakers, 75+ sessions, unlimited networking opportunities and much more! Register today and explore how the industry's most successful organizations and firms are preparing for the future.
+
+Featured Keynote Sessions:
+
+- Update on Federal & Supreme Court *CLE ELigible*
+
+- The Effects of the December 2015 Amendments to the Federal Rules of Civil Procedure from 3 Perspectives (Judges, Defense & Plaintiff) *CLE Eligible*
+
+View The Full Agenda : http://click.email.alm.com/?qs=a8b46f83ef8cbf93e5c45f847d6f8a034fa7a1f683e551d07a05314f5b5050284fff7f7e8d85d76f 
+
+REGISTER BY DECEMBER 31 AND SAVE UP TO $200
+Enter code: LTNY17EM6 when registering
+Register: http://click.email.alm.com/?qs=a8b46f83ef8cbf9390cdd05182ed60e17e07c50742dd3eb3b7093a1b8649a55d3a0b7e78907b9580 
+
+=================================================
+
+Featured Legaltech Keynote Speakers
+
+Erwin Chemerinsky 
+Founding Dean and Distinguished Professor of Law & Raymond Pryke Professor of First Amendment Law
+University of California, Irvine School of Law
+
+Hon. Elizabeth D. Laporte
+United States Magistrate Judge
+Northern District of California
+
+Hon. Andrew J. Peck
+United States Magistrate Judge
+Southern District of New York
+
+Hon. Xavier Rodriguez
+United States District Judge
+Western District of Texas
+
+Ariana Tadler
+Partner
+Milberg LLP
+
+Paul D. Weiner
+National eDiscovery Counsel | Shareholder
+Littler Mendelson P.C.
+
+=================================================
+
+LEGALTECH IS NOW PART OF LEGALWEEK, THE EXPERIENCE 
+
+Your master pass to Legaltech gives you full access to Legalweek, The Experience. This expanded event brings together the legal industry through several specialized areas of focus to address the biggest challenges facing legal professionals today. Your Master Pass to Legaltech provides the freedom to tailor your event experience to meet your unique interests and needs.
+
+Featuring Legalweek State Of The Industry Keynote Presentations Led By:
+http://click.email.alm.com/?qs=a8b46f83ef8cbf93d10f75a6d5bf5b0eadba7a17fa62b2809e5579f726df46d9c7107ed55e616b89 
+
+Andrew McAfee
+
+Visionary Futurist & Director of the MIT Initiative on the Digital Economy
+NY Times Best Selling Author of "The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies"
+
+Sunny Hostin
+ABC News Senior Legal Correspondent, Co-Host of The View & Contributor to Good Morning America, Nightline and 20/20 
+
+Register Today
+http://click.email.alm.com/?qs=a8b46f83ef8cbf9390cdd05182ed60e17e07c50742dd3eb3b7093a1b8649a55d3a0b7e78907b9580 
+ 
+Contact Us
+For registration inquiries: Please Contact Frank Wolson fwolson@alm.com 
+ 
+Join The Conversation:
+
+Twitter: http://click.email.alm.com/?qs=a8b46f83ef8cbf939fa73d8d96b56edf87f3b7f7e52a3defd0bad2d4a98365341e9b944fb2a348bd
+Linkedin: http://click.email.alm.com/?qs=a8b46f83ef8cbf93032aad05bc39092b22959b8fd1fd325379cd2783772fbc9a0617f754b7494468
+Facebook: http://click.email.alm.com/?qs=a8b46f83ef8cbf93b6c9d36a060150a3b1767cdcea136510929f729d95f83019150cb84473585d38
+
+#Legaltech / #Legalweek17
+
+----------------------------------------
+	
+This email was sent to: JOSEPH@DUZON.COM
+This email was sent by: ALM
+120 Broadway, 5th Floor, New York, NY 10271 USA
+877-256-2472
+
+If you wish to opt-out from ""ALM Events, Webinars & Dinners"" please visit the following link:
+http://click.email.alm.com/unsub_center.aspx?qs=b8bc06dbd141eb4018af216cd315a98f7c03ee6eca4f7a18c23e53e9619227eeb402c271714cdf997bfded8a9fcf203ceab24550b33e1cc85fca71513a1e5e40
+
+View our privacy policy:
+http://click.email.alm.com/?qs=a8b46f83ef8cbf936ffc2c16b33e1943faa0ad0b0ab3aa00ed47d1da1dfe0defd88a0016250172f2
+
+View our terms and conditions:
+http://click.email.alm.com/?qs=a8b46f83ef8cbf93cca9b9b2deece48ea114427974b9cb998442b9c3e93fcfb5e240957064d6c7f3
+
+2016 ALM Media Properties, LLC. All rights reserved.
+
+--muvzCVyh5F0U=_?:
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Untitled Document</title>
+	<style type="text/css">
+	body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	body {
+	background-color: #FFF;
+	}
+	td {
+	padding: 0;
+	}
+	a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #555555;
+	text-decoration: none;
+	}
+	p {
+	font-size: 14px; 
+	line-height: 22px; 
+	font-family: Arial, sans-serif; 
+	color:#555555;
+	}
+	ul {
+	font-size: 14px; 
+	line-height: 22px; 
+	font-family: Arial, sans-serif; 
+	color:#555555;
+	}
+	@media only screen and (max-width: 480px) {
+	table [class="wrapper"], table [class="main"] {
+	width: 100% !important;
+	}
+	td [class="headlines"], td [class="subhead"] {
+	text-align: left !important;
+	}
+	table [class="Offers"], table [class="photoCols"] {
+	width: 92% !important;
+	}
+	td [class="subhead"], td [class="copy_Text"], {
+	font-size: 13px !important;
+	}
+	table [class="speakerPhotos"] {
+	padding-right: 0px !important;
+	margin-bottom: 8px !important;
+	padding-right: 8px !important;
+	width: 47% !important;
+	}
+	td [class="singlePict"] {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	text-align: Left !important;
+	font-size: 11px !important;
+	}
+
+	table [class="mobileShown"], td [class="mobileShown"]{
+	display: block !important;
+	clear: both !important;
+	width: 92% !important;
+	height: 5px important;
+	visibility: visible !important;
+	}
+
+	table [class="mobileDrop"] {
+	display: inline !important;
+	clear: none !important;
+	visibility: hidden !important;
+	width: 0px !important;
+	font-size: 0px !important;
+	line-height: 0px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	}
+
+	table [class="copy_Social"], td [class="sponsors_Copy"] {
+	font-size:11px !important;
+	}
+	}
+	</style>
+</head><body bgcolor="#FFFFFF" link="#cc9966" text="#555555" style="font-family: Arial, Helvetica, sans-serif;"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Your Legaltech registration now gets you access to more keynote presentations!</div>
+
+<table class="wrapper" align="center" width="100%" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0;">
+	<tr>
+		<td class="goOnline">
+		<p style="font-family:Arial, Helvetica, sans-serif; font-size: 10px; line-height:10px; text-align:center; margin-top: 15px; margin-bottom: 15px;">
+		To view this email as a web page, go <a href="http://view.email.alm.com/?qs=51345528447105601ea7138283a02a8811ab4537d754a4a9aba432c33471fb8bac5725a342301f0ffdf965d712c1846136c4973c04c7d540f032a655298454fa13a54d644fd64a1d" > here.</a>
+		</p>
+		</td>
+	</tr>
+	<!--  main Content Area  -->
+	<tr valign="top">
+		<td>
+		<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="main" style="background-color: #f5f6f7; font-family: Arial, Helvetica, sans-serif; padding-bottom: 10px; margin-bottom: 15px;">
+			<!--  image header  -->
+			<tr valign="top">
+				<td>
+				<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="header" style="padding-bottom: 20px; padding-left:0px; padding-right: 0px; padding-top: 0px; display: block;">
+					<tr valign="top">
+						<td>
+						<a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf9374a03fbff3fb9635dfd76c030ffb4bc942852e00425245325bc111af79d1ce15" title="Legaltech"  ><center><img id="imageTop" style="width:100%; max-width:600px; height:auto !important; display:block; border:none; outline:none" alt="imageTop" 
+src="http://image.email.alm.com/lib/fe9f12727567007d74/m/1/legalWeek-Event-Emails_Legaltech_600x150.jpg"  />
+</center>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<!--  image header ends  -->
+			<!--  1st offer  -->
+			<tr valign="top">
+				<td>
+				<table class="Offers" width="84%" align="center" cellpadding="0" cellspacing="0" style="display: block; padding-top:20px; padding-left: 5%; padding-right: 5%; padding-bottom: 25px; background-color: #FFF;">
+					<!--  headline  -->
+					<tr>
+						<td class="headlines" style="text-align: center; display:block; font-size: 22px; line-height: 28px; padding-top: 2%; padding-bottom: 0px; margin-bottom: 0px;">
+						<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p style="text-align: center; display: block; font-size: 22px; line-height: 28px; margin-top: 3px; margin-bottom: 5px;" class="headlines"><font color="0079C0">&nbsp; Secure Your Place Today for </font><br /><font color="0079C0">Your New Legaltech Experience</font><br /></p></td></tr></table></td></tr></table>
+						</td>
+					</tr>
+					<!--  subhead  -->
+					<tr>
+						<td class="subhead" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height:20px; font-weight: bold; text-align: center; margin-top: 0px; padding-top: 0px; padding-bottom: 1%; display:block;">
+						<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; line-height: 18px; font-weight: bold; text-align: center; margin-top: 0px; margin-bottom: 3%; display: block;" class="subhead">New Topics l New Speakers l New Networking Opportunities<br /></p></td></tr></table></td></tr></table>
+						</td>
+					</tr>
+					<!--  bodycopy  -->
+					<tr>
+						<td class="copy_Text" style="font-family:Arial, Helvetica, sans-serif; text-align: left; font-size: 14px; line-height: 20px; padding-top: 0px; padding-bottom: 2%; display:block;">
+						<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p style="font-family: Arial,Helvetica,sans-serif; text-align: left; font-size: 14px; line-height: 20px; padding-top: 0px; margin-bottom: 2%; display: block;">
+<b><a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf9374a03fbff3fb9635dfd76c030ffb4bc942852e00425245325bc111af79d1ce15" title="Legaltech"  ><font color="0079C0">Legaltech</font></a></b>, taking place on <b><font color="0079C0">January 31-February 2, 2017</font></b> at the <b><font color="0079C0">New York Hilton Midtown</font></b> brings together thousands of legal professionals to collaborate on emerging trends, innovative technology and the generational shift in talent impacting the legal industry.<b><font color="0079C0"> Featuring 12 educational tracks, three interactive keynote sessions, 100+ speakers, 75+ sessions</font><font color="0079C0">, </font><font color="0079C0">unlimited networking opportunities and much more.</font></b> <a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf9349ea90756b2d2796be03743bb31b90985c1ab2679f9e7482620b6ebcef6af976" title="Register today "  >Register today!
+</a></p>
+<p style="font-family: Arial,Helvetica,sans-serif; text-align: left; font-size: 14px; line-height: 20px; padding-top: 0px; margin-bottom: 2%; display: block;">
+<b>Featured Keynote Sessions:</b>
+</p>
+<ul>
+	<li>Update on Federal & Supreme Court<font color="0079C0"><b> - </b></font><b><font color="0079C0">CLE ELigible</font></b><br />
+	</li>
+	<li>The Effects of the December 2015 Amendments to the Federal Rules of Civil Procedure from 3 Perspectives (Judges, Defense & Plaintiff) <b><font color="0079C0"><font color="0079C0">- </font>CLE Eligible</font></b></li>
+</ul>
+<p><b><a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf93d69332f877ac730f0c54fd314e45fa39fb95b7a42f43485670647caeb5128415" title="View The Full Agenda"  >View The Full Agenda</a></b><br /></p>
+<ul>
+</ul>
+<p>
+</p></td></tr></table></td></tr></table>
+						</td>
+					</tr>
+					<!--  CTA button  -->
+					<tr>
+						<td width="440" align="center" style="padding-top: 10px; padding-bottom: 15Px;">
+						<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><center><center><a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf9362c5855a569c0e151f33eb30122c26a51340a48e181a3ffaa196a4b45f9f5635" title=""><img src="http://image.email.alm.com/lib/fe9f12727567007d74/m/1/Legaltech_Register_Button_Small.png" title="Legaltech_Register_Button_Small" alt="Legaltech_Register_Button_Small" vspace="0" hspace="0" border="0" /><br />
+<font size="2"><b>REGISTER BY DECEMBER 31 AND SAVE UP TO $200</b><i><br />Enter code: LTNY17EM6 when registering</i></font></a></center></center></td></tr></table></td></tr></table>
+						</td>
+					</tr>
+					<!--  CTA button ends  -->
+				</table>
+				</td>
+			</tr>
+			<!--  1st offer ends  -->
+			<!--  spacing  -->
+			<tr valign="top">
+				<td class="spacing" style="display:block; clear: both; height: 20px !important; padding: 0px !important;">&nbsp;</td>
+			</tr>
+			<!--  spacing ends  -->
+			<tr valign="top">
+				<td bgcolor="#e5e6e9">
+				<!--  photo section  -->
+				<table class="photoCols" width="84%" align="center" cellpadding="0" cellspacing="0" style="max-width: 504px !important; display: block; padding-top:20px; padding-left: 0px; padding-right: 0px; padding-bottom: 25px;">
+					<!--  headline  -->
+					<tr>
+						<td class="headlines" style="text-align: center; display:block; font-size: 22px; line-height:28px; padding-top: 2%; padding-bottom:2%; padding-left: 0px; padding-right: 0px;">
+						<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p class="headlines" style="text-align: center; display: block; font-size: 22px; line-height: 28px; margin-top: 3px; margin-bottom: 5px;">
+<font color="0079C0">Featured Legaltech Keynote Speakers
+</font></p></td></tr></table></td></tr></table>
+						</td>
+					</tr>
+					<!--  photo_3 Columns  -->
+					<tr>
+						<td align="cols" valign="top" style="padding-top: 2%; padding-left: 0px; padding-right: 0px;">
+						<table class="speakerPhotos" width="31%" align="left" border="0" cellpadding="0" style="display: inline-block !important; padding-left: 0px; padding-right: 5px;  font-size: 10px; line-height: 15px; margin-right: 1%; margin-left: auto;">
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 5px;">
+								<p style="margin-top: 0px; margin-bottom: 0px; text-align: left;"><img class="speaker" alt="speaker" style="display: block; width: 100%; max-width: 145px !important; height: auto ! important;" src="http://www.eiseverywhere.com/image.php?acc=4854&id=725160"/>
+</p>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 15px;">
+								<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p class="singlePict" style="padding-left: 0px; padding-top: 5px; padding-right: 11px; font-size: 11px; line-height: 16px; display: block; margin-bottom: 0px;"><b>Erwin Chemerinsky </b><br /><i>Founding Dean and Distinguished Professor of Law & Raymond Pryke Professor of First Amendment Law</i><br /><b>University of California, Irvine School of Law</b><br /></p></td></tr></table></td></tr></table>
+								</td>
+							</tr>
+						</table>
+						<table class="speakerPhotos" width="31%" align="left" border="0" cellpadding="0" style="display: inline-block !important; padding-left: 0px; padding-right: 5px;  font-size: 10px; line-height: 15px; margin-right: 1%; margin-left: auto;">
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 5px;">
+								<p style="margin-top: 0px; margin-bottom: 0px; text-align: left;"><img class="speaker" alt="speaker" style="display: block; width: 100%; max-width: 145px !important; height: auto ! important;" src="http://www.eiseverywhere.com/image.php?acc=4854&id=725161"/>
+</p>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 15px;">
+								<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p class="singlePict" style="padding-left: 0px; padding-top: 5px; padding-right: 11px; font-size: 11px; line-height: 16px; display: block; margin-bottom: 0px;"><b>Hon. Elizabeth D. Laporte</b><i><br />United States Magistrate Judge</i><br /><b>Northern District of California</b></p></td></tr></table></td></tr></table>
+								</td>
+							</tr>
+						</table>
+
+<table class="mobileShown" align="left" border="0" cellpadding="0" style="width: 0px; display: inline; clear: none; visibility: hidden !important; padding: 0; margin: 0; font-size: 0px; line-height: 0px;">
+							<tr>
+								<td valign="top" align="center" class="mobileShown" style="padding: 0; margin: 0;">
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center" class="mobileShown" style="padding: 0; margin: 0;">
+								</td>
+							</tr>
+						</table>
+
+						<table class="speakerPhotos" width="31%" align="left" border="0" cellpadding="0" style="display: inline-block !important; padding-left: 0px; padding-right: 5px;  font-size: 10px; line-height: 15px; margin-right: 1%; margin-left: auto;">
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 5px;">
+								<p style="margin-top: 0px; margin-bottom: 0px; text-align: left;"><img class="speaker" alt="speaker" style="display: block; width: 100%; max-width: 145px !important; height: auto ! important;" src="http://www.eiseverywhere.com/image.php?acc=4854&id=725162"/>
+</p>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 15px;">
+								<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p class="singlePict" style="padding-left: 0px; padding-top: 5px; padding-right: 11px; font-size: 11px; line-height: 16px; display: block; margin-bottom: 0px;"><b>Hon. Andrew J. Peck</b><i><br />United States Magistrate Judge</i><br /><b>Southern District of New York</b></p></td></tr></table></td></tr></table>
+								</td>
+							</tr>
+						</table>
+<table class="mobileDrop" align="left" border="0" cellpadding="0" style="display: block; clear: both; padding: 0; margin: 0;">
+							<tr>
+								<td valign="top" align="center" style="padding: 0;">
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center" style="padding:0;">
+
+								</td>
+							</tr>
+						</table>
+						<table class="speakerPhotos" width="31%" align="left" border="0" cellpadding="0" style="display: inline-block !important; padding-left: 0px; padding-right: 5px;  font-size: 10px; line-height: 15px; margin-right: 1%; margin-left: auto;">
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 5px;">
+								<p style="margin-top: 0px; margin-bottom: 0px; text-align: left;"><img class="speaker" alt="speaker" style="display: block; width: 100%; max-width: 145px !important; height: auto ! important;" src="http://www.eiseverywhere.com/image.php?acc=4854&id=725163"/>
+</p>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 15px;">
+								<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p class="singlePict" style="padding-left: 0px; padding-top: 5px; padding-right: 11px; font-size: 11px; line-height: 16px; display: block; margin-bottom: 0px;"><b>Hon. Xavier Rodriguez</b><i><br />United States District Judge</i><br /><b>Western District of Texas</b><br /></p></td></tr></table></td></tr></table>
+								</td>
+							</tr>
+						</table>
+
+
+<table class="mobileShown" align="left" border="0" cellpadding="0" style="width: 0px; display: inline; clear: none; visibility: hidden !important; padding: 0; margin: 0; font-size: 0px; line-height: 0px;">
+							<tr>
+								<td valign="top" align="center" class="mobileShown" style="padding: 0; margin: 0;">
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center" class="mobileShown" style="padding: 0; margin: 0;">
+								</td>
+							</tr>
+						</table>
+
+
+
+						<table class="speakerPhotos" width="31%" align="left" border="0" cellpadding="0" style="display: inline-block !important; padding-left: 0px; padding-right: 5px;  font-size: 10px; line-height: 15px; margin-right: 1%; margin-left: auto;">
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 5px;">
+								<p style="margin-top: 0px; margin-bottom: 0px; text-align: left;"><img class="speaker" alt="speaker" style="display: block; width: 100%; max-width: 145px !important; height: auto ! important;" src="http://www.eiseverywhere.com/image.php?acc=4854&id=725164"/>
+</p>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 15px;">
+								<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p class="singlePict" style="padding-left: 0px; padding-top: 5px; padding-right: 11px; font-size: 11px; line-height: 16px; display: block; margin-bottom: 0px;"><b>Ariana Tadler</b><br /><i>Partner</i><br /><b>Milberg LLP</b><br /><br /></p></td></tr></table></td></tr></table>
+								</td>
+							</tr>
+						</table>
+						<table class="speakerPhotos" width="31%" align="left" border="0" cellpadding="0" style="display: inline-block !important; padding-left: 0px; padding-right: 5px;  font-size: 10px; line-height: 15px; margin-right: 1%; margin-left: auto;">
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 5px;">
+								<p style="margin-top: 0px; margin-bottom: 0px; text-align: left;"><img class="speaker" alt="speaker" style="display: block; width: 100%; max-width: 145px !important; height: auto ! important;" src="http://www.eiseverywhere.com/image.php?acc=4854&id=725165"/>
+</p>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" align="center" class="singlePict" style="padding-left: 0px; padding-right: 2px; padding-bottom: 15px;">
+								<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p class="singlePict" style="padding-left: 0px; padding-top: 5px; padding-right: 11px; font-size: 11px; line-height: 16px; display: block; margin-bottom: 0px;"><b>Paul D. Weiner</b><br /><i>National eDiscovery Counsel | Shareholder</i><br /><b>Littler Mendelson P.C.</b><br /><br /></p></td></tr></table></td></tr></table>
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+					<!--  photo section ends  -->
+					<!--  CTA button  -->
+					<tr>
+						<td width="504" align="center" style="padding-top: 10px; padding-bottom: 15Px;">
+						<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p style="font-family: Arial,Helvetica,sans-serif; text-align: left; font-size: 14px; line-height: 20px; padding-top: 0px; margin-bottom: 2%; display: block;">
+</p><hr size="1" color="#C0C0C0" /><b><font color="444444"><br />LEGALTECH IS NOW PART OF</font> <a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf93df171d94b3cee051ceb5ad7c479f5fe1eacd58422ec3ca784c2acdd27e6c3783" title="LEGALWEEK, THE EXPERIENCE"  ><font color="0079C0">LEGALWEEK, THE EXPERIENCE</font></a></b><br /><p style="font-family: Arial,Helvetica,sans-serif; text-align: left; font-size: 14px; line-height: 20px; padding-top: 0px; margin-bottom: 2%; display: block;">Your master pass to Legaltech gives you full access to <a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf9355ec3a2e53b5081117039f8d591584de4a3a052c35335f4cc2738ec588e3fa8c" title="Legalweek, The Experience"><font color="0079C0">Legalweek, The Experience</font>
+</a>. This expanded event brings together the legal industry through several specialized areas of focus to address the biggest challenges facing legal professionals today. Your Master Pass to Legaltech provides the freedom to tailor your event experience to meet your unique interests and needs.</p>
+<p style="font-family: Arial,Helvetica,sans-serif; text-align: left; font-size: 14px; line-height: 20px; padding-top: 0px; margin-bottom: 2%; display: block;">
+<b>Featuring <a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf93ac1dd6e82d28e38133b6a3c1179f80240641037d4649e429c66b490da38dc363" title="Legalweek State Of The Industry Keynote Presentations"  >Legalweek State Of The Industry Keynote Presentations</a> Led By:</b>
+</p>
+<table class="dashedBorder" style="width: 353px; height: 100px;" width="353px" height="100px" cellspacing="4" cellpadding="4" border="0" bgcolor="">
+	<tbody>
+		<tr>
+			<td style="font-family: Arial,Helvetica,sans-serif; font-size: 13px;">
+			<p>
+			<img src="http://image.email.alm.com/lib/fe9f12727567007d74/m/1/Andrew+McAfee_140.png" title="Andrew McAfee_140" alt="Andrew McAfee_140" vspace="0" hspace="0" border="0" />
+			</p>
+			</td>
+			<td style="font-family: Arial,Helvetica,sans-serif; font-size: 13px;"><img src="http://image.email.alm.com/lib/fe9f12727567007d74/m/1/Sunny+Hostin.png" title="Sunny Hostin" alt="Sunny Hostin" vspace="0" hspace="0" border="0" /></td>
+		</tr>
+		<tr>
+			<td style="font-family: Arial,Helvetica,sans-serif; font-size: 13px;"><font size="4"><b><font color="0079C0">Andrew McAfee</font></b></font><br />
+			<font color="444444">
+			Visionary Futurist & Director of the MIT Initiative on the Digital Economy</font><br />
+			<font color="444444">
+			NY Times Best Selling Author of "</font><i><font color="444444">The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies&quot;</font></i></td>
+			<td style="font-family: Arial,Helvetica,sans-serif; font-size: 13px; white-space: normal;" width="" valign="top" height="" align="left" bgcolor=""><font size="4"><b><font color="0079C0">Sunny Hostin</font></b></font><br />
+			<font color="444444">
+			ABC News Senior Legal Correspondent, Co-Host of The View & Contributor to Good Morning America, Nightline and 20/20&nbsp;</font> </td>
+		</tr>
+	</tbody>
+</table><div align="center"><a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf9362c5855a569c0e151f33eb30122c26a51340a48e181a3ffaa196a4b45f9f5635" title=""><img src="http://image.email.alm.com/lib/fe9f12727567007d74/m/1/Legaltech_Register_Button_Small.png" title="Legaltech_Register_Button_Small" alt="Legaltech_Register_Button_Small" vspace="0" hspace="0" border="0" /><br /><br /></a></div><p style="font-family: Arial,Helvetica,sans-serif; text-align: left; font-size: 14px; line-height: 20px; padding-top: 0px; margin-bottom: 2%; display: block;">
+</p>
+<a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf93df171d94b3cee051ceb5ad7c479f5fe1eacd58422ec3ca784c2acdd27e6c3783" title=""  ><img src="http://image.email.alm.com/lib/fe9f12727567007d74/m/1/Legalweek_Image_tiles_600px.png" title="Legalweek_Image_tiles_600px" alt="Legalweek_Image_tiles_600px" width="512" vspace="0" hspace="0" height="154" border="0" /></a></td></tr></table></td></tr></table>
+						</td>
+					</tr>
+					<!--  CTA button ends  -->
+				</table>
+				</td>
+			</tr>
+			<!--  2nd offer ends  -->
+			<!--  spacing  -->
+			<tr valign="top">
+				<td class="spacing" style="display:block; clear: both; height: 20px !important; padding: 0px !important;">&nbsp;</td>
+			</tr>
+			<!--  spacing ends  -->
+			<!--  contacts info  -->
+			<tr valign="top">
+				<td>
+				<table class="Offers" width="84%" align="center" cellpadding="0" cellspacing="0" style="display: block; padding-top:20px; padding-left: 5%; padding-right: 5%; padding-bottom: 25px; background-color: #FFF;">
+					<!--  headline  -->
+					<tr>
+						<td class="headlines" style="text-align: left; display:block; font-size: 22px; line-height: 28px; padding-top: 2%; padding-bottom:2%;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p style="text-align: center; display: block; font-size: 22px; line-height: 28px; margin-top: 3px; margin-bottom: 5px;" class="headlines">
+<font color="0079C0">Contact Us</font>
+</p></td></tr></table></td></tr></table>
+						</td>
+					</tr>
+					<!--  bodycopy  -->
+					<tr>
+						<td class="copy_Text" style="font-family:Arial, Helvetica, sans-serif; text-align: left; font-size: 14px; line-height: 20px; padding-top: 0px; padding-bottom: 0px; display:block;">
+						<p>
+						<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><p class="copy_Text" style="font-family: Arial,Helvetica,sans-serif; text-align: left; font-size: 14px; line-height: 20px; padding: 0px; display: block; margin-bottom: 3px;">
+For registration inquiries: Please Contact Frank Wolson<a href="mailto:emailHere" style="color: #555555; text-decoration: none;"></a> at <a href="mailto:fwolson@alm.com" title="fwolson@alm.com" alias="fwolson@alm.com" conversion="undefined">fwolson@alm.com</a>
+</p></td></tr></table></td></tr></table>
+						</p>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<!--  contacts ends  -->
+			<!--  spacing  -->
+			<tr valign="top">
+				<td class="spacing" style="display:block; clear: both; height: 10px !important; padding: 0px !important;">&nbsp;</td>
+			</tr>
+			<!--  spacing ends  -->
+			<!--  social media  -->
+			<tr>
+				<td>
+				<table class="Social" width="84%" align="center" cellpadding="0" cellspacing="0" style="display: block; padding-top:0px; padding-bottom: 10px; font-family: Arial, Helvetica, sans-serif; font-size:12px; line-height: 16px;">
+					<tr>
+						<td class="icon" valign="middle" align="left" style=" width: 14%; padding-top: 10px; padding-bottom: 15px; padding-right: 4%;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf9384091aa2cf60af64d1d93ba29857368f2282b2d85bc7062e4a9003276e6d7b9a" title=""  ><img class="icons" src="http://imageserver.amlaw.com/m-images/CHW/events/facebook-active_50x50.png" alt="fb" style="width: 100%; height: auto ! important; max-width: 50px ! important;" /></a>
+<custom type="content" name="socialIcon1"></custom></td></tr></table></td></tr></table></td>
+						<td class="icon" valign="middle" align="left" style=" width: 14%; padding-top: 10px; padding-bottom: 15px; padding-right: 4%;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf93839d456fd502a93d6f43dfcf00405e10282e4273b211e1c18095919fa230d2e3" title=""  ><img class="icons" src="http://imageserver.amlaw.com/m-images/CHW/events/linkedin-active_50x50.png" alt="in" style="width: 100%; height: auto ! important; max-width: 50px ! important;" /></a><custom type="content" name="socialIcon2"></custom></td></tr></table></td></tr></table></td>
+						<td class="icon" valign="middle" align="left" style="width: 14%; padding-top: 10px; padding-bottom: 15px; padding-right: 4%;"><table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf933666e238822a4ff27070e1da47b33608c52e9a5f1f71955472ebc705cdcbcf04" title=""  ><img class="icons" src="http://imageserver.amlaw.com/m-images/CHW/events/twitter-active_50x50.png" alt="t" style="width: 100%; height: auto ! important; max-width: 50px ! important;" /></a><custom type="content" name="socialIcon3"></custom></td></tr></table></td></tr></table></td>
+						<td class="copy_Social" style="font-family:Arial, Helvetica, sans-serif; text-align: left; padding-top: 10px; padding-left: 2%; padding-right: 0px; padding-bottom: 15px;">
+						<table cellpadding="0" cellspacing="0" border="0" bordercolor="" width="100%" bgcolor=""><tr><td><table  width="100%" bgcolor="" border="0" bordercolor="" cellpadding="0" cellspacing="0"><tr><td style="font-family:Arial; font-size:13px"><font size="4"><strong><font color="444444">#Legaltech / #Legalweek17</font></strong></font></td></tr></table></td></tr></table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<!--  social media ends  -->
+			<!--  sponsors section  -->
+			<tr valign="top">
+				<td>
+				<table class="sponsors" width="84%" align="center" cellpadding="0" cellspacing="0" style="display: block; padding-top:10px; padding-bottom: 10px;">
+					<tr>
+						<td class="sponsors" align="center" valign="top" style="padding-left: 0%; padding-top: 10px; padding-bottom: 25px; padding-right: 0%;">
+						<center><img class="sponsorsLogos" style="width: 100%; max-width: 504px !important; height: auto !important; padding: 0; margin: 0; border:none; display: block;" alt="sponsors logos" src="http://www.eiseverywhere.com/image.php?acc=4854&id=720731"  />
+</center>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<!--  sponsors section ends  -->
+		</table>
+		<!--  main Content Area Ends  -->
+		</td>
+	</tr>
+</table>
+<img src="http://click.email.alm.com/open.aspx?ffcb10-fe8e16787c67047f7c-fe5511747d610079711c-fe9f12727567007d74-ff64157372-fe581578756d057a711d-ff991674" width="1" height="1">
+
+</body></html><div style="display:none;">
+	
+	</div>
+<!--***********************************************-->
+<!--*************** Copyright *********************-->
+<!--***********************************************-->
+  	<table align="center" border="0" bgcolor="#ffffff" cellspacing="0" cellpadding="0" width="600" class="footertable">
+  	<tr>
+  	<td colspan="2" class="footer">
+  	
+  	<p style="font-family: Arial, sans-serif; font-size: 11px; line-height:16px; color: #777777;">This email was sent to: <b>JOSEPH@DUZON.COM</b><br />
+  			This email was sent by: <b>ALM</b><br>
+					120 Broadway, 5th Floor, New York, NY 10271 USA<br>
+					877-256-2472</p> 
+  	</td>
+  	</tr>
+    
+    <tr>   
+		 <td valign="middle" class="footer">
+    	  <img src="http://imageserver.amlaw.com/publications/ALM-email_transparnt_color.png"></td>
+    	  
+    	 <td class="footerright"> 
+    	 <p style="font-family: Arial, sans-serif; font-size: 11px; line-height:16px; color: #777777;">If you wish to unsubscribe from ""ALM Events, Webinars & Dinners"" please <a href="http://click.email.alm.com/unsub_center.aspx?qs=b8bc06dbd141eb4018af216cd315a98f7c03ee6eca4f7a18c23e53e9619227eeb402c271714cdf997bfded8a9fcf203ca409753d096e10f5e2c98e030a3ac2ee" >click here</a>.<br />
+
+If you would like to opt out of all marketing emails from ALM, click 
+
+<a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf939e8551ad8019ee70b83c454082dc5bc0eb7dde20d1611290a3e387a442b9da4b" >Here</a> to visit the Email Preferences page.<br /> 
+
+  		
+		<a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf939f54121d63786ea19b7dfcd8f212b171cea6284d517241cbf703c86341be8bef" >Privacy Policy</a> | 
+		
+		<a href="http://click.email.alm.com/?qs=a8b46f83ef8cbf9336c814e7fdde6b9bc2bfdb140e744a5d1a9a28ca55c4be47f443a54ce96570d8" >Terms &amp; Conditions</a><br />
+		
+		&copy; 2016 ALM Media Properties, LLC. All rights reserved.</p>	
+		</td>
+	</tr>
+	</table> 	
+
+</body>
+</body></html>
+
+--muvzCVyh5F0U=_?:--
+
+

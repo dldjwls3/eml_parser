@@ -1,0 +1,186 @@
+Received: (qmail 10761 invoked from network); 8 Oct 2014 20:14:29 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda02.wmail.naver.com with SMTP; 8 Oct 2014 20:14:29 -0000
+Received: from [202.167.215.64] ([202.167.215.64]) 
+          by crcvmail02.wmail.naver.com ([125.209.209.251]) 
+          with ESMTP id 1412799269.720443.3951020944.crcvmail02
+          for <jonghyun.kim@dforensic.com>; 
+          Thu, 09 Oct 2014 05:14:29 +0900 (KST) 
+Received: from external ([202.167.215.28])
+	by smf.duzon.com (1.0) id s98KCw4004F9;
+	Thu, 09 Oct 2014 05:12:58 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,s98KCw4004F9
+X-SmartFilter: FROM,s98KCw4004F9,joseph@duzon.com
+x-forward-id: 1412799264479_935649226
+recvDate: Thu, 09 Oct 2014 05:14:24 +0900
+x-newturns-hashkey: bf6f6316c7a940db73d93f992310d0453ed2ed6d77dfd5427f3ad51e92e8c5b3
+Received: from external ([199.15.214.5])
+	by smf.duzon.com (1.0) id s98KCep004EC;
+	Thu, 09 Oct 2014 05:12:41 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,s98KCep004EC
+X-SmartFilter: FROM,s98KCep004EC,495-KNT-277.0.9780.0.0.6317.7.1141592@em-sj-77.mktomail.com
+DKIM-Signature: v=1; a=rsa-sha256; d=rapid7.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; i=@rapid7.com; t=1412799247;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=cRWrYdqCuMkJCewXCHt670U6Z3cBHf24zPT2LTHN1Xc=;
+	b=LVuAp+65lRdNVyL+SZzbmHEO8s3BCORh0nfXeMXPxf46WqP1N0waNIgzZCI723sS
+	QsREnp1iO88jH8aRfOJdLrdEwvenR9K8NChBZTT27Koqkt9SlC1nrBrDIbu2zXqd
+	/Ckqkho8+uKTGZp8PQX/Xk10M5lmofZvDqY1qA7Un+w=;
+X-MSFBL: am9zZXBoQGR1em9uLmNvbUBkdnAtMTk5LTE1LTIxNC01QGJnLXNqZC0xMTRANDk1
+	LUtOVC0yNzc6NTYxNzo5NzgwOjIwMzQzOjA6NjMxNzo3OjExNDE1OTI=
+Received: from [10.0.12.43] ([10.0.12.43:39967] helo=sjmas02.marketo.org)
+	by sjmta07.marketo.org (envelope-from <communications@rapid7.com>)
+	(ecelerity 3.6.4.44580 r(Platform:3.6.4.1)) with ESMTP
+	id 8F/28-07850-F0B95345; Wed, 08 Oct 2014 15:14:07 -0500
+Date: Wed, 8 Oct 2014 15:14:07 -0500 (CDT)
+From: Rapid7 <communications@rapid7.com>
+Reply-To: communications@rapid7.com
+To: joseph@duzon.com
+Message-ID: <1127291975.503904497.1412799247754.JavaMail.root@sjmas02.marketo.org>
+Subject: New Toolkit : Bashbug (shellshock): What is it? How to Remediate?
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_503904496_2038687980.1412799247754"
+X-Report-Abuse: Please report abuse here: http://www.marketo.com/policy
+X-PVIQ: 000326-001349-000001-000000-011981
+X-Binding: bg-sjd-114
+X-MarketoID: 495-KNT-277:5617:9780:20343:0:6317:7:1141592
+List-Unsubscribe: <mailto:PB2EE3KGG5AUK5SCGJTUMRCKMVMWGR3PGFIT2PI.9780.6317.7@unsub-sj.mktomail.com>
+X-Mailfrom: 495-KNT-277.0.9780.0.0.6317.7.1141592@em-sj-77.mktomail.com
+X-TERRACE-SUPERWHITEIP: 88212
+X-Naver-ESV: +sRYpB3G1Hbwa0ixyueaFS/wFL0Y7BmZKAudKo0YkXm=
+
+------=_Part_503904496_2038687980.1412799247754
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Still Shellshocked by the Bashbug vulnerability?
+=20
+It's all over the headlines, and rightly so as it's been rated the maximum =
+CVSS score of 10 for impact and ease of exploitability.
+
+
+Fortunately the team at Rapid7 are here to help. We've compiled our top res=
+ources into one place to help you learn more about Shellshock and the tools=
+ you need to help you investigate how it impacts your environment.
+
+
+Included in the Shellshock Toolkit :
+
+
+
+ - On-Demand Webcast : Shellshock Webcast: Briefing, Strategy, Q&A
+ - Video : How Does Bashbug (AKA shellshock) Work? How Do I Remediate?
+ - Free Vulnerability Scanner: Scan Your Environment to See What Systems ar=
+e affected by Bashbug
+ - Free Software Download : See if the Bash Bug is Exploitable on Your Netw=
+ork
+
+
+
+Download your free toolkit today! <http://www.rapid7.com/resources/bashbug.=
+jsp>
+=20
+- The Rapid7 Team
+=C2=A0 =C2=A0
+
+If you no longer wish to receive these emails, go to the following link to =
+unsubscribe: https://information.rapid7.com/UnsubscribePage.html?mkt_unsubs=
+cribe=3D1&mkt_tok=3D3RkMMJWWfF9wsRovvKTJZKXonjHpfsX56ugsXK60lMI%2F0ER3fOvrP=
+UfGjI4HT8NlI%2BSLDwEYGJlv6SgFTrnAMatuzrgPXBY%3D.
+
+------=_Part_503904496_2038687980.1412799247754
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<title>Rapid 7 Newsletter</title>
+</head>
+<body style="margin:0; background-color:#FFFFFF; color:#29383F; font-size:12px; font-family:Arial, Helvetica, sans-serif; " ><table cellpadding="0" cellspacing="0" border="0" style="width:800px; " ><tr>
+<td colspan="3" style="background-color:#ea5709;"><img src="http://information.rapid7.com/rs/rapid7/images/top-line.gif" width="800" height="4" alt=""></td>
+</tr>
+<tr valign="top">
+<td style="width:220px;padding-top:22px;padding-bottom:22px;"><a href=
+"http://info.rapid7.com/eQ0YuT02000NKu0M44jlM04"
+><img src="http://information.rapid7.com/rs/rapid7/images/logo.jpg" alt="Rapid 7" width="220" height="37" style="display:block; border:none;"></a></td>
+<td><img src="http://information.rapid7.com/rs/rapid7/images/email-header-dk.gif"></td>
+</tr>
+<tr>
+<td colspan="2"><img src="http://information.rapid7.com/rs/rapid7/images/drop_shadow_1.gif" alt="" style="display:block; border:0;" width="800" height="20"></td>
+</tr>
+<tr ><td style="width:800px; " colspan="2" width="800" ><div class="mktEditable" id="volume_title" style="font-size:10pt; font-family:'Trebuchet MS',Verdana; margin-top:8px; color:#5F5F5F; margin:10px; " ><div style="font-weight: normal; line-height: normal;">
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;"><strong>Still Shellshocked by the Bashbug vulnerability?<br /></strong>&nbsp;</span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;">It's all over the headlines, and rightly so as it's been rated the maximum CVSS score of 10 for impact and ease of exploitability.</span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;"><br /></span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;">Fortunately the team at Rapid7 are here to help. We've compiled our top resources into one place to help you learn more about Shellshock and the tools you need to help you investigate how it impacts your environment.</span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;"><br /></span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;">Included in the Shellshock Toolkit :</span></div>
+<div>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;">On-Demand Webcast : Shellshock Webcast: Briefing, Strategy, Q&amp;A</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;">Video : How Does Bashbug (AKA shellshock) Work? How Do I Remediate?</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;">Free Vulnerability Scanner: Scan Your Environment to See What Systems are affected by Bashbug</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;">Free Software Download : See if the Bash Bug is Exploitable on Your Network</span></li>
+</ul>
+</div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;"><a href=
+"http://info.rapid7.com/CNM00k0vl0uK0Q4Y2M04T04"
+>Download your free toolkit today!</a><br />&nbsp;</span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12px; color: #5f5f5f;">- The Rapid7 Team&nbsp;</span></div>
+<div><span><span><br /></span></span></div>
+</div></div>
+<div class="mktEditable" id="body-copy" style="font-size:10pt; font-family:'Trebuchet MS',Verdana; margin-top:8px; color:#5F5F5F; margin:10px; " >&nbsp; &nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style="width:800px;font-family:'Trebuchet MS',Verdana;font-size:10px;" colspan="2">
+<table cellpadding="0" cellspacing="20" style="border-top:1px solid #E5E5E5; border-bottom:1px solid #E5E5E5; width:800px;">
+<tr>
+<td width="80"><a href=
+"http://info.rapid7.com/p0400K04lT0M0wQN4l0MYu2" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Home</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/uxQ000YN4l040m02uMMKT40" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Nexpose</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/v04Y0Quy04lTKMn4N02M000" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Metasploit</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/P000Q04KlN0Mz40u0YoT4M2" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Mobilisafe</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/X4l0MpN0Q000Tu4YM024KA0" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Solutions</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/gB0Y4Ql0M204NT04K000quM" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Services</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/K00M4KN00luC2r4YM04Q0T0" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Resources</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/s0Du0l40YNQs0K0M4M2040T" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Company</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/s0Eu0l40YNQt0K0M4M2040T" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Blog</a></td>
+<td width="80"><a href=
+"http://info.rapid7.com/kK0ul0Q00uM02N4MY40F40T" style="color:#29383F; font-weight:bold; font-size:10px; text-decoration:none;font-family:'Trebuchet MS',Verdana;"
+>Community</a></td>
+</tr>
+</table>
+<div style="font-size:10px; color:#5F5F5F; padding:20px;">&copy; 2014 Rapid7 All Rights Reserved. 100 Summer Street, 13th Floor, Boston, MA 02110<br></div>
+</td>
+</tr>
+</table>
+
+<IMG SRC="http://info.rapid7.com/trk?t=1&mid=NDk1LUtOVC0yNzc6NTYxNzo5NzgwOjIwMzQzOjA6NjMxNzo3OjExNDE1OTI6am9zZXBoQGR1em9uLmNvbQ%3D%3D" WIDTH="1" HEIGHT="1" BORDER="0" ALT="" />
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><p><font face="Verdana" size="1">If you no longer wish to receive these emails, click on the following link: <a href=
+"http://info.rapid7.com/u/f00u40l0YG004N2MKQTvM04"
+>Unsubscribe</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_503904496_2038687980.1412799247754--
+
+

@@ -1,0 +1,320 @@
+Received: (qmail 2698 invoked by uid 100); 3 Jan 2017 21:50:52 -0000
+Received: from 10.114.249.221 (HELO crcvmail02.wmail.naver.com) (10.114.249.221)
+  by cmda001.wmail.worksmobile.com with SMTP;3 Jan 2017 21:50:52 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=pass (mx.worksmobile.com: domain of joseph@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.8
+Received: from  (mail.duzon.com [202.167.215.8])
+  by crcvmail02.wmail.naver.com with ESMTP id SwYc6ys9Sn6zF29UfWeZtA
+  for <jonghyun.kim@dforensic.com>;
+  Tue, 03 Jan 2017 21:50:50 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v03LrfY00BA1;
+	Wed, 04 Jan 2017 06:53:41 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v03LrfY00BA1
+X-SmartFilter: FROM,v03LrfY00BA1,joseph@duzon.com
+x-forward-id: <92e1f1da1ab39121fc86a310fe13eb9b@www.emailsend.it>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3ttSL70S2xz2fmG3; Wed,  4 Jan 2017 06:49:52 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3ttSK72nqWz2fmG0
+	for <joseph@duzon.com>; Wed,  4 Jan 2017 06:49:47 +0900 (KST)
+Received: from external ([209.85.213.42])
+	by smf.duzon.co.kr (1.0) id v03LqjM00B95;
+	Wed, 04 Jan 2017 06:52:46 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v03LqjM00B95
+X-SmartFilter: FROM,v03LqjM00B95,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f42.google.com with SMTP id x186so279952054vkd.1
+        for <joseph@duzon.com>; Tue, 03 Jan 2017 13:49:44 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :date:to:from:reply-to:subject:message-id:mime-version;
+        bh=TqpuoE6lcHemCL/TcnSRuHoE1WjJHNfBfocEj1zX9iY=;
+        b=N0+5nKiCwVR2HYGziC9CrDpNq+gOlaYrTJzNNqf7DJIDVBbqvDs0XnmJDvAsc/0NZ8
+         ndJJKYNWpXDyxV1mnagFP3S9hGfQU70wD9qtrmLOuei7HgZ46emFGKy08wp5peIwBILJ
+         YKDKc/jJmSJu9HznMTalLG54PLjBUL77K8uz+CP9pfDXbkbpuaDBCt8DgiD8ivcRBV4O
+         ZJnli5nJs2mjKGo2bBZXuMCoPM/eVKOCIOieUJoM4C5e6ktdcxkXpewBQKrlFusgbaBZ
+         TuxaeXDUgKZp0h4x2SZexL7laB+VKn+bv/n33Rm5aD9TQGWPR+27c6IoLAY4OggU0Ukl
+         DmIA==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AIkVDXK9seyZrtCpjo+CH7voP4l2ta+91Ha2ibMNH1R82QhncHXupDtSOQ8Vxy5k26HOKuI7+nmUBYk2iUM5KeRfMtXG4S4=
+X-Received: by 10.31.141.196 with SMTP id p187mr23263731vkd.136.1483480183433;
+        Tue, 03 Jan 2017 13:49:43 -0800 (PST)
+X-Forwarded-To: kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com kmjeong@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp8170991vsa;
+        Tue, 3 Jan 2017 13:49:42 -0800 (PST)
+X-Received: by 10.99.120.207 with SMTP id t198mr94199496pgc.55.1483480182372;
+        Tue, 03 Jan 2017 13:49:42 -0800 (PST)
+Received: from smf.duzon.co.kr (mail.duzon.com. [202.167.215.8])
+        by mx.google.com with ESMTPS id 31si37289182plh.85.2017.01.03.13.49.41
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 03 Jan 2017 13:49:42 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of forensic@duzon.com designates 202.167.215.8 as permitted sender) smtp.mailfrom=forensic@duzon.com
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id v03LqeJ00B92;
+	Wed, 04 Jan 2017 06:52:40 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v03LqeJ00B92
+X-SmartFilter: FROM,v03LqeJ00B92,forensic@duzon.com
+x-forward-id: <92e1f1da1ab39121fc86a310fe13eb9b@www.emailsend.it>
+Received: by duzon-ex.localdomain (Postfix, from userid 600)
+	id 3ttSJz2l8gz2fmFq; Wed,  4 Jan 2017 06:48:52 +0900 (KST)
+Received: from smf.duzon.co.kr (mail.duzon.com [202.167.215.8])
+	by duzon-ex.localdomain (Postfix) with ESMTP id 3ttSJ04QqGz2fmFp
+	for <forensic@duzon.com>; Wed,  4 Jan 2017 06:48:48 +0900 (KST)
+Received: from external ([37.187.211.203])
+	by smf.duzon.co.kr (1.0) id v03LplE00B8D;
+	Wed, 04 Jan 2017 06:51:48 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,v03LplE00B8D
+X-SmartFilter: FROM,v03LplE00B8D,sender@emailsend.it
+Received: from www.emailsend.it (emailsend.it [37.187.211.203])
+	by vps50951.ovh.net (Postfix) with ESMTPA id 8A4B423D403
+	for <forensic@duzon.com>; Tue,  3 Jan 2017 22:50:41 +0100 (CET)
+Date: Tue, 3 Jan 2017 22:50:41 +0100
+To: forensic@duzon.com
+From: AS Informatica <sender@emailsend.it>
+Reply-to: AS Informatica <sender@emailsend.it>
+Subject: Gestione delle chiavi
+Message-ID: <92e1f1da1ab39121fc86a310fe13eb9b@www.emailsend.it>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_92e1f1da1ab39121fc86a310fe13eb9b"
+X-Naver-ESV: +rRYpB3G1H+YbXFCbHmRKou9KAEZjJ+Y
+
+
+--b1_92e1f1da1ab39121fc86a310fe13eb9b
+Content-Type: text/plain; charset = "iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Gestione
+            informatizzata chiavi
+           =20
+       =20
+       =20
+           =20
+            BASTA REGISTRI
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+            UTILIZZI
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+           =20
+       =20
+       =20
+           =20
+            Sicurezza solo prelievi autorizzati
+            Monitoraggio sai chi e quando preleva
+            Praticit=C3=A0 verifica disponibilit=C3=A0 chiavi a distanza
+            Prenotazione chiavi in anticipo
+            Flessibilit=C3=A0 modulare ed espansibile
+           =20
+       =20
+       =20
+           =20
+            Promo controllo=20
+            totale informatizzato per=20
+            ogni esigenza
+           =20
+       =20
+       =20
+           =20
+       =20
+       =20
+           =20
+            SINTESI Srl | SEDE OPERATIVA E SHOWROOM=20
+            V. GALILEO GALILEI, 21 - Z.I. MUSON 35012 CAMPOSAMPIERO (PD) =
+Partita iva 03388070280
+           =20
+       =20
+   =20
+Ricevi questa mail perch=C3=A8 sei iscritto a www.autocertificazione.net.=
+ Per cancellare la tua iscrizione segui questo  link.
+
+
+--b1_92e1f1da1ab39121fc86a310fe13eb9b
+Content-Type: text/html; charset = "iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><table width=3D"597" cellspacing=3D"0" cellpaddi=
+ng=3D"0" border=3D"0" align=3D"center" style=3D"font-family: Impact, Aria=
+l, Helvetica, sans-serif">
+    <tbody>
+        <tr>
+            <td align=3D"center">
+            <h1 style=3D"color:#f95738; letter-spacing:2px; margin-bottom=
+:0; font-size:50px">Gestione</h1>
+            <h2 style=3D"color:#f95738; letter-spacing:2px; margin-top:0;=
+ font-weight: 100;">informatizzata chiavi</h2>
+            </td>
+        </tr>
+        <tr>
+            <td align=3D"center">
+            <h1 style=3D"color:#083d77; font-size:50px; letter-spacing:2p=
+x; margin-bottom:0">BASTA REGISTRI</h1>
+            </td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-01.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-02.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-03.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-04.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-05.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-06.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-07.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-08.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center">
+            <h2 style=3D"color:#083d77; font-size:50px; letter-spacing:2p=
+x; margin-top:0">UTILIZZI</h2>
+            </td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-09.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-10.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-11.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-12.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><img border=3D"0" alt=3D"" src=3D"http:/=
+/www.richiestecontatto.it/landing/gestione-chiavi/dem/dem-13.jpg" /></td>
+        </tr>
+        <tr>
+            <td align=3D"center"><hr />
+            </td>
+        </tr>
+        <tr>
+            <td align=3D"center" height=3D"170">
+            <p style=3D"color: #083d77; font-family: Arial, Helvetica, sa=
+ns-serif; font-size:20px"><span style=3D"color:#e76729"><strong>Sicurezza=
+</strong></span> solo prelievi autorizzati<br />
+            <span style=3D"color:#e76729"><strong>Monitoraggio</strong></=
+span> sai chi e quando preleva<br />
+            <span style=3D"color:#e76729"><strong>Praticit&agrave;</stron=
+g></span> verifica disponibilit&agrave; chiavi a distanza<br />
+            <span style=3D"color:#e76729"><strong>Prenotazione</strong></=
+span> chiavi in anticipo<br />
+            <span style=3D"color:#e76729"><strong>Flessibilit&agrave;</st=
+rong></span> modulare ed espansibile</p>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor=3D"#f95738" align=3D"center" height=3D"150">
+            <h2 style=3D"color: #FFF; letter-spacing:2px; font-weight: 10=
+0;">Promo controllo <br />
+            totale informatizzato per <br />
+            ogni esigenza</h2>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor=3D"#f95738" align=3D"center"><a href=3D"http://ww=
+w.richiestecontatto.it/landing/gestione-chiavi/?ref=3D173"><img width=3D"=
+597" border=3D"0" height=3D"77" alt=3D"" src=3D"http://www.richiesteconta=
+tto.it/landing/gestione-chiavi/dem/dem-14.jpg" /></a></td>
+        </tr>
+        <tr>
+            <td align=3D"center" height=3D"50">
+            <p style=3D"font-family:Arial, Helvetica, sans-serif; font-si=
+ze:12px; color:#666">SINTESI Srl | SEDE OPERATIVA E SHOWROOM <br />
+            V. GALILEO GALILEI, 21 - Z.I. MUSON 35012 CAMPOSAMPIERO (PD) =
+Partita iva 03388070280</p>
+            </td>
+        </tr>
+    </tbody>
+</table><br style=3D"clear: both;"/><span style=3D"margin-top: 10px;float=
+: left;font-size:12px;color:#333;">Ricevi questa mail perch&egrave; sei i=
+scritto a <a href=3D"http://www.impreseonline.net" style=3D"text-decorati=
+on: underline;color: #333;">www.impreseonline.net</a>. Per cancellare la =
+tua iscrizione segui questo <a href=3D"http://www.gate3way.it/unsubscribe=
+....php?h=3DZm9yZW5zaWNAZHV6b24uY29tOjM6MTQ2Ond3dy5pbXByZXNlb25saW5lLm5ldA=3D=
+=3D" style=3D"text-decoration: underline;color: #333;"> link</a>.</span><=
+br /><img src=3D"http:///www.emailsend.it/read.php?id=3DMTQ2" /></body></=
+html>
+
+
+
+--b1_92e1f1da1ab39121fc86a310fe13eb9b--
+
+
+

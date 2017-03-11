@@ -1,0 +1,120 @@
+Received: (qmail 14936 invoked by uid 100); 4 Dec 2016 22:47:04 -0000
+Received: from 10.114.249.220 (HELO crcvmail01.wmail.naver.com) (10.114.249.220)
+  by cmda003.wmail.worksmobile.com with SMTP;4 Dec 2016 22:47:04 -0000
+Authentication-Results: mx.worksmobile.com;
+  spf=none (mx.worksmobile.com: domain of joseph@duzon.com does not designate permitted sender hosts) smtp.mailfrom=joseph@duzon.com
+X-Session-IP: 202.167.215.64
+Received: from smf.duzon.co.kr (mail.duzon.kr [202.167.215.64])
+  by crcvmail01.wmail.naver.com with ESMTP id dnqOdimcTc6VP-uYdN9lTA
+  for <jonghyun.kim@dforensic.com>;
+  Sun, 04 Dec 2016 22:47:04 -0000
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uB4MnbY00B0D;
+	Mon, 05 Dec 2016 07:49:37 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uB4MnbY00B0D
+X-SmartFilter: FROM,uB4MnbY00B0D,joseph@duzon.com
+x-forward-id: <58449cc3.829d630a.47e66.0095SMTPIN_ADDED_BROKEN@mx.google.com>
+Received: from external ([209.85.213.52])
+	by smf.duzon.co.kr (1.0) id uB4Mn8E00AF9;
+	Mon, 05 Dec 2016 07:49:08 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uB4Mn8E00AF9
+X-SmartFilter: FROM,uB4Mn8E00AF9,forensic.duzon+caf_=joseph=duzon.com@gmail.com
+Received: by mail-vk0-f52.google.com with SMTP id w194so170900589vkw.2
+        for <joseph@duzon.com>; Sun, 04 Dec 2016 14:46:29 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :message-id:mime-version:date:content-transfer-encoding:subject:from
+         :to:reply-to;
+        bh=YFLcpifkjffcMJ+tjLaO2YGy/WS4Hwo/9SMUbOOVkFA=;
+        b=FqsyxlMKbAjbWT4lJ9mW3VEw62bSvnTH4d9bkWHbviuQ84JkVhm27/g0Vhj9sgF7ED
+         43dpVDlQ/n7e8TE4cg9wBVr6YOhJtni3WQpnGXBb6fcstZvIzTLHoBk2TYyFElW4uk9U
+         gPi3ENOjPJ87eWgpswN/KZ+GF2mp8rZk7kkIfLCso1TNC2t2WV+8VSB3QnOHyYkEoVyT
+         Xt6MWpaYDWa3WUoxWOcmODPdwxONlv7fRoLHjE2Dk57J1Ffayh3/p78qsrc5bh3JZY04
+         llzOa84VbSeVeVqjGIKcP02f04PXtUkqvfR42L9tczNEXChA4rfz68wkN1c/Um2MYPN2
+         SsGg==
+X-Original-Authentication-Results: mx.google.com;       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+X-Gm-Message-State: AKaTC01bvYtHlVnJtjskj6Y3v8LPc94zSxNPtS8aneEhrb2v7gyAAHBTTrV1R+cpfgUJ0MQHYxKN1OzUY0NOGngtP/KgbGg=
+X-Received: by 10.31.130.20 with SMTP id e20mr17045770vkd.149.1480891588282;
+        Sun, 04 Dec 2016 14:46:28 -0800 (PST)
+X-Forwarded-To: byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+X-Forwarded-For: forensic.duzon@gmail.com byoungchan.jung@duzon.com, pch88@duzon.com, yourock@duzon.com, jsham@duzon.com, lunar29@duzon.com, brentkorea@duzon.com, ysm@duzon.com, joseph@duzon.com, yja2014@duzon.com, ihbark@duzon.com, seonho1987@duzon.com
+Delivered-To: forensic.duzon@gmail.com
+Received: by 10.103.26.4 with SMTP id a4csp1383896vsa;
+        Sun, 4 Dec 2016 14:46:27 -0800 (PST)
+X-Received: by 10.99.171.10 with SMTP id p10mr97345626pgf.36.1480891587303;
+        Sun, 04 Dec 2016 14:46:27 -0800 (PST)
+Received: from smf.duzon.co.kr ([202.167.215.64])
+        by mx.google.com with ESMTPS id i124si12417867pgd.33.2016.12.04.14.46.26
+        for <forensic.duzon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 04 Dec 2016 14:46:27 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=permerror (google.com: domain of forensic@duzon.com uses a mechanism not recognized by this client. unknown  mechanisms: )) smtp.mailfrom=forensic@duzon.com
+Message-ID: <58449cc3.829d630a.47e66.0095SMTPIN_ADDED_BROKEN@mx.google.com>
+X-Google-Original-Message-ID: <IWNID_15332_90068_1_2481_0_20161205074610_210.223.88.35>
+Received: from external ([202.167.215.60])
+	by smf.duzon.co.kr (1.0) id uB4Mmu700AF2;
+	Mon, 05 Dec 2016 07:48:56 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uB4Mmu700AF2
+X-SmartFilter: FROM,uB4Mmu700AF2,forensic@duzon.com
+x-forward-id: <IWNID_15332_90068_1_2481_0_20161205074610_210.223.88.35>
+Received: from external ([210.223.88.35])
+	by smf.duzon.co.kr (1.0) id uB4Mmj300AEE;
+	Mon, 05 Dec 2016 07:48:45 +0900
+X-SmartFilter: UNIQ,02E6B4EFB788B758CEE371943F59AD9D,uB4Mmj300AEE
+X-SmartFilter: FROM,uB4Mmj300AEE,15332_1_90068_forensic_duzon.com@academymail.kotra.or.kr
+MIME-Version: 1.0
+Date: Mon, 5 Dec 2016 07:46:10 +0900
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?UTF-8?B?W0tPVFJBXSDsp4Dsi53snqzsgrDqtowg7JeG7J20IO2VtOyZuOynhA==?=
+	=?UTF-8?B?7Lac7J2AIG5vfm5vfiBJUCDrs7TtmLjsu6jtjbzrn7DsiqTsl5A=?=
+	=?UTF-8?B?IOq3gOyCrOulvCDstIjrjIDtlanri4jri6Qh?=
+From: =?UTF-8?B?S09UUkEgIuyCrOyXhcK36rWQ7Jyh7JWI64K0Ig==?=<newsletter@kotra.or.kr>
+To: =?UTF-8?B?7Jyg7KeE7JWE?=<forensic@duzon.com>
+Reply-To: =?UTF-8?B?S09UUkEgIuyCrOyXhcK36rWQ7Jyh7JWI64K0Ig==?=<newsletter@kotra.or.kr>
+X-Mailer: IMailer V2
+X-Email: <forensic@duzon.com>
+X-Naver-ESV: wwen+6J4p635WrlY7BwdpBmZKotXKA3YkXm=
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<p><img border="0" width="751" height="1670" usemap="#Map" alt="" src="http://academymail.kotra.or.kr:8889/trace/image_view.jsp?g_idx=10007&amp;u_idx=2796&amp;file=30694035470438944.jpg" /> <map id="Map2" name="Map">
+<area shape="rect" alt="중국 농수산품시장 개척 과정" target="_blank" coords="491,861,729,1059" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=1&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/service/KHSBGT041M.do?articleId=3010840&amp;MENU_CD=F0273&amp;TOP_MENU_CD=F0261&amp;LEFT_MENU_CD=F0273&amp;PARENT_MENU_CD=F0273&amp;RowCountPerPage=10&amp;SEARCH_TYPE=SJCN&amp;SEARCH_VALUE=&amp;Page=1" />
+<area shape="rect" alt="2017 상하이 화동 수출입 상품 교역회" target="_blank" coords="26,952,485,1106" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=2&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.gep.or.kr/support/notice-participation/-공고-2017-상하이-화동-수출입-상품-교역회-참가-기업-모집-안내--815005" />
+<area shape="rect" alt="B2B e마켓플레이스 바이코리아 활용 설명회" target="_blank" coords="23,1109,482,1258" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=3&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.buykorea.org/pt/BKBRMNG020M.html?TOP_MENU_CD=&amp;LEFT_MENU_CD=&amp;MENU_CD=F0330&amp;SESS_USER_TYPE=&amp;SESS_ID=&amp;YEAR=2016&amp;TITLE_CD=002&amp;TIMES=12" />
+<area shape="rect" alt="Invest KOREA 외국인투자유치 마켓플레이스" target="_blank" coords="23,792,475,944" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=4&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/about/KHKINY130P.html?SEQ=5369&amp;EVENTID=5369" />
+<area shape="rect" alt="한-아프리카 산업협력 포럼" target="_blank" coords="21,475,480,639" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=5&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://koafic2016.or.kr/exDash.do" />
+<area shape="rect" alt="KOTRA 페이스북" target="_blank" coords="606,1377,712,1459" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=6&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=https://www.facebook.com/globalkotra" />
+<area shape="rect" alt="Directory of Apparel Specialty Stores 2017 " target="_blank" coords="563,1133,640,1234" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=7&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://dl.kotra.or.kr/search/DetailView.ax?sid=1&amp;cid=308721" />
+<area shape="rect" alt="수신거부" target="_blank" coords="669,1609,731,1635" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=8&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://scrm.kotra.or.kr/crm/common.ComMail/UCP_D2?EMAILLOGID=123540169" />
+<area shape="rect" alt="기업마당" target="_blank" coords="535,1483,619,1521" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=9&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.bizinfo.go.kr/" />
+<area shape="rect" alt="2016 글로벌 조달전문기업 육성사업 참가기업 모집" target="_blank" coords="21,643,478,790" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=10&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/about/KHKINY130P.html?SEQ=5361&amp;EVENTID=5361" />
+<area shape="rect" alt="내손안의 KOTRA 활용가이드북" target="_blank" coords="497,1378,602,1460" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=11&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/about/KHKINY060M.html?ARTICLE_ID=3007645&amp;MENU_CD=F0134&amp;TOP_MENU_CD=F0104&amp;LEFT_MENU_CD=F0134&amp;PARENT_MENU_CD=F0115&amp;RowCountPerPage=10&amp;Page=3&amp;SEARCH_TYPE=SJCN&amp;SEARCH_VALUE=" />
+<area shape="rect" alt="지역&middot;국별 진출전략" target="_blank" coords="69,1425,214,1463" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=12&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/gw/publishdata/GWPDAD010M.html?BBS_ID=63&amp;MENU_CD=M10034&amp;UPPER_MENU_CD=M10008&amp;MENU_STEP=2" />
+<area shape="rect" alt="뉴스레터에 바라는 점" target="_blank" coords="18,1480,221,1525" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=13&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/customer/KHCPCS020M.html?&amp;MENU_CD=F0058&amp;TOP_MENU_CD=F0002&amp;LEFT_MENU_CD=F0058&amp;PARENT_MENU_CD=F0058" />
+<area shape="rect" alt="Digital Kotra" target="_blank" coords="19,24,108,49" onfocus="this.blur();" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=14&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/" />
+<area shape="rect" alt="Trade Doctor" target="_blank" coords="112,24,201,50" onfocus="this.blur();" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=15&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://tradedoctor.kotra.or.kr/index.td.jsp" />
+<area shape="rect" alt="Global Window" target="_blank" coords="204,24,290,50" onfocus="this.blur();" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=16&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/" />
+<area shape="rect" alt="buy KOREA" target="_blank" coords="292,24,373,51" onfocus="this.blur();" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=17&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.buykorea.org/of/BKOFLI081C.html" />
+<area shape="rect" alt="GEP" target="_blank" coords="375,24,461,51" onfocus="this.blur();" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=18&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.gep.or.kr/" />
+<area shape="rect" alt="OIS" target="_blank" coords="464,24,544,51" onfocus="this.blur();" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=19&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ois.go.kr/portal/page?_pageid=93,674897&amp;_dad=portal&amp;_schema=PORTAL&amp;page=main" />
+<area shape="rect" alt="Contact Korea" target="_blank" coords="547,24,632,51" onfocus="this.blur();" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=20&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.contactkorea.go.kr/" />
+<area shape="rect" alt="글로벌윈도우" target="_blank" coords="635,24,729,51" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=21&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://president.globalwindow.org/" />
+<area shape="rect" alt="신규가입" target="_blank" coords="603,1774,665,1797" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=22&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/member/KHMMMJ010M.html?MENU_CD=F0150&amp;TOP_MENU_CD=F0145&amp;LEFT_MENU_CD=F0150&amp;PARENT_MENU_CD=F0150" />
+<area shape="rect" alt="정책가이드북" target="_blank" coords="231,1480,526,1522" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=23&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.bizinfo.go.kr/see/seea/selectSEEA3C0.do" />
+<area shape="rect" alt="글로벌 역량 무료진단" target="_blank" coords="69,1387,214,1425" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=24&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/service/KHSBSB190M.html?&amp;MENU_CD=F0351&amp;TOP_MENU_CD=F0261&amp;LEFT_MENU_CD=F0351&amp;PARENT_MENU_CD=F0267" />
+<area shape="rect" alt="선진국시장 수출 첫걸음 과정" target="_blank" coords="490,642,729,857" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=25&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/service/KHSBGT041M.do?articleId=3010873&amp;MENU_CD=F0273&amp;TOP_MENU_CD=F0261&amp;LEFT_MENU_CD=F0273&amp;PARENT_MENU_CD=F0273&amp;RowCountPerPage=10&amp;SEARCH_TYPE=SJCN&amp;SEARCH_VALUE=&amp;Page=1" />
+<area shape="rect" alt="중국 영유아시장 개척 과정" target="_blank" coords="490,426,729,635" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=26&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/service/KHSBGT041M.do?articleId=3010900&amp;MENU_CD=F0273&amp;TOP_MENU_CD=F0261&amp;LEFT_MENU_CD=F0273&amp;PARENT_MENU_CD=F0273&amp;RowCountPerPage=10&amp;SEARCH_TYPE=SJCN&amp;SEARCH_VALUE=&amp;Page=1" />
+<area shape="rect" alt="제5기 수출 첫걸음 과정" target="_blank" coords="490,230,725,420" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=27&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/service/KHSBGT041M.do?articleId=3010917&amp;MENU_CD=F0273&amp;TOP_MENU_CD=F0261&amp;LEFT_MENU_CD=F0273&amp;PARENT_MENU_CD=F0273&amp;RowCountPerPage=10&amp;SEARCH_TYPE=SJCN&amp;SEARCH_VALUE=&amp;Page=1" />
+<area shape="rect" alt="KOTRA 해외무역관 뉴스레터" target="_blank" coords="607,1287,712,1374" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=28&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/global/trade/info/oversea-tradeoffice-newsletter.html?&amp;MENU_CD=M10040&amp;UPPER_MENU_CD=M10082&amp;BBS_ID=4&amp;ARTICLE_SE=50158&amp;MENU_STEP=3" />
+<area shape="rect" alt="월간일정" target="_blank" coords="311,1438,441,1459" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=29&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/about/KHKINY030P.html?TOP_MENU_CD=F0104&amp;LEFT_MENU_CD=F0115&amp;MENU_CD=F0115&amp;PARENT_MENU_CD=F0115" />
+<area shape="rect" alt="KOTRA 국가정보" target="_blank" coords="497,1288,603,1374" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=30&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.globalwindow.org/GW/global/trade/info/nation-info.html?&amp;MENU_CD=M10009&amp;UPPER_MENU_CD=M10001&amp;BBS_ID=0&amp;MENU_STEP=2" />
+<area shape="rect" alt="정부3.0" target="_blank" coords="620,1481,716,1523" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=31&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.gov30.go.kr/" />
+<area shape="rect" alt="IP 보호 컨퍼런스 2016" target="_blank" coords="21,178,475,476" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=32&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.ipconference.or.kr" />
+<area shape="rect" alt="신규가입" target="_blank" coords="605,1609,665,1632" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=33&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=http://www.kotra.or.kr/kh/member/KHMMMJ010M.html?MENU_CD=F0150&amp;TOP_MENU_CD=F0145&amp;LEFT_MENU_CD=F0150&amp;PARENT_MENU_CD=F0150" /></map><map id="Map" name="Map">
+<area shape="rect" coords="21,23,111,51" href="http://academymail.kotra.or.kr:8889/trace/checker.jsp?mailidx=15332&linkno=34&seqidx=90068&service=1&dmidx=2481&emidx=0&uidx=1&gidx=1&site=0&linkurl=#" /></map></p>
+<div style="display:none;"><img src="http://academymail.kotra.or.kr:8889/trace/openChecker.jsp?mailidx=15332&seqidx=90068&service=1&dmidx=2481&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+
+
