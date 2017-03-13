@@ -6,6 +6,7 @@
 #include <list>
 #include <iostream>
 
+#include <QString>
 #include <QDebug>
 using namespace std;
 
@@ -22,15 +23,12 @@ struct content_param{
 
 struct content_param content_type_parse(string& content_type, string& transfer, string& content_disposition, string& content_id){
     string type;
-    if(!parse.search(content_type, pcontent_type, type)){
-//        cout << ":  there is no type" << endl;
+    if(parse.search(content_type, pcontent_type, type)){
+
     }
 
     string charset;
-    if(!parse.search(content_type, pcharset, charset)){
-//        cout << ":  there is no charset" << endl;
-    }
-    else{
+    if(parse.search(content_type, pcharset, charset) && charset != ""){
         size_t pos = charset.find("=") + 1;
         size_t last = charset.length();
 
@@ -47,10 +45,7 @@ struct content_param content_type_parse(string& content_type, string& transfer, 
     }
 
     string bound;
-    if(!parse.search(content_type, pboundary, bound)){
-//        cout << ":  there is no boundary" << endl;
-    }
-    else{
+    if(parse.search(content_type, pboundary, bound) && bound != ""){
         size_t pos = bound.find("=") + 1;
         size_t last = bound.length();
 
@@ -66,10 +61,7 @@ struct content_param content_type_parse(string& content_type, string& transfer, 
     }
 
     string name;
-    if(!parse.search(content_type, pname, name)){
-//        cout << ":  there is no name" << endl;
-    }
-    else{
+    if(parse.search(content_type, pname, name) && name != ""){
         size_t pos = name.find("=") + 1;
         size_t last = name.length();
 
@@ -86,23 +78,16 @@ struct content_param content_type_parse(string& content_type, string& transfer, 
 
 
     string disposition;
-    if(!parse.search(content_disposition, pcontent_dispostion, disposition)){
-//        cout << ":  there is no dispostition" << endl;
-    }
-    else {
+    if(parse.search(content_disposition, pcontent_dispostion, disposition) && disposition != ""){
         if(disposition[disposition.length() -1] == '\n')
             disposition = disposition.substr(0, disposition.length() - 1);
         if(disposition[disposition.length() -1] == ';')
             disposition = disposition.substr(0, disposition.length() - 1);
         transform(disposition.begin(), disposition.end(), disposition.begin(), ::tolower);
-        cout << disposition << endl;
     }
 
     string filename;
-    if(!parse.search(content_disposition, pname, filename)){
-//        cout << ":  there is no filename" << endl;
-    }
-    else{
+    if(parse.search(content_disposition, pname, filename) && filename != ""){
         size_t pos = filename.find("=") + 1;
         size_t last = filename.length();
 
@@ -164,12 +149,14 @@ int key_value_parse(ifstream &file, map<string, string> &dic){
 string content_parser::read_one_content(ifstream& file, struct content_param param, list<string>& bound_list){
     string type = param.type;
     string str;
-    type = type.substr(0, type.find('/'));
-    cout << "content type: " << type << endl;
+    size_t pos = type.find('/');
+    if(pos != string::npos)
+        type = type.substr(0, type.find('/'));
+
 
     if(type == "multipart"){
         if(param.boundary == ""){
-            cout << "this multipart not contain boundary" << endl;
+            qDebug() << "THERE IS NO BOUNDARY IN MULTIPART:" << QString::fromLocal8Bit(param.transfer_encoding.c_str()) << endl;
             throw param;
         }
 
@@ -205,7 +192,6 @@ string content_parser::read_one_content(ifstream& file, struct content_param par
                 bound_list.pop_back();
                 if(bound_list.size() > 0){
                     bound = bound_list.back();
-                    //throw 1;
                     continue;
                 }
                 else{
@@ -216,7 +202,6 @@ string content_parser::read_one_content(ifstream& file, struct content_param par
         }
 
         /* decode with charset, transfer-encodig */
-        cout << param.disposition << endl;
         string decoded_str;
         if(param.transfer_encoding == "base64")
             decoded_str = decode.decode(buf, base64);
@@ -227,8 +212,8 @@ string content_parser::read_one_content(ifstream& file, struct content_param par
             decoded_str = buf;
         }
         else {
-            cout << "THERE IS NO MATCHED ENCODING:" << param.transfer_encoding << endl;
-            throw 1;
+            qDebug() << "THERE IS NO MATCHED ENCODING:" << QString::fromLocal8Bit(param.transfer_encoding.c_str()) << endl;
+            throw param;
         }
 
         if(param.disposition == "attachment") {
@@ -252,7 +237,6 @@ content_parser::content_parser(){
 void content_parser::parse(ifstream &file, map<string, string> dic) {
     struct content_param param;
 
-    cout << "parse1" << endl;
     param = content_type_parse(dic["content-type"], dic["content-transfer-encoding"], dic["content-disposition"], dic["content-id"]);
 
     string str;
@@ -263,7 +247,6 @@ void content_parser::parse(ifstream &file, map<string, string> dic) {
     content += read_one_content(file, param, bound_list);
     content += "\n";
 
-    cout << "parse2" << endl;
     while(bound_list.size() > 0){
         map<string, string> temp;
         if(!key_value_parse(file, temp)){

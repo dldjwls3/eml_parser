@@ -17,15 +17,15 @@ void create_receive_list(map<string, string> &dic, eml_metadata *meta){
     string rec = dic["received"];
     int count = 0;
 
-    cout << rec << endl;
+//    cout << rec << endl;
     received temp;
     while((next = rec.find('\n', last))!=string::npos){
 
         if(next == last){
             temp.original = rec;
-            cout << "---------------" << endl;
-            cout << temp.by[0] << " " << temp.by[1] << endl;
-            cout << temp.from[0] << " " << temp.from[1] << endl;
+//            cout << "---------------" << endl;
+//            cout << temp.by[0] << " " << temp.by[1] << endl;
+//            cout << temp.from[0] << " " << temp.from[1] << endl;
 
             meta->receive_list.push_back(temp);
             temp.clear();
@@ -52,9 +52,9 @@ void create_receive_list(map<string, string> &dic, eml_metadata *meta){
     }
 
     meta->receive_list.push_back(temp);
-    cout << "---------------" << endl;
-    cout << temp.by[0] << " " << temp.by[1] << endl;
-    cout << temp.from[0] << " " << temp.from[1] << endl;
+//    cout << "---------------" << endl;
+//    cout << temp.by[0] << " " << temp.by[1] << endl;
+//    cout << temp.from[0] << " " << temp.from[1] << endl;
 
 
 }

@@ -1,10 +1,9 @@
 TEMPLATE = app
 CONFIG += c++11
-CONFIG += console
 CONFIG += static
 
 DEFINES += QT_DEPRECATED_WARNINGS
-QT += widgets
+QT += widgets sql
 
 INCLUDEPATH += "C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt"
 LIBS += -L"C:/Program Files (x86)/Windows Kits/10/Lib/10.0.10240.0/ucrt/x64"
@@ -26,7 +25,8 @@ SOURCES += main.cpp \
     decoder.cpp \
     eml.cpp \
     mainwindow.cpp \
-    md5.cpp
+    md5.cpp \
+    database.cpp
 
 HEADERS += \
     base64.h \
@@ -36,4 +36,4 @@ HEADERS += \
     eml.h \
     mainwindow.h \
     md5.h \
-    threadprogressbar.h
+    database.h

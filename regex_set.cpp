@@ -47,8 +47,8 @@ void chunk_and_decode(string input, string& s){
         /* decode */
         if(option == "B"){
             s = decode.decode(s, base64);
-            cout << "base64 decode" << endl;
-            cout << s << endl;
+//            cout << "base64 decode" << endl;
+//            cout << s << endl;
         }
         else if(option == "EUC-KR") {
             s = decode.decode(s, euc_kr);
@@ -77,9 +77,9 @@ void regex_set::parse_and_decode(string input, string& s){
     }
 
     while((prefix = input.find("=?", surfix)) != string::npos && (surfix = input.find("?=", surfix + 1))!= string::npos) {
-        cout << prefix << " " << surfix << endl;
+//        cout << prefix << " " << surfix << endl;
         string chunk = input.substr(prefix, surfix - prefix + 2);
-        cout << "chunk: " << chunk << endl;
+//        cout << "chunk: " << chunk << endl;
 
         string temp;
         chunk_and_decode(chunk, temp);

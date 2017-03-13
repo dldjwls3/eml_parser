@@ -7,6 +7,7 @@
 #include <QProgressBar>
 #include "eml.h"
 #include "content_parser.h"
+#include "database.h"
 
 class MainWindow : public QMainWindow
 {
@@ -19,17 +20,16 @@ signals:
 
 private slots:
     void open();
-    void content_view(QTableWidgetItem * item);
-
-public slots:
+    void exportCSV();
+    void click_view(QTableWidgetItem * item);
 
 
 private:
     content_parser **contents;
     eml_metadata **metas;
+    database *db;
 
     void createActions();
-    QProgressBar *progressBar;
     QTableWidget *tableWidget;
     QPlainTextEdit *content_viewer;
 };
